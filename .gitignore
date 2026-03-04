@@ -1,0 +1,18 @@
+# Secrets
+.env
+*.env
+
+# Scan output — never commit findings
+github_env_scan_results_*.json
+*.json
+
+# Temp files
+.tmp/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# Editor
+.vscode/
+.idea/

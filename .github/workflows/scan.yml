@@ -1,0 +1,70 @@
+name: .env Key Scanner
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_results:
+        description: "Max files in the broad pass (default: 50)"
+        required: false
+        default: "50"
+        type: string
+      output_dir:
+        description: "Output directory name inside artifacts"
+        required: false
+        default: "results"
+        type: string
+      repo:
+        description: "Limit scan to a specific repo (owner/repo) — leave blank for global scan"
+        required: false
+        default: ""
+        type: string
+      user:
+        description: "Limit scan to a specific GitHub user — leave blank for global scan"
+        required: false
+        default: ""
+        type: string
+      verbose:
+        description: "Verbose output (print every file scanned)"
+        required: false
+        default: false
+        type: boolean
+
+jobs:
+  scan:
+    name: Run .env Scanner
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install curl-cffi
+
+      - name: Run scanner
+        env:
+          GITHUB_TOKEN: ${{ secrets.SCANNER_GITHUB_TOKEN }}
+        run: |
+          ARGS="--token $GITHUB_TOKEN"
+          ARGS="$ARGS --max-results ${{ inputs.max_results }}"
+          ARGS="$ARGS --output ${{ inputs.output_dir }}"
+          [[ -n "${{ inputs.repo }}" ]]  && ARGS="$ARGS --repo ${{ inputs.repo }}"
+          [[ -n "${{ inputs.user }}" ]]  && ARGS="$ARGS --user ${{ inputs.user }}"
+          [[ "${{ inputs.verbose }}" == "true" ]] && ARGS="$ARGS --verbose"
+          python main.py $ARGS
+
+      - name: Upload results
+        if: always()   # upload even on interrupt / failure
+        uses: actions/upload-artifact@v4
+        with:
+          name: scan-results-${{ github.run_id }}
+          path: ${{ inputs.output_dir }}/
+          if-no-files-found: warn
+          retention-days: 30
