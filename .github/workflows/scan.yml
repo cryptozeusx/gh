@@ -37,6 +37,8 @@ jobs:
     name: Run .env Scanner
     runs-on: ubuntu-latest
     timeout-minutes: 120
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout
@@ -73,3 +75,14 @@ jobs:
           path: ${{ inputs.output_dir }}/
           if-no-files-found: warn
           retention-days: 30
+
+      - name: Commit and push results
+        if: always()
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "${{ inputs.output_dir }}/" || true
+          FINDING_COUNT=$(find "${{ inputs.output_dir }}" -name '*.ndjson' -exec wc -l {} + 2>/dev/null | tail -1 | awk '{print $1}' || echo "?")
+          git diff --staged --quiet || git commit -m "scan results: ${FINDING_COUNT} finding(s) [run #${{ github.run_number }}]"
+          git push
