@@ -4,30 +4,33 @@ on:
   workflow_dispatch:
     inputs:
       max_results:
-        description: "Max files in the broad pass (default: 50)"
+        description: "Max files in the broad pass"
         required: false
         default: "50"
         type: string
       output_dir:
-        description: "Output directory name inside artifacts"
+        description: "Output directory name"
         required: false
         default: "results"
         type: string
       repo:
-        description: "Limit scan to a specific repo (owner/repo) — leave blank for global scan"
+        description: "Specific repo to scan (owner/repo) — blank for global"
         required: false
         default: ""
         type: string
       user:
-        description: "Limit scan to a specific GitHub user — leave blank for global scan"
+        description: "Specific GitHub user to scan — blank for global"
         required: false
         default: ""
         type: string
       verbose:
-        description: "Verbose output (print every file scanned)"
+        description: "Verbose output"
         required: false
-        default: false
-        type: boolean
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
 
 jobs:
   scan:
@@ -43,25 +46,25 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: pip
 
       - name: Install dependencies
         run: pip install curl-cffi
 
       - name: Run scanner
+        shell: bash
         env:
           GITHUB_TOKEN: ${{ secrets.SCANNER_GITHUB_TOKEN }}
         run: |
           ARGS="--token $GITHUB_TOKEN"
           ARGS="$ARGS --max-results ${{ inputs.max_results }}"
           ARGS="$ARGS --output ${{ inputs.output_dir }}"
-          [[ -n "${{ inputs.repo }}" ]]  && ARGS="$ARGS --repo ${{ inputs.repo }}"
-          [[ -n "${{ inputs.user }}" ]]  && ARGS="$ARGS --user ${{ inputs.user }}"
+          [[ -n "${{ inputs.repo }}" ]] && ARGS="$ARGS --repo ${{ inputs.repo }}"
+          [[ -n "${{ inputs.user }}" ]] && ARGS="$ARGS --user ${{ inputs.user }}"
           [[ "${{ inputs.verbose }}" == "true" ]] && ARGS="$ARGS --verbose"
           python main.py $ARGS
 
       - name: Upload results
-        if: always()   # upload even on interrupt / failure
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: scan-results-${{ github.run_id }}
