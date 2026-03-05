@@ -2,9 +2,13 @@
 .env
 *.env
 
-# Scan output — never commit findings
+# Scan output — never commit findings (except the results/ dir which CI writes)
 github_env_scan_results_*.json
 *.json
+
+# Allow the CI results directory
+!results/
+!results/**
 
 # Temp files
 .tmp/
