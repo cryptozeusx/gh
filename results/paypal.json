@@ -1,0 +1,20 @@
+{
+  "service": "paypal",
+  "scan_timestamp": "2026-03-05T22:08:36.629445",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "paypal",
+      "file": "testdir/testfiles/extra.env",
+      "repository": "zaneprall/Secrets-Scanner-Test-Files",
+      "url": "https://github.com/zaneprall/Secrets-Scanner-Test-Files/blob/0ded8359e18275d9727d008545a386aa9b07d6ab/testdir/testfiles/extra.env",
+      "line_number": 34,
+      "line_preview": "PAYPAL_TOKEN=access_token$production$0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcd",
+      "key_type": "paypal_token",
+      "description": "Paypal Token",
+      "severity": "medium",
+      "matched_pattern": "acce******************************************************************************abcd",
+      "timestamp": "2026-03-05T22:00:40.780615"
+    }
+  ]
+}

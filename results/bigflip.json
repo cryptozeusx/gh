@@ -1,0 +1,20 @@
+{
+  "service": "bigflip",
+  "scan_timestamp": "2026-03-05T22:08:36.599290",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "bigflip",
+      "file": ".envc",
+      "repository": "amalmandiri/backend",
+      "url": "https://github.com/amalmandiri/backend/blob/8b05324f07ab4714e1b0350fc191b8db52004ca3/.envc",
+      "line_number": 65,
+      "line_preview": "BIGFLIP_VALIDATE_TOKEN=$2y$13$mIFeyPAj1Zhquji1bGktBOWagQ8b8mk4RGU89kQ/6B9dmfs2d.4CK",
+      "key_type": "bigflip_validate_token",
+      "description": "Bigflip Validate Token",
+      "severity": "medium",
+      "matched_pattern": "$2y$****************************************************.4CK",
+      "timestamp": "2026-03-05T22:06:28.146822"
+    }
+  ]
+}

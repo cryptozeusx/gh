@@ -1,0 +1,20 @@
+{
+  "service": "dnsimple",
+  "scan_timestamp": "2026-03-05T22:08:36.605753",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "dnsimple",
+      "file": ".env.sample",
+      "repository": "assemblymade/meta",
+      "url": "https://github.com/assemblymade/meta/blob/6c486a49e6dea7c243d0088864d4656a5907c321/.env.sample",
+      "line_number": 7,
+      "line_preview": "DNSIMPLE_AUTH=dave@example.com:TOKEN1234",
+      "key_type": "dnsimple_auth",
+      "description": "Dnsimple Auth",
+      "severity": "medium",
+      "matched_pattern": "dave******************1234",
+      "timestamp": "2026-03-05T22:00:32.087206"
+    }
+  ]
+}

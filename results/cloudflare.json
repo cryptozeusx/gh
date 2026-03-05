@@ -1,0 +1,20 @@
+{
+  "service": "cloudflare",
+  "scan_timestamp": "2026-03-05T22:08:36.600962",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "cloudflare",
+      "file": "testdir/testfiles/extra.env",
+      "repository": "zaneprall/Secrets-Scanner-Test-Files",
+      "url": "https://github.com/zaneprall/Secrets-Scanner-Test-Files/blob/0ded8359e18275d9727d008545a386aa9b07d6ab/testdir/testfiles/extra.env",
+      "line_number": 44,
+      "line_preview": "CLOUDFLARE_TOKEN=CF-TOKEN:abcdefghijabcdefghijabcdefghijabcdefghijabcd",
+      "key_type": "cloudflare_token",
+      "description": "Cloudflare Token",
+      "severity": "medium",
+      "matched_pattern": "CF-T*********************************************abcd",
+      "timestamp": "2026-03-05T22:00:40.780908"
+    }
+  ]
+}

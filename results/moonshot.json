@@ -1,0 +1,111 @@
+{
+  "service": "moonshot",
+  "scan_timestamp": "2026-03-05T22:08:36.623687",
+  "finding_count": 8,
+  "findings": [
+    {
+      "service": "moonshot",
+      "file": "demos/.env.cc",
+      "repository": "cutelove/Davinci-demos",
+      "url": "https://github.com/cutelove/Davinci-demos/blob/73d9b5e262b4b1ff0808b5d88bb268a0b69f15f8/demos/.env.cc",
+      "line_number": 6,
+      "line_preview": "MOONSHOT_API_KEY=\"sk-42geL1n7lxativJaDajoruDXC7D1QdjerJhooeoi0xDWkeUO\"",
+      "key_type": "moonshot_key",
+      "description": "Moonshot (Kimi) API Key",
+      "severity": "high",
+      "matched_pattern": "MOON**************************************************************eUO\"",
+      "timestamp": "2026-03-05T22:00:33.307618"
+    },
+    {
+      "service": "moonshot",
+      "file": ".env.development",
+      "repository": "fkcaikengren/aibot-server",
+      "url": "https://github.com/fkcaikengren/aibot-server/blob/35ef1082e610f58dc31068bcc0c9b48048a817a7/.env.development",
+      "line_number": 11,
+      "line_preview": "MOONSHOT_API_KEY='sk-odziyq5FR54JMwCSSuwNz28L8htsF3s26TYa77EHZppHlv9P'",
+      "key_type": "moonshot_key",
+      "description": "Moonshot (Kimi) API Key",
+      "severity": "high",
+      "matched_pattern": "MOON**************************************************************v9P'",
+      "timestamp": "2026-03-05T22:00:36.662085"
+    },
+    {
+      "service": "moonshot",
+      "file": ".env",
+      "repository": "curtisgc1/trader-curtis-public",
+      "url": "https://github.com/curtisgc1/trader-curtis-public/blob/8b49b66fca50dc7f5f0c90eca8492dd28be4cbe9/.env",
+      "line_number": 7,
+      "line_preview": "MOONSHOT_API_KEY=sk-DyCGaXB5MfWTpq1Xvl9jq82AFMeu6ZHi49iEnPamqsjzaHzy",
+      "key_type": "moonshot_key",
+      "description": "Moonshot (Kimi) API Key",
+      "severity": "high",
+      "matched_pattern": "MOON************************************************************aHzy",
+      "timestamp": "2026-03-05T22:01:05.984000"
+    },
+    {
+      "service": "moonshot",
+      "file": ".env",
+      "repository": "eburondeveloperph-gif/success-admin",
+      "url": "https://github.com/eburondeveloperph-gif/success-admin/blob/edbc9db84c01c43e2a1843020f9097236a7e9e28/.env",
+      "line_number": 3,
+      "line_preview": "MOONSHOT_API_KEY=sk-bA9YJxtchAjgtEloWAyiXLdVETMcGrk1UVqjpV3YBvwjS2Mr",
+      "key_type": "moonshot_key",
+      "description": "Moonshot (Kimi) API Key",
+      "severity": "high",
+      "matched_pattern": "MOON************************************************************S2Mr",
+      "timestamp": "2026-03-05T22:01:32.243860"
+    },
+    {
+      "service": "moonshot",
+      "file": ".env",
+      "repository": "sswws/ai-storyboard",
+      "url": "https://github.com/sswws/ai-storyboard/blob/de370beee0d12d1c27c0ec103cf026bb31462735/.env",
+      "line_number": 3,
+      "line_preview": "MOONSHOT_API_KEY=sk-NE3pnjdCm8EoeAomSn2Qx1iItxavXniGCo8jBII08iGxbzqx",
+      "key_type": "moonshot_key",
+      "description": "Moonshot (Kimi) API Key",
+      "severity": "high",
+      "matched_pattern": "MOON************************************************************bzqx",
+      "timestamp": "2026-03-05T22:02:00.424300"
+    },
+    {
+      "service": "moonshot",
+      "file": ".env.example",
+      "repository": "haichaozheng/weather-mcp",
+      "url": "https://github.com/haichaozheng/weather-mcp/blob/396f16fc54b134ac1895bcab10631487f762ff01/.env.example",
+      "line_number": 2,
+      "line_preview": "MOONSHOT_API_KEY=\"add your MOONSHOT_API_KEY here\"",
+      "key_type": "moonshot_api_key",
+      "description": "Moonshot Api Key",
+      "severity": "medium",
+      "matched_pattern": "add **********************here",
+      "timestamp": "2026-03-05T22:03:44.115205"
+    },
+    {
+      "service": "moonshot",
+      "file": ".env.example",
+      "repository": "2572873335/novel_generator",
+      "url": "https://github.com/2572873335/novel_generator/blob/33f1e98bbdf317b2a0aa7d02410d1cce6e255ec1/.env.example",
+      "line_number": 17,
+      "line_preview": "MOONSHOT_API_KEY=sk-kimi-b1kOEQnpIkdrTuAodYUHajMVIMtx4Rwfpl44Jrimbc9TCNjGxwdcDW2j3NtuJNlL",
+      "key_type": "moonshot_api_key",
+      "description": "Moonshot Api Key",
+      "severity": "medium",
+      "matched_pattern": "MOON*********************************************************************************JNlL",
+      "timestamp": "2026-03-05T22:04:05.907474"
+    },
+    {
+      "service": "moonshot",
+      "file": ".env.example",
+      "repository": "sweathabalaji/aiagent_planner",
+      "url": "https://github.com/sweathabalaji/aiagent_planner/blob/2c764dd1e868db18c88ecdc81f594fc7f332bbbd/.env.example",
+      "line_number": 2,
+      "line_preview": "MOONSHOT_API_KEY=sgsk_JFZszxt7vns50jKSGTpiWGdyb3FYDkJssc3gGKiUfKyw30loxjj4",
+      "key_type": "moonshot_api_key",
+      "description": "Moonshot Api Key",
+      "severity": "medium",
+      "matched_pattern": "MOON******************************************************************xjj4",
+      "timestamp": "2026-03-05T22:05:39.806784"
+    }
+  ]
+}

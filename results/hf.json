@@ -1,0 +1,46 @@
+{
+  "service": "hf",
+  "scan_timestamp": "2026-03-05T22:08:36.617403",
+  "finding_count": 3,
+  "findings": [
+    {
+      "service": "hf",
+      "file": ".env",
+      "repository": "curtisgc1/trader-curtis-public",
+      "url": "https://github.com/curtisgc1/trader-curtis-public/blob/8b49b66fca50dc7f5f0c90eca8492dd28be4cbe9/.env",
+      "line_number": 8,
+      "line_preview": "HF_TOKEN=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",
+      "key_type": "hf_token",
+      "description": "Hf Token",
+      "severity": "medium",
+      "matched_pattern": "hf_U*****************************IufN",
+      "timestamp": "2026-03-05T22:01:06.950652"
+    },
+    {
+      "service": "hf",
+      "file": ".env_mistral",
+      "repository": "arnabm14/TherapyAIChat",
+      "url": "https://github.com/arnabm14/TherapyAIChat/blob/699b7cc903136aac7fb2f41926419305521ba520/.env_mistral",
+      "line_number": 13,
+      "line_preview": "HF_ACCESS_TOKEN=#LEGACY! Use HF_TOKEN instead",
+      "key_type": "hf_access_token",
+      "description": "Hf Access Token",
+      "severity": "medium",
+      "matched_pattern": "#LEG*********************tead",
+      "timestamp": "2026-03-05T22:05:42.380107"
+    },
+    {
+      "service": "hf",
+      "file": ".env",
+      "repository": "kakso1999/web_human",
+      "url": "https://github.com/kakso1999/web_human/blob/5b43166dd98c2dcdd6889a40bf3d4cb698521672/.env",
+      "line_number": 16,
+      "line_preview": "HF_TOKEN=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",
+      "key_type": "hf_token",
+      "description": "Hf Token",
+      "severity": "medium",
+      "matched_pattern": "HF_T**************************************NXob",
+      "timestamp": "2026-03-05T22:06:49.297712"
+    }
+  ]
+}

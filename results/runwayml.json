@@ -1,0 +1,33 @@
+{
+  "service": "runwayml",
+  "scan_timestamp": "2026-03-05T22:08:36.633110",
+  "finding_count": 2,
+  "findings": [
+    {
+      "service": "runwayml",
+      "file": "backend/.env",
+      "repository": "sonirn/Heist",
+      "url": "https://github.com/sonirn/Heist/blob/97dadb404c772a874291e530511f8d607b07c1ff/backend/.env",
+      "line_number": 16,
+      "line_preview": "RUNWAYML_API_KEY1=\"key_2154d202435a6b1b8d6d887241a4e25ccade366566db56b7de2fe2aa2c133a41ee92654206db5d43b127b448e06db7774",
+      "key_type": "runwayml_api_key1",
+      "description": "Runwayml Api Key1",
+      "severity": "medium",
+      "matched_pattern": "key_****************************************************************************************************************************61d4",
+      "timestamp": "2026-03-05T22:00:44.732430"
+    },
+    {
+      "service": "runwayml",
+      "file": "backend/.env",
+      "repository": "sonirn/Heist",
+      "url": "https://github.com/sonirn/Heist/blob/97dadb404c772a874291e530511f8d607b07c1ff/backend/.env",
+      "line_number": 17,
+      "line_preview": "RUNWAYML_API_KEY2=\"key_9b2398b5671c2b442e10e656f96bc9bc4712319f16d67c2027b5b1296601a3ecfa7a545b997b93f5f3cb34deedef0211f",
+      "key_type": "runwayml_api_key2",
+      "description": "Runwayml Api Key2",
+      "severity": "medium",
+      "matched_pattern": "key_****************************************************************************************************************************d8aa",
+      "timestamp": "2026-03-05T22:00:44.732805"
+    }
+  ]
+}

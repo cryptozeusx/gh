@@ -1,0 +1,20 @@
+{
+  "service": "oss",
+  "scan_timestamp": "2026-03-05T22:08:36.629027",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "oss",
+      "file": "backend/app/frontend/.env",
+      "repository": "zzulihrs/TikTokMall",
+      "url": "https://github.com/zzulihrs/TikTokMall/blob/22bdae6c52c13b4818af407f3cb59f5b8fca506b/backend/app/frontend/.env",
+      "line_number": 8,
+      "line_preview": "OSS_ACCESS_KEY_ID=\"LTAI5tC3VZ1hcwKsSuA4ZniM\"",
+      "key_type": "oss_access_key_id",
+      "description": "Oss Access Key Id",
+      "severity": "medium",
+      "matched_pattern": "LTAI****************ZniM",
+      "timestamp": "2026-03-05T22:05:16.986164"
+    }
+  ]
+}

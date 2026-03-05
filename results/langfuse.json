@@ -1,0 +1,59 @@
+{
+  "service": "langfuse",
+  "scan_timestamp": "2026-03-05T22:08:36.620158",
+  "finding_count": 4,
+  "findings": [
+    {
+      "service": "langfuse",
+      "file": ".env.example",
+      "repository": "chatbi/chatbi",
+      "url": "https://github.com/chatbi/chatbi/blob/8822e4fcfea032fc280d0f6acbc855b17fdeb26f/.env.example",
+      "line_number": 82,
+      "line_preview": "LANGFUSE_PUBLIC_KEY=pk-xxx  # Get from https://cloud.langfuse.com",
+      "key_type": "langfuse_public_key",
+      "description": "Langfuse Public Key",
+      "severity": "medium",
+      "matched_pattern": "pk-x*************************************.com",
+      "timestamp": "2026-03-05T21:58:50.691350"
+    },
+    {
+      "service": "langfuse",
+      "file": "demos/.env.cc",
+      "repository": "cutelove/Davinci-demos",
+      "url": "https://github.com/cutelove/Davinci-demos/blob/73d9b5e262b4b1ff0808b5d88bb268a0b69f15f8/demos/.env.cc",
+      "line_number": 10,
+      "line_preview": "LANGFUSE_PUBLIC_KEY=\"pk-lf-2ba260b6-9240-459b-8bf5-d1c45be7f3c1\"",
+      "key_type": "langfuse_public_key",
+      "description": "Langfuse Public Key",
+      "severity": "medium",
+      "matched_pattern": "LANG********************************************************3c1\"",
+      "timestamp": "2026-03-05T22:00:33.322931"
+    },
+    {
+      "service": "langfuse",
+      "file": "backend/app/frontend/.env",
+      "repository": "zzulihrs/TikTokMall",
+      "url": "https://github.com/zzulihrs/TikTokMall/blob/22bdae6c52c13b4818af407f3cb59f5b8fca506b/backend/app/frontend/.env",
+      "line_number": 23,
+      "line_preview": "LANGFUSE_PUBLIC_KEY=\"pk-lf-0e8ef1b4-ff48-418e-a51a-ef4083f111ec\"",
+      "key_type": "langfuse_public_key",
+      "description": "Langfuse Public Key",
+      "severity": "medium",
+      "matched_pattern": "LANG********************************************************1ec\"",
+      "timestamp": "2026-03-05T22:05:12.605830"
+    },
+    {
+      "service": "langfuse",
+      "file": "backend/app/frontend/.env",
+      "repository": "zzulihrs/TikTokMall",
+      "url": "https://github.com/zzulihrs/TikTokMall/blob/22bdae6c52c13b4818af407f3cb59f5b8fca506b/backend/app/frontend/.env",
+      "line_number": 25,
+      "line_preview": "LANGFUSE_SECRET_KEY=\"sk-lf-6d61a49e-311b-43fa-8405-5d583c40cfab\"",
+      "key_type": "langfuse_secret_key",
+      "description": "Langfuse Secret Key",
+      "severity": "high",
+      "matched_pattern": "LANG********************************************************fab\"",
+      "timestamp": "2026-03-05T22:05:15.428079"
+    }
+  ]
+}

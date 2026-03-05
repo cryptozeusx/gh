@@ -1,0 +1,33 @@
+{
+  "service": "one",
+  "scan_timestamp": "2026-03-05T22:08:36.626538",
+  "finding_count": 2,
+  "findings": [
+    {
+      "service": "one",
+      "file": ".env_svr",
+      "repository": "mac0285/lv9ims2023",
+      "url": "https://github.com/mac0285/lv9ims2023/blob/3f5d816b27e1e74c901673b6b785da41e5c7c9d3/.env_svr",
+      "line_number": 58,
+      "line_preview": "ONE_SIGNAL_AUTHORIZE=ZDAwZTMxMmQtZjUyYS00Njg1LTkyNGQtM2MyMDg4YWRlMGRh",
+      "key_type": "one_signal_authorize",
+      "description": "One Signal Authorize",
+      "severity": "medium",
+      "matched_pattern": "ZDAw****************************************MGRh",
+      "timestamp": "2026-03-05T22:01:06.632833"
+    },
+    {
+      "service": "one",
+      "file": ".env_svr",
+      "repository": "mac0285/lv9ims2023",
+      "url": "https://github.com/mac0285/lv9ims2023/blob/3f5d816b27e1e74c901673b6b785da41e5c7c9d3/.env_svr",
+      "line_number": 59,
+      "line_preview": "ONE_SIGNAL_AUTH_KEY=MjMzZDUyOGEtMTliMy00MmZlLThjYzEtZjkzODY5NzY0OTVl",
+      "key_type": "one_signal_auth_key",
+      "description": "One Signal Auth Key",
+      "severity": "medium",
+      "matched_pattern": "MjMz****************************************OTVl",
+      "timestamp": "2026-03-05T22:01:11.095673"
+    }
+  ]
+}

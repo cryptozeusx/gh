@@ -1,0 +1,20 @@
+{
+  "service": "internal",
+  "scan_timestamp": "2026-03-05T22:08:36.618608",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "internal",
+      "file": ".env.secure",
+      "repository": "Vinniemoks/eazepay",
+      "url": "https://github.com/Vinniemoks/eazepay/blob/dce6622fe6edd72b6b2d93b469dfbf42202f13aa/.env.secure",
+      "line_number": 15,
+      "line_preview": "INTERNAL_API_KEY=ak_secure_random_api_key_min_20_chars_change_this",
+      "key_type": "internal_api_key",
+      "description": "Internal Api Key",
+      "severity": "medium",
+      "matched_pattern": "INTE**********************************************************this",
+      "timestamp": "2026-03-05T22:00:44.717339"
+    }
+  ]
+}

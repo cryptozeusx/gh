@@ -1,0 +1,20 @@
+{
+  "service": "pixabay",
+  "scan_timestamp": "2026-03-05T22:08:36.630011",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "pixabay",
+      "file": "config.env",
+      "repository": "satyamisme/telexg",
+      "url": "https://github.com/satyamisme/telexg/blob/e3d780246fd96ff83e15321f163fa7dd03f86dbe/config.env",
+      "line_number": 245,
+      "line_preview": "PIXABAY_API_KEY = \"\" # Sign Up Pixabay.com and Get API Key to Automatically Add 200 Images in Photos List",
+      "key_type": "pixabay_api_key",
+      "description": "Pixabay Api Key",
+      "severity": "medium",
+      "matched_pattern": " # S*****************************************************************************List",
+      "timestamp": "2026-03-05T22:03:32.548709"
+    }
+  ]
+}

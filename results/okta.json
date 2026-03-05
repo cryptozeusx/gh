@@ -1,0 +1,20 @@
+{
+  "service": "okta",
+  "scan_timestamp": "2026-03-05T22:08:36.626446",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "okta",
+      "file": "testdir/testfiles/extra.env",
+      "repository": "zaneprall/Secrets-Scanner-Test-Files",
+      "url": "https://github.com/zaneprall/Secrets-Scanner-Test-Files/blob/0ded8359e18275d9727d008545a386aa9b07d6ab/testdir/testfiles/extra.env",
+      "line_number": 38,
+      "line_preview": "OKTA_TOKEN=00abc123def456ghi789jkl012mno345pqr",
+      "key_type": "okta_token",
+      "description": "Okta Token",
+      "severity": "medium",
+      "matched_pattern": "00ab***************************5pqr",
+      "timestamp": "2026-03-05T22:00:40.780702"
+    }
+  ]
+}

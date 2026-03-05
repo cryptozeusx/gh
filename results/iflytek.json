@@ -1,0 +1,33 @@
+{
+  "service": "iflytek",
+  "scan_timestamp": "2026-03-05T22:08:36.618268",
+  "finding_count": 2,
+  "findings": [
+    {
+      "service": "iflytek",
+      "file": "mcp\u5b66\u4e60/.env",
+      "repository": "yesterdayfuture/MCP",
+      "url": "https://github.com/yesterdayfuture/MCP/blob/52efbe1fe7d3efdf272b42997fa5ff039dac671f/mcp%E5%AD%A6%E4%B9%A0/.env",
+      "line_number": 4,
+      "line_preview": "IFLYTEK_SPARK_API_KEY = 'f2f60fd95249ca83918349da3198c477'",
+      "key_type": "iflytek_spark_api_key",
+      "description": "Iflytek Spark Api Key",
+      "severity": "medium",
+      "matched_pattern": "IFLY**************************************************477'",
+      "timestamp": "2026-03-05T22:04:00.005950"
+    },
+    {
+      "service": "iflytek",
+      "file": "mcp\u5b66\u4e60/.env",
+      "repository": "yesterdayfuture/MCP",
+      "url": "https://github.com/yesterdayfuture/MCP/blob/52efbe1fe7d3efdf272b42997fa5ff039dac671f/mcp%E5%AD%A6%E4%B9%A0/.env",
+      "line_number": 5,
+      "line_preview": "IFLYTEK_SPARK_API_SECRET = 'NjFhMmY4NzNjZmQ3MDY3MWJjMWFhNmY4'",
+      "key_type": "iflytek_spark_api_secret",
+      "description": "Iflytek Spark Api Secret",
+      "severity": "high",
+      "matched_pattern": "IFLY*****************************************************mY4'",
+      "timestamp": "2026-03-05T22:04:11.189425"
+    }
+  ]
+}

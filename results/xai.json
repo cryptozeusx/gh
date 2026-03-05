@@ -1,0 +1,20 @@
+{
+  "service": "xai",
+  "scan_timestamp": "2026-03-05T22:08:36.641583",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "xai",
+      "file": ".env copy 2",
+      "repository": "jthou/hou-cli",
+      "url": "https://github.com/jthou/hou-cli/blob/f97d3b16cc3b0cc9ceb797a81707afa3914f3bcc/.env%20copy%202",
+      "line_number": 310,
+      "line_preview": "XAI_API_KEY=sk-jUgjOxmwVwQ_WFq6ktl8FOXtbzy5Ojg6jwQcaV7RhkidRfFg",
+      "key_type": "xai_api_key",
+      "description": "Xai Api Key",
+      "severity": "medium",
+      "matched_pattern": "XAI_*******************************************************RfFg",
+      "timestamp": "2026-03-05T22:01:23.422577"
+    }
+  ]
+}

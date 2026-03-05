@@ -1,0 +1,20 @@
+{
+  "service": "zep",
+  "scan_timestamp": "2026-03-05T22:08:36.642123",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "zep",
+      "file": ".env.rules.md",
+      "repository": "Guzoman/mana-backend",
+      "url": "https://github.com/Guzoman/mana-backend/blob/8b4da147c68e0b64f5ff18b12902f10a4d20592f/.env.rules.md",
+      "line_number": 32,
+      "line_preview": "ZEP_API_KEY=z_1dWlkIjoiNWVhZDA3MjEtYjAxMS00MTJmLWJiOGEtYTE5YjM0ZDFhYmYyIn0.1wrMLvx5EHc6SjxpeNAV5tK4i-uNfZ8kEnVsLVQ6ZwsRR",
+      "key_type": "zep_api_key",
+      "description": "Zep Api Key",
+      "severity": "medium",
+      "matched_pattern": "ZEP_*********************************************************************************************************************************************************k3KA",
+      "timestamp": "2026-03-05T22:06:23.968120"
+    }
+  ]
+}

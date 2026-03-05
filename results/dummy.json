@@ -1,0 +1,20 @@
+{
+  "service": "dummy",
+  "scan_timestamp": "2026-03-05T22:08:36.606144",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "dummy",
+      "file": "playwright/.env.template",
+      "repository": "Timshel/OIDCWarden",
+      "url": "https://github.com/Timshel/OIDCWarden/blob/f4403598f72d865b501057e130f31d32115baa20/playwright/.env.template",
+      "line_number": 43,
+      "line_preview": "DUMMY_AUTHORITY=http://${KC_HTTP_HOST}:${KC_HTTP_PORT}/realms/${DUMMY_REALM}",
+      "key_type": "dummy_authority",
+      "description": "Dummy Authority",
+      "severity": "medium",
+      "matched_pattern": "http****************************************************ALM}",
+      "timestamp": "2026-03-05T21:58:36.741455"
+    }
+  ]
+}

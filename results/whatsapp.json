@@ -1,0 +1,33 @@
+{
+  "service": "whatsapp",
+  "scan_timestamp": "2026-03-05T22:08:36.641399",
+  "finding_count": 2,
+  "findings": [
+    {
+      "service": "whatsapp",
+      "file": ".env.railway",
+      "repository": "tom-jordan23/cooking_mcp",
+      "url": "https://github.com/tom-jordan23/cooking_mcp/blob/6b26ce1187797b2b572ce395a79c4eefa6a3505d/.env.railway",
+      "line_number": 29,
+      "line_preview": "WHATSAPP_TOKEN=${{secrets.WHATSAPP_TOKEN}}",
+      "key_type": "whatsapp_token",
+      "description": "Whatsapp Token",
+      "severity": "medium",
+      "matched_pattern": "${{s*******************EN}}",
+      "timestamp": "2026-03-05T22:01:19.555363"
+    },
+    {
+      "service": "whatsapp",
+      "file": ".env-old",
+      "repository": "guiasexcanariasespana/gexexclu",
+      "url": "https://github.com/guiasexcanariasespana/gexexclu/blob/506a28466add9b5128d9540230d905e17a96464a/.env-old",
+      "line_number": 96,
+      "line_preview": "WHATSAPP_CLOUD_API_TOKEN=\"EAAElEKrixC0BAA6IucYXxrbzC6I1eT3jzZBrylYdhGNnCSiVJYIFKjV5ALVPbzHoCzcYixmAlekASjRqwZAaN9hHq8d8H",
+      "key_type": "whatsapp_cloud_api_token",
+      "description": "Whatsapp Cloud Api Token",
+      "severity": "medium",
+      "matched_pattern": "EAAE***********************************************************************************************************************************************************************************************************ZDZD",
+      "timestamp": "2026-03-05T22:07:21.587582"
+    }
+  ]
+}

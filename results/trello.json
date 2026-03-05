@@ -1,0 +1,46 @@
+{
+  "service": "trello",
+  "scan_timestamp": "2026-03-05T22:08:36.639622",
+  "finding_count": 3,
+  "findings": [
+    {
+      "service": "trello",
+      "file": "testdir/testfiles/extra.env",
+      "repository": "zaneprall/Secrets-Scanner-Test-Files",
+      "url": "https://github.com/zaneprall/Secrets-Scanner-Test-Files/blob/0ded8359e18275d9727d008545a386aa9b07d6ab/testdir/testfiles/extra.env",
+      "line_number": 20,
+      "line_preview": "TRELLO_TOKEN=abcdef1234567890abcdef1234567890",
+      "key_type": "trello_token",
+      "description": "Trello Token",
+      "severity": "medium",
+      "matched_pattern": "abcd************************7890",
+      "timestamp": "2026-03-05T22:00:40.780176"
+    },
+    {
+      "service": "trello",
+      "file": ".env.default",
+      "repository": "hiiamtrong/thunder-bolt",
+      "url": "https://github.com/hiiamtrong/thunder-bolt/blob/90359ac55b2727f865a47c7a42616c439fb843be/.env.default",
+      "line_number": 8,
+      "line_preview": "TRELLO_TOKEN=967b514f1f081b6940b879ddaa59e71d4d663f7c7cb9d542c2c640f81cc31aff",
+      "key_type": "trello_token",
+      "description": "Trello Token",
+      "severity": "medium",
+      "matched_pattern": "TREL*********************************************************************1aff",
+      "timestamp": "2026-03-05T22:03:55.164612"
+    },
+    {
+      "service": "trello",
+      "file": ".env.default",
+      "repository": "hiiamtrong/thunder-bolt",
+      "url": "https://github.com/hiiamtrong/thunder-bolt/blob/90359ac55b2727f865a47c7a42616c439fb843be/.env.default",
+      "line_number": 7,
+      "line_preview": "TRELLO_APPLICATION_KEY=b03babd66783d968892a66a186e8e680",
+      "key_type": "trello_application_key",
+      "description": "Trello Application Key",
+      "severity": "medium",
+      "matched_pattern": "b03b************************e680",
+      "timestamp": "2026-03-05T22:04:00.771150"
+    }
+  ]
+}

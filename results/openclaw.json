@@ -1,0 +1,20 @@
+{
+  "service": "openclaw",
+  "scan_timestamp": "2026-03-05T22:08:36.628800",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "openclaw",
+      "file": "config/openclaw/.env",
+      "repository": "digimuza/digimuza-os-setup",
+      "url": "https://github.com/digimuza/digimuza-os-setup/blob/fa7f767b5d677095dad7539d97f57966a07c2651/config/openclaw/.env",
+      "line_number": 15,
+      "line_preview": "OPENCLAW_GATEWAY_TOKEN=$SERVICE_PASSWORD_64_GATEWAYTOKEN",
+      "key_type": "openclaw_gateway_token",
+      "description": "Openclaw Gateway Token",
+      "severity": "medium",
+      "matched_pattern": "$SER*************************OKEN",
+      "timestamp": "2026-03-05T22:02:46.264531"
+    }
+  ]
+}

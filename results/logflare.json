@@ -1,0 +1,33 @@
+{
+  "service": "logflare",
+  "scan_timestamp": "2026-03-05T22:08:36.620723",
+  "finding_count": 2,
+  "findings": [
+    {
+      "service": "logflare",
+      "file": ".env.2",
+      "repository": "serebano/tictapp-storage-api",
+      "url": "https://github.com/serebano/tictapp-storage-api/blob/31ab25f1990d29992dc9eb2861b568fd8b571514/.env.2",
+      "line_number": 38,
+      "line_preview": "LOGFLARE_API_KEY=EoOUT9RjPssM",
+      "key_type": "logflare_api_key",
+      "description": "Logflare Api Key",
+      "severity": "medium",
+      "matched_pattern": "EoOU****PssM",
+      "timestamp": "2026-03-05T21:57:44.756823"
+    },
+    {
+      "service": "logflare",
+      "file": ".env.2",
+      "repository": "serebano/tictapp-storage-api",
+      "url": "https://github.com/serebano/tictapp-storage-api/blob/31ab25f1990d29992dc9eb2861b568fd8b571514/.env.2",
+      "line_number": 39,
+      "line_preview": "LOGFLARE_SOURCE_TOKEN=01bd186a-497f-4608-b991-8118f7d51436",
+      "key_type": "logflare_source_token",
+      "description": "Logflare Source Token",
+      "severity": "medium",
+      "matched_pattern": "01bd****************************1436",
+      "timestamp": "2026-03-05T21:57:44.756901"
+    }
+  ]
+}

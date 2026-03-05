@@ -1,0 +1,33 @@
+{
+  "service": "bbb",
+  "scan_timestamp": "2026-03-05T22:08:36.598723",
+  "finding_count": 2,
+  "findings": [
+    {
+      "service": "bbb",
+      "file": "contrib/docker/.env.prod.template",
+      "repository": "ErfanGerami/workadventure",
+      "url": "https://github.com/ErfanGerami/workadventure/blob/7e8815c9393dc08770e32f8e4761c3d8cda7d4fa/contrib/docker/.env.prod.template",
+      "line_number": 82,
+      "line_preview": "BBB_SECRET=8cd8ef52e8e101574e400365b55e11a6",
+      "key_type": "bbb_secret",
+      "description": "Bbb Secret",
+      "severity": "high",
+      "matched_pattern": "BBB_***********************************11a6",
+      "timestamp": "2026-03-05T21:58:27.737031"
+    },
+    {
+      "service": "bbb",
+      "file": "contrib/docker/.env.prod.template",
+      "repository": "fbnmtz/workadventure",
+      "url": "https://github.com/fbnmtz/workadventure/blob/4bc50a2accb94062b3d9bc6767afd3b5792bb544/contrib/docker/.env.prod.template",
+      "line_number": 82,
+      "line_preview": "BBB_SECRET=8cd8ef52e8e101574e400365b55e11a6",
+      "key_type": "bbb_secret",
+      "description": "Bbb Secret",
+      "severity": "high",
+      "matched_pattern": "BBB_***********************************11a6",
+      "timestamp": "2026-03-05T21:58:27.931706"
+    }
+  ]
+}

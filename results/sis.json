@@ -1,0 +1,20 @@
+{
+  "service": "sis",
+  "scan_timestamp": "2026-03-05T22:08:36.635584",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "sis",
+      "file": ".env_ant",
+      "repository": "romeldev/pakamuros",
+      "url": "https://github.com/romeldev/pakamuros/blob/0d81ad41476826c2eeb209c0255019e66511c9a5/.env_ant",
+      "line_number": 85,
+      "line_preview": "SIS_FILIACION_PASS=Y5XimkZq47",
+      "key_type": "sis_filiacion_pass",
+      "description": "Sis Filiacion Pass",
+      "severity": "high",
+      "matched_pattern": "Y5Xi**Zq47",
+      "timestamp": "2026-03-05T22:07:07.842587"
+    }
+  ]
+}

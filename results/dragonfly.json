@@ -1,0 +1,20 @@
+{
+  "service": "dragonfly",
+  "scan_timestamp": "2026-03-05T22:08:36.605948",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "dragonfly",
+      "file": ".env",
+      "repository": "4xiaxia/40",
+      "url": "https://github.com/4xiaxia/40/blob/95cfb4b293930097913688b00cb151b930320abc/.env",
+      "line_number": 5,
+      "line_preview": "DRAGONFLY_PASSWORD=Y8Xh0mj6Zb7l5cI9zE2yCO4RKo31qPiw",
+      "key_type": "dragonfly_password",
+      "description": "Dragonfly Password",
+      "severity": "high",
+      "matched_pattern": "Y8Xh************************qPiw",
+      "timestamp": "2026-03-05T22:05:31.293364"
+    }
+  ]
+}

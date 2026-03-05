@@ -1,0 +1,20 @@
+{
+  "service": "youtube",
+  "scan_timestamp": "2026-03-05T22:08:36.641940",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "youtube",
+      "file": ".env.example,",
+      "repository": "Malikxolo/brain_heart_model",
+      "url": "https://github.com/Malikxolo/brain_heart_model/blob/a82bbe96b21faf8079cdb9f554fd3376d27d5b1c/.env.example,",
+      "line_number": 47,
+      "line_preview": "YOUTUBE_API_KEY=AIzaSyC2IbHOliuhWsQL3vOdQeE1FAILkG1TDgs",
+      "key_type": "youtube_api_key",
+      "description": "Youtube Api Key",
+      "severity": "medium",
+      "matched_pattern": "YOUT***********************************************TDgs",
+      "timestamp": "2026-03-05T22:02:11.142299"
+    }
+  ]
+}

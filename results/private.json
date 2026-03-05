@@ -1,0 +1,46 @@
+{
+  "service": "private",
+  "scan_timestamp": "2026-03-05T22:08:36.630584",
+  "finding_count": 3,
+  "findings": [
+    {
+      "service": "private",
+      "file": ".env.hosted",
+      "repository": "whiteraysoft1-sketch/smartkeyholder",
+      "url": "https://github.com/whiteraysoft1-sketch/smartkeyholder/blob/092b61a134f77555e9ad8155cb3dd6aa01c847d4/.env.hosted",
+      "line_number": 75,
+      "line_preview": "VAPID_PRIVATE_KEY=z+bk/qZ1WuxdQGrBAQlrnFYuwiSWBcHuzji0uaoxK1A=",
+      "key_type": "private_key",
+      "description": "Private Key",
+      "severity": "critical",
+      "matched_pattern": "PRIV************************************************K1A=",
+      "timestamp": "2026-03-05T21:58:05.698272"
+    },
+    {
+      "service": "private",
+      "file": ".env.bot.example",
+      "repository": "Snowflake-Labs/apj-build-2024-slack-demo",
+      "url": "https://github.com/Snowflake-Labs/apj-build-2024-slack-demo/blob/9484cde31d1eec5a4694d1c68f9a13c888870bf8/.env.bot.example",
+      "line_number": 9,
+      "line_preview": "PRIVATE_KEY_FILE_PATH=/home/me/.snowflake/snowflake_user.p8",
+      "key_type": "private_key_file_path",
+      "description": "Private Key File Path",
+      "severity": "critical",
+      "matched_pattern": "/hom*****************************r.p8",
+      "timestamp": "2026-03-05T22:00:42.171940"
+    },
+    {
+      "service": "private",
+      "file": ".env.no-docker",
+      "repository": "contactmissgluta237/webwhatsapp",
+      "url": "https://github.com/contactmissgluta237/webwhatsapp/blob/e7ccbefdd09634019f6fa786118c5f5f5fb76b20/.env.no-docker",
+      "line_number": 43,
+      "line_preview": "VAPID_PRIVATE_KEY=fAbIF2ggX+nsrEyWBd8oDipsVjXucQSZM91yF1HvAys=",
+      "key_type": "private_key",
+      "description": "Private Key",
+      "severity": "critical",
+      "matched_pattern": "PRIV************************************************Ays=",
+      "timestamp": "2026-03-05T22:00:43.656182"
+    }
+  ]
+}

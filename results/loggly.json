@@ -1,0 +1,20 @@
+{
+  "service": "loggly",
+  "scan_timestamp": "2026-03-05T22:08:36.620836",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "loggly",
+      "file": ".env.test",
+      "repository": "webignition/simplytestable.com",
+      "url": "https://github.com/webignition/simplytestable.com/blob/4445eb78447c57e704df57aea502c9115dc1c077/.env.test",
+      "line_number": 4,
+      "line_preview": "LOGGLY_CUSTOMER_TOKEN=3e23f480-496b-4e53-89fa-5b33a34aeda2",
+      "key_type": "loggly_customer_token",
+      "description": "Loggly Customer Token",
+      "severity": "medium",
+      "matched_pattern": "3e23****************************eda2",
+      "timestamp": "2026-03-05T22:00:41.812590"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "service": "qweather",
+  "scan_timestamp": "2026-03-05T22:08:36.631527",
+  "finding_count": 2,
+  "findings": [
+    {
+      "service": "qweather",
+      "file": ".env copy 2",
+      "repository": "jthou/hou-cli",
+      "url": "https://github.com/jthou/hou-cli/blob/f97d3b16cc3b0cc9ceb797a81707afa3914f3bcc/.env%20copy%202",
+      "line_number": 113,
+      "line_preview": "QWEATHER_CREDENTIAL_ID=K8GYPEQ99J",
+      "key_type": "qweather_credential_id",
+      "description": "Qweather Credential Id",
+      "severity": "high",
+      "matched_pattern": "K8GY**Q99J",
+      "timestamp": "2026-03-05T22:01:34.328972"
+    },
+    {
+      "service": "qweather",
+      "file": ".env-example",
+      "repository": "CloudyAnt/langchain-test",
+      "url": "https://github.com/CloudyAnt/langchain-test/blob/9b11d3e49c1ca9154cbe7b3e081229ca5959e103/.env-example",
+      "line_number": 5,
+      "line_preview": "QWEATHER_CREDENTIAL_ID=youCredentialId",
+      "key_type": "qweather_credential_id",
+      "description": "Qweather Credential Id",
+      "severity": "high",
+      "matched_pattern": "QWEA******************************alId",
+      "timestamp": "2026-03-05T22:05:17.079815"
+    }
+  ]
+}

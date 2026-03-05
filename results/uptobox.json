@@ -1,0 +1,20 @@
+{
+  "service": "uptobox",
+  "scan_timestamp": "2026-03-05T22:08:36.640425",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "uptobox",
+      "file": "config.env",
+      "repository": "sathishsksk/skskmirror",
+      "url": "https://github.com/sathishsksk/skskmirror/blob/26ee1f701b136bb3eba6a5b0ade681f931c023cc/config.env",
+      "line_number": 21,
+      "line_preview": "UPTOBOX_TOKEN = \"997b72bfa6309eabec64d7b233a5cc098l3rk\"",
+      "key_type": "uptobox_token",
+      "description": "Uptobox Token",
+      "severity": "medium",
+      "matched_pattern": "997b*****************************l3rk",
+      "timestamp": "2026-03-05T22:00:35.198425"
+    }
+  ]
+}

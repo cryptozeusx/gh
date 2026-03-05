@@ -1,0 +1,20 @@
+{
+  "service": "secp256k1",
+  "scan_timestamp": "2026-03-05T22:08:36.633429",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "secp256k1",
+      "file": ".example.env.dev",
+      "repository": "lacchain/LACChain-identity",
+      "url": "https://github.com/lacchain/LACChain-identity/blob/5933462c17397dafe4641dacaecd8aaa98714d43/.example.env.dev",
+      "line_number": 61,
+      "line_preview": "SECP256K1_KEY=/secp256k1",
+      "key_type": "secp256k1_key",
+      "description": "Secp256K1 Key",
+      "severity": "medium",
+      "matched_pattern": "/sec**56k1",
+      "timestamp": "2026-03-05T22:06:37.948450"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "service": "confident",
+  "scan_timestamp": "2026-03-05T22:08:36.601417",
+  "finding_count": 2,
+  "findings": [
+    {
+      "service": "confident",
+      "file": ".env.example",
+      "repository": "confident-ai/deepeval",
+      "url": "https://github.com/confident-ai/deepeval/blob/45267bc5fab65040a4f202b36ba24af10d23d347/.env.example",
+      "line_number": 62,
+      "line_preview": "CONFIDENT_API_KEY=  # Confident AI cloud",
+      "key_type": "confident_api_key",
+      "description": "Confident Api Key",
+      "severity": "medium",
+      "matched_pattern": "# Co************loud",
+      "timestamp": "2026-03-05T22:00:31.279667"
+    },
+    {
+      "service": "confident",
+      "file": ".env.example",
+      "repository": "gupta-tilak/agentic_evaluation",
+      "url": "https://github.com/gupta-tilak/agentic_evaluation/blob/32a1f4866f63cbba562509f8d019891c9bd94dfd/.env.example",
+      "line_number": 57,
+      "line_preview": "CONFIDENT_API_KEY=  # Confident AI cloud",
+      "key_type": "confident_api_key",
+      "description": "Confident Api Key",
+      "severity": "medium",
+      "matched_pattern": "# Co************loud",
+      "timestamp": "2026-03-05T22:05:16.584044"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "service": "codex",
+  "scan_timestamp": "2026-03-05T22:08:36.601235",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "codex",
+      "file": ".env",
+      "repository": "161sam/smolit_dev_pkg",
+      "url": "https://github.com/161sam/smolit_dev_pkg/blob/61d094ac8a6964680d230d025063bdddb04a2c76/.env",
+      "line_number": 16,
+      "line_preview": "CODEX_API_KEY=\"\"    # wird als OPENAI_API_KEY an die Bridge weitergegeben",
+      "key_type": "codex_api_key",
+      "description": "Codex Api Key",
+      "severity": "medium",
+      "matched_pattern": "    *************************************************eben",
+      "timestamp": "2026-03-05T22:00:37.186283"
+    }
+  ]
+}

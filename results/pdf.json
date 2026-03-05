@@ -1,0 +1,20 @@
+{
+  "service": "pdf",
+  "scan_timestamp": "2026-03-05T22:08:36.629532",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "pdf",
+      "file": ".env.copy",
+      "repository": "BigDataTeam5/LiteLLM_SummaryGenerator_with_Q-A",
+      "url": "https://github.com/BigDataTeam5/LiteLLM_SummaryGenerator_with_Q-A/blob/5fb0c0be1037c62f02d90c880b0cbdf87064d5ec/.env.copy",
+      "line_number": 10,
+      "line_preview": "PDF_SERVICES_CLIENT_SECRET= #your Adobe PDF Services client secret",
+      "key_type": "pdf_services_client_secret",
+      "description": "Pdf Services Client Secret",
+      "severity": "high",
+      "matched_pattern": "#you******************************cret",
+      "timestamp": "2026-03-05T22:02:02.714216"
+    }
+  ]
+}

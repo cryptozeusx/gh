@@ -1,0 +1,46 @@
+{
+  "service": "shopify",
+  "scan_timestamp": "2026-03-05T22:08:36.635338",
+  "finding_count": 3,
+  "findings": [
+    {
+      "service": "shopify",
+      "file": "testdir/testfiles/extra.env",
+      "repository": "zaneprall/Secrets-Scanner-Test-Files",
+      "url": "https://github.com/zaneprall/Secrets-Scanner-Test-Files/blob/0ded8359e18275d9727d008545a386aa9b07d6ab/testdir/testfiles/extra.env",
+      "line_number": 40,
+      "line_preview": "SHOPIFY_PRIVATE_APP=shppa_0123456789abcdef0123456789abcdef",
+      "key_type": "shopify_private_app",
+      "description": "Shopify Private App",
+      "severity": "critical",
+      "matched_pattern": "shpp******************************cdef",
+      "timestamp": "2026-03-05T22:00:40.780817"
+    },
+    {
+      "service": "shopify",
+      "file": ".env.development.template",
+      "repository": "financeflo-ai/capliquify-ai-dashboard-app",
+      "url": "https://github.com/financeflo-ai/capliquify-ai-dashboard-app/blob/30c2502a214e7f170c720b5590abaa22b761b01f/.env.development.template",
+      "line_number": 41,
+      "line_preview": "SHOPIFY_UK_ACCESS_TOKEN=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",
+      "key_type": "shopify_uk_access_token",
+      "description": "Shopify Uk Access Token",
+      "severity": "medium",
+      "matched_pattern": "shpa******************************199a",
+      "timestamp": "2026-03-05T22:00:44.735190"
+    },
+    {
+      "service": "shopify",
+      "file": ".env.development.template",
+      "repository": "financeflo-ai/capliquify-ai-dashboard-app",
+      "url": "https://github.com/financeflo-ai/capliquify-ai-dashboard-app/blob/30c2502a214e7f170c720b5590abaa22b761b01f/.env.development.template",
+      "line_number": 47,
+      "line_preview": "SHOPIFY_USA_ACCESS_TOKEN=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",
+      "key_type": "shopify_usa_access_token",
+      "description": "Shopify Usa Access Token",
+      "severity": "medium",
+      "matched_pattern": "shpa******************************9342",
+      "timestamp": "2026-03-05T22:00:44.735238"
+    }
+  ]
+}

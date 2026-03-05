@@ -1,0 +1,33 @@
+{
+  "service": "discord",
+  "scan_timestamp": "2026-03-05T22:08:36.605553",
+  "finding_count": 2,
+  "findings": [
+    {
+      "service": "discord",
+      "file": ".env.template.txt",
+      "repository": "fac30sb/William-Phoenix-Cleverchat",
+      "url": "https://github.com/fac30sb/William-Phoenix-Cleverchat/blob/dc76e0cab7721f392cd63d573802e07f2a584159/.env.template.txt",
+      "line_number": 6,
+      "line_preview": "DISCORD_TOKEN = ASD123   // Bot token",
+      "key_type": "discord_token",
+      "description": "Discord Token",
+      "severity": "medium",
+      "matched_pattern": "ASD1*************oken",
+      "timestamp": "2026-03-05T22:00:43.801843"
+    },
+    {
+      "service": "discord",
+      "file": ".env.op",
+      "repository": "jackjakarta/elongpt-discord-bot-2.0",
+      "url": "https://github.com/jackjakarta/elongpt-discord-bot-2.0/blob/18983bc40c7cc521ca1d392647c93e82148eb49e/.env.op",
+      "line_number": 1,
+      "line_preview": "DISCORD_TOKEN=\"op://elon-gpt/.env.$ENVIRONMENT/DISCORD_TOKEN\"",
+      "key_type": "discord_token",
+      "description": "Discord Token",
+      "severity": "medium",
+      "matched_pattern": "DISC*****************************************************KEN\"",
+      "timestamp": "2026-03-05T22:03:22.400937"
+    }
+  ]
+}

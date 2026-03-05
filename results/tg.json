@@ -1,0 +1,46 @@
+{
+  "service": "tg",
+  "scan_timestamp": "2026-03-05T22:08:36.638976",
+  "finding_count": 3,
+  "findings": [
+    {
+      "service": "tg",
+      "file": "config.env",
+      "repository": "satyamisme/telexg",
+      "url": "https://github.com/satyamisme/telexg/blob/e3d780246fd96ff83e15321f163fa7dd03f86dbe/config.env",
+      "line_number": 11,
+      "line_preview": "TG_BOT_TOKEN1 = \"5515279189:AAEzWqngCt1br7BhvskI_MoNrnoUnWisQ14\"  # Create a Bot using @BotFather in Telegram, and get t",
+      "key_type": "tg_bot_token1",
+      "description": "Tg Bot Token1",
+      "severity": "medium",
+      "matched_pattern": "5515*********************************************************************************************************************ken.",
+      "timestamp": "2026-03-05T22:03:22.351680"
+    },
+    {
+      "service": "tg",
+      "file": "config.env",
+      "repository": "satyamisme/telexg",
+      "url": "https://github.com/satyamisme/telexg/blob/e3d780246fd96ff83e15321f163fa7dd03f86dbe/config.env",
+      "line_number": 25,
+      "line_preview": "TG_BOT_TOKEN2 = \"\"  # Create a Bot using @BotFather in Telegram, and get the Telegram API Token.",
+      "key_type": "tg_bot_token2",
+      "description": "Tg Bot Token2",
+      "severity": "medium",
+      "matched_pattern": "  # **********************************************************************ken.",
+      "timestamp": "2026-03-05T22:03:25.069163"
+    },
+    {
+      "service": "tg",
+      "file": "sample_config.env",
+      "repository": "Not098/Tele-LeechX",
+      "url": "https://github.com/Not098/Tele-LeechX/blob/5c40f5c14069492378da83db3b51b7e8d928f955/sample_config.env",
+      "line_number": 12,
+      "line_preview": "TG_BOT_TOKEN1 = \"\"  # Create a Bot using @BotFather in Telegram, and get the Telegram API Token.",
+      "key_type": "tg_bot_token1",
+      "description": "Tg Bot Token1",
+      "severity": "medium",
+      "matched_pattern": "  # **********************************************************************ken.",
+      "timestamp": "2026-03-05T22:07:05.804485"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "service": "ssh",
+  "scan_timestamp": "2026-03-05T22:08:36.637031",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "ssh",
+      "file": "deploy/config.env",
+      "repository": "elontusk5219-prog/blakboxtri",
+      "url": "https://github.com/elontusk5219-prog/blakboxtri/blob/9aab7374ccb15ec5d80a12aad8d4d3faf366ae05/deploy/config.env",
+      "line_number": 3,
+      "line_preview": "SSH_KEY=/Users/mac/Downloads/cursor.pem",
+      "key_type": "ssh_key",
+      "description": "Ssh Key",
+      "severity": "medium",
+      "matched_pattern": "/Use***********************.pem",
+      "timestamp": "2026-03-05T22:00:38.194797"
+    }
+  ]
+}

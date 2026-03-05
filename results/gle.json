@@ -1,0 +1,20 @@
+{
+  "service": "gle",
+  "scan_timestamp": "2026-03-05T22:08:36.615173",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "gle",
+      "file": ".env.docker.example",
+      "repository": "mikebionic/tradelane-go",
+      "url": "https://github.com/mikebionic/tradelane-go/blob/605ef369ff71f07373279a188f807074f4a37c93/.env.docker.example",
+      "line_number": 46,
+      "line_preview": "GLE_KEY=\"1111.apps.googleusercontent.com\"",
+      "key_type": "gle_key",
+      "description": "Gle Key",
+      "severity": "medium",
+      "matched_pattern": "1111***********************.com",
+      "timestamp": "2026-03-05T21:58:13.569141"
+    }
+  ]
+}

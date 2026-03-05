@@ -1,0 +1,20 @@
+{
+  "service": "blob",
+  "scan_timestamp": "2026-03-05T22:08:36.599556",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "blob",
+      "file": "credentials.env.TEMPLATE",
+      "repository": "michalmar/openai-demos-bot-webapp-py",
+      "url": "https://github.com/michalmar/openai-demos-bot-webapp-py/blob/45c5ffa227ad4c1f0c3a9183f9207174a2143180/credentials.env.TEMPLATE",
+      "line_number": 8,
+      "line_preview": "BLOB_SAS_TOKEN=\"?sv=2022-11-02&ss=bf&srt=sco&sp=rltfx&se=2024-10-02T01:02:07Z&st=2023-08-03T17:02:07Z&spr=https&sig=gLxS",
+      "key_type": "blob_sas_token",
+      "description": "Blob Sas Token",
+      "severity": "medium",
+      "matched_pattern": "?sv=********************************************************************************************************************************************Q%3D",
+      "timestamp": "2026-03-05T22:02:11.696972"
+    }
+  ]
+}

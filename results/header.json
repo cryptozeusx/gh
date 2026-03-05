@@ -1,0 +1,20 @@
+{
+  "service": "header",
+  "scan_timestamp": "2026-03-05T22:08:36.616996",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "header",
+      "file": ".env.stage",
+      "repository": "juliwilliam/workpit-backend",
+      "url": "https://github.com/juliwilliam/workpit-backend/blob/020af6e9d092feb744e9414196ac038daa3c56e4/.env.stage",
+      "line_number": 4,
+      "line_preview": "HEADER_TOKEN=a9284717ab78f00a0b539972710c7427",
+      "key_type": "header_token",
+      "description": "Header Token",
+      "severity": "medium",
+      "matched_pattern": "a928************************7427",
+      "timestamp": "2026-03-05T22:06:25.438733"
+    }
+  ]
+}

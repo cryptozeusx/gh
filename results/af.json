@@ -1,0 +1,20 @@
+{
+  "service": "af",
+  "scan_timestamp": "2026-03-05T22:08:36.593641",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "af",
+      "file": ".envec2",
+      "repository": "RossLegalSuite/LegalSuiteOnlineTemp",
+      "url": "https://github.com/RossLegalSuite/LegalSuiteOnlineTemp/blob/399182878c9e24dec0b475562d1370dd3f505e47/.envec2",
+      "line_number": 50,
+      "line_preview": "AF_SOUTH_1_SECRET_ACCESS_KEY=JbPfxv1ogWKSc3e9ol3aFCQEwRG7DYaQqAKMjFFR",
+      "key_type": "af_south_1_secret_access_key",
+      "description": "Af South 1 Secret Access Key",
+      "severity": "high",
+      "matched_pattern": "JbPf********************************jFFR",
+      "timestamp": "2026-03-05T22:06:39.794658"
+    }
+  ]
+}

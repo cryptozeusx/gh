@@ -1,0 +1,46 @@
+{
+  "service": "facebook",
+  "scan_timestamp": "2026-03-05T22:08:36.607468",
+  "finding_count": 3,
+  "findings": [
+    {
+      "service": "facebook",
+      "file": "testdir/testfiles/extra.env",
+      "repository": "zaneprall/Secrets-Scanner-Test-Files",
+      "url": "https://github.com/zaneprall/Secrets-Scanner-Test-Files/blob/0ded8359e18275d9727d008545a386aa9b07d6ab/testdir/testfiles/extra.env",
+      "line_number": 30,
+      "line_preview": "FACEBOOK_ACCESS_TOKEN=EAACEdEose0cBAExampleToken1234567890",
+      "key_type": "facebook_access_token",
+      "description": "Facebook Access Token",
+      "severity": "medium",
+      "matched_pattern": "EAAC****************************7890",
+      "timestamp": "2026-03-05T22:00:40.780421"
+    },
+    {
+      "service": "facebook",
+      "file": ".env_develop",
+      "repository": "bitovi/bithub",
+      "url": "https://github.com/bitovi/bithub/blob/fd46c6b81e0b05c69bd0d1932f478310540a4a46/.env_develop",
+      "line_number": 49,
+      "line_preview": "FACEBOOK_SUBSCRIPTIONS_VERIFY_TOKEN=ueMeij6eeh1vuich",
+      "key_type": "facebook_subscriptions_verify_token",
+      "description": "Facebook Subscriptions Verify Token",
+      "severity": "medium",
+      "matched_pattern": "ueMe********uich",
+      "timestamp": "2026-03-05T22:05:59.155031"
+    },
+    {
+      "service": "facebook",
+      "file": ".envc",
+      "repository": "amalmandiri/backend",
+      "url": "https://github.com/amalmandiri/backend/blob/8b05324f07ab4714e1b0350fc191b8db52004ca3/.envc",
+      "line_number": 57,
+      "line_preview": "FACEBOOK_CLIENT_SECRET=49e3d04b00945ca060cd0c73d42137b5",
+      "key_type": "facebook_client_secret",
+      "description": "Facebook Client Secret",
+      "severity": "high",
+      "matched_pattern": "FACE***********************************************37b5",
+      "timestamp": "2026-03-05T22:06:23.686455"
+    }
+  ]
+}

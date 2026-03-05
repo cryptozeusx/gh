@@ -1,0 +1,20 @@
+{
+  "service": "qstash",
+  "scan_timestamp": "2026-03-05T22:08:36.631265",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "qstash",
+      "file": ".env.production.local",
+      "repository": "LZKai1111/subscription-tracker",
+      "url": "https://github.com/LZKai1111/subscription-tracker/blob/52a6fcd07090a84899b0faf0496c7159e21e7a61/.env.production.local",
+      "line_number": 5,
+      "line_preview": "QSTASH_TOKEN=\"eyJVc2VySUQiOiJlNzJiZDA4Zi04MTBkLTQ2MjctODE3My04MzFmMmIyNjNlNzAiLCJQYXNzd29yZCI6IjRjMzViYWQyYmQyNDQ1MTE4ZD",
+      "key_type": "qstash_token",
+      "description": "Qstash Token",
+      "severity": "medium",
+      "matched_pattern": "eyJV************************************************************************************************************************In0=",
+      "timestamp": "2026-03-05T21:58:15.085287"
+    }
+  ]
+}

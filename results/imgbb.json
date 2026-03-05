@@ -1,0 +1,20 @@
+{
+  "service": "imgbb",
+  "scan_timestamp": "2026-03-05T22:08:36.618362",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "imgbb",
+      "file": "services/chatbot/.env.example",
+      "repository": "SkastVnT/AI-Assistant",
+      "url": "https://github.com/SkastVnT/AI-Assistant/blob/edd843086236caf9e1b28e12e7e4b6c95cf48263/services/chatbot/.env.example",
+      "line_number": 26,
+      "line_preview": "IMGBB_API_KEY=                  # ImgBB image hosting \u2014 https://api.imgbb.com",
+      "key_type": "imgbb_api_key",
+      "description": "Imgbb Api Key",
+      "severity": "medium",
+      "matched_pattern": "# Im*************************************.com",
+      "timestamp": "2026-03-05T22:00:32.086559"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "service": "gmail",
+  "scan_timestamp": "2026-03-05T22:08:36.615265",
+  "finding_count": 4,
+  "findings": [
+    {
+      "service": "gmail",
+      "file": ".env.example",
+      "repository": "kaymen99/personal-ai-assistant",
+      "url": "https://github.com/kaymen99/personal-ai-assistant/blob/c96fefb4e106df812ad6c63822e3eef51d8390c6/.env.example",
+      "line_number": 17,
+      "line_preview": "GMAIL_APP_PASSWORD=\"\"        # App-specific password for Gmail (used instead of regular Gmail password)",
+      "key_type": "gmail_app_password",
+      "description": "Gmail App Password",
+      "severity": "high",
+      "matched_pattern": "    **************************************************************************ord)",
+      "timestamp": "2026-03-05T22:00:32.332755"
+    },
+    {
+      "service": "gmail",
+      "file": ".env.tst",
+      "repository": "shahar-shabtay/WeddingzAI-Back",
+      "url": "https://github.com/shahar-shabtay/WeddingzAI-Back/blob/4b7d1a715aff366986bfb6b2443a3056598be4a8/.env.tst",
+      "line_number": 16,
+      "line_preview": "GMAIL_CREDENTIALS_BASE64=eyJ3ZWIiOnsiY2xpZW50X2lkIjoiODA5OTIyODY2MTA4LXUxbDV2dDE3dmRiNGczcTJwYWYybGwxbnFhcDUxOXFlLmFwcHM",
+      "key_type": "gmail_credentials_base64",
+      "description": "Gmail Credentials Base64",
+      "severity": "high",
+      "matched_pattern": "eyJ3********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************XX19",
+      "timestamp": "2026-03-05T22:00:43.452347"
+    },
+    {
+      "service": "gmail",
+      "file": ".env.tst",
+      "repository": "shahar-shabtay/WeddingzAI-Back",
+      "url": "https://github.com/shahar-shabtay/WeddingzAI-Back/blob/4b7d1a715aff366986bfb6b2443a3056598be4a8/.env.tst",
+      "line_number": 17,
+      "line_preview": "GMAIL_TOKEN_BASE64=ewogICJhY2Nlc3NfdG9rZW4iOiAieWEyOS5hMEFXNFh0eGkzX3dTc1NKYWtVX2tlMDJDSEpLaVdHNU1BQndOZkN3N1doU0lWM1JCU",
+      "key_type": "gmail_token_base64",
+      "description": "Gmail Token Base64",
+      "severity": "medium",
+      "matched_pattern": "ewog********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************MQp9",
+      "timestamp": "2026-03-05T22:00:43.452745"
+    },
+    {
+      "service": "gmail",
+      "file": ".env.tst",
+      "repository": "shahar-shabtay/WeddingzAI-Back",
+      "url": "https://github.com/shahar-shabtay/WeddingzAI-Back/blob/4b7d1a715aff366986bfb6b2443a3056598be4a8/.env.tst",
+      "line_number": 18,
+      "line_preview": "GMAIL_REFRESH_TOKEN_BASE64=MS8vMDNuaEhqMk50SElWbkNnWUlBUkFBR0FNU053Ri1MOUlyR20yLVVYYnlmYm42bXZPcGNpY25hSGVrMFFEeXhCLVNWZ",
+      "key_type": "gmail_refresh_token_base64",
+      "description": "Gmail Refresh Token Base64",
+      "severity": "medium",
+      "matched_pattern": "MS8v************************************************************************************************************************************Zw==",
+      "timestamp": "2026-03-05T22:00:43.453196"
+    }
+  ]
+}

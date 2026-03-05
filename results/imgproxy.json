@@ -1,0 +1,20 @@
+{
+  "service": "imgproxy",
+  "scan_timestamp": "2026-03-05T22:08:36.618445",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "imgproxy",
+      "file": ".env.example",
+      "repository": "picosh/pico",
+      "url": "https://github.com/picosh/pico/blob/4552aa54f116000b171d6cdce4a0571beb775d10/.env.example",
+      "line_number": 28,
+      "line_preview": "IMGPROXY_KEY=6465616462656566 # deadbeef",
+      "key_type": "imgproxy_key",
+      "description": "Imgproxy Key",
+      "severity": "medium",
+      "matched_pattern": "6465*******************beef",
+      "timestamp": "2026-03-05T21:58:45.624841"
+    }
+  ]
+}

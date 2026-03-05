@@ -1,0 +1,20 @@
+{
+  "service": "square",
+  "scan_timestamp": "2026-03-05T22:08:36.636938",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "square",
+      "file": "testdir/testfiles/extra.env",
+      "repository": "zaneprall/Secrets-Scanner-Test-Files",
+      "url": "https://github.com/zaneprall/Secrets-Scanner-Test-Files/blob/0ded8359e18275d9727d008545a386aa9b07d6ab/testdir/testfiles/extra.env",
+      "line_number": 24,
+      "line_preview": "SQUARE_TOKEN=sq0atp-1234567890abcdefghijklmnopqrstuv",
+      "key_type": "square_token",
+      "description": "Square Token",
+      "severity": "medium",
+      "matched_pattern": "sq0a*******************************stuv",
+      "timestamp": "2026-03-05T22:00:40.780331"
+    }
+  ]
+}

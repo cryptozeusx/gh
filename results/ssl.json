@@ -1,0 +1,33 @@
+{
+  "service": "ssl",
+  "scan_timestamp": "2026-03-05T22:08:36.637118",
+  "finding_count": 2,
+  "findings": [
+    {
+      "service": "ssl",
+      "file": "yyc3-22/app/config/environments/.env.production.example",
+      "repository": "YYC-Cube/yyc3-app",
+      "url": "https://github.com/YYC-Cube/yyc3-app/blob/53d55c93b9e2f7ed7e6d70253127b88e6fa3ae8d/yyc3-22/app/config/environments/.env.production.example",
+      "line_number": 309,
+      "line_preview": "SSL_CERT_PATH=/etc/ssl/certs/0379.email.crt",
+      "key_type": "ssl_cert_path",
+      "description": "Ssl Cert Path",
+      "severity": "high",
+      "matched_pattern": "/etc*********************.crt",
+      "timestamp": "2026-03-05T22:05:21.266244"
+    },
+    {
+      "service": "ssl",
+      "file": "yyc3-22/app/config/environments/.env.production.example",
+      "repository": "YYC-Cube/yyc3-app",
+      "url": "https://github.com/YYC-Cube/yyc3-app/blob/53d55c93b9e2f7ed7e6d70253127b88e6fa3ae8d/yyc3-22/app/config/environments/.env.production.example",
+      "line_number": 310,
+      "line_preview": "SSL_KEY_PATH=/etc/ssl/private/0379.email.key",
+      "key_type": "ssl_key_path",
+      "description": "Ssl Key Path",
+      "severity": "medium",
+      "matched_pattern": "/etc***********************.key",
+      "timestamp": "2026-03-05T22:05:24.168195"
+    }
+  ]
+}

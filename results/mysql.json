@@ -1,0 +1,111 @@
+{
+  "service": "mysql",
+  "scan_timestamp": "2026-03-05T22:08:36.623969",
+  "finding_count": 8,
+  "findings": [
+    {
+      "service": "mysql",
+      "file": ".env.txt",
+      "repository": "tabaresjc/HeadUP",
+      "url": "https://github.com/tabaresjc/HeadUP/blob/f73d54dd5115166a0032ff7e23bd91d07eae6e39/.env.txt",
+      "line_number": 20,
+      "line_preview": "MYSQL_ROOT_PASSWORD=Admin123456",
+      "key_type": "mysql_root_password",
+      "description": "Mysql Root Password",
+      "severity": "high",
+      "matched_pattern": "Admi***3456",
+      "timestamp": "2026-03-05T21:57:34.584451"
+    },
+    {
+      "service": "mysql",
+      "file": "eks/bitnami-sealed-secrets/RDS.env",
+      "repository": "quickbooks2018/eks-redmin",
+      "url": "https://github.com/quickbooks2018/eks-redmin/blob/f4950353ee26cef5b3f5d4e186867d24baeb059a/eks/bitnami-sealed-secrets/RDS.env",
+      "line_number": 6,
+      "line_preview": "MYSQL_ROOT_PASSWORD=$(aws secretsmanager get-secret-value --secret-id redmine-rds-creds --region us-east-1 --query Secre",
+      "key_type": "mysql_root_password",
+      "description": "Mysql Root Password",
+      "severity": "high",
+      "matched_pattern": "$(aw******************************************************************************************************************************************************'\"')",
+      "timestamp": "2026-03-05T21:58:47.363461"
+    },
+    {
+      "service": "mysql",
+      "file": "backend/.env_copy",
+      "repository": "CosmicResearchCenter/InvertedIndexAndRAG",
+      "url": "https://github.com/CosmicResearchCenter/InvertedIndexAndRAG/blob/da334309280048a48ccaab9e5b9d011725ba08c4/backend/.env_copy",
+      "line_number": 5,
+      "line_preview": "MYSQL_PASSWORD=chat2anything@chat2anything",
+      "key_type": "mysql_password",
+      "description": "Mysql Password",
+      "severity": "high",
+      "matched_pattern": "chat*******************hing",
+      "timestamp": "2026-03-05T22:00:34.389289"
+    },
+    {
+      "service": "mysql",
+      "file": "deploy/.env.example",
+      "repository": "CentaureaQ/InternetDevelopers-int-x-",
+      "url": "https://github.com/CentaureaQ/InternetDevelopers-int-x-/blob/f2c4d88b3ba7ec3d96ec107b4c82e445508d18af/deploy/.env.example",
+      "line_number": 6,
+      "line_preview": "MYSQL_ROOT_PASSWORD=demo_pass_123",
+      "key_type": "mysql_root_password",
+      "description": "Mysql Root Password",
+      "severity": "high",
+      "matched_pattern": "MYSQ*************************_123",
+      "timestamp": "2026-03-05T22:00:37.599911"
+    },
+    {
+      "service": "mysql",
+      "file": "backend/.env.save",
+      "repository": "HomeOS-ai/HomeOS",
+      "url": "https://github.com/HomeOS-ai/HomeOS/blob/4a0b842f81487254bfc73259c2d2c4ac36e4dbdd/backend/.env.save",
+      "line_number": 33,
+      "line_preview": "MYSQL_PASSWORD=NanoDbPass123! # <-- \u015e\u0130FRE BURADA OLMALI!",
+      "key_type": "mysql_password",
+      "description": "Mysql Password",
+      "severity": "high",
+      "matched_pattern": "MYSQ*********************123!",
+      "timestamp": "2026-03-05T22:00:45.553690"
+    },
+    {
+      "service": "mysql",
+      "file": "backend/app/frontend/.env",
+      "repository": "zzulihrs/TikTokMall",
+      "url": "https://github.com/zzulihrs/TikTokMall/blob/22bdae6c52c13b4818af407f3cb59f5b8fca506b/backend/app/frontend/.env",
+      "line_number": 2,
+      "line_preview": "MYSQL_PASSWORD=K8#tP2@y!mL9",
+      "key_type": "mysql_password",
+      "description": "Mysql Password",
+      "severity": "high",
+      "matched_pattern": "MYSQ*******************!mL9",
+      "timestamp": "2026-03-05T22:05:05.514248"
+    },
+    {
+      "service": "mysql",
+      "file": "docker/.env.example",
+      "repository": "XIE7654/django-vue3-admin",
+      "url": "https://github.com/XIE7654/django-vue3-admin/blob/e6a5203906432e6ce2fe72b761854f1bafd9c7ba/docker/.env.example",
+      "line_number": 17,
+      "line_preview": "MYSQL_PASSWORD=ca25045c409e60fab517c7327dd527ef27c48ca6",
+      "key_type": "mysql_password",
+      "description": "Mysql Password",
+      "severity": "high",
+      "matched_pattern": "MYSQ***********************************************8ca6",
+      "timestamp": "2026-03-05T22:06:09.403505"
+    },
+    {
+      "service": "mysql",
+      "file": "docker/.env.example",
+      "repository": "XIE7654/django-vue3-admin",
+      "url": "https://github.com/XIE7654/django-vue3-admin/blob/e6a5203906432e6ce2fe72b761854f1bafd9c7ba/docker/.env.example",
+      "line_number": 19,
+      "line_preview": "MYSQL_ROOT_PASSWORD=58ce16c2ee80311e130b30f11160ef77e0ac6aa7",
+      "key_type": "mysql_root_password",
+      "description": "Mysql Root Password",
+      "severity": "high",
+      "matched_pattern": "MYSQ****************************************************6aa7",
+      "timestamp": "2026-03-05T22:06:09.902692"
+    }
+  ]
+}

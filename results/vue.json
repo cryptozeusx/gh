@@ -1,0 +1,46 @@
+{
+  "service": "vue",
+  "scan_timestamp": "2026-03-05T22:08:36.641160",
+  "finding_count": 3,
+  "findings": [
+    {
+      "service": "vue",
+      "file": ".env.example",
+      "repository": "liu-ziting/DeepSeekChat",
+      "url": "https://github.com/liu-ziting/DeepSeekChat/blob/b3467995e54d1fe5e1ecd39381782fa1bbc3fa88/.env.example",
+      "line_number": 6,
+      "line_preview": "VUE_APP_QIUNIUYUN_API_KEY= '\u4f60\u7684 \u4e03\u725b\u4e91 key'",
+      "key_type": "vue_app_qiuniuyun_api_key",
+      "description": "Vue App Qiuniuyun Api Key",
+      "severity": "medium",
+      "matched_pattern": "\u4f60\u7684 \u4e03** key",
+      "timestamp": "2026-03-05T22:00:33.071690"
+    },
+    {
+      "service": "vue",
+      "file": ".env.example",
+      "repository": "liu-ziting/DeepSeekChat",
+      "url": "https://github.com/liu-ziting/DeepSeekChat/blob/b3467995e54d1fe5e1ecd39381782fa1bbc3fa88/.env.example",
+      "line_number": 8,
+      "line_preview": "VUE_APP_GPT35_API_KEY= '\u4f60\u7684 GPT-3.5 key'",
+      "key_type": "vue_app_gpt35_api_key",
+      "description": "Vue App Gpt35 Api Key",
+      "severity": "medium",
+      "matched_pattern": "\u4f60\u7684 G****** key",
+      "timestamp": "2026-03-05T22:00:33.071981"
+    },
+    {
+      "service": "vue",
+      "file": ".env.example",
+      "repository": "liu-ziting/DeepSeekChat",
+      "url": "https://github.com/liu-ziting/DeepSeekChat/blob/b3467995e54d1fe5e1ecd39381782fa1bbc3fa88/.env.example",
+      "line_number": 11,
+      "line_preview": "VUE_APP_MINIMAX_API_KEY= '\u4f60\u7684 MINIMAX key'",
+      "key_type": "vue_app_minimax_api_key",
+      "description": "Vue App Minimax Api Key",
+      "severity": "medium",
+      "matched_pattern": "\u4f60\u7684 M****** key",
+      "timestamp": "2026-03-05T22:00:33.072251"
+    }
+  ]
+}

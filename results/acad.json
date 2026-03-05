@@ -1,0 +1,20 @@
+{
+  "service": "acad",
+  "scan_timestamp": "2026-03-05T22:08:36.593160",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "acad",
+      "file": ".env.sample.dev",
+      "repository": "rolvinss/backend-acadlog",
+      "url": "https://github.com/rolvinss/backend-acadlog/blob/b5229fd246fb3a5f3606f910eb86618c11b8411c/.env.sample.dev",
+      "line_number": 22,
+      "line_preview": "ACAD_ENV_EMAIL_PASSWORD_RESET_PAGE_URL=http://localhost:3000/reset",
+      "key_type": "acad_env_email_password_reset_page_url",
+      "description": "Acad Env Email Password Reset Page Url",
+      "severity": "high",
+      "matched_pattern": "http*******************eset",
+      "timestamp": "2026-03-05T22:01:53.381819"
+    }
+  ]
+}

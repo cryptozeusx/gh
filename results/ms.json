@@ -1,0 +1,33 @@
+{
+  "service": "ms",
+  "scan_timestamp": "2026-03-05T22:08:36.623873",
+  "finding_count": 2,
+  "findings": [
+    {
+      "service": "ms",
+      "file": ".env_sample",
+      "repository": "bilal414/backupsheep",
+      "url": "https://github.com/bilal414/backupsheep/blob/1e9c002d429bd71673f79d97863a0de47a3f602b/.env_sample",
+      "line_number": 62,
+      "line_preview": "MS_OAUTH_ENDPOINT='https://login.microsoftonline.com/common/oauth2/v2.0/authorize'",
+      "key_type": "ms_oauth_endpoint",
+      "description": "Ms Oauth Endpoint",
+      "severity": "medium",
+      "matched_pattern": "http******************************************************rize",
+      "timestamp": "2026-03-05T22:02:33.248578"
+    },
+    {
+      "service": "ms",
+      "file": ".env_sample",
+      "repository": "bilal414/backupsheep",
+      "url": "https://github.com/bilal414/backupsheep/blob/1e9c002d429bd71673f79d97863a0de47a3f602b/.env_sample",
+      "line_number": 63,
+      "line_preview": "MS_OAUTH_TOKEN_URL='https://login.microsoftonline.com/common/oauth2/v2.0/token'",
+      "key_type": "ms_oauth_token_url",
+      "description": "Ms Oauth Token Url",
+      "severity": "medium",
+      "matched_pattern": "http**************************************************oken",
+      "timestamp": "2026-03-05T22:02:34.934496"
+    }
+  ]
+}

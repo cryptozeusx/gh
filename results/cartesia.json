@@ -1,0 +1,20 @@
+{
+  "service": "cartesia",
+  "scan_timestamp": "2026-03-05T22:08:36.600171",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "cartesia",
+      "file": ".env.backup",
+      "repository": "codebyutkarsh20/webrtc_voice_agent-stt_llm_tts-",
+      "url": "https://github.com/codebyutkarsh20/webrtc_voice_agent-stt_llm_tts-/blob/e98b71d7d0411157628a6875199e3ec68808e9e7/.env.backup",
+      "line_number": 19,
+      "line_preview": "CARTESIA_API_KEY=\"sk_car_VndfqzTc4SZf36SKsqbvBx\"",
+      "key_type": "cartesia_api_key",
+      "description": "Cartesia Api Key",
+      "severity": "medium",
+      "matched_pattern": "CART****************************************vBx\"",
+      "timestamp": "2026-03-05T22:00:43.454340"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "service": "sso",
+  "scan_timestamp": "2026-03-05T22:08:36.637216",
+  "finding_count": 2,
+  "findings": [
+    {
+      "service": "sso",
+      "file": "playwright/.env.template",
+      "repository": "Timshel/OIDCWarden",
+      "url": "https://github.com/Timshel/OIDCWarden/blob/f4403598f72d865b501057e130f31d32115baa20/playwright/.env.template",
+      "line_number": 59,
+      "line_preview": "SSO_AUTHORITY=http://${KC_HTTP_HOST}:${KC_HTTP_PORT}/realms/${TEST_REALM}",
+      "key_type": "sso_authority",
+      "description": "Sso Authority",
+      "severity": "medium",
+      "matched_pattern": "http***************************************************ALM}",
+      "timestamp": "2026-03-05T21:58:36.741650"
+    },
+    {
+      "service": "sso",
+      "file": "playwright/.env.template",
+      "repository": "Timshel/OIDCWarden",
+      "url": "https://github.com/Timshel/OIDCWarden/blob/f4403598f72d865b501057e130f31d32115baa20/playwright/.env.template",
+      "line_number": 64,
+      "line_preview": "SSO_ROLES_TOKEN_PATH=/resource_access/${SSO_CLIENT_ID}/roles",
+      "key_type": "sso_roles_token_path",
+      "description": "Sso Roles Token Path",
+      "severity": "medium",
+      "matched_pattern": "/res*******************************oles",
+      "timestamp": "2026-03-05T21:58:36.741738"
+    }
+  ]
+}

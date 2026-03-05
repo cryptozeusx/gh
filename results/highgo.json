@@ -1,0 +1,20 @@
+{
+  "service": "highgo",
+  "scan_timestamp": "2026-03-05T22:08:36.617662",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "highgo",
+      "file": "meeting-management/.env.example",
+      "repository": "YongjianWan/--agentskill",
+      "url": "https://github.com/YongjianWan/--agentskill/blob/dd6b55d8b6b1a7c2f6e56fb4dc7f0ededc3f9a18/meeting-management/.env.example",
+      "line_number": 17,
+      "line_preview": "HIGHGO_PASSWORD=Ailqa2@wsx?Z",
+      "key_type": "highgo_password",
+      "description": "Highgo Password",
+      "severity": "high",
+      "matched_pattern": "Ailq****sx?Z",
+      "timestamp": "2026-03-05T22:04:40.952897"
+    }
+  ]
+}

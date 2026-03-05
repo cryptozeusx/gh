@@ -1,0 +1,111 @@
+{
+  "service": "session",
+  "scan_timestamp": "2026-03-05T22:08:36.635078",
+  "finding_count": 8,
+  "findings": [
+    {
+      "service": "session",
+      "file": "cypress/.env.test",
+      "repository": "TNG/virtual-office",
+      "url": "https://github.com/TNG/virtual-office/blob/30c595fe37711062675346eabd7bf4ce71ddd3b1/cypress/.env.test",
+      "line_number": 2,
+      "line_preview": "SESSION_SECRET=MyS3ssionS3cr3t",
+      "key_type": "session_secret",
+      "description": "Session Secret",
+      "severity": "high",
+      "matched_pattern": "MyS3*******cr3t",
+      "timestamp": "2026-03-05T21:57:52.129359"
+    },
+    {
+      "service": "session",
+      "file": ".env.local.backup",
+      "repository": "shepherdvovkes/skillstestfromeugene",
+      "url": "https://github.com/shepherdvovkes/skillstestfromeugene/blob/585f68c55b95b0e09debc7e97507a8acb6ffef64/.env.local.backup",
+      "line_number": 74,
+      "line_preview": "SESSION_SECRET=f73a1541b62467c563d0de9b96add320",
+      "key_type": "session_secret",
+      "description": "Session Secret",
+      "severity": "high",
+      "matched_pattern": "SESS***************************************d320",
+      "timestamp": "2026-03-05T21:58:11.866673"
+    },
+    {
+      "service": "session",
+      "file": ".env.private.sample",
+      "repository": "mayeaux/nodetube",
+      "url": "https://github.com/mayeaux/nodetube/blob/819b4de9e754d48b4d757a8bf9480e26b9ccda28/.env.private.sample",
+      "line_number": 105,
+      "line_preview": "SESSION_SECRET=setABetterSecretInProduction",
+      "key_type": "session_secret",
+      "description": "Session Secret",
+      "severity": "high",
+      "matched_pattern": "SESS***********************************tion",
+      "timestamp": "2026-03-05T22:00:30.656152"
+    },
+    {
+      "service": "session",
+      "file": "production-secrets/.env.production.new",
+      "repository": "dragoscv/gang-gpt-gta-v",
+      "url": "https://github.com/dragoscv/gang-gpt-gta-v/blob/aa59e5e0d21deb66d50cdea3ffa2413ae5dd9dfc/production-secrets/.env.production.new",
+      "line_number": 33,
+      "line_preview": "SESSION_SECRET=UBZ76OaDWByFfdiDHItNV19bYA0nXA+DjLbkUXtSW10LIXMh",
+      "key_type": "session_secret",
+      "description": "Session Secret",
+      "severity": "high",
+      "matched_pattern": "SESS*******************************************************IXMh",
+      "timestamp": "2026-03-05T22:00:43.451123"
+    },
+    {
+      "service": "session",
+      "file": ".env.tor",
+      "repository": "sheelmorjaria/graphene-mono",
+      "url": "https://github.com/sheelmorjaria/graphene-mono/blob/d0cea1d7b42c3dc4a0601ee16457b13046d6b9d3/.env.tor",
+      "line_number": 20,
+      "line_preview": "SESSION_SECRET=rPw0e3U388A9N2umMj2r2vL4mAVYbLMb",
+      "key_type": "session_secret",
+      "description": "Session Secret",
+      "severity": "high",
+      "matched_pattern": "SESS***************************************bLMb",
+      "timestamp": "2026-03-05T22:00:53.737535"
+    },
+    {
+      "service": "session",
+      "file": ".env",
+      "repository": "iLLRaps3/user-workspace-api",
+      "url": "https://github.com/iLLRaps3/user-workspace-api/blob/7658c0a6aa2c01d3509c54d1056359041e462a9c/.env",
+      "line_number": 1,
+      "line_preview": "SESSION_SECRET=/pfPpmOxZolMPzCtmm+lttQmnQxSJleXF",
+      "key_type": "session_secret",
+      "description": "Session Secret",
+      "severity": "high",
+      "matched_pattern": "SESS****************************************leXF",
+      "timestamp": "2026-03-05T22:02:00.476646"
+    },
+    {
+      "service": "session",
+      "file": ".env.bak",
+      "repository": "Codemethemoney/autonomous-agent-system",
+      "url": "https://github.com/Codemethemoney/autonomous-agent-system/blob/cbd0bdc671207ac8ab1acd68f683dda117f1b0c8/.env.bak",
+      "line_number": 21,
+      "line_preview": "SESSION_SECRET=2858109f7d9a33b9eac66b0870d1d834e015caaf64ffaa7a37ec0fa38b3af7db7c722d38e39a37c8d1ad2e7eef3ee82c3ab1955b0",
+      "key_type": "session_secret",
+      "description": "Session Secret",
+      "severity": "high",
+      "matched_pattern": "SESS***************************************************************************************************************************************637b",
+      "timestamp": "2026-03-05T22:02:09.124259"
+    },
+    {
+      "service": "session",
+      "file": ".env.render.example",
+      "repository": "Dexterous-Ruler/Tanishq",
+      "url": "https://github.com/Dexterous-Ruler/Tanishq/blob/3af55de170dc07aadc9df6580d25e59c9abbd901/.env.render.example",
+      "line_number": 16,
+      "line_preview": "SESSION_SECRET=sSLtvqgltjlXWFkwf7jOsdNmQmwEVxJykRQ4VxU91Ek=",
+      "key_type": "session_secret",
+      "description": "Session Secret",
+      "severity": "high",
+      "matched_pattern": "SESS***************************************************1Ek=",
+      "timestamp": "2026-03-05T22:06:28.327104"
+    }
+  ]
+}

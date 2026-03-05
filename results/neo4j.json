@@ -1,0 +1,33 @@
+{
+  "service": "neo4j",
+  "scan_timestamp": "2026-03-05T22:08:36.624387",
+  "finding_count": 2,
+  "findings": [
+    {
+      "service": "neo4j",
+      "file": "config/.env.production.example",
+      "repository": "Charlunn/AntiFraudKnowledge",
+      "url": "https://github.com/Charlunn/AntiFraudKnowledge/blob/86be5352f70243abd62119f3f46fa5b63522ec83/config/.env.production.example",
+      "line_number": 18,
+      "line_preview": "NEO4J_PASSWORD=prod_neo4j_password",
+      "key_type": "neo4j_password",
+      "description": "Neo4J Password",
+      "severity": "high",
+      "matched_pattern": "prod***********word",
+      "timestamp": "2026-03-05T22:05:32.367125"
+    },
+    {
+      "service": "neo4j",
+      "file": "config/.env.production.example",
+      "repository": "Charlunn/AntiFraudKnowledge",
+      "url": "https://github.com/Charlunn/AntiFraudKnowledge/blob/86be5352f70243abd62119f3f46fa5b63522ec83/config/.env.production.example",
+      "line_number": 19,
+      "line_preview": "NEO4J_AUTH=neo4j/prod_neo4j_password",
+      "key_type": "neo4j_auth",
+      "description": "Neo4J Auth",
+      "severity": "medium",
+      "matched_pattern": "neo4*****************word",
+      "timestamp": "2026-03-05T22:05:33.686173"
+    }
+  ]
+}

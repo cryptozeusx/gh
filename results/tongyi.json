@@ -1,0 +1,111 @@
+{
+  "service": "tongyi",
+  "scan_timestamp": "2026-03-05T22:08:36.639368",
+  "finding_count": 8,
+  "findings": [
+    {
+      "service": "tongyi",
+      "file": "backend/.env",
+      "repository": "yzk4133/paper-download-read",
+      "url": "https://github.com/yzk4133/paper-download-read/blob/a3b8203818f5bb70ed97e6d5a593c34c2938d40b/backend/.env",
+      "line_number": 1,
+      "line_preview": "TONGYI_API_KEY=sk-76c12e9a0e0b492f84fed766e24ccc47",
+      "key_type": "tongyi_api_key",
+      "description": "Tongyi Api Key",
+      "severity": "medium",
+      "matched_pattern": "TONG******************************************cc47",
+      "timestamp": "2026-03-05T22:00:33.105098"
+    },
+    {
+      "service": "tongyi",
+      "file": ".env",
+      "repository": "LiuHarry1/llm-finetuning",
+      "url": "https://github.com/LiuHarry1/llm-finetuning/blob/2f0733c96ab24511c7596000af3e7f91ec9277b0/.env",
+      "line_number": 2,
+      "line_preview": "TONGYI_API_KEY=sk-f256c03643e9491fb1ebc278dd958c2d",
+      "key_type": "tongyi_api_key",
+      "description": "Tongyi Api Key",
+      "severity": "medium",
+      "matched_pattern": "TONG******************************************8c2d",
+      "timestamp": "2026-03-05T22:00:34.948310"
+    },
+    {
+      "service": "tongyi",
+      "file": ".env",
+      "repository": "bilijun13/shixun",
+      "url": "https://github.com/bilijun13/shixun/blob/94deea2ff87b216a2d9a7b5b25d43a907c48945c/.env",
+      "line_number": 5,
+      "line_preview": "TONGYI_API_KEY=sk-c8e41c52057b44a7a20ce31ebb17301a",
+      "key_type": "tongyi_api_key",
+      "description": "Tongyi Api Key",
+      "severity": "medium",
+      "matched_pattern": "TONG******************************************301a",
+      "timestamp": "2026-03-05T22:00:36.656348"
+    },
+    {
+      "service": "tongyi",
+      "file": ".env",
+      "repository": "tim-qtp/LangChainLLM",
+      "url": "https://github.com/tim-qtp/LangChainLLM/blob/dd0f9073ce7d3f3b01c1af701ff91282dc16aaf9/.env",
+      "line_number": 5,
+      "line_preview": "TONGYI_API_KEY='sk-9877d2d093cf4684a1d7ba89721c6194'",
+      "key_type": "tongyi_api_key",
+      "description": "Tongyi Api Key",
+      "severity": "medium",
+      "matched_pattern": "TONG********************************************194'",
+      "timestamp": "2026-03-05T22:02:04.625572"
+    },
+    {
+      "service": "tongyi",
+      "file": "src/.env",
+      "repository": "6Roy/EasyEdu",
+      "url": "https://github.com/6Roy/EasyEdu/blob/66a3ea61aafb398dd265cd5b7db6d15d06867452/src/.env",
+      "line_number": 1,
+      "line_preview": "TONGYI_API_KEY=sk-078ba55e178943eb8909249926d8b0b7",
+      "key_type": "tongyi_api_key",
+      "description": "Tongyi Api Key",
+      "severity": "medium",
+      "matched_pattern": "TONG******************************************b0b7",
+      "timestamp": "2026-03-05T22:03:02.787671"
+    },
+    {
+      "service": "tongyi",
+      "file": ".env",
+      "repository": "DizzyFrog/ruoyi_code_gen",
+      "url": "https://github.com/DizzyFrog/ruoyi_code_gen/blob/7335be2079baaadcaf077f101a983c3e1ddd1f92/.env",
+      "line_number": 1,
+      "line_preview": "TONGYI_API_KEY=sk-14a2a30d135148dcaef8a673a21af02a",
+      "key_type": "tongyi_api_key",
+      "description": "Tongyi Api Key",
+      "severity": "medium",
+      "matched_pattern": "TONG******************************************f02a",
+      "timestamp": "2026-03-05T22:03:19.196961"
+    },
+    {
+      "service": "tongyi",
+      "file": "week05/homework/.env",
+      "repository": "OopsXie/KS",
+      "url": "https://github.com/OopsXie/KS/blob/a10eebe1b627d797a19c82304b88597b13d5a14d/week05/homework/.env",
+      "line_number": 1,
+      "line_preview": "TONGYI_API_KEY=sk-b4fa11a4a1dd4cc39ead9288a9c6e698",
+      "key_type": "tongyi_api_key",
+      "description": "Tongyi Api Key",
+      "severity": "medium",
+      "matched_pattern": "TONG******************************************e698",
+      "timestamp": "2026-03-05T22:03:46.907513"
+    },
+    {
+      "service": "tongyi",
+      "file": "server/.env.example",
+      "repository": "jichi-alt/super-fin",
+      "url": "https://github.com/jichi-alt/super-fin/blob/8ff358e5fb7ddcf9fa8fbb6ad38f109f3b272363/server/.env.example",
+      "line_number": 18,
+      "line_preview": "TONGYI_API_KEY=sk-347ccc4fad18492589b20b37b62da542",
+      "key_type": "tongyi_api_key",
+      "description": "Tongyi Api Key",
+      "severity": "medium",
+      "matched_pattern": "TONG******************************************a542",
+      "timestamp": "2026-03-05T22:04:32.752718"
+    }
+  ]
+}

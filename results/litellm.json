@@ -1,0 +1,33 @@
+{
+  "service": "litellm",
+  "scan_timestamp": "2026-03-05T22:08:36.620534",
+  "finding_count": 2,
+  "findings": [
+    {
+      "service": "litellm",
+      "file": ".env.dev.example",
+      "repository": "AmitJhaCE/tiddi",
+      "url": "https://github.com/AmitJhaCE/tiddi/blob/4460afb92475c6b8672560cbc0ba1bd8409163a0/.env.dev.example",
+      "line_number": 15,
+      "line_preview": "LITELLM_MASTER_KEY=dev-master-key-12345",
+      "key_type": "litellm_master_key",
+      "description": "Litellm Master Key",
+      "severity": "critical",
+      "matched_pattern": "dev-************2345",
+      "timestamp": "2026-03-05T22:02:46.254830"
+    },
+    {
+      "service": "litellm",
+      "file": "litellm-setup/.env",
+      "repository": "NotDonCitron/litellm",
+      "url": "https://github.com/NotDonCitron/litellm/blob/d11861fd7c7096563bba9ac910248abcea33aa12/litellm-setup/.env",
+      "line_number": 2,
+      "line_preview": "LITELLM_MASTER_KEY=sk-1234567890abcdef",
+      "key_type": "litellm_master_key",
+      "description": "Litellm Master Key",
+      "severity": "critical",
+      "matched_pattern": "LITE******************************cdef",
+      "timestamp": "2026-03-05T22:03:00.974237"
+    }
+  ]
+}

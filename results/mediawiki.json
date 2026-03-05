@@ -1,0 +1,33 @@
+{
+  "service": "mediawiki",
+  "scan_timestamp": "2026-03-05T22:08:36.622177",
+  "finding_count": 2,
+  "findings": [
+    {
+      "service": "mediawiki",
+      "file": ".env copy 2",
+      "repository": "jthou/hou-cli",
+      "url": "https://github.com/jthou/hou-cli/blob/f97d3b16cc3b0cc9ceb797a81707afa3914f3bcc/.env%20copy%202",
+      "line_number": 503,
+      "line_preview": "MEDIAWIKI_PASSWORD=jthou12345678",
+      "key_type": "mediawiki_password",
+      "description": "Mediawiki Password",
+      "severity": "high",
+      "matched_pattern": "jtho*****5678",
+      "timestamp": "2026-03-05T22:01:37.353578"
+    },
+    {
+      "service": "mediawiki",
+      "file": ".env copy 2",
+      "repository": "jthou/hou-cli",
+      "url": "https://github.com/jthou/hou-cli/blob/f97d3b16cc3b0cc9ceb797a81707afa3914f3bcc/.env%20copy%202",
+      "line_number": 527,
+      "line_preview": "MEDIAWIKI_BOT_PASSWORD=ghi4vd19u8qij7f3ml208r9l6m25m12r",
+      "key_type": "mediawiki_bot_password",
+      "description": "Mediawiki Bot Password",
+      "severity": "high",
+      "matched_pattern": "ghi4************************m12r",
+      "timestamp": "2026-03-05T22:01:40.280088"
+    }
+  ]
+}

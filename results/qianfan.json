@@ -1,0 +1,111 @@
+{
+  "service": "qianfan",
+  "scan_timestamp": "2026-03-05T22:08:36.631108",
+  "finding_count": 8,
+  "findings": [
+    {
+      "service": "qianfan",
+      "file": ".env",
+      "repository": "wristwaking/hunan-xueqing-warmup-server",
+      "url": "https://github.com/wristwaking/hunan-xueqing-warmup-server/blob/25643581a49fe3a70bb6cc33f37c5e2d8ad4604f/.env",
+      "line_number": 1,
+      "line_preview": "QIANFAN_ACCESS_KEY=ce455dd7c0394cbbace9617d410ebde7",
+      "key_type": "qianfan_key",
+      "description": "Baidu Qianfan / ERNIE Key",
+      "severity": "high",
+      "matched_pattern": "QIAN*******************************************bde7",
+      "timestamp": "2026-03-05T22:00:33.000520"
+    },
+    {
+      "service": "qianfan",
+      "file": ".env",
+      "repository": "wristwaking/hunan-xueqing-warmup-server",
+      "url": "https://github.com/wristwaking/hunan-xueqing-warmup-server/blob/25643581a49fe3a70bb6cc33f37c5e2d8ad4604f/.env",
+      "line_number": 2,
+      "line_preview": "QIANFAN_SECRET_KEY=39cba2d142e2453d97d8e35aa431f914",
+      "key_type": "qianfan_key",
+      "description": "Baidu Qianfan / ERNIE Key",
+      "severity": "high",
+      "matched_pattern": "QIAN*******************************************f914",
+      "timestamp": "2026-03-05T22:00:33.000703"
+    },
+    {
+      "service": "qianfan",
+      "file": ".env.docker",
+      "repository": "zhengsuanfa/omniedu_zhongruanbei",
+      "url": "https://github.com/zhengsuanfa/omniedu_zhongruanbei/blob/a7c5cef939a1fe9e99611baa65051fe62a1e6a8d/.env.docker",
+      "line_number": 4,
+      "line_preview": "QIANFAN_ACCESS_KEY=bce-v3/ALTAK-YHzNwp2pFDhPaj6l1ffxg/47d04025d6facb908f5046353bb83b7cf058689e",
+      "key_type": "qianfan_access_key",
+      "description": "Qianfan Access Key",
+      "severity": "medium",
+      "matched_pattern": "QIAN**************************************************************************************689e",
+      "timestamp": "2026-03-05T22:00:33.167490"
+    },
+    {
+      "service": "qianfan",
+      "file": "work/.env",
+      "repository": "llmadd/mindmap_streamlit_demo",
+      "url": "https://github.com/llmadd/mindmap_streamlit_demo/blob/a9dadbe76998aa3e017ec7dd7b19b2852c447c8e/work/.env",
+      "line_number": 1,
+      "line_preview": "QIANFAN_ACCESS_KEY = \"995cbd07f1174a5490176fd02eace66a\"",
+      "key_type": "qianfan_key",
+      "description": "Baidu Qianfan / ERNIE Key",
+      "severity": "high",
+      "matched_pattern": "QIAN***********************************************66a\"",
+      "timestamp": "2026-03-05T22:00:33.542350"
+    },
+    {
+      "service": "qianfan",
+      "file": "work/.env",
+      "repository": "llmadd/mindmap_streamlit_demo",
+      "url": "https://github.com/llmadd/mindmap_streamlit_demo/blob/a9dadbe76998aa3e017ec7dd7b19b2852c447c8e/work/.env",
+      "line_number": 2,
+      "line_preview": "QIANFAN_SECRET_KEY = \"3b5592144eee4239b3a5c0d93ca4aad9\"",
+      "key_type": "qianfan_key",
+      "description": "Baidu Qianfan / ERNIE Key",
+      "severity": "high",
+      "matched_pattern": "QIAN***********************************************ad9\"",
+      "timestamp": "2026-03-05T22:00:33.584037"
+    },
+    {
+      "service": "qianfan",
+      "file": "\u6a21\u578b\u793a\u4f8b\u7ed3\u679c/.env",
+      "repository": "chenhao1999/llm_project",
+      "url": "https://github.com/chenhao1999/llm_project/blob/7e6b4c8b42b7626ddfd44442b42267ec631a4cca/%E6%A8%A1%E5%9E%8B%E7%A4%BA%E4%BE%8B%E7%BB%93%E6%9E%9C/.env",
+      "line_number": 4,
+      "line_preview": "QIANFAN_ACCESS_KEY = \"b7bdf7fad7d740f49cda2e0a49818783\"",
+      "key_type": "qianfan_key",
+      "description": "Baidu Qianfan / ERNIE Key",
+      "severity": "high",
+      "matched_pattern": "QIAN***********************************************783\"",
+      "timestamp": "2026-03-05T22:00:35.552302"
+    },
+    {
+      "service": "qianfan",
+      "file": "\u6a21\u578b\u793a\u4f8b\u7ed3\u679c/.env",
+      "repository": "chenhao1999/llm_project",
+      "url": "https://github.com/chenhao1999/llm_project/blob/7e6b4c8b42b7626ddfd44442b42267ec631a4cca/%E6%A8%A1%E5%9E%8B%E7%A4%BA%E4%BE%8B%E7%BB%93%E6%9E%9C/.env",
+      "line_number": 5,
+      "line_preview": "QIANFAN_SECRET_KEY = \"ec4d3f45065742aaaf20e5bd4751eed5\"",
+      "key_type": "qianfan_key",
+      "description": "Baidu Qianfan / ERNIE Key",
+      "severity": "high",
+      "matched_pattern": "QIAN***********************************************ed5\"",
+      "timestamp": "2026-03-05T22:00:35.747098"
+    },
+    {
+      "service": "qianfan",
+      "file": ".env",
+      "repository": "aidezone/auto-gen-golang-agent",
+      "url": "https://github.com/aidezone/auto-gen-golang-agent/blob/65504198da0996602c1ad5e57b6335ecf487dfed/.env",
+      "line_number": 1,
+      "line_preview": "QIANFAN_ACCESS_KEY=d8d0391ad22045f2906e0d7a32bbf5b0",
+      "key_type": "qianfan_key",
+      "description": "Baidu Qianfan / ERNIE Key",
+      "severity": "high",
+      "matched_pattern": "QIAN*******************************************f5b0",
+      "timestamp": "2026-03-05T22:00:38.209371"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "service": "zanbil",
+  "scan_timestamp": "2026-03-05T22:08:36.642025",
+  "finding_count": 2,
+  "findings": [
+    {
+      "service": "zanbil",
+      "file": "internal/config/defaults.env",
+      "repository": "mohammadne/zanbil",
+      "url": "https://github.com/mohammadne/zanbil/blob/78e2582801b658568fd93942f608ec9a3a1261c3/internal/config/defaults.env",
+      "line_number": 11,
+      "line_preview": "ZANBIL__POSTGRES__PASSWORD=9xz3jrd8wf",
+      "key_type": "zanbil__postgres__password",
+      "description": "Zanbil  Postgres  Password",
+      "severity": "high",
+      "matched_pattern": "9xz3**d8wf",
+      "timestamp": "2026-03-05T21:58:14.417161"
+    },
+    {
+      "service": "zanbil",
+      "file": "internal/config/defaults.env",
+      "repository": "meagercomme/zanbil",
+      "url": "https://github.com/meagercomme/zanbil/blob/8e9477be0ef111411d572ae4a5e3372a4fd0f678/internal/config/defaults.env",
+      "line_number": 11,
+      "line_preview": "ZANBIL__POSTGRES__PASSWORD=9xz3jrd8wf",
+      "key_type": "zanbil__postgres__password",
+      "description": "Zanbil  Postgres  Password",
+      "severity": "high",
+      "matched_pattern": "ZANB*****************************d8wf",
+      "timestamp": "2026-03-05T21:58:32.217868"
+    }
+  ]
+}

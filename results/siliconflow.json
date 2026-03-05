@@ -1,0 +1,85 @@
+{
+  "service": "siliconflow",
+  "scan_timestamp": "2026-03-05T22:08:36.635447",
+  "finding_count": 6,
+  "findings": [
+    {
+      "service": "siliconflow",
+      "file": ".env.template",
+      "repository": "xerrors/Yuxi-Know",
+      "url": "https://github.com/xerrors/Yuxi-Know/blob/c4beda2ef106276627af1f2352bec1d755095da5/.env.template",
+      "line_number": 10,
+      "line_preview": "SILICONFLOW_API_KEY=  # \u63a8\u8350\u4f7f\u7528\u7845\u57fa\u6d41\u52a8\u514d\u8d39\u670d\u52a1 https://cloud.siliconflow.cn/i/Eo5yTHGJ",
+      "key_type": "siliconflow_api_key",
+      "description": "Siliconflow Api Key",
+      "severity": "medium",
+      "matched_pattern": "# \u63a8\u8350**********************************************THGJ",
+      "timestamp": "2026-03-05T22:00:30.924002"
+    },
+    {
+      "service": "siliconflow",
+      "file": ".env.develop",
+      "repository": "koala9527/ai-poster",
+      "url": "https://github.com/koala9527/ai-poster/blob/384ab2c8e31d45adbadea6f6fc64e5665cfda903/.env.develop",
+      "line_number": 1,
+      "line_preview": "SILICONFLOW_API_KEY=sk-1234567890",
+      "key_type": "siliconflow_api_key",
+      "description": "Siliconflow Api Key",
+      "severity": "medium",
+      "matched_pattern": "SILI*************************7890",
+      "timestamp": "2026-03-05T22:00:33.324686"
+    },
+    {
+      "service": "siliconflow",
+      "file": ".env-example",
+      "repository": "ming-xwolf/api-deep-search",
+      "url": "https://github.com/ming-xwolf/api-deep-search/blob/e147934b6c19812e6152e4136696c34df2bd83b7/.env-example",
+      "line_number": 3,
+      "line_preview": "SILICONFLOW_API_KEY=siliconflow_api_key  # \u5982\u679c\u4f7f\u7528SiliconFlow\u5d4c\u5165",
+      "key_type": "siliconflow_api_key",
+      "description": "Siliconflow Api Key",
+      "severity": "medium",
+      "matched_pattern": "sili********************************ow\u5d4c\u5165",
+      "timestamp": "2026-03-05T22:00:34.657686"
+    },
+    {
+      "service": "siliconflow",
+      "file": ".env.template",
+      "repository": "khongmanhpro/fiss_bot",
+      "url": "https://github.com/khongmanhpro/fiss_bot/blob/0194b20743f3956356d6f90343c26885197d59b8/.env.template",
+      "line_number": 5,
+      "line_preview": "SILICONFLOW_API_KEY=  # \u63a8\u8350\u4f7f\u7528\u7845\u57fa\u6d41\u52a8\u514d\u8d39\u670d\u52a1 https://cloud.siliconflow.cn/i/Eo5yTHGJ",
+      "key_type": "siliconflow_api_key",
+      "description": "Siliconflow Api Key",
+      "severity": "medium",
+      "matched_pattern": "# \u63a8\u8350**********************************************THGJ",
+      "timestamp": "2026-03-05T22:02:38.449015"
+    },
+    {
+      "service": "siliconflow",
+      "file": ".env",
+      "repository": "stdjhs/aibot",
+      "url": "https://github.com/stdjhs/aibot/blob/b5d939ac72b60ef2eda3a9975e00137501ad07a8/.env",
+      "line_number": 23,
+      "line_preview": "VITE_SILICONFLOW_API_KEY=sk-e669f180198d0cfd2743d869bafc299a",
+      "key_type": "siliconflow_key",
+      "description": "SiliconFlow API Key",
+      "severity": "high",
+      "matched_pattern": "SILI***********************************************299a",
+      "timestamp": "2026-03-05T22:03:01.781253"
+    },
+    {
+      "service": "siliconflow",
+      "file": ".env.template",
+      "repository": "757607106/songlin-agent",
+      "url": "https://github.com/757607106/songlin-agent/blob/0c997b693c976dc9d4df3916103b537602e902d3/.env.template",
+      "line_number": 5,
+      "line_preview": "SILICONFLOW_API_KEY=  # \u63a8\u8350\u4f7f\u7528\u7845\u57fa\u6d41\u52a8\u514d\u8d39\u670d\u52a1 https://cloud.siliconflow.cn/i/Eo5yTHGJ",
+      "key_type": "siliconflow_api_key",
+      "description": "Siliconflow Api Key",
+      "severity": "medium",
+      "matched_pattern": "# \u63a8\u8350**********************************************THGJ",
+      "timestamp": "2026-03-05T22:03:19.383069"
+    }
+  ]
+}

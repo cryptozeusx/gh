@@ -1,0 +1,20 @@
+{
+  "service": "instagram",
+  "scan_timestamp": "2026-03-05T22:08:36.618526",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "instagram",
+      "file": "testdir/testfiles/extra.env",
+      "repository": "zaneprall/Secrets-Scanner-Test-Files",
+      "url": "https://github.com/zaneprall/Secrets-Scanner-Test-Files/blob/0ded8359e18275d9727d008545a386aa9b07d6ab/testdir/testfiles/extra.env",
+      "line_number": 32,
+      "line_preview": "INSTAGRAM_TOKEN=IGQV1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+      "key_type": "instagram_token",
+      "description": "Instagram Token",
+      "severity": "medium",
+      "matched_pattern": "IGQV********************************************************************6789",
+      "timestamp": "2026-03-05T22:00:40.780519"
+    }
+  ]
+}

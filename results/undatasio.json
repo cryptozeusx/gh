@@ -1,0 +1,20 @@
+{
+  "service": "undatasio",
+  "scan_timestamp": "2026-03-05T22:08:36.640253",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "undatasio",
+      "file": "example/dev.env",
+      "repository": "lq1909017169/undatasio",
+      "url": "https://github.com/lq1909017169/undatasio/blob/e679b1390b42c0d8a4d75e49052d43e9e8df798a/example/dev.env",
+      "line_number": 2,
+      "line_preview": "UNDATASIO_API_KEY=... # Undatasio platform API key",
+      "key_type": "undatasio_api_key",
+      "description": "Undatasio Api Key",
+      "severity": "medium",
+      "matched_pattern": "... ************************ key",
+      "timestamp": "2026-03-05T22:01:54.515480"
+    }
+  ]
+}

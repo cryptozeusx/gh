@@ -1,0 +1,20 @@
+{
+  "service": "oauthlib",
+  "scan_timestamp": "2026-03-05T22:08:36.626280",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "oauthlib",
+      "file": "image_generation/conda.env.txt",
+      "repository": "VariableDeclared/mlthings",
+      "url": "https://github.com/VariableDeclared/mlthings/blob/866628e067cf11c0294bf78ec540fdae75856ee3/image_generation/conda.env.txt",
+      "line_number": 137,
+      "line_preview": "oauthlib=3.2.2=py310hca03da5_0",
+      "key_type": "oauthlib",
+      "description": "Oauthlib",
+      "severity": "medium",
+      "matched_pattern": "3.2.*************a5_0",
+      "timestamp": "2026-03-05T21:58:42.241942"
+    }
+  ]
+}

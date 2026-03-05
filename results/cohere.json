@@ -1,0 +1,20 @@
+{
+  "service": "cohere",
+  "scan_timestamp": "2026-03-05T22:08:36.601322",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "cohere",
+      "file": ".env-example",
+      "repository": "redis-developer/redis-rag-workbench",
+      "url": "https://github.com/redis-developer/redis-rag-workbench/blob/8ef3b3fc36fdfbd81fcd29bcbfac6160d86d81e5/.env-example",
+      "line_number": 10,
+      "line_preview": "COHERE_API_KEY=7AQiafYYzNXcfb1cbmLyShhjFT4CFndrE15J7m2Z",
+      "key_type": "cohere_api_key",
+      "description": "Cohere Api Key",
+      "severity": "medium",
+      "matched_pattern": "COHE***********************************************7m2Z",
+      "timestamp": "2026-03-05T22:01:05.749352"
+    }
+  ]
+}

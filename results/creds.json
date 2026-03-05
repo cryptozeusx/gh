@@ -1,0 +1,20 @@
+{
+  "service": "creds",
+  "scan_timestamp": "2026-03-05T22:08:36.601632",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "creds",
+      "file": ".env.backup",
+      "repository": "hanzoai/chat",
+      "url": "https://github.com/hanzoai/chat/blob/1633017c8a8f0d489842b6a9288eec129d12fdc6/.env.backup",
+      "line_number": 220,
+      "line_preview": "CREDS_KEY=f34be427ebb29de8d88c107a71546019685ed8b241d8f2ed00c3df97ad2566f0",
+      "key_type": "creds_key",
+      "description": "Creds Key",
+      "severity": "medium",
+      "matched_pattern": "f34b********************************************************66f0",
+      "timestamp": "2026-03-05T22:00:58.556675"
+    }
+  ]
+}

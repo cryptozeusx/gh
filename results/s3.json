@@ -1,0 +1,46 @@
+{
+  "service": "s3",
+  "scan_timestamp": "2026-03-05T22:08:36.633210",
+  "finding_count": 3,
+  "findings": [
+    {
+      "service": "s3",
+      "file": "iafactory-core-apps/video-studio/.env.ready",
+      "repository": "bensalemboualem/Saas-iFactory-Algeria",
+      "url": "https://github.com/bensalemboualem/Saas-iFactory-Algeria/blob/d8a455ea4f6a40455e4771ba0121cf31516f7bea/iafactory-core-apps/video-studio/.env.ready",
+      "line_number": 76,
+      "line_preview": "S3_ACCESS_KEY=VOTRE_ACCESS_KEY_R2",
+      "key_type": "s3_access_key",
+      "description": "S3 Access Key",
+      "severity": "medium",
+      "matched_pattern": "VOTR***********Y_R2",
+      "timestamp": "2026-03-05T22:00:36.686350"
+    },
+    {
+      "service": "s3",
+      "file": "staging.env.example",
+      "repository": "tradermaster74-code/JGNEXT_local_dev",
+      "url": "https://github.com/tradermaster74-code/JGNEXT_local_dev/blob/e9a0425e436e7d85343bd28909b6457c3bd7b0bb/staging.env.example",
+      "line_number": 230,
+      "line_preview": "BACKUP_S3_ACCESS_KEY=CHANGE_ME_BACKUP_S3_ACCESS_KEY",
+      "key_type": "s3_access_key",
+      "description": "S3 Access Key",
+      "severity": "medium",
+      "matched_pattern": "S3_A************************************_KEY",
+      "timestamp": "2026-03-05T22:05:49.125441"
+    },
+    {
+      "service": "s3",
+      "file": "staging.env.example",
+      "repository": "tradermaster74-code/JGNEXT_local_dev",
+      "url": "https://github.com/tradermaster74-code/JGNEXT_local_dev/blob/e9a0425e436e7d85343bd28909b6457c3bd7b0bb/staging.env.example",
+      "line_number": 231,
+      "line_preview": "BACKUP_S3_SECRET_KEY=CHANGE_ME_BACKUP_S3_SECRET_KEY",
+      "key_type": "s3_secret_key",
+      "description": "S3 Secret Key",
+      "severity": "high",
+      "matched_pattern": "S3_S************************************_KEY",
+      "timestamp": "2026-03-05T22:05:49.405578"
+    }
+  ]
+}

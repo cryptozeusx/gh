@@ -1,0 +1,20 @@
+{
+  "service": "nuxt",
+  "scan_timestamp": "2026-03-05T22:08:36.625871",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "nuxt",
+      "file": ".env-example",
+      "repository": "leamsigc/nuxt-better-auth-drizzle",
+      "url": "https://github.com/leamsigc/nuxt-better-auth-drizzle/blob/c4c0025930c8e82cb95ff6ebaefd42f2b750ca42/.env-example",
+      "line_number": 3,
+      "line_preview": "NUXT_SESSION_PASSWORD=f04d76e91cca40e78ba6d4926e506703",
+      "key_type": "nuxt_session_password",
+      "description": "Nuxt Session Password",
+      "severity": "high",
+      "matched_pattern": "f04d************************6703",
+      "timestamp": "2026-03-05T22:00:33.922004"
+    }
+  ]
+}

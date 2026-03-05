@@ -1,0 +1,33 @@
+{
+  "service": "ngrok",
+  "scan_timestamp": "2026-03-05T22:08:36.625576",
+  "finding_count": 2,
+  "findings": [
+    {
+      "service": "ngrok",
+      "file": ".env_1",
+      "repository": "gcsharathbabu/bot-experiment",
+      "url": "https://github.com/gcsharathbabu/bot-experiment/blob/14bc42338dacc4d75632de5667f03f41e827c65c/.env_1",
+      "line_number": 4,
+      "line_preview": "NGROK_AUTHTOKEN=2yRmeIIxA9zq7jNeLfxi7Pk6Sz3_2BZcrwnRvQGmkDDwtLZku",
+      "key_type": "ngrok_authtoken",
+      "description": "Ngrok Authtoken",
+      "severity": "medium",
+      "matched_pattern": "2yRm*****************************************LZku",
+      "timestamp": "2026-03-05T22:01:43.335909"
+    },
+    {
+      "service": "ngrok",
+      "file": ".env.bak",
+      "repository": "vonhatcuong/n8n-docker-setup",
+      "url": "https://github.com/vonhatcuong/n8n-docker-setup/blob/90816d53b7a557f2440030a6c95c51d3df33bc17/.env.bak",
+      "line_number": 65,
+      "line_preview": "NGROK_AUTHTOKEN=2yrfLfnUU6IIDTcz5UlfwMO8JJL_7LN1yivdBKeF63DhhRYD7",
+      "key_type": "ngrok_authtoken",
+      "description": "Ngrok Authtoken",
+      "severity": "medium",
+      "matched_pattern": "NGRO*********************************************************RYD7",
+      "timestamp": "2026-03-05T22:04:07.363038"
+    }
+  ]
+}

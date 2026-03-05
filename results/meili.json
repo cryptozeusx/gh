@@ -1,0 +1,20 @@
+{
+  "service": "meili",
+  "scan_timestamp": "2026-03-05T22:08:36.622439",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "meili",
+      "file": ".env.backup",
+      "repository": "hanzoai/chat",
+      "url": "https://github.com/hanzoai/chat/blob/1633017c8a8f0d489842b6a9288eec129d12fdc6/.env.backup",
+      "line_number": 307,
+      "line_preview": "MEILI_MASTER_KEY=DrhYf7zENyR6AlUCKmnz0eYASOQdl6zxH7s7MKFSfFCt",
+      "key_type": "meili_master_key",
+      "description": "Meili Master Key",
+      "severity": "critical",
+      "matched_pattern": "DrhY************************************fFCt",
+      "timestamp": "2026-03-05T22:01:00.824704"
+    }
+  ]
+}

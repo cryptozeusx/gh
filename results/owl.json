@@ -1,0 +1,20 @@
+{
+  "service": "owl",
+  "scan_timestamp": "2026-03-05T22:08:36.629110",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "owl",
+      "file": ".env.example.backup_20250602_165153",
+      "repository": "dumbsheep1990/zzdsj-backend-api",
+      "url": "https://github.com/dumbsheep1990/zzdsj-backend-api/blob/3dbab0db51522c3a58d783101130a6251c835bfa/.env.example.backup_20250602_165153",
+      "line_number": 383,
+      "line_preview": "OWL_TOOL_LLM_MAX_TOKENS=4096          # \u6700\u5927\u751f\u6210token\u6570",
+      "key_type": "owl_tool_llm_max_tokens",
+      "description": "Owl Tool Llm Max Tokens",
+      "severity": "medium",
+      "matched_pattern": "4096******************ken\u6570",
+      "timestamp": "2026-03-05T22:00:34.242776"
+    }
+  ]
+}

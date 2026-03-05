@@ -1,0 +1,33 @@
+{
+  "service": "mapbox",
+  "scan_timestamp": "2026-03-05T22:08:36.621846",
+  "finding_count": 2,
+  "findings": [
+    {
+      "service": "mapbox",
+      "file": "config/.env.TEMPLATE",
+      "repository": "artsmia/lume",
+      "url": "https://github.com/artsmia/lume/blob/3514616c1d454995865188d75d068496cfe5fb2a/config/.env.TEMPLATE",
+      "line_number": 98,
+      "line_preview": "MAPBOX_API_TOKEN=pk.eyJ1IjoiY2FybHBlYXNsZWUiLCJhIjoiY2ppbHZ0ZjJoMGw2cjNwc3pwZDl6OHluMCJ9.3ZcaF7H5a31u8_LB_VaR_Q",
+      "key_type": "mapbox_api_token",
+      "description": "Mapbox Api Token",
+      "severity": "medium",
+      "matched_pattern": "pk.e**************************************************************************************aR_Q",
+      "timestamp": "2026-03-05T22:00:36.643534"
+    },
+    {
+      "service": "mapbox",
+      "file": ".env.local.example",
+      "repository": "jgtolentino/scout-dashboard-insight-kit",
+      "url": "https://github.com/jgtolentino/scout-dashboard-insight-kit/blob/c26c991e92dffbeab4bf4cf2eb05dd9f73cb2af5/.env.local.example",
+      "line_number": 45,
+      "line_preview": "MAPBOX_ACCESS_TOKEN=pk.eyJ1Ijoiamd0b2xlbnRpbm8iLCJhIjoiY21jMmNycWRiMDc0ajJqcHZoaDYyeTJ1NiJ9.Dns6WOql16BUQ4l7otaeww",
+      "key_type": "mapbox_access_token",
+      "description": "Mapbox Access Token",
+      "severity": "medium",
+      "matched_pattern": "pk.e**************************************************************************************aeww",
+      "timestamp": "2026-03-05T22:03:07.311320"
+    }
+  ]
+}

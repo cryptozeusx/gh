@@ -1,0 +1,33 @@
+{
+  "service": "cloud",
+  "scan_timestamp": "2026-03-05T22:08:36.600862",
+  "finding_count": 2,
+  "findings": [
+    {
+      "service": "cloud",
+      "file": "src/config/.env.config",
+      "repository": "Bipon-Roy/nextjs-e-commerce",
+      "url": "https://github.com/Bipon-Roy/nextjs-e-commerce/blob/fe9c1207f5d9c327b1755e76365d901fa6705e28/src/config/.env.config",
+      "line_number": 16,
+      "line_preview": "CLOUD_API_KEY=        # Your Cloudinary API key",
+      "key_type": "cloud_api_key",
+      "description": "Cloud Api Key",
+      "severity": "medium",
+      "matched_pattern": "# Yo***************** key",
+      "timestamp": "2026-03-05T22:04:44.746785"
+    },
+    {
+      "service": "cloud",
+      "file": "src/config/.env.config",
+      "repository": "Bipon-Roy/nextjs-e-commerce",
+      "url": "https://github.com/Bipon-Roy/nextjs-e-commerce/blob/fe9c1207f5d9c327b1755e76365d901fa6705e28/src/config/.env.config",
+      "line_number": 17,
+      "line_preview": "CLOUD_API_SECRET=     # Your Cloudinary API secret",
+      "key_type": "cloud_api_secret",
+      "description": "Cloud Api Secret",
+      "severity": "high",
+      "matched_pattern": "# Yo********************cret",
+      "timestamp": "2026-03-05T22:04:46.054044"
+    }
+  ]
+}

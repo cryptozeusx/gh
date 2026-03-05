@@ -1,0 +1,85 @@
+{
+  "service": "pusher",
+  "scan_timestamp": "2026-03-05T22:08:36.630973",
+  "finding_count": 6,
+  "findings": [
+    {
+      "service": "pusher",
+      "file": ".env new",
+      "repository": "ghafir2000/final_exam",
+      "url": "https://github.com/ghafir2000/final_exam/blob/2fc1c2e16f833514aa8dcc33c2bd77a6301e21a1/.env%20new",
+      "line_number": 55,
+      "line_preview": "PUSHER_APP_KEY=8f3ba2f83c031214ea3f",
+      "key_type": "pusher_app_key",
+      "description": "Pusher App Key",
+      "severity": "medium",
+      "matched_pattern": "PUSH***************************ea3f",
+      "timestamp": "2026-03-05T22:02:41.732591"
+    },
+    {
+      "service": "pusher",
+      "file": ".env new",
+      "repository": "ghafir2000/final_exam",
+      "url": "https://github.com/ghafir2000/final_exam/blob/2fc1c2e16f833514aa8dcc33c2bd77a6301e21a1/.env%20new",
+      "line_number": 56,
+      "line_preview": "PUSHER_APP_SECRET=30d6fe3506ee15079985",
+      "key_type": "pusher_app_secret",
+      "description": "Pusher App Secret",
+      "severity": "high",
+      "matched_pattern": "PUSH******************************9985",
+      "timestamp": "2026-03-05T22:02:51.560093"
+    },
+    {
+      "service": "pusher",
+      "file": ".envProd",
+      "repository": "xruzyyy/main",
+      "url": "https://github.com/xruzyyy/main/blob/ae5cb5d71b2924fab9bbab74606d693d7efd1976/.envProd",
+      "line_number": 49,
+      "line_preview": "PUSHER_APP_KEY=683655804098aff64c03",
+      "key_type": "pusher_app_key",
+      "description": "Pusher App Key",
+      "severity": "medium",
+      "matched_pattern": "PUSH***************************4c03",
+      "timestamp": "2026-03-05T22:03:27.850355"
+    },
+    {
+      "service": "pusher",
+      "file": ".envProd",
+      "repository": "xruzyyy/main",
+      "url": "https://github.com/xruzyyy/main/blob/ae5cb5d71b2924fab9bbab74606d693d7efd1976/.envProd",
+      "line_number": 52,
+      "line_preview": "PUSHER_APP_SECRET=25d96e64ed84479355ac",
+      "key_type": "pusher_app_secret",
+      "description": "Pusher App Secret",
+      "severity": "high",
+      "matched_pattern": "PUSH******************************55ac",
+      "timestamp": "2026-03-05T22:03:38.185638"
+    },
+    {
+      "service": "pusher",
+      "file": ".env_ant",
+      "repository": "romeldev/pakamuros",
+      "url": "https://github.com/romeldev/pakamuros/blob/0d81ad41476826c2eeb209c0255019e66511c9a5/.env_ant",
+      "line_number": 73,
+      "line_preview": "PUSHER_APP_KEY=a780fbb9fdb4016bd2e7",
+      "key_type": "pusher_app_key",
+      "description": "Pusher App Key",
+      "severity": "medium",
+      "matched_pattern": "PUSH***************************d2e7",
+      "timestamp": "2026-03-05T22:07:07.744872"
+    },
+    {
+      "service": "pusher",
+      "file": ".env_ant",
+      "repository": "romeldev/pakamuros",
+      "url": "https://github.com/romeldev/pakamuros/blob/0d81ad41476826c2eeb209c0255019e66511c9a5/.env_ant",
+      "line_number": 74,
+      "line_preview": "PUSHER_APP_SECRET=856695ffd03d0f03932a",
+      "key_type": "pusher_app_secret",
+      "description": "Pusher App Secret",
+      "severity": "high",
+      "matched_pattern": "PUSH******************************932a",
+      "timestamp": "2026-03-05T22:07:07.806581"
+    }
+  ]
+}

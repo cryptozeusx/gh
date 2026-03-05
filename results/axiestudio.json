@@ -1,0 +1,20 @@
+{
+  "service": "axiestudio",
+  "scan_timestamp": "2026-03-05T22:08:36.598253",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "axiestudio",
+      "file": ".env.docker",
+      "repository": "OGGsd/temp",
+      "url": "https://github.com/OGGsd/temp/blob/7dd74538766dfaa80752d91b1f2f6d533f4f81a9/.env.docker",
+      "line_number": 44,
+      "line_preview": "AXIESTUDIO_SUPERUSER_PASSWORD=STEfanjohn!12",
+      "key_type": "axiestudio_superuser_password",
+      "description": "Axiestudio Superuser Password",
+      "severity": "high",
+      "matched_pattern": "STEf*****n!12",
+      "timestamp": "2026-03-05T22:00:58.351089"
+    }
+  ]
+}

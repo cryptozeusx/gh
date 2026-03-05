@@ -1,0 +1,20 @@
+{
+  "service": "redpill",
+  "scan_timestamp": "2026-03-05T22:08:36.632698",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "redpill",
+      "file": ".env.example",
+      "repository": "yieldnest/nest-safe-hackathon",
+      "url": "https://github.com/yieldnest/nest-safe-hackathon/blob/d19e0fd102bcb029f82017d8855125f097b3aa20/.env.example",
+      "line_number": 88,
+      "line_preview": "REDPILL_API_KEY=                # REDPILL API Key",
+      "key_type": "redpill_api_key",
+      "description": "Redpill Api Key",
+      "severity": "medium",
+      "matched_pattern": "# RE********* Key",
+      "timestamp": "2026-03-05T22:01:06.061329"
+    }
+  ]
+}

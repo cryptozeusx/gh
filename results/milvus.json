@@ -1,0 +1,20 @@
+{
+  "service": "milvus",
+  "scan_timestamp": "2026-03-05T22:08:36.622799",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "milvus",
+      "file": ".env_template",
+      "repository": "StellarFlash/NaviSearch",
+      "url": "https://github.com/StellarFlash/NaviSearch/blob/a87bd85661fc09d2b89aa37d6430df8a466a3011/.env_template",
+      "line_number": 4,
+      "line_preview": "MILVUS_TOKEN=\"root:Milvus\"",
+      "key_type": "milvus_token",
+      "description": "Milvus Token",
+      "severity": "medium",
+      "matched_pattern": "root***lvus",
+      "timestamp": "2026-03-05T22:00:32.568440"
+    }
+  ]
+}

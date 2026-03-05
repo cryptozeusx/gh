@@ -1,0 +1,33 @@
+{
+  "service": "cloudinary",
+  "scan_timestamp": "2026-03-05T22:08:36.601049",
+  "finding_count": 2,
+  "findings": [
+    {
+      "service": "cloudinary",
+      "file": ".env_example",
+      "repository": "TrungPhuNA/express-base",
+      "url": "https://github.com/TrungPhuNA/express-base/blob/31b52059621425c08178eb0b10e924091748edc2/.env_example",
+      "line_number": 5,
+      "line_preview": "CLOUDINARY_API_SECRET=go972y-sPP5PFvyT1CGfUG0Y0p4",
+      "key_type": "cloudinary_api_secret",
+      "description": "Cloudinary Api Secret",
+      "severity": "high",
+      "matched_pattern": "CLOU*****************************************Y0p4",
+      "timestamp": "2026-03-05T22:00:55.584901"
+    },
+    {
+      "service": "cloudinary",
+      "file": "backend/.env.init",
+      "repository": "CreateYourReality/backend-grosshop",
+      "url": "https://github.com/CreateYourReality/backend-grosshop/blob/328b2b8d6c5f27c4f1c856203a8ecef76361460c/backend/.env.init",
+      "line_number": 7,
+      "line_preview": "CLOUDINARY_API_SECRET=OurCloudSecret",
+      "key_type": "cloudinary_api_secret",
+      "description": "Cloudinary Api Secret",
+      "severity": "high",
+      "matched_pattern": "CLOU****************************cret",
+      "timestamp": "2026-03-05T22:03:01.235556"
+    }
+  ]
+}

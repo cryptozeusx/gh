@@ -1,0 +1,46 @@
+{
+  "service": "mongo",
+  "scan_timestamp": "2026-03-05T22:08:36.623416",
+  "finding_count": 3,
+  "findings": [
+    {
+      "service": "mongo",
+      "file": "env-samples/.env.dev.sample",
+      "repository": "kilroyblockchain/bta-backend",
+      "url": "https://github.com/kilroyblockchain/bta-backend/blob/7d7084d6da15670e3605be13c395c12bf1c231e9/env-samples/.env.dev.sample",
+      "line_number": 10,
+      "line_preview": "MONGO_PASSWORD=a458CsBsaosf3KYhiNxrdF",
+      "key_type": "mongo_password",
+      "description": "Mongo Password",
+      "severity": "high",
+      "matched_pattern": "a458**************xrdF",
+      "timestamp": "2026-03-05T21:58:02.322117"
+    },
+    {
+      "service": "mongo",
+      "file": ".env.tor",
+      "repository": "sheelmorjaria/graphene-mono",
+      "url": "https://github.com/sheelmorjaria/graphene-mono/blob/d0cea1d7b42c3dc4a0601ee16457b13046d6b9d3/.env.tor",
+      "line_number": 10,
+      "line_preview": "MONGO_ROOT_PASSWORD=Y7Y3xdx7TXnR3FNnz4k3dxTBdA51BJh4",
+      "key_type": "mongo_root_password",
+      "description": "Mongo Root Password",
+      "severity": "high",
+      "matched_pattern": "Y7Y3************************BJh4",
+      "timestamp": "2026-03-05T22:00:59.347147"
+    },
+    {
+      "service": "mongo",
+      "file": "secrets.env",
+      "repository": "gasse4/Vulnerable-repository",
+      "url": "https://github.com/gasse4/Vulnerable-repository/blob/9321694da721933e6ffce4a6821f22537e32cd89/secrets.env",
+      "line_number": 17,
+      "line_preview": "MONGO_PASSWORD=mongoDBsecret123",
+      "key_type": "mongo_password",
+      "description": "Mongo Password",
+      "severity": "high",
+      "matched_pattern": "MONG***********************t123",
+      "timestamp": "2026-03-05T22:06:12.010849"
+    }
+  ]
+}

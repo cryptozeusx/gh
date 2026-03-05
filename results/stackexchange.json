@@ -1,0 +1,20 @@
+{
+  "service": "stackexchange",
+  "scan_timestamp": "2026-03-05T22:08:36.637311",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "stackexchange",
+      "file": ".env_develop",
+      "repository": "bitovi/bithub",
+      "url": "https://github.com/bitovi/bithub/blob/fd46c6b81e0b05c69bd0d1932f478310540a4a46/.env_develop",
+      "line_number": 43,
+      "line_preview": "STACKEXCHANGE_CLIENT_KEY=VeD7wt7NUYQNyka5fBLY5Q((",
+      "key_type": "stackexchange_client_key",
+      "description": "Stackexchange Client Key",
+      "severity": "medium",
+      "matched_pattern": "VeD7****************5Q((",
+      "timestamp": "2026-03-05T22:05:58.669897"
+    }
+  ]
+}
