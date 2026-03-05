@@ -61,7 +61,9 @@ jobs:
           [[ -n "${{ inputs.repo }}" ]] && ARGS="$ARGS --repo ${{ inputs.repo }}"
           [[ -n "${{ inputs.user }}" ]] && ARGS="$ARGS --user ${{ inputs.user }}"
           [[ "${{ inputs.verbose }}" == "true" ]] && ARGS="$ARGS --verbose"
-          python main.py $ARGS
+          python main.py $ARGS || EXIT=$?
+          # exit 1 = findings found (expected). exit 0 = no findings. anything else = real error.
+          [[ "${EXIT:-0}" -le 1 ]] || exit $EXIT
 
       - name: Upload results
         if: always()
