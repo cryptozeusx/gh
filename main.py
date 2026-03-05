@@ -484,14 +484,18 @@ class ResilientVisitedTracker:
 class ResultAggregator:
     """Collects findings from all workers, deduplicates, and emits reports."""
 
-    def __init__(self, tracker: ResilientVisitedTracker):
+    def __init__(self, tracker: ResilientVisitedTracker, output_dir: Optional[str] = None):
         self._tracker = tracker
         self._lock = threading.Lock()
         self._findings: List[dict] = []
+        self._output_dir = output_dir
+        if output_dir:
+            os.makedirs(output_dir, exist_ok=True)
 
     def add_finding(self, finding: dict) -> bool:
         """
         Add a finding if its fingerprint hasn't been seen globally.
+        Immediately writes to {output_dir}/{service}.ndjson on disk.
         Returns True if the finding was accepted.
         """
         fp = key_fingerprint(
@@ -505,6 +509,12 @@ class ResultAggregator:
         self._tracker.mark_key_visited(fp)
         with self._lock:
             self._findings.append(finding)
+            # Stream to disk immediately — safe even on Ctrl+C
+            if self._output_dir:
+                svc = finding.get("service", "unknown")
+                path = os.path.join(self._output_dir, f"{svc}.ndjson")
+                with open(path, "a") as fh:
+                    fh.write(json.dumps(finding) + "\n")
         return True
 
     @property
@@ -1245,10 +1255,10 @@ Examples:
     # Shared state
     pattern_db = PatternDatabase()
     tracker = ResilientVisitedTracker()
-    aggregator = ResultAggregator(tracker)
 
     ts = datetime.now().strftime("%Y%m%d_%H%M%S")
     output_dir = args.output or f"results_{ts}"
+    aggregator = ResultAggregator(tracker, output_dir=output_dir)
 
     # SIGINT handler — Ctrl+C saves findings before exit
     stop_event = threading.Event()
