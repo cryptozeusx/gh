@@ -64,6 +64,12 @@ SERVICE_SEEDS: List[Tuple[str, str]] = [
     ("yi",          'filename:.env "YI_API_KEY"'),
     # Web Scraping / Data
     ("firecrawl",   'filename:.env "FIRECRAWL_API_KEY"'),
+    ("firecrawl",   'filename:.env "FIRECRAWL_KEY"'),
+    ("firecrawl",   'filename:.env "FIRECRAWL_API"'),
+    ("firecrawl",   'filename:.env "X_FIRECRAWL_API_KEY"'),
+    ("firecrawl",   'filename:.env "FC_API_KEY"'),
+    ("firecrawl",   'filename:.env "FIRECRAWL_SECRET_KEY"'),
+    ("firecrawl",   'filename:.env fc-'),
 ]
 
 
@@ -154,7 +160,10 @@ class PatternDatabase:
         # 01.ai / Yi  (01.ai)
         "yi_key":          {"pattern": r"(?i)(?:YI|01AI)[_-]?(?:API[_-]?)?KEY\s*[=:]\s*[\"']?[a-zA-Z0-9_\-]{20,}[\"']?", "description": "01.ai Yi API Key",            "severity": "high"},
         # Firecrawl  (firecrawl.dev)
-        "firecrawl_key":   {"pattern": r"fc-[a-f0-9]{32}",                                                               "description": "Firecrawl API Key",             "severity": "high"},
+        # Primary: fc- prefix pattern matches keys regardless of variable name
+        "firecrawl_key":         {"pattern": r"fc-[a-f0-9]{32}",                                                                    "description": "Firecrawl API Key",             "severity": "high"},
+        # Named-variable variants people commonly use
+        "firecrawl_named_key":   {"pattern": r"(?i)(?:FIRECRAWL[_-]?(?:API[_-]?)?(?:KEY|SECRET|TOKEN)|X[_-]FIRECRAWL[_-]API[_-]KEY|FC[_-]API[_-]KEY)\s*[=:]\s*[\"']?fc-[a-f0-9]{32}[\"']?", "description": "Firecrawl API Key (named var)", "severity": "high"},
     }
 
     # Map pattern key names to the service label used in fingerprints/worker routing
@@ -177,8 +186,9 @@ class PatternDatabase:
         "openai_key":      "openai",
         "anthropic_key":   "anthropic",
         "azure_key":       "azure",
-        "serper_key":      "serper",
-        "firecrawl_key":   "firecrawl",
+        "serper_key":            "serper",
+        "firecrawl_key":         "firecrawl",
+        "firecrawl_named_key":   "firecrawl",
     }
 
     def __init__(self):
@@ -1151,6 +1161,8 @@ class MainExplorer:
             ("baichuan",     "baichuan"),
             ("01ai",         "yi"),
             ("lingyiwanwu",  "yi"),   # Yi's Chinese brand name domain
+            # Web Scraping / Data
+            ("firecrawl",    "firecrawl"),
         ]
         for keyword, service in name_map:
             if keyword in repo:

@@ -35,8 +35,8 @@ def extract_keys_from_ndjson(path: str) -> list[dict]:
             except json.JSONDecodeError:
                 continue
 
-            # The key may appear in line_preview or matched_pattern
-            raw = finding.get("line_preview", "") + " " + finding.get("matched_pattern", "")
+            # line_preview has the raw unredacted line; matched_pattern is redacted — always prefer line_preview
+            raw = finding.get("line_preview", "")
             for match in FC_KEY_RE.finditer(raw):
                 key = match.group(0)
                 if key not in seen:
