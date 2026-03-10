@@ -1,0 +1,44 @@
+name: Check Cohere Credits
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4 * * *'  # Runs daily at 04:00 UTC, after the scan
+
+permissions:
+  contents: write
+
+jobs:
+  check-cohere-credits:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+        
+      - name: Run Cohere credit checker
+        run: |
+          if [ -f results_cohere/cohere.ndjson ]; then
+            python tools/check_cohere_credits.py --input results_cohere/cohere.ndjson --output results_cohere/cohere_report.json
+          else
+            echo "No Cohere findings file exists yet."
+          fi
+          
+      - name: Commit credit report
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add results_cohere/cohere_report.json
+          if git diff --staged --quiet; then
+            echo "No changes in credit report."
+          else
+            git commit -m "chore: update cohere live keys list"
+            git push
+          fi

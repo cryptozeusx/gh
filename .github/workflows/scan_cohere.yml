@@ -1,0 +1,44 @@
+name: Scan Cohere API Keys
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 3 * * *'  # Runs daily at 03:45 UTC
+
+permissions:
+  contents: write
+
+jobs:
+  scan-cohere:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+        
+      - name: Run Cohere keys scan
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p results_cohere
+          python main.py --services cohere --max-results 100 --out results_cohere
+          
+      - name: Commit findings (if any)
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add results_cohere/
+          git status
+          if git diff --staged --quiet; then
+            echo "No new Cohere keys found."
+          else
+            git commit -m "chore: nightly cohere api key scan results"
+            git push
+          fi

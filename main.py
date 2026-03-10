@@ -90,6 +90,16 @@ SERVICE_SEEDS: List[Tuple[str, str]] = [
     ("tavily",      'extension:example tvly-'),
     ("tavily",      'extension:local "TAVILY_API_KEY"'),
     ("tavily",      'extension:development "TAVILY_API_KEY"'),
+    
+    # Cohere (cohere.com)
+    ("cohere",      'filename:.env "COHERE_API_KEY"'),
+    ("cohere",      'filename:.env "CO_API_KEY"'),
+    ("cohere",      'extension:example "COHERE_API_KEY"'),
+    ("cohere",      'extension:example "CO_API_KEY"'),
+    ("cohere",      'extension:local "COHERE_API_KEY"'),
+    ("cohere",      'extension:local "CO_API_KEY"'),
+    ("cohere",      'extension:development "COHERE_API_KEY"'),
+    ("cohere",      'extension:development "CO_API_KEY"'),
 ]
 
 
@@ -187,6 +197,8 @@ class PatternDatabase:
         # Tavily  (tavily.com)
         "tavily_key":            {"pattern": r"tvly-[a-zA-Z0-9]{32}",                                                               "description": "Tavily API Key",                "severity": "high"},
         "tavily_named_key":      {"pattern": r"(?i)(?:TAVILY[_-]?(?:API[_-]?)?(?:KEY|SECRET|TOKEN)|X[_-]TAVILY[_-]API[_-]KEY)\s*[=:]\s*[\"']?tvly-[a-zA-Z0-9]{32}[\"']?", "description": "Tavily API Key (named var)", "severity": "high"},
+        # Cohere  (cohere.com)
+        "cohere_key":            {"pattern": r"(?i)CO(?:HERE)?_?API_?KEY.*?([A-Za-z0-9_-]{35,45})",                                    "description": "Cohere API Key",                "severity": "high"},
     }
 
     # Map pattern key names to the service label used in fingerprints/worker routing
@@ -214,6 +226,7 @@ class PatternDatabase:
         "firecrawl_named_key":   "firecrawl",
         "tavily_key":            "tavily",
         "tavily_named_key":      "tavily",
+        "cohere_key":            "cohere",
     }
 
     def __init__(self):
@@ -1189,6 +1202,7 @@ class MainExplorer:
             # Web Scraping / Data
             ("firecrawl",    "firecrawl"),
             ("tavily",       "tavily"),
+            ("cohere",       "cohere"),
         ]
         for keyword, service in name_map:
             if keyword in repo:
