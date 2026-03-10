@@ -1300,8 +1300,8 @@ Examples:
                         help="Output directory for per-service JSON files (default: results_TIMESTAMP/)")
     parser.add_argument("--report",
                         help="Output text report file")
-    parser.add_argument("--query", "-q", default="path:.env",
-                        help="Seed search query (default: path:.env — matches .env files at any depth in the repo)")
+    parser.add_argument("--query", "-q", default="filename:.env",
+                        help="Seed search query (default: filename:.env)")
     parser.add_argument("--resume",
                         help="Path to a prior scan JSON to warm visited sets (avoids re-scanning seen repos)")
     parser.add_argument("--verbose", "-v", action="store_true",

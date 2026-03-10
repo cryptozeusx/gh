@@ -28,7 +28,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.SCANNER_GITHUB_TOKEN }}
         run: |
           mkdir -p results_cohere
-          python main.py --token $GITHUB_TOKEN --services cohere --max-results 100 --out results_cohere
+          python main.py --token $GITHUB_TOKEN --services cohere --max-results 100 --out results_cohere || EXIT=$?
+          [[ "${EXIT:-0}" -le 1 ]] || exit $EXIT
           
       - name: Commit findings (if any)
         run: |
