@@ -1,0 +1,60 @@
+name: Tavily Credit Checker
+
+on:
+  workflow_dispatch:
+    inputs:
+      input_file:
+        description: "Path to the tavily NDJSON findings file"
+        required: false
+        default: "results_tavily/tavily.ndjson"
+        type: string
+      output_file:
+        description: "Path to save the JSON credit report"
+        required: false
+        default: "results_tavily/credit_report.json"
+        type: string
+
+jobs:
+  check-credits:
+    name: Check Tavily Key Credits
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install curl-cffi
+
+      - name: Check credits
+        run: |
+          python tools/check_tavily_credits.py \
+            --input "${{ inputs.input_file }}" \
+            --output "${{ inputs.output_file }}"
+
+      - name: Upload credit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tavily-credits-${{ github.run_id }}
+          path: ${{ inputs.output_file }}
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Commit and push credit report
+        if: always()
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "${{ inputs.output_file }}" || true
+          git diff --staged --quiet || git commit -m "tavily credits report [run #${{ github.run_number }}]"
+          git push

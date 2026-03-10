@@ -74,6 +74,10 @@ SERVICE_SEEDS: List[Tuple[str, str]] = [
     ("firecrawl",   'filename:.env "firecrawl-api-key"'),
     ("firecrawl",   'filename:.env "firecrawl-x-api-key"'),
     ("firecrawl",   '"https://mcp.firecrawl.dev/fc"'),
+    # Tavily (tavily.com)
+    ("tavily",      'filename:.env "TAVILY_API_KEY"'),
+    ("tavily",      'filename:.env "TAVILY_KEY"'),
+    ("tavily",      'filename:.env tvly-'),
 ]
 
 
@@ -168,6 +172,9 @@ class PatternDatabase:
         "firecrawl_key":         {"pattern": r"fc-[a-f0-9]{32}",                                                                    "description": "Firecrawl API Key",             "severity": "high"},
         # Named-variable variants people commonly use
         "firecrawl_named_key":   {"pattern": r"(?i)(?:FIRECRAWL[_-]?(?:API[_-]?)?(?:KEY|SECRET|TOKEN)|X[_-]FIRECRAWL[_-]API[_-]KEY|FC[_-]API[_-]KEY)\s*[=:]\s*[\"']?fc-[a-f0-9]{32}[\"']?", "description": "Firecrawl API Key (named var)", "severity": "high"},
+        # Tavily  (tavily.com)
+        "tavily_key":            {"pattern": r"tvly-[a-zA-Z0-9]{32}",                                                               "description": "Tavily API Key",                "severity": "high"},
+        "tavily_named_key":      {"pattern": r"(?i)(?:TAVILY[_-]?(?:API[_-]?)?(?:KEY|SECRET|TOKEN)|X[_-]TAVILY[_-]API[_-]KEY)\s*[=:]\s*[\"']?tvly-[a-zA-Z0-9]{32}[\"']?", "description": "Tavily API Key (named var)", "severity": "high"},
     }
 
     # Map pattern key names to the service label used in fingerprints/worker routing
@@ -193,6 +200,8 @@ class PatternDatabase:
         "serper_key":            "serper",
         "firecrawl_key":         "firecrawl",
         "firecrawl_named_key":   "firecrawl",
+        "tavily_key":            "tavily",
+        "tavily_named_key":      "tavily",
     }
 
     def __init__(self):
@@ -1167,6 +1176,7 @@ class MainExplorer:
             ("lingyiwanwu",  "yi"),   # Yi's Chinese brand name domain
             # Web Scraping / Data
             ("firecrawl",    "firecrawl"),
+            ("tavily",       "tavily"),
         ]
         for keyword, service in name_map:
             if keyword in repo:
