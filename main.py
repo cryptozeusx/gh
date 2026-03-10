@@ -70,6 +70,10 @@ SERVICE_SEEDS: List[Tuple[str, str]] = [
     ("firecrawl",   'filename:.env "FC_API_KEY"'),
     ("firecrawl",   'filename:.env "FIRECRAWL_SECRET_KEY"'),
     ("firecrawl",   'filename:.env fc-'),
+    ("firecrawl",   'filename:.env "firecrawl-api"'),
+    ("firecrawl",   'filename:.env "firecrawl-api-key"'),
+    ("firecrawl",   'filename:.env "firecrawl-x-api-key"'),
+    ("firecrawl",   '"https://mcp.firecrawl.dev/fc"'),
 ]
 
 
