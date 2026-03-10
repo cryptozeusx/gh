@@ -35,49 +35,61 @@ from curl_cffi.requests import Session as CurlSession
 # ---------------------------------------------------------------------------
 SERVICE_SEEDS: List[Tuple[str, str]] = [
     # Western AI / Cloud
-    ("openai",      'path:.env "OPENAI_API_KEY"'),
-    ("anthropic",   'path:.env "ANTHROPIC_API_KEY"'),
-    ("aws",         'path:.env "AWS_SECRET_ACCESS_KEY"'),
-    ("google",      'path:.env "GOOGLE_API_KEY"'),
-    ("github",      'path:.env "GITHUB_TOKEN"'),
-    ("slack",       'path:.env "SLACK_BOT_TOKEN"'),
-    ("stripe",      'path:.env "STRIPE_SECRET_KEY"'),
-    ("twilio",      'path:.env "TWILIO_AUTH_TOKEN"'),
-    ("sendgrid",    'path:.env "SENDGRID_API_KEY"'),
-    ("heroku",      'path:.env "HEROKU_API_KEY"'),
-    ("mailgun",     'path:.env "MAILGUN_API_KEY"'),
-    ("azure",       'path:.env "AZURE_OPENAI_API_KEY"'),
-    ("serper",      'path:.env "SERPER_API_KEY"'),
+    ("openai",      'filename:.env "OPENAI_API_KEY"'),
+    ("anthropic",   'filename:.env "ANTHROPIC_API_KEY"'),
+    ("aws",         'filename:.env "AWS_SECRET_ACCESS_KEY"'),
+    ("google",      'filename:.env "GOOGLE_API_KEY"'),
+    ("github",      'filename:.env "GITHUB_TOKEN"'),
+    ("slack",       'filename:.env "SLACK_BOT_TOKEN"'),
+    ("stripe",      'filename:.env "STRIPE_SECRET_KEY"'),
+    ("twilio",      'filename:.env "TWILIO_AUTH_TOKEN"'),
+    ("sendgrid",    'filename:.env "SENDGRID_API_KEY"'),
+    ("heroku",      'filename:.env "HEROKU_API_KEY"'),
+    ("mailgun",     'filename:.env "MAILGUN_API_KEY"'),
+    ("azure",       'filename:.env "AZURE_OPENAI_API_KEY"'),
+    ("serper",      'filename:.env "SERPER_API_KEY"'),
     # Chinese / Asian AI Platforms
-    ("deepseek",    'path:.env "DEEPSEEK_API_KEY"'),
-    ("moonshot",    'path:.env "MOONSHOT_API_KEY"'),
-    ("siliconflow", 'path:.env "SILICONFLOW_API_KEY"'),
-    ("zhipuai",     'path:.env "ZHIPUAI_API_KEY"'),
-    ("dashscope",   'path:.env "DASHSCOPE_API_KEY"'),
-    ("minimax",     'path:.env "MINIMAX_API_KEY"'),
-    ("qianfan",     'path:.env "QIANFAN_ACCESS_KEY"'),
-    ("ark",         'path:.env "ARK_API_KEY"'),
-    ("hunyuan",     'path:.env "HUNYUAN_SECRET_KEY"'),
-    ("spark",       'path:.env "SPARK_API_KEY"'),
-    ("stepfun",     'path:.env "STEPFUN_API_KEY"'),
-    ("baichuan",    'path:.env "BAICHUAN_API_KEY"'),
-    ("yi",          'path:.env "YI_API_KEY"'),
+    ("deepseek",    'filename:.env "DEEPSEEK_API_KEY"'),
+    ("moonshot",    'filename:.env "MOONSHOT_API_KEY"'),
+    ("siliconflow", 'filename:.env "SILICONFLOW_API_KEY"'),
+    ("zhipuai",     'filename:.env "ZHIPUAI_API_KEY"'),
+    ("dashscope",   'filename:.env "DASHSCOPE_API_KEY"'),
+    ("minimax",     'filename:.env "MINIMAX_API_KEY"'),
+    ("qianfan",     'filename:.env "QIANFAN_ACCESS_KEY"'),
+    ("ark",         'filename:.env "ARK_API_KEY"'),
+    ("hunyuan",     'filename:.env "HUNYUAN_SECRET_KEY"'),
+    ("spark",       'filename:.env "SPARK_API_KEY"'),
+    ("stepfun",     'filename:.env "STEPFUN_API_KEY"'),
+    ("baichuan",    'filename:.env "BAICHUAN_API_KEY"'),
+    ("yi",          'filename:.env "YI_API_KEY"'),
+    
     # Web Scraping / Data
-    ("firecrawl",   'path:.env "FIRECRAWL_API_KEY"'),
-    ("firecrawl",   'path:.env "FIRECRAWL_KEY"'),
-    ("firecrawl",   'path:.env "FIRECRAWL_API"'),
-    ("firecrawl",   'path:.env "X_FIRECRAWL_API_KEY"'),
-    ("firecrawl",   'path:.env "FC_API_KEY"'),
-    ("firecrawl",   'path:.env "FIRECRAWL_SECRET_KEY"'),
-    ("firecrawl",   'path:.env fc-'),
-    ("firecrawl",   'path:.env "firecrawl-api"'),
-    ("firecrawl",   'path:.env "firecrawl-api-key"'),
-    ("firecrawl",   'path:.env "firecrawl-x-api-key"'),
+    ("firecrawl",   'filename:.env "FIRECRAWL_API_KEY"'),
+    ("firecrawl",   'filename:.env "FIRECRAWL_KEY"'),
+    ("firecrawl",   'filename:.env "FIRECRAWL_API"'),
+    ("firecrawl",   'filename:.env "X_FIRECRAWL_API_KEY"'),
+    ("firecrawl",   'filename:.env "FC_API_KEY"'),
+    ("firecrawl",   'filename:.env "FIRECRAWL_SECRET_KEY"'),
+    ("firecrawl",   'filename:.env fc-'),
+    ("firecrawl",   'filename:.env "firecrawl-api"'),
+    ("firecrawl",   'filename:.env "firecrawl-api-key"'),
+    ("firecrawl",   'filename:.env "firecrawl-x-api-key"'),
     ("firecrawl",   '"https://mcp.firecrawl.dev/fc"'),
+    ("firecrawl",   'extension:example "FIRECRAWL_API_KEY"'),
+    ("firecrawl",   'extension:example "FIRECRAWL_KEY"'),
+    ("firecrawl",   'extension:example fc-'),
+    ("firecrawl",   'extension:local "FIRECRAWL_API_KEY"'),
+    ("firecrawl",   'extension:development "FIRECRAWL_API_KEY"'),
+    
     # Tavily (tavily.com)
-    ("tavily",      'path:.env "TAVILY_API_KEY"'),
-    ("tavily",      'path:.env "TAVILY_KEY"'),
-    ("tavily",      'path:.env tvly-'),
+    ("tavily",      'filename:.env "TAVILY_API_KEY"'),
+    ("tavily",      'filename:.env "TAVILY_KEY"'),
+    ("tavily",      'filename:.env tvly-'),
+    ("tavily",      'extension:example "TAVILY_API_KEY"'),
+    ("tavily",      'extension:example "TAVILY_KEY"'),
+    ("tavily",      'extension:example tvly-'),
+    ("tavily",      'extension:local "TAVILY_API_KEY"'),
+    ("tavily",      'extension:development "TAVILY_API_KEY"'),
 ]
 
 
@@ -1050,7 +1062,7 @@ class MainExplorer:
 
     def run(
         self,
-        seed_query: str = "path:.env",
+        seed_query: str = "filename:.env",
         max_seed_results: int = 10,
         repo: Optional[str] = None,
         user: Optional[str] = None,
@@ -1066,9 +1078,9 @@ class MainExplorer:
         it appeared in the broad pass. Full coverage, no luck required.
         """
         if repo:
-            seed_query = f"repo:{repo} path:.env"
+            seed_query = f"repo:{repo} filename:.env"
         elif user:
-            seed_query = f"user:{user} path:.env"
+            seed_query = f"user:{user} filename:.env"
 
         stop_event = stop_event or threading.Event()
 
