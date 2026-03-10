@@ -9,6 +9,12 @@ github_env_scan_results_*.json
 # Allow the CI results directory
 !results/
 !results/**
+!results_cohere/
+!results_cohere/**
+!results_tavily/
+!results_tavily/**
+!results_firecrawl/
+!results_firecrawl/**
 
 # Temp files
 .tmp/

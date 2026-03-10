@@ -49,16 +49,61 @@ def extract_keys_from_ndjson(path: str) -> list[dict]:
 
 
 def check_credits(session: CurlSession, key: str) -> dict | None:
-    """Call the Cohere validation endpoint for a single key."""
+    """
+    Call the Cohere validation endpoint for a single key.
+    Then call the chat endpoint to extract usage limit headers.
+    """
     try:
+        # 1. Base Validation
         resp = session.post(
             CREDIT_URL,
             headers={"Authorization": f"Bearer {key}"},
             timeout=15,
         )
-        if resp.status_code == 200:
-            return resp.json()
-        return {"error": f"HTTP {resp.status_code}", "body": resp.text[:200]}
+        if resp.status_code != 200:
+            return {"error": f"HTTP {resp.status_code}", "body": resp.text[:200]}
+            
+        data = resp.json()
+        if not data.get("valid"):
+            return data
+
+        # 2. Check Usage Limits
+        chat_resp = session.post(
+            "https://api.cohere.com/v2/chat",
+            headers={
+                "Authorization": f"Bearer {key}",
+                "Content-Type": "application/json"
+            },
+            json={
+                "model": "command-a-03-2025",
+                "messages": [{"role": "user", "content": "hi"}]
+            },
+            timeout=15,
+        )
+        
+        # Extract headers like x-trial-endpoint-call-limit
+        headers = chat_resp.headers
+        
+        # Determine Plan
+        plan = "Production"
+        limit = headers.get("x-endpoint-monthly-call-limit", "?")
+        remaining = "?"
+        
+        if "x-trial-endpoint-call-limit" in headers:
+            plan = "Trial"
+            limit = headers.get("x-trial-endpoint-call-limit", "?")
+            remaining = headers.get("x-trial-endpoint-call-remaining", "?")
+            
+        data["plan"] = plan
+        data["limit"] = limit
+        data["remaining"] = remaining
+        
+        if chat_resp.status_code != 200:
+            # Maybe the key works but the model is restricted, or it's out of credits
+            data["chat_error"] = f"HTTP {chat_resp.status_code}: {chat_resp.text[:100]}"
+            
+        return data
+
     except Exception as exc:
         return {"error": str(exc)}
 
@@ -123,8 +168,25 @@ def main() -> int:
         else:
             is_valid = credits_data.get("valid", False)
             if is_valid:
-                print(f"  🟢 {redact(key)}  ({entry['repository']})")
-                print(f"      Status: Live  |  Org ID: {credits_data.get('organization_id')}")
+                plan = credits_data.get("plan", "?")
+                limit = credits_data.get("limit", "?")
+                remaining = credits_data.get("remaining", "?")
+                
+                # Calculate usage if we have remaining and limit
+                usage_str = "?"
+                icon = "🔴"
+                if str(limit).isdigit() and str(remaining).isdigit():
+                    usage = int(limit) - int(remaining)
+                    usage_str = f"{usage} / {limit}"
+                    icon = "🟢" if usage < int(limit) else "🟡"
+                elif plan == "Production":
+                    icon = "🟢" # Assumed good if production and no trial headers
+                    usage_str = "Unlimited / N/A"
+                    
+                print(f"  {icon} {redact(key)}  ({entry['repository']})")
+                print(f"      Plan: {plan}  |  Usage: {usage_str}  |  Org ID: {credits_data.get('organization_id')}")
+                if "chat_error" in credits_data:
+                    print(f"      ⚠️ Chat Test Failed: {credits_data['chat_error']}")
             else:
                  print(f"  🔴 {redact(key)}  ({entry['repository']})")
                  print(f"      Status: Invalid  |  Response: {credits_data}")
