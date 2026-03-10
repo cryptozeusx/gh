@@ -62,6 +62,8 @@ SERVICE_SEEDS: List[Tuple[str, str]] = [
     ("stepfun",     'filename:.env "STEPFUN_API_KEY"'),
     ("baichuan",    'filename:.env "BAICHUAN_API_KEY"'),
     ("yi",          'filename:.env "YI_API_KEY"'),
+    # Web Scraping / Data
+    ("firecrawl",   'filename:.env "FIRECRAWL_API_KEY"'),
 ]
 
 
@@ -151,6 +153,8 @@ class PatternDatabase:
         "baichuan_key":    {"pattern": r"(?i)BAICHUAN[_-]?(?:API[_-]?)?KEY\s*[=:]\s*[\"']?[a-zA-Z0-9_\-]{20,}[\"']?",  "description": "Baichuan AI API Key",           "severity": "high"},
         # 01.ai / Yi  (01.ai)
         "yi_key":          {"pattern": r"(?i)(?:YI|01AI)[_-]?(?:API[_-]?)?KEY\s*[=:]\s*[\"']?[a-zA-Z0-9_\-]{20,}[\"']?", "description": "01.ai Yi API Key",            "severity": "high"},
+        # Firecrawl  (firecrawl.dev)
+        "firecrawl_key":   {"pattern": r"fc-[a-f0-9]{32}",                                                               "description": "Firecrawl API Key",             "severity": "high"},
     }
 
     # Map pattern key names to the service label used in fingerprints/worker routing
@@ -174,6 +178,7 @@ class PatternDatabase:
         "anthropic_key":   "anthropic",
         "azure_key":       "azure",
         "serper_key":      "serper",
+        "firecrawl_key":   "firecrawl",
     }
 
     def __init__(self):
@@ -1027,6 +1032,7 @@ class MainExplorer:
         repo: Optional[str] = None,
         user: Optional[str] = None,
         stop_event: Optional[threading.Event] = None,
+        services_filter: Optional[List[str]] = None,
     ):
         """
         Phase 1 — Broad pass: seed search returns up to max_seed_results files,
@@ -1070,8 +1076,12 @@ class MainExplorer:
         # Phase 2: pre-seed ALL known services with their targeted deep queries.
         # Workers already spawned just receive an extra search query.
         # Workers not spawned yet get created now — guaranteed coverage.
-        print(f"\n🚀 Phase 2 — Pre-seeding {len(SERVICE_SEEDS)} service workers...")
-        for service, query in SERVICE_SEEDS:
+        active_seeds = [
+            (svc, q) for svc, q in SERVICE_SEEDS
+            if not services_filter or svc in services_filter
+        ]
+        print(f"\n🚀 Phase 2 — Pre-seeding {len(active_seeds)} service workers...")
+        for service, query in active_seeds:
             if self.tracker.has_service_worker(service):
                 with self._workers_lock:
                     w = self._workers.get(service)
@@ -1244,6 +1254,9 @@ Examples:
                         help="Path to a prior scan JSON to warm visited sets (avoids re-scanning seen repos)")
     parser.add_argument("--verbose", "-v", action="store_true",
                         help="Print a line for every file scanned, not just hits")
+    parser.add_argument("--services", "-s",
+                        help="Comma-separated list of services to scan (e.g. firecrawl,openai). "
+                             "Default: all known services.")
 
     args = parser.parse_args()
 
@@ -1298,6 +1311,7 @@ Examples:
         repo=args.repo,
         user=args.user,
         stop_event=stop_event,
+        services_filter=[s.strip().lower() for s in args.services.split(",")] if args.services else None,
     )
 
     findings = aggregator.findings

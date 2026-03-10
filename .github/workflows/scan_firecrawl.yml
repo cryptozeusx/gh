@@ -1,0 +1,89 @@
+name: Firecrawl Key Scanner
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_results:
+        description: "Max files to scan"
+        required: false
+        default: "50"
+        type: string
+      output_dir:
+        description: "Output directory name"
+        required: false
+        default: "results_firecrawl"
+        type: string
+      repo:
+        description: "Specific repo to scan (owner/repo) — blank for global"
+        required: false
+        default: ""
+        type: string
+      user:
+        description: "Specific GitHub user to scan — blank for global"
+        required: false
+        default: ""
+        type: string
+      verbose:
+        description: "Verbose output"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+
+jobs:
+  scan-firecrawl:
+    name: Scan for Firecrawl API Keys
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install curl-cffi
+
+      - name: Run scanner (Firecrawl only)
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ secrets.SCANNER_GITHUB_TOKEN }}
+        run: |
+          ARGS="--token $GITHUB_TOKEN"
+          ARGS="$ARGS --max-results ${{ inputs.max_results }}"
+          ARGS="$ARGS --output ${{ inputs.output_dir }}"
+          ARGS="$ARGS --services firecrawl"
+          [[ -n "${{ inputs.repo }}" ]] && ARGS="$ARGS --repo ${{ inputs.repo }}"
+          [[ -n "${{ inputs.user }}" ]] && ARGS="$ARGS --user ${{ inputs.user }}"
+          [[ "${{ inputs.verbose }}" == "true" ]] && ARGS="$ARGS --verbose"
+          python main.py $ARGS || EXIT=$?
+          # exit 1 = findings found (expected). exit 0 = no findings. anything else = real error.
+          [[ "${EXIT:-0}" -le 1 ]] || exit $EXIT
+
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: firecrawl-scan-${{ github.run_id }}
+          path: ${{ inputs.output_dir }}/
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Commit and push results
+        if: always()
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "${{ inputs.output_dir }}/" || true
+          FINDING_COUNT=$(find "${{ inputs.output_dir }}" -name '*.ndjson' -exec wc -l {} + 2>/dev/null | tail -1 | awk '{print $1}' || echo "?")
+          git diff --staged --quiet || git commit -m "firecrawl scan: ${FINDING_COUNT} finding(s) [run #${{ github.run_number }}]"
+          git push
