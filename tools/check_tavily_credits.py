@@ -15,7 +15,7 @@ from curl_cffi import requests as curl_requests
 from curl_cffi.requests import Session as CurlSession
 
 CREDIT_URL = "https://api.tavily.com/usage"
-TVLY_KEY_RE = re.compile(r"tvly-[a-zA-Z0-9]{32}")
+TVLY_KEY_RE = re.compile(r"tvly-(?:dev-)?[a-zA-Z0-9]{32}")
 
 
 def extract_keys_from_ndjson(path: str) -> list[dict]:
