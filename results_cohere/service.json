@@ -1,0 +1,46 @@
+{
+  "service": "service",
+  "scan_timestamp": "2026-03-11T06:07:11.310818",
+  "finding_count": 3,
+  "findings": [
+    {
+      "service": "service",
+      "file": ".env.1",
+      "repository": "serebano/tictapp-storage-api",
+      "url": "https://github.com/serebano/tictapp-storage-api/blob/31ab25f1990d29992dc9eb2861b568fd8b571514/.env.1",
+      "line_number": 12,
+      "line_preview": "SERVICE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyAgCiAgICAicm9sZSI6ICJzZXJ2aWNlX3JvbGUiLAogICAgImlzcyI6ICJzdXBhYmFzZS1",
+      "key_type": "service_key",
+      "description": "Service Key",
+      "severity": "medium",
+      "matched_pattern": "eyJh***********************************************************************************************************************************************************************************************************************Vt4Q",
+      "timestamp": "2026-03-11T06:06:06.438889"
+    },
+    {
+      "service": "service",
+      "file": "backend-render/.env.example",
+      "repository": "dvirdiei/shira",
+      "url": "https://github.com/dvirdiei/shira/blob/7b9ee72f3e7f385a0eb70dcd4db6efee9dbbc942/backend-render/.env.example",
+      "line_number": 7,
+      "line_preview": "SUPABASE_SERVICE_KEY=eyJhbGciOiJIUzI1NiIsI...",
+      "key_type": "service_key",
+      "description": "Service Key",
+      "severity": "medium",
+      "matched_pattern": "SERV****************************I...",
+      "timestamp": "2026-03-11T06:06:44.926872"
+    },
+    {
+      "service": "service",
+      "file": "wedding-planner/.env.example",
+      "repository": "pavelcatalinclaudiu/wedding-planner",
+      "url": "https://github.com/pavelcatalinclaudiu/wedding-planner/blob/d78099a5bd061754e7fdafab98c7dafe6e67a6b0/wedding-planner/.env.example",
+      "line_number": 35,
+      "line_preview": "SUPABASE_SERVICE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+      "key_type": "service_key",
+      "description": "Service Key",
+      "severity": "medium",
+      "matched_pattern": "SERV*******************************************9...",
+      "timestamp": "2026-03-11T06:06:47.591344"
+    }
+  ]
+}

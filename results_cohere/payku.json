@@ -1,0 +1,33 @@
+{
+  "service": "payku",
+  "scan_timestamp": "2026-03-11T06:07:11.308405",
+  "finding_count": 2,
+  "findings": [
+    {
+      "service": "payku",
+      "file": ".env.back",
+      "repository": "curetechb/mt",
+      "url": "https://github.com/curetechb/mt/blob/61fcfbd38981df211f945855604b90b4ec2cad19/.env.back",
+      "line_number": 147,
+      "line_preview": "PAYKU_PUBLIC_TOKEN=\"tkpu6858fef1b75832c63d84cf1551f1\"",
+      "key_type": "payku_public_token",
+      "description": "Payku Public Token",
+      "severity": "medium",
+      "matched_pattern": "tkpu************************51f1",
+      "timestamp": "2026-03-11T06:06:30.932504"
+    },
+    {
+      "service": "payku",
+      "file": ".env.back",
+      "repository": "curetechb/mt",
+      "url": "https://github.com/curetechb/mt/blob/61fcfbd38981df211f945855604b90b4ec2cad19/.env.back",
+      "line_number": 148,
+      "line_preview": "PAYKU_PRIVATE_TOKEN=\"tkpi8a0b5ca0a8af71a62d12d481fc61\"",
+      "key_type": "payku_private_token",
+      "description": "Payku Private Token",
+      "severity": "critical",
+      "matched_pattern": "tkpi************************fc61",
+      "timestamp": "2026-03-11T06:06:30.932594"
+    }
+  ]
+}

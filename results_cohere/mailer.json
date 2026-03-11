@@ -1,0 +1,20 @@
+{
+  "service": "mailer",
+  "scan_timestamp": "2026-03-11T06:07:11.306164",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "mailer",
+      "file": ".env.example",
+      "repository": "riipandi/sorai",
+      "url": "https://github.com/riipandi/sorai/blob/cbe2e897cd4f84a47e0429bd33fa071709d84f4b/.env.example",
+      "line_number": 38,
+      "line_preview": "MAILER_SMTP_PASSWORD=mailerpass1",
+      "key_type": "mailer_smtp_password",
+      "description": "Mailer Smtp Password",
+      "severity": "high",
+      "matched_pattern": "mail***ass1",
+      "timestamp": "2026-03-11T06:06:40.173134"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "service": "ssl",
+  "scan_timestamp": "2026-03-11T06:07:11.311353",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "ssl",
+      "file": ".env.example2",
+      "repository": "MdTanvirHassan/alimartbd",
+      "url": "https://github.com/MdTanvirHassan/alimartbd/blob/a4eda85d4fbd95eb4dac2f12afd73592d771c7d1/.env.example2",
+      "line_number": 158,
+      "line_preview": "SSL_SMS_API_TOKEN=\"f7vrgbxz-uytnz2be-ndopborx-ve0uruwq-hkeu4ovd\"",
+      "key_type": "ssl_sms_api_token",
+      "description": "Ssl Sms Api Token",
+      "severity": "medium",
+      "matched_pattern": "f7vr************************************4ovd",
+      "timestamp": "2026-03-11T06:06:31.054351"
+    }
+  ]
+}

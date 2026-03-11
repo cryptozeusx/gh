@@ -1,0 +1,20 @@
+{
+  "service": "discord",
+  "scan_timestamp": "2026-03-11T06:07:11.300656",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "discord",
+      "file": ".env..txt",
+      "repository": "Debonik/DiscordGPT",
+      "url": "https://github.com/Debonik/DiscordGPT/blob/fead5b29a7390854d1a2f5dd829bea56bec8e08a/.env..txt",
+      "line_number": 1,
+      "line_preview": "DISCORD_TOKEN=MTEzMzcxMjM2MzAxNTY0NzI2Nw.GwhaNA.z7adREjsYvx3Dtx7gUJ41G2T2LrksgiASAjBHs",
+      "key_type": "discord_token",
+      "description": "Discord Token",
+      "severity": "medium",
+      "matched_pattern": "MTEz****************************************************************jBHs",
+      "timestamp": "2026-03-11T06:06:07.517079"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "service": "elasticsearch",
+  "scan_timestamp": "2026-03-11T06:07:11.300822",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "elasticsearch",
+      "file": ".env.example",
+      "repository": "sourangshupal/Hybrid-Search-RAG",
+      "url": "https://github.com/sourangshupal/Hybrid-Search-RAG/blob/207e3c50ceddcbab0b9ffe56c3713555f50cc6db/.env.example",
+      "line_number": 38,
+      "line_preview": "ELASTICSEARCH_PASSWORD=\"\"  # Optional",
+      "key_type": "elasticsearch_password",
+      "description": "Elasticsearch Password",
+      "severity": "high",
+      "matched_pattern": "  # ****onal",
+      "timestamp": "2026-03-11T06:06:38.548168"
+    }
+  ]
+}

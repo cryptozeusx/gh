@@ -1,0 +1,59 @@
+{
+  "service": "nextauth",
+  "scan_timestamp": "2026-03-11T06:07:11.307292",
+  "finding_count": 4,
+  "findings": [
+    {
+      "service": "nextauth",
+      "file": ".env.docker",
+      "repository": "RyanLisse/hgg-roborail-rag",
+      "url": "https://github.com/RyanLisse/hgg-roborail-rag/blob/1e02ee1a8ccdcc47d1a6940bf975f1f8ce4ed02d/.env.docker",
+      "line_number": 42,
+      "line_preview": "NEXTAUTH_URL=http://localhost:3000",
+      "key_type": "nextauth_url",
+      "description": "Nextauth Url",
+      "severity": "medium",
+      "matched_pattern": "http*************3000",
+      "timestamp": "2026-03-11T06:06:14.620169"
+    },
+    {
+      "service": "nextauth",
+      "file": ".env.local",
+      "repository": "JohnEvansOkyere/Chat_PDF_RAG_APP",
+      "url": "https://github.com/JohnEvansOkyere/Chat_PDF_RAG_APP/blob/f46f9ec16a970911b60b7ff14544f8391e7a4667/.env.local",
+      "line_number": 23,
+      "line_preview": "NEXTAUTH_URL=http://localhost:3000",
+      "key_type": "nextauth_url",
+      "description": "Nextauth Url",
+      "severity": "medium",
+      "matched_pattern": "NEXT**************************3000",
+      "timestamp": "2026-03-11T06:06:19.946506"
+    },
+    {
+      "service": "nextauth",
+      "file": "env.example",
+      "repository": "ikayaalp/gastrofolly",
+      "url": "https://github.com/ikayaalp/gastrofolly/blob/4bd5ca9cbcf1a1e4d4f23dcbed83e8f8261b7106/env.example",
+      "line_number": 6,
+      "line_preview": "NEXTAUTH_URL=\"http://localhost:3000\"",
+      "key_type": "nextauth_url",
+      "description": "Nextauth Url",
+      "severity": "medium",
+      "matched_pattern": "NEXT****************************000\"",
+      "timestamp": "2026-03-11T06:06:46.324298"
+    },
+    {
+      "service": "nextauth",
+      "file": "iafactory-core-apps/video-studio/frontend/.env.local",
+      "repository": "bensalemboualem/Saas-iFactory-Algeria",
+      "url": "https://github.com/bensalemboualem/Saas-iFactory-Algeria/blob/d8a455ea4f6a40455e4771ba0121cf31516f7bea/iafactory-core-apps/video-studio/frontend/.env.local",
+      "line_number": 75,
+      "line_preview": "NEXTAUTH_URL=http://localhost:3000",
+      "key_type": "nextauth_url",
+      "description": "Nextauth Url",
+      "severity": "medium",
+      "matched_pattern": "NEXT**************************3000",
+      "timestamp": "2026-03-11T06:06:50.656208"
+    }
+  ]
+}

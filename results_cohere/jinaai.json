@@ -1,0 +1,20 @@
+{
+  "service": "jinaai",
+  "scan_timestamp": "2026-03-11T06:07:11.305315",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "jinaai",
+      "file": "docker/env/.env.example.app",
+      "repository": "ahmudmuhamad/MisrLeX",
+      "url": "https://github.com/ahmudmuhamad/MisrLeX/blob/cc32ccfe8da777a9ce510115ff7207c6f8c9f37a/docker/env/.env.example.app",
+      "line_number": 21,
+      "line_preview": "JINAAI_API_KEY=\"\" # Added for JinaAI (can be empty if not needed for local model)",
+      "key_type": "jinaai_api_key",
+      "description": "Jinaai Api Key",
+      "severity": "medium",
+      "matched_pattern": " # A********************************************************del)",
+      "timestamp": "2026-03-11T06:06:18.412903"
+    }
+  ]
+}

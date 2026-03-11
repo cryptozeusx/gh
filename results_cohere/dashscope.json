@@ -1,0 +1,20 @@
+{
+  "service": "dashscope",
+  "scan_timestamp": "2026-03-11T06:07:11.299735",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "dashscope",
+      "file": ".env.example",
+      "repository": "teilomillet/gollm",
+      "url": "https://github.com/teilomillet/gollm/blob/27c8f888adba9986f5fec113146b54c838825d5b/.env.example",
+      "line_number": 14,
+      "line_preview": "DASHSCOPE_API_KEY=...          # Aliyun/Alibaba Cloud",
+      "key_type": "dashscope_api_key",
+      "description": "Dashscope Api Key",
+      "severity": "medium",
+      "matched_pattern": "... ***************************loud",
+      "timestamp": "2026-03-11T06:06:36.386260"
+    }
+  ]
+}
