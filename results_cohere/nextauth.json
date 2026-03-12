@@ -1,20 +1,33 @@
 {
   "service": "nextauth",
-  "scan_timestamp": "2026-03-11T06:07:11.307292",
+  "scan_timestamp": "2026-03-12T06:11:45.354903",
   "finding_count": 4,
   "findings": [
     {
       "service": "nextauth",
-      "file": ".env.docker",
-      "repository": "RyanLisse/hgg-roborail-rag",
-      "url": "https://github.com/RyanLisse/hgg-roborail-rag/blob/1e02ee1a8ccdcc47d1a6940bf975f1f8ce4ed02d/.env.docker",
-      "line_number": 42,
-      "line_preview": "NEXTAUTH_URL=http://localhost:3000",
+      "file": "env.example",
+      "repository": "SivanRP/studysync",
+      "url": "https://github.com/SivanRP/studysync/blob/54efe7f61dc4be17c020d3ad6cf05e82a165bb4f/env.example",
+      "line_number": 12,
+      "line_preview": "NEXTAUTH_URL=\"http://localhost:3000\"",
       "key_type": "nextauth_url",
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "http*************3000",
-      "timestamp": "2026-03-11T06:06:14.620169"
+      "timestamp": "2026-03-12T06:10:59.816143"
+    },
+    {
+      "service": "nextauth",
+      "file": "env.example",
+      "repository": "ikayaalp/gastrofolly",
+      "url": "https://github.com/ikayaalp/gastrofolly/blob/4a4a25079b36653ffa329e292556a8d3c2df8b65/env.example",
+      "line_number": 6,
+      "line_preview": "NEXTAUTH_URL=\"http://localhost:3000\"",
+      "key_type": "nextauth_url",
+      "description": "Nextauth Url",
+      "severity": "medium",
+      "matched_pattern": "NEXT****************************000\"",
+      "timestamp": "2026-03-12T06:11:17.450791"
     },
     {
       "service": "nextauth",
@@ -27,20 +40,7 @@
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "NEXT**************************3000",
-      "timestamp": "2026-03-11T06:06:19.946506"
-    },
-    {
-      "service": "nextauth",
-      "file": "env.example",
-      "repository": "ikayaalp/gastrofolly",
-      "url": "https://github.com/ikayaalp/gastrofolly/blob/4bd5ca9cbcf1a1e4d4f23dcbed83e8f8261b7106/env.example",
-      "line_number": 6,
-      "line_preview": "NEXTAUTH_URL=\"http://localhost:3000\"",
-      "key_type": "nextauth_url",
-      "description": "Nextauth Url",
-      "severity": "medium",
-      "matched_pattern": "NEXT****************************000\"",
-      "timestamp": "2026-03-11T06:06:46.324298"
+      "timestamp": "2026-03-12T06:11:23.850252"
     },
     {
       "service": "nextauth",
@@ -53,7 +53,7 @@
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "NEXT**************************3000",
-      "timestamp": "2026-03-11T06:06:50.656208"
+      "timestamp": "2026-03-12T06:11:25.986158"
     }
   ]
 }

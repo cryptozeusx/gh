@@ -1,21 +1,8 @@
 {
   "service": "etherscan",
-  "scan_timestamp": "2026-03-11T06:07:11.301111",
-  "finding_count": 2,
+  "scan_timestamp": "2026-03-12T06:11:45.349961",
+  "finding_count": 1,
   "findings": [
-    {
-      "service": "etherscan",
-      "file": ".env.org",
-      "repository": "evmns/evmns-contracts",
-      "url": "https://github.com/evmns/evmns-contracts/blob/2e8519abc43b479c1db6be2cfd4478ce9975285d/.env.org",
-      "line_number": 12,
-      "line_preview": "ETHERSCAN_API_KEY=6GMJ1IY6MM1WTUKUGBEC4AKUBIRGTS9Z2I",
-      "key_type": "etherscan_api_key",
-      "description": "Etherscan Api Key",
-      "severity": "medium",
-      "matched_pattern": "ETHE********************************************9Z2I",
-      "timestamp": "2026-03-11T06:06:09.872121"
-    },
     {
       "service": "etherscan",
       "file": ".env.production",
@@ -27,7 +14,7 @@
       "description": "Etherscan Api Key",
       "severity": "medium",
       "matched_pattern": "ETHE********************************************Z26U",
-      "timestamp": "2026-03-11T06:06:13.098388"
+      "timestamp": "2026-03-12T06:10:25.342937"
     }
   ]
 }

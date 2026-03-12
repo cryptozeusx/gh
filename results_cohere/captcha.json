@@ -1,6 +1,6 @@
 {
   "service": "captcha",
-  "scan_timestamp": "2026-03-11T06:07:11.298292",
+  "scan_timestamp": "2026-03-12T06:11:45.348028",
   "finding_count": 3,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Captcha Key",
       "severity": "medium",
       "matched_pattern": "6Ld_********************************rmRX",
-      "timestamp": "2026-03-11T06:06:27.958134"
+      "timestamp": "2026-03-12T06:10:44.819683"
     },
     {
       "service": "captcha",
@@ -27,20 +27,20 @@
       "description": "Captcha Key",
       "severity": "medium",
       "matched_pattern": "CAPT**********************************************mRX\"",
-      "timestamp": "2026-03-11T06:06:30.931565"
+      "timestamp": "2026-03-12T06:10:50.178021"
     },
     {
       "service": "captcha",
-      "file": ".env.local",
+      "file": ".env.dbdump.example",
       "repository": "whitebear0909/b2bwood",
-      "url": "https://github.com/whitebear0909/b2bwood/blob/60d99e660accf265ebfda1369997b4a3594ad574/.env.local",
-      "line_number": 123,
+      "url": "https://github.com/whitebear0909/b2bwood/blob/60d99e660accf265ebfda1369997b4a3594ad574/.env.dbdump.example",
+      "line_number": 134,
       "line_preview": "CAPTCHA_KEY=\"6Ld_nrsZAAAAAO-MowQQPfbD9yoio52GiMgUrmRX\"",
       "key_type": "captcha_key",
       "description": "Captcha Key",
       "severity": "medium",
       "matched_pattern": "CAPT**********************************************mRX\"",
-      "timestamp": "2026-03-11T06:06:56.059558"
+      "timestamp": "2026-03-12T06:11:11.515071"
     }
   ]
 }

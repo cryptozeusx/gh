@@ -1,6 +1,6 @@
 {
   "service": "payfast",
-  "scan_timestamp": "2026-03-11T06:07:11.308204",
+  "scan_timestamp": "2026-03-12T06:11:45.355458",
   "finding_count": 3,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Payfast Merchant Key",
       "severity": "medium",
       "matched_pattern": "m0sf*****zqlm",
-      "timestamp": "2026-03-11T06:06:27.958093"
+      "timestamp": "2026-03-12T06:10:44.819653"
     },
     {
       "service": "payfast",
@@ -27,20 +27,20 @@
       "description": "Payfast Merchant Key",
       "severity": "medium",
       "matched_pattern": "PAYF****************************qlm\"",
-      "timestamp": "2026-03-11T06:06:30.931412"
+      "timestamp": "2026-03-12T06:10:50.177873"
     },
     {
       "service": "payfast",
-      "file": ".env.local",
+      "file": ".env.dbdump.example",
       "repository": "whitebear0909/b2bwood",
-      "url": "https://github.com/whitebear0909/b2bwood/blob/60d99e660accf265ebfda1369997b4a3594ad574/.env.local",
-      "line_number": 117,
+      "url": "https://github.com/whitebear0909/b2bwood/blob/60d99e660accf265ebfda1369997b4a3594ad574/.env.dbdump.example",
+      "line_number": 128,
       "line_preview": "PAYFAST_MERCHANT_KEY=\"m0sfp3xkxzqlm\"",
       "key_type": "payfast_merchant_key",
       "description": "Payfast Merchant Key",
       "severity": "medium",
       "matched_pattern": "PAYF****************************qlm\"",
-      "timestamp": "2026-03-11T06:06:56.059405"
+      "timestamp": "2026-03-12T06:11:11.514960"
     }
   ]
 }

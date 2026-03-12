@@ -1,6 +1,6 @@
 {
   "service": "alchemy",
-  "scan_timestamp": "2026-03-11T06:07:11.296744",
+  "scan_timestamp": "2026-03-12T06:11:45.347070",
   "finding_count": 2,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Alchemy Erc20 Token Contract",
       "severity": "medium",
       "matched_pattern": "0x25**********************************310f",
-      "timestamp": "2026-03-11T06:06:45.876112"
+      "timestamp": "2026-03-12T06:11:16.315397"
     },
     {
       "service": "alchemy",
@@ -27,7 +27,7 @@
       "description": "Alchemy Erc721 Token Contract",
       "severity": "medium",
       "matched_pattern": "0x16**********************************51e1",
-      "timestamp": "2026-03-11T06:06:45.876159"
+      "timestamp": "2026-03-12T06:11:16.315426"
     }
   ]
 }

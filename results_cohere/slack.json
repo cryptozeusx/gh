@@ -1,6 +1,6 @@
 {
   "service": "slack",
-  "scan_timestamp": "2026-03-11T06:07:11.311180",
+  "scan_timestamp": "2026-03-12T06:11:45.357732",
   "finding_count": 2,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Slack Reporter Token",
       "severity": "medium",
       "matched_pattern": "# On*****************************************************ble)",
-      "timestamp": "2026-03-11T06:06:49.262909"
+      "timestamp": "2026-03-12T06:11:23.511275"
     },
     {
       "service": "slack",
@@ -27,7 +27,7 @@
       "description": "Slack Notifier Client Secret",
       "severity": "high",
       "matched_pattern": "clie*******************************************************************ble)",
-      "timestamp": "2026-03-11T06:06:49.262953"
+      "timestamp": "2026-03-12T06:11:23.511303"
     }
   ]
 }

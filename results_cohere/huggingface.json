@@ -1,21 +1,8 @@
 {
   "service": "huggingface",
-  "scan_timestamp": "2026-03-11T06:07:11.304727",
-  "finding_count": 4,
+  "scan_timestamp": "2026-03-12T06:11:45.352796",
+  "finding_count": 3,
   "findings": [
-    {
-      "service": "huggingface",
-      "file": "finlit-gpt/.env.backup",
-      "repository": "Nono140503/FinLit-GPT",
-      "url": "https://github.com/Nono140503/FinLit-GPT/blob/0f2a1f487fd53b7cd81348e866abda56599cb8d2/finlit-gpt/.env.backup",
-      "line_number": 1,
-      "line_preview": "HUGGINGFACE_API_KEY=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",
-      "key_type": "huggingface_api_key",
-      "description": "Huggingface Api Key",
-      "severity": "medium",
-      "matched_pattern": "HUGG*************************************************TVgD",
-      "timestamp": "2026-03-11T06:06:18.905499"
-    },
     {
       "service": "huggingface",
       "file": "env.local",
@@ -27,7 +14,7 @@
       "description": "Huggingface Api Token",
       "severity": "medium",
       "matched_pattern": "hf_g*****************************xfcH",
-      "timestamp": "2026-03-11T06:06:49.041885"
+      "timestamp": "2026-03-12T06:11:23.122386"
     },
     {
       "service": "huggingface",
@@ -40,7 +27,7 @@
       "description": "Huggingface Api Key",
       "severity": "medium",
       "matched_pattern": "HUGG*************************************************AmJS",
-      "timestamp": "2026-03-11T06:06:50.305864"
+      "timestamp": "2026-03-12T06:11:25.322598"
     },
     {
       "service": "huggingface",
@@ -53,7 +40,7 @@
       "description": "Huggingface Api Token",
       "severity": "medium",
       "matched_pattern": "HUGG****************************************************JfKA",
-      "timestamp": "2026-03-11T06:06:50.570873"
+      "timestamp": "2026-03-12T06:11:25.829443"
     }
   ]
 }

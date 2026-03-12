@@ -1,8 +1,47 @@
 {
   "service": "postgres",
-  "scan_timestamp": "2026-03-11T06:07:11.309220",
-  "finding_count": 1,
+  "scan_timestamp": "2026-03-12T06:11:45.356181",
+  "finding_count": 4,
   "findings": [
+    {
+      "service": "postgres",
+      "file": ".env.no",
+      "repository": "ooeunoo/mysql_to_postgres",
+      "url": "https://github.com/ooeunoo/mysql_to_postgres/blob/952c69597caa75ffd1ca1d347720923a868b2936/.env.no",
+      "line_number": 9,
+      "line_preview": "POSTGRES_PASSWORD=qwer1234",
+      "key_type": "postgres_password",
+      "description": "Postgres Password",
+      "severity": "high",
+      "matched_pattern": "********",
+      "timestamp": "2026-03-12T06:10:14.467548"
+    },
+    {
+      "service": "postgres",
+      "file": ".env.hanzo.example",
+      "repository": "hanzoai/chat",
+      "url": "https://github.com/hanzoai/chat/blob/fff013d92fa823f3df89551d15dc1995ee0bc294/.env.hanzo.example",
+      "line_number": 14,
+      "line_preview": "POSTGRES_PASSWORD=hanzo123",
+      "key_type": "postgres_password",
+      "description": "Postgres Password",
+      "severity": "high",
+      "matched_pattern": "POST******************o123",
+      "timestamp": "2026-03-12T06:10:24.916792"
+    },
+    {
+      "service": "postgres",
+      "file": ".env.openapi",
+      "repository": "EtroxTaran/rag_demo",
+      "url": "https://github.com/EtroxTaran/rag_demo/blob/6f1bee4b145eee8c13dd076359dfc198c1251d5c/.env.openapi",
+      "line_number": 21,
+      "line_preview": "POSTGRES_PASSWORD=ragdemo_pw",
+      "key_type": "postgres_password",
+      "description": "Postgres Password",
+      "severity": "high",
+      "matched_pattern": "POST********************o_pw",
+      "timestamp": "2026-03-12T06:10:33.902935"
+    },
     {
       "service": "postgres",
       "file": "env.local",
@@ -13,8 +52,8 @@
       "key_type": "postgres_password",
       "description": "Postgres Password",
       "severity": "high",
-      "matched_pattern": "npg_********IX6P",
-      "timestamp": "2026-03-11T06:06:49.041756"
+      "matched_pattern": "POST**************************IX6P",
+      "timestamp": "2026-03-12T06:11:23.121403"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "service": "anon",
-  "scan_timestamp": "2026-03-11T06:07:11.296853",
+  "scan_timestamp": "2026-03-12T06:11:45.347174",
   "finding_count": 8,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Anon Key",
       "severity": "medium",
       "matched_pattern": "eyJh************************************************************************************************************************************************************************************************************u4GE",
-      "timestamp": "2026-03-11T06:06:06.438794"
+      "timestamp": "2026-03-12T06:10:13.144628"
     },
     {
       "service": "anon",
@@ -27,46 +27,7 @@
       "description": "Anon Key",
       "severity": "medium",
       "matched_pattern": "ANON*****************************************************************************************************************************************************************************************************************oBuY",
-      "timestamp": "2026-03-11T06:06:11.051244"
-    },
-    {
-      "service": "anon",
-      "file": ".env.local.backup",
-      "repository": "dineshyadav03/fineai",
-      "url": "https://github.com/dineshyadav03/fineai/blob/ee52c6f54e82d3846b0f3370301d41d30e41248b/.env.local.backup",
-      "line_number": 2,
-      "line_preview": "NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp4bmtmcm1zenp5eWVvY",
-      "key_type": "anon_key",
-      "description": "Anon Key",
-      "severity": "medium",
-      "matched_pattern": "ANON*****************************************************************************************************************************************************************************************************************P_oE",
-      "timestamp": "2026-03-11T06:06:21.155273"
-    },
-    {
-      "service": "anon",
-      "file": ".env.local",
-      "repository": "Orkestaia/orkesta-os",
-      "url": "https://github.com/Orkestaia/orkesta-os/blob/df0130fd2403feb2ce5ae64ba4754a5e51310f08/.env.local",
-      "line_number": 2,
-      "line_preview": "NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJsbnlobW9zc2xoeHFvc",
-      "key_type": "anon_key",
-      "description": "Anon Key",
-      "severity": "medium",
-      "matched_pattern": "ANON*****************************************************************************************************************************************************************************************************************mrow",
-      "timestamp": "2026-03-11T06:06:24.615379"
-    },
-    {
-      "service": "anon",
-      "file": "backend/.env",
-      "repository": "fabiosky21/TheNasa",
-      "url": "https://github.com/fabiosky21/TheNasa/blob/2b1345f83c7db4746498526982bb1e0b7633bc7f/backend/.env",
-      "line_number": 4,
-      "line_preview": "REACT_APP_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imlud3ZtZ3BnZXJibXVtdHJ",
-      "key_type": "anon_key",
-      "description": "Anon Key",
-      "severity": "medium",
-      "matched_pattern": "ANON*****************************************************************************************************************************************************************************************************************IWAg",
-      "timestamp": "2026-03-11T06:06:29.888314"
+      "timestamp": "2026-03-12T06:10:22.291317"
     },
     {
       "service": "anon",
@@ -79,7 +40,46 @@
       "description": "Anon Key",
       "severity": "medium",
       "matched_pattern": "ANON*****************************************************************************************************************************************************************************************************************9jUM",
-      "timestamp": "2026-03-11T06:06:49.531985"
+      "timestamp": "2026-03-12T06:10:30.075780"
+    },
+    {
+      "service": "anon",
+      "file": ".env.local",
+      "repository": "Orkestaia/orkesta-os",
+      "url": "https://github.com/Orkestaia/orkesta-os/blob/df0130fd2403feb2ce5ae64ba4754a5e51310f08/.env.local",
+      "line_number": 2,
+      "line_preview": "NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJsbnlobW9zc2xoeHFvc",
+      "key_type": "anon_key",
+      "description": "Anon Key",
+      "severity": "medium",
+      "matched_pattern": "ANON*****************************************************************************************************************************************************************************************************************mrow",
+      "timestamp": "2026-03-12T06:10:38.905951"
+    },
+    {
+      "service": "anon",
+      "file": "backend/.env",
+      "repository": "fabiosky21/TheNasa",
+      "url": "https://github.com/fabiosky21/TheNasa/blob/2b1345f83c7db4746498526982bb1e0b7633bc7f/backend/.env",
+      "line_number": 4,
+      "line_preview": "REACT_APP_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imlud3ZtZ3BnZXJibXVtdHJ",
+      "key_type": "anon_key",
+      "description": "Anon Key",
+      "severity": "medium",
+      "matched_pattern": "ANON*****************************************************************************************************************************************************************************************************************IWAg",
+      "timestamp": "2026-03-12T06:10:48.279210"
+    },
+    {
+      "service": "anon",
+      "file": "flyfox-ai-platform/env.example",
+      "repository": "GoliathBritton/flyfox-ai-platform",
+      "url": "https://github.com/GoliathBritton/flyfox-ai-platform/blob/1d0a6d8577180ef14cbe9424b1451b2384a119e2/flyfox-ai-platform/env.example",
+      "line_number": 6,
+      "line_preview": "VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imh5c2ZpaWJmYWp5ZGphdHNxdGJ6",
+      "key_type": "anon_key",
+      "description": "Anon Key",
+      "severity": "medium",
+      "matched_pattern": "ANON*****************************************************************************************************************************************************************************************************************nGjE",
+      "timestamp": "2026-03-12T06:11:20.953561"
     },
     {
       "service": "anon",
@@ -92,7 +92,7 @@
       "description": "Anon Key",
       "severity": "medium",
       "matched_pattern": "ANON*****************************************************************************************************************************************************************************************************************MuT0",
-      "timestamp": "2026-03-11T06:06:50.305543"
+      "timestamp": "2026-03-12T06:11:25.322324"
     },
     {
       "service": "anon",
@@ -105,7 +105,7 @@
       "description": "Anon Key",
       "severity": "medium",
       "matched_pattern": "ANON*****************************************************************************************************************************************************************************************************************BAL0",
-      "timestamp": "2026-03-11T06:06:55.747774"
+      "timestamp": "2026-03-12T06:11:29.919227"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "service": "anthropic",
-  "scan_timestamp": "2026-03-11T06:07:11.297028",
-  "finding_count": 4,
+  "scan_timestamp": "2026-03-12T06:11:45.347331",
+  "finding_count": 2,
   "findings": [
     {
       "service": "anthropic",
@@ -14,33 +14,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "# Re****************************-...",
-      "timestamp": "2026-03-11T06:06:20.040051"
-    },
-    {
-      "service": "anthropic",
-      "file": ".env.enterprise",
-      "repository": "ryanalmb/script-ai",
-      "url": "https://github.com/ryanalmb/script-ai/blob/21f4523a23788ce28b6f99a90328103c0a66a60b/.env.enterprise",
-      "line_number": 249,
-      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api03-ABC123456789DEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
-      "key_type": "anthropic_api_key",
-      "description": "Anthropic Api Key",
-      "severity": "medium",
-      "matched_pattern": "ANTH************************************************************************************wxyz",
-      "timestamp": "2026-03-11T06:06:21.476420"
-    },
-    {
-      "service": "anthropic",
-      "file": ".env",
-      "repository": "PathfinderFederalSolutions/AgentForge",
-      "url": "https://github.com/PathfinderFederalSolutions/AgentForge/blob/312de179728e91e461708b7f48f2d3da8dc60232/.env",
-      "line_number": 2,
-      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api03-z7IWfPc0RCO1GqNjM9Ef_RnrB-4zhnMnAoSzDarOcwgcRtg7SSvJ3oz0pndHhOuHRSetEaH5xlbJdy4O_m_bZA-Zp",
-      "key_type": "anthropic_api_key",
-      "description": "Anthropic Api Key",
-      "severity": "medium",
-      "matched_pattern": "ANTH**********************************************************************************************************************cwAA",
-      "timestamp": "2026-03-11T06:06:28.195310"
+      "timestamp": "2026-03-12T06:11:24.365944"
     },
     {
       "service": "anthropic",
@@ -53,7 +27,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************DgAA",
-      "timestamp": "2026-03-11T06:06:50.654168"
+      "timestamp": "2026-03-12T06:11:25.984841"
     }
   ]
 }

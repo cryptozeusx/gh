@@ -1,6 +1,6 @@
 {
   "service": "umbraco",
-  "scan_timestamp": "2026-03-11T06:07:11.312164",
+  "scan_timestamp": "2026-03-12T06:11:45.358329",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Umbraco Api Key",
       "severity": "medium",
       "matched_pattern": "UMBR**********************************************c23'",
-      "timestamp": "2026-03-11T06:07:10.294272"
+      "timestamp": "2026-03-12T06:11:44.344882"
     }
   ]
 }

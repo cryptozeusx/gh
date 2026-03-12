@@ -1,7 +1,7 @@
 {
   "service": "co",
-  "scan_timestamp": "2026-03-11T06:07:11.298591",
-  "finding_count": 9,
+  "scan_timestamp": "2026-03-12T06:11:45.348192",
+  "finding_count": 8,
   "findings": [
     {
       "service": "co",
@@ -14,7 +14,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*************duce",
-      "timestamp": "2026-03-11T06:06:26.962239"
+      "timestamp": "2026-03-12T06:10:43.106761"
     },
     {
       "service": "co",
@@ -27,7 +27,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********box-",
-      "timestamp": "2026-03-11T06:06:27.261185"
+      "timestamp": "2026-03-12T06:10:43.620997"
     },
     {
       "service": "co",
@@ -40,7 +40,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************************89cf",
-      "timestamp": "2026-03-11T06:06:28.040357"
+      "timestamp": "2026-03-12T06:10:45.003091"
     },
     {
       "service": "co",
@@ -53,20 +53,20 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*******************Q80T",
-      "timestamp": "2026-03-11T06:06:28.125001"
+      "timestamp": "2026-03-12T06:10:45.161604"
     },
     {
       "service": "co",
       "file": ".env",
       "repository": "NepsenX/NepsenX",
-      "url": "https://github.com/NepsenX/NepsenX/blob/e3b93b5dbd112103e2cb080cfc803d639f46989f/.env",
+      "url": "https://github.com/NepsenX/NepsenX/blob/c8ba776c2af80c63450b83d0f200edec21b726e9/.env",
       "line_number": 19,
       "line_preview": "CO_API_KEY=co_secure_access_90",
       "key_type": "co_api_key",
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************s_90",
-      "timestamp": "2026-03-11T06:06:30.360470"
+      "timestamp": "2026-03-12T06:10:49.141071"
     },
     {
       "service": "co",
@@ -79,20 +79,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********************************TylK",
-      "timestamp": "2026-03-11T06:06:31.811704"
-    },
-    {
-      "service": "co",
-      "file": ".env.production.example",
-      "repository": "akila-era/hexalyte-main-ims",
-      "url": "https://github.com/akila-era/hexalyte-main-ims/blob/39935ba5b9e74fd1521367378b4cb19aef1518a1/.env.production.example",
-      "line_number": 35,
-      "line_preview": "MALICO_API_KEY=D7823C-040A4D-6CF639-9E8C72-DF9BBE",
-      "key_type": "co_api_key",
-      "description": "Co Api Key",
-      "severity": "medium",
-      "matched_pattern": "CO_A*************************************9BBE",
-      "timestamp": "2026-03-11T06:06:43.899928"
+      "timestamp": "2026-03-12T06:10:51.720754"
     },
     {
       "service": "co",
@@ -105,7 +92,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*****************************9QcP",
-      "timestamp": "2026-03-11T06:06:46.777653"
+      "timestamp": "2026-03-12T06:11:18.338577"
     },
     {
       "service": "co",
@@ -118,7 +105,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*******************************FcU'",
-      "timestamp": "2026-03-11T06:06:55.653077"
+      "timestamp": "2026-03-12T06:11:29.753780"
     }
   ]
 }

@@ -1,0 +1,33 @@
+{
+  "service": "astra",
+  "scan_timestamp": "2026-03-12T06:11:45.347793",
+  "finding_count": 2,
+  "findings": [
+    {
+      "service": "astra",
+      "file": "env.example",
+      "repository": "acantarero/rag-playground",
+      "url": "https://github.com/acantarero/rag-playground/blob/e99da6411ef027ffc735128d6cc4f118812f287f/env.example",
+      "line_number": 7,
+      "line_preview": "ASTRA_TOKEN=AstraCS:...",
+      "key_type": "astra_token",
+      "description": "Astra Token",
+      "severity": "medium",
+      "matched_pattern": "Astr***:...",
+      "timestamp": "2026-03-12T06:11:01.399741"
+    },
+    {
+      "service": "astra",
+      "file": ".env.development",
+      "repository": "kaleabteweld/Agelgil-recipe-hub",
+      "url": "https://github.com/kaleabteweld/Agelgil-recipe-hub/blob/82ab54ebbe27addfd58b279fca1bf9e18d372316/.env.development",
+      "line_number": 24,
+      "line_preview": "DATASAX_ASTRA_TOKEN = \"AstraCS:nAPTiZCSMNQTEDYSRsJSnENc:8a1dabc3ddc941bb2f870559b05f39922aaeb4f3daaf66223285200875ba4d4d",
+      "key_type": "astra_token",
+      "description": "Astra Token",
+      "severity": "medium",
+      "matched_pattern": "ASTR*********************************************************************************************************d4d\"",
+      "timestamp": "2026-03-12T06:11:36.693642"
+    }
+  ]
+}

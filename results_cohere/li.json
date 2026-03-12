@@ -1,0 +1,20 @@
+{
+  "service": "li",
+  "scan_timestamp": "2026-03-12T06:11:45.353650",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "li",
+      "file": ".env-sample",
+      "repository": "ethereum/kohaku-extension",
+      "url": "https://github.com/ethereum/kohaku-extension/blob/222b7b1952be51bda3089867fba8a03b7fd246da/.env-sample",
+      "line_number": 57,
+      "line_preview": "LI_FI_API_KEY=\"12345\" # dummy value",
+      "key_type": "li_fi_api_key",
+      "description": "Li Fi Api Key",
+      "severity": "medium",
+      "matched_pattern": "1234************alue",
+      "timestamp": "2026-03-12T06:10:41.280652"
+    }
+  ]
+}
