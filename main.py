@@ -100,6 +100,27 @@ SERVICE_SEEDS: List[Tuple[str, str]] = [
     ("cohere",      'extension:local "CO_API_KEY"'),
     ("cohere",      'extension:development "COHERE_API_KEY"'),
     ("cohere",      'extension:development "CO_API_KEY"'),
+
+    # NeonDB  (neon.tech) — Postgres-as-a-service
+    ("neondb",      'filename:.env "NEON_DATABASE_URL"'),
+    ("neondb",      'filename:.env "NEONDB_URL"'),
+    ("neondb",      'filename:.env "NEON_URL"'),
+    ("neondb",      'filename:.env "NEON_DB_URL"'),
+    ("neondb",      'filename:.env "postgresql://neondb"'),
+    ("neondb",      'filename:.env "postgres://neondb"'),
+    ("neondb",      'filename:.env neon.tech'),
+    ("neondb",      'filename:.env "@ep-" neon.tech'),
+    ("neondb",      'filename:.env "POSTGRES_URL" neon'),
+    ("neondb",      'filename:.env "POSTGRES_PRISMA_URL"'),
+    ("neondb",      'filename:.env "POSTGRES_URL_NON_POOLING"'),
+    ("neondb",      'extension:example "NEON_DATABASE_URL"'),
+    ("neondb",      'extension:example neon.tech'),
+    ("neondb",      'extension:local "NEON_DATABASE_URL"'),
+    ("neondb",      'extension:local neon.tech'),
+    ("neondb",      'extension:development "NEON_DATABASE_URL"'),
+    ("neondb",      'extension:development neon.tech'),
+    ("neondb",      '"ep-" "neon.tech" filename:.env'),
+    ("neondb",      '"@ep-" ".neon.tech"'),
 ]
 
 
@@ -199,6 +220,13 @@ class PatternDatabase:
         "tavily_named_key":      {"pattern": r"(?i)(?:TAVILY[_-]?(?:API[_-]?)?(?:KEY|SECRET|TOKEN)|X[_-]TAVILY[_-]API[_-]KEY)\s*[=:]\s*[\"']?tvly-[a-zA-Z0-9]{32}[\"']?", "description": "Tavily API Key (named var)", "severity": "high"},
         # Cohere  (cohere.com)
         "cohere_key":            {"pattern": r"(?i)CO(?:HERE)?_?API_?KEY.*?([A-Za-z0-9_-]{35,45})",                                    "description": "Cohere API Key",                "severity": "high"},
+        # NeonDB  (neon.tech)
+        # Matches any postgres:// URL whose host contains .neon.tech (pooled or direct endpoints)
+        "neondb_conn_string":    {"pattern": r"(?:postgres(?:ql)?)://\S+@[^\s\"']*\.neon\.tech[^\s\"']*",                             "description": "NeonDB Connection String",      "severity": "critical"},
+        # Named variable forms: NEON_DATABASE_URL, NEONDB_URL, NEON_URL, NEON_DB_URL
+        "neondb_named_url":      {"pattern": r"(?i)(?:NEON(?:DB)?[_-]?(?:DATABASE[_-]?)?URL|NEON[_-]DB[_-]?URL)\s*[=:]\s*[\"']?postgres(?:ql)?://[^\s\"']+[\"']?", "description": "NeonDB URL (named var)",  "severity": "critical"},
+        # Vercel/Neon integration variable names (POSTGRES_URL, POSTGRES_PRISMA_URL, etc.)
+        "neondb_vercel_url":     {"pattern": r"(?i)(?:POSTGRES(?:QL)?(?:_PRISMA)?(?:_URL(?:_NON_POOLING)?))\s*[=:]\s*[\"']?postgres(?:ql)?://[^\s\"']*\.neon\.tech[^\s\"']*[\"']?", "description": "NeonDB Vercel/Postgres URL", "severity": "critical"},
     }
 
     # Map pattern key names to the service label used in fingerprints/worker routing
@@ -227,6 +255,9 @@ class PatternDatabase:
         "tavily_key":            "tavily",
         "tavily_named_key":      "tavily",
         "cohere_key":            "cohere",
+        "neondb_conn_string":    "neondb",
+        "neondb_named_url":      "neondb",
+        "neondb_vercel_url":     "neondb",
     }
 
     def __init__(self):
