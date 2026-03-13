@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-03-12T06:37:30.086166",
-  "total_keys": 48,
-  "live_keys": 31,
+  "checked_at": "2026-03-13T06:10:12.327980",
+  "total_keys": 51,
+  "live_keys": 33,
   "results": [
     {
       "key_redacted": "CHnhlk****mU2X",
@@ -445,6 +445,34 @@
       "repository": "GoliathBritton/flyfox-ai-platform",
       "url": "https://github.com/GoliathBritton/flyfox-ai-platform/blob/1d0a6d8577180ef14cbe9424b1451b2384a119e2/flyfox-ai-platform/env.example",
       "valid": false
+    },
+    {
+      "key_redacted": "WuWBkS****CRR0",
+      "repository": "Savitha11111/FloodAi",
+      "url": "https://github.com/Savitha11111/FloodAi/blob/14cf7c1801a1db389ee09af539f12aaa513318be/.env.docker",
+      "organization_id": "bc68d006-4aac-4815-97db-4af885b4722a",
+      "owner_id": "37075766-62b2-499c-8dec-90f677455afe",
+      "valid": true,
+      "plan": "Trial",
+      "limit": "40",
+      "remaining": "39"
+    },
+    {
+      "key_redacted": "kqAuzS****zLo1",
+      "repository": "samrahimi/factoid-ai",
+      "url": "https://github.com/samrahimi/factoid-ai/blob/9b870d3e93ccf5e4a43d3bd03c81b6a1a1a81e77/.env.save",
+      "valid": false
+    },
+    {
+      "key_redacted": "uZO0VX****OkSm",
+      "repository": "srnadimovska/soils_app",
+      "url": "https://github.com/srnadimovska/soils_app/blob/d7b3b2a77356141d461a0f2ecc8d5779e870d86b/config.env",
+      "organization_id": "a4b49550-c205-4f24-80a8-524d41127fa5",
+      "owner_id": "c9554472-ba50-4937-b736-672dda79461d",
+      "valid": true,
+      "plan": "Trial",
+      "limit": "40",
+      "remaining": "39"
     }
   ]
 }
