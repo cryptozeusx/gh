@@ -1,7 +1,7 @@
 {
   "service": "postgres",
-  "scan_timestamp": "2026-03-12T06:11:45.356181",
-  "finding_count": 4,
+  "scan_timestamp": "2026-03-13T06:08:01.361438",
+  "finding_count": 3,
   "findings": [
     {
       "service": "postgres",
@@ -14,20 +14,7 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "********",
-      "timestamp": "2026-03-12T06:10:14.467548"
-    },
-    {
-      "service": "postgres",
-      "file": ".env.hanzo.example",
-      "repository": "hanzoai/chat",
-      "url": "https://github.com/hanzoai/chat/blob/fff013d92fa823f3df89551d15dc1995ee0bc294/.env.hanzo.example",
-      "line_number": 14,
-      "line_preview": "POSTGRES_PASSWORD=hanzo123",
-      "key_type": "postgres_password",
-      "description": "Postgres Password",
-      "severity": "high",
-      "matched_pattern": "POST******************o123",
-      "timestamp": "2026-03-12T06:10:24.916792"
+      "timestamp": "2026-03-13T06:06:45.758515"
     },
     {
       "service": "postgres",
@@ -40,7 +27,7 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "POST********************o_pw",
-      "timestamp": "2026-03-12T06:10:33.902935"
+      "timestamp": "2026-03-13T06:07:01.621073"
     },
     {
       "service": "postgres",
@@ -53,7 +40,7 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "POST**************************IX6P",
-      "timestamp": "2026-03-12T06:11:23.121403"
+      "timestamp": "2026-03-13T06:07:39.218364"
     }
   ]
 }

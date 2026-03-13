@@ -1,6 +1,6 @@
 {
   "service": "service",
-  "scan_timestamp": "2026-03-12T06:11:45.357578",
+  "scan_timestamp": "2026-03-13T06:08:01.363149",
   "finding_count": 3,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Service Key",
       "severity": "medium",
       "matched_pattern": "eyJh***********************************************************************************************************************************************************************************************************************Vt4Q",
-      "timestamp": "2026-03-12T06:10:13.144698"
+      "timestamp": "2026-03-13T06:06:44.784094"
     },
     {
       "service": "service",
@@ -27,7 +27,7 @@
       "description": "Service Key",
       "severity": "medium",
       "matched_pattern": "SERV****************************I...",
-      "timestamp": "2026-03-12T06:11:14.679803"
+      "timestamp": "2026-03-13T06:07:31.912757"
     },
     {
       "service": "service",
@@ -40,7 +40,7 @@
       "description": "Service Key",
       "severity": "medium",
       "matched_pattern": "SERV*******************************************9...",
-      "timestamp": "2026-03-12T06:11:19.321448"
+      "timestamp": "2026-03-13T06:07:35.756129"
     }
   ]
 }

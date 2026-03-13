@@ -1,6 +1,6 @@
 {
   "service": "co",
-  "scan_timestamp": "2026-03-12T06:11:45.348192",
+  "scan_timestamp": "2026-03-13T06:08:01.351728",
   "finding_count": 8,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*************duce",
-      "timestamp": "2026-03-12T06:10:43.106761"
+      "timestamp": "2026-03-13T06:07:08.502931"
     },
     {
       "service": "co",
@@ -27,7 +27,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********box-",
-      "timestamp": "2026-03-12T06:10:43.620997"
+      "timestamp": "2026-03-13T06:07:08.901891"
     },
     {
       "service": "co",
@@ -40,20 +40,20 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************************89cf",
-      "timestamp": "2026-03-12T06:10:45.003091"
+      "timestamp": "2026-03-13T06:07:10.002132"
     },
     {
       "service": "co",
       "file": ".env",
-      "repository": "eyesli/crypto-quant-trading",
-      "url": "https://github.com/eyesli/crypto-quant-trading/blob/753bfb37c4b7a58f53479461ef24fe54daaced92/.env",
-      "line_number": 4,
-      "line_preview": "ALPHAVANTAGE_CO_API_KEY=L4V78TJ5I6AAQ80T",
+      "repository": "surya140104/Flood_Risk_140104",
+      "url": "https://github.com/surya140104/Flood_Risk_140104/blob/7e5ce762a7198a7b9fd701c6942d114bd3fe04b2/.env",
+      "line_number": 16,
+      "line_preview": "NEXT_PUBLIC_GEOCODE_MAPS_CO_API_KEY=683d9a25d35b3791659375hjpd4d5a3",
       "key_type": "co_api_key",
       "description": "Co Api Key",
       "severity": "medium",
-      "matched_pattern": "CO_A*******************Q80T",
-      "timestamp": "2026-03-12T06:10:45.161604"
+      "matched_pattern": "CO_A**********************************d5a3",
+      "timestamp": "2026-03-13T06:07:10.142224"
     },
     {
       "service": "co",
@@ -66,7 +66,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************s_90",
-      "timestamp": "2026-03-12T06:10:49.141071"
+      "timestamp": "2026-03-13T06:07:13.458125"
     },
     {
       "service": "co",
@@ -79,7 +79,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********************************TylK",
-      "timestamp": "2026-03-12T06:10:51.720754"
+      "timestamp": "2026-03-13T06:07:15.117967"
     },
     {
       "service": "co",
@@ -92,7 +92,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*****************************9QcP",
-      "timestamp": "2026-03-12T06:11:18.338577"
+      "timestamp": "2026-03-13T06:07:34.764537"
     },
     {
       "service": "co",
@@ -105,7 +105,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*******************************FcU'",
-      "timestamp": "2026-03-12T06:11:29.753780"
+      "timestamp": "2026-03-13T06:07:45.787236"
     }
   ]
 }

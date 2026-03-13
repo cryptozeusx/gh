@@ -1,33 +1,33 @@
 {
   "service": "slack",
-  "scan_timestamp": "2026-03-12T06:11:45.357732",
+  "scan_timestamp": "2026-03-13T06:08:01.363371",
   "finding_count": 2,
   "findings": [
     {
       "service": "slack",
       "file": "backend/.env.dist.local",
       "repository": "LF-Decentralized-Trust-labs/gitmesh",
-      "url": "https://github.com/LF-Decentralized-Trust-labs/gitmesh/blob/80fab80942e419d7da4521da6a3deeecd34e7e03/backend/.env.dist.local",
+      "url": "https://github.com/LF-Decentralized-Trust-labs/gitmesh/blob/77f1b509cde0b8b8cb392b010eb764a1b9e6636a/backend/.env.dist.local",
       "line_number": 136,
       "line_preview": "SLACK_REPORTER_TOKEN= # Only needed for internal team logs (Leave Empty to disable)",
       "key_type": "slack_reporter_token",
       "description": "Slack Reporter Token",
       "severity": "medium",
       "matched_pattern": "# On*****************************************************ble)",
-      "timestamp": "2026-03-12T06:11:23.511275"
+      "timestamp": "2026-03-13T06:07:39.602014"
     },
     {
       "service": "slack",
       "file": "backend/.env.dist.local",
       "repository": "LF-Decentralized-Trust-labs/gitmesh",
-      "url": "https://github.com/LF-Decentralized-Trust-labs/gitmesh/blob/80fab80942e419d7da4521da6a3deeecd34e7e03/backend/.env.dist.local",
+      "url": "https://github.com/LF-Decentralized-Trust-labs/gitmesh/blob/77f1b509cde0b8b8cb392b010eb764a1b9e6636a/backend/.env.dist.local",
       "line_number": 141,
       "line_preview": "SLACK_NOTIFIER_CLIENT_SECRET=client_secret # Only needed for internal team logs (Leave Empty to disable)",
       "key_type": "slack_notifier_client_secret",
       "description": "Slack Notifier Client Secret",
       "severity": "high",
       "matched_pattern": "clie*******************************************************************ble)",
-      "timestamp": "2026-03-12T06:11:23.511303"
+      "timestamp": "2026-03-13T06:07:39.602056"
     }
   ]
 }

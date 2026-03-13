@@ -1,6 +1,6 @@
 {
   "service": "huggingface",
-  "scan_timestamp": "2026-03-12T06:11:45.352796",
+  "scan_timestamp": "2026-03-13T06:08:01.357103",
   "finding_count": 3,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Huggingface Api Token",
       "severity": "medium",
       "matched_pattern": "hf_g*****************************xfcH",
-      "timestamp": "2026-03-12T06:11:23.122386"
+      "timestamp": "2026-03-13T06:07:39.219256"
     },
     {
       "service": "huggingface",
@@ -27,7 +27,7 @@
       "description": "Huggingface Api Key",
       "severity": "medium",
       "matched_pattern": "HUGG*************************************************AmJS",
-      "timestamp": "2026-03-12T06:11:25.322598"
+      "timestamp": "2026-03-13T06:07:41.036691"
     },
     {
       "service": "huggingface",
@@ -40,7 +40,7 @@
       "description": "Huggingface Api Token",
       "severity": "medium",
       "matched_pattern": "HUGG****************************************************JfKA",
-      "timestamp": "2026-03-12T06:11:25.829443"
+      "timestamp": "2026-03-13T06:07:41.401977"
     }
   ]
 }

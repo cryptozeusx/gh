@@ -1,6 +1,6 @@
 {
   "service": "app",
-  "scan_timestamp": "2026-03-12T06:11:45.347552",
+  "scan_timestamp": "2026-03-13T06:08:01.350963",
   "finding_count": 9,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "base*******************************************KgQ=",
-      "timestamp": "2026-03-12T06:10:24.469859"
+      "timestamp": "2026-03-13T06:06:52.771218"
     },
     {
       "service": "app",
@@ -27,7 +27,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************hXw=",
-      "timestamp": "2026-03-12T06:10:38.013901"
+      "timestamp": "2026-03-13T06:07:04.618399"
     },
     {
       "service": "app",
@@ -40,7 +40,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************tso=",
-      "timestamp": "2026-03-12T06:10:44.819301"
+      "timestamp": "2026-03-13T06:07:09.860102"
     },
     {
       "service": "app",
@@ -53,7 +53,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************tso=",
-      "timestamp": "2026-03-12T06:10:50.177655"
+      "timestamp": "2026-03-13T06:07:14.051244"
     },
     {
       "service": "app",
@@ -66,7 +66,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************Wws=",
-      "timestamp": "2026-03-12T06:10:50.365421"
+      "timestamp": "2026-03-13T06:07:14.198580"
     },
     {
       "service": "app",
@@ -79,7 +79,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************tso=",
-      "timestamp": "2026-03-12T06:10:50.534787"
+      "timestamp": "2026-03-13T06:07:14.350900"
     },
     {
       "service": "app",
@@ -92,7 +92,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************nYQ=",
-      "timestamp": "2026-03-12T06:10:51.720405"
+      "timestamp": "2026-03-13T06:07:15.117610"
     },
     {
       "service": "app",
@@ -105,7 +105,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************Xv8=",
-      "timestamp": "2026-03-12T06:10:51.935365"
+      "timestamp": "2026-03-13T06:07:15.278097"
     },
     {
       "service": "app",
@@ -118,7 +118,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************e8p\"",
-      "timestamp": "2026-03-12T06:11:11.515234"
+      "timestamp": "2026-03-13T06:07:30.149711"
     }
   ]
 }

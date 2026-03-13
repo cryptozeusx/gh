@@ -1,6 +1,6 @@
 {
   "service": "dashscope",
-  "scan_timestamp": "2026-03-12T06:11:45.349016",
+  "scan_timestamp": "2026-03-13T06:08:01.352699",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Dashscope Api Key",
       "severity": "medium",
       "matched_pattern": "... ***************************loud",
-      "timestamp": "2026-03-12T06:11:08.952322"
+      "timestamp": "2026-03-13T06:07:28.517456"
     }
   ]
 }

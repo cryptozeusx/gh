@@ -1,6 +1,6 @@
 {
   "service": "sig",
-  "scan_timestamp": "2026-03-12T06:11:45.357655",
+  "scan_timestamp": "2026-03-13T06:08:01.363262",
   "finding_count": 3,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Sig Key",
       "severity": "medium",
       "matched_pattern": "pass***********************************************************ong.",
-      "timestamp": "2026-03-12T06:11:24.867678"
+      "timestamp": "2026-03-13T06:07:40.555853"
     },
     {
       "service": "sig",
@@ -27,7 +27,7 @@
       "description": "Sig Key",
       "severity": "medium",
       "matched_pattern": "SIG_**********************************231'",
-      "timestamp": "2026-03-12T06:11:37.209564"
+      "timestamp": "2026-03-13T06:07:53.331752"
     },
     {
       "service": "sig",
@@ -40,7 +40,7 @@
       "description": "Sig Key",
       "severity": "medium",
       "matched_pattern": "SIG_**********************************zYI'",
-      "timestamp": "2026-03-12T06:11:38.040774"
+      "timestamp": "2026-03-13T06:07:53.971606"
     }
   ]
 }
