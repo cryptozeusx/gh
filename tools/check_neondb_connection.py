@@ -28,15 +28,23 @@ NAMED_URL_RE = re.compile(
 )
 
 
-def extract_urls_from_ndjson(path: str) -> list[dict]:
+def extract_urls_from_ndjson(path: str) -> tuple[list[dict], dict]:
     """
     Read an NDJSON file of findings and extract unique NeonDB connection URLs.
-    Returns a list of dicts: {url, repository, file_url, line_number}
+    Returns (entries, stats) where entries is a list of dicts:
+    {url, repository, file_url, line_number}
     """
     seen: set[str] = set()
     entries = []
+    stats = {
+        "total_lines": 0,
+        "json_lines": 0,
+        "matched_urls": 0,
+        "unique_urls": 0,
+    }
     with open(path) as fh:
         for line in fh:
+            stats["total_lines"] += 1
             line = line.strip()
             if not line:
                 continue
@@ -45,11 +53,14 @@ def extract_urls_from_ndjson(path: str) -> list[dict]:
             except json.JSONDecodeError:
                 continue
 
+            stats["json_lines"] += 1
+
             raw = finding.get("line_preview", "")
             # Try specific neon.tech pattern first, then fall back to any postgres URL
             matches = NEON_URL_RE.findall(raw) or NAMED_URL_RE.findall(raw)
 
             for url in matches:
+                stats["matched_urls"] += 1
                 # Strip trailing quotes or whitespace
                 url = url.strip("\"' \t\r\n")
                 # Only keep URLs that reference neon.tech (after stripping)
@@ -63,7 +74,8 @@ def extract_urls_from_ndjson(path: str) -> list[dict]:
                         "file_url": finding.get("url", ""),
                         "line_number": finding.get("line_number", 0),
                     })
-    return entries
+    stats["unique_urls"] = len(entries)
+    return entries, stats
 
 
 def redact_url(url: str) -> str:
@@ -166,10 +178,17 @@ def main() -> int:
     print(f"Timestamp  : {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print()
 
-    entries = extract_urls_from_ndjson(args.input)
+    entries, extraction_stats = extract_urls_from_ndjson(args.input)
     if not entries:
         print("❌ No NeonDB connection strings found in the input file.")
         return 1
+
+    print("Extraction stats:")
+    print(f"  NDJSON lines read      : {extraction_stats['total_lines']}")
+    print(f"  JSON lines parsed      : {extraction_stats['json_lines']}")
+    print(f"  URL matches (raw)      : {extraction_stats['matched_urls']}")
+    print(f"  Unique URLs to test    : {extraction_stats['unique_urls']}")
+    print()
 
     print(f"🔑 Found {len(entries)} unique connection string(s). Testing with {workers} workers...\n")
 
@@ -220,6 +239,7 @@ def main() -> int:
         with open(args.output, "w") as fh:
             json.dump({
                 "checked_at": datetime.now().isoformat(),
+                "extraction_stats": extraction_stats,
                 "total_connections": len(results),
                 "accessible": len(live),
                 "results": results,

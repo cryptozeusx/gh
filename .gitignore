@@ -15,6 +15,8 @@ github_env_scan_results_*.json
 !results_tavily/**
 !results_firecrawl/
 !results_firecrawl/**
+!results_neondb/
+!results_neondb/**
 
 # Temp files
 .tmp/
