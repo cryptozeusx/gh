@@ -61,6 +61,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -f "${{ inputs.output_file }}" || true
+          git add "${{ inputs.output_file }}" || true
           git diff --staged --quiet || git commit -m "neondb connection report [run #${{ github.run_number }}]"
           git push

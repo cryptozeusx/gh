@@ -942,6 +942,10 @@ class ServiceWorker:
                         "timestamp": datetime.now().isoformat(),
                     }
 
+                    if svc == "neondb":
+                        # Preserve the full matched token for downstream URL parsing.
+                        finding["candidate_url"] = raw_match.strip()
+
                     accepted = self.aggregator.add_finding(finding)
                     if accepted:
                         keys_found += 1

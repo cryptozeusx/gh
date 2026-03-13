@@ -11,6 +11,7 @@ import json
 import re
 import sys
 from datetime import datetime
+from urllib.parse import urlsplit
 
 import psycopg2
 import psycopg2.extras
@@ -21,30 +22,24 @@ NEON_URL_RE = re.compile(
     re.IGNORECASE,
 )
 
-# Also match named variable assignments in line_preview so we capture the full URL
+# Also match named variable assignments so we capture full URL values from scan fields
 NAMED_URL_RE = re.compile(
     r"(?:postgres(?:ql)?)://\S+",
     re.IGNORECASE,
 )
 
+VALID_SSLMODES = {"disable", "allow", "prefer", "require", "verify-ca", "verify-full"}
 
-def extract_urls_from_ndjson(path: str) -> tuple[list[dict], dict]:
+
+def extract_urls_from_ndjson(path: str) -> list[dict]:
     """
     Read an NDJSON file of findings and extract unique NeonDB connection URLs.
-    Returns (entries, stats) where entries is a list of dicts:
-    {url, repository, file_url, line_number}
+    Returns a list of dicts: {url, repository, file_url, line_number}
     """
     seen: set[str] = set()
     entries = []
-    stats = {
-        "total_lines": 0,
-        "json_lines": 0,
-        "matched_urls": 0,
-        "unique_urls": 0,
-    }
     with open(path) as fh:
         for line in fh:
-            stats["total_lines"] += 1
             line = line.strip()
             if not line:
                 continue
@@ -53,14 +48,11 @@ def extract_urls_from_ndjson(path: str) -> tuple[list[dict], dict]:
             except json.JSONDecodeError:
                 continue
 
-            stats["json_lines"] += 1
-
-            raw = finding.get("line_preview", "")
+            raw = finding.get("candidate_url") or finding.get("line_preview", "")
             # Try specific neon.tech pattern first, then fall back to any postgres URL
             matches = NEON_URL_RE.findall(raw) or NAMED_URL_RE.findall(raw)
 
             for url in matches:
-                stats["matched_urls"] += 1
                 # Strip trailing quotes or whitespace
                 url = url.strip("\"' \t\r\n")
                 # Only keep URLs that reference neon.tech (after stripping)
@@ -74,8 +66,7 @@ def extract_urls_from_ndjson(path: str) -> tuple[list[dict], dict]:
                         "file_url": finding.get("url", ""),
                         "line_number": finding.get("line_number", 0),
                     })
-    stats["unique_urls"] = len(entries)
-    return entries, stats
+    return entries
 
 
 def redact_url(url: str) -> str:
@@ -86,6 +77,45 @@ def redact_url(url: str) -> str:
         url,
         flags=re.IGNORECASE,
     )
+
+
+def classify_unusable_url(url: str) -> str | None:
+    """Return a skip reason for malformed/truncated URLs, otherwise None."""
+    lowered = url.lower()
+
+    # Common placeholder/truncation markers from examples or redacted docs.
+    if "..." in url or any(ch in url for ch in "<>[]{}"):
+        return "placeholder or redacted URL"
+
+    if not lowered.startswith(("postgres://", "postgresql://")):
+        return "not a postgres URL"
+
+    try:
+        parsed = urlsplit(url)
+    except Exception:
+        return "unparseable URL"
+
+    if not parsed.hostname:
+        return "missing hostname"
+
+    # A trailing '?' or '&' yields an empty query token once sslmode is appended.
+    if ("?" in url and parsed.query == "") or url.endswith("&"):
+        return "empty query parameter"
+
+    if parsed.query:
+        for token in parsed.query.split("&"):
+            if token == "":
+                return "empty query parameter"
+            if "=" not in token:
+                return f"incomplete query parameter '{token}'"
+
+            key, value = token.split("=", 1)
+            if not key:
+                return "missing query parameter key"
+            if key == "sslmode" and value not in VALID_SSLMODES:
+                return f"invalid sslmode '{value}'"
+
+    return None
 
 
 def check_connection(url: str) -> dict:
@@ -147,6 +177,17 @@ def check_entry(entry: dict) -> dict:
     }
 
 
+def build_skipped_record(entry: dict, reason: str) -> dict:
+    """Return a normalized record for entries we intentionally do not test."""
+    return {
+        "url_redacted": redact_url(entry["url"]),
+        "repository": entry["repository"],
+        "file_url": entry["file_url"],
+        "skipped": True,
+        "skip_reason": reason,
+    }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(
         description="Test NeonDB connections and list tables for keys found in a scan NDJSON file."
@@ -178,24 +219,28 @@ def main() -> int:
     print(f"Timestamp  : {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print()
 
-    entries, extraction_stats = extract_urls_from_ndjson(args.input)
+    entries = extract_urls_from_ndjson(args.input)
     if not entries:
         print("❌ No NeonDB connection strings found in the input file.")
         return 1
 
-    print("Extraction stats:")
-    print(f"  NDJSON lines read      : {extraction_stats['total_lines']}")
-    print(f"  JSON lines parsed      : {extraction_stats['json_lines']}")
-    print(f"  URL matches (raw)      : {extraction_stats['matched_urls']}")
-    print(f"  Unique URLs to test    : {extraction_stats['unique_urls']}")
-    print()
+    testable_entries = []
+    skipped_results = []
+    for entry in entries:
+        skip_reason = classify_unusable_url(entry["url"])
+        if skip_reason:
+            skipped_results.append(build_skipped_record(entry, skip_reason))
+        else:
+            testable_entries.append(entry)
 
-    print(f"🔑 Found {len(entries)} unique connection string(s). Testing with {workers} workers...\n")
+    print(f"🔑 Found {len(entries)} unique connection string(s).")
+    print(f"   • testable: {len(testable_entries)}")
+    print(f"   • skipped : {len(skipped_results)} (malformed/truncated)\n")
 
     results = []
     processed = 0
     with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as executor:
-        future_map = {executor.submit(check_entry, entry): entry for entry in entries}
+        future_map = {executor.submit(check_entry, entry): entry for entry in testable_entries}
         for future in concurrent.futures.as_completed(future_map):
             entry = future_map[future]
             processed += 1
@@ -212,7 +257,7 @@ def main() -> int:
 
             results.append(record)
 
-            print(f"[{processed}/{len(entries)}] 🔗 {record['url_redacted']}")
+            print(f"[{processed}/{len(testable_entries)}] 🔗 {record['url_redacted']}")
             print(f"     Repo: {record['repository']}")
 
             if "error" in record:
@@ -232,17 +277,21 @@ def main() -> int:
 
     print("=" * 70)
     live = [r for r in results if "tables" in r]
-    print(f"Summary: {len(live)} accessible database(s) out of {len(results)} total")
+    print(f"Summary: {len(live)} accessible database(s) out of {len(results)} tested")
+    if skipped_results:
+        print(f"         {len(skipped_results)} skipped malformed/truncated URL(s)")
     print("=" * 70)
 
     if args.output:
+        all_results = results + skipped_results
         with open(args.output, "w") as fh:
             json.dump({
                 "checked_at": datetime.now().isoformat(),
-                "extraction_stats": extraction_stats,
-                "total_connections": len(results),
+                "total_connections": len(all_results),
+                "tested_connections": len(results),
+                "skipped_connections": len(skipped_results),
                 "accessible": len(live),
-                "results": results,
+                "results": all_results,
             }, fh, indent=2)
         print(f"\n📝 Results saved to: {args.output}")
 
