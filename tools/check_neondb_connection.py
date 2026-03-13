@@ -11,7 +11,7 @@ import json
 import re
 import sys
 from datetime import datetime
-from urllib.parse import urlsplit
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 import psycopg2
 import psycopg2.extras
@@ -29,6 +29,7 @@ NAMED_URL_RE = re.compile(
 )
 
 VALID_SSLMODES = {"disable", "allow", "prefer", "require", "verify-ca", "verify-full"}
+ORM_ONLY_QUERY_PARAMS = {"connection_limit", "pool_timeout", "pgbouncer", "schema"}
 
 
 def extract_urls_from_ndjson(path: str) -> list[dict]:
@@ -118,13 +119,56 @@ def classify_unusable_url(url: str) -> str | None:
     return None
 
 
+def normalize_url_for_psycopg2(url: str) -> tuple[str, list[str]]:
+    """Drop known ORM-only query params and normalize ssl=true style flags."""
+    parsed = urlsplit(url)
+    if not parsed.query:
+        return url, []
+
+    removed: list[str] = []
+    normalized: list[tuple[str, str]] = []
+    saw_sslmode = False
+    require_ssl = False
+
+    for key, value in parse_qsl(parsed.query, keep_blank_values=True):
+        k = key.lower()
+        if k == "sslmode":
+            saw_sslmode = True
+
+        if k in ORM_ONLY_QUERY_PARAMS:
+            removed.append(key)
+            continue
+
+        if k == "ssl":
+            removed.append(key)
+            if value.lower() in {"1", "true", "yes", "on", "require", "required"}:
+                require_ssl = True
+            continue
+
+        normalized.append((key, value))
+
+    if require_ssl and not saw_sslmode:
+        normalized.append(("sslmode", "require"))
+
+    rebuilt = urlunsplit((
+        parsed.scheme,
+        parsed.netloc,
+        parsed.path,
+        urlencode(normalized, doseq=True),
+        parsed.fragment,
+    ))
+    return rebuilt, removed
+
+
 def check_connection(url: str) -> dict:
     """
     Connect to the database and list tables in the public schema.
     Returns a dict with 'tables' on success, or 'error' on failure.
     """
     # Ensure SSL is required (NeonDB requires it)
-    connect_url = url
+    connect_url, removed_query_params = normalize_url_for_psycopg2(url)
+    metadata = {"query_params_removed": removed_query_params} if removed_query_params else {}
+
     if "sslmode" not in connect_url:
         connect_url += ("&" if "?" in connect_url else "?") + "sslmode=require"
 
@@ -154,14 +198,14 @@ def check_connection(url: str) -> dict:
 
         cur.close()
         conn.close()
-        return {"tables": table_info, "table_count": len(tables)}
+        return {**metadata, "tables": table_info, "table_count": len(tables)}
 
     except psycopg2.OperationalError as exc:
-        return {"error": f"OperationalError: {exc}"}
+        return {**metadata, "error": f"OperationalError: {exc}"}
     except psycopg2.Error as exc:
-        return {"error": f"psycopg2 error: {exc}"}
+        return {**metadata, "error": f"psycopg2 error: {exc}"}
     except Exception as exc:
-        return {"error": str(exc)}
+        return {**metadata, "error": str(exc)}
 
 
 def check_entry(entry: dict) -> dict:
