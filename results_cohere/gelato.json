@@ -1,6 +1,6 @@
 {
   "service": "gelato",
-  "scan_timestamp": "2026-03-13T06:08:01.354433",
+  "scan_timestamp": "2026-03-14T06:04:05.996586",
   "finding_count": 3,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Gelato Api Key",
       "severity": "medium",
       "matched_pattern": " # S******************************************************************nets",
-      "timestamp": "2026-03-13T06:07:33.392601"
+      "timestamp": "2026-03-14T06:03:40.696549"
     },
     {
       "service": "gelato",
@@ -27,7 +27,7 @@
       "description": "Gelato Erc20 Token Contract",
       "severity": "medium",
       "matched_pattern": "0x0b**********************************502a",
-      "timestamp": "2026-03-13T06:07:33.392632"
+      "timestamp": "2026-03-14T06:03:40.696593"
     },
     {
       "service": "gelato",
@@ -40,7 +40,7 @@
       "description": "Gelato Erc721 Token Contract",
       "severity": "medium",
       "matched_pattern": "0xf1**********************************7a05",
-      "timestamp": "2026-03-13T06:07:33.392660"
+      "timestamp": "2026-03-14T06:03:40.696640"
     }
   ]
 }

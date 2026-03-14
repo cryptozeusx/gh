@@ -1,6 +1,6 @@
 {
   "service": "postgres",
-  "scan_timestamp": "2026-03-13T06:08:01.361438",
+  "scan_timestamp": "2026-03-14T06:04:06.004357",
   "finding_count": 3,
   "findings": [
     {
@@ -14,20 +14,20 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "********",
-      "timestamp": "2026-03-13T06:06:45.758515"
+      "timestamp": "2026-03-14T06:02:58.843320"
     },
     {
       "service": "postgres",
-      "file": ".env.openapi",
-      "repository": "EtroxTaran/rag_demo",
-      "url": "https://github.com/EtroxTaran/rag_demo/blob/6f1bee4b145eee8c13dd076359dfc198c1251d5c/.env.openapi",
-      "line_number": 21,
-      "line_preview": "POSTGRES_PASSWORD=ragdemo_pw",
+      "file": ".env.example",
+      "repository": "umitkacar/awesome-mlops",
+      "url": "https://github.com/umitkacar/awesome-mlops/blob/901d14d6cb4abeaf8ed4ea406c398763bfd3e264/.env.example",
+      "line_number": 32,
+      "line_preview": "POSTGRES_PASSWORD=mlops123",
       "key_type": "postgres_password",
       "description": "Postgres Password",
       "severity": "high",
-      "matched_pattern": "POST********************o_pw",
-      "timestamp": "2026-03-13T06:07:01.621073"
+      "matched_pattern": "POST******************s123",
+      "timestamp": "2026-03-14T06:03:32.943340"
     },
     {
       "service": "postgres",
@@ -40,7 +40,7 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "POST**************************IX6P",
-      "timestamp": "2026-03-13T06:07:39.218364"
+      "timestamp": "2026-03-14T06:03:43.928448"
     }
   ]
 }

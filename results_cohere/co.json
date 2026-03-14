@@ -1,20 +1,33 @@
 {
   "service": "co",
-  "scan_timestamp": "2026-03-13T06:08:01.351728",
-  "finding_count": 8,
+  "scan_timestamp": "2026-03-14T06:04:05.993182",
+  "finding_count": 6,
   "findings": [
     {
       "service": "co",
-      "file": ".env",
-      "repository": "davalpez/Local-AI-aplications-with-Haystack",
-      "url": "https://github.com/davalpez/Local-AI-aplications-with-Haystack/blob/0daa8316c053423c235aa6c6a23665dc16b3cfb6/.env",
+      "file": ".env.example",
+      "repository": "stevenfazzio/github-map",
+      "url": "https://github.com/stevenfazzio/github-map/blob/1d965d81f7ca5fa9ac5e4e4fe5c49c35b63da16d/.env.example",
       "line_number": 3,
-      "line_preview": "CO_API_KEY=#Introduce your API KEY",
+      "line_preview": "CO_API_KEY=             # Cohere API key (embeddings + topic modeling)",
       "key_type": "co_api_key",
       "description": "Co Api Key",
       "severity": "medium",
-      "matched_pattern": "CO_A*************duce",
-      "timestamp": "2026-03-13T06:07:08.502931"
+      "matched_pattern": "# Co**************************************ing)",
+      "timestamp": "2026-03-14T06:03:21.563573"
+    },
+    {
+      "service": "co",
+      "file": ".env",
+      "repository": "eyesli/crypto-quant-trading",
+      "url": "https://github.com/eyesli/crypto-quant-trading/blob/753bfb37c4b7a58f53479461ef24fe54daaced92/.env",
+      "line_number": 4,
+      "line_preview": "ALPHAVANTAGE_CO_API_KEY=L4V78TJ5I6AAQ80T",
+      "key_type": "co_api_key",
+      "description": "Co Api Key",
+      "severity": "medium",
+      "matched_pattern": "CO_A*******************Q80T",
+      "timestamp": "2026-03-14T06:03:21.638959"
     },
     {
       "service": "co",
@@ -27,33 +40,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********box-",
-      "timestamp": "2026-03-13T06:07:08.901891"
-    },
-    {
-      "service": "co",
-      "file": ".env",
-      "repository": "cecepns/carrywise-dashboard",
-      "url": "https://github.com/cecepns/carrywise-dashboard/blob/df159cbf9e60595a7db3a96a55eb9d473959cca8/.env",
-      "line_number": 6,
-      "line_preview": "VITE_MAPS_CO_API_KEY=658ea164ba8de424993651furba89cf",
-      "key_type": "co_api_key",
-      "description": "Co Api Key",
-      "severity": "medium",
-      "matched_pattern": "CO_A**********************************89cf",
-      "timestamp": "2026-03-13T06:07:10.002132"
-    },
-    {
-      "service": "co",
-      "file": ".env",
-      "repository": "surya140104/Flood_Risk_140104",
-      "url": "https://github.com/surya140104/Flood_Risk_140104/blob/7e5ce762a7198a7b9fd701c6942d114bd3fe04b2/.env",
-      "line_number": 16,
-      "line_preview": "NEXT_PUBLIC_GEOCODE_MAPS_CO_API_KEY=683d9a25d35b3791659375hjpd4d5a3",
-      "key_type": "co_api_key",
-      "description": "Co Api Key",
-      "severity": "medium",
-      "matched_pattern": "CO_A**********************************d5a3",
-      "timestamp": "2026-03-13T06:07:10.142224"
+      "timestamp": "2026-03-14T06:03:22.132686"
     },
     {
       "service": "co",
@@ -66,33 +53,20 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************s_90",
-      "timestamp": "2026-03-13T06:07:13.458125"
+      "timestamp": "2026-03-14T06:03:23.441266"
     },
     {
       "service": "co",
-      "file": "public_html/.env.backup2",
-      "repository": "fazliozdemir33/bilgeai",
-      "url": "https://github.com/fazliozdemir33/bilgeai/blob/ef4deb167dee6bbc281163fc6c2a4cfc318584e7/public_html/.env.backup2",
-      "line_number": 103,
-      "line_preview": "IYZICO_API_KEY=pSw8IH2ejQVLz1ZvlwSFc77cDuqgTylK",
+      "file": ".env",
+      "repository": "shivansh-arch/Wheater-app",
+      "url": "https://github.com/shivansh-arch/Wheater-app/blob/1acc1eef63ee65eccbe927de0ddecc4e2cb8ea91/.env",
+      "line_number": 2,
+      "line_preview": "GEOCODE_MAPS_CO_API_KEY=8a4b77994b97307a1302f110750561ad",
       "key_type": "co_api_key",
       "description": "Co Api Key",
       "severity": "medium",
-      "matched_pattern": "CO_A***********************************TylK",
-      "timestamp": "2026-03-13T06:07:15.117967"
-    },
-    {
-      "service": "co",
-      "file": "env.example",
-      "repository": "phamcamnguyen1994/metamask-monad-envio",
-      "url": "https://github.com/phamcamnguyen1994/metamask-monad-envio/blob/8e719f970f04c54e1131568922781015e7cfc8c6/env.example",
-      "line_number": 16,
-      "line_preview": "NEXT_PUBLIC_PIMLICO_API_KEY=pim_ki22Ti5FjpeeJguDHh9QcP",
-      "key_type": "co_api_key",
-      "description": "Co Api Key",
-      "severity": "medium",
-      "matched_pattern": "CO_A*****************************9QcP",
-      "timestamp": "2026-03-13T06:07:34.764537"
+      "matched_pattern": "CO_A***********************************61ad",
+      "timestamp": "2026-03-14T06:03:24.456171"
     },
     {
       "service": "co",
@@ -105,7 +79,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*******************************FcU'",
-      "timestamp": "2026-03-13T06:07:45.787236"
+      "timestamp": "2026-03-14T06:03:50.592822"
     }
   ]
 }

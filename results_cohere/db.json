@@ -1,7 +1,7 @@
 {
   "service": "db",
-  "scan_timestamp": "2026-03-13T06:08:01.353251",
-  "finding_count": 3,
+  "scan_timestamp": "2026-03-14T06:04:05.994687",
+  "finding_count": 2,
   "findings": [
     {
       "service": "db",
@@ -14,7 +14,7 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "8g3Z********DIRS",
-      "timestamp": "2026-03-13T06:06:44.938732"
+      "timestamp": "2026-03-14T06:02:58.415720"
     },
     {
       "service": "db",
@@ -27,20 +27,7 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "DB_P************3214",
-      "timestamp": "2026-03-13T06:07:04.618531"
-    },
-    {
-      "service": "db",
-      "file": "public_html/.env.backup2",
-      "repository": "fazliozdemir33/bilgeai",
-      "url": "https://github.com/fazliozdemir33/bilgeai/blob/ef4deb167dee6bbc281163fc6c2a4cfc318584e7/public_html/.env.backup2",
-      "line_number": 63,
-      "line_preview": "DB_PASSWORD=U?a5qDk>0",
-      "key_type": "db_password",
-      "description": "Db Password",
-      "severity": "high",
-      "matched_pattern": "DB_P*************Dk>0",
-      "timestamp": "2026-03-13T06:07:15.117900"
+      "timestamp": "2026-03-14T06:03:16.840835"
     }
   ]
 }

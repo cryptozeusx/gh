@@ -1,21 +1,8 @@
 {
   "service": "proxypay",
-  "scan_timestamp": "2026-03-13T06:08:01.361620",
-  "finding_count": 2,
+  "scan_timestamp": "2026-03-14T06:04:06.004676",
+  "finding_count": 1,
   "findings": [
-    {
-      "service": "proxypay",
-      "file": ".envv",
-      "repository": "mehedi8gb/emed-stable-4.8",
-      "url": "https://github.com/mehedi8gb/emed-stable-4.8/blob/f0fd05538ad4ee7567f9ef8b327e14ed07dda66d/.envv",
-      "line_number": 131,
-      "line_preview": "PROXYPAY_TOKEN=\"im5lqr34fwt37vougnpe4nuizu6exzlf\"",
-      "key_type": "proxypay_token",
-      "description": "Proxypay Token",
-      "severity": "medium",
-      "matched_pattern": "im5l************************xzlf",
-      "timestamp": "2026-03-13T06:07:09.860542"
-    },
     {
       "service": "proxypay",
       "file": ".env.back",
@@ -26,8 +13,8 @@
       "key_type": "proxypay_token",
       "description": "Proxypay Token",
       "severity": "medium",
-      "matched_pattern": "PROX*****************************************zlf\"",
-      "timestamp": "2026-03-13T06:07:14.051734"
+      "matched_pattern": "im5l************************xzlf",
+      "timestamp": "2026-03-14T06:03:25.367127"
     }
   ]
 }

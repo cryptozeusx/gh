@@ -1,6 +1,6 @@
 {
   "service": "encryption",
-  "scan_timestamp": "2026-03-13T06:08:01.353823",
+  "scan_timestamp": "2026-03-14T06:04:05.995585",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Encryption Key",
       "severity": "medium",
       "matched_pattern": "9990************************7ab2",
-      "timestamp": "2026-03-13T06:07:53.854004"
+      "timestamp": "2026-03-14T06:03:58.197718"
     }
   ]
 }

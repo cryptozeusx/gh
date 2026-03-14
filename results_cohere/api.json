@@ -1,7 +1,7 @@
 {
   "service": "api",
-  "scan_timestamp": "2026-03-12T06:11:45.347413",
-  "finding_count": 8,
+  "scan_timestamp": "2026-03-14T06:04:05.992147",
+  "finding_count": 7,
   "findings": [
     {
       "service": "api",
@@ -14,7 +14,7 @@
       "description": "Api Password",
       "severity": "high",
       "matched_pattern": "Deng***7258",
-      "timestamp": "2026-03-12T06:10:45.161790"
+      "timestamp": "2026-03-14T06:03:21.639277"
     },
     {
       "service": "api",
@@ -27,20 +27,20 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_******************************************************************************************Hhk4",
-      "timestamp": "2026-03-12T06:10:45.631267"
+      "timestamp": "2026-03-14T06:03:21.876455"
     },
     {
       "service": "api",
-      "file": "docs/getting-started/claudeDL/env.vm.example",
-      "repository": "rzepeda/ragTools",
-      "url": "https://github.com/rzepeda/ragTools/blob/e70eb327bb487a6f8e639ec8376e5805b8f1da79/docs/getting-started/claudeDL/env.vm.example",
-      "line_number": 41,
-      "line_preview": "OPENAI_API_KEY=lm-studio  # Any value works with LM Studio",
+      "file": ".env.prod.example",
+      "repository": "realsarius/ecommerce-belediye-testcase",
+      "url": "https://github.com/realsarius/ecommerce-belediye-testcase/blob/e14d67a13251ba713489a39d8049dadd6d8f779e/.env.prod.example",
+      "line_number": 42,
+      "line_preview": "IYZICO_API_KEY=sandbox-",
       "key_type": "api_key",
       "description": "Api Key",
       "severity": "medium",
-      "matched_pattern": "API_*********udio",
-      "timestamp": "2026-03-12T06:11:07.256145"
+      "matched_pattern": "API_********box-",
+      "timestamp": "2026-03-14T06:03:22.132825"
     },
     {
       "service": "api",
@@ -53,7 +53,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_***************K9n\"",
-      "timestamp": "2026-03-12T06:11:08.265938"
+      "timestamp": "2026-03-14T06:03:33.698046"
     },
     {
       "service": "api",
@@ -66,20 +66,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_**************uWM\"",
-      "timestamp": "2026-03-12T06:11:08.266067"
-    },
-    {
-      "service": "api",
-      "file": ".env.prod.example",
-      "repository": "weboloper/bp-tenant",
-      "url": "https://github.com/weboloper/bp-tenant/blob/a665177fe1a10f16d18a54f80182d75bc992b603/.env.prod.example",
-      "line_number": 62,
-      "line_preview": "SENDGRID_API_KEY=SG.your_production_api_key",
-      "key_type": "api_key",
-      "description": "Api Key",
-      "severity": "medium",
-      "matched_pattern": "API_**************************_key",
-      "timestamp": "2026-03-12T06:11:11.073150"
+      "timestamp": "2026-03-14T06:03:33.698169"
     },
     {
       "service": "api",
@@ -92,7 +79,7 @@
       "description": "Api Secret",
       "severity": "high",
       "matched_pattern": "API_*****************************************************YNze",
-      "timestamp": "2026-03-12T06:11:23.121923"
+      "timestamp": "2026-03-14T06:03:43.929403"
     },
     {
       "service": "api",
@@ -105,7 +92,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_********************************************************************************Br9H",
-      "timestamp": "2026-03-12T06:11:29.595313"
+      "timestamp": "2026-03-14T06:03:50.517119"
     }
   ]
 }

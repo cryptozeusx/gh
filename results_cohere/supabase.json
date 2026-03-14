@@ -1,8 +1,21 @@
 {
   "service": "supabase",
-  "scan_timestamp": "2026-03-13T06:08:01.363849",
+  "scan_timestamp": "2026-03-14T06:04:06.007310",
   "finding_count": 5,
   "findings": [
+    {
+      "service": "supabase",
+      "file": ".env.local",
+      "repository": "sudanva21/Career-Advisor-SIH",
+      "url": "https://github.com/sudanva21/Career-Advisor-SIH/blob/e4571da7533630aec2bbbc774696e576e71bf688/.env.local",
+      "line_number": 11,
+      "line_preview": "SUPABASE_SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd5dWR3anpqenRiZ2Rqd2RhZ",
+      "key_type": "supabase_service_role_key",
+      "description": "Supabase Service Role Key",
+      "severity": "medium",
+      "matched_pattern": "eyJh*******************************************************************************************************************************************************************************************************************_bsc",
+      "timestamp": "2026-03-14T06:03:13.637024"
+    },
     {
       "service": "supabase",
       "file": ".env.local",
@@ -13,8 +26,8 @@
       "key_type": "supabase_service_role_key",
       "description": "Supabase Service Role Key",
       "severity": "medium",
-      "matched_pattern": "sb_s*********************************c8Mx",
-      "timestamp": "2026-03-13T06:07:05.278839"
+      "matched_pattern": "SUPA***********************************************************c8Mx",
+      "timestamp": "2026-03-14T06:03:17.255302"
     },
     {
       "service": "supabase",
@@ -27,33 +40,20 @@
       "description": "Supabase Key",
       "severity": "medium",
       "matched_pattern": "eyJh********************************************************************************************************************************************************************************************************4isA",
-      "timestamp": "2026-03-13T06:07:31.517678"
+      "timestamp": "2026-03-14T06:03:23.917780"
     },
     {
       "service": "supabase",
       "file": "wedding-planner/.env.example",
       "repository": "pavelcatalinclaudiu/wedding-planner",
-      "url": "https://github.com/pavelcatalinclaudiu/wedding-planner/blob/d78099a5bd061754e7fdafab98c7dafe6e67a6b0/wedding-planner/.env.example",
+      "url": "https://github.com/pavelcatalinclaudiu/wedding-planner/blob/5f5f550cb27fd16bd25a718e32586ae2ce409605/wedding-planner/.env.example",
       "line_number": 35,
       "line_preview": "SUPABASE_SERVICE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
       "key_type": "supabase_service_key",
       "description": "Supabase Service Key",
       "severity": "medium",
       "matched_pattern": "SUPA****************************************************9...",
-      "timestamp": "2026-03-13T06:07:35.756245"
-    },
-    {
-      "service": "supabase",
-      "file": ".env.local",
-      "repository": "sudanva21/Career-Advisor-SIH",
-      "url": "https://github.com/sudanva21/Career-Advisor-SIH/blob/e4571da7533630aec2bbbc774696e576e71bf688/.env.local",
-      "line_number": 11,
-      "line_preview": "SUPABASE_SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd5dWR3anpqenRiZ2Rqd2RhZ",
-      "key_type": "supabase_service_role_key",
-      "description": "Supabase Service Role Key",
-      "severity": "medium",
-      "matched_pattern": "SUPA*********************************************************************************************************************************************************************************************************************************************_bsc",
-      "timestamp": "2026-03-13T06:07:41.036582"
+      "timestamp": "2026-03-14T06:03:41.233896"
     },
     {
       "service": "supabase",
@@ -66,7 +66,7 @@
       "description": "Supabase Service Role Key",
       "severity": "medium",
       "matched_pattern": "SUPA*********************************************************************************************************************************************************************************************************************************************itoI",
-      "timestamp": "2026-03-13T06:07:45.921605"
+      "timestamp": "2026-03-14T06:03:50.669075"
     }
   ]
 }

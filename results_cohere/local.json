@@ -1,0 +1,20 @@
+{
+  "service": "local",
+  "scan_timestamp": "2026-03-14T06:04:06.000981",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "local",
+      "file": "env.example",
+      "repository": "jalaci/binGO",
+      "url": "https://github.com/jalaci/binGO/blob/1546d43308602fd6c8b74e2b6e6b94d69a0b312a/env.example",
+      "line_number": 30,
+      "line_preview": "LOCAL_OPENAI_API_KEY=ollama  # Default to 'ollama' for Ollama",
+      "key_type": "local_openai_api_key",
+      "description": "Local Openai Api Key",
+      "severity": "medium",
+      "matched_pattern": "olla********************************lama",
+      "timestamp": "2026-03-14T06:03:32.566509"
+    }
+  ]
+}

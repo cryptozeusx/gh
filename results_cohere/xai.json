@@ -1,0 +1,20 @@
+{
+  "service": "xai",
+  "scan_timestamp": "2026-03-14T06:04:06.008343",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "xai",
+      "file": ".env",
+      "repository": "SushantKadam73/startupAnalyzer-stremalit",
+      "url": "https://github.com/SushantKadam73/startupAnalyzer-stremalit/blob/2818eb678be67d7dbb1c2924860ed120078655d5/.env",
+      "line_number": 13,
+      "line_preview": "XAI_API_KEY = xai-juupvNbzglFOMWEjzuQDzi8ndhMWkkRcgoPzzoiT55cHpyN5UwE6upLCRBwrdRCy73PKcYLsASMr4Lso",
+      "key_type": "xai_api_key",
+      "description": "Xai Api Key",
+      "severity": "medium",
+      "matched_pattern": "XAI_******************************************************************************************4Lso",
+      "timestamp": "2026-03-14T06:03:24.386257"
+    }
+  ]
+}

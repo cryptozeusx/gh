@@ -1,8 +1,34 @@
 {
   "service": "deepseek",
-  "scan_timestamp": "2026-03-13T06:08:01.353336",
-  "finding_count": 1,
+  "scan_timestamp": "2026-03-14T06:04:05.994839",
+  "finding_count": 3,
   "findings": [
+    {
+      "service": "deepseek",
+      "file": "exemplo.env",
+      "repository": "amaro-netto/alerj_simulado_data",
+      "url": "https://github.com/amaro-netto/alerj_simulado_data/blob/542edbba62d02977822626c56e3860a8459c9674/exemplo.env",
+      "line_number": 20,
+      "line_preview": "DEEPSEEK_API_KEY=\"\"         # DeepSeek (Focado em programa\u00e7\u00e3o e racioc\u00ednio matem\u00e1tico)",
+      "key_type": "deepseek_api_key",
+      "description": "Deepseek Api Key",
+      "severity": "medium",
+      "matched_pattern": "    ***********************************************************ico)",
+      "timestamp": "2026-03-14T06:03:12.135184"
+    },
+    {
+      "service": "deepseek",
+      "file": ".env",
+      "repository": "eyesli/crypto-quant-trading",
+      "url": "https://github.com/eyesli/crypto-quant-trading/blob/753bfb37c4b7a58f53479461ef24fe54daaced92/.env",
+      "line_number": 1,
+      "line_preview": "DEEPSEEK_API_KEY=sk-ec1fb15580c14d988b16137fdc621692",
+      "key_type": "deepseek_key",
+      "description": "DeepSeek API Key",
+      "severity": "high",
+      "matched_pattern": "DEEP********************************************1692",
+      "timestamp": "2026-03-14T06:03:21.638818"
+    },
     {
       "service": "deepseek",
       "file": "iafactory-core-apps/video-studio/frontend/.env.local",
@@ -14,7 +40,7 @@
       "description": "DeepSeek API Key",
       "severity": "high",
       "matched_pattern": "DEEP********************************************e392",
-      "timestamp": "2026-03-13T06:07:41.528027"
+      "timestamp": "2026-03-14T06:03:45.146361"
     }
   ]
 }

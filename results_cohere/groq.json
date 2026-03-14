@@ -1,8 +1,73 @@
 {
   "service": "groq",
-  "scan_timestamp": "2026-03-13T06:08:01.357020",
-  "finding_count": 2,
+  "scan_timestamp": "2026-03-14T06:04:05.999447",
+  "finding_count": 7,
   "findings": [
+    {
+      "service": "groq",
+      "file": "exemplo.env",
+      "repository": "amaro-netto/alerj_simulado_data",
+      "url": "https://github.com/amaro-netto/alerj_simulado_data/blob/542edbba62d02977822626c56e3860a8459c9674/exemplo.env",
+      "line_number": 13,
+      "line_preview": "GROQ_API_KEY=\"\"             # Groq (Infer\u00eancia ultra-r\u00e1pida para Llama 3 e Mixtral)",
+      "key_type": "groq_api_key",
+      "description": "Groq Api Key",
+      "severity": "medium",
+      "matched_pattern": "    ************************************************************ral)",
+      "timestamp": "2026-03-14T06:03:12.134932"
+    },
+    {
+      "service": "groq",
+      "file": ".env",
+      "repository": "SushantKadam73/startupAnalyzer-stremalit",
+      "url": "https://github.com/SushantKadam73/startupAnalyzer-stremalit/blob/2818eb678be67d7dbb1c2924860ed120078655d5/.env",
+      "line_number": 2,
+      "line_preview": "GROQ_API_KEY = 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",
+      "key_type": "groq_api_key",
+      "description": "Groq Api Key",
+      "severity": "medium",
+      "matched_pattern": "GROQ***************************************************************egLH",
+      "timestamp": "2026-03-14T06:03:24.385645"
+    },
+    {
+      "service": "groq",
+      "file": ".env",
+      "repository": "davidpaul551/Healthcare_assistant",
+      "url": "https://github.com/davidpaul551/Healthcare_assistant/blob/a89abd44b26a0ff076dedd7bcd9791736823917a/.env",
+      "line_number": 1,
+      "line_preview": "GROQ_API_KEY=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",
+      "key_type": "groq_api_key",
+      "description": "Groq Api Key",
+      "severity": "medium",
+      "matched_pattern": "GROQ*************************************************************HfDm",
+      "timestamp": "2026-03-14T06:03:24.538622"
+    },
+    {
+      "service": "groq",
+      "file": ".env",
+      "repository": "MemeFormer/SearchSmart_NotHard",
+      "url": "https://github.com/MemeFormer/SearchSmart_NotHard/blob/c8f4eac66b344e41fd52fedc97cc97a19ebb4ff5/.env",
+      "line_number": 1,
+      "line_preview": "GROQ_API_KEY=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",
+      "key_type": "groq_api_key",
+      "description": "Groq Api Key",
+      "severity": "medium",
+      "matched_pattern": "GROQ*************************************************************bx9C",
+      "timestamp": "2026-03-14T06:03:24.779662"
+    },
+    {
+      "service": "groq",
+      "file": ".env.FREE.example",
+      "repository": "ayush-mishra035/ayush-mishra035.github.io",
+      "url": "https://github.com/ayush-mishra035/ayush-mishra035.github.io/blob/175f8e2a706dacee7d083cbcdfd1a79175908546/.env.FREE.example",
+      "line_number": 13,
+      "line_preview": "GROQ_API_KEY=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",
+      "key_type": "groq_api_key",
+      "description": "Groq Api Key",
+      "severity": "medium",
+      "matched_pattern": "GROQ*************************************************************YHCA",
+      "timestamp": "2026-03-14T06:03:29.101344"
+    },
     {
       "service": "groq",
       "file": ".env.local",
@@ -14,7 +79,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ******************************************************************************************zNFn",
-      "timestamp": "2026-03-13T06:07:00.452599"
+      "timestamp": "2026-03-14T06:03:44.866013"
     },
     {
       "service": "groq",
@@ -27,7 +92,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ*************************************************************5dr7",
-      "timestamp": "2026-03-13T06:07:41.527722"
+      "timestamp": "2026-03-14T06:03:45.145873"
     }
   ]
 }

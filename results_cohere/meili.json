@@ -1,20 +1,20 @@
 {
   "service": "meili",
-  "scan_timestamp": "2026-03-13T06:08:01.358562",
-  "finding_count": 3,
+  "scan_timestamp": "2026-03-14T06:04:06.001272",
+  "finding_count": 4,
   "findings": [
     {
       "service": "meili",
       "file": ".env.backup",
       "repository": "hanzoai/chat",
-      "url": "https://github.com/hanzoai/chat/blob/fff013d92fa823f3df89551d15dc1995ee0bc294/.env.backup",
+      "url": "https://github.com/hanzoai/chat/blob/9f3dd49a1db67b7ee496525fcb96b9bb3b15b247/.env.backup",
       "line_number": 307,
       "line_preview": "MEILI_MASTER_KEY=DrhYf7zENyR6AlUCKmnz0eYASOQdl6zxH7s7MKFSfFCt",
       "key_type": "meili_master_key",
       "description": "Meili Master Key",
       "severity": "critical",
       "matched_pattern": "DrhY************************************fFCt",
-      "timestamp": "2026-03-13T06:07:00.850719"
+      "timestamp": "2026-03-14T06:03:13.213184"
     },
     {
       "service": "meili",
@@ -27,7 +27,20 @@
       "description": "Meili Master Key",
       "severity": "critical",
       "matched_pattern": "MEIL*****************************************************fFCt",
-      "timestamp": "2026-03-13T06:07:01.376260"
+      "timestamp": "2026-03-14T06:03:13.550546"
+    },
+    {
+      "service": "meili",
+      "file": ".env.librechat",
+      "repository": "d-fine/DatalandMCP",
+      "url": "https://github.com/d-fine/DatalandMCP/blob/0e274d3ac6b610299968c6b71018ae88e2a392b5/.env.librechat",
+      "line_number": 328,
+      "line_preview": "MEILI_MASTER_KEY=DrhYf7zENyR6AlUCKmnz0eYASOQdl6zxH7s7MKFSfFCt",
+      "key_type": "meili_master_key",
+      "description": "Meili Master Key",
+      "severity": "critical",
+      "matched_pattern": "MEIL*****************************************************fFCt",
+      "timestamp": "2026-03-14T06:03:13.737241"
     },
     {
       "service": "meili",
@@ -40,7 +53,7 @@
       "description": "Meili Master Key",
       "severity": "critical",
       "matched_pattern": "MEIL*****************************************************fFCt",
-      "timestamp": "2026-03-13T06:07:21.948117"
+      "timestamp": "2026-03-14T06:03:30.094619"
     }
   ]
 }

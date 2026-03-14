@@ -1,8 +1,21 @@
 {
   "service": "mistral",
-  "scan_timestamp": "2026-03-13T06:08:01.358818",
-  "finding_count": 3,
+  "scan_timestamp": "2026-03-14T06:04:06.001621",
+  "finding_count": 5,
   "findings": [
+    {
+      "service": "mistral",
+      "file": "exemplo.env",
+      "repository": "amaro-netto/alerj_simulado_data",
+      "url": "https://github.com/amaro-netto/alerj_simulado_data/blob/542edbba62d02977822626c56e3860a8459c9674/exemplo.env",
+      "line_number": 7,
+      "line_preview": "MISTRAL_API_KEY=\"\"         # Mistral AI (Mistral Large, Codestral)",
+      "key_type": "mistral_api_key",
+      "description": "Mistral Api Key",
+      "severity": "medium",
+      "matched_pattern": "    ****************************************ral)",
+      "timestamp": "2026-03-14T06:03:12.134806"
+    },
     {
       "service": "mistral",
       "file": ".env",
@@ -14,7 +27,20 @@
       "description": "Mistral Api Key",
       "severity": "medium",
       "matched_pattern": "MIST****************************************r48a",
-      "timestamp": "2026-03-13T06:07:10.248440"
+      "timestamp": "2026-03-14T06:03:21.693663"
+    },
+    {
+      "service": "mistral",
+      "file": ".env",
+      "repository": "SushantKadam73/startupAnalyzer-stremalit",
+      "url": "https://github.com/SushantKadam73/startupAnalyzer-stremalit/blob/2818eb678be67d7dbb1c2924860ed120078655d5/.env",
+      "line_number": 12,
+      "line_preview": "MISTRAL_API_KEY = JH888Glk45ZYWTF6GTcF2Nq1Y4eo8GfS",
+      "key_type": "mistral_api_key",
+      "description": "Mistral Api Key",
+      "severity": "medium",
+      "matched_pattern": "MIST******************************************8GfS",
+      "timestamp": "2026-03-14T06:03:24.386175"
     },
     {
       "service": "mistral",
@@ -27,7 +53,7 @@
       "description": "Mistral Api Key",
       "severity": "medium",
       "matched_pattern": "MIST****************************************BCw7",
-      "timestamp": "2026-03-13T06:07:40.908588"
+      "timestamp": "2026-03-14T06:03:44.812324"
     },
     {
       "service": "mistral",
@@ -40,7 +66,7 @@
       "description": "Mistral Api Key",
       "severity": "medium",
       "matched_pattern": "MIST****************************************KYHC",
-      "timestamp": "2026-03-13T06:07:41.527947"
+      "timestamp": "2026-03-14T06:03:45.146230"
     }
   ]
 }

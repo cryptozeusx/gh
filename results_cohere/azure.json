@@ -1,8 +1,21 @@
 {
   "service": "azure",
-  "scan_timestamp": "2026-03-11T06:07:11.298044",
-  "finding_count": 1,
+  "scan_timestamp": "2026-03-14T06:04:05.992824",
+  "finding_count": 2,
   "findings": [
+    {
+      "service": "azure",
+      "file": "exemplo.env",
+      "repository": "amaro-netto/alerj_simulado_data",
+      "url": "https://github.com/amaro-netto/alerj_simulado_data/blob/542edbba62d02977822626c56e3860a8459c9674/exemplo.env",
+      "line_number": 28,
+      "line_preview": "AZURE_OPENAI_API_KEY=\"\"     # Chave do recurso criado no portal Azure",
+      "key_type": "azure_openai_api_key",
+      "description": "Azure Openai Api Key",
+      "severity": "medium",
+      "matched_pattern": "    **************************************zure",
+      "timestamp": "2026-03-14T06:03:12.135447"
+    },
     {
       "service": "azure",
       "file": ".env.example",
@@ -14,7 +27,7 @@
       "description": "Azure Aoai Openai Gpt4 Subscription Key",
       "severity": "medium",
       "matched_pattern": "AZUR*******************************_KEY",
-      "timestamp": "2026-03-11T06:06:35.589366"
+      "timestamp": "2026-03-14T06:03:29.698714"
     }
   ]
 }
