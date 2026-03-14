@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-03-13T06:10:12.327980",
-  "total_keys": 51,
-  "live_keys": 33,
+  "checked_at": "2026-03-14T06:06:07.978672",
+  "total_keys": 58,
+  "live_keys": 40,
   "results": [
     {
       "key_redacted": "CHnhlk****mU2X",
@@ -469,6 +469,84 @@
       "url": "https://github.com/srnadimovska/soils_app/blob/d7b3b2a77356141d461a0f2ecc8d5779e870d86b/config.env",
       "organization_id": "a4b49550-c205-4f24-80a8-524d41127fa5",
       "owner_id": "c9554472-ba50-4937-b736-672dda79461d",
+      "valid": true,
+      "plan": "Trial",
+      "limit": "40",
+      "remaining": "39"
+    },
+    {
+      "key_redacted": "MZMPKz****ZoQ6",
+      "repository": "agrnerd17/Website-Chatbot",
+      "url": "https://github.com/agrnerd17/Website-Chatbot/blob/54cb97ca098eb106cd5d2e06b8fc3a5c590c928f/.history/pastry-chatbot/.env_20241211214100",
+      "organization_id": "05fbd65d-421e-489e-a882-926d4b4c5236",
+      "owner_id": "3eba5a48-4284-4f1e-aec6-8a220180bf90",
+      "valid": true,
+      "plan": "Production",
+      "limit": "?",
+      "remaining": "?",
+      "chat_error": "HTTP 402: {\"id\":\"0bc8bfe5-3b8b-4ebe-b7ea-924122fda440\",\"message\":\"Please add or update your payment method at "
+    },
+    {
+      "key_redacted": "RMsr7n****WdRm",
+      "repository": "Spidergy07/CEDT_FinalProject",
+      "url": "https://github.com/Spidergy07/CEDT_FinalProject/blob/58cc1d6b579a0b47f9badfbd913170060c1ff3fa/backend/.env",
+      "organization_id": "bafdaff6-78fb-4727-92f1-c7426a9b5706",
+      "owner_id": "79342fb2-78be-4fd7-a32f-2822620467b1",
+      "valid": true,
+      "plan": "Trial",
+      "limit": "40",
+      "remaining": "39"
+    },
+    {
+      "key_redacted": "XUtoCx****C6ic",
+      "repository": "SushantKadam73/startupAnalyzer-stremalit",
+      "url": "https://github.com/SushantKadam73/startupAnalyzer-stremalit/blob/2818eb678be67d7dbb1c2924860ed120078655d5/.env",
+      "organization_id": "7d4a844c-e195-418d-bf96-c12fbb647f40",
+      "owner_id": "d85f8368-cf96-490d-bcbd-8c07f3573b23",
+      "valid": true,
+      "plan": "Trial",
+      "limit": "40",
+      "remaining": "39"
+    },
+    {
+      "key_redacted": "3kSLew****7KNs",
+      "repository": "davidpaul551/Healthcare_assistant",
+      "url": "https://github.com/davidpaul551/Healthcare_assistant/blob/a89abd44b26a0ff076dedd7bcd9791736823917a/.env",
+      "organization_id": "cca0c1fd-77cf-479f-91f8-84511b9c936f",
+      "owner_id": "5c1382fe-2ad9-46f5-bf54-3611874cdc49",
+      "valid": true,
+      "plan": "Trial",
+      "limit": "40",
+      "remaining": "39"
+    },
+    {
+      "key_redacted": "RTLauJ****JXcB",
+      "repository": "Muskanagrawal2005/aiAgent",
+      "url": "https://github.com/Muskanagrawal2005/aiAgent/blob/9593c8042110244574eff01110e146d770cd2211/.env",
+      "organization_id": "ff6f7623-5356-45ab-b40e-4777b1fc09ab",
+      "owner_id": "a9d642af-3bec-401a-aa28-c5d947822f4b",
+      "valid": true,
+      "plan": "Trial",
+      "limit": "40",
+      "remaining": "39"
+    },
+    {
+      "key_redacted": "3WV1Wi****eBUW",
+      "repository": "rishab-d12/jarviss",
+      "url": "https://github.com/rishab-d12/jarviss/blob/9b71545e2c5acbe9a8103f12636e74f9d3f63aa5/.env",
+      "organization_id": "ed40e990-6751-4423-a11f-4f4f0ecdae08",
+      "owner_id": "128f2c02-6433-415a-8882-047c8b27dc85",
+      "valid": true,
+      "plan": "Trial",
+      "limit": "40",
+      "remaining": "39"
+    },
+    {
+      "key_redacted": "lSOcSW****LYId",
+      "repository": "MemeFormer/SearchSmart_NotHard",
+      "url": "https://github.com/MemeFormer/SearchSmart_NotHard/blob/c8f4eac66b344e41fd52fedc97cc97a19ebb4ff5/.env",
+      "organization_id": "1faf4c28-7c1b-4a3e-a3f8-04d22b05cc13",
+      "owner_id": "7dca1d72-4d1f-4977-87c0-255c8cfc281a",
       "valid": true,
       "plan": "Trial",
       "limit": "40",
