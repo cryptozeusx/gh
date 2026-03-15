@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-03-14T06:06:07.978672",
-  "total_keys": 58,
-  "live_keys": 40,
+  "checked_at": "2026-03-15T07:16:46.253911",
+  "total_keys": 63,
+  "live_keys": 44,
   "results": [
     {
       "key_redacted": "CHnhlk****mU2X",
@@ -484,7 +484,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 402: {\"id\":\"0bc8bfe5-3b8b-4ebe-b7ea-924122fda440\",\"message\":\"Please add or update your payment method at "
+      "chat_error": "HTTP 402: {\"id\":\"f133da83-c8c7-43d9-bf81-17c0df41df5d\",\"message\":\"Please add or update your payment method at "
     },
     {
       "key_redacted": "RMsr7n****WdRm",
@@ -551,6 +551,57 @@
       "plan": "Trial",
       "limit": "40",
       "remaining": "39"
+    },
+    {
+      "key_redacted": "6UKve6****XJB5",
+      "repository": "al3alema-Batata/Find-My-Potato",
+      "url": "https://github.com/al3alema-Batata/Find-My-Potato/blob/8632b61c669cc01bd3b1ec9879dd4855fe6a64d6/a.env",
+      "organization_id": "8044f87a-200f-4c16-a0d5-b6b49d9d52b3",
+      "owner_id": "74409634-3451-4eb7-a096-47011f56f78e",
+      "valid": true,
+      "plan": "Trial",
+      "limit": "40",
+      "remaining": "39"
+    },
+    {
+      "key_redacted": "054q9S****ruiv",
+      "repository": "AnthonyCh2001/HIRENOTESAI",
+      "url": "https://github.com/AnthonyCh2001/HIRENOTESAI/blob/08f17bb87140a2cc87dd7c69acbc801bf49dc22e/src/.env",
+      "organization_id": "a30426ef-a50f-4c13-93a3-9e95a3e456b6",
+      "owner_id": "bfeb69e5-de7f-464a-bc2d-122a98dd3bcf",
+      "valid": true,
+      "plan": "Trial",
+      "limit": "40",
+      "remaining": "39"
+    },
+    {
+      "key_redacted": "UDPD4e****uBZE",
+      "repository": "AnthonyCh2001/HireNotes-AI",
+      "url": "https://github.com/AnthonyCh2001/HireNotes-AI/blob/ada0e27956dad19074e7463dcc1dbda3da709714/src/.env",
+      "organization_id": "fdaf50b9-9a53-4f72-b467-8bb548f4ede0",
+      "owner_id": "d4b4155a-d81b-46a8-acd3-5b1b0d9d0b97",
+      "valid": true,
+      "plan": "Trial",
+      "limit": "40",
+      "remaining": "39"
+    },
+    {
+      "key_redacted": "com_fy****5iAG",
+      "repository": "Anuj3558/QuizGenerator",
+      "url": "https://github.com/Anuj3558/QuizGenerator/blob/f1223bc25a4614c29c59a4e5c1dec5e4171c126c/client/.env",
+      "valid": false
+    },
+    {
+      "key_redacted": "7E7dBl****LXDv",
+      "repository": "Viswa-Sai-Reddy/Hirewise",
+      "url": "https://github.com/Viswa-Sai-Reddy/Hirewise/blob/b55186e1fb6f76bf21ba6aa00613817ab61f1bb7/backend/.env",
+      "organization_id": "292c4f86-840a-44d7-9486-59906d2d2d5b",
+      "owner_id": "af1f3f61-f596-4b3c-8cc4-803805e33a80",
+      "valid": true,
+      "plan": "Production",
+      "limit": "?",
+      "remaining": "?",
+      "chat_error": "HTTP 429: {\"id\":\"ab56cd67-0d00-4a37-80bd-6e85d93c9696\",\"message\":\"Please wait and try again later\"}"
     }
   ]
 }
