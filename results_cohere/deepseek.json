@@ -1,7 +1,7 @@
 {
   "service": "deepseek",
-  "scan_timestamp": "2026-03-14T06:04:05.994839",
-  "finding_count": 3,
+  "scan_timestamp": "2026-03-15T06:41:24.096302",
+  "finding_count": 2,
   "findings": [
     {
       "service": "deepseek",
@@ -14,20 +14,7 @@
       "description": "Deepseek Api Key",
       "severity": "medium",
       "matched_pattern": "    ***********************************************************ico)",
-      "timestamp": "2026-03-14T06:03:12.135184"
-    },
-    {
-      "service": "deepseek",
-      "file": ".env",
-      "repository": "eyesli/crypto-quant-trading",
-      "url": "https://github.com/eyesli/crypto-quant-trading/blob/753bfb37c4b7a58f53479461ef24fe54daaced92/.env",
-      "line_number": 1,
-      "line_preview": "DEEPSEEK_API_KEY=sk-ec1fb15580c14d988b16137fdc621692",
-      "key_type": "deepseek_key",
-      "description": "DeepSeek API Key",
-      "severity": "high",
-      "matched_pattern": "DEEP********************************************1692",
-      "timestamp": "2026-03-14T06:03:21.638818"
+      "timestamp": "2026-03-15T06:40:22.097230"
     },
     {
       "service": "deepseek",
@@ -40,7 +27,7 @@
       "description": "DeepSeek API Key",
       "severity": "high",
       "matched_pattern": "DEEP********************************************e392",
-      "timestamp": "2026-03-14T06:03:45.146361"
+      "timestamp": "2026-03-15T06:41:03.851378"
     }
   ]
 }

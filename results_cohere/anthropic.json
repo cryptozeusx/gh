@@ -1,7 +1,7 @@
 {
   "service": "anthropic",
-  "scan_timestamp": "2026-03-14T06:04:05.991987",
-  "finding_count": 5,
+  "scan_timestamp": "2026-03-15T06:41:24.093797",
+  "finding_count": 4,
   "findings": [
     {
       "service": "anthropic",
@@ -14,33 +14,20 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "    *******************************************iku)",
-      "timestamp": "2026-03-14T06:03:12.134733"
+      "timestamp": "2026-03-15T06:40:22.096872"
     },
     {
       "service": "anthropic",
       "file": ".env.example",
       "repository": "stevenfazzio/github-map",
-      "url": "https://github.com/stevenfazzio/github-map/blob/1d965d81f7ca5fa9ac5e4e4fe5c49c35b63da16d/.env.example",
+      "url": "https://github.com/stevenfazzio/github-map/blob/93b79f8d4f2d70f6a4dfd1fbb292a6cdc95b3b9c/.env.example",
       "line_number": 4,
       "line_preview": "ANTHROPIC_API_KEY=      # Anthropic API key (README summarization + topic naming)",
       "key_type": "anthropic_api_key",
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "# An*************************************************ing)",
-      "timestamp": "2026-03-14T06:03:21.563626"
-    },
-    {
-      "service": "anthropic",
-      "file": ".env",
-      "repository": "PathfinderFederalSolutions/AgentForge",
-      "url": "https://github.com/PathfinderFederalSolutions/AgentForge/blob/312de179728e91e461708b7f48f2d3da8dc60232/.env",
-      "line_number": 2,
-      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api03-z7IWfPc0RCO1GqNjM9Ef_RnrB-4zhnMnAoSzDarOcwgcRtg7SSvJ3oz0pndHhOuHRSetEaH5xlbJdy4O_m_bZA-Zp",
-      "key_type": "anthropic_api_key",
-      "description": "Anthropic Api Key",
-      "severity": "medium",
-      "matched_pattern": "ANTH**********************************************************************************************************************cwAA",
-      "timestamp": "2026-03-14T06:03:21.693439"
+      "timestamp": "2026-03-15T06:40:31.753099"
     },
     {
       "service": "anthropic",
@@ -53,7 +40,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "# Re****************************-...",
-      "timestamp": "2026-03-14T06:03:44.571759"
+      "timestamp": "2026-03-15T06:41:02.732660"
     },
     {
       "service": "anthropic",
@@ -66,7 +53,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************DgAA",
-      "timestamp": "2026-03-14T06:03:45.145617"
+      "timestamp": "2026-03-15T06:41:03.850924"
     }
   ]
 }

@@ -1,20 +1,20 @@
 {
   "service": "creds",
-  "scan_timestamp": "2026-03-14T06:04:05.993980",
+  "scan_timestamp": "2026-03-15T06:41:24.095615",
   "finding_count": 4,
   "findings": [
     {
       "service": "creds",
       "file": ".env.backup",
       "repository": "hanzoai/chat",
-      "url": "https://github.com/hanzoai/chat/blob/9f3dd49a1db67b7ee496525fcb96b9bb3b15b247/.env.backup",
+      "url": "https://github.com/hanzoai/chat/blob/c55e76929b6e7b84c1bc5cf081f3ed7715ba6305/.env.backup",
       "line_number": 220,
       "line_preview": "CREDS_KEY=f34be427ebb29de8d88c107a71546019685ed8b241d8f2ed00c3df97ad2566f0",
       "key_type": "creds_key",
       "description": "Creds Key",
       "severity": "medium",
       "matched_pattern": "f34b********************************************************66f0",
-      "timestamp": "2026-03-14T06:03:13.213140"
+      "timestamp": "2026-03-15T06:40:24.024844"
     },
     {
       "service": "creds",
@@ -27,7 +27,7 @@
       "description": "Creds Key",
       "severity": "medium",
       "matched_pattern": "CRED******************************************************************66f0",
-      "timestamp": "2026-03-14T06:03:13.550501"
+      "timestamp": "2026-03-15T06:40:24.661151"
     },
     {
       "service": "creds",
@@ -40,20 +40,20 @@
       "description": "Creds Key",
       "severity": "medium",
       "matched_pattern": "CRED******************************************************************66f0",
-      "timestamp": "2026-03-14T06:03:13.737134"
+      "timestamp": "2026-03-15T06:40:24.798825"
     },
     {
       "service": "creds",
-      "file": "librechat.env.example",
-      "repository": "vaaale/FetchCraft",
-      "url": "https://github.com/vaaale/FetchCraft/blob/6ee44fa5ba0951c0a0770d523831543dc806dd8c/librechat.env.example",
-      "line_number": 241,
+      "file": ".env.zh.example",
+      "repository": "tanguangyun/ChatHub",
+      "url": "https://github.com/tanguangyun/ChatHub/blob/e4041b3f361c314d008d92969e6f533d8c08b84d/.env.zh.example",
+      "line_number": 295,
       "line_preview": "CREDS_KEY=f34be427ebb29de8d88c107a71546019685ed8b241d8f2ed00c3df97ad2566f0",
       "key_type": "creds_key",
       "description": "Creds Key",
       "severity": "medium",
       "matched_pattern": "CRED******************************************************************66f0",
-      "timestamp": "2026-03-14T06:03:30.094465"
+      "timestamp": "2026-03-15T06:40:42.816095"
     }
   ]
 }

@@ -1,46 +1,46 @@
 {
   "service": "co",
-  "scan_timestamp": "2026-03-14T06:04:05.993182",
-  "finding_count": 6,
+  "scan_timestamp": "2026-03-15T06:41:24.094873",
+  "finding_count": 7,
   "findings": [
     {
       "service": "co",
       "file": ".env.example",
       "repository": "stevenfazzio/github-map",
-      "url": "https://github.com/stevenfazzio/github-map/blob/1d965d81f7ca5fa9ac5e4e4fe5c49c35b63da16d/.env.example",
+      "url": "https://github.com/stevenfazzio/github-map/blob/93b79f8d4f2d70f6a4dfd1fbb292a6cdc95b3b9c/.env.example",
       "line_number": 3,
       "line_preview": "CO_API_KEY=             # Cohere API key (embeddings + topic modeling)",
       "key_type": "co_api_key",
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "# Co**************************************ing)",
-      "timestamp": "2026-03-14T06:03:21.563573"
+      "timestamp": "2026-03-15T06:40:31.753059"
     },
     {
       "service": "co",
       "file": ".env",
-      "repository": "eyesli/crypto-quant-trading",
-      "url": "https://github.com/eyesli/crypto-quant-trading/blob/753bfb37c4b7a58f53479461ef24fe54daaced92/.env",
-      "line_number": 4,
-      "line_preview": "ALPHAVANTAGE_CO_API_KEY=L4V78TJ5I6AAQ80T",
+      "repository": "cecepns/carrywise-dashboard",
+      "url": "https://github.com/cecepns/carrywise-dashboard/blob/df159cbf9e60595a7db3a96a55eb9d473959cca8/.env",
+      "line_number": 6,
+      "line_preview": "VITE_MAPS_CO_API_KEY=658ea164ba8de424993651furba89cf",
       "key_type": "co_api_key",
       "description": "Co Api Key",
       "severity": "medium",
-      "matched_pattern": "CO_A*******************Q80T",
-      "timestamp": "2026-03-14T06:03:21.638959"
+      "matched_pattern": "CO_A**********************************89cf",
+      "timestamp": "2026-03-15T06:40:31.881759"
     },
     {
       "service": "co",
-      "file": ".env.prod.example",
-      "repository": "realsarius/ecommerce-belediye-testcase",
-      "url": "https://github.com/realsarius/ecommerce-belediye-testcase/blob/e14d67a13251ba713489a39d8049dadd6d8f779e/.env.prod.example",
-      "line_number": 42,
-      "line_preview": "IYZICO_API_KEY=sandbox-",
+      "file": ".env",
+      "repository": "surya140104/Flood_Risk_140104",
+      "url": "https://github.com/surya140104/Flood_Risk_140104/blob/7e5ce762a7198a7b9fd701c6942d114bd3fe04b2/.env",
+      "line_number": 16,
+      "line_preview": "NEXT_PUBLIC_GEOCODE_MAPS_CO_API_KEY=683d9a25d35b3791659375hjpd4d5a3",
       "key_type": "co_api_key",
       "description": "Co Api Key",
       "severity": "medium",
-      "matched_pattern": "CO_A***********box-",
-      "timestamp": "2026-03-14T06:03:22.132686"
+      "matched_pattern": "CO_A**********************************d5a3",
+      "timestamp": "2026-03-15T06:40:32.006880"
     },
     {
       "service": "co",
@@ -53,7 +53,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************s_90",
-      "timestamp": "2026-03-14T06:03:23.441266"
+      "timestamp": "2026-03-15T06:40:34.457603"
     },
     {
       "service": "co",
@@ -66,7 +66,20 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********************************61ad",
-      "timestamp": "2026-03-14T06:03:24.456171"
+      "timestamp": "2026-03-15T06:40:36.433718"
+    },
+    {
+      "service": "co",
+      "file": ".env.prod.example",
+      "repository": "realsarius/ecommerce-belediye-testcase",
+      "url": "https://github.com/realsarius/ecommerce-belediye-testcase/blob/e14d67a13251ba713489a39d8049dadd6d8f779e/.env.prod.example",
+      "line_number": 42,
+      "line_preview": "IYZICO_API_KEY=sandbox-",
+      "key_type": "co_api_key",
+      "description": "Co Api Key",
+      "severity": "medium",
+      "matched_pattern": "CO_A***********box-",
+      "timestamp": "2026-03-15T06:40:52.904523"
     },
     {
       "service": "co",
@@ -79,7 +92,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*******************************FcU'",
-      "timestamp": "2026-03-14T06:03:50.592822"
+      "timestamp": "2026-03-15T06:41:08.570115"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "service": "db",
-  "scan_timestamp": "2026-03-14T06:04:05.994687",
-  "finding_count": 2,
+  "scan_timestamp": "2026-03-15T06:41:24.096227",
+  "finding_count": 3,
   "findings": [
     {
       "service": "db",
@@ -14,7 +14,7 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "8g3Z********DIRS",
-      "timestamp": "2026-03-14T06:02:58.415720"
+      "timestamp": "2026-03-15T06:40:08.274595"
     },
     {
       "service": "db",
@@ -27,7 +27,20 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "DB_P************3214",
-      "timestamp": "2026-03-14T06:03:16.840835"
+      "timestamp": "2026-03-15T06:40:27.650303"
+    },
+    {
+      "service": "db",
+      "file": "apps/api/.env.staging.example",
+      "repository": "Bl4cKr0W2/vpc-music",
+      "url": "https://github.com/Bl4cKr0W2/vpc-music/blob/e68c48a92363a6c88cd603139bcb83c5761f15c6/apps/api/.env.staging.example",
+      "line_number": 8,
+      "line_preview": "DB_PASSWORD=jvpfgZ-W_s9*duvxN*EW",
+      "key_type": "db_password",
+      "description": "Db Password",
+      "severity": "high",
+      "matched_pattern": "DB_P************************N*EW",
+      "timestamp": "2026-03-15T06:40:28.143088"
     }
   ]
 }

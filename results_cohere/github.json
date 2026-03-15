@@ -1,6 +1,6 @@
 {
   "service": "github",
-  "scan_timestamp": "2026-03-14T06:04:05.998916",
+  "scan_timestamp": "2026-03-15T06:41:24.099200",
   "finding_count": 3,
   "findings": [
     {
@@ -14,20 +14,20 @@
       "description": "Github Token",
       "severity": "medium",
       "matched_pattern": "git@*****************************************.git",
-      "timestamp": "2026-03-14T06:03:16.755449"
+      "timestamp": "2026-03-15T06:40:27.523574"
     },
     {
       "service": "github",
       "file": ".env.example",
       "repository": "stevenfazzio/github-map",
-      "url": "https://github.com/stevenfazzio/github-map/blob/1d965d81f7ca5fa9ac5e4e4fe5c49c35b63da16d/.env.example",
+      "url": "https://github.com/stevenfazzio/github-map/blob/93b79f8d4f2d70f6a4dfd1fbb292a6cdc95b3b9c/.env.example",
       "line_number": 2,
       "line_preview": "GITHUB_TOKEN=           # GitHub personal access token (for GraphQL API)",
       "key_type": "github_token",
       "description": "Github Token",
       "severity": "medium",
       "matched_pattern": "# Gi****************************************API)",
-      "timestamp": "2026-03-14T06:03:21.563472"
+      "timestamp": "2026-03-15T06:40:31.752939"
     },
     {
       "service": "github",
@@ -40,7 +40,7 @@
       "description": "Github Webhook Secret",
       "severity": "high",
       "matched_pattern": "# (L******************ble)",
-      "timestamp": "2026-03-14T06:03:44.104255"
+      "timestamp": "2026-03-15T06:41:02.091131"
     }
   ]
 }

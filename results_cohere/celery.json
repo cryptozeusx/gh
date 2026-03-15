@@ -1,8 +1,21 @@
 {
   "service": "celery",
-  "scan_timestamp": "2026-03-14T06:04:05.993069",
-  "finding_count": 1,
+  "scan_timestamp": "2026-03-15T06:41:24.094807",
+  "finding_count": 2,
   "findings": [
+    {
+      "service": "celery",
+      "file": "docker/env/.env.example.app",
+      "repository": "MarouaHattab/Log-Analysis-RAG",
+      "url": "https://github.com/MarouaHattab/Log-Analysis-RAG/blob/2cfd0fdb4eaf1724e68cf250a55d2a5a960e4de3/docker/env/.env.example.app",
+      "line_number": 49,
+      "line_preview": "CELERY_FLOWER_PASSWORD=\"minirag_flower_2222\"",
+      "key_type": "celery_flower_password",
+      "description": "Celery Flower Password",
+      "severity": "high",
+      "matched_pattern": "mini***********2222",
+      "timestamp": "2026-03-15T06:40:22.864320"
+    },
     {
       "service": "celery",
       "file": "postgresql/docker/env/.env.example.app",
@@ -13,8 +26,8 @@
       "key_type": "celery_flower_password",
       "description": "Celery Flower Password",
       "severity": "high",
-      "matched_pattern": "mini***********2222",
-      "timestamp": "2026-03-14T06:03:13.480518"
+      "matched_pattern": "CELE************************************222\"",
+      "timestamp": "2026-03-15T06:40:24.405920"
     }
   ]
 }
