@@ -1,21 +1,8 @@
 {
   "service": "meili",
-  "scan_timestamp": "2026-03-15T06:41:24.100796",
+  "scan_timestamp": "2026-03-16T08:00:03.502617",
   "finding_count": 4,
   "findings": [
-    {
-      "service": "meili",
-      "file": ".env.backup",
-      "repository": "hanzoai/chat",
-      "url": "https://github.com/hanzoai/chat/blob/c55e76929b6e7b84c1bc5cf081f3ed7715ba6305/.env.backup",
-      "line_number": 307,
-      "line_preview": "MEILI_MASTER_KEY=DrhYf7zENyR6AlUCKmnz0eYASOQdl6zxH7s7MKFSfFCt",
-      "key_type": "meili_master_key",
-      "description": "Meili Master Key",
-      "severity": "critical",
-      "matched_pattern": "DrhY************************************fFCt",
-      "timestamp": "2026-03-15T06:40:24.024875"
-    },
     {
       "service": "meili",
       "file": ".env2",
@@ -26,8 +13,8 @@
       "key_type": "meili_master_key",
       "description": "Meili Master Key",
       "severity": "critical",
-      "matched_pattern": "MEIL*****************************************************fFCt",
-      "timestamp": "2026-03-15T06:40:24.661197"
+      "matched_pattern": "DrhY************************************fFCt",
+      "timestamp": "2026-03-16T07:59:03.298421"
     },
     {
       "service": "meili",
@@ -40,7 +27,20 @@
       "description": "Meili Master Key",
       "severity": "critical",
       "matched_pattern": "MEIL*****************************************************fFCt",
-      "timestamp": "2026-03-15T06:40:24.798967"
+      "timestamp": "2026-03-16T07:59:03.521707"
+    },
+    {
+      "service": "meili",
+      "file": ".env.example.backup",
+      "repository": "hanzoai/chat",
+      "url": "https://github.com/hanzoai/chat/blob/f55a7f1a4650d926b1ee7ff1696063a3777486c0/.env.example.backup",
+      "line_number": 307,
+      "line_preview": "MEILI_MASTER_KEY=DrhYf7zENyR6AlUCKmnz0eYASOQdl6zxH7s7MKFSfFCt",
+      "key_type": "meili_master_key",
+      "description": "Meili Master Key",
+      "severity": "critical",
+      "matched_pattern": "MEIL*****************************************************fFCt",
+      "timestamp": "2026-03-16T07:59:03.615818"
     },
     {
       "service": "meili",
@@ -53,7 +53,7 @@
       "description": "Meili Master Key",
       "severity": "critical",
       "matched_pattern": "MEIL*****************************************************fFCt",
-      "timestamp": "2026-03-15T06:40:42.816236"
+      "timestamp": "2026-03-16T07:59:22.666377"
     }
   ]
 }

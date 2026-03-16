@@ -1,6 +1,6 @@
 {
   "service": "admin",
-  "scan_timestamp": "2026-03-14T06:04:05.991519",
+  "scan_timestamp": "2026-03-16T08:00:03.491917",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Admin Reset Api Key",
       "severity": "medium",
       "matched_pattern": "Secu******nKey",
-      "timestamp": "2026-03-14T06:03:10.429131"
+      "timestamp": "2026-03-16T07:58:59.549752"
     }
   ]
 }

@@ -1,21 +1,8 @@
 {
   "service": "gemini",
-  "scan_timestamp": "2026-03-15T06:41:24.097304",
-  "finding_count": 7,
+  "scan_timestamp": "2026-03-16T08:00:03.497566",
+  "finding_count": 6,
   "findings": [
-    {
-      "service": "gemini",
-      "file": "exemplo.env",
-      "repository": "amaro-netto/alerj_simulado_data",
-      "url": "https://github.com/amaro-netto/alerj_simulado_data/blob/542edbba62d02977822626c56e3860a8459c9674/exemplo.env",
-      "line_number": 4,
-      "line_preview": "GEMINI_API_KEY=\"\"          # Google (Gemini 1.5 Pro, Flash)",
-      "key_type": "gemini_api_key",
-      "description": "Gemini Api Key",
-      "severity": "medium",
-      "matched_pattern": "    **********************************ash)",
-      "timestamp": "2026-03-15T06:40:22.096610"
-    },
     {
       "service": "gemini",
       "file": ".env",
@@ -27,7 +14,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************C2ao",
-      "timestamp": "2026-03-15T06:40:32.006966"
+      "timestamp": "2026-03-16T07:59:13.938458"
     },
     {
       "service": "gemini",
@@ -40,7 +27,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************o_vI",
-      "timestamp": "2026-03-15T06:40:32.283160"
+      "timestamp": "2026-03-16T07:59:14.164548"
     },
     {
       "service": "gemini",
@@ -53,7 +40,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************G4Z4",
-      "timestamp": "2026-03-15T06:40:40.963056"
+      "timestamp": "2026-03-16T07:59:21.480795"
     },
     {
       "service": "gemini",
@@ -66,7 +53,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************9_ag",
-      "timestamp": "2026-03-15T06:41:01.663682"
+      "timestamp": "2026-03-16T07:59:40.331716"
     },
     {
       "service": "gemini",
@@ -79,7 +66,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************inns",
-      "timestamp": "2026-03-15T06:41:01.931632"
+      "timestamp": "2026-03-16T07:59:40.546427"
     },
     {
       "service": "gemini",
@@ -92,7 +79,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************Dsdg",
-      "timestamp": "2026-03-15T06:41:03.851149"
+      "timestamp": "2026-03-16T07:59:46.842282"
     }
   ]
 }

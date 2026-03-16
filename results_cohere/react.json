@@ -1,7 +1,7 @@
 {
   "service": "react",
-  "scan_timestamp": "2026-03-15T06:41:24.102906",
-  "finding_count": 5,
+  "scan_timestamp": "2026-03-16T08:00:03.506327",
+  "finding_count": 4,
   "findings": [
     {
       "service": "react",
@@ -14,7 +14,7 @@
       "description": "React App Default Token List Url",
       "severity": "medium",
       "matched_pattern": "http*********************************************************************************************************json",
-      "timestamp": "2026-03-15T06:40:08.520797"
+      "timestamp": "2026-03-16T07:58:50.050562"
     },
     {
       "service": "react",
@@ -27,7 +27,7 @@
       "description": "React App Polygon Api Key Free",
       "severity": "medium",
       "matched_pattern": "S0m3********1K3y",
-      "timestamp": "2026-03-15T06:40:08.520946"
+      "timestamp": "2026-03-16T07:58:50.050721"
     },
     {
       "service": "react",
@@ -40,7 +40,7 @@
       "description": "React App Token List Exchange Custom Asset Logo Url",
       "severity": "medium",
       "matched_pattern": "http****************************************************************************************************.png",
-      "timestamp": "2026-03-15T06:40:08.520997"
+      "timestamp": "2026-03-16T07:58:50.050781"
     },
     {
       "service": "react",
@@ -53,20 +53,7 @@
       "description": "React App Token List Asset Generic Address Testnet Logo Url Base",
       "severity": "medium",
       "matched_pattern": "http******************************************************************************************************************ets/",
-      "timestamp": "2026-03-15T06:40:08.521039"
-    },
-    {
-      "service": "react",
-      "file": ".history/pastry-chatbot/.env_20241211212418",
-      "repository": "agrnerd17/Website-Chatbot",
-      "url": "https://github.com/agrnerd17/Website-Chatbot/blob/54cb97ca098eb106cd5d2e06b8fc3a5c590c928f/.history/pastry-chatbot/.env_20241211212418",
-      "line_number": 1,
-      "line_preview": "REACT_APP_COHERE_API_KEY = 4Q5uYncuXdeTWiIzyxyhqMKaxglI8sXHXLZdG84s",
-      "key_type": "react_app_cohere_api_key",
-      "description": "React App Cohere Api Key",
-      "severity": "medium",
-      "matched_pattern": "REAC***********************************************************G84s",
-      "timestamp": "2026-03-15T06:40:23.761152"
+      "timestamp": "2026-03-16T07:58:50.050833"
     }
   ]
 }

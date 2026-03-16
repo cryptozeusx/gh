@@ -1,7 +1,7 @@
 {
   "service": "service",
-  "scan_timestamp": "2026-03-15T06:41:24.103537",
-  "finding_count": 3,
+  "scan_timestamp": "2026-03-16T08:00:03.507211",
+  "finding_count": 2,
   "findings": [
     {
       "service": "service",
@@ -14,7 +14,7 @@
       "description": "Service Key",
       "severity": "medium",
       "matched_pattern": "eyJh***********************************************************************************************************************************************************************************************************************Vt4Q",
-      "timestamp": "2026-03-15T06:40:08.145206"
+      "timestamp": "2026-03-16T07:58:49.791589"
     },
     {
       "service": "service",
@@ -27,20 +27,7 @@
       "description": "Service Key",
       "severity": "medium",
       "matched_pattern": "SERV****************************I...",
-      "timestamp": "2026-03-15T06:40:37.836242"
-    },
-    {
-      "service": "service",
-      "file": "wedding-planner/.env.example",
-      "repository": "pavelcatalinclaudiu/wedding-planner",
-      "url": "https://github.com/pavelcatalinclaudiu/wedding-planner/blob/56c9bbd043e22573511997f9e46049cd5237612d/wedding-planner/.env.example",
-      "line_number": 35,
-      "line_preview": "SUPABASE_SERVICE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
-      "key_type": "service_key",
-      "description": "Service Key",
-      "severity": "medium",
-      "matched_pattern": "SERV*******************************************9...",
-      "timestamp": "2026-03-15T06:40:59.441786"
+      "timestamp": "2026-03-16T07:59:19.079282"
     }
   ]
 }

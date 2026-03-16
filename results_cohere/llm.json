@@ -1,6 +1,6 @@
 {
   "service": "llm",
-  "scan_timestamp": "2026-03-15T06:41:24.100586",
+  "scan_timestamp": "2026-03-16T08:00:03.502057",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Llm Max Tokens",
       "severity": "medium",
       "matched_pattern": "4000**************************************tion",
-      "timestamp": "2026-03-15T06:40:42.378814"
+      "timestamp": "2026-03-16T07:59:22.331558"
     }
   ]
 }

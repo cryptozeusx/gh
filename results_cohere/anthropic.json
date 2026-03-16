@@ -1,33 +1,20 @@
 {
   "service": "anthropic",
-  "scan_timestamp": "2026-03-15T06:41:24.093797",
-  "finding_count": 4,
+  "scan_timestamp": "2026-03-16T08:00:03.492351",
+  "finding_count": 3,
   "findings": [
-    {
-      "service": "anthropic",
-      "file": "exemplo.env",
-      "repository": "amaro-netto/alerj_simulado_data",
-      "url": "https://github.com/amaro-netto/alerj_simulado_data/blob/542edbba62d02977822626c56e3860a8459c9674/exemplo.env",
-      "line_number": 6,
-      "line_preview": "ANTHROPIC_API_KEY=\"\"       # Anthropic (Claude 3.5 Sonnet, Opus, Haiku)",
-      "key_type": "anthropic_api_key",
-      "description": "Anthropic Api Key",
-      "severity": "medium",
-      "matched_pattern": "    *******************************************iku)",
-      "timestamp": "2026-03-15T06:40:22.096872"
-    },
     {
       "service": "anthropic",
       "file": ".env.example",
       "repository": "stevenfazzio/github-map",
-      "url": "https://github.com/stevenfazzio/github-map/blob/93b79f8d4f2d70f6a4dfd1fbb292a6cdc95b3b9c/.env.example",
+      "url": "https://github.com/stevenfazzio/github-map/blob/70e976862c09abc5ae8d404c438a38eebc429a70/.env.example",
       "line_number": 4,
       "line_preview": "ANTHROPIC_API_KEY=      # Anthropic API key (README summarization + topic naming)",
       "key_type": "anthropic_api_key",
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "# An*************************************************ing)",
-      "timestamp": "2026-03-15T06:40:31.753099"
+      "timestamp": "2026-03-16T07:59:13.755488"
     },
     {
       "service": "anthropic",
@@ -40,7 +27,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "# Re****************************-...",
-      "timestamp": "2026-03-15T06:41:02.732660"
+      "timestamp": "2026-03-16T07:59:44.171850"
     },
     {
       "service": "anthropic",
@@ -53,7 +40,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************DgAA",
-      "timestamp": "2026-03-15T06:41:03.850924"
+      "timestamp": "2026-03-16T07:59:46.841901"
     }
   ]
 }

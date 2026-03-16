@@ -1,20 +1,20 @@
 {
   "service": "co",
-  "scan_timestamp": "2026-03-15T06:41:24.094873",
+  "scan_timestamp": "2026-03-16T08:00:03.493730",
   "finding_count": 7,
   "findings": [
     {
       "service": "co",
       "file": ".env.example",
       "repository": "stevenfazzio/github-map",
-      "url": "https://github.com/stevenfazzio/github-map/blob/93b79f8d4f2d70f6a4dfd1fbb292a6cdc95b3b9c/.env.example",
+      "url": "https://github.com/stevenfazzio/github-map/blob/70e976862c09abc5ae8d404c438a38eebc429a70/.env.example",
       "line_number": 3,
       "line_preview": "CO_API_KEY=             # Cohere API key (embeddings + topic modeling)",
       "key_type": "co_api_key",
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "# Co**************************************ing)",
-      "timestamp": "2026-03-15T06:40:31.753059"
+      "timestamp": "2026-03-16T07:59:13.755415"
     },
     {
       "service": "co",
@@ -27,7 +27,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************************89cf",
-      "timestamp": "2026-03-15T06:40:31.881759"
+      "timestamp": "2026-03-16T07:59:13.823079"
     },
     {
       "service": "co",
@@ -40,20 +40,20 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************************d5a3",
-      "timestamp": "2026-03-15T06:40:32.006880"
+      "timestamp": "2026-03-16T07:59:13.938330"
     },
     {
       "service": "co",
       "file": ".env",
       "repository": "NepsenX/NepsenX",
-      "url": "https://github.com/NepsenX/NepsenX/blob/c8ba776c2af80c63450b83d0f200edec21b726e9/.env",
+      "url": "https://github.com/NepsenX/NepsenX/blob/762cc29ed45fa717b9ca2653a7663c324d6b460d/.env",
       "line_number": 19,
       "line_preview": "CO_API_KEY=co_secure_access_90",
       "key_type": "co_api_key",
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************s_90",
-      "timestamp": "2026-03-15T06:40:34.457603"
+      "timestamp": "2026-03-16T07:59:15.806950"
     },
     {
       "service": "co",
@@ -66,20 +66,20 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********************************61ad",
-      "timestamp": "2026-03-15T06:40:36.433718"
+      "timestamp": "2026-03-16T07:59:17.351593"
     },
     {
       "service": "co",
       "file": ".env.prod.example",
       "repository": "realsarius/ecommerce-belediye-testcase",
-      "url": "https://github.com/realsarius/ecommerce-belediye-testcase/blob/e14d67a13251ba713489a39d8049dadd6d8f779e/.env.prod.example",
+      "url": "https://github.com/realsarius/ecommerce-belediye-testcase/blob/ab0b6e96e5b77ae1c805aac16ad6fe30dbfdc5c6/.env.prod.example",
       "line_number": 42,
       "line_preview": "IYZICO_API_KEY=sandbox-",
       "key_type": "co_api_key",
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********box-",
-      "timestamp": "2026-03-15T06:40:52.904523"
+      "timestamp": "2026-03-16T07:59:31.928468"
     },
     {
       "service": "co",
@@ -92,7 +92,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*******************************FcU'",
-      "timestamp": "2026-03-15T06:41:08.570115"
+      "timestamp": "2026-03-16T07:59:47.697411"
     }
   ]
 }

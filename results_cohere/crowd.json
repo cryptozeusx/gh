@@ -1,6 +1,6 @@
 {
   "service": "crowd",
-  "scan_timestamp": "2026-03-15T06:41:24.095702",
+  "scan_timestamp": "2026-03-16T08:00:03.494740",
   "finding_count": 2,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Crowd Segment Write Key",
       "severity": "medium",
       "matched_pattern": "TdX3************************Piyl",
-      "timestamp": "2026-03-15T06:41:01.541516"
+      "timestamp": "2026-03-16T07:59:40.241936"
     },
     {
       "service": "crowd",
@@ -27,7 +27,7 @@
       "description": "Crowd Temporal Encryption Key",
       "severity": "medium",
       "matched_pattern": "FweB************************RUKt",
-      "timestamp": "2026-03-15T06:41:01.541579"
+      "timestamp": "2026-03-16T07:59:40.242033"
     }
   ]
 }

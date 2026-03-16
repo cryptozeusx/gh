@@ -1,6 +1,6 @@
 {
   "service": "segment",
-  "scan_timestamp": "2026-03-15T06:41:24.103482",
+  "scan_timestamp": "2026-03-16T08:00:03.507092",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Segment Write Key",
       "severity": "medium",
       "matched_pattern": "TdX3************************Piyl",
-      "timestamp": "2026-03-15T06:41:02.091047"
+      "timestamp": "2026-03-16T07:59:40.775420"
     }
   ]
 }

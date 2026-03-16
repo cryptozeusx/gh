@@ -1,6 +1,6 @@
 {
   "service": "mysql",
-  "scan_timestamp": "2026-03-15T06:41:24.101092",
+  "scan_timestamp": "2026-03-16T08:00:03.503048",
   "finding_count": 2,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Mysql Root Password",
       "severity": "high",
       "matched_pattern": "********",
-      "timestamp": "2026-03-15T06:40:09.037676"
+      "timestamp": "2026-03-16T07:58:50.405831"
     },
     {
       "service": "mysql",
@@ -27,7 +27,7 @@
       "description": "Mysql Root Password",
       "severity": "high",
       "matched_pattern": "MYSQ***********************3456",
-      "timestamp": "2026-03-15T06:40:11.268888"
+      "timestamp": "2026-03-16T07:58:51.865205"
     }
   ]
 }

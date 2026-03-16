@@ -1,6 +1,6 @@
 {
   "service": "n8n",
-  "scan_timestamp": "2026-03-15T06:41:24.101156",
+  "scan_timestamp": "2026-03-16T08:00:03.503184",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "N8N Encryption Key",
       "severity": "medium",
       "matched_pattern": "n8n-*******************************tion",
-      "timestamp": "2026-03-15T06:40:45.653464"
+      "timestamp": "2026-03-16T07:59:24.823461"
     }
   ]
 }

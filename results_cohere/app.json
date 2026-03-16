@@ -1,6 +1,6 @@
 {
   "service": "app",
-  "scan_timestamp": "2026-03-15T06:41:24.094429",
+  "scan_timestamp": "2026-03-16T08:00:03.492934",
   "finding_count": 4,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "base*******************************************KgQ=",
-      "timestamp": "2026-03-15T06:40:17.305066"
+      "timestamp": "2026-03-16T07:58:55.362941"
     },
     {
       "service": "app",
@@ -27,7 +27,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************hXw=",
-      "timestamp": "2026-03-15T06:40:27.650173"
+      "timestamp": "2026-03-16T07:59:07.678215"
     },
     {
       "service": "app",
@@ -40,7 +40,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************tso=",
-      "timestamp": "2026-03-15T06:40:35.365570"
+      "timestamp": "2026-03-16T07:59:16.529662"
     },
     {
       "service": "app",
@@ -53,7 +53,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************e8p\"",
-      "timestamp": "2026-03-15T06:40:53.603700"
+      "timestamp": "2026-03-16T07:59:32.424813"
     }
   ]
 }
