@@ -1,8 +1,21 @@
 {
   "service": "huggingfacehub",
-  "scan_timestamp": "2026-03-16T08:00:03.500800",
-  "finding_count": 1,
+  "scan_timestamp": "2026-03-17T07:38:44.586431",
+  "finding_count": 2,
   "findings": [
+    {
+      "service": "huggingfacehub",
+      "file": "exemplo.env",
+      "repository": "amaro-netto/alerj_simulado_data",
+      "url": "https://github.com/amaro-netto/alerj_simulado_data/blob/542edbba62d02977822626c56e3860a8459c9674/exemplo.env",
+      "line_number": 12,
+      "line_preview": "HUGGINGFACEHUB_API_TOKEN=\"\" # Hugging Face (Para acessar milhares de modelos open source)",
+      "key_type": "huggingfacehub_api_token",
+      "description": "Huggingfacehub Api Token",
+      "severity": "medium",
+      "matched_pattern": " # H******************************************************rce)",
+      "timestamp": "2026-03-17T07:37:37.850098"
+    },
     {
       "service": "huggingfacehub",
       "file": "multi-doc-chatbot-1/.env1",
@@ -14,7 +27,7 @@
       "description": "Huggingfacehub Api Token",
       "severity": "medium",
       "matched_pattern": "hf_L*****\"  #",
-      "timestamp": "2026-03-16T07:59:03.815627"
+      "timestamp": "2026-03-17T07:37:40.817003"
     }
   ]
 }

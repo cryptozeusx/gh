@@ -1,8 +1,21 @@
 {
   "service": "app",
-  "scan_timestamp": "2026-03-16T08:00:03.492934",
-  "finding_count": 4,
+  "scan_timestamp": "2026-03-17T07:38:44.579553",
+  "finding_count": 6,
   "findings": [
+    {
+      "service": "app",
+      "file": ".env.save.1",
+      "repository": "Tanvir-Ahmed98/newreunion",
+      "url": "https://github.com/Tanvir-Ahmed98/newreunion/blob/9142a64129ec1ff7df0484b3c2ac6fa78b1796ef/.env.save.1",
+      "line_number": 3,
+      "line_preview": "APP_KEY=base64:82Szix4CQE0bYSiE4iwoIWZyqE45JJFFtS9ur4+sH8g=",
+      "key_type": "app_key",
+      "description": "App Key",
+      "severity": "medium",
+      "matched_pattern": "base*******************************************H8g=",
+      "timestamp": "2026-03-17T07:37:24.781325"
+    },
     {
       "service": "app",
       "file": ".env.org",
@@ -13,8 +26,8 @@
       "key_type": "app_key",
       "description": "App Key",
       "severity": "medium",
-      "matched_pattern": "base*******************************************KgQ=",
-      "timestamp": "2026-03-16T07:58:55.362941"
+      "matched_pattern": "APP_***************************************************KgQ=",
+      "timestamp": "2026-03-17T07:37:31.410416"
     },
     {
       "service": "app",
@@ -27,7 +40,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************hXw=",
-      "timestamp": "2026-03-16T07:59:07.678215"
+      "timestamp": "2026-03-17T07:37:43.956151"
     },
     {
       "service": "app",
@@ -40,7 +53,20 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************tso=",
-      "timestamp": "2026-03-16T07:59:16.529662"
+      "timestamp": "2026-03-17T07:37:51.830851"
+    },
+    {
+      "service": "app",
+      "file": ".env.back",
+      "repository": "curetechb/mt",
+      "url": "https://github.com/curetechb/mt/blob/61fcfbd38981df211f945855604b90b4ec2cad19/.env.back",
+      "line_number": 3,
+      "line_preview": "APP_KEY=base64:WrvqXJ+ilWOLItqI7C2N2R2dQkqFAHFYzTrQBBJqtso=",
+      "key_type": "app_key",
+      "description": "App Key",
+      "severity": "medium",
+      "matched_pattern": "APP_***************************************************tso=",
+      "timestamp": "2026-03-17T07:37:55.438284"
     },
     {
       "service": "app",
@@ -53,7 +79,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************e8p\"",
-      "timestamp": "2026-03-16T07:59:32.424813"
+      "timestamp": "2026-03-17T07:38:11.920773"
     }
   ]
 }

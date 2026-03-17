@@ -1,6 +1,6 @@
 {
   "service": "nodemailer",
-  "scan_timestamp": "2026-03-16T08:00:03.504396",
+  "scan_timestamp": "2026-03-17T07:38:44.589510",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Nodemailer Pass",
       "severity": "high",
       "matched_pattern": "eZY1**********gqBe",
-      "timestamp": "2026-03-16T07:59:00.020998"
+      "timestamp": "2026-03-17T07:37:35.708558"
     }
   ]
 }

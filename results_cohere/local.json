@@ -1,6 +1,6 @@
 {
   "service": "local",
-  "scan_timestamp": "2026-03-16T08:00:03.502183",
+  "scan_timestamp": "2026-03-17T07:38:44.587426",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Local Openai Api Key",
       "severity": "medium",
       "matched_pattern": "olla********************************lama",
-      "timestamp": "2026-03-16T07:59:27.748542"
+      "timestamp": "2026-03-17T07:38:07.296232"
     }
   ]
 }

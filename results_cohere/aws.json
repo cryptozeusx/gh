@@ -1,6 +1,6 @@
 {
   "service": "aws",
-  "scan_timestamp": "2026-03-16T08:00:03.493102",
+  "scan_timestamp": "2026-03-17T07:38:44.579702",
   "finding_count": 8,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "AWS Secret Access Key",
       "severity": "critical",
       "matched_pattern": "AWS_******************************************************4d9e",
-      "timestamp": "2026-03-16T07:58:49.791298"
+      "timestamp": "2026-03-17T07:37:22.781767"
     },
     {
       "service": "aws",
@@ -27,46 +27,46 @@
       "description": "Aws Access Key Id",
       "severity": "medium",
       "matched_pattern": "3be0************************3441",
-      "timestamp": "2026-03-16T07:58:49.791538"
+      "timestamp": "2026-03-17T07:37:22.782016"
     },
     {
       "service": "aws",
       "file": "backend/.env.dist.local",
       "repository": "linuxfoundation/crowd.dev",
-      "url": "https://github.com/linuxfoundation/crowd.dev/blob/255fd66e3c49798fa77f7dad7edebef52d4bd14e/backend/.env.dist.local",
+      "url": "https://github.com/linuxfoundation/crowd.dev/blob/304dd207441eac8e5cd325931665999f6e15e465/backend/.env.dist.local",
       "line_number": 29,
       "line_preview": "CROWD_S3_AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE",
       "key_type": "aws_access_key",
       "description": "AWS Access Key ID",
       "severity": "high",
       "matched_pattern": "AKIA************MPLE",
-      "timestamp": "2026-03-16T07:59:40.241707"
+      "timestamp": "2026-03-17T07:38:23.209734"
     },
     {
       "service": "aws",
       "file": "backend/.env.dist.local",
       "repository": "linuxfoundation/crowd.dev",
-      "url": "https://github.com/linuxfoundation/crowd.dev/blob/255fd66e3c49798fa77f7dad7edebef52d4bd14e/backend/.env.dist.local",
+      "url": "https://github.com/linuxfoundation/crowd.dev/blob/304dd207441eac8e5cd325931665999f6e15e465/backend/.env.dist.local",
       "line_number": 29,
       "line_preview": "CROWD_S3_AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE",
       "key_type": "aws_access_key_id",
       "description": "Aws Access Key Id",
       "severity": "medium",
       "matched_pattern": "AWS_******************************MPLE",
-      "timestamp": "2026-03-16T07:59:40.241826"
+      "timestamp": "2026-03-17T07:38:23.209865"
     },
     {
       "service": "aws",
       "file": "backend/.env.dist.local",
       "repository": "linuxfoundation/crowd.dev",
-      "url": "https://github.com/linuxfoundation/crowd.dev/blob/255fd66e3c49798fa77f7dad7edebef52d4bd14e/backend/.env.dist.local",
+      "url": "https://github.com/linuxfoundation/crowd.dev/blob/304dd207441eac8e5cd325931665999f6e15e465/backend/.env.dist.local",
       "line_number": 30,
       "line_preview": "CROWD_S3_AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
       "key_type": "aws_secret_key",
       "description": "AWS Secret Access Key",
       "severity": "critical",
       "matched_pattern": "AWS_******************************************************EKEY",
-      "timestamp": "2026-03-16T07:59:40.241887"
+      "timestamp": "2026-03-17T07:38:23.209932"
     },
     {
       "service": "aws",
@@ -79,7 +79,7 @@
       "description": "AWS Access Key ID",
       "severity": "high",
       "matched_pattern": "AKIA************MPLE",
-      "timestamp": "2026-03-16T07:59:40.774839"
+      "timestamp": "2026-03-17T07:38:23.929901"
     },
     {
       "service": "aws",
@@ -92,7 +92,7 @@
       "description": "Aws Access Key Id",
       "severity": "medium",
       "matched_pattern": "AWS_******************************MPLE",
-      "timestamp": "2026-03-16T07:59:40.774950"
+      "timestamp": "2026-03-17T07:38:23.930019"
     },
     {
       "service": "aws",
@@ -105,7 +105,7 @@
       "description": "AWS Secret Access Key",
       "severity": "critical",
       "matched_pattern": "AWS_******************************************************EKEY",
-      "timestamp": "2026-03-16T07:59:40.775003"
+      "timestamp": "2026-03-17T07:38:23.930090"
     }
   ]
 }

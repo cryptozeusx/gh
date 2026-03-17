@@ -1,6 +1,6 @@
 {
   "service": "celery",
-  "scan_timestamp": "2026-03-15T06:41:24.094807",
+  "scan_timestamp": "2026-03-17T07:38:44.580117",
   "finding_count": 2,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Celery Flower Password",
       "severity": "high",
       "matched_pattern": "mini***********2222",
-      "timestamp": "2026-03-15T06:40:22.864320"
+      "timestamp": "2026-03-17T07:37:38.622341"
     },
     {
       "service": "celery",
@@ -27,7 +27,7 @@
       "description": "Celery Flower Password",
       "severity": "high",
       "matched_pattern": "CELE************************************222\"",
-      "timestamp": "2026-03-15T06:40:24.405920"
+      "timestamp": "2026-03-17T07:37:40.005376"
     }
   ]
 }

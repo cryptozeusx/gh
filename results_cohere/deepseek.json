@@ -1,8 +1,21 @@
 {
   "service": "deepseek",
-  "scan_timestamp": "2026-03-16T08:00:03.495636",
-  "finding_count": 1,
+  "scan_timestamp": "2026-03-17T07:38:44.582005",
+  "finding_count": 2,
   "findings": [
+    {
+      "service": "deepseek",
+      "file": "exemplo.env",
+      "repository": "amaro-netto/alerj_simulado_data",
+      "url": "https://github.com/amaro-netto/alerj_simulado_data/blob/542edbba62d02977822626c56e3860a8459c9674/exemplo.env",
+      "line_number": 20,
+      "line_preview": "DEEPSEEK_API_KEY=\"\"         # DeepSeek (Focado em programa\u00e7\u00e3o e racioc\u00ednio matem\u00e1tico)",
+      "key_type": "deepseek_api_key",
+      "description": "Deepseek Api Key",
+      "severity": "medium",
+      "matched_pattern": "    ***********************************************************ico)",
+      "timestamp": "2026-03-17T07:37:37.850300"
+    },
     {
       "service": "deepseek",
       "file": "iafactory-core-apps/video-studio/frontend/.env.local",
@@ -14,7 +27,7 @@
       "description": "DeepSeek API Key",
       "severity": "high",
       "matched_pattern": "DEEP********************************************e392",
-      "timestamp": "2026-03-16T07:59:46.842620"
+      "timestamp": "2026-03-17T07:38:25.225999"
     }
   ]
 }

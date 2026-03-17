@@ -1,6 +1,6 @@
 {
   "service": "cloud",
-  "scan_timestamp": "2026-03-16T08:00:03.493597",
+  "scan_timestamp": "2026-03-17T07:38:44.580225",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Cloud Redis Password",
       "severity": "high",
       "matched_pattern": "BaLE************************lDRx",
-      "timestamp": "2026-03-16T07:59:00.349080"
+      "timestamp": "2026-03-17T07:37:36.212185"
     }
   ]
 }

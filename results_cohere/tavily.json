@@ -1,6 +1,6 @@
 {
   "service": "tavily",
-  "scan_timestamp": "2026-03-16T08:00:03.508321",
+  "scan_timestamp": "2026-03-17T07:38:44.593012",
   "finding_count": 4,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Tavily API Key",
       "severity": "high",
       "matched_pattern": "tvly*****************************2Xo0",
-      "timestamp": "2026-03-16T07:59:17.250310"
+      "timestamp": "2026-03-17T07:37:52.797961"
     },
     {
       "service": "tavily",
@@ -27,7 +27,7 @@
       "description": "Tavily API Key (named var)",
       "severity": "high",
       "matched_pattern": "TAVI**********************************************2Xo0",
-      "timestamp": "2026-03-16T07:59:17.250368"
+      "timestamp": "2026-03-17T07:37:52.798006"
     },
     {
       "service": "tavily",
@@ -40,7 +40,7 @@
       "description": "Tavily API Key",
       "severity": "high",
       "matched_pattern": "tvly*****************************jSg2",
-      "timestamp": "2026-03-16T07:59:17.770491"
+      "timestamp": "2026-03-17T07:37:53.435098"
     },
     {
       "service": "tavily",
@@ -53,7 +53,7 @@
       "description": "Tavily API Key (named var)",
       "severity": "high",
       "matched_pattern": "TAVI********************************************jSg2",
-      "timestamp": "2026-03-16T07:59:17.770538"
+      "timestamp": "2026-03-17T07:37:53.435146"
     }
   ]
 }
