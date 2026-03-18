@@ -1,6 +1,6 @@
 {
   "service": "database",
-  "scan_timestamp": "2026-03-17T07:38:44.581358",
+  "scan_timestamp": "2026-03-18T06:46:21.384494",
   "finding_count": 33,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA**************************************************************************************gres",
-      "timestamp": "2026-03-17T07:37:22.781902"
+      "timestamp": "2026-03-18T06:45:19.391530"
     },
     {
       "service": "database",
@@ -27,7 +27,7 @@
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA****************************************************************ble\"",
-      "timestamp": "2026-03-17T07:37:29.053030"
+      "timestamp": "2026-03-18T06:45:25.983369"
     },
     {
       "service": "database",
@@ -40,7 +40,7 @@
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA*********************************************************************************************tion",
-      "timestamp": "2026-03-17T07:37:30.587221"
+      "timestamp": "2026-03-18T06:45:26.935732"
     },
     {
       "service": "database",
@@ -53,7 +53,7 @@
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA***********************************************************************dmin",
-      "timestamp": "2026-03-17T07:37:36.101617"
+      "timestamp": "2026-03-18T06:45:30.409052"
     },
     {
       "service": "database",
@@ -66,7 +66,7 @@
       "description": "Database Password",
       "severity": "high",
       "matched_pattern": "wzXY********TUe2",
-      "timestamp": "2026-03-17T07:37:37.469471"
+      "timestamp": "2026-03-18T06:45:31.353685"
     },
     {
       "service": "database",
@@ -79,20 +79,20 @@
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA*********************************************************base",
-      "timestamp": "2026-03-17T07:37:37.735449"
+      "timestamp": "2026-03-18T06:45:31.526544"
     },
     {
       "service": "database",
       "file": "python-tools/.env.production.template",
       "repository": "seetsele/vrsystems",
-      "url": "https://github.com/seetsele/vrsystems/blob/bb805276f53406d8f9ab5ea29b9cde5172e768dc/python-tools/.env.production.template",
+      "url": "https://github.com/seetsele/vrsystems/blob/9e5749c8fc6677bdd7a7c22bea9b0d20a88b9b02/python-tools/.env.production.template",
       "line_number": 67,
       "line_preview": "DATABASE_URL=postgresql://user:pass@localhost:5432/verity",
       "key_type": "database_url",
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA*************************************************rity",
-      "timestamp": "2026-03-17T07:37:39.738603"
+      "timestamp": "2026-03-18T06:45:32.784147"
     },
     {
       "service": "database",
@@ -105,7 +105,7 @@
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA*******************************************************************************************res\"",
-      "timestamp": "2026-03-17T07:37:40.125165"
+      "timestamp": "2026-03-18T06:45:33.046350"
     },
     {
       "service": "database",
@@ -118,20 +118,20 @@
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA*********************************************************************************************************************************************************uire",
-      "timestamp": "2026-03-17T07:37:43.545952"
+      "timestamp": "2026-03-18T06:45:35.493899"
     },
     {
       "service": "database",
       "file": "apps/api/.env.staging.example",
       "repository": "Bl4cKr0W2/vpc-music",
-      "url": "https://github.com/Bl4cKr0W2/vpc-music/blob/1b924e100d4a796781f544daaa907e90c8a705d5/apps/api/.env.staging.example",
+      "url": "https://github.com/Bl4cKr0W2/vpc-music/blob/4dd81d3c77ef3eb6bb83a8605cdaddc7abed8709/apps/api/.env.staging.example",
       "line_number": 10,
       "line_preview": "DATABASE_URL=postgresql://admin:jvpfgZ-W_s9*duvxN*EW@postgresql-204635-0.cloudclusters.net:10061/vpc-music-stg",
       "key_type": "database_url",
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA******************************************************************************************************-stg",
-      "timestamp": "2026-03-17T07:37:44.499370"
+      "timestamp": "2026-03-18T06:45:36.080619"
     },
     {
       "service": "database",
@@ -144,20 +144,20 @@
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA********************************************NAME",
-      "timestamp": "2026-03-17T07:37:45.962109"
+      "timestamp": "2026-03-18T06:45:37.041994"
     },
     {
       "service": "database",
       "file": ".env.production.template",
-      "repository": "nftecnologia/crmbet-gaming-pinecone",
-      "url": "https://github.com/nftecnologia/crmbet-gaming-pinecone/blob/4cd133d628077a86756b5ee0456d62a0b5a5ae56/.env.production.template",
-      "line_number": 16,
-      "line_preview": "DATABASE_URL=postgresql://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_NAME}",
+      "repository": "mtarikucar/kds",
+      "url": "https://github.com/mtarikucar/kds/blob/60834d515f559a5bc21ec21925f1d2b76e47080c/.env.production.template",
+      "line_number": 10,
+      "line_preview": "DATABASE_URL=postgresql://postgres:CHANGE_THIS_STRONG_PASSWORD@postgres:5432/restaurant_pos_prod",
       "key_type": "database_url",
       "description": "Database Connection String",
       "severity": "critical",
-      "matched_pattern": "DATA****************************************************************************AME}",
-      "timestamp": "2026-03-17T07:37:52.671243"
+      "matched_pattern": "DATA****************************************************************************************prod",
+      "timestamp": "2026-03-18T06:45:41.075186"
     },
     {
       "service": "database",
@@ -170,20 +170,111 @@
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA*************************************************************res\"",
-      "timestamp": "2026-03-17T07:37:54.144439"
+      "timestamp": "2026-03-18T06:45:41.917608"
     },
     {
       "service": "database",
-      "file": "backend/.env.staging.template",
-      "repository": "mtarikucar/kds",
-      "url": "https://github.com/mtarikucar/kds/blob/60834d515f559a5bc21ec21925f1d2b76e47080c/backend/.env.staging.template",
-      "line_number": 18,
-      "line_preview": "DATABASE_URL=\"postgresql://USERNAME:PASSWORD@HOST:PORT/DATABASE_STAGING?schema=public\"",
+      "file": "env.example",
+      "repository": "aubford/peplink-agent",
+      "url": "https://github.com/aubford/peplink-agent/blob/7ab82b17e8cfe27b349e10610b78271b247e140f/env.example",
+      "line_number": 2,
+      "line_preview": "DATABASE_URL=postgresql://postgres:postgres@postgres:5432/langgraph?sslmode=disable",
       "key_type": "database_url",
       "description": "Database Connection String",
       "severity": "critical",
-      "matched_pattern": "DATA******************************************************************************lic\"",
-      "timestamp": "2026-03-17T07:37:55.028403"
+      "matched_pattern": "DATA***************************************************************************able",
+      "timestamp": "2026-03-18T06:45:47.510325"
+    },
+    {
+      "service": "database",
+      "file": "env.example",
+      "repository": "derril-tech/ai-game-narrative-generator",
+      "url": "https://github.com/derril-tech/ai-game-narrative-generator/blob/1226eb5a5a9f4684a072961682dbc6591377c594/env.example",
+      "line_number": 2,
+      "line_preview": "DATABASE_URL=postgresql://ai_narrative:ai_narrative_dev@localhost:5432/ai_narrative",
+      "key_type": "database_url",
+      "description": "Database Connection String",
+      "severity": "critical",
+      "matched_pattern": "DATA***************************************************************************tive",
+      "timestamp": "2026-03-18T06:45:47.591244"
+    },
+    {
+      "service": "database",
+      "file": "env.example",
+      "repository": "XexusCode/Recomeai",
+      "url": "https://github.com/XexusCode/Recomeai/blob/5059a2333c6b0dadd4f6ffdcf40ccd665523d897/env.example",
+      "line_number": 1,
+      "line_preview": "DATABASE_URL=\"postgresql://postgres:postgres@localhost:5432/recomeai\"",
+      "key_type": "database_url",
+      "description": "Database Connection String",
+      "severity": "critical",
+      "matched_pattern": "DATA*************************************************************eai\"",
+      "timestamp": "2026-03-18T06:45:47.931883"
+    },
+    {
+      "service": "database",
+      "file": ".env.example",
+      "repository": "kafein-technology/KAI-Flow",
+      "url": "https://github.com/kafein-technology/KAI-Flow/blob/896dda503001ed762efa6790645245db5b6b5056/.env.example",
+      "line_number": 14,
+      "line_preview": "DATABASE_URL=postgresql://postgres:postgres@localhost:5432/kaifusion_dev",
+      "key_type": "database_url",
+      "description": "Database Connection String",
+      "severity": "critical",
+      "matched_pattern": "DATA****************************************************************_dev",
+      "timestamp": "2026-03-18T06:45:48.447527"
+    },
+    {
+      "service": "database",
+      "file": ".env.local.example",
+      "repository": "Linli1221/sasa",
+      "url": "https://github.com/Linli1221/sasa/blob/397626573add00821659e36b474c0a1080ebe29b/.env.local.example",
+      "line_number": 7,
+      "line_preview": "DATABASE_URL=postgresql://ai_novel_user:your_password@localhost:5432/ai_novel?sslmode=disable",
+      "key_type": "database_url",
+      "description": "Database Connection String",
+      "severity": "critical",
+      "matched_pattern": "DATA*************************************************************************************able",
+      "timestamp": "2026-03-18T06:45:48.880178"
+    },
+    {
+      "service": "database",
+      "file": "services/api/env.example",
+      "repository": "derril-tech/ai-local-rag-system",
+      "url": "https://github.com/derril-tech/ai-local-rag-system/blob/1cdaa27c05f27a02a58ed1ab3f0618e599e17b38/services/api/env.example",
+      "line_number": 14,
+      "line_preview": "DATABASE_URL=postgresql+asyncpg://postgres:password@localhost:5432/rag_system",
+      "key_type": "database_url",
+      "description": "Database Connection String",
+      "severity": "critical",
+      "matched_pattern": "DATA*********************************************************************stem",
+      "timestamp": "2026-03-18T06:45:50.270011"
+    },
+    {
+      "service": "database",
+      "file": "env.production.example",
+      "repository": "rafiehb555/ehb-Gosellr",
+      "url": "https://github.com/rafiehb555/ehb-Gosellr/blob/a76bea5990ec4a07251aa49ca804f8e7a62bd570/env.production.example",
+      "line_number": 8,
+      "line_preview": "DATABASE_URL=postgresql://username:password@localhost:5432/goseller_db",
+      "key_type": "database_url",
+      "description": "Database Connection String",
+      "severity": "critical",
+      "matched_pattern": "DATA**************************************************************r_db",
+      "timestamp": "2026-03-18T06:45:50.795455"
+    },
+    {
+      "service": "database",
+      "file": "examples/agenticx-for-future-prediction/.env.example",
+      "repository": "DemonDamon/AgenticX",
+      "url": "https://github.com/DemonDamon/AgenticX/blob/15f867a7ba2534cdea2a34e01c6b6b80fc550b90/examples/agenticx-for-future-prediction/.env.example",
+      "line_number": 74,
+      "line_preview": "DATABASE_URL=postgresql://postgres:password@postgres:5432/agenticx",
+      "key_type": "database_url",
+      "description": "Database Connection String",
+      "severity": "critical",
+      "matched_pattern": "DATA**********************************************************ticx",
+      "timestamp": "2026-03-18T06:45:50.873179"
     },
     {
       "service": "database",
@@ -196,124 +287,33 @@
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA**************************************************************************qshy",
-      "timestamp": "2026-03-17T07:37:58.636729"
-    },
-    {
-      "service": "database",
-      "file": ".env.local.example",
-      "repository": "lspahija/blizzardberry",
-      "url": "https://github.com/lspahija/blizzardberry/blob/76498dfe20244a45f7e3934361157a4c80c932da/.env.local.example",
-      "line_number": 8,
-      "line_preview": "DATABASE_URL=postgresql://postgres:postgres@127.0.0.1:54322/postgres",
-      "key_type": "database_url",
-      "description": "Database Connection String",
-      "severity": "critical",
-      "matched_pattern": "DATA************************************************************gres",
-      "timestamp": "2026-03-17T07:38:01.710302"
-    },
-    {
-      "service": "database",
-      "file": "env.example",
-      "repository": "tindevelopers/ai-service-litellm-gateway",
-      "url": "https://github.com/tindevelopers/ai-service-litellm-gateway/blob/1f99626cfbd9c68307a3256db527050332fb49bb/env.example",
-      "line_number": 16,
-      "line_preview": "DATABASE_URL=postgresql+asyncpg://username:password@localhost:5432/ai_gateway",
-      "key_type": "database_url",
-      "description": "Database Connection String",
-      "severity": "critical",
-      "matched_pattern": "DATA*********************************************************************eway",
-      "timestamp": "2026-03-17T07:38:02.862419"
-    },
-    {
-      "service": "database",
-      "file": "env.example",
-      "repository": "tindevelopers/ai-service-litellm-gateway",
-      "url": "https://github.com/tindevelopers/ai-service-litellm-gateway/blob/1f99626cfbd9c68307a3256db527050332fb49bb/env.example",
-      "line_number": 30,
-      "line_preview": "LITELLM_DATABASE_URL=postgresql+asyncpg://username:password@localhost:5432/litellm",
-      "key_type": "database_url",
-      "description": "Database Connection String",
-      "severity": "critical",
-      "matched_pattern": "DATA******************************************************************ellm",
-      "timestamp": "2026-03-17T07:38:02.862547"
-    },
-    {
-      "service": "database",
-      "file": "env.example",
-      "repository": "Beo-Alvaro/VoiceCare",
-      "url": "https://github.com/Beo-Alvaro/VoiceCare/blob/cc1624469db3c6172a77511e0e0b318533199c0c/env.example",
-      "line_number": 4,
-      "line_preview": "DATABASE_URL=postgresql://username:password@localhost:5432/voicecare_db",
-      "key_type": "database_url",
-      "description": "Database Connection String",
-      "severity": "critical",
-      "matched_pattern": "DATA***************************************************************e_db",
-      "timestamp": "2026-03-17T07:38:03.621852"
-    },
-    {
-      "service": "database",
-      "file": "examples/agenticx-for-future-prediction/.env.example",
-      "repository": "DemonDamon/AgenticX",
-      "url": "https://github.com/DemonDamon/AgenticX/blob/dd9284c27c935af4b7458f76838069d18cfe9acd/examples/agenticx-for-future-prediction/.env.example",
-      "line_number": 74,
-      "line_preview": "DATABASE_URL=postgresql://postgres:password@postgres:5432/agenticx",
-      "key_type": "database_url",
-      "description": "Database Connection String",
-      "severity": "critical",
-      "matched_pattern": "DATA**********************************************************ticx",
-      "timestamp": "2026-03-17T07:38:07.148295"
-    },
-    {
-      "service": "database",
-      "file": ".env.example",
-      "repository": "oGYCo/GithubBot",
-      "url": "https://github.com/oGYCo/GithubBot/blob/d483163a0dc698a8c4f2966db305dae5e3ae3a70/.env.example",
-      "line_number": 23,
-      "line_preview": "DATABASE_URL=\"postgresql+psycopg2://user:password@postgres:5432/repoinsight\"",
-      "key_type": "database_url",
-      "description": "Database Connection String",
-      "severity": "critical",
-      "matched_pattern": "DATA********************************************************************ght\"",
-      "timestamp": "2026-03-17T07:38:07.578023"
-    },
-    {
-      "service": "database",
-      "file": ".env.example",
-      "repository": "enuda-labs/label-x",
-      "url": "https://github.com/enuda-labs/label-x/blob/49802d7cf0d53433741dbce65bf07c8e0f1857cf/.env.example",
-      "line_number": 6,
-      "line_preview": "DATABASE_URL=postgres://user:password@localhost:5432/dbname",
-      "key_type": "database_url",
-      "description": "Database Connection String",
-      "severity": "critical",
-      "matched_pattern": "DATA***************************************************name",
-      "timestamp": "2026-03-17T07:38:11.766234"
+      "timestamp": "2026-03-18T06:45:51.466650"
     },
     {
       "service": "database",
       "file": "proposal-executor/deployment/staging/secrets.yaml.example",
       "repository": "geobrowser/gaia",
-      "url": "https://github.com/geobrowser/gaia/blob/5b0b3fb5d0b0d10d77a97aa7e810042060a1c9b9/proposal-executor/deployment/staging/secrets.yaml.example",
+      "url": "https://github.com/geobrowser/gaia/blob/6e43c7e311ac78d0c9fef56437b7546949b9ed20/proposal-executor/deployment/staging/secrets.yaml.example",
       "line_number": 17,
       "line_preview": "DATABASE_URL: \"postgresql://readonly_user:password@host:5432/dbname\"",
       "key_type": "database_url",
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA************************************************************ame\"",
-      "timestamp": "2026-03-17T07:38:12.059695"
+      "timestamp": "2026-03-18T06:45:53.679662"
     },
     {
       "service": "database",
-      "file": ".env.prod.example",
+      "file": ".env.staging.example",
       "repository": "weboloper/bp-tenant",
-      "url": "https://github.com/weboloper/bp-tenant/blob/a665177fe1a10f16d18a54f80182d75bc992b603/.env.prod.example",
-      "line_number": 19,
-      "line_preview": "DATABASE_URL=postgresql://user:password@managed-db-host:5432/production_db",
+      "url": "https://github.com/weboloper/bp-tenant/blob/a665177fe1a10f16d18a54f80182d75bc992b603/.env.staging.example",
+      "line_number": 22,
+      "line_preview": "DATABASE_URL=postgresql://bp_staging_user:bp_staging_secure_password@postgres:5432/bp_staging_db",
       "key_type": "database_url",
       "description": "Database Connection String",
       "severity": "critical",
-      "matched_pattern": "DATA******************************************************************n_db",
-      "timestamp": "2026-03-17T07:38:13.180827"
+      "matched_pattern": "DATA****************************************************************************************g_db",
+      "timestamp": "2026-03-18T06:45:54.515766"
     },
     {
       "service": "database",
@@ -326,7 +326,7 @@
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA*********************************************************************************************************************rue\"",
-      "timestamp": "2026-03-17T07:38:17.028160"
+      "timestamp": "2026-03-18T06:45:56.658377"
     },
     {
       "service": "database",
@@ -339,7 +339,7 @@
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA****************************************************************************************************************************uire",
-      "timestamp": "2026-03-17T07:38:23.620294"
+      "timestamp": "2026-03-18T06:45:59.387734"
     },
     {
       "service": "database",
@@ -352,7 +352,7 @@
       "description": "Database Password",
       "severity": "high",
       "matched_pattern": "DATA**************************IX6P",
-      "timestamp": "2026-03-17T07:38:23.620514"
+      "timestamp": "2026-03-18T06:45:59.388018"
     },
     {
       "service": "database",
@@ -365,7 +365,7 @@
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA**********************************************************pace",
-      "timestamp": "2026-03-17T07:38:23.930139"
+      "timestamp": "2026-03-18T06:45:59.660915"
     },
     {
       "service": "database",
@@ -378,7 +378,7 @@
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA************************************************************mydb",
-      "timestamp": "2026-03-17T07:38:24.348266"
+      "timestamp": "2026-03-18T06:45:59.923756"
     },
     {
       "service": "database",
@@ -391,7 +391,7 @@
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA***************************************************************udio",
-      "timestamp": "2026-03-17T07:38:25.227424"
+      "timestamp": "2026-03-18T06:46:00.486437"
     },
     {
       "service": "database",
@@ -404,7 +404,7 @@
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA***************************************************************************ent\"",
-      "timestamp": "2026-03-17T07:38:36.382004"
+      "timestamp": "2026-03-18T06:46:13.503389"
     },
     {
       "service": "database",
@@ -417,7 +417,7 @@
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA****************************************************************************data",
-      "timestamp": "2026-03-17T07:38:36.774667"
+      "timestamp": "2026-03-18T06:46:13.793439"
     },
     {
       "service": "database",
@@ -430,7 +430,7 @@
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA****************************************************************nivo",
-      "timestamp": "2026-03-17T07:38:43.045273"
+      "timestamp": "2026-03-18T06:46:20.015536"
     }
   ]
 }

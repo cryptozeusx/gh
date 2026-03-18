@@ -1,0 +1,20 @@
+{
+  "service": "litellm",
+  "scan_timestamp": "2026-03-18T06:46:21.391605",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "litellm",
+      "file": "env.example",
+      "repository": "revenium/revenium-middleware-litellm-node",
+      "url": "https://github.com/revenium/revenium-middleware-litellm-node/blob/615f244fe7f5983e9984cf699062fbb6a5597276/env.example",
+      "line_number": 20,
+      "line_preview": "LITELLM_API_KEY=\"sk-1234\" #litellm key issued as proxy for another provider's key",
+      "key_type": "litellm_api_key",
+      "description": "Litellm Api Key",
+      "severity": "medium",
+      "matched_pattern": "sk-1******************************************************** key",
+      "timestamp": "2026-03-18T06:45:46.898248"
+    }
+  ]
+}

@@ -1,21 +1,8 @@
 {
   "service": "co",
-  "scan_timestamp": "2026-03-17T07:38:44.580319",
-  "finding_count": 7,
+  "scan_timestamp": "2026-03-18T06:46:21.383388",
+  "finding_count": 4,
   "findings": [
-    {
-      "service": "co",
-      "file": ".env.example",
-      "repository": "stevenfazzio/semantic-github-map",
-      "url": "https://github.com/stevenfazzio/semantic-github-map/blob/ce006d69a50ca2bce2d3c4733bdf19e760acc262/.env.example",
-      "line_number": 3,
-      "line_preview": "CO_API_KEY=             # Cohere API key (embeddings + topic modeling)",
-      "key_type": "co_api_key",
-      "description": "Co Api Key",
-      "severity": "medium",
-      "matched_pattern": "# Co**************************************ing)",
-      "timestamp": "2026-03-17T07:37:48.216375"
-    },
     {
       "service": "co",
       "file": ".env",
@@ -27,33 +14,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************************89cf",
-      "timestamp": "2026-03-17T07:37:48.345732"
-    },
-    {
-      "service": "co",
-      "file": ".env",
-      "repository": "surya140104/Flood_Risk_140104",
-      "url": "https://github.com/surya140104/Flood_Risk_140104/blob/7e5ce762a7198a7b9fd701c6942d114bd3fe04b2/.env",
-      "line_number": 16,
-      "line_preview": "NEXT_PUBLIC_GEOCODE_MAPS_CO_API_KEY=683d9a25d35b3791659375hjpd4d5a3",
-      "key_type": "co_api_key",
-      "description": "Co Api Key",
-      "severity": "medium",
-      "matched_pattern": "CO_A**********************************d5a3",
-      "timestamp": "2026-03-17T07:37:48.467807"
-    },
-    {
-      "service": "co",
-      "file": ".env",
-      "repository": "NepsenX/NepsenX",
-      "url": "https://github.com/NepsenX/NepsenX/blob/762cc29ed45fa717b9ca2653a7663c324d6b460d/.env",
-      "line_number": 19,
-      "line_preview": "CO_API_KEY=co_secure_access_90",
-      "key_type": "co_api_key",
-      "description": "Co Api Key",
-      "severity": "medium",
-      "matched_pattern": "CO_A**********************s_90",
-      "timestamp": "2026-03-17T07:37:50.903831"
+      "timestamp": "2026-03-18T06:45:38.450355"
     },
     {
       "service": "co",
@@ -66,20 +27,20 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********************************61ad",
-      "timestamp": "2026-03-17T07:37:52.915715"
+      "timestamp": "2026-03-18T06:45:41.237204"
     },
     {
       "service": "co",
-      "file": ".env.prod.example",
-      "repository": "realsarius/ecommerce-belediye-testcase",
-      "url": "https://github.com/realsarius/ecommerce-belediye-testcase/blob/ab0b6e96e5b77ae1c805aac16ad6fe30dbfdc5c6/.env.prod.example",
-      "line_number": 42,
-      "line_preview": "IYZICO_API_KEY=sandbox-",
+      "file": ".env.example",
+      "repository": "stevenfazzio/semantic-github-map",
+      "url": "https://github.com/stevenfazzio/semantic-github-map/blob/ce006d69a50ca2bce2d3c4733bdf19e760acc262/.env.example",
+      "line_number": 3,
+      "line_preview": "CO_API_KEY=             # Cohere API key (embeddings + topic modeling)",
       "key_type": "co_api_key",
       "description": "Co Api Key",
       "severity": "medium",
-      "matched_pattern": "CO_A***********box-",
-      "timestamp": "2026-03-17T07:38:11.181252"
+      "matched_pattern": "# Co**************************************ing)",
+      "timestamp": "2026-03-18T06:45:54.226941"
     },
     {
       "service": "co",
@@ -92,7 +53,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*******************************FcU'",
-      "timestamp": "2026-03-17T07:38:29.700173"
+      "timestamp": "2026-03-18T06:46:05.994462"
     }
   ]
 }

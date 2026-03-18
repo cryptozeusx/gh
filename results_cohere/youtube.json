@@ -1,6 +1,6 @@
 {
   "service": "youtube",
-  "scan_timestamp": "2026-03-17T07:38:44.593805",
+  "scan_timestamp": "2026-03-18T06:46:21.400297",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Youtube Data Key",
       "severity": "medium",
       "matched_pattern": "Yout******* key",
-      "timestamp": "2026-03-17T07:37:37.735563"
+      "timestamp": "2026-03-18T06:45:31.526665"
     }
   ]
 }

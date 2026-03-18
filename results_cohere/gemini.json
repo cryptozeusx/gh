@@ -1,7 +1,7 @@
 {
   "service": "gemini",
-  "scan_timestamp": "2026-03-17T07:38:44.583504",
-  "finding_count": 7,
+  "scan_timestamp": "2026-03-18T06:46:21.387236",
+  "finding_count": 6,
   "findings": [
     {
       "service": "gemini",
@@ -14,7 +14,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************G4Z4",
-      "timestamp": "2026-03-17T07:37:35.292564"
+      "timestamp": "2026-03-18T06:45:29.895868"
     },
     {
       "service": "gemini",
@@ -27,20 +27,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "    **********************************ash)",
-      "timestamp": "2026-03-17T07:37:37.849845"
-    },
-    {
-      "service": "gemini",
-      "file": ".env",
-      "repository": "surya140104/Flood_Risk_140104",
-      "url": "https://github.com/surya140104/Flood_Risk_140104/blob/7e5ce762a7198a7b9fd701c6942d114bd3fe04b2/.env",
-      "line_number": 19,
-      "line_preview": "GEMINI_API_KEY=AIzaSyAvcHxOwx6rO8rIL-a2LIXCv6EhyAYC2ao",
-      "key_type": "gemini_api_key",
-      "description": "Gemini Api Key",
-      "severity": "medium",
-      "matched_pattern": "GEMI**********************************************C2ao",
-      "timestamp": "2026-03-17T07:37:48.467948"
+      "timestamp": "2026-03-18T06:45:31.595824"
     },
     {
       "service": "gemini",
@@ -53,7 +40,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************o_vI",
-      "timestamp": "2026-03-17T07:37:48.727481"
+      "timestamp": "2026-03-18T06:45:38.695126"
     },
     {
       "service": "gemini",
@@ -66,7 +53,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************9_ag",
-      "timestamp": "2026-03-17T07:38:23.331446"
+      "timestamp": "2026-03-18T06:45:59.199050"
     },
     {
       "service": "gemini",
@@ -79,7 +66,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************inns",
-      "timestamp": "2026-03-17T07:38:23.621601"
+      "timestamp": "2026-03-18T06:45:59.389085"
     },
     {
       "service": "gemini",
@@ -92,7 +79,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************Dsdg",
-      "timestamp": "2026-03-17T07:38:25.225467"
+      "timestamp": "2026-03-18T06:46:00.485073"
     }
   ]
 }

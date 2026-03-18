@@ -1,21 +1,8 @@
 {
   "service": "postgres",
-  "scan_timestamp": "2026-03-17T07:38:44.590675",
-  "finding_count": 6,
+  "scan_timestamp": "2026-03-18T06:46:21.396074",
+  "finding_count": 4,
   "findings": [
-    {
-      "service": "postgres",
-      "file": ".env.no",
-      "repository": "ooeunoo/mysql_to_postgres",
-      "url": "https://github.com/ooeunoo/mysql_to_postgres/blob/952c69597caa75ffd1ca1d347720923a868b2936/.env.no",
-      "line_number": 9,
-      "line_preview": "POSTGRES_PASSWORD=qwer1234",
-      "key_type": "postgres_password",
-      "description": "Postgres Password",
-      "severity": "high",
-      "matched_pattern": "********",
-      "timestamp": "2026-03-17T07:37:23.660471"
-    },
     {
       "service": "postgres",
       "file": ".env.openapi",
@@ -26,8 +13,8 @@
       "key_type": "postgres_password",
       "description": "Postgres Password",
       "severity": "high",
-      "matched_pattern": "POST********************o_pw",
-      "timestamp": "2026-03-17T07:37:40.692587"
+      "matched_pattern": "ragd**o_pw",
+      "timestamp": "2026-03-18T06:45:33.406561"
     },
     {
       "service": "postgres",
@@ -40,20 +27,7 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "POST******************o123",
-      "timestamp": "2026-03-17T07:37:57.141368"
-    },
-    {
-      "service": "postgres",
-      "file": "env.example",
-      "repository": "dolmario/semantic-doc-finder",
-      "url": "https://github.com/dolmario/semantic-doc-finder/blob/af6af7c90b3146fb5a0aaf2b28c031ab7c8ea976/env.example",
-      "line_number": 6,
-      "line_preview": "POSTGRES_PASSWORD=docintel123",
-      "key_type": "postgres_password",
-      "description": "Postgres Password",
-      "severity": "high",
-      "matched_pattern": "POST*********************l123",
-      "timestamp": "2026-03-17T07:38:02.992908"
+      "timestamp": "2026-03-18T06:45:44.305947"
     },
     {
       "service": "postgres",
@@ -66,7 +40,7 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "POST******************s123",
-      "timestamp": "2026-03-17T07:38:07.429326"
+      "timestamp": "2026-03-18T06:45:51.047844"
     },
     {
       "service": "postgres",
@@ -79,7 +53,7 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "POST**************************IX6P",
-      "timestamp": "2026-03-17T07:38:23.620732"
+      "timestamp": "2026-03-18T06:45:59.388326"
     }
   ]
 }

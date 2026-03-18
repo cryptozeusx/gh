@@ -1,6 +1,6 @@
 {
   "service": "stripe",
-  "scan_timestamp": "2026-03-17T07:38:44.592696",
+  "scan_timestamp": "2026-03-18T06:46:21.398697",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Stripe Live Secret Key",
       "severity": "critical",
       "matched_pattern": "sk_l***************************************************************************************************Zjac",
-      "timestamp": "2026-03-17T07:37:48.345787"
+      "timestamp": "2026-03-18T06:45:38.450420"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "service": "n8n",
-  "scan_timestamp": "2026-03-17T07:38:44.588415",
-  "finding_count": 2,
+  "scan_timestamp": "2026-03-18T06:46:21.393025",
+  "finding_count": 1,
   "findings": [
     {
       "service": "n8n",
@@ -14,20 +14,7 @@
       "description": "N8N Encryption Key",
       "severity": "medium",
       "matched_pattern": "rag-********************2024",
-      "timestamp": "2026-03-17T07:37:40.693007"
-    },
-    {
-      "service": "n8n",
-      "file": "env.example",
-      "repository": "dolmario/semantic-doc-finder",
-      "url": "https://github.com/dolmario/semantic-doc-finder/blob/af6af7c90b3146fb5a0aaf2b28c031ab7c8ea976/env.example",
-      "line_number": 12,
-      "line_preview": "N8N_ENCRYPTION_KEY=n8n-encryption-key-change-in-production",
-      "key_type": "n8n_encryption_key",
-      "description": "N8N Encryption Key",
-      "severity": "medium",
-      "matched_pattern": "N8N_**************************************************tion",
-      "timestamp": "2026-03-17T07:38:02.993024"
+      "timestamp": "2026-03-18T06:45:33.406644"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "service": "together",
-  "scan_timestamp": "2026-03-17T07:38:44.593244",
-  "finding_count": 2,
+  "scan_timestamp": "2026-03-18T06:46:21.399484",
+  "finding_count": 3,
   "findings": [
     {
       "service": "together",
@@ -14,7 +14,20 @@
       "description": "Together Api Key",
       "severity": "medium",
       "matched_pattern": "    *******************************************************ess)",
-      "timestamp": "2026-03-17T07:37:37.850256"
+      "timestamp": "2026-03-18T06:45:31.596226"
+    },
+    {
+      "service": "together",
+      "file": "ai_agent_tutorials/multimodal_ai_agent/.env",
+      "repository": "Grkrish2002/llm-apps-myversion",
+      "url": "https://github.com/Grkrish2002/llm-apps-myversion/blob/58807aa05d39f032a614e99dbf414619c3fa199e/ai_agent_tutorials/multimodal_ai_agent/.env",
+      "line_number": 4,
+      "line_preview": "TOGETHER_API_KEY=\"482ebac04fa15c27d956f65a9bbd25ba59e543be96561fb0a680761ca9f658a2\"",
+      "key_type": "together_api_key",
+      "description": "Together Api Key",
+      "severity": "medium",
+      "matched_pattern": "TOGE***************************************************************************8a2\"",
+      "timestamp": "2026-03-18T06:45:42.755496"
     },
     {
       "service": "together",
@@ -27,7 +40,7 @@
       "description": "Together Api Key",
       "severity": "medium",
       "matched_pattern": "TOGE*************************************************************************5df3",
-      "timestamp": "2026-03-17T07:38:25.226291"
+      "timestamp": "2026-03-18T06:46:00.485673"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "service": "pimlico",
-  "scan_timestamp": "2026-03-14T06:04:06.004106",
+  "scan_timestamp": "2026-03-18T06:46:21.395745",
   "finding_count": 3,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Pimlico Usdc Token Address",
       "severity": "medium",
       "matched_pattern": "0x92*******************************************************************************************************************ens)",
-      "timestamp": "2026-03-14T06:03:40.696301"
+      "timestamp": "2026-03-18T06:45:55.582738"
     },
     {
       "service": "pimlico",
@@ -27,7 +27,7 @@
       "description": "Pimlico Erc20 Token Contract",
       "severity": "medium",
       "matched_pattern": "0x0b**********************************502a",
-      "timestamp": "2026-03-14T06:03:40.696368"
+      "timestamp": "2026-03-18T06:45:55.582795"
     },
     {
       "service": "pimlico",
@@ -40,7 +40,7 @@
       "description": "Pimlico Erc721 Token Contract",
       "severity": "medium",
       "matched_pattern": "0xf1**********************************7a05",
-      "timestamp": "2026-03-14T06:03:40.696418"
+      "timestamp": "2026-03-18T06:45:55.582872"
     }
   ]
 }
