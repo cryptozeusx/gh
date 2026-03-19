@@ -1,6 +1,6 @@
 {
   "service": "iyzico",
-  "scan_timestamp": "2026-03-18T06:46:21.390770",
+  "scan_timestamp": "2026-03-19T06:42:16.012112",
   "finding_count": 10,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Iyzico Api Key",
       "severity": "medium",
       "matched_pattern": "IYZI*************************************************E9o\"",
-      "timestamp": "2026-03-18T06:45:53.522390"
+      "timestamp": "2026-03-19T06:41:43.441122"
     },
     {
       "service": "iyzico",
@@ -27,33 +27,33 @@
       "description": "Iyzico Secret Key",
       "severity": "high",
       "matched_pattern": "IYZI****************************************************ceu\"",
-      "timestamp": "2026-03-18T06:45:53.522485"
+      "timestamp": "2026-03-19T06:41:43.441206"
     },
     {
       "service": "iyzico",
       "file": "env.example",
       "repository": "ikayaalp/gastrofolly",
-      "url": "https://github.com/ikayaalp/gastrofolly/blob/53a9ee0a22c7ebd014eec98acab28704ee95dac6/env.example",
+      "url": "https://github.com/ikayaalp/gastrofolly/blob/13ed0f2d5962932982f3e6778f04e812c15dda8a/env.example",
       "line_number": 28,
       "line_preview": "IYZICO_API_KEY=\"sandbox-eq7YZQDpwxzkr9YHnq9xdYoR5OMXEQSuve\"",
       "key_type": "iyzico_api_key",
       "description": "Iyzico Api Key",
       "severity": "medium",
       "matched_pattern": "IYZI***************************************************uve\"",
-      "timestamp": "2026-03-18T06:45:56.059538"
+      "timestamp": "2026-03-19T06:41:48.428395"
     },
     {
       "service": "iyzico",
       "file": "env.example",
       "repository": "ikayaalp/gastrofolly",
-      "url": "https://github.com/ikayaalp/gastrofolly/blob/53a9ee0a22c7ebd014eec98acab28704ee95dac6/env.example",
+      "url": "https://github.com/ikayaalp/gastrofolly/blob/13ed0f2d5962932982f3e6778f04e812c15dda8a/env.example",
       "line_number": 29,
       "line_preview": "IYZICO_SECRET_KEY=\"sandbox-QXZ7ogP4KUdnG9OeLV8yIdBr3xwu6M27\"",
       "key_type": "iyzico_secret_key",
       "description": "Iyzico Secret Key",
       "severity": "high",
       "matched_pattern": "IYZI****************************************************M27\"",
-      "timestamp": "2026-03-18T06:45:56.059626"
+      "timestamp": "2026-03-19T06:41:48.428486"
     },
     {
       "service": "iyzico",
@@ -66,7 +66,7 @@
       "description": "Iyzico Api Key",
       "severity": "medium",
       "matched_pattern": "IYZI***********************************************DbTn",
-      "timestamp": "2026-03-18T06:46:06.083794"
+      "timestamp": "2026-03-19T06:42:00.494389"
     },
     {
       "service": "iyzico",
@@ -79,33 +79,33 @@
       "description": "Iyzico Secret Key",
       "severity": "high",
       "matched_pattern": "IYZI**************************************************exnA",
-      "timestamp": "2026-03-18T06:46:06.083922"
+      "timestamp": "2026-03-19T06:42:00.494479"
     },
     {
       "service": "iyzico",
       "file": "backend/.env.development",
       "repository": "oguzbenturk/UKC.world",
-      "url": "https://github.com/oguzbenturk/UKC.world/blob/ffcc8f2c8058446b74a495d43c7cfe282165410b/backend/.env.development",
+      "url": "https://github.com/oguzbenturk/UKC.world/blob/510d4157f582f09b1b09a85c4935aa6e5550f67e/backend/.env.development",
       "line_number": 24,
       "line_preview": "IYZICO_API_KEY=sandbox-VCCnjIPSZMaGZ6GAHYdrBlhzXaFb7WZ6",
       "key_type": "iyzico_api_key",
       "description": "Iyzico Api Key",
       "severity": "medium",
       "matched_pattern": "IYZI***********************************************7WZ6",
-      "timestamp": "2026-03-18T06:46:20.015903"
+      "timestamp": "2026-03-19T06:42:14.325982"
     },
     {
       "service": "iyzico",
       "file": "backend/.env.development",
       "repository": "oguzbenturk/UKC.world",
-      "url": "https://github.com/oguzbenturk/UKC.world/blob/ffcc8f2c8058446b74a495d43c7cfe282165410b/backend/.env.development",
+      "url": "https://github.com/oguzbenturk/UKC.world/blob/510d4157f582f09b1b09a85c4935aa6e5550f67e/backend/.env.development",
       "line_number": 25,
       "line_preview": "IYZICO_SECRET_KEY=sandbox-W8hOEybjBUWLfKWrnKIVYF58xzd4jzTR",
       "key_type": "iyzico_secret_key",
       "description": "Iyzico Secret Key",
       "severity": "high",
       "matched_pattern": "IYZI**************************************************jzTR",
-      "timestamp": "2026-03-18T06:46:20.015990"
+      "timestamp": "2026-03-19T06:42:14.326067"
     },
     {
       "service": "iyzico",
@@ -118,7 +118,7 @@
       "description": "Iyzico Api Key",
       "severity": "medium",
       "matched_pattern": "IYZI***********************************************FBUN",
-      "timestamp": "2026-03-18T06:46:20.292125"
+      "timestamp": "2026-03-19T06:42:14.829187"
     },
     {
       "service": "iyzico",
@@ -131,7 +131,7 @@
       "description": "Iyzico Secret Key",
       "severity": "high",
       "matched_pattern": "IYZI******************************************9NXN",
-      "timestamp": "2026-03-18T06:46:20.292215"
+      "timestamp": "2026-03-19T06:42:14.829274"
     }
   ]
 }

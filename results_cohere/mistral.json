@@ -1,6 +1,6 @@
 {
   "service": "mistral",
-  "scan_timestamp": "2026-03-18T06:46:21.392439",
+  "scan_timestamp": "2026-03-19T06:42:16.013516",
   "finding_count": 5,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Mistral Api Key",
       "severity": "medium",
       "matched_pattern": "    ****************************************ral)",
-      "timestamp": "2026-03-18T06:45:31.596047"
+      "timestamp": "2026-03-19T06:41:00.097586"
     },
     {
       "service": "mistral",
@@ -27,7 +27,7 @@
       "description": "Mistral Api Key",
       "severity": "medium",
       "matched_pattern": "MIST****************************************BCw7",
-      "timestamp": "2026-03-18T06:45:32.552606"
+      "timestamp": "2026-03-19T06:41:02.239748"
     },
     {
       "service": "mistral",
@@ -40,7 +40,7 @@
       "description": "Mistral Api Key",
       "severity": "medium",
       "matched_pattern": "MIST****************************************r48a",
-      "timestamp": "2026-03-18T06:45:38.511378"
+      "timestamp": "2026-03-19T06:41:15.407784"
     },
     {
       "service": "mistral",
@@ -53,7 +53,7 @@
       "description": "Mistral Api Key",
       "severity": "medium",
       "matched_pattern": "MIST******************************************8GfS",
-      "timestamp": "2026-03-18T06:45:41.165446"
+      "timestamp": "2026-03-19T06:41:20.927505"
     },
     {
       "service": "mistral",
@@ -66,7 +66,7 @@
       "description": "Mistral Api Key",
       "severity": "medium",
       "matched_pattern": "MIST****************************************KYHC",
-      "timestamp": "2026-03-18T06:46:00.485375"
+      "timestamp": "2026-03-19T06:41:56.604265"
     }
   ]
 }

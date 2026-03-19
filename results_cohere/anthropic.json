@@ -1,6 +1,6 @@
 {
   "service": "anthropic",
-  "scan_timestamp": "2026-03-18T06:46:21.381820",
+  "scan_timestamp": "2026-03-19T06:42:16.003939",
   "finding_count": 5,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "# Re****************************-...",
-      "timestamp": "2026-03-18T06:45:31.059758"
+      "timestamp": "2026-03-19T06:40:59.112623"
     },
     {
       "service": "anthropic",
@@ -27,7 +27,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "    *******************************************iku)",
-      "timestamp": "2026-03-18T06:45:31.595997"
+      "timestamp": "2026-03-19T06:41:00.097540"
     },
     {
       "service": "anthropic",
@@ -40,20 +40,20 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************cwAA",
-      "timestamp": "2026-03-18T06:45:38.511165"
+      "timestamp": "2026-03-19T06:41:15.407568"
     },
     {
       "service": "anthropic",
       "file": ".env.example",
       "repository": "stevenfazzio/semantic-github-map",
-      "url": "https://github.com/stevenfazzio/semantic-github-map/blob/ce006d69a50ca2bce2d3c4733bdf19e760acc262/.env.example",
+      "url": "https://github.com/stevenfazzio/semantic-github-map/blob/b73284e5f4ede879cda31e919f3a03dbef474293/.env.example",
       "line_number": 4,
       "line_preview": "ANTHROPIC_API_KEY=      # Anthropic API key (README summarization + topic naming)",
       "key_type": "anthropic_api_key",
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "# An*************************************************ing)",
-      "timestamp": "2026-03-18T06:45:54.226997"
+      "timestamp": "2026-03-19T06:41:44.962748"
     },
     {
       "service": "anthropic",
@@ -66,7 +66,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************DgAA",
-      "timestamp": "2026-03-18T06:46:00.484441"
+      "timestamp": "2026-03-19T06:41:56.603674"
     }
   ]
 }

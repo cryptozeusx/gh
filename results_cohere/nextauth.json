@@ -1,7 +1,7 @@
 {
   "service": "nextauth",
-  "scan_timestamp": "2026-03-18T06:46:21.394079",
-  "finding_count": 4,
+  "scan_timestamp": "2026-03-19T06:42:16.014665",
+  "finding_count": 5,
   "findings": [
     {
       "service": "nextauth",
@@ -14,20 +14,33 @@
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "http*************3000",
-      "timestamp": "2026-03-18T06:45:30.987999"
+      "timestamp": "2026-03-19T06:40:58.952670"
     },
     {
       "service": "nextauth",
       "file": "env.example",
       "repository": "ikayaalp/gastrofolly",
-      "url": "https://github.com/ikayaalp/gastrofolly/blob/53a9ee0a22c7ebd014eec98acab28704ee95dac6/env.example",
+      "url": "https://github.com/ikayaalp/gastrofolly/blob/13ed0f2d5962932982f3e6778f04e812c15dda8a/env.example",
       "line_number": 6,
       "line_preview": "NEXTAUTH_URL=\"http://localhost:3000\"",
       "key_type": "nextauth_url",
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "NEXT****************************000\"",
-      "timestamp": "2026-03-18T06:45:56.059303"
+      "timestamp": "2026-03-19T06:41:48.428180"
+    },
+    {
+      "service": "nextauth",
+      "file": "env.example",
+      "repository": "muhammedesatdemir/castlyo",
+      "url": "https://github.com/muhammedesatdemir/castlyo/blob/ace98f452c3418c47c2298aa53376a32d1a55a2c/env.example",
+      "line_number": 81,
+      "line_preview": "NEXTAUTH_URL=http://localhost:3000",
+      "key_type": "nextauth_url",
+      "description": "Nextauth Url",
+      "severity": "medium",
+      "matched_pattern": "NEXT**************************3000",
+      "timestamp": "2026-03-19T06:41:52.506287"
     },
     {
       "service": "nextauth",
@@ -40,7 +53,7 @@
       "description": "Nextauth Secret",
       "severity": "high",
       "matched_pattern": "NEXT*******************************************4_32",
-      "timestamp": "2026-03-18T06:46:00.486557"
+      "timestamp": "2026-03-19T06:41:56.605478"
     },
     {
       "service": "nextauth",
@@ -53,7 +66,7 @@
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "NEXT**************************3000",
-      "timestamp": "2026-03-18T06:46:00.486598"
+      "timestamp": "2026-03-19T06:41:56.605524"
     }
   ]
 }

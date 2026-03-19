@@ -1,20 +1,20 @@
 {
   "service": "smtp",
-  "scan_timestamp": "2026-03-11T06:07:11.311276",
+  "scan_timestamp": "2026-03-19T06:42:16.018439",
   "finding_count": 1,
   "findings": [
     {
       "service": "smtp",
       "file": ".env.production.example",
-      "repository": "akila-era/hexalyte-main-ims",
-      "url": "https://github.com/akila-era/hexalyte-main-ims/blob/39935ba5b9e74fd1521367378b4cb19aef1518a1/.env.production.example",
-      "line_number": 30,
-      "line_preview": "SMTP_PASSWORD=\";,12,cKlIcO\"",
+      "repository": "LOSANDES-IA/LOGOS-AI-NATIVE-ECOSYSTEM",
+      "url": "https://github.com/LOSANDES-IA/LOGOS-AI-NATIVE-ECOSYSTEM/blob/0d6b036e3d31bd1f49e2caa95f327c9793453f00/.env.production.example",
+      "line_number": 45,
+      "line_preview": "SMTP_PASSWORD=SG.your-sendgrid-api-key",
       "key_type": "smtp_password",
       "description": "Smtp Password",
       "severity": "high",
-      "matched_pattern": ";,12***lIcO",
-      "timestamp": "2026-03-11T06:06:43.900120"
+      "matched_pattern": "SG.y****************-key",
+      "timestamp": "2026-03-19T06:41:38.295438"
     }
   ]
 }

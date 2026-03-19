@@ -1,6 +1,6 @@
 {
   "service": "temporal",
-  "scan_timestamp": "2026-03-18T06:46:21.399360",
+  "scan_timestamp": "2026-03-19T06:42:16.019418",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Temporal Encryption Key",
       "severity": "medium",
       "matched_pattern": "FweB************************RUKt",
-      "timestamp": "2026-03-18T06:45:59.661525"
+      "timestamp": "2026-03-19T06:41:54.468443"
     }
   ]
 }

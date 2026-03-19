@@ -1,6 +1,6 @@
 {
   "service": "google",
-  "scan_timestamp": "2026-03-18T06:46:21.389693",
+  "scan_timestamp": "2026-03-19T06:42:16.011178",
   "finding_count": 22,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Google API Key",
       "severity": "high",
       "matched_pattern": "AIza*******************************M8w0",
-      "timestamp": "2026-03-18T06:45:22.740664"
+      "timestamp": "2026-03-19T06:40:47.891772"
     },
     {
       "service": "google",
@@ -27,7 +27,7 @@
       "description": "Google API Key",
       "severity": "high",
       "matched_pattern": "AIza*******************************N1rg",
-      "timestamp": "2026-03-18T06:45:28.996350"
+      "timestamp": "2026-03-19T06:40:54.984108"
     },
     {
       "service": "google",
@@ -40,7 +40,7 @@
       "description": "Google API Key",
       "severity": "high",
       "matched_pattern": "AIza*******************************G4Z4",
-      "timestamp": "2026-03-18T06:45:29.895652"
+      "timestamp": "2026-03-19T06:40:56.802284"
     },
     {
       "service": "google",
@@ -53,7 +53,7 @@
       "description": "Google API Key",
       "severity": "high",
       "matched_pattern": "AIza*******************************Zfro",
-      "timestamp": "2026-03-18T06:45:30.483404"
+      "timestamp": "2026-03-19T06:40:58.000695"
     },
     {
       "service": "google",
@@ -66,20 +66,7 @@
       "description": "Google API Key",
       "severity": "high",
       "matched_pattern": "AIza*******************************uM_k",
-      "timestamp": "2026-03-18T06:45:32.552370"
-    },
-    {
-      "service": "google",
-      "file": ".env.local",
-      "repository": "sudanva21/Career-Advisor-SIH",
-      "url": "https://github.com/sudanva21/Career-Advisor-SIH/blob/e4571da7533630aec2bbbc774696e576e71bf688/.env.local",
-      "line_number": 53,
-      "line_preview": "NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=AIzaSyDe9PcYT1EB2-p4uumsQ4hx2jOVM61Hrow",
-      "key_type": "google_api_key",
-      "description": "Google API Key",
-      "severity": "high",
-      "matched_pattern": "AIza*******************************Hrow",
-      "timestamp": "2026-03-18T06:45:33.046587"
+      "timestamp": "2026-03-19T06:41:02.239527"
     },
     {
       "service": "google",
@@ -92,20 +79,20 @@
       "description": "Google API Key",
       "severity": "high",
       "matched_pattern": "AIza*******************************urOk",
-      "timestamp": "2026-03-18T06:45:37.113755"
+      "timestamp": "2026-03-19T06:41:12.429731"
     },
     {
       "service": "google",
       "file": ".env.example",
-      "repository": "prane-eth/iRAT",
-      "url": "https://github.com/prane-eth/iRAT/blob/d1a6c323c98c9a84ca4c18b119cf7badd6dee1bc/.env.example",
+      "repository": "Pro-GenAI/iRAT",
+      "url": "https://github.com/Pro-GenAI/iRAT/blob/d1a6c323c98c9a84ca4c18b119cf7badd6dee1bc/.env.example",
       "line_number": 6,
       "line_preview": "GOOGLE_API_KEYS=\"key1,key2\"  # API keys of all the team members",
       "key_type": "google_api_keys",
       "description": "Google Api Keys",
       "severity": "medium",
       "matched_pattern": "key1**************************************bers",
-      "timestamp": "2026-03-18T06:45:37.202300"
+      "timestamp": "2026-03-19T06:41:12.620188"
     },
     {
       "service": "google",
@@ -118,7 +105,7 @@
       "description": "Google API Key",
       "severity": "high",
       "matched_pattern": "AIza*******************************urOk",
-      "timestamp": "2026-03-18T06:45:37.376878"
+      "timestamp": "2026-03-19T06:41:13.045730"
     },
     {
       "service": "google",
@@ -131,7 +118,7 @@
       "description": "Google API Key",
       "severity": "high",
       "matched_pattern": "AIza*******************************-w2A",
-      "timestamp": "2026-03-18T06:45:38.511254"
+      "timestamp": "2026-03-19T06:41:15.407655"
     },
     {
       "service": "google",
@@ -144,7 +131,7 @@
       "description": "Google API Key",
       "severity": "high",
       "matched_pattern": "AIza*******************************o_vI",
-      "timestamp": "2026-03-18T06:45:38.694951"
+      "timestamp": "2026-03-19T06:41:15.732286"
     },
     {
       "service": "google",
@@ -157,7 +144,7 @@
       "description": "Google API Key",
       "severity": "high",
       "matched_pattern": "AIza*******************************cStA",
-      "timestamp": "2026-03-18T06:45:38.695172"
+      "timestamp": "2026-03-19T06:41:15.732470"
     },
     {
       "service": "google",
@@ -170,7 +157,7 @@
       "description": "Google API Key",
       "severity": "high",
       "matched_pattern": "AIza*******************************_3uQ",
-      "timestamp": "2026-03-18T06:45:41.164771"
+      "timestamp": "2026-03-19T06:41:20.926869"
     },
     {
       "service": "google",
@@ -183,7 +170,7 @@
       "description": "Google API Key",
       "severity": "high",
       "matched_pattern": "AIza*******************************qza8",
-      "timestamp": "2026-03-18T06:45:42.667061"
+      "timestamp": "2026-03-19T06:41:24.142098"
     },
     {
       "service": "google",
@@ -196,20 +183,20 @@
       "description": "Google API Key",
       "severity": "high",
       "matched_pattern": "AIza*******************************8CQQ",
-      "timestamp": "2026-03-18T06:45:42.755361"
+      "timestamp": "2026-03-19T06:41:24.317315"
     },
     {
       "service": "google",
       "file": "env.example",
       "repository": "ikayaalp/gastrofolly",
-      "url": "https://github.com/ikayaalp/gastrofolly/blob/53a9ee0a22c7ebd014eec98acab28704ee95dac6/env.example",
+      "url": "https://github.com/ikayaalp/gastrofolly/blob/13ed0f2d5962932982f3e6778f04e812c15dda8a/env.example",
       "line_number": 33,
       "line_preview": "NEXT_PUBLIC_FIREBASE_API_KEY=\"AIzaSyCdIEjKdLERURzRZxuIgWqqtb2-WY785jc\"",
       "key_type": "google_api_key",
       "description": "Google API Key",
       "severity": "high",
       "matched_pattern": "AIza*******************************85jc",
-      "timestamp": "2026-03-18T06:45:56.059667"
+      "timestamp": "2026-03-19T06:41:48.428528"
     },
     {
       "service": "google",
@@ -222,7 +209,7 @@
       "description": "Google API Key",
       "severity": "high",
       "matched_pattern": "AIza*******************************9_ag",
-      "timestamp": "2026-03-18T06:45:59.198892"
+      "timestamp": "2026-03-19T06:41:53.600163"
     },
     {
       "service": "google",
@@ -235,7 +222,7 @@
       "description": "Google API Key",
       "severity": "high",
       "matched_pattern": "AIza*******************************inns",
-      "timestamp": "2026-03-18T06:45:59.389003"
+      "timestamp": "2026-03-19T06:41:53.916916"
     },
     {
       "service": "google",
@@ -248,7 +235,20 @@
       "description": "Google API Key",
       "severity": "high",
       "matched_pattern": "AIza*******************************3s1A",
-      "timestamp": "2026-03-18T06:45:59.389126"
+      "timestamp": "2026-03-19T06:41:53.917041"
+    },
+    {
+      "service": "google",
+      "file": ".env.local",
+      "repository": "sudanva21/Career-Advisor-SIH",
+      "url": "https://github.com/sudanva21/Career-Advisor-SIH/blob/e4571da7533630aec2bbbc774696e576e71bf688/.env.local",
+      "line_number": 53,
+      "line_preview": "NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=AIzaSyDe9PcYT1EB2-p4uumsQ4hx2jOVM61Hrow",
+      "key_type": "google_api_key",
+      "description": "Google API Key",
+      "severity": "high",
+      "matched_pattern": "AIza*******************************Hrow",
+      "timestamp": "2026-03-19T06:41:56.116662"
     },
     {
       "service": "google",
@@ -261,7 +261,7 @@
       "description": "Google API Key",
       "severity": "high",
       "matched_pattern": "AIza*******************************Dsdg",
-      "timestamp": "2026-03-18T06:46:00.484935"
+      "timestamp": "2026-03-19T06:41:56.603969"
     },
     {
       "service": "google",
@@ -274,7 +274,7 @@
       "description": "Google API Key",
       "severity": "high",
       "matched_pattern": "AIza*******************************cG40",
-      "timestamp": "2026-03-18T06:46:00.485139"
+      "timestamp": "2026-03-19T06:41:56.604099"
     },
     {
       "service": "google",
@@ -287,7 +287,7 @@
       "description": "Google Generative Ai Api Key",
       "severity": "medium",
       "matched_pattern": "GOOG************************************************************cG40",
-      "timestamp": "2026-03-18T06:46:00.485276"
+      "timestamp": "2026-03-19T06:41:56.604184"
     }
   ]
 }

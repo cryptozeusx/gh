@@ -1,21 +1,8 @@
 {
   "service": "supabase",
-  "scan_timestamp": "2026-03-18T06:46:21.398834",
+  "scan_timestamp": "2026-03-19T06:42:16.018905",
   "finding_count": 4,
   "findings": [
-    {
-      "service": "supabase",
-      "file": ".env.local",
-      "repository": "sudanva21/Career-Advisor-SIH",
-      "url": "https://github.com/sudanva21/Career-Advisor-SIH/blob/e4571da7533630aec2bbbc774696e576e71bf688/.env.local",
-      "line_number": 11,
-      "line_preview": "SUPABASE_SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd5dWR3anpqenRiZ2Rqd2RhZ",
-      "key_type": "supabase_service_role_key",
-      "description": "Supabase Service Role Key",
-      "severity": "medium",
-      "matched_pattern": "eyJh*******************************************************************************************************************************************************************************************************************_bsc",
-      "timestamp": "2026-03-18T06:45:33.046676"
-    },
     {
       "service": "supabase",
       "file": ".env.local",
@@ -26,8 +13,8 @@
       "key_type": "supabase_service_role_key",
       "description": "Supabase Service Role Key",
       "severity": "medium",
-      "matched_pattern": "SUPA***********************************************************c8Mx",
-      "timestamp": "2026-03-18T06:45:36.156750"
+      "matched_pattern": "sb_s*********************************c8Mx",
+      "timestamp": "2026-03-19T06:41:10.333721"
     },
     {
       "service": "supabase",
@@ -40,7 +27,20 @@
       "description": "Supabase Key",
       "severity": "medium",
       "matched_pattern": "eyJh********************************************************************************************************************************************************************************************************4isA",
-      "timestamp": "2026-03-18T06:45:40.672404"
+      "timestamp": "2026-03-19T06:41:19.850604"
+    },
+    {
+      "service": "supabase",
+      "file": ".env.local",
+      "repository": "sudanva21/Career-Advisor-SIH",
+      "url": "https://github.com/sudanva21/Career-Advisor-SIH/blob/e4571da7533630aec2bbbc774696e576e71bf688/.env.local",
+      "line_number": 11,
+      "line_preview": "SUPABASE_SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd5dWR3anpqenRiZ2Rqd2RhZ",
+      "key_type": "supabase_service_role_key",
+      "description": "Supabase Service Role Key",
+      "severity": "medium",
+      "matched_pattern": "SUPA*********************************************************************************************************************************************************************************************************************************************_bsc",
+      "timestamp": "2026-03-19T06:41:56.116397"
     },
     {
       "service": "supabase",
@@ -53,7 +53,7 @@
       "description": "Supabase Service Role Key",
       "severity": "medium",
       "matched_pattern": "SUPA*********************************************************************************************************************************************************************************************************************************************itoI",
-      "timestamp": "2026-03-18T06:46:06.083621"
+      "timestamp": "2026-03-19T06:42:00.494225"
     }
   ]
 }

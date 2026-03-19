@@ -1,6 +1,6 @@
 {
   "service": "gemini",
-  "scan_timestamp": "2026-03-18T06:46:21.387236",
+  "scan_timestamp": "2026-03-19T06:42:16.008745",
   "finding_count": 6,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************G4Z4",
-      "timestamp": "2026-03-18T06:45:29.895868"
+      "timestamp": "2026-03-19T06:40:56.802442"
     },
     {
       "service": "gemini",
@@ -27,7 +27,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "    **********************************ash)",
-      "timestamp": "2026-03-18T06:45:31.595824"
+      "timestamp": "2026-03-19T06:41:00.097393"
     },
     {
       "service": "gemini",
@@ -40,7 +40,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************o_vI",
-      "timestamp": "2026-03-18T06:45:38.695126"
+      "timestamp": "2026-03-19T06:41:15.732421"
     },
     {
       "service": "gemini",
@@ -53,7 +53,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************9_ag",
-      "timestamp": "2026-03-18T06:45:59.199050"
+      "timestamp": "2026-03-19T06:41:53.600287"
     },
     {
       "service": "gemini",
@@ -66,7 +66,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************inns",
-      "timestamp": "2026-03-18T06:45:59.389085"
+      "timestamp": "2026-03-19T06:41:53.916999"
     },
     {
       "service": "gemini",
@@ -79,7 +79,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************Dsdg",
-      "timestamp": "2026-03-18T06:46:00.485073"
+      "timestamp": "2026-03-19T06:41:56.604055"
     }
   ]
 }
