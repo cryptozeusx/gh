@@ -1,6 +1,6 @@
 {
   "service": "co",
-  "scan_timestamp": "2026-03-19T06:42:16.005395",
+  "scan_timestamp": "2026-03-20T06:12:47.620077",
   "finding_count": 4,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************************89cf",
-      "timestamp": "2026-03-19T06:41:15.245573"
+      "timestamp": "2026-03-20T06:11:54.203489"
     },
     {
       "service": "co",
@@ -27,20 +27,20 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********************************61ad",
-      "timestamp": "2026-03-19T06:41:21.103133"
+      "timestamp": "2026-03-20T06:11:58.552421"
     },
     {
       "service": "co",
       "file": ".env.example",
       "repository": "stevenfazzio/semantic-github-map",
-      "url": "https://github.com/stevenfazzio/semantic-github-map/blob/b73284e5f4ede879cda31e919f3a03dbef474293/.env.example",
+      "url": "https://github.com/stevenfazzio/semantic-github-map/blob/6ea94d926feca3cf136de1894647815310061d13/.env.example",
       "line_number": 3,
       "line_preview": "CO_API_KEY=             # Cohere API key (embeddings + topic modeling)",
       "key_type": "co_api_key",
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "# Co**************************************ing)",
-      "timestamp": "2026-03-19T06:41:44.962692"
+      "timestamp": "2026-03-20T06:12:17.882248"
     },
     {
       "service": "co",
@@ -53,7 +53,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*******************************FcU'",
-      "timestamp": "2026-03-19T06:42:00.330106"
+      "timestamp": "2026-03-20T06:12:32.087876"
     }
   ]
 }

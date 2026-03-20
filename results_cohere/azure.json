@@ -1,6 +1,6 @@
 {
   "service": "azure",
-  "scan_timestamp": "2026-03-19T06:42:16.004939",
+  "scan_timestamp": "2026-03-20T06:12:47.619654",
   "finding_count": 2,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Azure Openai Api Key",
       "severity": "medium",
       "matched_pattern": "    **************************************zure",
-      "timestamp": "2026-03-19T06:41:00.097950"
+      "timestamp": "2026-03-20T06:11:43.621572"
     },
     {
       "service": "azure",
@@ -27,7 +27,7 @@
       "description": "Azure Aoai Openai Gpt4 Subscription Key",
       "severity": "medium",
       "matched_pattern": "AZUR*******************************_KEY",
-      "timestamp": "2026-03-19T06:41:27.975200"
+      "timestamp": "2026-03-20T06:12:03.983308"
     }
   ]
 }

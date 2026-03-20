@@ -1,6 +1,6 @@
 {
   "service": "together",
-  "scan_timestamp": "2026-03-19T06:42:16.019519",
+  "scan_timestamp": "2026-03-20T06:12:47.632996",
   "finding_count": 3,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Together Api Key",
       "severity": "medium",
       "matched_pattern": "    *******************************************************ess)",
-      "timestamp": "2026-03-19T06:41:00.097777"
+      "timestamp": "2026-03-20T06:11:43.621422"
     },
     {
       "service": "together",
@@ -27,7 +27,7 @@
       "description": "Together Api Key",
       "severity": "medium",
       "matched_pattern": "TOGE***************************************************************************8a2\"",
-      "timestamp": "2026-03-19T06:41:24.317465"
+      "timestamp": "2026-03-20T06:12:00.972826"
     },
     {
       "service": "together",
@@ -40,7 +40,7 @@
       "description": "Together Api Key",
       "severity": "medium",
       "matched_pattern": "TOGE*************************************************************************5df3",
-      "timestamp": "2026-03-19T06:41:56.604594"
+      "timestamp": "2026-03-20T06:12:27.780998"
     }
   ]
 }

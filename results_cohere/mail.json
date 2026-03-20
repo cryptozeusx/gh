@@ -1,6 +1,6 @@
 {
   "service": "mail",
-  "scan_timestamp": "2026-03-19T06:42:16.013157",
+  "scan_timestamp": "2026-03-20T06:12:47.627899",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Mail Password",
       "severity": "high",
       "matched_pattern": "09b2******************************************60b6",
-      "timestamp": "2026-03-19T06:41:43.441427"
+      "timestamp": "2026-03-20T06:12:16.633151"
     }
   ]
 }

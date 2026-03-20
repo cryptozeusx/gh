@@ -1,8 +1,21 @@
 {
   "service": "postgres",
-  "scan_timestamp": "2026-03-19T06:42:16.016380",
-  "finding_count": 1,
+  "scan_timestamp": "2026-03-20T06:12:47.630650",
+  "finding_count": 2,
   "findings": [
+    {
+      "service": "postgres",
+      "file": ".env.openapi",
+      "repository": "EtroxTaran/rag_demo",
+      "url": "https://github.com/EtroxTaran/rag_demo/blob/6f1bee4b145eee8c13dd076359dfc198c1251d5c/.env.openapi",
+      "line_number": 21,
+      "line_preview": "POSTGRES_PASSWORD=ragdemo_pw",
+      "key_type": "postgres_password",
+      "description": "Postgres Password",
+      "severity": "high",
+      "matched_pattern": "ragd**o_pw",
+      "timestamp": "2026-03-20T06:11:45.499781"
+    },
     {
       "service": "postgres",
       "file": "env.local",
@@ -13,8 +26,8 @@
       "key_type": "postgres_password",
       "description": "Postgres Password",
       "severity": "high",
-      "matched_pattern": "npg_********IX6P",
-      "timestamp": "2026-03-19T06:41:53.917676"
+      "matched_pattern": "POST**************************IX6P",
+      "timestamp": "2026-03-20T06:12:25.728381"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "service": "consul",
-  "scan_timestamp": "2026-03-11T06:07:11.299453",
+  "scan_timestamp": "2026-03-20T06:12:47.620861",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Consul Token",
       "severity": "medium",
       "matched_pattern": "ente********************2024",
-      "timestamp": "2026-03-11T06:06:21.476828"
+      "timestamp": "2026-03-20T06:11:46.713867"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "service": "cloudflare",
-  "scan_timestamp": "2026-03-11T06:07:11.298472",
+  "scan_timestamp": "2026-03-20T06:12:47.619988",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Cloudflare Api Token",
       "severity": "medium",
       "matched_pattern": "ABC1**************************************hijk",
-      "timestamp": "2026-03-11T06:06:21.476891"
+      "timestamp": "2026-03-20T06:11:46.713894"
     }
   ]
 }

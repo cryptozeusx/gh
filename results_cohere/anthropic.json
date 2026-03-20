@@ -1,21 +1,8 @@
 {
   "service": "anthropic",
-  "scan_timestamp": "2026-03-19T06:42:16.003939",
-  "finding_count": 5,
+  "scan_timestamp": "2026-03-20T06:12:47.618842",
+  "finding_count": 6,
   "findings": [
-    {
-      "service": "anthropic",
-      "file": ".env.local",
-      "repository": "mateuszpoland/upwork-proposal-ai-agent",
-      "url": "https://github.com/mateuszpoland/upwork-proposal-ai-agent/blob/355c6d4a567d5084aac046af407a3d232adf5f93/.env.local",
-      "line_number": 7,
-      "line_preview": "ANTHROPIC_API_KEY= # Required: Format: sk-ant-api03-...",
-      "key_type": "anthropic_api_key",
-      "description": "Anthropic Api Key",
-      "severity": "medium",
-      "matched_pattern": "# Re****************************-...",
-      "timestamp": "2026-03-19T06:40:59.112623"
-    },
     {
       "service": "anthropic",
       "file": "exemplo.env",
@@ -27,7 +14,20 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "    *******************************************iku)",
-      "timestamp": "2026-03-19T06:41:00.097540"
+      "timestamp": "2026-03-20T06:11:43.621247"
+    },
+    {
+      "service": "anthropic",
+      "file": ".env.enterprise",
+      "repository": "ryanalmb/script-ai",
+      "url": "https://github.com/ryanalmb/script-ai/blob/21f4523a23788ce28b6f99a90328103c0a66a60b/.env.enterprise",
+      "line_number": 249,
+      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api03-ABC123456789DEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
+      "key_type": "anthropic_api_key",
+      "description": "Anthropic Api Key",
+      "severity": "medium",
+      "matched_pattern": "ANTH************************************************************************************wxyz",
+      "timestamp": "2026-03-20T06:11:46.713662"
     },
     {
       "service": "anthropic",
@@ -40,20 +40,33 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************cwAA",
-      "timestamp": "2026-03-19T06:41:15.407568"
+      "timestamp": "2026-03-20T06:11:54.316448"
     },
     {
       "service": "anthropic",
       "file": ".env.example",
       "repository": "stevenfazzio/semantic-github-map",
-      "url": "https://github.com/stevenfazzio/semantic-github-map/blob/b73284e5f4ede879cda31e919f3a03dbef474293/.env.example",
+      "url": "https://github.com/stevenfazzio/semantic-github-map/blob/6ea94d926feca3cf136de1894647815310061d13/.env.example",
       "line_number": 4,
       "line_preview": "ANTHROPIC_API_KEY=      # Anthropic API key (README summarization + topic naming)",
       "key_type": "anthropic_api_key",
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "# An*************************************************ing)",
-      "timestamp": "2026-03-19T06:41:44.962748"
+      "timestamp": "2026-03-20T06:12:17.882285"
+    },
+    {
+      "service": "anthropic",
+      "file": ".env.local",
+      "repository": "mateuszpoland/upwork-proposal-ai-agent",
+      "url": "https://github.com/mateuszpoland/upwork-proposal-ai-agent/blob/355c6d4a567d5084aac046af407a3d232adf5f93/.env.local",
+      "line_number": 7,
+      "line_preview": "ANTHROPIC_API_KEY= # Required: Format: sk-ant-api03-...",
+      "key_type": "anthropic_api_key",
+      "description": "Anthropic Api Key",
+      "severity": "medium",
+      "matched_pattern": "# Re****************************-...",
+      "timestamp": "2026-03-20T06:12:26.754030"
     },
     {
       "service": "anthropic",
@@ -66,7 +79,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************DgAA",
-      "timestamp": "2026-03-19T06:41:56.603674"
+      "timestamp": "2026-03-20T06:12:27.780410"
     }
   ]
 }

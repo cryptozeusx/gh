@@ -1,8 +1,34 @@
 {
   "service": "n8n",
-  "scan_timestamp": "2026-03-18T06:46:21.393025",
-  "finding_count": 1,
+  "scan_timestamp": "2026-03-20T06:12:47.628484",
+  "finding_count": 3,
   "findings": [
+    {
+      "service": "n8n",
+      "file": ".env-example",
+      "repository": "matheusbuniotto/ai-platform-stack",
+      "url": "https://github.com/matheusbuniotto/ai-platform-stack/blob/0d4e995cb3746d2110e3c237130ec781c13ab489/.env-example",
+      "line_number": 50,
+      "line_preview": "N8N_GENERIC_API_KEY=sk-1234 # ALERT! SHOULD BE CHANGED",
+      "key_type": "n8n_generic_api_key",
+      "description": "N8N Generic Api Key",
+      "severity": "medium",
+      "matched_pattern": "sk-1**************************NGED",
+      "timestamp": "2026-03-20T06:11:39.540201"
+    },
+    {
+      "service": "n8n",
+      "file": ".env-example",
+      "repository": "matheusbuniotto/ai-platform-stack",
+      "url": "https://github.com/matheusbuniotto/ai-platform-stack/blob/0d4e995cb3746d2110e3c237130ec781c13ab489/.env-example",
+      "line_number": 51,
+      "line_preview": "N8N_BASIC_AUTH_USER=admin # ALERT! SHOULD BE CHANGED",
+      "key_type": "n8n_basic_auth_user",
+      "description": "N8N Basic Auth User",
+      "severity": "medium",
+      "matched_pattern": "admi************************NGED",
+      "timestamp": "2026-03-20T06:11:39.540231"
+    },
     {
       "service": "n8n",
       "file": ".env.openapi",
@@ -14,7 +40,7 @@
       "description": "N8N Encryption Key",
       "severity": "medium",
       "matched_pattern": "rag-********************2024",
-      "timestamp": "2026-03-18T06:45:33.406644"
+      "timestamp": "2026-03-20T06:11:45.499839"
     }
   ]
 }

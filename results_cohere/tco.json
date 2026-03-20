@@ -1,6 +1,6 @@
 {
   "service": "tco",
-  "scan_timestamp": "2026-03-19T06:42:16.019276",
+  "scan_timestamp": "2026-03-20T06:12:47.632840",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Tco Encryption Key",
       "severity": "medium",
       "matched_pattern": "a1b2********************************************************e1f2",
-      "timestamp": "2026-03-19T06:41:05.103809"
+      "timestamp": "2026-03-20T06:11:46.553750"
     }
   ]
 }

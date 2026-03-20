@@ -1,6 +1,6 @@
 {
   "service": "flower",
-  "scan_timestamp": "2026-03-19T06:42:16.008528",
+  "scan_timestamp": "2026-03-20T06:12:47.623667",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Flower Basic Auth",
       "severity": "medium",
       "matched_pattern": "admi******n123",
-      "timestamp": "2026-03-19T06:41:04.154604"
+      "timestamp": "2026-03-20T06:11:45.776479"
     }
   ]
 }

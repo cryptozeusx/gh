@@ -1,21 +1,8 @@
 {
   "service": "telegram",
-  "scan_timestamp": "2026-03-11T06:07:11.311976",
-  "finding_count": 3,
+  "scan_timestamp": "2026-03-20T06:12:47.632913",
+  "finding_count": 2,
   "findings": [
-    {
-      "service": "telegram",
-      "file": ".env2.txt",
-      "repository": "sandroneterpone/ye-meme-trader",
-      "url": "https://github.com/sandroneterpone/ye-meme-trader/blob/0cf98ffad988794862d01b9c26419b09c5e3f09e/.env2.txt",
-      "line_number": 8,
-      "line_preview": "TELEGRAM_BOT_TOKEN=\"7404373764:AAEIPe6hr_I3CthoOn1neGYpCQjF1JXmmXg\"",
-      "key_type": "telegram_bot_token",
-      "description": "Telegram Bot Token",
-      "severity": "medium",
-      "matched_pattern": "7404**************************************mmXg",
-      "timestamp": "2026-03-11T06:06:06.092871"
-    },
     {
       "service": "telegram",
       "file": ".env.enterprise",
@@ -26,8 +13,8 @@
       "key_type": "telegram_bot_token",
       "description": "Telegram Bot Token",
       "severity": "medium",
-      "matched_pattern": "TELE*********************************************************25O0",
-      "timestamp": "2026-03-11T06:06:21.475046"
+      "matched_pattern": "7848**************************************25O0",
+      "timestamp": "2026-03-20T06:11:46.713841"
     },
     {
       "service": "telegram",
@@ -40,7 +27,7 @@
       "description": "Telegram Bot Jwt Secret",
       "severity": "high",
       "matched_pattern": "T3l3*******************************************************************hijk",
-      "timestamp": "2026-03-11T06:06:21.476953"
+      "timestamp": "2026-03-20T06:11:46.713920"
     }
   ]
 }

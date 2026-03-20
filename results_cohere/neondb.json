@@ -1,6 +1,6 @@
 {
   "service": "neondb",
-  "scan_timestamp": "2026-03-19T06:42:16.014177",
+  "scan_timestamp": "2026-03-20T06:12:47.628802",
   "finding_count": 10,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "NeonDB Connection String",
       "severity": "critical",
       "matched_pattern": "post********************************************************************************************************************************************uire",
-      "timestamp": "2026-03-19T06:41:08.857347",
+      "timestamp": "2026-03-20T06:11:49.711384",
       "candidate_url": "postgresql://neondb_owner:npg_tIC1vZHAh3Ry@ep-purple-frog-aemziw9j-pooler.c-2.us-east-2.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
     },
     {
@@ -28,7 +28,7 @@
       "description": "NeonDB URL (named var)",
       "severity": "critical",
       "matched_pattern": "NEON**************************************************************************************************************************************************************uire",
-      "timestamp": "2026-03-19T06:41:08.857416",
+      "timestamp": "2026-03-20T06:11:49.711439",
       "candidate_url": "NEON_DATABASE_URL=postgresql://neondb_owner:npg_tIC1vZHAh3Ry@ep-purple-frog-aemziw9j-pooler.c-2.us-east-2.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
     },
     {
@@ -42,7 +42,7 @@
       "description": "NeonDB Connection String",
       "severity": "critical",
       "matched_pattern": "post***************************************************************************************************************uire",
-      "timestamp": "2026-03-19T06:41:53.916163",
+      "timestamp": "2026-03-20T06:12:25.728177",
       "candidate_url": "postgres://neondb_owner:npg_yQAYOZ4iIX6P@ep-square-smoke-a4qft5si-pooler.us-east-1.aws.neon.tech/neondb?sslmode=require"
     },
     {
@@ -56,7 +56,7 @@
       "description": "NeonDB Connection String",
       "severity": "critical",
       "matched_pattern": "post**********************************************************************************************************uire",
-      "timestamp": "2026-03-19T06:41:53.916219",
+      "timestamp": "2026-03-20T06:12:25.728221",
       "candidate_url": "postgresql://neondb_owner:npg_yQAYOZ4iIX6P@ep-square-smoke-a4qft5si.us-east-1.aws.neon.tech/neondb?sslmode=require"
     },
     {
@@ -70,7 +70,7 @@
       "description": "NeonDB Vercel/Postgres URL",
       "severity": "critical",
       "matched_pattern": "POST****************************************************************************************************************************uire",
-      "timestamp": "2026-03-19T06:41:53.916332",
+      "timestamp": "2026-03-20T06:12:25.728284",
       "candidate_url": "POSTGRES_URL=postgres://neondb_owner:npg_yQAYOZ4iIX6P@ep-square-smoke-a4qft5si-pooler.us-east-1.aws.neon.tech/neondb?sslmode=require"
     },
     {
@@ -84,7 +84,7 @@
       "description": "NeonDB Connection String",
       "severity": "critical",
       "matched_pattern": "post********************************************************************************************************uire",
-      "timestamp": "2026-03-19T06:41:53.916390",
+      "timestamp": "2026-03-20T06:12:25.728324",
       "candidate_url": "postgres://neondb_owner:npg_yQAYOZ4iIX6P@ep-square-smoke-a4qft5si.us-east-1.aws.neon.tech/neondb?sslmode=require"
     },
     {
@@ -98,7 +98,7 @@
       "description": "NeonDB Vercel/Postgres URL",
       "severity": "critical",
       "matched_pattern": "POST*********************************************************************************************************************************uire",
-      "timestamp": "2026-03-19T06:41:53.916436",
+      "timestamp": "2026-03-20T06:12:25.728353",
       "candidate_url": "POSTGRES_URL_NON_POOLING=postgres://neondb_owner:npg_yQAYOZ4iIX6P@ep-square-smoke-a4qft5si.us-east-1.aws.neon.tech/neondb?sslmode=require"
     },
     {
@@ -112,7 +112,7 @@
       "description": "NeonDB Connection String",
       "severity": "critical",
       "matched_pattern": "post***********************************************************************************************ondb",
-      "timestamp": "2026-03-19T06:41:53.916480",
+      "timestamp": "2026-03-20T06:12:25.728411",
       "candidate_url": "postgres://neondb_owner:npg_yQAYOZ4iIX6P@ep-square-smoke-a4qft5si-pooler.us-east-1.aws.neon.tech/neondb"
     },
     {
@@ -126,7 +126,7 @@
       "description": "NeonDB Connection String",
       "severity": "critical",
       "matched_pattern": "post**********************************************************************************************************************************uire",
-      "timestamp": "2026-03-19T06:41:53.916522",
+      "timestamp": "2026-03-20T06:12:25.728438",
       "candidate_url": "postgres://neondb_owner:npg_yQAYOZ4iIX6P@ep-square-smoke-a4qft5si-pooler.us-east-1.aws.neon.tech/neondb?connect_timeout=15&sslmode=require"
     },
     {
@@ -140,7 +140,7 @@
       "description": "NeonDB Vercel/Postgres URL",
       "severity": "critical",
       "matched_pattern": "POST******************************************************************************************************************************************************uire",
-      "timestamp": "2026-03-19T06:41:53.916563",
+      "timestamp": "2026-03-20T06:12:25.728465",
       "candidate_url": "POSTGRES_PRISMA_URL=postgres://neondb_owner:npg_yQAYOZ4iIX6P@ep-square-smoke-a4qft5si-pooler.us-east-1.aws.neon.tech/neondb?connect_timeout=15&sslmode=require"
     }
   ]

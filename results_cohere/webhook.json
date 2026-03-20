@@ -1,20 +1,20 @@
 {
   "service": "webhook",
-  "scan_timestamp": "2026-03-11T06:07:11.312554",
+  "scan_timestamp": "2026-03-20T06:12:47.633497",
   "finding_count": 1,
   "findings": [
     {
       "service": "webhook",
-      "file": ".env.enterprise",
-      "repository": "ryanalmb/script-ai",
-      "url": "https://github.com/ryanalmb/script-ai/blob/21f4523a23788ce28b6f99a90328103c0a66a60b/.env.enterprise",
-      "line_number": 162,
-      "line_preview": "WEBHOOK_SECRET=Ent3rpr1s3_W3bh00k_S3cr3t_2024_ABC123456789DEFGHIJKLMNOPQRSTUVWXYZabcdefghijk",
+      "file": ".env.prod.example",
+      "repository": "nauanbek/saqshy",
+      "url": "https://github.com/nauanbek/saqshy/blob/f82057815dc72896bb71b4f9e36b93b63cb8e855/.env.prod.example",
+      "line_number": 21,
+      "line_preview": "WEBHOOK_SECRET=generate_with_openssl_rand_hex_32",
       "key_type": "webhook_secret",
       "description": "Webhook Secret",
       "severity": "high",
-      "matched_pattern": "WEBH************************************************************************************hijk",
-      "timestamp": "2026-03-11T06:06:21.475751"
+      "matched_pattern": "WEBH****************************************x_32",
+      "timestamp": "2026-03-20T06:12:11.224083"
     }
   ]
 }
