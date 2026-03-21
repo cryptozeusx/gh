@@ -1,7 +1,7 @@
 {
   "service": "next",
-  "scan_timestamp": "2026-03-20T06:12:47.628989",
-  "finding_count": 14,
+  "scan_timestamp": "2026-03-21T05:57:09.857050",
+  "finding_count": 15,
   "findings": [
     {
       "service": "next",
@@ -14,7 +14,7 @@
       "description": "Next Public Client Secret Google",
       "severity": "high",
       "matched_pattern": "GOCS***************************0XZh",
-      "timestamp": "2026-03-20T06:11:36.019332"
+      "timestamp": "2026-03-21T05:56:14.629144"
     },
     {
       "service": "next",
@@ -27,7 +27,20 @@
       "description": "Next Public Supabase Anon Auth",
       "severity": "medium",
       "matched_pattern": "eyJh********************************************************************************************************************************************************************************************************oBuY",
-      "timestamp": "2026-03-20T06:11:36.141297"
+      "timestamp": "2026-03-21T05:56:14.720362"
+    },
+    {
+      "service": "next",
+      "file": ".env.save",
+      "repository": "samrahimi/factoid-ai",
+      "url": "https://github.com/samrahimi/factoid-ai/blob/9b870d3e93ccf5e4a43d3bd03c81b6a1a1a81e77/.env.save",
+      "line_number": 2,
+      "line_preview": "NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNha2JiZGlveXZiamNla",
+      "key_type": "next_public_supabase_anon_key",
+      "description": "Next Public Supabase Anon Key",
+      "severity": "medium",
+      "matched_pattern": "NEXT**************************************************************************************************************************************************************************************************************************************sIIc",
+      "timestamp": "2026-03-21T05:56:19.045419"
     },
     {
       "service": "next",
@@ -40,20 +53,7 @@
       "description": "Next Public Supabase Anon Key",
       "severity": "medium",
       "matched_pattern": "NEXT**************************************************************************************************************************************************************************************************************************************9jUM",
-      "timestamp": "2026-03-20T06:11:43.030811"
-    },
-    {
-      "service": "next",
-      "file": ".env.local",
-      "repository": "Orkestaia/orkesta-os",
-      "url": "https://github.com/Orkestaia/orkesta-os/blob/df0130fd2403feb2ce5ae64ba4754a5e51310f08/.env.local",
-      "line_number": 2,
-      "line_preview": "NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJsbnlobW9zc2xoeHFvc",
-      "key_type": "next_public_supabase_anon_key",
-      "description": "Next Public Supabase Anon Key",
-      "severity": "medium",
-      "matched_pattern": "NEXT**************************************************************************************************************************************************************************************************************************************mrow",
-      "timestamp": "2026-03-20T06:11:50.760489"
+      "timestamp": "2026-03-21T05:56:21.098572"
     },
     {
       "service": "next",
@@ -66,7 +66,7 @@
       "description": "Next Public Analytics Storage Key",
       "severity": "medium",
       "matched_pattern": "sala*********tics",
-      "timestamp": "2026-03-20T06:11:53.424074"
+      "timestamp": "2026-03-21T05:56:26.074196"
     },
     {
       "service": "next",
@@ -79,7 +79,7 @@
       "description": "Next Public Session Id Key",
       "severity": "medium",
       "matched_pattern": "sala**********n_id",
-      "timestamp": "2026-03-20T06:11:53.424198"
+      "timestamp": "2026-03-21T05:56:26.074338"
     },
     {
       "service": "next",
@@ -92,7 +92,7 @@
       "description": "Next Public Clerk Publishable Key",
       "severity": "medium",
       "matched_pattern": "publ**_key",
-      "timestamp": "2026-03-20T06:11:56.233182"
+      "timestamp": "2026-03-21T05:56:27.800175"
     },
     {
       "service": "next",
@@ -105,7 +105,7 @@
       "description": "Next Public Firebase Api Key",
       "severity": "medium",
       "matched_pattern": "NEXT**************************************************************5jc\"",
-      "timestamp": "2026-03-20T06:12:21.372477"
+      "timestamp": "2026-03-21T05:56:44.919948"
     },
     {
       "service": "next",
@@ -118,7 +118,7 @@
       "description": "Next Public Firebase Auth Domain",
       "severity": "medium",
       "matched_pattern": "Culi**********************.com",
-      "timestamp": "2026-03-20T06:12:21.372527"
+      "timestamp": "2026-03-21T05:56:44.919992"
     },
     {
       "service": "next",
@@ -131,7 +131,7 @@
       "description": "Next Public Stack Publishable Client Key",
       "severity": "medium",
       "matched_pattern": "pck_*****************************************h028",
-      "timestamp": "2026-03-20T06:12:25.729154"
+      "timestamp": "2026-03-21T05:56:47.722831"
     },
     {
       "service": "next",
@@ -144,7 +144,20 @@
       "description": "Next Public Supabase Anon Key",
       "severity": "medium",
       "matched_pattern": "NEXT**************************************************************************************************************************************************************************************************************************************MuT0",
-      "timestamp": "2026-03-20T06:12:27.438692"
+      "timestamp": "2026-03-21T05:56:48.615506"
+    },
+    {
+      "service": "next",
+      "file": ".env.local",
+      "repository": "Orkestaia/orkesta-os",
+      "url": "https://github.com/Orkestaia/orkesta-os/blob/df0130fd2403feb2ce5ae64ba4754a5e51310f08/.env.local",
+      "line_number": 2,
+      "line_preview": "NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJsbnlobW9zc2xoeHFvc",
+      "key_type": "next_public_supabase_anon_key",
+      "description": "Next Public Supabase Anon Key",
+      "severity": "medium",
+      "matched_pattern": "NEXT**************************************************************************************************************************************************************************************************************************************mrow",
+      "timestamp": "2026-03-21T05:56:54.343729"
     },
     {
       "service": "next",
@@ -157,7 +170,7 @@
       "description": "Next Public Supabase Anon Key",
       "severity": "medium",
       "matched_pattern": "NEXT**************************************************************************************************************************************************************************************************************************************BAL0",
-      "timestamp": "2026-03-20T06:12:32.231705"
+      "timestamp": "2026-03-21T05:56:54.493663"
     },
     {
       "service": "next",
@@ -170,7 +183,7 @@
       "description": "Next Public Cohere Api Key",
       "severity": "medium",
       "matched_pattern": "NEXT***********************************************************3VLY",
-      "timestamp": "2026-03-20T06:12:39.773848"
+      "timestamp": "2026-03-21T05:57:01.856503"
     },
     {
       "service": "next",
@@ -183,7 +196,7 @@
       "description": "Next Public Turnstile Site Key",
       "severity": "medium",
       "matched_pattern": "0x4A****************YDS6",
-      "timestamp": "2026-03-20T06:12:46.492370"
+      "timestamp": "2026-03-21T05:57:08.752195"
     }
   ]
 }

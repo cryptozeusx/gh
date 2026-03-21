@@ -1,6 +1,6 @@
 {
   "service": "exchange",
-  "scan_timestamp": "2026-03-20T06:12:47.623157",
+  "scan_timestamp": "2026-03-21T05:57:09.849964",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Exchange Rates Api Key",
       "severity": "medium",
       "matched_pattern": "EXCH********************************used",
-      "timestamp": "2026-03-20T06:11:51.140621"
+      "timestamp": "2026-03-21T05:56:24.835876"
     }
   ]
 }

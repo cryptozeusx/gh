@@ -1,21 +1,8 @@
 {
   "service": "meili",
-  "scan_timestamp": "2026-03-20T06:12:47.627972",
+  "scan_timestamp": "2026-03-21T05:57:09.855543",
   "finding_count": 3,
   "findings": [
-    {
-      "service": "meili",
-      "file": ".env.backup",
-      "repository": "hanzoai/chat",
-      "url": "https://github.com/hanzoai/chat/blob/c1836efbd02112e5b93240df844141afd4892da8/.env.backup",
-      "line_number": 307,
-      "line_preview": "MEILI_MASTER_KEY=DrhYf7zENyR6AlUCKmnz0eYASOQdl6zxH7s7MKFSfFCt",
-      "key_type": "meili_master_key",
-      "description": "Meili Master Key",
-      "severity": "critical",
-      "matched_pattern": "DrhY************************************fFCt",
-      "timestamp": "2026-03-20T06:11:44.760906"
-    },
     {
       "service": "meili",
       "file": ".env2",
@@ -26,8 +13,21 @@
       "key_type": "meili_master_key",
       "description": "Meili Master Key",
       "severity": "critical",
-      "matched_pattern": "MEIL*****************************************************fFCt",
-      "timestamp": "2026-03-20T06:11:45.379329"
+      "matched_pattern": "DrhY************************************fFCt",
+      "timestamp": "2026-03-21T05:56:22.490592"
+    },
+    {
+      "service": "meili",
+      "file": ".env.hanzo.example",
+      "repository": "hanzoai/chat",
+      "url": "https://github.com/hanzoai/chat/blob/c2435b1ff4c02c8c21e53f587c782becdfeb6255/.env.hanzo.example",
+      "line_number": 32,
+      "line_preview": "MEILI_MASTER_KEY=HanzoMeiliMasterKey",
+      "key_type": "meili_master_key",
+      "description": "Meili Master Key",
+      "severity": "critical",
+      "matched_pattern": "MEIL****************************rKey",
+      "timestamp": "2026-03-21T05:56:32.267750"
     },
     {
       "service": "meili",
@@ -40,7 +40,7 @@
       "description": "Meili Master Key",
       "severity": "critical",
       "matched_pattern": "MEIL*****************************************************fFCt",
-      "timestamp": "2026-03-20T06:11:46.847920"
+      "timestamp": "2026-03-21T05:56:33.374520"
     }
   ]
 }

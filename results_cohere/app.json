@@ -1,21 +1,8 @@
 {
   "service": "app",
-  "scan_timestamp": "2026-03-20T06:12:47.619351",
-  "finding_count": 6,
+  "scan_timestamp": "2026-03-21T05:57:09.845869",
+  "finding_count": 5,
   "findings": [
-    {
-      "service": "app",
-      "file": ".env.save.1",
-      "repository": "Tanvir-Ahmed98/newreunion",
-      "url": "https://github.com/Tanvir-Ahmed98/newreunion/blob/9142a64129ec1ff7df0484b3c2ac6fa78b1796ef/.env.save.1",
-      "line_number": 3,
-      "line_preview": "APP_KEY=base64:82Szix4CQE0bYSiE4iwoIWZyqE45JJFFtS9ur4+sH8g=",
-      "key_type": "app_key",
-      "description": "App Key",
-      "severity": "medium",
-      "matched_pattern": "base*******************************************H8g=",
-      "timestamp": "2026-03-20T06:11:31.882221"
-    },
     {
       "service": "app",
       "file": ".env.org",
@@ -26,8 +13,8 @@
       "key_type": "app_key",
       "description": "App Key",
       "severity": "medium",
-      "matched_pattern": "APP_***************************************************KgQ=",
-      "timestamp": "2026-03-20T06:11:37.824898"
+      "matched_pattern": "base*******************************************KgQ=",
+      "timestamp": "2026-03-21T05:56:15.885507"
     },
     {
       "service": "app",
@@ -40,33 +27,20 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************hXw=",
-      "timestamp": "2026-03-20T06:11:50.116955"
+      "timestamp": "2026-03-21T05:56:24.214916"
     },
     {
       "service": "app",
-      "file": ".env.production.example",
-      "repository": "scoutprojekt0-sys/scout-projesi",
-      "url": "https://github.com/scoutprojekt0-sys/scout-projesi/blob/2ed4d54d4b82859430ee878fab327c887b05c189/.env.production.example",
-      "line_number": 3,
-      "line_preview": "APP_KEY=base64:replace-with-generated-key",
-      "key_type": "app_key",
-      "description": "App Key",
-      "severity": "medium",
-      "matched_pattern": "APP_*********************************-key",
-      "timestamp": "2026-03-20T06:11:56.783787"
-    },
-    {
-      "service": "app",
-      "file": ".env.back",
-      "repository": "curetechb/mt",
-      "url": "https://github.com/curetechb/mt/blob/61fcfbd38981df211f945855604b90b4ec2cad19/.env.back",
+      "file": ".envv",
+      "repository": "mehedi8gb/emed-stable-4.8",
+      "url": "https://github.com/mehedi8gb/emed-stable-4.8/blob/f0fd05538ad4ee7567f9ef8b327e14ed07dda66d/.envv",
       "line_number": 3,
       "line_preview": "APP_KEY=base64:WrvqXJ+ilWOLItqI7C2N2R2dQkqFAHFYzTrQBBJqtso=",
       "key_type": "app_key",
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************tso=",
-      "timestamp": "2026-03-20T06:12:00.843308"
+      "timestamp": "2026-03-21T05:56:28.615690"
     },
     {
       "service": "app",
@@ -79,7 +53,20 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************e8p\"",
-      "timestamp": "2026-03-20T06:12:16.633046"
+      "timestamp": "2026-03-21T05:56:43.088800"
+    },
+    {
+      "service": "app",
+      "file": ".env.production.example",
+      "repository": "scoutprojekt0-sys/scout-projesi",
+      "url": "https://github.com/scoutprojekt0-sys/scout-projesi/blob/bd24c7ab6699f66671f3b2c42de61c9776deed85/.env.production.example",
+      "line_number": 3,
+      "line_preview": "APP_KEY=base64:replace-with-generated-key",
+      "key_type": "app_key",
+      "description": "App Key",
+      "severity": "medium",
+      "matched_pattern": "APP_*********************************-key",
+      "timestamp": "2026-03-21T05:56:43.638187"
     }
   ]
 }

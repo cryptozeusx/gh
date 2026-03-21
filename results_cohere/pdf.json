@@ -1,6 +1,6 @@
 {
   "service": "pdf",
-  "scan_timestamp": "2026-03-20T06:12:47.630176",
+  "scan_timestamp": "2026-03-21T05:57:09.858475",
   "finding_count": 3,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Pdf Co Api Key",
       "severity": "medium",
       "matched_pattern": "PDF_*************************************************************************************************Hhk4",
-      "timestamp": "2026-03-20T06:11:54.572832"
+      "timestamp": "2026-03-21T05:56:26.833166"
     },
     {
       "service": "pdf",
@@ -27,20 +27,20 @@
       "description": "Pdf Co Api Key",
       "severity": "medium",
       "matched_pattern": "PDF_**************************************************************************************************qF7U",
-      "timestamp": "2026-03-20T06:12:00.434590"
+      "timestamp": "2026-03-21T05:56:30.250885"
     },
     {
       "service": "pdf",
       "file": ".env.local",
-      "repository": "Rady119/pdfsir-tools",
-      "url": "https://github.com/Rady119/pdfsir-tools/blob/94a64711d0a14d90ea5c0cceab8ff9a53b42005f/.env.local",
-      "line_number": 1,
-      "line_preview": "PDF_CO_API_KEY=z2009@yahoo.com_BAdeT1HQWUk5C7jX0DnmDA9I0u7ATkdqazXvUJqwLrcF9q0DmUMmYQ8FaCDIBr9H",
+      "repository": "Orkestaia/orkesta-os",
+      "url": "https://github.com/Orkestaia/orkesta-os/blob/df0130fd2403feb2ce5ae64ba4754a5e51310f08/.env.local",
+      "line_number": 5,
+      "line_preview": "PDF_CO_API_KEY=aitor@orkestaia.com_BLdQIZxQhU6wDG5eelBdpZI7km6dAqqUpNy5RRfpWchDoX7dqY1MKsOzsru0YSui",
       "key_type": "pdf_co_api_key",
       "description": "Pdf Co Api Key",
       "severity": "medium",
-      "matched_pattern": "PDF_***************************************************************************************Br9H",
-      "timestamp": "2026-03-20T06:12:31.951766"
+      "matched_pattern": "PDF_*******************************************************************************************YSui",
+      "timestamp": "2026-03-21T05:56:54.343936"
     }
   ]
 }

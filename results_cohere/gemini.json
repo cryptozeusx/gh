@@ -1,8 +1,21 @@
 {
   "service": "gemini",
-  "scan_timestamp": "2026-03-20T06:12:47.623820",
+  "scan_timestamp": "2026-03-21T05:57:09.850842",
   "finding_count": 7,
   "findings": [
+    {
+      "service": "gemini",
+      "file": ".env.FREE.example",
+      "repository": "ayush-mishra035/ayush-mishra035.github.io",
+      "url": "https://github.com/ayush-mishra035/ayush-mishra035.github.io/blob/175f8e2a706dacee7d083cbcdfd1a79175908546/.env.FREE.example",
+      "line_number": 9,
+      "line_preview": "GEMINI_API_KEY=AIzaSyBBgnYib9OxeB-f0Am5q1sZ6DImc1mG4Z4",
+      "key_type": "gemini_api_key",
+      "description": "Gemini Api Key",
+      "severity": "medium",
+      "matched_pattern": "GEMI**********************************************G4Z4",
+      "timestamp": "2026-03-21T05:56:19.787022"
+    },
     {
       "service": "gemini",
       "file": "exemplo.env",
@@ -14,33 +27,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "    **********************************ash)",
-      "timestamp": "2026-03-20T06:11:43.621100"
-    },
-    {
-      "service": "gemini",
-      "file": "finlit-gpt/.env.backup",
-      "repository": "Nono140503/FinLit-GPT",
-      "url": "https://github.com/Nono140503/FinLit-GPT/blob/0f2a1f487fd53b7cd81348e866abda56599cb8d2/finlit-gpt/.env.backup",
-      "line_number": 4,
-      "line_preview": "NEXT_PUBLIC_GEMINI_API_KEY=AIzaSyCX1aJERX8-hbgjV4NaIuGjQgjwlkwql08",
-      "key_type": "gemini_api_key",
-      "description": "Gemini Api Key",
-      "severity": "medium",
-      "matched_pattern": "GEMI**********************************************ql08",
-      "timestamp": "2026-03-20T06:11:44.377644"
-    },
-    {
-      "service": "gemini",
-      "file": ".env.enterprise",
-      "repository": "ryanalmb/script-ai",
-      "url": "https://github.com/ryanalmb/script-ai/blob/21f4523a23788ce28b6f99a90328103c0a66a60b/.env.enterprise",
-      "line_number": 224,
-      "line_preview": "GEMINI_API_KEY=AIzaSyC8XYZ123456789abcdefghijklmnopqrstuvwxyz_ENTERPRISE",
-      "key_type": "gemini_api_key",
-      "description": "Gemini Api Key",
-      "severity": "medium",
-      "matched_pattern": "GEMI****************************************************************RISE",
-      "timestamp": "2026-03-20T06:11:46.713455"
+      "timestamp": "2026-03-21T05:56:21.465117"
     },
     {
       "service": "gemini",
@@ -53,7 +40,20 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************o_vI",
-      "timestamp": "2026-03-20T06:11:54.572679"
+      "timestamp": "2026-03-21T05:56:26.832914"
+    },
+    {
+      "service": "gemini",
+      "file": "backend/.env",
+      "repository": "Spidergy07/CEDT_FinalProject",
+      "url": "https://github.com/Spidergy07/CEDT_FinalProject/blob/58cc1d6b579a0b47f9badfbd913170060c1ff3fa/backend/.env",
+      "line_number": 8,
+      "line_preview": "GEMINI_API_KEY=AIzaSyCjTG53kEw1Dbv1AqJ3_8hJT8rHkSTMZeA",
+      "key_type": "gemini_api_key",
+      "description": "Gemini Api Key",
+      "severity": "medium",
+      "matched_pattern": "GEMI**********************************************MZeA",
+      "timestamp": "2026-03-21T05:56:27.516712"
     },
     {
       "service": "gemini",
@@ -66,7 +66,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************9_ag",
-      "timestamp": "2026-03-20T06:12:25.254040"
+      "timestamp": "2026-03-21T05:56:47.560607"
     },
     {
       "service": "gemini",
@@ -79,7 +79,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************inns",
-      "timestamp": "2026-03-20T06:12:25.728725"
+      "timestamp": "2026-03-21T05:56:47.722058"
     },
     {
       "service": "gemini",
@@ -92,7 +92,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************Dsdg",
-      "timestamp": "2026-03-20T06:12:27.780666"
+      "timestamp": "2026-03-21T05:56:48.915214"
     }
   ]
 }

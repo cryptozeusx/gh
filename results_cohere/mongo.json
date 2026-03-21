@@ -1,20 +1,20 @@
 {
   "service": "mongo",
-  "scan_timestamp": "2026-03-20T06:12:47.628251",
+  "scan_timestamp": "2026-03-21T05:57:09.855987",
   "finding_count": 1,
   "findings": [
     {
       "service": "mongo",
-      "file": "tau/backend/env.example",
-      "repository": "ruslankf777/RAG",
-      "url": "https://github.com/ruslankf777/RAG/blob/617d62f52475fa306fd40c8ee7e378060224cb3c/tau/backend/env.example",
-      "line_number": 6,
-      "line_preview": "MONGO_ROOT_PASSWORD=tau_password_2024",
-      "key_type": "mongo_root_password",
-      "description": "Mongo Root Password",
+      "file": ".env.hanzo.example",
+      "repository": "hanzoai/chat",
+      "url": "https://github.com/hanzoai/chat/blob/c2435b1ff4c02c8c21e53f587c782becdfeb6255/.env.hanzo.example",
+      "line_number": 15,
+      "line_preview": "MONGO_PASSWORD=hanzo123",
+      "key_type": "mongo_password",
+      "description": "Mongo Password",
       "severity": "high",
-      "matched_pattern": "tau_*********2024",
-      "timestamp": "2026-03-20T06:12:13.636787"
+      "matched_pattern": "********",
+      "timestamp": "2026-03-21T05:56:32.267825"
     }
   ]
 }

@@ -1,8 +1,21 @@
 {
   "service": "mysql",
-  "scan_timestamp": "2026-03-20T06:12:47.628402",
-  "finding_count": 1,
+  "scan_timestamp": "2026-03-21T05:57:09.856133",
+  "finding_count": 2,
   "findings": [
+    {
+      "service": "mysql",
+      "file": ".env.no",
+      "repository": "ooeunoo/mysql_to_postgres",
+      "url": "https://github.com/ooeunoo/mysql_to_postgres/blob/952c69597caa75ffd1ca1d347720923a868b2936/.env.no",
+      "line_number": 2,
+      "line_preview": "MYSQL_ROOT_PASSWORD=qwer1234",
+      "key_type": "mysql_root_password",
+      "description": "Mysql Root Password",
+      "severity": "high",
+      "matched_pattern": "********",
+      "timestamp": "2026-03-21T05:56:08.928102"
+    },
     {
       "service": "mysql",
       "file": ".env.txt",
@@ -13,8 +26,8 @@
       "key_type": "mysql_root_password",
       "description": "Mysql Root Password",
       "severity": "high",
-      "matched_pattern": "Admi***3456",
-      "timestamp": "2026-03-20T06:11:32.972599"
+      "matched_pattern": "MYSQ***********************3456",
+      "timestamp": "2026-03-21T05:56:10.370214"
     }
   ]
 }

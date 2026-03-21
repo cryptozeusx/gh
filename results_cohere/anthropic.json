@@ -1,60 +1,8 @@
 {
   "service": "anthropic",
-  "scan_timestamp": "2026-03-20T06:12:47.618842",
-  "finding_count": 6,
+  "scan_timestamp": "2026-03-21T05:57:09.845259",
+  "finding_count": 3,
   "findings": [
-    {
-      "service": "anthropic",
-      "file": "exemplo.env",
-      "repository": "amaro-netto/alerj_simulado_data",
-      "url": "https://github.com/amaro-netto/alerj_simulado_data/blob/542edbba62d02977822626c56e3860a8459c9674/exemplo.env",
-      "line_number": 6,
-      "line_preview": "ANTHROPIC_API_KEY=\"\"       # Anthropic (Claude 3.5 Sonnet, Opus, Haiku)",
-      "key_type": "anthropic_api_key",
-      "description": "Anthropic Api Key",
-      "severity": "medium",
-      "matched_pattern": "    *******************************************iku)",
-      "timestamp": "2026-03-20T06:11:43.621247"
-    },
-    {
-      "service": "anthropic",
-      "file": ".env.enterprise",
-      "repository": "ryanalmb/script-ai",
-      "url": "https://github.com/ryanalmb/script-ai/blob/21f4523a23788ce28b6f99a90328103c0a66a60b/.env.enterprise",
-      "line_number": 249,
-      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api03-ABC123456789DEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
-      "key_type": "anthropic_api_key",
-      "description": "Anthropic Api Key",
-      "severity": "medium",
-      "matched_pattern": "ANTH************************************************************************************wxyz",
-      "timestamp": "2026-03-20T06:11:46.713662"
-    },
-    {
-      "service": "anthropic",
-      "file": ".env",
-      "repository": "PathfinderFederalSolutions/AgentForge",
-      "url": "https://github.com/PathfinderFederalSolutions/AgentForge/blob/312de179728e91e461708b7f48f2d3da8dc60232/.env",
-      "line_number": 2,
-      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api03-z7IWfPc0RCO1GqNjM9Ef_RnrB-4zhnMnAoSzDarOcwgcRtg7SSvJ3oz0pndHhOuHRSetEaH5xlbJdy4O_m_bZA-Zp",
-      "key_type": "anthropic_api_key",
-      "description": "Anthropic Api Key",
-      "severity": "medium",
-      "matched_pattern": "ANTH**********************************************************************************************************************cwAA",
-      "timestamp": "2026-03-20T06:11:54.316448"
-    },
-    {
-      "service": "anthropic",
-      "file": ".env.example",
-      "repository": "stevenfazzio/semantic-github-map",
-      "url": "https://github.com/stevenfazzio/semantic-github-map/blob/6ea94d926feca3cf136de1894647815310061d13/.env.example",
-      "line_number": 4,
-      "line_preview": "ANTHROPIC_API_KEY=      # Anthropic API key (README summarization + topic naming)",
-      "key_type": "anthropic_api_key",
-      "description": "Anthropic Api Key",
-      "severity": "medium",
-      "matched_pattern": "# An*************************************************ing)",
-      "timestamp": "2026-03-20T06:12:17.882285"
-    },
     {
       "service": "anthropic",
       "file": ".env.local",
@@ -66,7 +14,20 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "# Re****************************-...",
-      "timestamp": "2026-03-20T06:12:26.754030"
+      "timestamp": "2026-03-21T05:56:20.917623"
+    },
+    {
+      "service": "anthropic",
+      "file": "exemplo.env",
+      "repository": "amaro-netto/alerj_simulado_data",
+      "url": "https://github.com/amaro-netto/alerj_simulado_data/blob/542edbba62d02977822626c56e3860a8459c9674/exemplo.env",
+      "line_number": 6,
+      "line_preview": "ANTHROPIC_API_KEY=\"\"       # Anthropic (Claude 3.5 Sonnet, Opus, Haiku)",
+      "key_type": "anthropic_api_key",
+      "description": "Anthropic Api Key",
+      "severity": "medium",
+      "matched_pattern": "    *******************************************iku)",
+      "timestamp": "2026-03-21T05:56:21.465304"
     },
     {
       "service": "anthropic",
@@ -79,7 +40,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************DgAA",
-      "timestamp": "2026-03-20T06:12:27.780410"
+      "timestamp": "2026-03-21T05:56:48.914643"
     }
   ]
 }
