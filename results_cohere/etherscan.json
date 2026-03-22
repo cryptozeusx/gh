@@ -1,6 +1,6 @@
 {
   "service": "etherscan",
-  "scan_timestamp": "2026-03-21T05:57:09.849713",
+  "scan_timestamp": "2026-03-22T06:12:05.794785",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Etherscan Api Key",
       "severity": "medium",
       "matched_pattern": "ETHE********************************************Z26U",
-      "timestamp": "2026-03-21T05:56:16.211870"
+      "timestamp": "2026-03-22T06:11:10.315282"
     }
   ]
 }

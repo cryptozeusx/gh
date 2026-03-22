@@ -1,6 +1,6 @@
 {
   "service": "app",
-  "scan_timestamp": "2026-03-21T05:57:09.845869",
+  "scan_timestamp": "2026-03-22T06:12:05.791556",
   "finding_count": 5,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "base*******************************************KgQ=",
-      "timestamp": "2026-03-21T05:56:15.885507"
+      "timestamp": "2026-03-22T06:11:09.854860"
     },
     {
       "service": "app",
@@ -27,7 +27,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************hXw=",
-      "timestamp": "2026-03-21T05:56:24.214916"
+      "timestamp": "2026-03-22T06:11:20.581487"
     },
     {
       "service": "app",
@@ -40,7 +40,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************tso=",
-      "timestamp": "2026-03-21T05:56:28.615690"
+      "timestamp": "2026-03-22T06:11:25.779044"
     },
     {
       "service": "app",
@@ -53,20 +53,20 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************e8p\"",
-      "timestamp": "2026-03-21T05:56:43.088800"
+      "timestamp": "2026-03-22T06:11:38.381649"
     },
     {
       "service": "app",
       "file": ".env.production.example",
       "repository": "scoutprojekt0-sys/scout-projesi",
-      "url": "https://github.com/scoutprojekt0-sys/scout-projesi/blob/bd24c7ab6699f66671f3b2c42de61c9776deed85/.env.production.example",
+      "url": "https://github.com/scoutprojekt0-sys/scout-projesi/blob/cf7a555b5e3e0c0b62ab522b347b351a3c9b8394/.env.production.example",
       "line_number": 3,
       "line_preview": "APP_KEY=base64:replace-with-generated-key",
       "key_type": "app_key",
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_*********************************-key",
-      "timestamp": "2026-03-21T05:56:43.638187"
+      "timestamp": "2026-03-22T06:11:38.956251"
     }
   ]
 }

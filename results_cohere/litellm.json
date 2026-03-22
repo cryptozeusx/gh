@@ -1,6 +1,6 @@
 {
   "service": "litellm",
-  "scan_timestamp": "2026-03-21T05:57:09.855071",
+  "scan_timestamp": "2026-03-22T06:12:05.799506",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Litellm Master Key",
       "severity": "critical",
       "matched_pattern": "sk-1**************************************************************able",
-      "timestamp": "2026-03-21T05:56:18.609203"
+      "timestamp": "2026-03-22T06:11:14.494859"
     }
   ]
 }

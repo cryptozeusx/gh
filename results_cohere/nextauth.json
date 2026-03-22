@@ -1,6 +1,6 @@
 {
   "service": "nextauth",
-  "scan_timestamp": "2026-03-21T05:57:09.857347",
+  "scan_timestamp": "2026-03-22T06:12:05.801188",
   "finding_count": 4,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "http*************3000",
-      "timestamp": "2026-03-21T05:56:17.348568"
+      "timestamp": "2026-03-22T06:11:12.987508"
     },
     {
       "service": "nextauth",
@@ -27,7 +27,7 @@
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "NEXT**************************3000",
-      "timestamp": "2026-03-21T05:56:20.836694"
+      "timestamp": "2026-03-22T06:11:16.965715"
     },
     {
       "service": "nextauth",
@@ -40,7 +40,7 @@
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "NEXT****************************000\"",
-      "timestamp": "2026-03-21T05:56:44.919470"
+      "timestamp": "2026-03-22T06:11:40.349963"
     },
     {
       "service": "nextauth",
@@ -53,7 +53,7 @@
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "NEXT**************************3000",
-      "timestamp": "2026-03-21T05:56:48.917451"
+      "timestamp": "2026-03-22T06:11:46.361788"
     }
   ]
 }

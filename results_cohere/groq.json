@@ -1,6 +1,6 @@
 {
   "service": "groq",
-  "scan_timestamp": "2026-03-21T05:57:09.853515",
+  "scan_timestamp": "2026-03-22T06:12:05.798258",
   "finding_count": 6,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "    ************************************************************ral)",
-      "timestamp": "2026-03-21T05:56:21.465465"
+      "timestamp": "2026-03-22T06:11:17.616943"
     },
     {
       "service": "groq",
@@ -27,7 +27,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ******************************************************************************************zNFn",
-      "timestamp": "2026-03-21T05:56:22.029713"
+      "timestamp": "2026-03-22T06:11:18.258819"
     },
     {
       "service": "groq",
@@ -40,7 +40,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ***************************************************************egLH",
-      "timestamp": "2026-03-21T05:56:29.232437"
+      "timestamp": "2026-03-22T06:11:26.477789"
     },
     {
       "service": "groq",
@@ -53,7 +53,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ*************************************************************HfDm",
-      "timestamp": "2026-03-21T05:56:29.347604"
+      "timestamp": "2026-03-22T06:11:26.646721"
     },
     {
       "service": "groq",
@@ -66,7 +66,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ*************************************************************bx9C",
-      "timestamp": "2026-03-21T05:56:29.517157"
+      "timestamp": "2026-03-22T06:11:26.900171"
     },
     {
       "service": "groq",
@@ -79,7 +79,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ*************************************************************5dr7",
-      "timestamp": "2026-03-21T05:56:48.914981"
+      "timestamp": "2026-03-22T06:11:46.360188"
     }
   ]
 }

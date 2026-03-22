@@ -1,6 +1,6 @@
 {
   "service": "vite",
-  "scan_timestamp": "2026-03-21T05:57:09.862845",
+  "scan_timestamp": "2026-03-22T06:12:05.805352",
   "finding_count": 12,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Vite Mapbox Access Token",
       "severity": "medium",
       "matched_pattern": "pk.e************************************************************************************SCTw",
-      "timestamp": "2026-03-21T05:56:26.668813"
+      "timestamp": "2026-03-22T06:11:23.339246"
     },
     {
       "service": "vite",
@@ -27,7 +27,7 @@
       "description": "Vite Stripe Publishable Key",
       "severity": "medium",
       "matched_pattern": "pk_l***************************************************************************************************C0Kg",
-      "timestamp": "2026-03-21T05:56:26.668857"
+      "timestamp": "2026-03-22T06:11:23.339282"
     },
     {
       "service": "vite",
@@ -40,7 +40,7 @@
       "description": "Vite Fraction Token Address",
       "severity": "medium",
       "matched_pattern": "0xd9**********************************Cc69",
-      "timestamp": "2026-03-21T05:56:45.633734"
+      "timestamp": "2026-03-22T06:11:41.128156"
     },
     {
       "service": "vite",
@@ -53,7 +53,7 @@
       "description": "Vite Pinata Gateway Token",
       "severity": "medium",
       "matched_pattern": "M-iE********************************************************vuXt",
-      "timestamp": "2026-03-21T05:56:45.633887"
+      "timestamp": "2026-03-22T06:11:41.128307"
     },
     {
       "service": "vite",
@@ -66,7 +66,7 @@
       "description": "Vite Twilio Auth Token",
       "severity": "medium",
       "matched_pattern": "bb70************************1295",
-      "timestamp": "2026-03-21T05:56:47.869910"
+      "timestamp": "2026-03-22T06:11:45.006615"
     },
     {
       "service": "vite",
@@ -79,7 +79,7 @@
       "description": "Vite Cohere Api Key",
       "severity": "medium",
       "matched_pattern": "VITE****************************************************Zj9Q",
-      "timestamp": "2026-03-21T05:56:48.996898"
+      "timestamp": "2026-03-22T06:11:46.441862"
     },
     {
       "service": "vite",
@@ -92,7 +92,7 @@
       "description": "Vite Hiro Api Key",
       "severity": "medium",
       "matched_pattern": "VITE******************************************4830",
-      "timestamp": "2026-03-21T05:56:49.258475"
+      "timestamp": "2026-03-22T06:11:46.730232"
     },
     {
       "service": "vite",
@@ -105,7 +105,7 @@
       "description": "Vite Coinmarketcap Api Key",
       "severity": "medium",
       "matched_pattern": "VITE***************************************************5fdc",
-      "timestamp": "2026-03-21T05:56:49.258576"
+      "timestamp": "2026-03-22T06:11:46.730318"
     },
     {
       "service": "vite",
@@ -118,7 +118,7 @@
       "description": "Vite Cohere Api Key",
       "severity": "medium",
       "matched_pattern": "VITE****************************************************T8n1",
-      "timestamp": "2026-03-21T05:56:49.258705"
+      "timestamp": "2026-03-22T06:11:46.730448"
     },
     {
       "service": "vite",
@@ -131,7 +131,7 @@
       "description": "Vite Pinata Api Key",
       "severity": "medium",
       "matched_pattern": "VITE********************************b5b8",
-      "timestamp": "2026-03-21T05:56:49.258851"
+      "timestamp": "2026-03-22T06:11:46.730562"
     },
     {
       "service": "vite",
@@ -144,7 +144,7 @@
       "description": "Vite Pinata Secret Key",
       "severity": "high",
       "matched_pattern": "VITE*******************************************************************************a19b",
-      "timestamp": "2026-03-21T05:56:49.258943"
+      "timestamp": "2026-03-22T06:11:46.730639"
     },
     {
       "service": "vite",
@@ -157,7 +157,7 @@
       "description": "Vite Twilio Auth Token",
       "severity": "medium",
       "matched_pattern": "VITE***********************************************1295",
-      "timestamp": "2026-03-21T05:56:49.258986"
+      "timestamp": "2026-03-22T06:11:46.730673"
     }
   ]
 }

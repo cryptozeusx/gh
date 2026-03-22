@@ -1,6 +1,6 @@
 {
   "service": "gemini",
-  "scan_timestamp": "2026-03-21T05:57:09.850842",
+  "scan_timestamp": "2026-03-22T06:12:05.795565",
   "finding_count": 7,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************G4Z4",
-      "timestamp": "2026-03-21T05:56:19.787022"
+      "timestamp": "2026-03-22T06:11:15.784204"
     },
     {
       "service": "gemini",
@@ -27,7 +27,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "    **********************************ash)",
-      "timestamp": "2026-03-21T05:56:21.465117"
+      "timestamp": "2026-03-22T06:11:17.616641"
     },
     {
       "service": "gemini",
@@ -40,7 +40,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************o_vI",
-      "timestamp": "2026-03-21T05:56:26.832914"
+      "timestamp": "2026-03-22T06:11:23.572865"
     },
     {
       "service": "gemini",
@@ -53,7 +53,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************MZeA",
-      "timestamp": "2026-03-21T05:56:27.516712"
+      "timestamp": "2026-03-22T06:11:24.461210"
     },
     {
       "service": "gemini",
@@ -66,7 +66,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************9_ag",
-      "timestamp": "2026-03-21T05:56:47.560607"
+      "timestamp": "2026-03-22T06:11:44.658729"
     },
     {
       "service": "gemini",
@@ -79,7 +79,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************inns",
-      "timestamp": "2026-03-21T05:56:47.722058"
+      "timestamp": "2026-03-22T06:11:44.836228"
     },
     {
       "service": "gemini",
@@ -92,7 +92,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************Dsdg",
-      "timestamp": "2026-03-21T05:56:48.915214"
+      "timestamp": "2026-03-22T06:11:46.360355"
     }
   ]
 }

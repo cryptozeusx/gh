@@ -1,6 +1,6 @@
 {
   "service": "rag",
-  "scan_timestamp": "2026-03-21T05:57:09.860073",
+  "scan_timestamp": "2026-03-22T06:12:05.803307",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Rag Openai Api Key",
       "severity": "medium",
       "matched_pattern": "sk-1**************************NGED",
-      "timestamp": "2026-03-21T05:56:18.609138"
+      "timestamp": "2026-03-22T06:11:14.494809"
     }
   ]
 }

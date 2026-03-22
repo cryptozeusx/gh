@@ -1,6 +1,6 @@
 {
   "service": "iyzico",
-  "scan_timestamp": "2026-03-21T05:57:09.854147",
+  "scan_timestamp": "2026-03-22T06:12:05.798777",
   "finding_count": 10,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Iyzico Api Key",
       "severity": "medium",
       "matched_pattern": "IYZI*************************************************E9o\"",
-      "timestamp": "2026-03-21T05:56:43.088673"
+      "timestamp": "2026-03-22T06:11:38.381536"
     },
     {
       "service": "iyzico",
@@ -27,7 +27,7 @@
       "description": "Iyzico Secret Key",
       "severity": "high",
       "matched_pattern": "IYZI****************************************************ceu\"",
-      "timestamp": "2026-03-21T05:56:43.088758"
+      "timestamp": "2026-03-22T06:11:38.381603"
     },
     {
       "service": "iyzico",
@@ -40,7 +40,7 @@
       "description": "Iyzico Api Key",
       "severity": "medium",
       "matched_pattern": "IYZI***************************************************uve\"",
-      "timestamp": "2026-03-21T05:56:44.919709"
+      "timestamp": "2026-03-22T06:11:40.350188"
     },
     {
       "service": "iyzico",
@@ -53,7 +53,7 @@
       "description": "Iyzico Secret Key",
       "severity": "high",
       "matched_pattern": "IYZI****************************************************M27\"",
-      "timestamp": "2026-03-21T05:56:44.919805"
+      "timestamp": "2026-03-22T06:11:40.350260"
     },
     {
       "service": "iyzico",
@@ -66,7 +66,7 @@
       "description": "Iyzico Api Key",
       "severity": "medium",
       "matched_pattern": "IYZI***********************************************DbTn",
-      "timestamp": "2026-03-21T05:56:54.493876"
+      "timestamp": "2026-03-22T06:11:50.927068"
     },
     {
       "service": "iyzico",
@@ -79,33 +79,33 @@
       "description": "Iyzico Secret Key",
       "severity": "high",
       "matched_pattern": "IYZI**************************************************exnA",
-      "timestamp": "2026-03-21T05:56:54.493995"
+      "timestamp": "2026-03-22T06:11:50.927137"
     },
     {
       "service": "iyzico",
       "file": "backend/.env.development",
       "repository": "oguzbenturk/UKC.world",
-      "url": "https://github.com/oguzbenturk/UKC.world/blob/7552c64e562e6abc647ca198dd03ac6f03a6fc26/backend/.env.development",
+      "url": "https://github.com/oguzbenturk/UKC.world/blob/e24af46b03a56a04e13757077970ec82cdacca48/backend/.env.development",
       "line_number": 24,
       "line_preview": "IYZICO_API_KEY=sandbox-VCCnjIPSZMaGZ6GAHYdrBlhzXaFb7WZ6",
       "key_type": "iyzico_api_key",
       "description": "Iyzico Api Key",
       "severity": "medium",
       "matched_pattern": "IYZI***********************************************7WZ6",
-      "timestamp": "2026-03-21T05:57:08.499272"
+      "timestamp": "2026-03-22T06:12:04.428540"
     },
     {
       "service": "iyzico",
       "file": "backend/.env.development",
       "repository": "oguzbenturk/UKC.world",
-      "url": "https://github.com/oguzbenturk/UKC.world/blob/7552c64e562e6abc647ca198dd03ac6f03a6fc26/backend/.env.development",
+      "url": "https://github.com/oguzbenturk/UKC.world/blob/e24af46b03a56a04e13757077970ec82cdacca48/backend/.env.development",
       "line_number": 25,
       "line_preview": "IYZICO_SECRET_KEY=sandbox-W8hOEybjBUWLfKWrnKIVYF58xzd4jzTR",
       "key_type": "iyzico_secret_key",
       "description": "Iyzico Secret Key",
       "severity": "high",
       "matched_pattern": "IYZI**************************************************jzTR",
-      "timestamp": "2026-03-21T05:57:08.499377"
+      "timestamp": "2026-03-22T06:12:04.428629"
     },
     {
       "service": "iyzico",
@@ -118,7 +118,7 @@
       "description": "Iyzico Api Key",
       "severity": "medium",
       "matched_pattern": "IYZI***********************************************FBUN",
-      "timestamp": "2026-03-21T05:57:08.751994"
+      "timestamp": "2026-03-22T06:12:04.704481"
     },
     {
       "service": "iyzico",
@@ -131,7 +131,7 @@
       "description": "Iyzico Secret Key",
       "severity": "high",
       "matched_pattern": "IYZI******************************************9NXN",
-      "timestamp": "2026-03-21T05:57:08.752104"
+      "timestamp": "2026-03-22T06:12:04.704556"
     }
   ]
 }

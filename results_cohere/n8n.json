@@ -1,6 +1,6 @@
 {
   "service": "n8n",
-  "scan_timestamp": "2026-03-21T05:57:09.856273",
+  "scan_timestamp": "2026-03-22T06:12:05.800356",
   "finding_count": 3,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "N8N Generic Api Key",
       "severity": "medium",
       "matched_pattern": "sk-1**************************NGED",
-      "timestamp": "2026-03-21T05:56:18.609300"
+      "timestamp": "2026-03-22T06:11:14.494936"
     },
     {
       "service": "n8n",
@@ -27,7 +27,7 @@
       "description": "N8N Basic Auth User",
       "severity": "medium",
       "matched_pattern": "admi************************NGED",
-      "timestamp": "2026-03-21T05:56:18.609344"
+      "timestamp": "2026-03-22T06:11:14.494972"
     },
     {
       "service": "n8n",
@@ -40,7 +40,7 @@
       "description": "N8N Encryption Key",
       "severity": "medium",
       "matched_pattern": "rag-********************2024",
-      "timestamp": "2026-03-21T05:56:22.622835"
+      "timestamp": "2026-03-22T06:11:18.917150"
     }
   ]
 }

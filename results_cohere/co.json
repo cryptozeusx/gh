@@ -1,6 +1,6 @@
 {
   "service": "co",
-  "scan_timestamp": "2026-03-21T05:57:09.846961",
+  "scan_timestamp": "2026-03-22T06:12:05.792372",
   "finding_count": 5,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************************89cf",
-      "timestamp": "2026-03-21T05:56:26.668646"
+      "timestamp": "2026-03-22T06:11:23.339104"
     },
     {
       "service": "co",
@@ -27,7 +27,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*******************Q80T",
-      "timestamp": "2026-03-21T05:56:26.722487"
+      "timestamp": "2026-03-22T06:11:23.412030"
     },
     {
       "service": "co",
@@ -40,7 +40,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************s_90",
-      "timestamp": "2026-03-21T05:56:28.001792"
+      "timestamp": "2026-03-22T06:11:25.085189"
     },
     {
       "service": "co",
@@ -53,7 +53,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********************************61ad",
-      "timestamp": "2026-03-21T05:56:29.293235"
+      "timestamp": "2026-03-22T06:11:26.564498"
     },
     {
       "service": "co",
@@ -66,7 +66,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*******************************FcU'",
-      "timestamp": "2026-03-21T05:56:54.413762"
+      "timestamp": "2026-03-22T06:11:50.840805"
     }
   ]
 }

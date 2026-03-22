@@ -1,7 +1,7 @@
 {
   "service": "generic",
-  "scan_timestamp": "2026-03-21T05:57:09.851058",
-  "finding_count": 187,
+  "scan_timestamp": "2026-03-22T06:12:05.795735",
+  "finding_count": 186,
   "findings": [
     {
       "service": "generic",
@@ -14,7 +14,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "PRIV**********************************************************************a641",
-      "timestamp": "2026-03-21T05:56:08.337671"
+      "timestamp": "2026-03-22T06:11:04.662984"
     },
     {
       "service": "generic",
@@ -27,7 +27,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_***************************************************gZUe",
-      "timestamp": "2026-03-21T05:56:09.324188"
+      "timestamp": "2026-03-22T06:11:05.613430"
     },
     {
       "service": "generic",
@@ -40,7 +40,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR**************************5_LQ",
-      "timestamp": "2026-03-21T05:56:09.853698"
+      "timestamp": "2026-03-22T06:11:06.144713"
     },
     {
       "service": "generic",
@@ -53,7 +53,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "api_*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************ifQ\"",
-      "timestamp": "2026-03-21T05:56:10.119863"
+      "timestamp": "2026-03-22T06:11:06.389963"
     },
     {
       "service": "generic",
@@ -66,7 +66,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_**********************************9Z2I",
-      "timestamp": "2026-03-21T05:56:13.826881"
+      "timestamp": "2026-03-22T06:11:07.900689"
     },
     {
       "service": "generic",
@@ -79,7 +79,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_********************************5d75",
-      "timestamp": "2026-03-21T05:56:13.826990"
+      "timestamp": "2026-03-22T06:11:07.900836"
     },
     {
       "service": "generic",
@@ -92,33 +92,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_***************************************M8w0",
-      "timestamp": "2026-03-21T05:56:13.903614"
-    },
-    {
-      "service": "generic",
-      "file": ".env.copy",
-      "repository": "menloparklab/cohere-weaviate-wikipedia-retrieval",
-      "url": "https://github.com/menloparklab/cohere-weaviate-wikipedia-retrieval/blob/bbbeaaade3802da886427e884760c80928ea00fd/.env.copy",
-      "line_number": 3,
-      "line_preview": "weaviate_api_key=\"76320a90-53d8-42bc-b41d-678647c6672e\"",
-      "key_type": "generic_api_key",
-      "description": "Generic API Key",
-      "severity": "medium",
-      "matched_pattern": "api_**************************************72e\"",
-      "timestamp": "2026-03-21T05:56:14.988823"
-    },
-    {
-      "service": "generic",
-      "file": ".env",
-      "repository": "1rgs/clarity-reader",
-      "url": "https://github.com/1rgs/clarity-reader/blob/7ebeac5ebdcbe97c4f6e386219289c49ac8748c0/.env",
-      "line_number": 2,
-      "line_preview": "NEXT_PUBLIC_COHERE_API_KEY=lAnkF4FVq4mULVbgphAECOCr",
-      "key_type": "generic_api_key",
-      "description": "Generic API Key",
-      "severity": "medium",
-      "matched_pattern": "API_************************COCr",
-      "timestamp": "2026-03-21T05:56:15.046644"
+      "timestamp": "2026-03-22T06:11:07.968178"
     },
     {
       "service": "generic",
@@ -131,7 +105,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "PRIV********************************************************************0697",
-      "timestamp": "2026-03-21T05:56:16.211675"
+      "timestamp": "2026-03-22T06:11:10.315073"
     },
     {
       "service": "generic",
@@ -144,7 +118,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_**********************************Z26U",
-      "timestamp": "2026-03-21T05:56:16.211815"
+      "timestamp": "2026-03-22T06:11:10.315234"
     },
     {
       "service": "generic",
@@ -157,7 +131,33 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_********************4511",
-      "timestamp": "2026-03-21T05:56:16.211921"
+      "timestamp": "2026-03-22T06:11:10.315342"
+    },
+    {
+      "service": "generic",
+      "file": ".env.copy",
+      "repository": "menloparklab/cohere-weaviate-wikipedia-retrieval",
+      "url": "https://github.com/menloparklab/cohere-weaviate-wikipedia-retrieval/blob/bbbeaaade3802da886427e884760c80928ea00fd/.env.copy",
+      "line_number": 3,
+      "line_preview": "weaviate_api_key=\"76320a90-53d8-42bc-b41d-678647c6672e\"",
+      "key_type": "generic_api_key",
+      "description": "Generic API Key",
+      "severity": "medium",
+      "matched_pattern": "api_**************************************72e\"",
+      "timestamp": "2026-03-22T06:11:11.127038"
+    },
+    {
+      "service": "generic",
+      "file": ".env",
+      "repository": "1rgs/clarity-reader",
+      "url": "https://github.com/1rgs/clarity-reader/blob/7ebeac5ebdcbe97c4f6e386219289c49ac8748c0/.env",
+      "line_number": 2,
+      "line_preview": "NEXT_PUBLIC_COHERE_API_KEY=lAnkF4FVq4mULVbgphAECOCr",
+      "key_type": "generic_api_key",
+      "description": "Generic API Key",
+      "severity": "medium",
+      "matched_pattern": "API_************************COCr",
+      "timestamp": "2026-03-22T06:11:11.183747"
     },
     {
       "service": "generic",
@@ -170,7 +170,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_******************************************U2X\"",
-      "timestamp": "2026-03-21T05:56:18.399702"
+      "timestamp": "2026-03-22T06:11:14.238279"
     },
     {
       "service": "generic",
@@ -183,7 +183,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_***********************************************************************************************ywkA",
-      "timestamp": "2026-03-21T05:56:19.045487"
+      "timestamp": "2026-03-22T06:11:14.899538"
     },
     {
       "service": "generic",
@@ -196,7 +196,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_************************************************************************************************************FAAA",
-      "timestamp": "2026-03-21T05:56:19.045631"
+      "timestamp": "2026-03-22T06:11:14.899650"
     },
     {
       "service": "generic",
@@ -209,7 +209,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_***************************************N1rg",
-      "timestamp": "2026-03-21T05:56:19.045769"
+      "timestamp": "2026-03-22T06:11:14.899759"
     },
     {
       "service": "generic",
@@ -222,7 +222,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_********************************swdN",
-      "timestamp": "2026-03-21T05:56:19.045811"
+      "timestamp": "2026-03-22T06:11:14.899792"
     },
     {
       "service": "generic",
@@ -235,7 +235,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************zLo1",
-      "timestamp": "2026-03-21T05:56:19.045850"
+      "timestamp": "2026-03-22T06:11:14.899824"
     },
     {
       "service": "generic",
@@ -248,7 +248,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_*****************************************************a662",
-      "timestamp": "2026-03-21T05:56:19.045928"
+      "timestamp": "2026-03-22T06:11:14.899887"
     },
     {
       "service": "generic",
@@ -261,7 +261,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_*************************************************************************ffaf",
-      "timestamp": "2026-03-21T05:56:19.045967"
+      "timestamp": "2026-03-22T06:11:14.899919"
     },
     {
       "service": "generic",
@@ -274,7 +274,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_***************************************************5a46",
-      "timestamp": "2026-03-21T05:56:19.046045"
+      "timestamp": "2026-03-22T06:11:14.899982"
     },
     {
       "service": "generic",
@@ -287,7 +287,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_************************************1775",
-      "timestamp": "2026-03-21T05:56:19.046109"
+      "timestamp": "2026-03-22T06:11:14.900013"
     },
     {
       "service": "generic",
@@ -300,7 +300,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_***************************************G4Z4",
-      "timestamp": "2026-03-21T05:56:19.786959"
+      "timestamp": "2026-03-22T06:11:15.784151"
     },
     {
       "service": "generic",
@@ -313,7 +313,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_********************************************************YHCA",
-      "timestamp": "2026-03-21T05:56:19.787097"
+      "timestamp": "2026-03-22T06:11:15.784245"
     },
     {
       "service": "generic",
@@ -326,7 +326,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************vnYs",
-      "timestamp": "2026-03-21T05:56:19.787149"
+      "timestamp": "2026-03-22T06:11:15.784281"
     },
     {
       "service": "generic",
@@ -339,7 +339,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_*************************************auRi",
-      "timestamp": "2026-03-21T05:56:19.787247"
+      "timestamp": "2026-03-22T06:11:15.784369"
     },
     {
       "service": "generic",
@@ -352,7 +352,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_********************************************************************************************************************************************************************TsEA",
-      "timestamp": "2026-03-21T05:56:19.787294"
+      "timestamp": "2026-03-22T06:11:15.784403"
     },
     {
       "service": "generic",
@@ -365,7 +365,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_********************************Q3DG",
-      "timestamp": "2026-03-21T05:56:20.094375"
+      "timestamp": "2026-03-22T06:11:16.126574"
     },
     {
       "service": "generic",
@@ -378,7 +378,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR***************yLN5",
-      "timestamp": "2026-03-21T05:56:20.094552"
+      "timestamp": "2026-03-22T06:11:16.126728"
     },
     {
       "service": "generic",
@@ -391,7 +391,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************HqF4",
-      "timestamp": "2026-03-21T05:56:20.094642"
+      "timestamp": "2026-03-22T06:11:16.126778"
     },
     {
       "service": "generic",
@@ -404,7 +404,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR**************************ZJTc",
-      "timestamp": "2026-03-21T05:56:20.094804"
+      "timestamp": "2026-03-22T06:11:16.126891"
     },
     {
       "service": "generic",
@@ -417,7 +417,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_******************************************QPqD",
-      "timestamp": "2026-03-21T05:56:20.463522"
+      "timestamp": "2026-03-22T06:11:16.560620"
     },
     {
       "service": "generic",
@@ -430,7 +430,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************znyz",
-      "timestamp": "2026-03-21T05:56:21.013523"
+      "timestamp": "2026-03-22T06:11:17.129041"
     },
     {
       "service": "generic",
@@ -443,7 +443,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************UB1D",
-      "timestamp": "2026-03-21T05:56:21.098628"
+      "timestamp": "2026-03-22T06:11:17.212519"
     },
     {
       "service": "generic",
@@ -456,7 +456,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_***********************************************************************************************Ghe1",
-      "timestamp": "2026-03-21T05:56:21.098725"
+      "timestamp": "2026-03-22T06:11:17.212593"
     },
     {
       "service": "generic",
@@ -469,7 +469,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************OkSm",
-      "timestamp": "2026-03-21T05:56:21.178523"
+      "timestamp": "2026-03-22T06:11:17.290252"
     },
     {
       "service": "generic",
@@ -482,7 +482,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************24AX",
-      "timestamp": "2026-03-21T05:56:21.912640"
+      "timestamp": "2026-03-22T06:11:18.122021"
     },
     {
       "service": "generic",
@@ -495,7 +495,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_***************************************uM_k",
-      "timestamp": "2026-03-21T05:56:21.966660"
+      "timestamp": "2026-03-22T06:11:18.194170"
     },
     {
       "service": "generic",
@@ -508,7 +508,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_********************************BCw7",
-      "timestamp": "2026-03-21T05:56:21.966713"
+      "timestamp": "2026-03-22T06:11:18.194217"
     },
     {
       "service": "generic",
@@ -521,7 +521,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_*************************************************************************************zNFn",
-      "timestamp": "2026-03-21T05:56:22.029577"
+      "timestamp": "2026-03-22T06:11:18.258704"
     },
     {
       "service": "generic",
@@ -534,7 +534,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_******************************************G84s",
-      "timestamp": "2026-03-21T05:56:22.184723"
+      "timestamp": "2026-03-22T06:11:18.421809"
     },
     {
       "service": "generic",
@@ -547,7 +547,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_**********************************************************************************************************************************************************************HIA\"",
-      "timestamp": "2026-03-21T05:56:22.490144"
+      "timestamp": "2026-03-22T06:11:18.770635"
     },
     {
       "service": "generic",
@@ -560,7 +560,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR***************************************************************09ef",
-      "timestamp": "2026-03-21T05:56:22.490410"
+      "timestamp": "2026-03-22T06:11:18.770860"
     },
     {
       "service": "generic",
@@ -573,7 +573,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR***************************************************************8418",
-      "timestamp": "2026-03-21T05:56:22.490499"
+      "timestamp": "2026-03-22T06:11:18.770946"
     },
     {
       "service": "generic",
@@ -586,7 +586,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_********************************************************************************************************************************************************************HL0A",
-      "timestamp": "2026-03-21T05:56:22.622554"
+      "timestamp": "2026-03-22T06:11:18.916903"
     },
     {
       "service": "generic",
@@ -599,7 +599,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************Dyu5",
-      "timestamp": "2026-03-21T05:56:22.622699"
+      "timestamp": "2026-03-22T06:11:18.917038"
     },
     {
       "service": "generic",
@@ -612,7 +612,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************************************94A\"",
-      "timestamp": "2026-03-21T05:56:22.772360"
+      "timestamp": "2026-03-22T06:11:19.078960"
     },
     {
       "service": "generic",
@@ -625,7 +625,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_************************************dde5",
-      "timestamp": "2026-03-21T05:56:24.772216"
+      "timestamp": "2026-03-22T06:11:21.159090"
     },
     {
       "service": "generic",
@@ -638,7 +638,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "PRIV**********************************************************************6d51",
-      "timestamp": "2026-03-21T05:56:24.772409"
+      "timestamp": "2026-03-22T06:11:21.159278"
     },
     {
       "service": "generic",
@@ -651,7 +651,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_***************************************urOk",
-      "timestamp": "2026-03-21T05:56:25.435009"
+      "timestamp": "2026-03-22T06:11:21.931254"
     },
     {
       "service": "generic",
@@ -664,7 +664,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************HsaY",
-      "timestamp": "2026-03-21T05:56:25.435061"
+      "timestamp": "2026-03-22T06:11:21.931302"
     },
     {
       "service": "generic",
@@ -677,7 +677,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_***************************************urOk",
-      "timestamp": "2026-03-21T05:56:25.648198"
+      "timestamp": "2026-03-22T06:11:22.176144"
     },
     {
       "service": "generic",
@@ -690,7 +690,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************HsaY",
-      "timestamp": "2026-03-21T05:56:25.648264"
+      "timestamp": "2026-03-22T06:11:22.176191"
     },
     {
       "service": "generic",
@@ -703,7 +703,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "PRIV**********************************************************************cdef",
-      "timestamp": "2026-03-21T05:56:26.611690"
+      "timestamp": "2026-03-22T06:11:23.221805"
     },
     {
       "service": "generic",
@@ -716,7 +716,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_*******************************89cf",
-      "timestamp": "2026-03-21T05:56:26.668515"
+      "timestamp": "2026-03-22T06:11:23.338984"
     },
     {
       "service": "generic",
@@ -729,7 +729,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_***********************************1692",
-      "timestamp": "2026-03-21T05:56:26.722163"
+      "timestamp": "2026-03-22T06:11:23.411769"
     },
     {
       "service": "generic",
@@ -742,7 +742,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_************************************935d",
-      "timestamp": "2026-03-21T05:56:26.722400"
+      "timestamp": "2026-03-22T06:11:23.411960"
     },
     {
       "service": "generic",
@@ -755,7 +755,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************Q80T",
-      "timestamp": "2026-03-21T05:56:26.722444"
+      "timestamp": "2026-03-22T06:11:23.411996"
     },
     {
       "service": "generic",
@@ -768,7 +768,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "PRIV**********************************************************************56c0",
-      "timestamp": "2026-03-21T05:56:26.722532"
+      "timestamp": "2026-03-22T06:11:23.412083"
     },
     {
       "service": "generic",
@@ -781,7 +781,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_********************************************************************************************************************************************************************zr4A",
-      "timestamp": "2026-03-21T05:56:26.722574"
+      "timestamp": "2026-03-22T06:11:23.412120"
     },
     {
       "service": "generic",
@@ -794,7 +794,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_************************************78a6",
-      "timestamp": "2026-03-21T05:56:26.722724"
+      "timestamp": "2026-03-22T06:11:23.412233"
     },
     {
       "service": "generic",
@@ -807,7 +807,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR*******************************E220",
-      "timestamp": "2026-03-21T05:56:26.722764"
+      "timestamp": "2026-03-22T06:11:23.412268"
     },
     {
       "service": "generic",
@@ -820,7 +820,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************78ll",
-      "timestamp": "2026-03-21T05:56:26.776621"
+      "timestamp": "2026-03-22T06:11:23.489609"
     },
     {
       "service": "generic",
@@ -833,7 +833,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_***************************************o_vI",
-      "timestamp": "2026-03-21T05:56:26.832860"
+      "timestamp": "2026-03-22T06:11:23.572818"
     },
     {
       "service": "generic",
@@ -846,7 +846,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_***************************************cStA",
-      "timestamp": "2026-03-21T05:56:26.833002"
+      "timestamp": "2026-03-22T06:11:23.572939"
     },
     {
       "service": "generic",
@@ -859,7 +859,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************ruiv",
-      "timestamp": "2026-03-21T05:56:26.974527"
+      "timestamp": "2026-03-22T06:11:23.768506"
     },
     {
       "service": "generic",
@@ -872,7 +872,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************9a5d",
-      "timestamp": "2026-03-21T05:56:27.335346"
+      "timestamp": "2026-03-22T06:11:24.222408"
     },
     {
       "service": "generic",
@@ -885,7 +885,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************PuLj",
-      "timestamp": "2026-03-21T05:56:27.458202"
+      "timestamp": "2026-03-22T06:11:24.382602"
     },
     {
       "service": "generic",
@@ -898,7 +898,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************WdRm",
-      "timestamp": "2026-03-21T05:56:27.516436"
+      "timestamp": "2026-03-22T06:11:24.460951"
     },
     {
       "service": "generic",
@@ -911,7 +911,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_***************************************MZeA",
-      "timestamp": "2026-03-21T05:56:27.516668"
+      "timestamp": "2026-03-22T06:11:24.461171"
     },
     {
       "service": "generic",
@@ -924,7 +924,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************Cfa0",
-      "timestamp": "2026-03-21T05:56:27.863917"
+      "timestamp": "2026-03-22T06:11:24.899941"
     },
     {
       "service": "generic",
@@ -937,7 +937,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************rvfa",
-      "timestamp": "2026-03-21T05:56:27.864051"
+      "timestamp": "2026-03-22T06:11:24.900060"
     },
     {
       "service": "generic",
@@ -950,7 +950,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_*******************s_90",
-      "timestamp": "2026-03-21T05:56:28.001709"
+      "timestamp": "2026-03-22T06:11:25.085142"
     },
     {
       "service": "generic",
@@ -963,7 +963,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR*********************************************Ivs\"",
-      "timestamp": "2026-03-21T05:56:28.615827"
+      "timestamp": "2026-03-22T06:11:25.779173"
     },
     {
       "service": "generic",
@@ -976,7 +976,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_***************************************************************************************************M1YQ",
-      "timestamp": "2026-03-21T05:56:28.615881"
+      "timestamp": "2026-03-22T06:11:25.779222"
     },
     {
       "service": "generic",
@@ -989,7 +989,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_******************************************E9o\"",
-      "timestamp": "2026-03-21T05:56:28.615927"
+      "timestamp": "2026-03-22T06:11:25.779261"
     },
     {
       "service": "generic",
@@ -1002,7 +1002,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************hVqC",
-      "timestamp": "2026-03-21T05:56:28.683445"
+      "timestamp": "2026-03-22T06:11:25.858696"
     },
     {
       "service": "generic",
@@ -1015,7 +1015,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR************************************HARS",
-      "timestamp": "2026-03-21T05:56:29.081765"
+      "timestamp": "2026-03-22T06:11:26.307181"
     },
     {
       "service": "generic",
@@ -1028,7 +1028,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR**********************************************HARS",
-      "timestamp": "2026-03-21T05:56:29.081865"
+      "timestamp": "2026-03-22T06:11:26.307284"
     },
     {
       "service": "generic",
@@ -1041,7 +1041,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR*********************************************TERS",
-      "timestamp": "2026-03-21T05:56:29.173656"
+      "timestamp": "2026-03-22T06:11:26.394910"
     },
     {
       "service": "generic",
@@ -1054,7 +1054,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_*****************************************_3uQ",
-      "timestamp": "2026-03-21T05:56:29.232339"
+      "timestamp": "2026-03-22T06:11:26.477702"
     },
     {
       "service": "generic",
@@ -1067,7 +1067,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_**********************************************************egLH",
-      "timestamp": "2026-03-21T05:56:29.232391"
+      "timestamp": "2026-03-22T06:11:26.477750"
     },
     {
       "service": "generic",
@@ -1080,7 +1080,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_******************************************************************a21a",
-      "timestamp": "2026-03-21T05:56:29.232482"
+      "timestamp": "2026-03-22T06:11:26.477825"
     },
     {
       "service": "generic",
@@ -1093,7 +1093,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_***************************************2Xo0",
-      "timestamp": "2026-03-21T05:56:29.232526"
+      "timestamp": "2026-03-22T06:11:26.477860"
     },
     {
       "service": "generic",
@@ -1106,7 +1106,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_*****************************************************************3jWm",
-      "timestamp": "2026-03-21T05:56:29.232666"
+      "timestamp": "2026-03-22T06:11:26.477964"
     },
     {
       "service": "generic",
@@ -1119,7 +1119,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_**************************************029e",
-      "timestamp": "2026-03-21T05:56:29.232705"
+      "timestamp": "2026-03-22T06:11:26.477996"
     },
     {
       "service": "generic",
@@ -1132,7 +1132,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_*******************************************C6ic",
-      "timestamp": "2026-03-21T05:56:29.232744"
+      "timestamp": "2026-03-22T06:11:26.478040"
     },
     {
       "service": "generic",
@@ -1145,7 +1145,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_**********************************8GfS",
-      "timestamp": "2026-03-21T05:56:29.232831"
+      "timestamp": "2026-03-22T06:11:26.478105"
     },
     {
       "service": "generic",
@@ -1158,7 +1158,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_**************************************************************************************4Lso",
-      "timestamp": "2026-03-21T05:56:29.232914"
+      "timestamp": "2026-03-22T06:11:26.478169"
     },
     {
       "service": "generic",
@@ -1171,7 +1171,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_*************************************2cee",
-      "timestamp": "2026-03-21T05:56:29.232971"
+      "timestamp": "2026-03-22T06:11:26.478205"
     },
     {
       "service": "generic",
@@ -1184,7 +1184,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_********************************61ad",
-      "timestamp": "2026-03-21T05:56:29.293068"
+      "timestamp": "2026-03-22T06:11:26.564378"
     },
     {
       "service": "generic",
@@ -1197,7 +1197,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_********************************************************HfDm",
-      "timestamp": "2026-03-21T05:56:29.347461"
+      "timestamp": "2026-03-22T06:11:26.646604"
     },
     {
       "service": "generic",
@@ -1210,7 +1210,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************7KNs",
-      "timestamp": "2026-03-21T05:56:29.347679"
+      "timestamp": "2026-03-22T06:11:26.646768"
     },
     {
       "service": "generic",
@@ -1223,7 +1223,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************JXcB",
-      "timestamp": "2026-03-21T05:56:29.400538"
+      "timestamp": "2026-03-22T06:11:26.727830"
     },
     {
       "service": "generic",
@@ -1236,7 +1236,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************eBUW",
-      "timestamp": "2026-03-21T05:56:29.455807"
+      "timestamp": "2026-03-22T06:11:26.816363"
     },
     {
       "service": "generic",
@@ -1249,7 +1249,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "APIK*******************************************************HN6L",
-      "timestamp": "2026-03-21T05:56:29.456010"
+      "timestamp": "2026-03-22T06:11:26.816526"
     },
     {
       "service": "generic",
@@ -1262,7 +1262,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_*************************************kJud",
-      "timestamp": "2026-03-21T05:56:29.456058"
+      "timestamp": "2026-03-22T06:11:26.816563"
     },
     {
       "service": "generic",
@@ -1275,7 +1275,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_********************************************************bx9C",
-      "timestamp": "2026-03-21T05:56:29.516996"
+      "timestamp": "2026-03-22T06:11:26.900057"
     },
     {
       "service": "generic",
@@ -1288,7 +1288,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_*************************************jSg2",
-      "timestamp": "2026-03-21T05:56:29.517218"
+      "timestamp": "2026-03-22T06:11:26.900230"
     },
     {
       "service": "generic",
@@ -1301,7 +1301,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_************************************1b3b",
-      "timestamp": "2026-03-21T05:56:29.517384"
+      "timestamp": "2026-03-22T06:11:26.900400"
     },
     {
       "service": "generic",
@@ -1314,7 +1314,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************LYId",
-      "timestamp": "2026-03-21T05:56:29.517492"
+      "timestamp": "2026-03-22T06:11:26.900478"
     },
     {
       "service": "generic",
@@ -1327,20 +1327,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************3557",
-      "timestamp": "2026-03-21T05:56:30.250693"
-    },
-    {
-      "service": "generic",
-      "file": "backend/.env.production.template",
-      "repository": "umityaman/canary-digital",
-      "url": "https://github.com/umityaman/canary-digital/blob/d25e45413af254e9de6710971020d68d4e76489d/backend/.env.production.template",
-      "line_number": 13,
-      "line_preview": "JWT_SECRET=CHANGE_THIS_TO_32_CHAR_SECRET",
-      "key_type": "generic_secret",
-      "description": "Generic Secret",
-      "severity": "medium",
-      "matched_pattern": "SECR****************************CRET",
-      "timestamp": "2026-03-21T05:56:30.332007"
+      "timestamp": "2026-03-22T06:11:27.756573"
     },
     {
       "service": "generic",
@@ -1353,7 +1340,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR***************************************************************09ef",
-      "timestamp": "2026-03-21T05:56:33.374574"
+      "timestamp": "2026-03-22T06:11:30.156162"
     },
     {
       "service": "generic",
@@ -1366,7 +1353,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR***************************************************************8418",
-      "timestamp": "2026-03-21T05:56:33.374664"
+      "timestamp": "2026-03-22T06:11:30.156238"
     },
     {
       "service": "generic",
@@ -1379,7 +1366,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR*********************************************************************************NVQ\"",
-      "timestamp": "2026-03-21T05:56:43.088130"
+      "timestamp": "2026-03-22T06:11:38.381051"
     },
     {
       "service": "generic",
@@ -1392,7 +1379,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR*********************************************Ivs\"",
-      "timestamp": "2026-03-21T05:56:43.088274"
+      "timestamp": "2026-03-22T06:11:38.381209"
     },
     {
       "service": "generic",
@@ -1405,7 +1392,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_***************************************************************************************************M1YQ",
-      "timestamp": "2026-03-21T05:56:43.088443"
+      "timestamp": "2026-03-22T06:11:38.381359"
     },
     {
       "service": "generic",
@@ -1418,7 +1405,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_******************************************E9o\"",
-      "timestamp": "2026-03-21T05:56:43.088589"
+      "timestamp": "2026-03-22T06:11:38.381469"
     },
     {
       "service": "generic",
@@ -1431,7 +1418,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR*****************************************************h62\"",
-      "timestamp": "2026-03-21T05:56:43.088843"
+      "timestamp": "2026-03-22T06:11:38.381686"
     },
     {
       "service": "generic",
@@ -1444,7 +1431,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "PRIV********************************************************************************************Bd6o",
-      "timestamp": "2026-03-21T05:56:43.088883"
+      "timestamp": "2026-03-22T06:11:38.381720"
     },
     {
       "service": "generic",
@@ -1457,7 +1444,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR*************************************************eba4",
-      "timestamp": "2026-03-21T05:56:43.088923"
+      "timestamp": "2026-03-22T06:11:38.381757"
     },
     {
       "service": "generic",
@@ -1470,7 +1457,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_********************************************uve\"",
-      "timestamp": "2026-03-21T05:56:44.919606"
+      "timestamp": "2026-03-22T06:11:40.350099"
     },
     {
       "service": "generic",
@@ -1483,7 +1470,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_*****************************************5jc\"",
-      "timestamp": "2026-03-21T05:56:44.919906"
+      "timestamp": "2026-03-22T06:11:40.350351"
     },
     {
       "service": "generic",
@@ -1496,7 +1483,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_***************************************************************************************************************************************************************************************************************************2aHQ",
-      "timestamp": "2026-03-21T05:56:46.138857"
+      "timestamp": "2026-03-22T06:11:41.770955"
     },
     {
       "service": "generic",
@@ -1509,7 +1496,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_***************************************9_ag",
-      "timestamp": "2026-03-21T05:56:47.560554"
+      "timestamp": "2026-03-22T06:11:44.658681"
     },
     {
       "service": "generic",
@@ -1522,7 +1509,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_********************************************************************************************************************************************************************WbkA",
-      "timestamp": "2026-03-21T05:56:47.721536"
+      "timestamp": "2026-03-22T06:11:44.835846"
     },
     {
       "service": "generic",
@@ -1535,7 +1522,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_***************************************************557a",
-      "timestamp": "2026-03-21T05:56:47.721689"
+      "timestamp": "2026-03-22T06:11:44.835949"
     },
     {
       "service": "generic",
@@ -1548,7 +1535,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************ag6t",
-      "timestamp": "2026-03-21T05:56:47.721783"
+      "timestamp": "2026-03-22T06:11:44.836024"
     },
     {
       "service": "generic",
@@ -1561,7 +1548,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_***************************************inns",
-      "timestamp": "2026-03-21T05:56:47.721994"
+      "timestamp": "2026-03-22T06:11:44.836178"
     },
     {
       "service": "generic",
@@ -1574,7 +1561,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_***************************************3s1A",
-      "timestamp": "2026-03-21T05:56:47.722209"
+      "timestamp": "2026-03-22T06:11:44.836376"
     },
     {
       "service": "generic",
@@ -1587,7 +1574,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_********************************9490",
-      "timestamp": "2026-03-21T05:56:47.722270"
+      "timestamp": "2026-03-22T06:11:44.836428"
     },
     {
       "service": "generic",
@@ -1600,7 +1587,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_********************************5e9e",
-      "timestamp": "2026-03-21T05:56:47.722332"
+      "timestamp": "2026-03-22T06:11:44.836474"
     },
     {
       "service": "generic",
@@ -1613,7 +1600,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_********************************0e5c",
-      "timestamp": "2026-03-21T05:56:47.722383"
+      "timestamp": "2026-03-22T06:11:44.836518"
     },
     {
       "service": "generic",
@@ -1626,7 +1613,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_************************************************mTLO",
-      "timestamp": "2026-03-21T05:56:47.722424"
+      "timestamp": "2026-03-22T06:11:44.836562"
     },
     {
       "service": "generic",
@@ -1639,7 +1626,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_*************************CCJ9",
-      "timestamp": "2026-03-21T05:56:47.722463"
+      "timestamp": "2026-03-22T06:11:44.836606"
     },
     {
       "service": "generic",
@@ -1652,7 +1639,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR*************************************************YNze",
-      "timestamp": "2026-03-21T05:56:47.722501"
+      "timestamp": "2026-03-22T06:11:44.836658"
     },
     {
       "service": "generic",
@@ -1665,7 +1652,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_********************************92b5",
-      "timestamp": "2026-03-21T05:56:47.722580"
+      "timestamp": "2026-03-22T06:11:44.836731"
     },
     {
       "service": "generic",
@@ -1678,7 +1665,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR***********************************************************************************************3cb8",
-      "timestamp": "2026-03-21T05:56:47.722618"
+      "timestamp": "2026-03-22T06:11:44.836763"
     },
     {
       "service": "generic",
@@ -1691,7 +1678,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR***********************************************************************************************28f6",
-      "timestamp": "2026-03-21T05:56:47.722701"
+      "timestamp": "2026-03-22T06:11:44.836831"
     },
     {
       "service": "generic",
@@ -1704,7 +1691,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_********************************4830",
-      "timestamp": "2026-03-21T05:56:47.869504"
+      "timestamp": "2026-03-22T06:11:45.006215"
     },
     {
       "service": "generic",
@@ -1717,7 +1704,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_********************************5fdc",
-      "timestamp": "2026-03-21T05:56:47.869638"
+      "timestamp": "2026-03-22T06:11:45.006368"
     },
     {
       "service": "generic",
@@ -1730,7 +1717,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************T8n1",
-      "timestamp": "2026-03-21T05:56:47.869689"
+      "timestamp": "2026-03-22T06:11:45.006417"
     },
     {
       "service": "generic",
@@ -1743,7 +1730,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_********************b5b8",
-      "timestamp": "2026-03-21T05:56:47.869779"
+      "timestamp": "2026-03-22T06:11:45.006495"
     },
     {
       "service": "generic",
@@ -1756,7 +1743,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR*******************************d29b",
-      "timestamp": "2026-03-21T05:56:47.978537"
+      "timestamp": "2026-03-22T06:11:45.114210"
     },
     {
       "service": "generic",
@@ -1769,7 +1756,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_**********************2345",
-      "timestamp": "2026-03-21T05:56:47.978765"
+      "timestamp": "2026-03-22T06:11:45.114441"
     },
     {
       "service": "generic",
@@ -1782,7 +1769,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_*************************2345",
-      "timestamp": "2026-03-21T05:56:47.978807"
+      "timestamp": "2026-03-22T06:11:45.114475"
     },
     {
       "service": "generic",
@@ -1795,46 +1782,46 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_************************2345",
-      "timestamp": "2026-03-21T05:56:47.978857"
+      "timestamp": "2026-03-22T06:11:45.114508"
     },
     {
       "service": "generic",
       "file": ".env.local",
       "repository": "sudanva21/Career-Advisor-SIH",
-      "url": "https://github.com/sudanva21/Career-Advisor-SIH/blob/e4571da7533630aec2bbbc774696e576e71bf688/.env.local",
+      "url": "https://github.com/sudanva21/Career-Advisor-SIH/blob/36d5272b7d80719b8c19696bbb6500b652ee9b14/.env.local",
       "line_number": 38,
       "line_preview": "HUGGINGFACE_API_KEY=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",
       "key_type": "generic_api_key",
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_*************************************AmJS",
-      "timestamp": "2026-03-21T05:56:48.615611"
+      "timestamp": "2026-03-22T06:11:46.022746"
     },
     {
       "service": "generic",
       "file": ".env.local",
       "repository": "sudanva21/Career-Advisor-SIH",
-      "url": "https://github.com/sudanva21/Career-Advisor-SIH/blob/e4571da7533630aec2bbbc774696e576e71bf688/.env.local",
+      "url": "https://github.com/sudanva21/Career-Advisor-SIH/blob/36d5272b7d80719b8c19696bbb6500b652ee9b14/.env.local",
       "line_number": 40,
       "line_preview": "COHERE_API_KEY=9G8lEb3bftStUoB3JHShHYA1Ija6RXP8vNsOssh3",
       "key_type": "generic_api_key",
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************ssh3",
-      "timestamp": "2026-03-21T05:56:48.615720"
+      "timestamp": "2026-03-22T06:11:46.022819"
     },
     {
       "service": "generic",
       "file": ".env.local",
       "repository": "sudanva21/Career-Advisor-SIH",
-      "url": "https://github.com/sudanva21/Career-Advisor-SIH/blob/e4571da7533630aec2bbbc774696e576e71bf688/.env.local",
+      "url": "https://github.com/sudanva21/Career-Advisor-SIH/blob/36d5272b7d80719b8c19696bbb6500b652ee9b14/.env.local",
       "line_number": 53,
       "line_preview": "NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=AIzaSyDe9PcYT1EB2-p4uumsQ4hx2jOVM61Hrow",
       "key_type": "generic_api_key",
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_***************************************Hrow",
-      "timestamp": "2026-03-21T05:56:48.615855"
+      "timestamp": "2026-03-22T06:11:46.022921"
     },
     {
       "service": "generic",
@@ -1847,7 +1834,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_***************************************VCJ9",
-      "timestamp": "2026-03-21T05:56:48.842869"
+      "timestamp": "2026-03-22T06:11:46.283157"
     },
     {
       "service": "generic",
@@ -1860,7 +1847,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************hdFS",
-      "timestamp": "2026-03-21T05:56:48.842975"
+      "timestamp": "2026-03-22T06:11:46.283267"
     },
     {
       "service": "generic",
@@ -1873,7 +1860,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_************************************************************************************************************DgAA",
-      "timestamp": "2026-03-21T05:56:48.914439"
+      "timestamp": "2026-03-22T06:11:46.359818"
     },
     {
       "service": "generic",
@@ -1886,7 +1873,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_********************************************************************************************************************************************************************Z-YA",
-      "timestamp": "2026-03-21T05:56:48.914717"
+      "timestamp": "2026-03-22T06:11:46.360043"
     },
     {
       "service": "generic",
@@ -1899,7 +1886,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_********************************************************5dr7",
-      "timestamp": "2026-03-21T05:56:48.914931"
+      "timestamp": "2026-03-22T06:11:46.360154"
     },
     {
       "service": "generic",
@@ -1912,7 +1899,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_***************************************Dsdg",
-      "timestamp": "2026-03-21T05:56:48.915145"
+      "timestamp": "2026-03-22T06:11:46.360290"
     },
     {
       "service": "generic",
@@ -1925,7 +1912,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_***************************************cG40",
-      "timestamp": "2026-03-21T05:56:48.915339"
+      "timestamp": "2026-03-22T06:11:46.360465"
     },
     {
       "service": "generic",
@@ -1938,7 +1925,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_********************************KYHC",
-      "timestamp": "2026-03-21T05:56:48.915466"
+      "timestamp": "2026-03-22T06:11:46.360586"
     },
     {
       "service": "generic",
@@ -1951,7 +1938,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_***********************************e392",
-      "timestamp": "2026-03-21T05:56:48.915595"
+      "timestamp": "2026-03-22T06:11:46.360698"
     },
     {
       "service": "generic",
@@ -1964,7 +1951,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************Sg3a",
-      "timestamp": "2026-03-21T05:56:48.915809"
+      "timestamp": "2026-03-22T06:11:46.360860"
     },
     {
       "service": "generic",
@@ -1977,7 +1964,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************************************5df3",
-      "timestamp": "2026-03-21T05:56:48.915962"
+      "timestamp": "2026-03-22T06:11:46.360986"
     },
     {
       "service": "generic",
@@ -1990,7 +1977,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_*************************************************************************798b",
-      "timestamp": "2026-03-21T05:56:48.916136"
+      "timestamp": "2026-03-22T06:11:46.361088"
     },
     {
       "service": "generic",
@@ -2003,7 +1990,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_******************************************************************************f8c9",
-      "timestamp": "2026-03-21T05:56:48.916344"
+      "timestamp": "2026-03-22T06:11:46.361188"
     },
     {
       "service": "generic",
@@ -2016,7 +2003,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_************************************************************************************************************************************e2ca",
-      "timestamp": "2026-03-21T05:56:48.916406"
+      "timestamp": "2026-03-22T06:11:46.361221"
     },
     {
       "service": "generic",
@@ -2029,7 +2016,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_************************************VCJ9",
-      "timestamp": "2026-03-21T05:56:48.916468"
+      "timestamp": "2026-03-22T06:11:46.361267"
     },
     {
       "service": "generic",
@@ -2042,7 +2029,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_************************************a04c",
-      "timestamp": "2026-03-21T05:56:48.916602"
+      "timestamp": "2026-03-22T06:11:46.361375"
     },
     {
       "service": "generic",
@@ -2055,7 +2042,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_***************************************************rGoF",
-      "timestamp": "2026-03-21T05:56:48.916734"
+      "timestamp": "2026-03-22T06:11:46.361453"
     },
     {
       "service": "generic",
@@ -2068,7 +2055,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR*****************************PD8Q",
-      "timestamp": "2026-03-21T05:56:48.916934"
+      "timestamp": "2026-03-22T06:11:46.361550"
     },
     {
       "service": "generic",
@@ -2081,7 +2068,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************************************2CE4",
-      "timestamp": "2026-03-21T05:56:48.916996"
+      "timestamp": "2026-03-22T06:11:46.361581"
     },
     {
       "service": "generic",
@@ -2094,7 +2081,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR**********************************4_32",
-      "timestamp": "2026-03-21T05:56:48.917320"
+      "timestamp": "2026-03-22T06:11:46.361719"
     },
     {
       "service": "generic",
@@ -2107,7 +2094,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************Zj9Q",
-      "timestamp": "2026-03-21T05:56:48.996720"
+      "timestamp": "2026-03-22T06:11:46.441683"
     },
     {
       "service": "generic",
@@ -2120,7 +2107,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_********************************4830",
-      "timestamp": "2026-03-21T05:56:49.258340"
+      "timestamp": "2026-03-22T06:11:46.730090"
     },
     {
       "service": "generic",
@@ -2133,7 +2120,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_********************************5fdc",
-      "timestamp": "2026-03-21T05:56:49.258529"
+      "timestamp": "2026-03-22T06:11:46.730280"
     },
     {
       "service": "generic",
@@ -2146,7 +2133,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************T8n1",
-      "timestamp": "2026-03-21T05:56:49.258621"
+      "timestamp": "2026-03-22T06:11:46.730377"
     },
     {
       "service": "generic",
@@ -2159,7 +2146,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_********************b5b8",
-      "timestamp": "2026-03-21T05:56:49.258747"
+      "timestamp": "2026-03-22T06:11:46.730482"
     },
     {
       "service": "generic",
@@ -2172,7 +2159,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************FcU'",
-      "timestamp": "2026-03-21T05:56:54.413631"
+      "timestamp": "2026-03-22T06:11:50.840665"
     },
     {
       "service": "generic",
@@ -2185,7 +2172,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************DbTn",
-      "timestamp": "2026-03-21T05:56:54.493781"
+      "timestamp": "2026-03-22T06:11:50.926995"
     },
     {
       "service": "generic",
@@ -2198,7 +2185,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR************************2025",
-      "timestamp": "2026-03-21T05:56:54.494052"
+      "timestamp": "2026-03-22T06:11:50.927171"
     },
     {
       "service": "generic",
@@ -2211,7 +2198,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR***************************************************************************************************353\"",
-      "timestamp": "2026-03-21T05:57:01.426435"
+      "timestamp": "2026-03-22T06:11:57.440048"
     },
     {
       "service": "generic",
@@ -2224,7 +2211,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR***************************************************************************************************5e4\"",
-      "timestamp": "2026-03-21T05:57:01.426601"
+      "timestamp": "2026-03-22T06:11:57.440214"
     },
     {
       "service": "generic",
@@ -2237,7 +2224,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR***************************************************************************************************6ba\"",
-      "timestamp": "2026-03-21T05:57:01.426653"
+      "timestamp": "2026-03-22T06:11:57.440266"
     },
     {
       "service": "generic",
@@ -2250,7 +2237,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR***************************************************************************************************686\"",
-      "timestamp": "2026-03-21T05:57:01.426701"
+      "timestamp": "2026-03-22T06:11:57.440311"
     },
     {
       "service": "generic",
@@ -2263,7 +2250,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR***************************************************************************************************b4c\"",
-      "timestamp": "2026-03-21T05:57:01.426762"
+      "timestamp": "2026-03-22T06:11:57.440365"
     },
     {
       "service": "generic",
@@ -2276,7 +2263,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR***************************************************************************************************b6c\"",
-      "timestamp": "2026-03-21T05:57:01.426808"
+      "timestamp": "2026-03-22T06:11:57.440404"
     },
     {
       "service": "generic",
@@ -2289,7 +2276,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_********************************************2Hv\"",
-      "timestamp": "2026-03-21T05:57:01.426849"
+      "timestamp": "2026-03-22T06:11:57.440455"
     },
     {
       "service": "generic",
@@ -2302,7 +2289,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_*************************c1Xw",
-      "timestamp": "2026-03-21T05:57:01.426934"
+      "timestamp": "2026-03-22T06:11:57.440575"
     },
     {
       "service": "generic",
@@ -2315,7 +2302,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_************************************fbb\"",
-      "timestamp": "2026-03-21T05:57:01.426975"
+      "timestamp": "2026-03-22T06:11:57.440622"
     },
     {
       "service": "generic",
@@ -2328,7 +2315,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************VGIU",
-      "timestamp": "2026-03-21T05:57:01.607386"
+      "timestamp": "2026-03-22T06:11:57.620443"
     },
     {
       "service": "generic",
@@ -2341,7 +2328,7 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR*********************************231\"",
-      "timestamp": "2026-03-21T05:57:01.676593"
+      "timestamp": "2026-03-22T06:11:57.704188"
     },
     {
       "service": "generic",
@@ -2354,7 +2341,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************3VLY",
-      "timestamp": "2026-03-21T05:57:01.856301"
+      "timestamp": "2026-03-22T06:11:57.873377"
     },
     {
       "service": "generic",
@@ -2367,33 +2354,33 @@
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR*********************************jXs\"",
-      "timestamp": "2026-03-21T05:57:02.086478"
+      "timestamp": "2026-03-22T06:11:58.127619"
     },
     {
       "service": "generic",
       "file": "backend/.env.development",
       "repository": "oguzbenturk/UKC.world",
-      "url": "https://github.com/oguzbenturk/UKC.world/blob/7552c64e562e6abc647ca198dd03ac6f03a6fc26/backend/.env.development",
+      "url": "https://github.com/oguzbenturk/UKC.world/blob/e24af46b03a56a04e13757077970ec82cdacca48/backend/.env.development",
       "line_number": 4,
       "line_preview": "JWT_SECRET=kitesurfpro-production-secret-key-2025",
       "key_type": "generic_secret",
       "description": "Generic Secret",
       "severity": "medium",
       "matched_pattern": "SECR*************************************2025",
-      "timestamp": "2026-03-21T05:57:08.498882"
+      "timestamp": "2026-03-22T06:12:04.427930"
     },
     {
       "service": "generic",
       "file": "backend/.env.development",
       "repository": "oguzbenturk/UKC.world",
-      "url": "https://github.com/oguzbenturk/UKC.world/blob/7552c64e562e6abc647ca198dd03ac6f03a6fc26/backend/.env.development",
+      "url": "https://github.com/oguzbenturk/UKC.world/blob/e24af46b03a56a04e13757077970ec82cdacca48/backend/.env.development",
       "line_number": 24,
       "line_preview": "IYZICO_API_KEY=sandbox-VCCnjIPSZMaGZ6GAHYdrBlhzXaFb7WZ6",
       "key_type": "generic_api_key",
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************7WZ6",
-      "timestamp": "2026-03-21T05:57:08.499068"
+      "timestamp": "2026-03-22T06:12:04.428450"
     },
     {
       "service": "generic",
@@ -2406,7 +2393,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_**************************************c23'",
-      "timestamp": "2026-03-21T05:57:08.584845"
+      "timestamp": "2026-03-22T06:12:04.524958"
     },
     {
       "service": "generic",
@@ -2419,7 +2406,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************FBUN",
-      "timestamp": "2026-03-21T05:57:08.751809"
+      "timestamp": "2026-03-22T06:12:04.704282"
     },
     {
       "service": "generic",
@@ -2432,7 +2419,7 @@
       "description": "Generic API Key",
       "severity": "medium",
       "matched_pattern": "API_**************************************c23'",
-      "timestamp": "2026-03-21T05:57:08.842359"
+      "timestamp": "2026-03-22T06:12:04.788106"
     }
   ]
 }
