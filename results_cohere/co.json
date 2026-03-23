@@ -1,7 +1,7 @@
 {
   "service": "co",
-  "scan_timestamp": "2026-03-22T06:12:05.792372",
-  "finding_count": 5,
+  "scan_timestamp": "2026-03-23T07:47:50.930645",
+  "finding_count": 6,
   "findings": [
     {
       "service": "co",
@@ -14,7 +14,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************************89cf",
-      "timestamp": "2026-03-22T06:11:23.339104"
+      "timestamp": "2026-03-23T07:47:03.259938"
     },
     {
       "service": "co",
@@ -27,20 +27,20 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*******************Q80T",
-      "timestamp": "2026-03-22T06:11:23.412030"
+      "timestamp": "2026-03-23T07:47:03.321570"
     },
     {
       "service": "co",
       "file": ".env",
-      "repository": "NepsenX/NepsenX",
-      "url": "https://github.com/NepsenX/NepsenX/blob/762cc29ed45fa717b9ca2653a7663c324d6b460d/.env",
-      "line_number": 19,
-      "line_preview": "CO_API_KEY=co_secure_access_90",
+      "repository": "surya140104/Flood_Risk_140104",
+      "url": "https://github.com/surya140104/Flood_Risk_140104/blob/7e5ce762a7198a7b9fd701c6942d114bd3fe04b2/.env",
+      "line_number": 16,
+      "line_preview": "NEXT_PUBLIC_GEOCODE_MAPS_CO_API_KEY=683d9a25d35b3791659375hjpd4d5a3",
       "key_type": "co_api_key",
       "description": "Co Api Key",
       "severity": "medium",
-      "matched_pattern": "CO_A**********************s_90",
-      "timestamp": "2026-03-22T06:11:25.085189"
+      "matched_pattern": "CO_A**********************************d5a3",
+      "timestamp": "2026-03-23T07:47:03.401249"
     },
     {
       "service": "co",
@@ -53,7 +53,20 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********************************61ad",
-      "timestamp": "2026-03-22T06:11:26.564498"
+      "timestamp": "2026-03-23T07:47:06.392436"
+    },
+    {
+      "service": "co",
+      "file": ".env.prod.example",
+      "repository": "realsarius/ecommerce-belediye-testcase",
+      "url": "https://github.com/realsarius/ecommerce-belediye-testcase/blob/79229537f28e6fc608206ce88da4b15bb0fd5c45/.env.prod.example",
+      "line_number": 42,
+      "line_preview": "IYZICO_API_KEY=sandbox-",
+      "key_type": "co_api_key",
+      "description": "Co Api Key",
+      "severity": "medium",
+      "matched_pattern": "CO_A***********box-",
+      "timestamp": "2026-03-23T07:47:24.317981"
     },
     {
       "service": "co",
@@ -66,7 +79,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*******************************FcU'",
-      "timestamp": "2026-03-22T06:11:50.840805"
+      "timestamp": "2026-03-23T07:47:35.636791"
     }
   ]
 }

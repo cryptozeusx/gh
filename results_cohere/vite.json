@@ -1,60 +1,8 @@
 {
   "service": "vite",
-  "scan_timestamp": "2026-03-22T06:12:05.805352",
-  "finding_count": 12,
+  "scan_timestamp": "2026-03-23T07:47:50.948177",
+  "finding_count": 14,
   "findings": [
-    {
-      "service": "vite",
-      "file": ".env",
-      "repository": "cecepns/carrywise-dashboard",
-      "url": "https://github.com/cecepns/carrywise-dashboard/blob/df159cbf9e60595a7db3a96a55eb9d473959cca8/.env",
-      "line_number": 8,
-      "line_preview": "VITE_MAPBOX_ACCESS_TOKEN=pk.eyJ1IjoiZGFyeS1raW1hIiwiYSI6ImNsYmY0dGhlZjAydWkzd282bTRhM2sxNGgifQ.-dhGzI0M8kCdMt7eS1SCTw",
-      "key_type": "vite_mapbox_access_token",
-      "description": "Vite Mapbox Access Token",
-      "severity": "medium",
-      "matched_pattern": "pk.e************************************************************************************SCTw",
-      "timestamp": "2026-03-22T06:11:23.339246"
-    },
-    {
-      "service": "vite",
-      "file": ".env",
-      "repository": "cecepns/carrywise-dashboard",
-      "url": "https://github.com/cecepns/carrywise-dashboard/blob/df159cbf9e60595a7db3a96a55eb9d473959cca8/.env",
-      "line_number": 9,
-      "line_preview": "VITE_STRIPE_PUBLISHABLE_KEY=pk_live_51MVujNBdYOotom3uL1efU5WAJP0YtCUDKRiIzQI5cKqbeOBEpFoNMCreKlhKZBOk1LbPESNZo02IRIlEk5a",
-      "key_type": "vite_stripe_publishable_key",
-      "description": "Vite Stripe Publishable Key",
-      "severity": "medium",
-      "matched_pattern": "pk_l***************************************************************************************************C0Kg",
-      "timestamp": "2026-03-22T06:11:23.339282"
-    },
-    {
-      "service": "vite",
-      "file": "pkgs/frontend/.env.example",
-      "repository": "hackdays-io/toban",
-      "url": "https://github.com/hackdays-io/toban/blob/341bae56d3196e4780cd7e4404d3d76ad9211b20/pkgs/frontend/.env.example",
-      "line_number": 9,
-      "line_preview": "VITE_FRACTION_TOKEN_ADDRESS=0xd921517fdF141d97C289bDb9686f51A1375dCc69",
-      "key_type": "vite_fraction_token_address",
-      "description": "Vite Fraction Token Address",
-      "severity": "medium",
-      "matched_pattern": "0xd9**********************************Cc69",
-      "timestamp": "2026-03-22T06:11:41.128156"
-    },
-    {
-      "service": "vite",
-      "file": "pkgs/frontend/.env.example",
-      "repository": "hackdays-io/toban",
-      "url": "https://github.com/hackdays-io/toban/blob/341bae56d3196e4780cd7e4404d3d76ad9211b20/pkgs/frontend/.env.example",
-      "line_number": 19,
-      "line_preview": "VITE_PINATA_GATEWAY_TOKEN=\"M-iEBglWoUCZWJYsihe1IRrngs7HIGeIr3s5lObVw96hv7GTuCw1QrlmnNtwvuXt\"",
-      "key_type": "vite_pinata_gateway_token",
-      "description": "Vite Pinata Gateway Token",
-      "severity": "medium",
-      "matched_pattern": "M-iE********************************************************vuXt",
-      "timestamp": "2026-03-22T06:11:41.128307"
-    },
     {
       "service": "vite",
       "file": ".env.local",
@@ -66,7 +14,7 @@
       "description": "Vite Twilio Auth Token",
       "severity": "medium",
       "matched_pattern": "bb70************************1295",
-      "timestamp": "2026-03-22T06:11:45.006615"
+      "timestamp": "2026-03-23T07:46:52.915615"
     },
     {
       "service": "vite",
@@ -79,7 +27,85 @@
       "description": "Vite Cohere Api Key",
       "severity": "medium",
       "matched_pattern": "VITE****************************************************Zj9Q",
-      "timestamp": "2026-03-22T06:11:46.441862"
+      "timestamp": "2026-03-23T07:46:55.219239"
+    },
+    {
+      "service": "vite",
+      "file": ".env",
+      "repository": "cecepns/carrywise-dashboard",
+      "url": "https://github.com/cecepns/carrywise-dashboard/blob/df159cbf9e60595a7db3a96a55eb9d473959cca8/.env",
+      "line_number": 8,
+      "line_preview": "VITE_MAPBOX_ACCESS_TOKEN=pk.eyJ1IjoiZGFyeS1raW1hIiwiYSI6ImNsYmY0dGhlZjAydWkzd282bTRhM2sxNGgifQ.-dhGzI0M8kCdMt7eS1SCTw",
+      "key_type": "vite_mapbox_access_token",
+      "description": "Vite Mapbox Access Token",
+      "severity": "medium",
+      "matched_pattern": "pk.e************************************************************************************SCTw",
+      "timestamp": "2026-03-23T07:47:03.260086"
+    },
+    {
+      "service": "vite",
+      "file": ".env",
+      "repository": "cecepns/carrywise-dashboard",
+      "url": "https://github.com/cecepns/carrywise-dashboard/blob/df159cbf9e60595a7db3a96a55eb9d473959cca8/.env",
+      "line_number": 9,
+      "line_preview": "VITE_STRIPE_PUBLISHABLE_KEY=pk_live_51MVujNBdYOotom3uL1efU5WAJP0YtCUDKRiIzQI5cKqbeOBEpFoNMCreKlhKZBOk1LbPESNZo02IRIlEk5a",
+      "key_type": "vite_stripe_publishable_key",
+      "description": "Vite Stripe Publishable Key",
+      "severity": "medium",
+      "matched_pattern": "pk_l***************************************************************************************************C0Kg",
+      "timestamp": "2026-03-23T07:47:03.260128"
+    },
+    {
+      "service": "vite",
+      "file": ".env.example",
+      "repository": "kafein-technology/KAI-Flow",
+      "url": "https://github.com/kafein-technology/KAI-Flow/blob/896dda503001ed762efa6790645245db5b6b5056/.env.example",
+      "line_number": 43,
+      "line_preview": "VITE_KEYCLOAK_URL=http://localhost:8080",
+      "key_type": "vite_keycloak_url",
+      "description": "Vite Keycloak Url",
+      "severity": "medium",
+      "matched_pattern": "http*************8080",
+      "timestamp": "2026-03-23T07:47:16.459730"
+    },
+    {
+      "service": "vite",
+      "file": ".env.example",
+      "repository": "kafein-technology/KAI-Flow",
+      "url": "https://github.com/kafein-technology/KAI-Flow/blob/896dda503001ed762efa6790645245db5b6b5056/.env.example",
+      "line_number": 45,
+      "line_preview": "VITE_KEYCLOAK_CLIENT_ID=agenticgro",
+      "key_type": "vite_keycloak_client_id",
+      "description": "Vite Keycloak Client Id",
+      "severity": "medium",
+      "matched_pattern": "agen**cgro",
+      "timestamp": "2026-03-23T07:47:16.459800"
+    },
+    {
+      "service": "vite",
+      "file": "pkgs/frontend/.env.example",
+      "repository": "hackdays-io/toban",
+      "url": "https://github.com/hackdays-io/toban/blob/341bae56d3196e4780cd7e4404d3d76ad9211b20/pkgs/frontend/.env.example",
+      "line_number": 9,
+      "line_preview": "VITE_FRACTION_TOKEN_ADDRESS=0xd921517fdF141d97C289bDb9686f51A1375dCc69",
+      "key_type": "vite_fraction_token_address",
+      "description": "Vite Fraction Token Address",
+      "severity": "medium",
+      "matched_pattern": "0xd9**********************************Cc69",
+      "timestamp": "2026-03-23T07:47:26.762584"
+    },
+    {
+      "service": "vite",
+      "file": "pkgs/frontend/.env.example",
+      "repository": "hackdays-io/toban",
+      "url": "https://github.com/hackdays-io/toban/blob/341bae56d3196e4780cd7e4404d3d76ad9211b20/pkgs/frontend/.env.example",
+      "line_number": 19,
+      "line_preview": "VITE_PINATA_GATEWAY_TOKEN=\"M-iEBglWoUCZWJYsihe1IRrngs7HIGeIr3s5lObVw96hv7GTuCw1QrlmnNtwvuXt\"",
+      "key_type": "vite_pinata_gateway_token",
+      "description": "Vite Pinata Gateway Token",
+      "severity": "medium",
+      "matched_pattern": "M-iE********************************************************vuXt",
+      "timestamp": "2026-03-23T07:47:26.762710"
     },
     {
       "service": "vite",
@@ -92,7 +118,7 @@
       "description": "Vite Hiro Api Key",
       "severity": "medium",
       "matched_pattern": "VITE******************************************4830",
-      "timestamp": "2026-03-22T06:11:46.730232"
+      "timestamp": "2026-03-23T07:47:30.798718"
     },
     {
       "service": "vite",
@@ -105,7 +131,7 @@
       "description": "Vite Coinmarketcap Api Key",
       "severity": "medium",
       "matched_pattern": "VITE***************************************************5fdc",
-      "timestamp": "2026-03-22T06:11:46.730318"
+      "timestamp": "2026-03-23T07:47:30.798821"
     },
     {
       "service": "vite",
@@ -118,7 +144,7 @@
       "description": "Vite Cohere Api Key",
       "severity": "medium",
       "matched_pattern": "VITE****************************************************T8n1",
-      "timestamp": "2026-03-22T06:11:46.730448"
+      "timestamp": "2026-03-23T07:47:30.798953"
     },
     {
       "service": "vite",
@@ -131,7 +157,7 @@
       "description": "Vite Pinata Api Key",
       "severity": "medium",
       "matched_pattern": "VITE********************************b5b8",
-      "timestamp": "2026-03-22T06:11:46.730562"
+      "timestamp": "2026-03-23T07:47:30.799113"
     },
     {
       "service": "vite",
@@ -144,7 +170,7 @@
       "description": "Vite Pinata Secret Key",
       "severity": "high",
       "matched_pattern": "VITE*******************************************************************************a19b",
-      "timestamp": "2026-03-22T06:11:46.730639"
+      "timestamp": "2026-03-23T07:47:30.799241"
     },
     {
       "service": "vite",
@@ -157,7 +183,7 @@
       "description": "Vite Twilio Auth Token",
       "severity": "medium",
       "matched_pattern": "VITE***********************************************1295",
-      "timestamp": "2026-03-22T06:11:46.730673"
+      "timestamp": "2026-03-23T07:47:30.799296"
     }
   ]
 }

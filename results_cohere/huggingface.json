@@ -1,21 +1,8 @@
 {
   "service": "huggingface",
-  "scan_timestamp": "2026-03-22T06:12:05.798440",
-  "finding_count": 4,
+  "scan_timestamp": "2026-03-23T07:47:50.939822",
+  "finding_count": 3,
   "findings": [
-    {
-      "service": "huggingface",
-      "file": ".env",
-      "repository": "rishab-d12/jarviss",
-      "url": "https://github.com/rishab-d12/jarviss/blob/9b71545e2c5acbe9a8103f12636e74f9d3f63aa5/.env",
-      "line_number": 7,
-      "line_preview": "HuggingFace_API_Key=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",
-      "key_type": "huggingface_api_key",
-      "description": "Huggingface Api Key",
-      "severity": "medium",
-      "matched_pattern": "Hugg*************************************************kJud",
-      "timestamp": "2026-03-22T06:11:26.816597"
-    },
     {
       "service": "huggingface",
       "file": "env.local",
@@ -27,7 +14,7 @@
       "description": "Huggingface Api Token",
       "severity": "medium",
       "matched_pattern": "hf_g*****************************xfcH",
-      "timestamp": "2026-03-22T06:11:44.837006"
+      "timestamp": "2026-03-23T07:47:28.978229"
     },
     {
       "service": "huggingface",
@@ -40,7 +27,7 @@
       "description": "Huggingface Api Key",
       "severity": "medium",
       "matched_pattern": "HUGG*************************************************AmJS",
-      "timestamp": "2026-03-22T06:11:46.022782"
+      "timestamp": "2026-03-23T07:47:30.190406"
     },
     {
       "service": "huggingface",
@@ -53,7 +40,7 @@
       "description": "Huggingface Api Token",
       "severity": "medium",
       "matched_pattern": "HUGG****************************************************JfKA",
-      "timestamp": "2026-03-22T06:11:46.283222"
+      "timestamp": "2026-03-23T07:47:30.426333"
     }
   ]
 }

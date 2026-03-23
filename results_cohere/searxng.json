@@ -1,6 +1,6 @@
 {
   "service": "searxng",
-  "scan_timestamp": "2026-03-22T06:12:05.803635",
+  "scan_timestamp": "2026-03-23T07:47:50.945693",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Searxng Secret",
       "severity": "high",
       "matched_pattern": " # g*********************************************4 32",
-      "timestamp": "2026-03-22T06:11:44.750544"
+      "timestamp": "2026-03-23T07:47:28.915116"
     }
   ]
 }

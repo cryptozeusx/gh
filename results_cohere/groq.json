@@ -1,6 +1,6 @@
 {
   "service": "groq",
-  "scan_timestamp": "2026-03-22T06:12:05.798258",
+  "scan_timestamp": "2026-03-23T07:47:50.939671",
   "finding_count": 6,
   "findings": [
     {
@@ -14,20 +14,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "    ************************************************************ral)",
-      "timestamp": "2026-03-22T06:11:17.616943"
-    },
-    {
-      "service": "groq",
-      "file": ".env.local",
-      "repository": "LudwigSolutionsAI/ubiquitous-octo-bassoon",
-      "url": "https://github.com/LudwigSolutionsAI/ubiquitous-octo-bassoon/blob/8b667527689514e04ab416ae57843eb3e98e7542/.env.local",
-      "line_number": 6,
-      "line_preview": "GROQ_API_KEY= xai-fNtR7p1fGxH5CD1j8XByXUwM1FedrlSpnQUzVYwifxVMqs6JIhWJeq2eAFlOSbhTVQNag5cqlAg3zNFn",
-      "key_type": "groq_api_key",
-      "description": "Groq Api Key",
-      "severity": "medium",
-      "matched_pattern": "GROQ******************************************************************************************zNFn",
-      "timestamp": "2026-03-22T06:11:18.258819"
+      "timestamp": "2026-03-23T07:46:55.515688"
     },
     {
       "service": "groq",
@@ -40,7 +27,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ***************************************************************egLH",
-      "timestamp": "2026-03-22T06:11:26.477789"
+      "timestamp": "2026-03-23T07:47:06.308735"
     },
     {
       "service": "groq",
@@ -53,7 +40,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ*************************************************************HfDm",
-      "timestamp": "2026-03-22T06:11:26.646721"
+      "timestamp": "2026-03-23T07:47:06.456497"
     },
     {
       "service": "groq",
@@ -66,7 +53,20 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ*************************************************************bx9C",
-      "timestamp": "2026-03-22T06:11:26.900171"
+      "timestamp": "2026-03-23T07:47:06.685753"
+    },
+    {
+      "service": "groq",
+      "file": ".env.local",
+      "repository": "LudwigSolutionsAI/ubiquitous-octo-bassoon",
+      "url": "https://github.com/LudwigSolutionsAI/ubiquitous-octo-bassoon/blob/8b667527689514e04ab416ae57843eb3e98e7542/.env.local",
+      "line_number": 6,
+      "line_preview": "GROQ_API_KEY= xai-fNtR7p1fGxH5CD1j8XByXUwM1FedrlSpnQUzVYwifxVMqs6JIhWJeq2eAFlOSbhTVQNag5cqlAg3zNFn",
+      "key_type": "groq_api_key",
+      "description": "Groq Api Key",
+      "severity": "medium",
+      "matched_pattern": "GROQ******************************************************************************************zNFn",
+      "timestamp": "2026-03-23T07:47:30.114530"
     },
     {
       "service": "groq",
@@ -79,7 +79,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ*************************************************************5dr7",
-      "timestamp": "2026-03-22T06:11:46.360188"
+      "timestamp": "2026-03-23T07:47:30.493549"
     }
   ]
 }

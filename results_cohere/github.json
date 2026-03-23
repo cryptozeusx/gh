@@ -1,6 +1,6 @@
 {
   "service": "github",
-  "scan_timestamp": "2026-03-22T06:12:05.797868",
+  "scan_timestamp": "2026-03-23T07:47:50.939098",
   "finding_count": 2,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Github Token",
       "severity": "medium",
       "matched_pattern": "git@*****************************************.git",
-      "timestamp": "2026-03-22T06:11:20.486309"
+      "timestamp": "2026-03-23T07:47:00.409301"
     },
     {
       "service": "github",
@@ -27,7 +27,7 @@
       "description": "Github Webhook Secret",
       "severity": "high",
       "matched_pattern": "# (L******************ble)",
-      "timestamp": "2026-03-22T06:11:45.114689"
+      "timestamp": "2026-03-23T07:47:29.152085"
     }
   ]
 }

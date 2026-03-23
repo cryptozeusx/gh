@@ -1,6 +1,6 @@
 {
   "service": "pdf",
-  "scan_timestamp": "2026-03-22T06:12:05.802115",
+  "scan_timestamp": "2026-03-23T07:47:50.943719",
   "finding_count": 3,
   "findings": [
     {
@@ -14,20 +14,7 @@
       "description": "Pdf Co Api Key",
       "severity": "medium",
       "matched_pattern": "PDF_*************************************************************************************************Hhk4",
-      "timestamp": "2026-03-22T06:11:23.573044"
-    },
-    {
-      "service": "pdf",
-      "file": "client/.env",
-      "repository": "Anuj3558/QuizGenerator",
-      "url": "https://github.com/Anuj3558/QuizGenerator/blob/f1223bc25a4614c29c59a4e5c1dec5e4171c126c/client/.env",
-      "line_number": 2,
-      "line_preview": "REACT_APP_PDF_CO_API_KEY=anujloharkar3557@gmail.com_fy6lwTN96YTa6U1awD3bkKuLG3i7v6PJqJjGn5iAGbqrp6s5LSCShSoBbwoUqF7U",
-      "key_type": "pdf_co_api_key",
-      "description": "Pdf Co Api Key",
-      "severity": "medium",
-      "matched_pattern": "PDF_**************************************************************************************************qF7U",
-      "timestamp": "2026-03-22T06:11:27.756782"
+      "timestamp": "2026-03-23T07:47:03.494546"
     },
     {
       "service": "pdf",
@@ -40,7 +27,20 @@
       "description": "Pdf Co Api Key",
       "severity": "medium",
       "matched_pattern": "PDF_*******************************************************************************************YSui",
-      "timestamp": "2026-03-22T06:11:50.751007"
+      "timestamp": "2026-03-23T07:47:03.844756"
+    },
+    {
+      "service": "pdf",
+      "file": "client/.env",
+      "repository": "Anuj3558/QuizGenerator",
+      "url": "https://github.com/Anuj3558/QuizGenerator/blob/f1223bc25a4614c29c59a4e5c1dec5e4171c126c/client/.env",
+      "line_number": 2,
+      "line_preview": "REACT_APP_PDF_CO_API_KEY=anujloharkar3557@gmail.com_fy6lwTN96YTa6U1awD3bkKuLG3i7v6PJqJjGn5iAGbqrp6s5LSCShSoBbwoUqF7U",
+      "key_type": "pdf_co_api_key",
+      "description": "Pdf Co Api Key",
+      "severity": "medium",
+      "matched_pattern": "PDF_**************************************************************************************************qF7U",
+      "timestamp": "2026-03-23T07:47:10.812025"
     }
   ]
 }

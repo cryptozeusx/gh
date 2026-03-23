@@ -1,7 +1,7 @@
 {
   "service": "postgres",
-  "scan_timestamp": "2026-03-22T06:12:05.802538",
-  "finding_count": 5,
+  "scan_timestamp": "2026-03-23T07:47:50.944269",
+  "finding_count": 4,
   "findings": [
     {
       "service": "postgres",
@@ -14,33 +14,20 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "********",
-      "timestamp": "2026-03-22T06:11:05.260388"
-    },
-    {
-      "service": "postgres",
-      "file": ".env.openapi",
-      "repository": "EtroxTaran/rag_demo",
-      "url": "https://github.com/EtroxTaran/rag_demo/blob/6f1bee4b145eee8c13dd076359dfc198c1251d5c/.env.openapi",
-      "line_number": 21,
-      "line_preview": "POSTGRES_PASSWORD=ragdemo_pw",
-      "key_type": "postgres_password",
-      "description": "Postgres Password",
-      "severity": "high",
-      "matched_pattern": "POST********************o_pw",
-      "timestamp": "2026-03-22T06:11:18.916760"
+      "timestamp": "2026-03-23T07:46:43.616339"
     },
     {
       "service": "postgres",
       "file": ".env.hanzo.example",
       "repository": "hanzoai/chat",
-      "url": "https://github.com/hanzoai/chat/blob/b4d0a69200b717d4a5dc693d027979d3b25ef1ff/.env.hanzo.example",
+      "url": "https://github.com/hanzoai/chat/blob/7514785db127cb5618a334beda2fc7b77db8f435/.env.hanzo.example",
       "line_number": 14,
       "line_preview": "POSTGRES_PASSWORD=hanzo123",
       "key_type": "postgres_password",
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "POST******************o123",
-      "timestamp": "2026-03-22T06:11:28.856182"
+      "timestamp": "2026-03-23T07:47:13.695781"
     },
     {
       "service": "postgres",
@@ -53,7 +40,7 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "POST******************s123",
-      "timestamp": "2026-03-22T06:11:35.821495"
+      "timestamp": "2026-03-23T07:47:20.249922"
     },
     {
       "service": "postgres",
@@ -66,7 +53,7 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "POST**************************IX6P",
-      "timestamp": "2026-03-22T06:11:44.835708"
+      "timestamp": "2026-03-23T07:47:28.976898"
     }
   ]
 }

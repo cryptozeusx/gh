@@ -1,7 +1,7 @@
 {
   "service": "huggingfacehub",
-  "scan_timestamp": "2026-03-22T06:12:05.798570",
-  "finding_count": 2,
+  "scan_timestamp": "2026-03-23T07:47:50.939978",
+  "finding_count": 1,
   "findings": [
     {
       "service": "huggingfacehub",
@@ -14,20 +14,7 @@
       "description": "Huggingfacehub Api Token",
       "severity": "medium",
       "matched_pattern": " # H******************************************************rce)",
-      "timestamp": "2026-03-22T06:11:17.616907"
-    },
-    {
-      "service": "huggingfacehub",
-      "file": "multi-doc-chatbot-1/.env1",
-      "repository": "RakeshKumar045/AI_ML_DL_NLP_LLM_2024",
-      "url": "https://github.com/RakeshKumar045/AI_ML_DL_NLP_LLM_2024/blob/e45c7d977b0fab0b78b592217e1d7760424bac30/multi-doc-chatbot-1/.env1",
-      "line_number": 3,
-      "line_preview": "HUGGINGFACEHUB_API_TOKEN = \"hf_LklSYL\"  #",
-      "key_type": "huggingfacehub_api_token",
-      "description": "Huggingfacehub Api Token",
-      "severity": "medium",
-      "matched_pattern": "hf_L*****\"  #",
-      "timestamp": "2026-03-22T06:11:19.079192"
+      "timestamp": "2026-03-23T07:46:55.515642"
     }
   ]
 }

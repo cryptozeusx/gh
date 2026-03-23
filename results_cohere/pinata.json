@@ -1,21 +1,8 @@
 {
   "service": "pinata",
-  "scan_timestamp": "2026-03-22T06:12:05.802424",
+  "scan_timestamp": "2026-03-23T07:47:50.944128",
   "finding_count": 3,
   "findings": [
-    {
-      "service": "pinata",
-      "file": ".env.production",
-      "repository": "darrylyeo/blockhead",
-      "url": "https://github.com/darrylyeo/blockhead/blob/a7caa77447c0c51c388df7f81fc4879d25623ab4/.env.production",
-      "line_number": 115,
-      "line_preview": "PUBLIC_PINATA_API_KEY=\"encrypted:BOJvPLLkeWwQhtiHq+qhIriYVVEMINUsbGQ32/ZMbPsZgGufpozS7XvgNt72x4DBKMRPIpuwV47berIQc6BGwxI",
-      "key_type": "pinata_api_key",
-      "description": "Pinata Api Key",
-      "severity": "medium",
-      "matched_pattern": "PINA*******************************************************************************************************************************************************************************oHV\"",
-      "timestamp": "2026-03-22T06:11:22.449560"
-    },
     {
       "service": "pinata",
       "file": ".env.local",
@@ -27,7 +14,20 @@
       "description": "Pinata Api Key",
       "severity": "medium",
       "matched_pattern": "PINA***************************b5b8",
-      "timestamp": "2026-03-22T06:11:45.006543"
+      "timestamp": "2026-03-23T07:46:52.915519"
+    },
+    {
+      "service": "pinata",
+      "file": ".env.production",
+      "repository": "darrylyeo/blockhead",
+      "url": "https://github.com/darrylyeo/blockhead/blob/a7caa77447c0c51c388df7f81fc4879d25623ab4/.env.production",
+      "line_number": 115,
+      "line_preview": "PUBLIC_PINATA_API_KEY=\"encrypted:BOJvPLLkeWwQhtiHq+qhIriYVVEMINUsbGQ32/ZMbPsZgGufpozS7XvgNt72x4DBKMRPIpuwV47berIQc6BGwxI",
+      "key_type": "pinata_api_key",
+      "description": "Pinata Api Key",
+      "severity": "medium",
+      "matched_pattern": "PINA*******************************************************************************************************************************************************************************oHV\"",
+      "timestamp": "2026-03-23T07:47:02.398398"
     },
     {
       "service": "pinata",
@@ -40,7 +40,7 @@
       "description": "Pinata Api Key",
       "severity": "medium",
       "matched_pattern": "PINA***************************b5b8",
-      "timestamp": "2026-03-22T06:11:46.730516"
+      "timestamp": "2026-03-23T07:47:30.799048"
     }
   ]
 }

@@ -1,8 +1,21 @@
 {
   "service": "supabase",
-  "scan_timestamp": "2026-03-22T06:12:05.804626",
+  "scan_timestamp": "2026-03-23T07:47:50.947109",
   "finding_count": 4,
   "findings": [
+    {
+      "service": "supabase",
+      "file": ".env.local",
+      "repository": "Orkestaia/orkesta-os",
+      "url": "https://github.com/Orkestaia/orkesta-os/blob/df0130fd2403feb2ce5ae64ba4754a5e51310f08/.env.local",
+      "line_number": 3,
+      "line_preview": "SUPABASE_SERVICE_ROLE_KEY=sb_secret_Y_qh9ha4w8y5_Osj7j6C3g_FlWoc8Mx",
+      "key_type": "supabase_service_role_key",
+      "description": "Supabase Service Role Key",
+      "severity": "medium",
+      "matched_pattern": "sb_s*********************************c8Mx",
+      "timestamp": "2026-03-23T07:47:03.844839"
+    },
     {
       "service": "supabase",
       "file": "backend/.env.example",
@@ -14,7 +27,7 @@
       "description": "Supabase Key",
       "severity": "medium",
       "matched_pattern": "eyJh********************************************************************************************************************************************************************************************************4isA",
-      "timestamp": "2026-03-22T06:11:25.858853"
+      "timestamp": "2026-03-23T07:47:05.820785"
     },
     {
       "service": "supabase",
@@ -26,21 +39,8 @@
       "key_type": "supabase_service_role_key",
       "description": "Supabase Service Role Key",
       "severity": "medium",
-      "matched_pattern": "eyJh*******************************************************************************************************************************************************************************************************************_bsc",
-      "timestamp": "2026-03-22T06:11:46.022954"
-    },
-    {
-      "service": "supabase",
-      "file": ".env.local",
-      "repository": "Orkestaia/orkesta-os",
-      "url": "https://github.com/Orkestaia/orkesta-os/blob/df0130fd2403feb2ce5ae64ba4754a5e51310f08/.env.local",
-      "line_number": 3,
-      "line_preview": "SUPABASE_SERVICE_ROLE_KEY=sb_secret_Y_qh9ha4w8y5_Osj7j6C3g_FlWoc8Mx",
-      "key_type": "supabase_service_role_key",
-      "description": "Supabase Service Role Key",
-      "severity": "medium",
-      "matched_pattern": "SUPA***********************************************************c8Mx",
-      "timestamp": "2026-03-22T06:11:50.750892"
+      "matched_pattern": "SUPA*********************************************************************************************************************************************************************************************************************************************_bsc",
+      "timestamp": "2026-03-23T07:47:30.190231"
     },
     {
       "service": "supabase",
@@ -53,7 +53,7 @@
       "description": "Supabase Service Role Key",
       "severity": "medium",
       "matched_pattern": "SUPA*********************************************************************************************************************************************************************************************************************************************itoI",
-      "timestamp": "2026-03-22T06:11:50.926952"
+      "timestamp": "2026-03-23T07:47:35.733996"
     }
   ]
 }

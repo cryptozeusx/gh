@@ -1,6 +1,6 @@
 {
   "service": "deepseek",
-  "scan_timestamp": "2026-03-22T06:12:05.794129",
+  "scan_timestamp": "2026-03-23T07:47:50.935053",
   "finding_count": 3,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Deepseek Api Key",
       "severity": "medium",
       "matched_pattern": "    ***********************************************************ico)",
-      "timestamp": "2026-03-22T06:11:17.617048"
+      "timestamp": "2026-03-23T07:46:55.515814"
     },
     {
       "service": "deepseek",
@@ -27,7 +27,7 @@
       "description": "DeepSeek API Key",
       "severity": "high",
       "matched_pattern": "DEEP********************************************1692",
-      "timestamp": "2026-03-22T06:11:23.411921"
+      "timestamp": "2026-03-23T07:47:03.321413"
     },
     {
       "service": "deepseek",
@@ -40,7 +40,7 @@
       "description": "DeepSeek API Key",
       "severity": "high",
       "matched_pattern": "DEEP********************************************e392",
-      "timestamp": "2026-03-22T06:11:46.360801"
+      "timestamp": "2026-03-23T07:47:30.494026"
     }
   ]
 }
