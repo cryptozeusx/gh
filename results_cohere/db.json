@@ -1,7 +1,7 @@
 {
   "service": "db",
-  "scan_timestamp": "2026-03-23T07:47:50.931986",
-  "finding_count": 3,
+  "scan_timestamp": "2026-03-24T07:39:04.404131",
+  "finding_count": 6,
   "findings": [
     {
       "service": "db",
@@ -14,7 +14,20 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "8g3Z********DIRS",
-      "timestamp": "2026-03-23T07:46:43.182728"
+      "timestamp": "2026-03-24T07:37:54.769040"
+    },
+    {
+      "service": "db",
+      "file": ".env.md",
+      "repository": "ardrichGeorge/Laundrex",
+      "url": "https://github.com/ardrichGeorge/Laundrex/blob/6c8115f2bf23ea3d44e2ff56d99d3ede0d6b60a9/.env.md",
+      "line_number": 14,
+      "line_preview": "REACT_APP_DB_PASSWORD=laundrex",
+      "key_type": "db_password",
+      "description": "Db Password",
+      "severity": "high",
+      "matched_pattern": "DB_P************drex",
+      "timestamp": "2026-03-24T07:38:01.224253"
     },
     {
       "service": "db",
@@ -27,7 +40,7 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "DB_P************3214",
-      "timestamp": "2026-03-23T07:47:00.494715"
+      "timestamp": "2026-03-24T07:38:11.809184"
     },
     {
       "service": "db",
@@ -40,7 +53,33 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "DB_P************************N*EW",
-      "timestamp": "2026-03-23T07:47:00.807169"
+      "timestamp": "2026-03-24T07:38:12.197570"
+    },
+    {
+      "service": "db",
+      "file": "public_html/.env.backup2",
+      "repository": "fazliozdemir33/bilgeai",
+      "url": "https://github.com/fazliozdemir33/bilgeai/blob/ef4deb167dee6bbc281163fc6c2a4cfc318584e7/public_html/.env.backup2",
+      "line_number": 63,
+      "line_preview": "DB_PASSWORD=U?a5qDk>0",
+      "key_type": "db_password",
+      "description": "Db Password",
+      "severity": "high",
+      "matched_pattern": "DB_P*************Dk>0",
+      "timestamp": "2026-03-24T07:38:18.932258"
+    },
+    {
+      "service": "db",
+      "file": "backend/env.example",
+      "repository": "Zephyrus2822/PulseBoard",
+      "url": "https://github.com/Zephyrus2822/PulseBoard/blob/00a4e2b6c12ac80e37614506a4d625e12503e518/backend/env.example",
+      "line_number": 12,
+      "line_preview": "DB_PASSWORD=#STARboy#1234",
+      "key_type": "db_password",
+      "description": "Db Password",
+      "severity": "high",
+      "matched_pattern": "DB_P*****************1234",
+      "timestamp": "2026-03-24T07:38:31.688524"
     }
   ]
 }

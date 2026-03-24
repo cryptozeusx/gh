@@ -1,6 +1,6 @@
 {
   "service": "co",
-  "scan_timestamp": "2026-03-23T07:47:50.930645",
+  "scan_timestamp": "2026-03-24T07:39:04.402093",
   "finding_count": 6,
   "findings": [
     {
@@ -14,20 +14,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************************89cf",
-      "timestamp": "2026-03-23T07:47:03.259938"
-    },
-    {
-      "service": "co",
-      "file": ".env",
-      "repository": "eyesli/crypto-quant-trading",
-      "url": "https://github.com/eyesli/crypto-quant-trading/blob/753bfb37c4b7a58f53479461ef24fe54daaced92/.env",
-      "line_number": 4,
-      "line_preview": "ALPHAVANTAGE_CO_API_KEY=L4V78TJ5I6AAQ80T",
-      "key_type": "co_api_key",
-      "description": "Co Api Key",
-      "severity": "medium",
-      "matched_pattern": "CO_A*******************Q80T",
-      "timestamp": "2026-03-23T07:47:03.321570"
+      "timestamp": "2026-03-24T07:38:14.266544"
     },
     {
       "service": "co",
@@ -40,7 +27,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************************d5a3",
-      "timestamp": "2026-03-23T07:47:03.401249"
+      "timestamp": "2026-03-24T07:38:14.374302"
     },
     {
       "service": "co",
@@ -53,20 +40,33 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********************************61ad",
-      "timestamp": "2026-03-23T07:47:06.392436"
+      "timestamp": "2026-03-24T07:38:16.640503"
     },
     {
       "service": "co",
-      "file": ".env.prod.example",
-      "repository": "realsarius/ecommerce-belediye-testcase",
-      "url": "https://github.com/realsarius/ecommerce-belediye-testcase/blob/79229537f28e6fc608206ce88da4b15bb0fd5c45/.env.prod.example",
-      "line_number": 42,
-      "line_preview": "IYZICO_API_KEY=sandbox-",
+      "file": "public_html/.env.backup2",
+      "repository": "fazliozdemir33/bilgeai",
+      "url": "https://github.com/fazliozdemir33/bilgeai/blob/ef4deb167dee6bbc281163fc6c2a4cfc318584e7/public_html/.env.backup2",
+      "line_number": 103,
+      "line_preview": "IYZICO_API_KEY=pSw8IH2ejQVLz1ZvlwSFc77cDuqgTylK",
       "key_type": "co_api_key",
       "description": "Co Api Key",
       "severity": "medium",
-      "matched_pattern": "CO_A***********box-",
-      "timestamp": "2026-03-23T07:47:24.317981"
+      "matched_pattern": "CO_A***********************************TylK",
+      "timestamp": "2026-03-24T07:38:18.932357"
+    },
+    {
+      "service": "co",
+      "file": "env.example",
+      "repository": "phamcamnguyen1994/metamask-monad-envio",
+      "url": "https://github.com/phamcamnguyen1994/metamask-monad-envio/blob/8e719f970f04c54e1131568922781015e7cfc8c6/env.example",
+      "line_number": 16,
+      "line_preview": "NEXT_PUBLIC_PIMLICO_API_KEY=pim_ki22Ti5FjpeeJguDHh9QcP",
+      "key_type": "co_api_key",
+      "description": "Co Api Key",
+      "severity": "medium",
+      "matched_pattern": "CO_A*****************************9QcP",
+      "timestamp": "2026-03-24T07:38:40.355301"
     },
     {
       "service": "co",
@@ -79,7 +79,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*******************************FcU'",
-      "timestamp": "2026-03-23T07:47:35.636791"
+      "timestamp": "2026-03-24T07:38:48.908435"
     }
   ]
 }

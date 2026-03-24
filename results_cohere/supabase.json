@@ -1,33 +1,20 @@
 {
   "service": "supabase",
-  "scan_timestamp": "2026-03-23T07:47:50.947109",
+  "scan_timestamp": "2026-03-24T07:39:04.421420",
   "finding_count": 4,
   "findings": [
     {
       "service": "supabase",
-      "file": ".env.local",
-      "repository": "Orkestaia/orkesta-os",
-      "url": "https://github.com/Orkestaia/orkesta-os/blob/df0130fd2403feb2ce5ae64ba4754a5e51310f08/.env.local",
-      "line_number": 3,
-      "line_preview": "SUPABASE_SERVICE_ROLE_KEY=sb_secret_Y_qh9ha4w8y5_Osj7j6C3g_FlWoc8Mx",
-      "key_type": "supabase_service_role_key",
-      "description": "Supabase Service Role Key",
-      "severity": "medium",
-      "matched_pattern": "sb_s*********************************c8Mx",
-      "timestamp": "2026-03-23T07:47:03.844839"
-    },
-    {
-      "service": "supabase",
-      "file": "backend/.env.example",
-      "repository": "Anubhavjaiswal21/todo-summary-assistant",
-      "url": "https://github.com/Anubhavjaiswal21/todo-summary-assistant/blob/b30a5a09fd58a3340a5f8406d62751821c4dee7b/backend/.env.example",
+      "file": ".env.md",
+      "repository": "valeriomarygrace-maker/plpsmartgrademvv",
+      "url": "https://github.com/valeriomarygrace-maker/plpsmartgrademvv/blob/257d391f595168ee7cee390a24bd7e63536d7d25/.env.md",
       "line_number": 2,
-      "line_preview": "SUPABASE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVsY2Z5Y2doaWdhZXp0b2x5emZuIiwicm9sZS",
+      "line_preview": "SUPABASE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inh3dnJncHhjY2VpdmFrenJ3d2ppIiwicm9sZS",
       "key_type": "supabase_key",
       "description": "Supabase Key",
       "severity": "medium",
-      "matched_pattern": "eyJh********************************************************************************************************************************************************************************************************4isA",
-      "timestamp": "2026-03-23T07:47:05.820785"
+      "matched_pattern": "eyJh********************************************************************************************************************************************************************************************************i4FM",
+      "timestamp": "2026-03-24T07:38:01.395962"
     },
     {
       "service": "supabase",
@@ -39,8 +26,21 @@
       "key_type": "supabase_service_role_key",
       "description": "Supabase Service Role Key",
       "severity": "medium",
-      "matched_pattern": "SUPA*********************************************************************************************************************************************************************************************************************************************_bsc",
-      "timestamp": "2026-03-23T07:47:30.190231"
+      "matched_pattern": "eyJh*******************************************************************************************************************************************************************************************************************_bsc",
+      "timestamp": "2026-03-24T07:38:08.105489"
+    },
+    {
+      "service": "supabase",
+      "file": ".env.local",
+      "repository": "Orkestaia/orkesta-os",
+      "url": "https://github.com/Orkestaia/orkesta-os/blob/df0130fd2403feb2ce5ae64ba4754a5e51310f08/.env.local",
+      "line_number": 3,
+      "line_preview": "SUPABASE_SERVICE_ROLE_KEY=sb_secret_Y_qh9ha4w8y5_Osj7j6C3g_FlWoc8Mx",
+      "key_type": "supabase_service_role_key",
+      "description": "Supabase Service Role Key",
+      "severity": "medium",
+      "matched_pattern": "SUPA***********************************************************c8Mx",
+      "timestamp": "2026-03-24T07:38:12.304537"
     },
     {
       "service": "supabase",
@@ -53,7 +53,7 @@
       "description": "Supabase Service Role Key",
       "severity": "medium",
       "matched_pattern": "SUPA*********************************************************************************************************************************************************************************************************************************************itoI",
-      "timestamp": "2026-03-23T07:47:35.733996"
+      "timestamp": "2026-03-24T07:38:49.008661"
     }
   ]
 }

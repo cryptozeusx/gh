@@ -1,33 +1,20 @@
 {
   "service": "vite",
-  "scan_timestamp": "2026-03-23T07:47:50.948177",
+  "scan_timestamp": "2026-03-24T07:39:04.422410",
   "finding_count": 14,
   "findings": [
     {
       "service": "vite",
-      "file": ".env.local",
-      "repository": "lucylow/bitmind",
-      "url": "https://github.com/lucylow/bitmind/blob/69373692624dfb027154c229e57413c20bc75ef2/.env.local",
-      "line_number": 49,
-      "line_preview": "VITE_TWILIO_AUTH_TOKEN=bb7038fcf702876199ceaab99c101295",
-      "key_type": "vite_twilio_auth_token",
-      "description": "Vite Twilio Auth Token",
+      "file": ".env.md",
+      "repository": "Samama251251/webdevhackathon",
+      "url": "https://github.com/Samama251251/webdevhackathon/blob/b81c01b71219718e54a92f73e734b0d7f6f8e45c/.env.md",
+      "line_number": 5,
+      "line_preview": "VITE_VAPI_PUBLIC_KEY=10b7081e-70b3-472f-9c24-fc0ef584c46a",
+      "key_type": "vite_vapi_public_key",
+      "description": "Vite Vapi Public Key",
       "severity": "medium",
-      "matched_pattern": "bb70************************1295",
-      "timestamp": "2026-03-23T07:46:52.915615"
-    },
-    {
-      "service": "vite",
-      "file": ".env.local",
-      "repository": "FryoPie/Neuro-pal",
-      "url": "https://github.com/FryoPie/Neuro-pal/blob/6025d3872516f95cb0e2e70c6dc0bf6c1da88cab/.env.local",
-      "line_number": 3,
-      "line_preview": "VITE_COHERE_API_KEY=VT0ISoMP3jm46ACA3o5HxczihpiRUg2ixyMjZj9Q",
-      "key_type": "vite_cohere_api_key",
-      "description": "Vite Cohere Api Key",
-      "severity": "medium",
-      "matched_pattern": "VITE****************************************************Zj9Q",
-      "timestamp": "2026-03-23T07:46:55.219239"
+      "matched_pattern": "10b7****************************c46a",
+      "timestamp": "2026-03-24T07:38:01.484256"
     },
     {
       "service": "vite",
@@ -40,7 +27,7 @@
       "description": "Vite Mapbox Access Token",
       "severity": "medium",
       "matched_pattern": "pk.e************************************************************************************SCTw",
-      "timestamp": "2026-03-23T07:47:03.260086"
+      "timestamp": "2026-03-24T07:38:14.266710"
     },
     {
       "service": "vite",
@@ -53,33 +40,7 @@
       "description": "Vite Stripe Publishable Key",
       "severity": "medium",
       "matched_pattern": "pk_l***************************************************************************************************C0Kg",
-      "timestamp": "2026-03-23T07:47:03.260128"
-    },
-    {
-      "service": "vite",
-      "file": ".env.example",
-      "repository": "kafein-technology/KAI-Flow",
-      "url": "https://github.com/kafein-technology/KAI-Flow/blob/896dda503001ed762efa6790645245db5b6b5056/.env.example",
-      "line_number": 43,
-      "line_preview": "VITE_KEYCLOAK_URL=http://localhost:8080",
-      "key_type": "vite_keycloak_url",
-      "description": "Vite Keycloak Url",
-      "severity": "medium",
-      "matched_pattern": "http*************8080",
-      "timestamp": "2026-03-23T07:47:16.459730"
-    },
-    {
-      "service": "vite",
-      "file": ".env.example",
-      "repository": "kafein-technology/KAI-Flow",
-      "url": "https://github.com/kafein-technology/KAI-Flow/blob/896dda503001ed762efa6790645245db5b6b5056/.env.example",
-      "line_number": 45,
-      "line_preview": "VITE_KEYCLOAK_CLIENT_ID=agenticgro",
-      "key_type": "vite_keycloak_client_id",
-      "description": "Vite Keycloak Client Id",
-      "severity": "medium",
-      "matched_pattern": "agen**cgro",
-      "timestamp": "2026-03-23T07:47:16.459800"
+      "timestamp": "2026-03-24T07:38:14.266757"
     },
     {
       "service": "vite",
@@ -92,7 +53,7 @@
       "description": "Vite Fraction Token Address",
       "severity": "medium",
       "matched_pattern": "0xd9**********************************Cc69",
-      "timestamp": "2026-03-23T07:47:26.762584"
+      "timestamp": "2026-03-24T07:38:40.795291"
     },
     {
       "service": "vite",
@@ -105,7 +66,46 @@
       "description": "Vite Pinata Gateway Token",
       "severity": "medium",
       "matched_pattern": "M-iE********************************************************vuXt",
-      "timestamp": "2026-03-23T07:47:26.762710"
+      "timestamp": "2026-03-24T07:38:40.795451"
+    },
+    {
+      "service": "vite",
+      "file": "flyfox-ai-platform/env.example",
+      "repository": "GoliathBritton/flyfox-ai-platform",
+      "url": "https://github.com/GoliathBritton/flyfox-ai-platform/blob/1d0a6d8577180ef14cbe9424b1451b2384a119e2/flyfox-ai-platform/env.example",
+      "line_number": 6,
+      "line_preview": "VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imh5c2ZpaWJmYWp5ZGphdHNxdGJ6",
+      "key_type": "vite_supabase_anon_key",
+      "description": "Vite Supabase Anon Key",
+      "severity": "medium",
+      "matched_pattern": "VITE*******************************************************************************************************************************************************************************************************************************nGjE",
+      "timestamp": "2026-03-24T07:38:41.532608"
+    },
+    {
+      "service": "vite",
+      "file": ".env.local",
+      "repository": "lucylow/bitmind",
+      "url": "https://github.com/lucylow/bitmind/blob/69373692624dfb027154c229e57413c20bc75ef2/.env.local",
+      "line_number": 33,
+      "line_preview": "VITE_COHERE_API_KEY=wXPn4lvSsndtltIQaF3upiZbrGiyIiShKN9uT8n1",
+      "key_type": "vite_cohere_api_key",
+      "description": "Vite Cohere Api Key",
+      "severity": "medium",
+      "matched_pattern": "VITE****************************************************T8n1",
+      "timestamp": "2026-03-24T07:38:42.519021"
+    },
+    {
+      "service": "vite",
+      "file": ".env.local",
+      "repository": "lucylow/bitmind",
+      "url": "https://github.com/lucylow/bitmind/blob/69373692624dfb027154c229e57413c20bc75ef2/.env.local",
+      "line_number": 49,
+      "line_preview": "VITE_TWILIO_AUTH_TOKEN=bb7038fcf702876199ceaab99c101295",
+      "key_type": "vite_twilio_auth_token",
+      "description": "Vite Twilio Auth Token",
+      "severity": "medium",
+      "matched_pattern": "bb70************************1295",
+      "timestamp": "2026-03-24T07:38:42.519206"
     },
     {
       "service": "vite",
@@ -118,7 +118,7 @@
       "description": "Vite Hiro Api Key",
       "severity": "medium",
       "matched_pattern": "VITE******************************************4830",
-      "timestamp": "2026-03-23T07:47:30.798718"
+      "timestamp": "2026-03-24T07:38:44.508798"
     },
     {
       "service": "vite",
@@ -131,7 +131,7 @@
       "description": "Vite Coinmarketcap Api Key",
       "severity": "medium",
       "matched_pattern": "VITE***************************************************5fdc",
-      "timestamp": "2026-03-23T07:47:30.798821"
+      "timestamp": "2026-03-24T07:38:44.508917"
     },
     {
       "service": "vite",
@@ -144,7 +144,7 @@
       "description": "Vite Cohere Api Key",
       "severity": "medium",
       "matched_pattern": "VITE****************************************************T8n1",
-      "timestamp": "2026-03-23T07:47:30.798953"
+      "timestamp": "2026-03-24T07:38:44.509074"
     },
     {
       "service": "vite",
@@ -157,7 +157,7 @@
       "description": "Vite Pinata Api Key",
       "severity": "medium",
       "matched_pattern": "VITE********************************b5b8",
-      "timestamp": "2026-03-23T07:47:30.799113"
+      "timestamp": "2026-03-24T07:38:44.509212"
     },
     {
       "service": "vite",
@@ -170,7 +170,7 @@
       "description": "Vite Pinata Secret Key",
       "severity": "high",
       "matched_pattern": "VITE*******************************************************************************a19b",
-      "timestamp": "2026-03-23T07:47:30.799241"
+      "timestamp": "2026-03-24T07:38:44.509300"
     },
     {
       "service": "vite",
@@ -183,7 +183,7 @@
       "description": "Vite Twilio Auth Token",
       "severity": "medium",
       "matched_pattern": "VITE***********************************************1295",
-      "timestamp": "2026-03-23T07:47:30.799296"
+      "timestamp": "2026-03-24T07:38:44.509342"
     }
   ]
 }

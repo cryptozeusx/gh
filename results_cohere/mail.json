@@ -1,8 +1,21 @@
 {
   "service": "mail",
-  "scan_timestamp": "2026-03-23T07:47:50.941219",
-  "finding_count": 1,
+  "scan_timestamp": "2026-03-24T07:39:04.411141",
+  "finding_count": 2,
   "findings": [
+    {
+      "service": "mail",
+      "file": ".env.1",
+      "repository": "azazgeekster/student_space",
+      "url": "https://github.com/azazgeekster/student_space/blob/4df5b4879ad74e6e6b2e8fdfac4a64c096c81791/.env.1",
+      "line_number": 41,
+      "line_preview": "MAIL_PASSWORD=7666ef10469f3c",
+      "key_type": "mail_password",
+      "description": "Mail Password",
+      "severity": "high",
+      "matched_pattern": "7666******9f3c",
+      "timestamp": "2026-03-24T07:38:01.979795"
+    },
     {
       "service": "mail",
       "file": ".env.dbdump.example",
@@ -13,8 +26,8 @@
       "key_type": "mail_password",
       "description": "Mail Password",
       "severity": "high",
-      "matched_pattern": "09b2******************************************60b6",
-      "timestamp": "2026-03-23T07:47:23.819824"
+      "matched_pattern": "MAIL**********************************************************0b6\"",
+      "timestamp": "2026-03-24T07:38:39.054967"
     }
   ]
 }

@@ -1,21 +1,8 @@
 {
   "service": "anthropic",
-  "scan_timestamp": "2026-03-23T07:47:50.929520",
-  "finding_count": 3,
+  "scan_timestamp": "2026-03-24T07:39:04.400449",
+  "finding_count": 2,
   "findings": [
-    {
-      "service": "anthropic",
-      "file": "exemplo.env",
-      "repository": "amaro-netto/alerj_simulado_data",
-      "url": "https://github.com/amaro-netto/alerj_simulado_data/blob/542edbba62d02977822626c56e3860a8459c9674/exemplo.env",
-      "line_number": 6,
-      "line_preview": "ANTHROPIC_API_KEY=\"\"       # Anthropic (Claude 3.5 Sonnet, Opus, Haiku)",
-      "key_type": "anthropic_api_key",
-      "description": "Anthropic Api Key",
-      "severity": "medium",
-      "matched_pattern": "    *******************************************iku)",
-      "timestamp": "2026-03-23T07:46:55.515546"
-    },
     {
       "service": "anthropic",
       "file": ".env.local",
@@ -27,7 +14,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "# Re****************************-...",
-      "timestamp": "2026-03-23T07:47:29.655129"
+      "timestamp": "2026-03-24T07:38:43.226276"
     },
     {
       "service": "anthropic",
@@ -40,7 +27,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************DgAA",
-      "timestamp": "2026-03-23T07:47:30.493293"
+      "timestamp": "2026-03-24T07:38:44.175459"
     }
   ]
 }

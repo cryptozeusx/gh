@@ -1,7 +1,7 @@
 {
   "service": "postgres",
-  "scan_timestamp": "2026-03-23T07:47:50.944269",
-  "finding_count": 4,
+  "scan_timestamp": "2026-03-24T07:39:04.418231",
+  "finding_count": 6,
   "findings": [
     {
       "service": "postgres",
@@ -14,7 +14,7 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "********",
-      "timestamp": "2026-03-23T07:46:43.616339"
+      "timestamp": "2026-03-24T07:37:55.309098"
     },
     {
       "service": "postgres",
@@ -27,7 +27,33 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "POST******************o123",
-      "timestamp": "2026-03-23T07:47:13.695781"
+      "timestamp": "2026-03-24T07:38:04.080916"
+    },
+    {
+      "service": "postgres",
+      "file": ".env.openapi",
+      "repository": "EtroxTaran/rag_demo",
+      "url": "https://github.com/EtroxTaran/rag_demo/blob/6f1bee4b145eee8c13dd076359dfc198c1251d5c/.env.openapi",
+      "line_number": 21,
+      "line_preview": "POSTGRES_PASSWORD=ragdemo_pw",
+      "key_type": "postgres_password",
+      "description": "Postgres Password",
+      "severity": "high",
+      "matched_pattern": "POST********************o_pw",
+      "timestamp": "2026-03-24T07:38:09.238507"
+    },
+    {
+      "service": "postgres",
+      "file": "backend/.env.production",
+      "repository": "oguzbenturk/UKC.world",
+      "url": "https://github.com/oguzbenturk/UKC.world/blob/9e8f2753ac07b5d267de7da7c6c7fb9f4937805b/backend/.env.production",
+      "line_number": 8,
+      "line_preview": "POSTGRES_PASSWORD=WHMgux86",
+      "key_type": "postgres_password",
+      "description": "Postgres Password",
+      "severity": "high",
+      "matched_pattern": "POST******************ux86",
+      "timestamp": "2026-03-24T07:38:19.565550"
     },
     {
       "service": "postgres",
@@ -40,7 +66,7 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "POST******************s123",
-      "timestamp": "2026-03-23T07:47:20.249922"
+      "timestamp": "2026-03-24T07:38:31.195045"
     },
     {
       "service": "postgres",
@@ -53,7 +79,7 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "POST**************************IX6P",
-      "timestamp": "2026-03-23T07:47:28.976898"
+      "timestamp": "2026-03-24T07:38:42.365199"
     }
   ]
 }

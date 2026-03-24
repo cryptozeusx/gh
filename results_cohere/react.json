@@ -1,7 +1,7 @@
 {
   "service": "react",
-  "scan_timestamp": "2026-03-23T07:47:50.945394",
-  "finding_count": 4,
+  "scan_timestamp": "2026-03-24T07:39:04.419043",
+  "finding_count": 6,
   "findings": [
     {
       "service": "react",
@@ -14,7 +14,7 @@
       "description": "React App Default Token List Url",
       "severity": "medium",
       "matched_pattern": "http*********************************************************************************************************json",
-      "timestamp": "2026-03-23T07:46:43.259576"
+      "timestamp": "2026-03-24T07:37:54.681774"
     },
     {
       "service": "react",
@@ -27,7 +27,7 @@
       "description": "React App Polygon Api Key Free",
       "severity": "medium",
       "matched_pattern": "S0m3********1K3y",
-      "timestamp": "2026-03-23T07:46:43.259666"
+      "timestamp": "2026-03-24T07:37:54.681945"
     },
     {
       "service": "react",
@@ -40,7 +40,7 @@
       "description": "React App Token List Exchange Custom Asset Logo Url",
       "severity": "medium",
       "matched_pattern": "http****************************************************************************************************.png",
-      "timestamp": "2026-03-23T07:46:43.259720"
+      "timestamp": "2026-03-24T07:37:54.682011"
     },
     {
       "service": "react",
@@ -53,7 +53,33 @@
       "description": "React App Token List Asset Generic Address Testnet Logo Url Base",
       "severity": "medium",
       "matched_pattern": "http******************************************************************************************************************ets/",
-      "timestamp": "2026-03-23T07:46:43.259770"
+      "timestamp": "2026-03-24T07:37:54.682063"
+    },
+    {
+      "service": "react",
+      "file": "finlit-gpt/.env.backup",
+      "repository": "Nono140503/FinLit-GPT",
+      "url": "https://github.com/Nono140503/FinLit-GPT/blob/0f2a1f487fd53b7cd81348e866abda56599cb8d2/finlit-gpt/.env.backup",
+      "line_number": 16,
+      "line_preview": "REACT_APP_FIREBASE_AUTH_DOMAIN=finlitgpt-391e3.firebaseapp.com",
+      "key_type": "react_app_firebase_auth_domain",
+      "description": "React App Firebase Auth Domain",
+      "severity": "medium",
+      "matched_pattern": "finl***********************.com",
+      "timestamp": "2026-03-24T07:38:07.728360"
+    },
+    {
+      "service": "react",
+      "file": ".env-sample",
+      "repository": "ethereum/kohaku-extension",
+      "url": "https://github.com/ethereum/kohaku-extension/blob/5693ae4c43ff74d846af6b53c5a4b97bbe098b69/.env-sample",
+      "line_number": 42,
+      "line_preview": "REACT_APP_ETHERSPOT_API_KEY=\"12345\" # dummy value",
+      "key_type": "react_app_etherspot_api_key",
+      "description": "React App Etherspot Api Key",
+      "severity": "medium",
+      "matched_pattern": "1234************alue",
+      "timestamp": "2026-03-24T07:38:12.558762"
     }
   ]
 }

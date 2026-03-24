@@ -1,7 +1,7 @@
 {
   "service": "pimlico",
-  "scan_timestamp": "2026-03-23T07:47:50.943987",
-  "finding_count": 3,
+  "scan_timestamp": "2026-03-24T07:39:04.417927",
+  "finding_count": 5,
   "findings": [
     {
       "service": "pimlico",
@@ -14,7 +14,7 @@
       "description": "Pimlico Usdc Token Address",
       "severity": "medium",
       "matched_pattern": "0x92*******************************************************************************************************************ens)",
-      "timestamp": "2026-03-23T07:47:25.584556"
+      "timestamp": "2026-03-24T07:38:39.330085"
     },
     {
       "service": "pimlico",
@@ -27,7 +27,7 @@
       "description": "Pimlico Erc20 Token Contract",
       "severity": "medium",
       "matched_pattern": "0x0b**********************************502a",
-      "timestamp": "2026-03-23T07:47:25.584615"
+      "timestamp": "2026-03-24T07:38:39.330144"
     },
     {
       "service": "pimlico",
@@ -40,7 +40,33 @@
       "description": "Pimlico Erc721 Token Contract",
       "severity": "medium",
       "matched_pattern": "0xf1**********************************7a05",
-      "timestamp": "2026-03-23T07:47:25.584664"
+      "timestamp": "2026-03-24T07:38:39.330194"
+    },
+    {
+      "service": "pimlico",
+      "file": "env.example",
+      "repository": "phamcamnguyen1994/metamask-monad-envio",
+      "url": "https://github.com/phamcamnguyen1994/metamask-monad-envio/blob/8e719f970f04c54e1131568922781015e7cfc8c6/env.example",
+      "line_number": 16,
+      "line_preview": "NEXT_PUBLIC_PIMLICO_API_KEY=pim_ki22Ti5FjpeeJguDHh9QcP",
+      "key_type": "pimlico_api_key",
+      "description": "Pimlico Api Key",
+      "severity": "medium",
+      "matched_pattern": "PIML**********************************9QcP",
+      "timestamp": "2026-03-24T07:38:40.355356"
+    },
+    {
+      "service": "pimlico",
+      "file": ".env.local",
+      "repository": "Gauravk0029/madhouse-wallet",
+      "url": "https://github.com/Gauravk0029/madhouse-wallet/blob/5ee554e1fd27eaf7d69a146efd3e7db7583acd61/.env.local",
+      "line_number": 1,
+      "line_preview": "NEXT_PUBLIC_PIMLICO_API_KEY='pim_C2hN8VhSZsDJE3uAY4WFcU'",
+      "key_type": "pimlico_api_key",
+      "description": "Pimlico Api Key",
+      "severity": "medium",
+      "matched_pattern": "PIML************************************FcU'",
+      "timestamp": "2026-03-24T07:38:48.908501"
     }
   ]
 }

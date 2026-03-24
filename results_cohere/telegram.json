@@ -1,33 +1,20 @@
 {
   "service": "telegram",
-  "scan_timestamp": "2026-03-20T06:12:47.632913",
-  "finding_count": 2,
+  "scan_timestamp": "2026-03-24T07:39:04.421848",
+  "finding_count": 1,
   "findings": [
     {
       "service": "telegram",
-      "file": ".env.enterprise",
-      "repository": "ryanalmb/script-ai",
-      "url": "https://github.com/ryanalmb/script-ai/blob/21f4523a23788ce28b6f99a90328103c0a66a60b/.env.enterprise",
-      "line_number": 15,
-      "line_preview": "TELEGRAM_BOT_TOKEN=7848656841:AAFm6v8KPzn1zPZmHKklXjkIwzQ8fYY25O0",
+      "file": ".env.production.example",
+      "repository": "dima1203oleg/Predator-Dev13",
+      "url": "https://github.com/dima1203oleg/Predator-Dev13/blob/60987bfd40de7990d4aed3bec9c00d944890849e/.env.production.example",
+      "line_number": 27,
+      "line_preview": "TELEGRAM_BOT_TOKEN=123456:ABC-DEF...",
       "key_type": "telegram_bot_token",
       "description": "Telegram Bot Token",
       "severity": "medium",
-      "matched_pattern": "7848**************************************25O0",
-      "timestamp": "2026-03-20T06:11:46.713841"
-    },
-    {
-      "service": "telegram",
-      "file": ".env.enterprise",
-      "repository": "ryanalmb/script-ai",
-      "url": "https://github.com/ryanalmb/script-ai/blob/21f4523a23788ce28b6f99a90328103c0a66a60b/.env.enterprise",
-      "line_number": 155,
-      "line_preview": "TELEGRAM_BOT_JWT_SECRET=T3l3gr@m_B0t_JWT_S3cr3t_2024_ABC123456789DEFGHIJKLMNOPQRSTUVWXYZabcdefghijk",
-      "key_type": "telegram_bot_jwt_secret",
-      "description": "Telegram Bot Jwt Secret",
-      "severity": "high",
-      "matched_pattern": "T3l3*******************************************************************hijk",
-      "timestamp": "2026-03-20T06:11:46.713920"
+      "matched_pattern": "1234*********F...",
+      "timestamp": "2026-03-24T07:38:30.171659"
     }
   ]
 }

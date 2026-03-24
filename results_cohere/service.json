@@ -1,7 +1,7 @@
 {
   "service": "service",
-  "scan_timestamp": "2026-03-23T07:47:50.946451",
-  "finding_count": 2,
+  "scan_timestamp": "2026-03-24T07:39:04.420443",
+  "finding_count": 1,
   "findings": [
     {
       "service": "service",
@@ -14,20 +14,7 @@
       "description": "Service Key",
       "severity": "medium",
       "matched_pattern": "eyJh***********************************************************************************************************************************************************************************************************************Vt4Q",
-      "timestamp": "2026-03-23T07:46:43.100584"
-    },
-    {
-      "service": "service",
-      "file": "backend-render/.env.example",
-      "repository": "dvirdiei/shira",
-      "url": "https://github.com/dvirdiei/shira/blob/7b9ee72f3e7f385a0eb70dcd4db6efee9dbbc942/backend-render/.env.example",
-      "line_number": 7,
-      "line_preview": "SUPABASE_SERVICE_KEY=eyJhbGciOiJIUzI1NiIsI...",
-      "key_type": "service_key",
-      "description": "Service Key",
-      "severity": "medium",
-      "matched_pattern": "SERV****************************I...",
-      "timestamp": "2026-03-23T07:47:10.446945"
+      "timestamp": "2026-03-24T07:37:54.589237"
     }
   ]
 }

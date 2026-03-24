@@ -1,21 +1,8 @@
 {
   "service": "nextauth",
-  "scan_timestamp": "2026-03-23T07:47:50.943056",
-  "finding_count": 5,
+  "scan_timestamp": "2026-03-24T07:39:04.416193",
+  "finding_count": 4,
   "findings": [
-    {
-      "service": "nextauth",
-      "file": ".env.docker",
-      "repository": "RyanLisse/hgg-roborail-rag",
-      "url": "https://github.com/RyanLisse/hgg-roborail-rag/blob/1e02ee1a8ccdcc47d1a6940bf975f1f8ce4ed02d/.env.docker",
-      "line_number": 42,
-      "line_preview": "NEXTAUTH_URL=http://localhost:3000",
-      "key_type": "nextauth_url",
-      "description": "Nextauth Url",
-      "severity": "medium",
-      "matched_pattern": "http*************3000",
-      "timestamp": "2026-03-23T07:46:51.562762"
-    },
     {
       "service": "nextauth",
       "file": "env.example",
@@ -26,8 +13,8 @@
       "key_type": "nextauth_url",
       "description": "Nextauth Url",
       "severity": "medium",
-      "matched_pattern": "NEXT****************************000\"",
-      "timestamp": "2026-03-23T07:47:26.116633"
+      "matched_pattern": "http*************3000",
+      "timestamp": "2026-03-24T07:38:39.895184"
     },
     {
       "service": "nextauth",
@@ -40,7 +27,7 @@
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "NEXT**************************3000",
-      "timestamp": "2026-03-23T07:47:29.393279"
+      "timestamp": "2026-03-24T07:38:42.922581"
     },
     {
       "service": "nextauth",
@@ -53,7 +40,7 @@
       "description": "Nextauth Secret",
       "severity": "high",
       "matched_pattern": "NEXT*******************************************4_32",
-      "timestamp": "2026-03-23T07:47:30.495468"
+      "timestamp": "2026-03-24T07:38:44.177175"
     },
     {
       "service": "nextauth",
@@ -66,7 +53,7 @@
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "NEXT**************************3000",
-      "timestamp": "2026-03-23T07:47:30.495513"
+      "timestamp": "2026-03-24T07:38:44.177220"
     }
   ]
 }

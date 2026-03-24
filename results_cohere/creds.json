@@ -1,7 +1,7 @@
 {
   "service": "creds",
-  "scan_timestamp": "2026-03-22T06:12:05.793211",
-  "finding_count": 2,
+  "scan_timestamp": "2026-03-24T07:39:04.403186",
+  "finding_count": 3,
   "findings": [
     {
       "service": "creds",
@@ -14,20 +14,33 @@
       "description": "Creds Key",
       "severity": "medium",
       "matched_pattern": "f34b********************************************************66f0",
-      "timestamp": "2026-03-22T06:11:18.770980"
+      "timestamp": "2026-03-24T07:38:08.680913"
     },
     {
       "service": "creds",
-      "file": ".env.zh.example",
-      "repository": "tanguangyun/ChatHub",
-      "url": "https://github.com/tanguangyun/ChatHub/blob/e4041b3f361c314d008d92969e6f533d8c08b84d/.env.zh.example",
-      "line_number": 295,
+      "file": ".env.librechat",
+      "repository": "d-fine/DatalandMCP",
+      "url": "https://github.com/d-fine/DatalandMCP/blob/0e274d3ac6b610299968c6b71018ae88e2a392b5/.env.librechat",
+      "line_number": 241,
       "line_preview": "CREDS_KEY=f34be427ebb29de8d88c107a71546019685ed8b241d8f2ed00c3df97ad2566f0",
       "key_type": "creds_key",
       "description": "Creds Key",
       "severity": "medium",
       "matched_pattern": "CRED******************************************************************66f0",
-      "timestamp": "2026-03-22T06:11:30.155957"
+      "timestamp": "2026-03-24T07:38:08.873305"
+    },
+    {
+      "service": "creds",
+      "file": "librechat.env.example",
+      "repository": "vaaale/FetchCraft",
+      "url": "https://github.com/vaaale/FetchCraft/blob/6ee44fa5ba0951c0a0770d523831543dc806dd8c/librechat.env.example",
+      "line_number": 241,
+      "line_preview": "CREDS_KEY=f34be427ebb29de8d88c107a71546019685ed8b241d8f2ed00c3df97ad2566f0",
+      "key_type": "creds_key",
+      "description": "Creds Key",
+      "severity": "medium",
+      "matched_pattern": "CRED******************************************************************66f0",
+      "timestamp": "2026-03-24T07:38:23.988683"
     }
   ]
 }
