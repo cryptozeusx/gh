@@ -1,8 +1,21 @@
 {
   "service": "anthropic",
-  "scan_timestamp": "2026-03-24T07:39:04.400449",
-  "finding_count": 2,
+  "scan_timestamp": "2026-03-25T07:38:15.546102",
+  "finding_count": 3,
   "findings": [
+    {
+      "service": "anthropic",
+      "file": ".env.enterprise",
+      "repository": "ryanalmb/script-ai",
+      "url": "https://github.com/ryanalmb/script-ai/blob/21f4523a23788ce28b6f99a90328103c0a66a60b/.env.enterprise",
+      "line_number": 249,
+      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api03-ABC123456789DEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
+      "key_type": "anthropic_api_key",
+      "description": "Anthropic Api Key",
+      "severity": "medium",
+      "matched_pattern": "ANTH************************************************************************************wxyz",
+      "timestamp": "2026-03-25T07:37:21.544833"
+    },
     {
       "service": "anthropic",
       "file": ".env.local",
@@ -14,7 +27,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "# Re****************************-...",
-      "timestamp": "2026-03-24T07:38:43.226276"
+      "timestamp": "2026-03-25T07:37:54.688132"
     },
     {
       "service": "anthropic",
@@ -27,7 +40,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************DgAA",
-      "timestamp": "2026-03-24T07:38:44.175459"
+      "timestamp": "2026-03-25T07:37:55.520590"
     }
   ]
 }

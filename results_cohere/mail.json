@@ -1,6 +1,6 @@
 {
   "service": "mail",
-  "scan_timestamp": "2026-03-24T07:39:04.411141",
+  "scan_timestamp": "2026-03-25T07:38:15.557742",
   "finding_count": 2,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Mail Password",
       "severity": "high",
       "matched_pattern": "7666******9f3c",
-      "timestamp": "2026-03-24T07:38:01.979795"
+      "timestamp": "2026-03-25T07:37:16.545654"
     },
     {
       "service": "mail",
@@ -27,7 +27,7 @@
       "description": "Mail Password",
       "severity": "high",
       "matched_pattern": "MAIL**********************************************************0b6\"",
-      "timestamp": "2026-03-24T07:38:39.054967"
+      "timestamp": "2026-03-25T07:37:46.381081"
     }
   ]
 }

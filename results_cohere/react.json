@@ -1,7 +1,7 @@
 {
   "service": "react",
-  "scan_timestamp": "2026-03-24T07:39:04.419043",
-  "finding_count": 6,
+  "scan_timestamp": "2026-03-25T07:38:15.562265",
+  "finding_count": 7,
   "findings": [
     {
       "service": "react",
@@ -14,7 +14,7 @@
       "description": "React App Default Token List Url",
       "severity": "medium",
       "matched_pattern": "http*********************************************************************************************************json",
-      "timestamp": "2026-03-24T07:37:54.681774"
+      "timestamp": "2026-03-25T07:37:08.222606"
     },
     {
       "service": "react",
@@ -27,7 +27,7 @@
       "description": "React App Polygon Api Key Free",
       "severity": "medium",
       "matched_pattern": "S0m3********1K3y",
-      "timestamp": "2026-03-24T07:37:54.681945"
+      "timestamp": "2026-03-25T07:37:08.222704"
     },
     {
       "service": "react",
@@ -40,7 +40,7 @@
       "description": "React App Token List Exchange Custom Asset Logo Url",
       "severity": "medium",
       "matched_pattern": "http****************************************************************************************************.png",
-      "timestamp": "2026-03-24T07:37:54.682011"
+      "timestamp": "2026-03-25T07:37:08.222770"
     },
     {
       "service": "react",
@@ -53,7 +53,7 @@
       "description": "React App Token List Asset Generic Address Testnet Logo Url Base",
       "severity": "medium",
       "matched_pattern": "http******************************************************************************************************************ets/",
-      "timestamp": "2026-03-24T07:37:54.682063"
+      "timestamp": "2026-03-25T07:37:08.222822"
     },
     {
       "service": "react",
@@ -66,20 +66,33 @@
       "description": "React App Firebase Auth Domain",
       "severity": "medium",
       "matched_pattern": "finl***********************.com",
-      "timestamp": "2026-03-24T07:38:07.728360"
+      "timestamp": "2026-03-25T07:37:20.354400"
+    },
+    {
+      "service": "react",
+      "file": ".history/pastry-chatbot/.env_20241208185003",
+      "repository": "agrnerd17/Website-Chatbot",
+      "url": "https://github.com/agrnerd17/Website-Chatbot/blob/54cb97ca098eb106cd5d2e06b8fc3a5c590c928f/.history/pastry-chatbot/.env_20241208185003",
+      "line_number": 1,
+      "line_preview": "REACT_APP_COHERE_API_KEY = \"7ZT0rkNdOrKYfye8DC5qSUtG36H3IhRQ2pvKHDgT\"",
+      "key_type": "react_app_cohere_api_key",
+      "description": "React App Cohere Api Key",
+      "severity": "medium",
+      "matched_pattern": "REAC*************************************************************DgT\"",
+      "timestamp": "2026-03-25T07:37:20.508806"
     },
     {
       "service": "react",
       "file": ".env-sample",
       "repository": "ethereum/kohaku-extension",
-      "url": "https://github.com/ethereum/kohaku-extension/blob/5693ae4c43ff74d846af6b53c5a4b97bbe098b69/.env-sample",
+      "url": "https://github.com/ethereum/kohaku-extension/blob/b090307665f8a286459aa4104c267c3796d686ed/.env-sample",
       "line_number": 42,
       "line_preview": "REACT_APP_ETHERSPOT_API_KEY=\"12345\" # dummy value",
       "key_type": "react_app_etherspot_api_key",
       "description": "React App Etherspot Api Key",
       "severity": "medium",
       "matched_pattern": "1234************alue",
-      "timestamp": "2026-03-24T07:38:12.558762"
+      "timestamp": "2026-03-25T07:37:25.325419"
     }
   ]
 }

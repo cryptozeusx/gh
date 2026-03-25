@@ -1,6 +1,6 @@
 {
   "service": "backend",
-  "scan_timestamp": "2026-03-20T06:12:47.619744",
+  "scan_timestamp": "2026-03-25T07:38:15.547581",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Backend Service Jwt Secret",
       "severity": "high",
       "matched_pattern": "B@ck*************************************************************kjih",
-      "timestamp": "2026-03-20T06:11:46.713955"
+      "timestamp": "2026-03-25T07:37:21.545642"
     }
   ]
 }

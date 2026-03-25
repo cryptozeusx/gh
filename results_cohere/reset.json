@@ -1,6 +1,6 @@
 {
   "service": "reset",
-  "scan_timestamp": "2026-03-24T07:39:04.419348",
+  "scan_timestamp": "2026-03-25T07:38:15.562549",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Reset Password Key",
       "severity": "high",
       "matched_pattern": "rese********dKey",
-      "timestamp": "2026-03-24T07:37:58.471763"
+      "timestamp": "2026-03-25T07:37:13.433330"
     }
   ]
 }

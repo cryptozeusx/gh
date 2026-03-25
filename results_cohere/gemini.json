@@ -1,7 +1,7 @@
 {
   "service": "gemini",
-  "scan_timestamp": "2026-03-24T07:39:04.405925",
-  "finding_count": 9,
+  "scan_timestamp": "2026-03-25T07:38:15.552156",
+  "finding_count": 10,
   "findings": [
     {
       "service": "gemini",
@@ -14,7 +14,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************G4Z4",
-      "timestamp": "2026-03-24T07:38:05.512134"
+      "timestamp": "2026-03-25T07:37:18.650133"
     },
     {
       "service": "gemini",
@@ -27,20 +27,20 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************ql08",
-      "timestamp": "2026-03-24T07:38:07.728009"
+      "timestamp": "2026-03-25T07:37:20.354049"
     },
     {
       "service": "gemini",
-      "file": ".env.txt",
-      "repository": "kriti11m/ADOBE",
-      "url": "https://github.com/kriti11m/ADOBE/blob/fde2a9b5bef85b68404a71b06e5d0fae341a2109/.env.txt",
-      "line_number": 14,
-      "line_preview": "GEMINI_API_KEY=AIzaSyCQAFtl1hWQ4AkdYR1bwkvvEzfkyOqrDF8",
+      "file": ".env.enterprise",
+      "repository": "ryanalmb/script-ai",
+      "url": "https://github.com/ryanalmb/script-ai/blob/21f4523a23788ce28b6f99a90328103c0a66a60b/.env.enterprise",
+      "line_number": 224,
+      "line_preview": "GEMINI_API_KEY=AIzaSyC8XYZ123456789abcdefghijklmnopqrstuvwxyz_ENTERPRISE",
       "key_type": "gemini_api_key",
       "description": "Gemini Api Key",
       "severity": "medium",
-      "matched_pattern": "GEMI**********************************************rDF8",
-      "timestamp": "2026-03-24T07:38:08.944909"
+      "matched_pattern": "GEMI****************************************************************RISE",
+      "timestamp": "2026-03-25T07:37:21.544566"
     },
     {
       "service": "gemini",
@@ -53,7 +53,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************C2ao",
-      "timestamp": "2026-03-24T07:38:14.374517"
+      "timestamp": "2026-03-25T07:37:27.316635"
     },
     {
       "service": "gemini",
@@ -66,7 +66,20 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************o_vI",
-      "timestamp": "2026-03-24T07:38:14.569059"
+      "timestamp": "2026-03-25T07:37:27.480497"
+    },
+    {
+      "service": "gemini",
+      "file": "backend/.env",
+      "repository": "Spidergy07/CEDT_FinalProject",
+      "url": "https://github.com/Spidergy07/CEDT_FinalProject/blob/58cc1d6b579a0b47f9badfbd913170060c1ff3fa/backend/.env",
+      "line_number": 8,
+      "line_preview": "GEMINI_API_KEY=AIzaSyCjTG53kEw1Dbv1AqJ3_8hJT8rHkSTMZeA",
+      "key_type": "gemini_api_key",
+      "description": "Gemini Api Key",
+      "severity": "medium",
+      "matched_pattern": "GEMI**********************************************MZeA",
+      "timestamp": "2026-03-25T07:37:27.945818"
     },
     {
       "service": "gemini",
@@ -79,7 +92,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI*********************uWM\"",
-      "timestamp": "2026-03-24T07:38:32.184240"
+      "timestamp": "2026-03-25T07:37:41.302479"
     },
     {
       "service": "gemini",
@@ -92,7 +105,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************9_ag",
-      "timestamp": "2026-03-24T07:38:42.157791"
+      "timestamp": "2026-03-25T07:37:53.687998"
     },
     {
       "service": "gemini",
@@ -105,7 +118,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************inns",
-      "timestamp": "2026-03-24T07:38:42.365698"
+      "timestamp": "2026-03-25T07:37:53.866111"
     },
     {
       "service": "gemini",
@@ -118,7 +131,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************Dsdg",
-      "timestamp": "2026-03-24T07:38:44.175835"
+      "timestamp": "2026-03-25T07:37:55.520973"
     }
   ]
 }

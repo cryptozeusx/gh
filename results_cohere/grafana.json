@@ -1,7 +1,7 @@
 {
   "service": "grafana",
-  "scan_timestamp": "2026-03-20T06:12:47.626486",
-  "finding_count": 2,
+  "scan_timestamp": "2026-03-25T07:38:15.555602",
+  "finding_count": 1,
   "findings": [
     {
       "service": "grafana",
@@ -14,20 +14,7 @@
       "description": "Grafana Password",
       "severity": "high",
       "matched_pattern": "ente*************2024",
-      "timestamp": "2026-03-20T06:11:46.714027"
-    },
-    {
-      "service": "grafana",
-      "file": "MyPety-Backend-NestJS/.env.production.example",
-      "repository": "Sahinerprogramming/mypety_pro",
-      "url": "https://github.com/Sahinerprogramming/mypety_pro/blob/483e6915ceee553d8f3aaf6f1b5c1cc802b450f3/MyPety-Backend-NestJS/.env.production.example",
-      "line_number": 65,
-      "line_preview": "GRAFANA_PASSWORD=very-strong-production-password-min-20-chars",
-      "key_type": "grafana_password",
-      "description": "Grafana Password",
-      "severity": "high",
-      "matched_pattern": "GRAF*****************************************************hars",
-      "timestamp": "2026-03-20T06:12:16.448968"
+      "timestamp": "2026-03-25T07:37:21.545766"
     }
   ]
 }

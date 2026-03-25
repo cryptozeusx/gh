@@ -1,6 +1,6 @@
 {
   "service": "proxypay",
-  "scan_timestamp": "2026-03-24T07:39:04.418508",
+  "scan_timestamp": "2026-03-25T07:38:15.561738",
   "finding_count": 2,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Proxypay Token",
       "severity": "medium",
       "matched_pattern": "im5l************************xzlf",
-      "timestamp": "2026-03-24T07:38:15.876261"
+      "timestamp": "2026-03-25T07:37:28.693782"
     },
     {
       "service": "proxypay",
@@ -27,7 +27,7 @@
       "description": "Proxypay Token",
       "severity": "medium",
       "matched_pattern": "PROX*****************************************zlf\"",
-      "timestamp": "2026-03-24T07:38:17.833487"
+      "timestamp": "2026-03-25T07:37:30.333951"
     }
   ]
 }

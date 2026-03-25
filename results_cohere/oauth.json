@@ -1,6 +1,6 @@
 {
   "service": "oauth",
-  "scan_timestamp": "2026-03-20T06:12:47.629418",
+  "scan_timestamp": "2026-03-25T07:38:15.559716",
   "finding_count": 5,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Oauth Google Client Id",
       "severity": "medium",
       "matched_pattern": "1234********************************************************************.com",
-      "timestamp": "2026-03-20T06:11:46.714057"
+      "timestamp": "2026-03-25T07:37:21.545831"
     },
     {
       "service": "oauth",
@@ -27,7 +27,7 @@
       "description": "Oauth Github Client Id",
       "severity": "medium",
       "matched_pattern": "Iv1.*************ef12",
-      "timestamp": "2026-03-20T06:11:46.714084"
+      "timestamp": "2026-03-25T07:37:21.545877"
     },
     {
       "service": "oauth",
@@ -40,7 +40,7 @@
       "description": "Oauth Microsoft Client Id",
       "severity": "medium",
       "matched_pattern": "abc1********************************3456",
-      "timestamp": "2026-03-20T06:11:46.714110"
+      "timestamp": "2026-03-25T07:37:21.545929"
     },
     {
       "service": "oauth",
@@ -53,7 +53,7 @@
       "description": "Oauth Microsoft Client Secret",
       "severity": "high",
       "matched_pattern": "ABC~*******************************Zabc",
-      "timestamp": "2026-03-20T06:11:46.714135"
+      "timestamp": "2026-03-25T07:37:21.545972"
     },
     {
       "service": "oauth",
@@ -66,7 +66,7 @@
       "description": "Oauth Linkedin Client Id",
       "severity": "medium",
       "matched_pattern": "1234****9abc",
-      "timestamp": "2026-03-20T06:11:46.714161"
+      "timestamp": "2026-03-25T07:37:21.546013"
     }
   ]
 }

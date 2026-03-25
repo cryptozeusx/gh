@@ -1,7 +1,7 @@
 {
   "service": "co",
-  "scan_timestamp": "2026-03-24T07:39:04.402093",
-  "finding_count": 6,
+  "scan_timestamp": "2026-03-25T07:38:15.548234",
+  "finding_count": 7,
   "findings": [
     {
       "service": "co",
@@ -14,7 +14,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************************89cf",
-      "timestamp": "2026-03-24T07:38:14.266544"
+      "timestamp": "2026-03-25T07:37:27.232742"
     },
     {
       "service": "co",
@@ -27,7 +27,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************************d5a3",
-      "timestamp": "2026-03-24T07:38:14.374302"
+      "timestamp": "2026-03-25T07:37:27.316503"
     },
     {
       "service": "co",
@@ -40,7 +40,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********************************61ad",
-      "timestamp": "2026-03-24T07:38:16.640503"
+      "timestamp": "2026-03-25T07:37:29.357196"
     },
     {
       "service": "co",
@@ -53,7 +53,20 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********************************TylK",
-      "timestamp": "2026-03-24T07:38:18.932357"
+      "timestamp": "2026-03-25T07:37:32.080251"
+    },
+    {
+      "service": "co",
+      "file": ".env.prod.example",
+      "repository": "realsarius/ecommerce-belediye-testcase",
+      "url": "https://github.com/realsarius/ecommerce-belediye-testcase/blob/484c38191d13e4edc215bdf3c9220bc6659bfd0e/.env.prod.example",
+      "line_number": 42,
+      "line_preview": "IYZICO_API_KEY=sandbox-",
+      "key_type": "co_api_key",
+      "description": "Co Api Key",
+      "severity": "medium",
+      "matched_pattern": "CO_A***********box-",
+      "timestamp": "2026-03-25T07:37:48.525593"
     },
     {
       "service": "co",
@@ -66,7 +79,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*****************************9QcP",
-      "timestamp": "2026-03-24T07:38:40.355301"
+      "timestamp": "2026-03-25T07:37:52.000926"
     },
     {
       "service": "co",
@@ -79,7 +92,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*******************************FcU'",
-      "timestamp": "2026-03-24T07:38:48.908435"
+      "timestamp": "2026-03-25T07:38:00.399311"
     }
   ]
 }

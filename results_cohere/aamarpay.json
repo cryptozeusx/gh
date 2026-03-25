@@ -1,6 +1,6 @@
 {
   "service": "aamarpay",
-  "scan_timestamp": "2026-03-24T07:39:04.399781",
+  "scan_timestamp": "2026-03-25T07:38:15.545498",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Aamarpay Signature Key",
       "severity": "medium",
       "matched_pattern": "28c7************************645a",
-      "timestamp": "2026-03-24T07:38:17.833763"
+      "timestamp": "2026-03-25T07:37:30.334224"
     }
   ]
 }
