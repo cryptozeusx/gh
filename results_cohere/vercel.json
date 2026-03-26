@@ -1,0 +1,20 @@
+{
+  "service": "vercel",
+  "scan_timestamp": "2026-03-26T07:45:19.856956",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "vercel",
+      "file": ".env.deploy",
+      "repository": "franciscoesobral/AXON-DevOps-Executor-The-Hand-of-the-King-",
+      "url": "https://github.com/franciscoesobral/AXON-DevOps-Executor-The-Hand-of-the-King-/blob/bf82761a1ded1b26fab53a71bfd62d6ba28630d9/.env.deploy",
+      "line_number": 169,
+      "line_preview": "VERCEL_TOKEN=YhjsrpXDMA1AhIiyv3lBHRuz",
+      "key_type": "vercel_token",
+      "description": "Vercel Token",
+      "severity": "medium",
+      "matched_pattern": "Yhjs****************HRuz",
+      "timestamp": "2026-03-26T07:44:26.533510"
+    }
+  ]
+}

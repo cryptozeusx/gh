@@ -1,20 +1,20 @@
 {
   "service": "dashscope",
-  "scan_timestamp": "2026-03-13T06:08:01.352699",
+  "scan_timestamp": "2026-03-26T07:45:19.841449",
   "finding_count": 1,
   "findings": [
     {
       "service": "dashscope",
-      "file": ".env.example",
-      "repository": "teilomillet/gollm",
-      "url": "https://github.com/teilomillet/gollm/blob/27c8f888adba9986f5fec113146b54c838825d5b/.env.example",
-      "line_number": 14,
-      "line_preview": "DASHSCOPE_API_KEY=...          # Aliyun/Alibaba Cloud",
-      "key_type": "dashscope_api_key",
-      "description": "Dashscope Api Key",
-      "severity": "medium",
-      "matched_pattern": "... ***************************loud",
-      "timestamp": "2026-03-13T06:07:28.517456"
+      "file": ".env copy 2",
+      "repository": "miguelmartmart/jddc_materiales_local_bd_ia",
+      "url": "https://github.com/miguelmartmart/jddc_materiales_local_bd_ia/blob/caa4c3d225c110ee61c875abd919a0f9628d1ca2/.env%20copy%202",
+      "line_number": 16,
+      "line_preview": "DASHSCOPE_API_KEY=sk-00592c9e71004f1fb0f0646c942ba144",
+      "key_type": "dashscope_key",
+      "description": "Alibaba DashScope API Key",
+      "severity": "high",
+      "matched_pattern": "DASH*********************************************a144",
+      "timestamp": "2026-03-26T07:44:22.608941"
     }
   ]
 }

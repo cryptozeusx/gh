@@ -1,0 +1,20 @@
+{
+  "service": "orbit",
+  "scan_timestamp": "2026-03-26T07:45:19.851793",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "orbit",
+      "file": "env.example",
+      "repository": "schmitech/orbit",
+      "url": "https://github.com/schmitech/orbit/blob/7ba69ae34ffbda21a394bd79f8b6c9a443daa4e6/env.example",
+      "line_number": 3,
+      "line_preview": "ORBIT_DEFAULT_ADMIN_PASSWORD=admin123",
+      "key_type": "orbit_default_admin_password",
+      "description": "Orbit Default Admin Password",
+      "severity": "high",
+      "matched_pattern": "********",
+      "timestamp": "2026-03-26T07:44:39.617674"
+    }
+  ]
+}

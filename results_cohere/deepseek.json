@@ -1,8 +1,34 @@
 {
   "service": "deepseek",
-  "scan_timestamp": "2026-03-25T07:38:15.550436",
-  "finding_count": 1,
+  "scan_timestamp": "2026-03-26T07:45:19.842288",
+  "finding_count": 3,
   "findings": [
+    {
+      "service": "deepseek",
+      "file": ".env copy 2",
+      "repository": "miguelmartmart/jddc_materiales_local_bd_ia",
+      "url": "https://github.com/miguelmartmart/jddc_materiales_local_bd_ia/blob/caa4c3d225c110ee61c875abd919a0f9628d1ca2/.env%20copy%202",
+      "line_number": 8,
+      "line_preview": "DEEPSEEK_API_KEY=sk-50dd47b8ffda4ddf9168fe5732649e4f",
+      "key_type": "deepseek_key",
+      "description": "DeepSeek API Key",
+      "severity": "high",
+      "matched_pattern": "DEEP********************************************9e4f",
+      "timestamp": "2026-03-26T07:44:22.608458"
+    },
+    {
+      "service": "deepseek",
+      "file": ".env.deploy",
+      "repository": "franciscoesobral/AXON-DevOps-Executor-The-Hand-of-the-King-",
+      "url": "https://github.com/franciscoesobral/AXON-DevOps-Executor-The-Hand-of-the-King-/blob/bf82761a1ded1b26fab53a71bfd62d6ba28630d9/.env.deploy",
+      "line_number": 37,
+      "line_preview": "DEEPSEEK_API_KEY=sk-ada9f738b6044635943e3a3301cb601a",
+      "key_type": "deepseek_key",
+      "description": "DeepSeek API Key",
+      "severity": "high",
+      "matched_pattern": "DEEP********************************************601a",
+      "timestamp": "2026-03-26T07:44:26.532968"
+    },
     {
       "service": "deepseek",
       "file": "iafactory-core-apps/video-studio/frontend/.env.local",
@@ -14,7 +40,7 @@
       "description": "DeepSeek API Key",
       "severity": "high",
       "matched_pattern": "DEEP********************************************e392",
-      "timestamp": "2026-03-25T07:37:55.521336"
+      "timestamp": "2026-03-26T07:44:59.405624"
     }
   ]
 }

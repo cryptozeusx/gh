@@ -1,8 +1,21 @@
 {
   "service": "nextauth",
-  "scan_timestamp": "2026-03-25T07:38:15.559350",
-  "finding_count": 5,
+  "scan_timestamp": "2026-03-26T07:45:19.850789",
+  "finding_count": 6,
   "findings": [
+    {
+      "service": "nextauth",
+      "file": ".env.example",
+      "repository": "quenti-io/quenti",
+      "url": "https://github.com/quenti-io/quenti/blob/6a359d62735574b7cc7eaa502b4fb32be88ed22f/.env.example",
+      "line_number": 15,
+      "line_preview": "NEXTAUTH_URL=http://localhost:3000",
+      "key_type": "nextauth_url",
+      "description": "Nextauth Url",
+      "severity": "medium",
+      "matched_pattern": "http*************3000",
+      "timestamp": "2026-03-26T07:44:19.268724"
+    },
     {
       "service": "nextauth",
       "file": ".env.docker",
@@ -13,21 +26,8 @@
       "key_type": "nextauth_url",
       "description": "Nextauth Url",
       "severity": "medium",
-      "matched_pattern": "http*************3000",
-      "timestamp": "2026-03-25T07:37:15.721677"
-    },
-    {
-      "service": "nextauth",
-      "file": ".env.local",
-      "repository": "JohnEvansOkyere/Chat_PDF_RAG_APP",
-      "url": "https://github.com/JohnEvansOkyere/Chat_PDF_RAG_APP/blob/f46f9ec16a970911b60b7ff14544f8391e7a4667/.env.local",
-      "line_number": 23,
-      "line_preview": "NEXTAUTH_URL=http://localhost:3000",
-      "key_type": "nextauth_url",
-      "description": "Nextauth Url",
-      "severity": "medium",
       "matched_pattern": "NEXT**************************3000",
-      "timestamp": "2026-03-25T07:37:19.966911"
+      "timestamp": "2026-03-26T07:44:21.197849"
     },
     {
       "service": "nextauth",
@@ -40,7 +40,20 @@
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "NEXT****************************000\"",
-      "timestamp": "2026-03-25T07:37:51.618760"
+      "timestamp": "2026-03-26T07:44:56.201732"
+    },
+    {
+      "service": "nextauth",
+      "file": ".env.local",
+      "repository": "JohnEvansOkyere/Chat_PDF_RAG_APP",
+      "url": "https://github.com/JohnEvansOkyere/Chat_PDF_RAG_APP/blob/f46f9ec16a970911b60b7ff14544f8391e7a4667/.env.local",
+      "line_number": 23,
+      "line_preview": "NEXTAUTH_URL=http://localhost:3000",
+      "key_type": "nextauth_url",
+      "description": "Nextauth Url",
+      "severity": "medium",
+      "matched_pattern": "NEXT**************************3000",
+      "timestamp": "2026-03-26T07:44:58.430418"
     },
     {
       "service": "nextauth",
@@ -53,7 +66,7 @@
       "description": "Nextauth Secret",
       "severity": "high",
       "matched_pattern": "NEXT*******************************************4_32",
-      "timestamp": "2026-03-25T07:37:55.522851"
+      "timestamp": "2026-03-26T07:44:59.406527"
     },
     {
       "service": "nextauth",
@@ -66,7 +79,7 @@
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "NEXT**************************3000",
-      "timestamp": "2026-03-25T07:37:55.522893"
+      "timestamp": "2026-03-26T07:44:59.406567"
     }
   ]
 }

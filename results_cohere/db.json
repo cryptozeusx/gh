@@ -1,7 +1,7 @@
 {
   "service": "db",
-  "scan_timestamp": "2026-03-25T07:38:15.550293",
-  "finding_count": 6,
+  "scan_timestamp": "2026-03-26T07:45:19.842150",
+  "finding_count": 4,
   "findings": [
     {
       "service": "db",
@@ -14,33 +14,7 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "8g3Z********DIRS",
-      "timestamp": "2026-03-25T07:37:08.293556"
-    },
-    {
-      "service": "db",
-      "file": ".env.md",
-      "repository": "ardrichGeorge/Laundrex",
-      "url": "https://github.com/ardrichGeorge/Laundrex/blob/6c8115f2bf23ea3d44e2ff56d99d3ede0d6b60a9/.env.md",
-      "line_number": 14,
-      "line_preview": "REACT_APP_DB_PASSWORD=laundrex",
-      "key_type": "db_password",
-      "description": "Db Password",
-      "severity": "high",
-      "matched_pattern": "DB_P************drex",
-      "timestamp": "2026-03-25T07:37:15.934397"
-    },
-    {
-      "service": "db",
-      "file": "backend/.env.render.template",
-      "repository": "jekportillano-da/Budget-Buddy-Mobile",
-      "url": "https://github.com/jekportillano-da/Budget-Buddy-Mobile/blob/854ea8fd7eb069e2a2814cf8b49c8e7ae8d46777/backend/.env.render.template",
-      "line_number": 43,
-      "line_preview": "DB_ENCRYPTION_KEY=CTwrEQDxpOoD33rEhmenk7I1_vOx5vXbs2a3BKEXxaY",
-      "key_type": "db_encryption_key",
-      "description": "Db Encryption Key",
-      "severity": "medium",
-      "matched_pattern": "CTwr***********************************XxaY",
-      "timestamp": "2026-03-25T07:37:21.361584"
+      "timestamp": "2026-03-26T07:44:19.619885"
     },
     {
       "service": "db",
@@ -53,7 +27,7 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "DB_P************3214",
-      "timestamp": "2026-03-25T07:37:24.700257"
+      "timestamp": "2026-03-26T07:44:29.589222"
     },
     {
       "service": "db",
@@ -66,20 +40,20 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "DB_P************************N*EW",
-      "timestamp": "2026-03-25T07:37:25.024000"
+      "timestamp": "2026-03-26T07:44:29.964400"
     },
     {
       "service": "db",
-      "file": "public_html/.env.backup2",
-      "repository": "fazliozdemir33/bilgeai",
-      "url": "https://github.com/fazliozdemir33/bilgeai/blob/ef4deb167dee6bbc281163fc6c2a4cfc318584e7/public_html/.env.backup2",
-      "line_number": 63,
-      "line_preview": "DB_PASSWORD=U?a5qDk>0",
+      "file": "pmoves/env.shared.example",
+      "repository": "POWERFULMOVES/PMOVES.AI",
+      "url": "https://github.com/POWERFULMOVES/PMOVES.AI/blob/46df2435ec1bd8035f24beeea375a45bb573dc90/pmoves/env.shared.example",
+      "line_number": 142,
+      "line_preview": "N8N_DB_PASSWORD=CHANGE_ME_N8N_DB_PASSWORD",
       "key_type": "db_password",
       "description": "Db Password",
       "severity": "high",
-      "matched_pattern": "DB_P*************Dk>0",
-      "timestamp": "2026-03-25T07:37:32.080142"
+      "matched_pattern": "DB_P*****************************WORD",
+      "timestamp": "2026-03-26T07:44:42.570985"
     }
   ]
 }

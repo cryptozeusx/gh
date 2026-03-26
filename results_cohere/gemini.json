@@ -1,46 +1,33 @@
 {
   "service": "gemini",
-  "scan_timestamp": "2026-03-25T07:38:15.552156",
-  "finding_count": 10,
+  "scan_timestamp": "2026-03-26T07:45:19.843753",
+  "finding_count": 8,
   "findings": [
     {
       "service": "gemini",
-      "file": ".env.FREE.example",
-      "repository": "ayush-mishra035/ayush-mishra035.github.io",
-      "url": "https://github.com/ayush-mishra035/ayush-mishra035.github.io/blob/175f8e2a706dacee7d083cbcdfd1a79175908546/.env.FREE.example",
-      "line_number": 9,
-      "line_preview": "GEMINI_API_KEY=AIzaSyBBgnYib9OxeB-f0Am5q1sZ6DImc1mG4Z4",
+      "file": "PROJECTS/AI-PROJECTS/PLANT-ANALYSIS-TOOL/.env",
+      "repository": "tweneboah/Full-Stack-Web-Development-Bootcamp-Course",
+      "url": "https://github.com/tweneboah/Full-Stack-Web-Development-Bootcamp-Course/blob/6880262d9aa3d9e22e2a7910d7b7e727de75f590/PROJECTS/AI-PROJECTS/PLANT-ANALYSIS-TOOL/.env",
+      "line_number": 1,
+      "line_preview": "GEMINI_API_KEY=AIzaSyB2ErbSwCmGwCgRvnmaAeQlWoZajSkM8w0",
       "key_type": "gemini_api_key",
       "description": "Gemini Api Key",
       "severity": "medium",
-      "matched_pattern": "GEMI**********************************************G4Z4",
-      "timestamp": "2026-03-25T07:37:18.650133"
+      "matched_pattern": "GEMI**********************************************M8w0",
+      "timestamp": "2026-03-26T07:44:17.059255"
     },
     {
       "service": "gemini",
-      "file": "finlit-gpt/.env.backup",
-      "repository": "Nono140503/FinLit-GPT",
-      "url": "https://github.com/Nono140503/FinLit-GPT/blob/0f2a1f487fd53b7cd81348e866abda56599cb8d2/finlit-gpt/.env.backup",
-      "line_number": 4,
-      "line_preview": "NEXT_PUBLIC_GEMINI_API_KEY=AIzaSyCX1aJERX8-hbgjV4NaIuGjQgjwlkwql08",
+      "file": ".env copy 2",
+      "repository": "miguelmartmart/jddc_materiales_local_bd_ia",
+      "url": "https://github.com/miguelmartmart/jddc_materiales_local_bd_ia/blob/caa4c3d225c110ee61c875abd919a0f9628d1ca2/.env%20copy%202",
+      "line_number": 3,
+      "line_preview": "GEMINI_API_KEY=AIzaSyBO_nPgednEE6lThORCUK9ZOdbL81l0nSk",
       "key_type": "gemini_api_key",
       "description": "Gemini Api Key",
       "severity": "medium",
-      "matched_pattern": "GEMI**********************************************ql08",
-      "timestamp": "2026-03-25T07:37:20.354049"
-    },
-    {
-      "service": "gemini",
-      "file": ".env.enterprise",
-      "repository": "ryanalmb/script-ai",
-      "url": "https://github.com/ryanalmb/script-ai/blob/21f4523a23788ce28b6f99a90328103c0a66a60b/.env.enterprise",
-      "line_number": 224,
-      "line_preview": "GEMINI_API_KEY=AIzaSyC8XYZ123456789abcdefghijklmnopqrstuvwxyz_ENTERPRISE",
-      "key_type": "gemini_api_key",
-      "description": "Gemini Api Key",
-      "severity": "medium",
-      "matched_pattern": "GEMI****************************************************************RISE",
-      "timestamp": "2026-03-25T07:37:21.544566"
+      "matched_pattern": "GEMI**********************************************0nSk",
+      "timestamp": "2026-03-26T07:44:22.607958"
     },
     {
       "service": "gemini",
@@ -53,7 +40,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************C2ao",
-      "timestamp": "2026-03-25T07:37:27.316635"
+      "timestamp": "2026-03-26T07:44:32.908823"
     },
     {
       "service": "gemini",
@@ -66,33 +53,20 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************o_vI",
-      "timestamp": "2026-03-25T07:37:27.480497"
+      "timestamp": "2026-03-26T07:44:33.386499"
     },
     {
       "service": "gemini",
-      "file": "backend/.env",
-      "repository": "Spidergy07/CEDT_FinalProject",
-      "url": "https://github.com/Spidergy07/CEDT_FinalProject/blob/58cc1d6b579a0b47f9badfbd913170060c1ff3fa/backend/.env",
-      "line_number": 8,
-      "line_preview": "GEMINI_API_KEY=AIzaSyCjTG53kEw1Dbv1AqJ3_8hJT8rHkSTMZeA",
+      "file": "backend/.env.production.example",
+      "repository": "anusbutt/Physical-AI-Humanoid-Robotics-Textbook",
+      "url": "https://github.com/anusbutt/Physical-AI-Humanoid-Robotics-Textbook/blob/d69019d393f38bd1189987d41b238d46a20220d4/backend/.env.production.example",
+      "line_number": 7,
+      "line_preview": "GEMINI_API_KEY=AIzaSy...  # Get from: https://ai.google.dev/",
       "key_type": "gemini_api_key",
       "description": "Gemini Api Key",
       "severity": "medium",
-      "matched_pattern": "GEMI**********************************************MZeA",
-      "timestamp": "2026-03-25T07:37:27.945818"
-    },
-    {
-      "service": "gemini",
-      "file": ".env.example",
-      "repository": "eslamsaby15/AIVox_Lab",
-      "url": "https://github.com/eslamsaby15/AIVox_Lab/blob/7c0bb0b37a8c126049621c16ad4cfe3f2ec84343/.env.example",
-      "line_number": 18,
-      "line_preview": "GEMINI_API_KEY=\"AIzaSyDU2uWM\"",
-      "key_type": "gemini_api_key",
-      "description": "Gemini Api Key",
-      "severity": "medium",
-      "matched_pattern": "GEMI*********************uWM\"",
-      "timestamp": "2026-03-25T07:37:41.302479"
+      "matched_pattern": "AIza*************************************dev/",
+      "timestamp": "2026-03-26T07:44:47.904665"
     },
     {
       "service": "gemini",
@@ -105,7 +79,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************9_ag",
-      "timestamp": "2026-03-25T07:37:53.687998"
+      "timestamp": "2026-03-26T07:44:57.421833"
     },
     {
       "service": "gemini",
@@ -118,7 +92,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************inns",
-      "timestamp": "2026-03-25T07:37:53.866111"
+      "timestamp": "2026-03-26T07:44:57.656286"
     },
     {
       "service": "gemini",
@@ -131,7 +105,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************Dsdg",
-      "timestamp": "2026-03-25T07:37:55.520973"
+      "timestamp": "2026-03-26T07:44:59.405141"
     }
   ]
 }

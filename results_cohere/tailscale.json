@@ -1,0 +1,20 @@
+{
+  "service": "tailscale",
+  "scan_timestamp": "2026-03-26T07:45:19.856507",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "tailscale",
+      "file": "pmoves/env.shared.example",
+      "repository": "POWERFULMOVES/PMOVES.AI",
+      "url": "https://github.com/POWERFULMOVES/PMOVES.AI/blob/46df2435ec1bd8035f24beeea375a45bb573dc90/pmoves/env.shared.example",
+      "line_number": 353,
+      "line_preview": "TAILSCALE_AUTHKEY_FILE=CATACLYSM_STUDIOS_INC/PMOVES-PROVISIONS/tailscale/tailscale_authkey.txt",
+      "key_type": "tailscale_authkey_file",
+      "description": "Tailscale Authkey File",
+      "severity": "medium",
+      "matched_pattern": "CATA***************************************************************.txt",
+      "timestamp": "2026-03-26T07:44:42.571321"
+    }
+  ]
+}

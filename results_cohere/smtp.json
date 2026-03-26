@@ -1,6 +1,6 @@
 {
   "service": "smtp",
-  "scan_timestamp": "2026-03-19T06:42:16.018439",
+  "scan_timestamp": "2026-03-26T07:45:19.855559",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Smtp Password",
       "severity": "high",
       "matched_pattern": "SG.y****************-key",
-      "timestamp": "2026-03-19T06:41:38.295438"
+      "timestamp": "2026-03-26T07:44:45.360785"
     }
   ]
 }

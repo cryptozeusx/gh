@@ -1,20 +1,137 @@
 {
   "service": "supabase",
-  "scan_timestamp": "2026-03-25T07:38:15.564609",
-  "finding_count": 4,
+  "scan_timestamp": "2026-03-26T07:45:19.856112",
+  "finding_count": 15,
   "findings": [
     {
       "service": "supabase",
-      "file": ".env.md",
-      "repository": "valeriomarygrace-maker/plpsmartgrademvv",
-      "url": "https://github.com/valeriomarygrace-maker/plpsmartgrademvv/blob/257d391f595168ee7cee390a24bd7e63536d7d25/.env.md",
+      "file": ".env.deploy",
+      "repository": "franciscoesobral/AXON-DevOps-Executor-The-Hand-of-the-King-",
+      "url": "https://github.com/franciscoesobral/AXON-DevOps-Executor-The-Hand-of-the-King-/blob/bf82761a1ded1b26fab53a71bfd62d6ba28630d9/.env.deploy",
+      "line_number": 153,
+      "line_preview": "SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNieWZsZm5pcWNkY3BweWZ2aWtvIiwic",
+      "key_type": "supabase_anon_key",
+      "description": "Supabase Anon Key",
+      "severity": "medium",
+      "matched_pattern": "eyJh********************************************************************************************************************************************************************************************************XmYI",
+      "timestamp": "2026-03-26T07:44:26.533420"
+    },
+    {
+      "service": "supabase",
+      "file": ".env.deploy",
+      "repository": "franciscoesobral/AXON-DevOps-Executor-The-Hand-of-the-King-",
+      "url": "https://github.com/franciscoesobral/AXON-DevOps-Executor-The-Hand-of-the-King-/blob/bf82761a1ded1b26fab53a71bfd62d6ba28630d9/.env.deploy",
+      "line_number": 155,
+      "line_preview": "SUPABASE_SERVICE_ROLE_KEY=sb_secret_a7cBT1t1YP1xfIFbL10Qtg_Ko8gk-Bx",
+      "key_type": "supabase_service_role_key",
+      "description": "Supabase Service Role Key",
+      "severity": "medium",
+      "matched_pattern": "sb_s*********************************k-Bx",
+      "timestamp": "2026-03-26T07:44:26.533468"
+    },
+    {
+      "service": "supabase",
+      "file": ".env",
+      "repository": "surya140104/Flood_Risk_140104",
+      "url": "https://github.com/surya140104/Flood_Risk_140104/blob/7e5ce762a7198a7b9fd701c6942d114bd3fe04b2/.env",
+      "line_number": 12,
+      "line_preview": "NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImduY2RtdXVkbWxvemNmY",
+      "key_type": "supabase_anon_key",
+      "description": "Supabase Anon Key",
+      "severity": "medium",
+      "matched_pattern": "SUPA**************************************************************************************************************************************************************************************************************************cg7Q",
+      "timestamp": "2026-03-26T07:44:32.908574"
+    },
+    {
+      "service": "supabase",
+      "file": "backend/.env",
+      "repository": "fabiosky21/TheNasa",
+      "url": "https://github.com/fabiosky21/TheNasa/blob/2b1345f83c7db4746498526982bb1e0b7633bc7f/backend/.env",
+      "line_number": 4,
+      "line_preview": "REACT_APP_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imlud3ZtZ3BnZXJibXVtdHJ",
+      "key_type": "supabase_anon_key",
+      "description": "Supabase Anon Key",
+      "severity": "medium",
+      "matched_pattern": "SUPA**************************************************************************************************************************************************************************************************************************IWAg",
+      "timestamp": "2026-03-26T07:44:35.329010"
+    },
+    {
+      "service": "supabase",
+      "file": "backend/.env.example",
+      "repository": "Anubhavjaiswal21/todo-summary-assistant",
+      "url": "https://github.com/Anubhavjaiswal21/todo-summary-assistant/blob/b30a5a09fd58a3340a5f8406d62751821c4dee7b/backend/.env.example",
       "line_number": 2,
-      "line_preview": "SUPABASE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inh3dnJncHhjY2VpdmFrenJ3d2ppIiwicm9sZS",
+      "line_preview": "SUPABASE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVsY2Z5Y2doaWdhZXp0b2x5emZuIiwicm9sZS",
       "key_type": "supabase_key",
       "description": "Supabase Key",
       "severity": "medium",
-      "matched_pattern": "eyJh********************************************************************************************************************************************************************************************************i4FM",
-      "timestamp": "2026-03-25T07:37:16.092951"
+      "matched_pattern": "eyJh********************************************************************************************************************************************************************************************************4isA",
+      "timestamp": "2026-03-26T07:44:36.167230"
+    },
+    {
+      "service": "supabase",
+      "file": ".env.local.example",
+      "repository": "kcg34kcg-web/Marinantex",
+      "url": "https://github.com/kcg34kcg-web/Marinantex/blob/7b21ca537ed7317f3101b486c5dfcc7bc9799808/.env.local.example",
+      "line_number": 6,
+      "line_preview": "NEXT_PUBLIC_SUPABASE_ANON_KEY=\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.sample-anon-key\"",
+      "key_type": "supabase_anon_key",
+      "description": "Supabase Anon Key",
+      "severity": "medium",
+      "matched_pattern": "SUPA****************************************************************key\"",
+      "timestamp": "2026-03-26T07:44:40.204039"
+    },
+    {
+      "service": "supabase",
+      "file": ".env.local.example",
+      "repository": "kcg34kcg-web/Marinantex",
+      "url": "https://github.com/kcg34kcg-web/Marinantex/blob/7b21ca537ed7317f3101b486c5dfcc7bc9799808/.env.local.example",
+      "line_number": 7,
+      "line_preview": "SUPABASE_SERVICE_ROLE_KEY=\"eyJhbGciOiJIUzI1Ndsfdsfdsfdsfdsff34ffdf43ddsf3IMzHHcGVKSh2PKeTO1k_VAaqBpyL-EARA\"",
+      "key_type": "supabase_service_role_key",
+      "description": "Supabase Service Role Key",
+      "severity": "medium",
+      "matched_pattern": "SUPA***************************************************************************************************ARA\"",
+      "timestamp": "2026-03-26T07:44:40.204096"
+    },
+    {
+      "service": "supabase",
+      "file": "backend-render/.env.example",
+      "repository": "dvirdiei/shira",
+      "url": "https://github.com/dvirdiei/shira/blob/7b9ee72f3e7f385a0eb70dcd4db6efee9dbbc942/backend-render/.env.example",
+      "line_number": 7,
+      "line_preview": "SUPABASE_SERVICE_KEY=eyJhbGciOiJIUzI1NiIsI...",
+      "key_type": "supabase_service_key",
+      "description": "Supabase Service Key",
+      "severity": "medium",
+      "matched_pattern": "eyJh****************I...",
+      "timestamp": "2026-03-26T07:44:53.805751"
+    },
+    {
+      "service": "supabase",
+      "file": ".env.local",
+      "repository": "COMP5241-2526Sem1/24005826G_lab2_V2",
+      "url": "https://github.com/COMP5241-2526Sem1/24005826G_lab2_V2/blob/c61afb6874831e6d59f5c6586b0ce8e2ccf793bb/.env.local",
+      "line_number": 3,
+      "line_preview": "NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVrZ2Z6aXdzcnZtd2F5Z",
+      "key_type": "supabase_anon_key",
+      "description": "Supabase Anon Key",
+      "severity": "medium",
+      "matched_pattern": "SUPA**************************************************************************************************************************************************************************************************************************9jUM",
+      "timestamp": "2026-03-26T07:44:58.558816"
+    },
+    {
+      "service": "supabase",
+      "file": ".env.local",
+      "repository": "sudanva21/Career-Advisor-SIH",
+      "url": "https://github.com/sudanva21/Career-Advisor-SIH/blob/36d5272b7d80719b8c19696bbb6500b652ee9b14/.env.local",
+      "line_number": 9,
+      "line_preview": "NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd5dWR3anpqenRiZ2Rqd",
+      "key_type": "supabase_anon_key",
+      "description": "Supabase Anon Key",
+      "severity": "medium",
+      "matched_pattern": "SUPA**************************************************************************************************************************************************************************************************************************MuT0",
+      "timestamp": "2026-03-26T07:44:59.635359"
     },
     {
       "service": "supabase",
@@ -26,8 +143,21 @@
       "key_type": "supabase_service_role_key",
       "description": "Supabase Service Role Key",
       "severity": "medium",
-      "matched_pattern": "eyJh*******************************************************************************************************************************************************************************************************************_bsc",
-      "timestamp": "2026-03-25T07:37:21.282313"
+      "matched_pattern": "SUPA*********************************************************************************************************************************************************************************************************************************************_bsc",
+      "timestamp": "2026-03-26T07:44:59.635466"
+    },
+    {
+      "service": "supabase",
+      "file": ".env.local",
+      "repository": "Orkestaia/orkesta-os",
+      "url": "https://github.com/Orkestaia/orkesta-os/blob/df0130fd2403feb2ce5ae64ba4754a5e51310f08/.env.local",
+      "line_number": 2,
+      "line_preview": "NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJsbnlobW9zc2xoeHFvc",
+      "key_type": "supabase_anon_key",
+      "description": "Supabase Anon Key",
+      "severity": "medium",
+      "matched_pattern": "SUPA**************************************************************************************************************************************************************************************************************************mrow",
+      "timestamp": "2026-03-26T07:45:04.169459"
     },
     {
       "service": "supabase",
@@ -40,7 +170,20 @@
       "description": "Supabase Service Role Key",
       "severity": "medium",
       "matched_pattern": "SUPA***********************************************************c8Mx",
-      "timestamp": "2026-03-25T07:37:25.109764"
+      "timestamp": "2026-03-26T07:45:04.169562"
+    },
+    {
+      "service": "supabase",
+      "file": ".env.local",
+      "repository": "osmantandogan/hmtbtbv4",
+      "url": "https://github.com/osmantandogan/hmtbtbv4/blob/7f682b4d2e3e1c34c4ff7d63d5bcc3144814a541/.env.local",
+      "line_number": 7,
+      "line_preview": "NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRxbG5tdGFqbGhybXJnc",
+      "key_type": "supabase_anon_key",
+      "description": "Supabase Anon Key",
+      "severity": "medium",
+      "matched_pattern": "SUPA**************************************************************************************************************************************************************************************************************************BAL0",
+      "timestamp": "2026-03-26T07:45:04.429946"
     },
     {
       "service": "supabase",
@@ -53,7 +196,7 @@
       "description": "Supabase Service Role Key",
       "severity": "medium",
       "matched_pattern": "SUPA*********************************************************************************************************************************************************************************************************************************************itoI",
-      "timestamp": "2026-03-25T07:38:00.476942"
+      "timestamp": "2026-03-26T07:45:04.430057"
     }
   ]
 }

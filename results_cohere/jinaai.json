@@ -1,6 +1,6 @@
 {
   "service": "jinaai",
-  "scan_timestamp": "2026-03-25T07:38:15.556489",
+  "scan_timestamp": "2026-03-26T07:45:19.847778",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Jinaai Api Key",
       "severity": "medium",
       "matched_pattern": " # A********************************************************del)",
-      "timestamp": "2026-03-25T07:37:19.326257"
+      "timestamp": "2026-03-26T07:44:24.860374"
     }
   ]
 }

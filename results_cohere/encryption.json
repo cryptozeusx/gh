@@ -1,21 +1,8 @@
 {
   "service": "encryption",
-  "scan_timestamp": "2026-03-25T07:38:15.551034",
+  "scan_timestamp": "2026-03-26T07:45:19.842598",
   "finding_count": 5,
   "findings": [
-    {
-      "service": "encryption",
-      "file": ".env.enterprise",
-      "repository": "ryanalmb/script-ai",
-      "url": "https://github.com/ryanalmb/script-ai/blob/21f4523a23788ce28b6f99a90328103c0a66a60b/.env.enterprise",
-      "line_number": 160,
-      "line_preview": "ENCRYPTION_KEY=Ent3rpr1s3_Encr_K3y_2024_ABC123456789DEFGHIJKLMNOPQRSTUVWXYZabcdefghijk",
-      "key_type": "encryption_key",
-      "description": "Encryption Key",
-      "severity": "medium",
-      "matched_pattern": "Ent3***************************************************************hijk",
-      "timestamp": "2026-03-25T07:37:21.545703"
-    },
     {
       "service": "encryption",
       "file": "staging.env.example",
@@ -26,21 +13,34 @@
       "key_type": "encryption_key",
       "description": "Encryption Key",
       "severity": "medium",
-      "matched_pattern": "ENCR****************************************YTES",
-      "timestamp": "2026-03-25T07:37:42.729035"
+      "matched_pattern": "CHAN*************************YTES",
+      "timestamp": "2026-03-26T07:44:41.076546"
+    },
+    {
+      "service": "encryption",
+      "file": ".env.railway.example",
+      "repository": "LimitlessOI/Lumin-LifeOS",
+      "url": "https://github.com/LimitlessOI/Lumin-LifeOS/blob/dacd2808b8e16ef3c3ae3c32a7814985fad9fbf5/.env.railway.example",
+      "line_number": 16,
+      "line_preview": "TCO_ENCRYPTION_KEY=a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2",
+      "key_type": "encryption_key",
+      "description": "Encryption Key",
+      "severity": "medium",
+      "matched_pattern": "ENCR***********************************************************************e1f2",
+      "timestamp": "2026-03-26T07:44:44.450813"
     },
     {
       "service": "encryption",
       "file": "backend/.env.dist.local",
       "repository": "linuxfoundation/crowd.dev",
-      "url": "https://github.com/linuxfoundation/crowd.dev/blob/8a05d364017b3f5848b4b82caf23ae39e23dbfd3/backend/.env.dist.local",
+      "url": "https://github.com/linuxfoundation/crowd.dev/blob/d6a76c9fdd1b804da44ee3292f872b904885a5d4/backend/.env.dist.local",
       "line_number": 151,
       "line_preview": "CROWD_TEMPORAL_ENCRYPTION_KEY=FweBMRnGCLshER8FlSvNusQA6G3MRUKt",
       "key_type": "encryption_key",
       "description": "Encryption Key",
       "severity": "medium",
       "matched_pattern": "ENCR***************************************RUKt",
-      "timestamp": "2026-03-25T07:37:53.558321"
+      "timestamp": "2026-03-26T07:44:57.321074"
     },
     {
       "service": "encryption",
@@ -53,7 +53,7 @@
       "description": "Encryption Key",
       "severity": "medium",
       "matched_pattern": "ENCR***************************************RUKt",
-      "timestamp": "2026-03-25T07:37:54.158316"
+      "timestamp": "2026-03-26T07:44:58.020042"
     },
     {
       "service": "encryption",
@@ -66,7 +66,7 @@
       "description": "Encryption Key",
       "severity": "medium",
       "matched_pattern": "ENCR***************************************7ab2",
-      "timestamp": "2026-03-25T07:38:08.000348"
+      "timestamp": "2026-03-26T07:45:12.401298"
     }
   ]
 }

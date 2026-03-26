@@ -1,6 +1,6 @@
 {
   "service": "co",
-  "scan_timestamp": "2026-03-25T07:38:15.548234",
+  "scan_timestamp": "2026-03-26T07:45:19.840206",
   "finding_count": 7,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************************89cf",
-      "timestamp": "2026-03-25T07:37:27.232742"
+      "timestamp": "2026-03-26T07:44:32.813508"
     },
     {
       "service": "co",
@@ -27,33 +27,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************************d5a3",
-      "timestamp": "2026-03-25T07:37:27.316503"
-    },
-    {
-      "service": "co",
-      "file": ".env",
-      "repository": "shivansh-arch/Wheater-app",
-      "url": "https://github.com/shivansh-arch/Wheater-app/blob/1acc1eef63ee65eccbe927de0ddecc4e2cb8ea91/.env",
-      "line_number": 2,
-      "line_preview": "GEOCODE_MAPS_CO_API_KEY=8a4b77994b97307a1302f110750561ad",
-      "key_type": "co_api_key",
-      "description": "Co Api Key",
-      "severity": "medium",
-      "matched_pattern": "CO_A***********************************61ad",
-      "timestamp": "2026-03-25T07:37:29.357196"
-    },
-    {
-      "service": "co",
-      "file": "public_html/.env.backup2",
-      "repository": "fazliozdemir33/bilgeai",
-      "url": "https://github.com/fazliozdemir33/bilgeai/blob/ef4deb167dee6bbc281163fc6c2a4cfc318584e7/public_html/.env.backup2",
-      "line_number": 103,
-      "line_preview": "IYZICO_API_KEY=pSw8IH2ejQVLz1ZvlwSFc77cDuqgTylK",
-      "key_type": "co_api_key",
-      "description": "Co Api Key",
-      "severity": "medium",
-      "matched_pattern": "CO_A***********************************TylK",
-      "timestamp": "2026-03-25T07:37:32.080251"
+      "timestamp": "2026-03-26T07:44:32.908697"
     },
     {
       "service": "co",
@@ -66,7 +40,33 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********box-",
-      "timestamp": "2026-03-25T07:37:48.525593"
+      "timestamp": "2026-03-26T07:44:33.485876"
+    },
+    {
+      "service": "co",
+      "file": ".env",
+      "repository": "NepsenX/NepsenX",
+      "url": "https://github.com/NepsenX/NepsenX/blob/762cc29ed45fa717b9ca2653a7663c324d6b460d/.env",
+      "line_number": 19,
+      "line_preview": "CO_API_KEY=co_secure_access_90",
+      "key_type": "co_api_key",
+      "description": "Co Api Key",
+      "severity": "medium",
+      "matched_pattern": "CO_A**********************s_90",
+      "timestamp": "2026-03-26T07:44:35.708037"
+    },
+    {
+      "service": "co",
+      "file": ".env",
+      "repository": "shivansh-arch/Wheater-app",
+      "url": "https://github.com/shivansh-arch/Wheater-app/blob/1acc1eef63ee65eccbe927de0ddecc4e2cb8ea91/.env",
+      "line_number": 2,
+      "line_preview": "GEOCODE_MAPS_CO_API_KEY=8a4b77994b97307a1302f110750561ad",
+      "key_type": "co_api_key",
+      "description": "Co Api Key",
+      "severity": "medium",
+      "matched_pattern": "CO_A***********************************61ad",
+      "timestamp": "2026-03-26T07:44:37.517332"
     },
     {
       "service": "co",
@@ -79,7 +79,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*****************************9QcP",
-      "timestamp": "2026-03-25T07:37:52.000926"
+      "timestamp": "2026-03-26T07:44:56.773651"
     },
     {
       "service": "co",
@@ -92,7 +92,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*******************************FcU'",
-      "timestamp": "2026-03-25T07:38:00.399311"
+      "timestamp": "2026-03-26T07:45:04.289603"
     }
   ]
 }

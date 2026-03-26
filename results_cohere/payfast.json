@@ -1,8 +1,21 @@
 {
   "service": "payfast",
-  "scan_timestamp": "2026-03-25T07:38:15.560282",
-  "finding_count": 3,
+  "scan_timestamp": "2026-03-26T07:45:19.851964",
+  "finding_count": 4,
   "findings": [
+    {
+      "service": "payfast",
+      "file": ".env.bak",
+      "repository": "Piyushkumawat23/well-known",
+      "url": "https://github.com/Piyushkumawat23/well-known/blob/c626bd8134e455a116c28528270c4b20f6d86eb9/.env.bak",
+      "line_number": 110,
+      "line_preview": "PAYFAST_MERCHANT_KEY=\"m0sfp3xkxzqlm\"",
+      "key_type": "payfast_merchant_key",
+      "description": "Payfast Merchant Key",
+      "severity": "medium",
+      "matched_pattern": "m0sf*****zqlm",
+      "timestamp": "2026-03-26T07:44:32.721853"
+    },
     {
       "service": "payfast",
       "file": ".envv",
@@ -13,8 +26,8 @@
       "key_type": "payfast_merchant_key",
       "description": "Payfast Merchant Key",
       "severity": "medium",
-      "matched_pattern": "m0sf*****zqlm",
-      "timestamp": "2026-03-25T07:37:28.693690"
+      "matched_pattern": "PAYF****************************qlm\"",
+      "timestamp": "2026-03-26T07:44:33.952952"
     },
     {
       "service": "payfast",
@@ -27,7 +40,7 @@
       "description": "Payfast Merchant Key",
       "severity": "medium",
       "matched_pattern": "PAYF****************************qlm\"",
-      "timestamp": "2026-03-25T07:37:30.333559"
+      "timestamp": "2026-03-26T07:44:36.960103"
     },
     {
       "service": "payfast",
@@ -40,7 +53,7 @@
       "description": "Payfast Merchant Key",
       "severity": "medium",
       "matched_pattern": "PAYF****************************qlm\"",
-      "timestamp": "2026-03-25T07:37:46.381408"
+      "timestamp": "2026-03-26T07:44:49.729069"
     }
   ]
 }

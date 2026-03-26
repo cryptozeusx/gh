@@ -1,20 +1,33 @@
 {
   "service": "postgres",
-  "scan_timestamp": "2026-03-25T07:38:15.561498",
-  "finding_count": 2,
+  "scan_timestamp": "2026-03-26T07:45:19.853032",
+  "finding_count": 3,
   "findings": [
     {
       "service": "postgres",
-      "file": "backend/.env.production",
-      "repository": "oguzbenturk/UKC.world",
-      "url": "https://github.com/oguzbenturk/UKC.world/blob/d536748b1c0e4a614bd999fee724cab942656d10/backend/.env.production",
-      "line_number": 8,
-      "line_preview": "POSTGRES_PASSWORD=WHMgux86",
+      "file": ".env.hanzo.example",
+      "repository": "hanzoai/chat",
+      "url": "https://github.com/hanzoai/chat/blob/a4b8d019a607d4c7141940f8af73fec0a8eb9cea/.env.hanzo.example",
+      "line_number": 14,
+      "line_preview": "POSTGRES_PASSWORD=hanzo123",
       "key_type": "postgres_password",
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "********",
-      "timestamp": "2026-03-25T07:37:32.649733"
+      "timestamp": "2026-03-26T07:44:21.950353"
+    },
+    {
+      "service": "postgres",
+      "file": "template/{{cookiecutter.project_slug}}/.env.prod.example",
+      "repository": "vstorm-co/full-stack-ai-agent-template",
+      "url": "https://github.com/vstorm-co/full-stack-ai-agent-template/blob/f49c7f80c591517776690f399ecc0991b8677b7a/template/%7B%7Bcookiecutter.project_slug%7D%7D/.env.prod.example",
+      "line_number": 33,
+      "line_preview": "POSTGRES_PASSWORD=  # Generate: openssl rand -base64 32",
+      "key_type": "postgres_password",
+      "description": "Postgres Password",
+      "severity": "high",
+      "matched_pattern": "# Ge***************************4 32",
+      "timestamp": "2026-03-26T07:44:39.099870"
     },
     {
       "service": "postgres",
@@ -27,7 +40,7 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "POST**************************IX6P",
-      "timestamp": "2026-03-25T07:37:53.865550"
+      "timestamp": "2026-03-26T07:44:57.655602"
     }
   ]
 }

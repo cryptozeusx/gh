@@ -1,0 +1,20 @@
+{
+  "service": "yi",
+  "scan_timestamp": "2026-03-26T07:45:19.857466",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "yi",
+      "file": ".env copy 2",
+      "repository": "miguelmartmart/jddc_materiales_local_bd_ia",
+      "url": "https://github.com/miguelmartmart/jddc_materiales_local_bd_ia/blob/caa4c3d225c110ee61c875abd919a0f9628d1ca2/.env%20copy%202",
+      "line_number": 18,
+      "line_preview": "YI_API_KEY=af0adfa4acdd4d6ab4dd02dda7e2a1dd",
+      "key_type": "yi_key",
+      "description": "01.ai Yi API Key",
+      "severity": "high",
+      "matched_pattern": "YI_A***********************************a1dd",
+      "timestamp": "2026-03-26T07:44:22.609062"
+    }
+  ]
+}

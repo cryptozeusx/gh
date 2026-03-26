@@ -1,6 +1,6 @@
 {
   "service": "astra",
-  "scan_timestamp": "2026-03-25T07:38:15.547126",
+  "scan_timestamp": "2026-03-26T07:45:19.839462",
   "finding_count": 2,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Astra Token",
       "severity": "medium",
       "matched_pattern": "Astr***:...",
-      "timestamp": "2026-03-25T07:37:38.028549"
+      "timestamp": "2026-03-26T07:44:46.461607"
     },
     {
       "service": "astra",
@@ -27,7 +27,7 @@
       "description": "Astra Token",
       "severity": "medium",
       "matched_pattern": "ASTR*********************************************************************************************************d4d\"",
-      "timestamp": "2026-03-25T07:38:07.354973"
+      "timestamp": "2026-03-26T07:45:11.429418"
     }
   ]
 }

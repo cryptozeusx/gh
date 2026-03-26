@@ -1,21 +1,8 @@
 {
   "service": "anthropic",
-  "scan_timestamp": "2026-03-25T07:38:15.546102",
-  "finding_count": 3,
+  "scan_timestamp": "2026-03-26T07:45:19.838614",
+  "finding_count": 4,
   "findings": [
-    {
-      "service": "anthropic",
-      "file": ".env.enterprise",
-      "repository": "ryanalmb/script-ai",
-      "url": "https://github.com/ryanalmb/script-ai/blob/21f4523a23788ce28b6f99a90328103c0a66a60b/.env.enterprise",
-      "line_number": 249,
-      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api03-ABC123456789DEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
-      "key_type": "anthropic_api_key",
-      "description": "Anthropic Api Key",
-      "severity": "medium",
-      "matched_pattern": "ANTH************************************************************************************wxyz",
-      "timestamp": "2026-03-25T07:37:21.544833"
-    },
     {
       "service": "anthropic",
       "file": ".env.local",
@@ -27,7 +14,33 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "# Re****************************-...",
-      "timestamp": "2026-03-25T07:37:54.688132"
+      "timestamp": "2026-03-26T07:44:22.419905"
+    },
+    {
+      "service": "anthropic",
+      "file": ".env.deploy",
+      "repository": "franciscoesobral/AXON-DevOps-Executor-The-Hand-of-the-King-",
+      "url": "https://github.com/franciscoesobral/AXON-DevOps-Executor-The-Hand-of-the-King-/blob/bf82761a1ded1b26fab53a71bfd62d6ba28630d9/.env.deploy",
+      "line_number": 23,
+      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api03-iShXhtaU0tePeQYK2U7NSRVstPotcPf3SsMiYPKdYiBuY-Ttcqy6XshaALQIyYK8RMXlV5ioGlN6W0dP2UuWkQ-94",
+      "key_type": "anthropic_api_key",
+      "description": "Anthropic Api Key",
+      "severity": "medium",
+      "matched_pattern": "ANTH**********************************************************************************************************************7wAA",
+      "timestamp": "2026-03-26T07:44:26.532563"
+    },
+    {
+      "service": "anthropic",
+      "file": ".env",
+      "repository": "PathfinderFederalSolutions/AgentForge",
+      "url": "https://github.com/PathfinderFederalSolutions/AgentForge/blob/312de179728e91e461708b7f48f2d3da8dc60232/.env",
+      "line_number": 2,
+      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api03-z7IWfPc0RCO1GqNjM9Ef_RnrB-4zhnMnAoSzDarOcwgcRtg7SSvJ3oz0pndHhOuHRSetEaH5xlbJdy4O_m_bZA-Zp",
+      "key_type": "anthropic_api_key",
+      "description": "Anthropic Api Key",
+      "severity": "medium",
+      "matched_pattern": "ANTH**********************************************************************************************************************cwAA",
+      "timestamp": "2026-03-26T07:44:33.203344"
     },
     {
       "service": "anthropic",
@@ -40,7 +53,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************DgAA",
-      "timestamp": "2026-03-25T07:37:55.520590"
+      "timestamp": "2026-03-26T07:44:59.404762"
     }
   ]
 }
