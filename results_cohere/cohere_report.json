@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-03-23T07:48:49.122609",
-  "total_keys": 67,
-  "live_keys": 48,
+  "checked_at": "2026-03-26T07:47:13.642048",
+  "total_keys": 77,
+  "live_keys": 54,
   "results": [
     {
       "key_redacted": "CHnhlk****mU2X",
@@ -78,7 +78,7 @@
       "valid": true,
       "plan": "Trial",
       "limit": "40",
-      "remaining": "38"
+      "remaining": "39"
     },
     {
       "key_redacted": "4Q5uYn****G84s",
@@ -484,7 +484,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 402: {\"id\":\"b42ad1d4-50d8-4eda-a6a6-3041b509c42c\",\"message\":\"Please add or update your payment method at "
+      "chat_error": "HTTP 402: {\"id\":\"0e576fdc-2f91-4729-8795-e335db1e2167\",\"message\":\"Please add or update your payment method at "
     },
     {
       "key_redacted": "RMsr7n****WdRm",
@@ -601,7 +601,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"e436f8d4-4af4-45dd-aea6-b7ffadb59d06\",\"message\":\"Please wait and try again later\"}"
+      "chat_error": "HTTP 429: {\"id\":\"6566f191-d94f-42b8-a7a3-9fcb6f5d8736\",\"message\":\"Please wait and try again later\"}"
     },
     {
       "key_redacted": "pczcIA****uJdA",
@@ -613,7 +613,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"bb77feac-cbec-4bc2-9a67-ed84d7ea8f4b\",\"message\":\"Please wait and try again later\"}"
+      "chat_error": "HTTP 429: {\"id\":\"e1e91aa0-e857-4617-8a14-6ec5158be7b6\",\"message\":\"Please wait and try again later\"}"
     },
     {
       "key_redacted": "UHHM6t****SHSx",
@@ -625,7 +625,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"b29c339c-9ef8-41d4-912d-04232040b310\",\"message\":\"Please wait and try again later\"}"
+      "chat_error": "HTTP 429: {\"id\":\"69f3c5b2-94bf-42a9-94a2-bbc6459b6ec7\",\"message\":\"Please wait and try again later\"}"
     },
     {
       "key_redacted": "7ZT0rk****HDgT",
@@ -637,7 +637,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"10108cbb-f595-48c7-bf0d-7145aa89a28f\",\"message\":\"Please wait and try again later\"}"
+      "chat_error": "HTTP 429: {\"id\":\"38967c9e-2389-449e-8120-2476b47b1d9c\",\"message\":\"Please wait and try again later\"}"
     },
     {
       "key_redacted": "jCh2tn****va0w",
@@ -649,7 +649,103 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"73d448db-f6c7-4b79-924b-4d6f87e52674\",\"message\":\"Please wait and try again later\"}"
+      "chat_error": "HTTP 429: {\"id\":\"6c681fa0-6753-47fd-bfa9-88a4b926250f\",\"message\":\"Please wait and try again later\"}"
+    },
+    {
+      "key_redacted": "ImZLll****y3P9",
+      "repository": "BlakkTyger/fantasy-cricket-chatbot",
+      "url": "https://github.com/BlakkTyger/fantasy-cricket-chatbot/blob/053e91285b488eb526d3f6662f17df4f8256770d/.env.defaults",
+      "organization_id": "a8fa60c0-4fec-45fb-a114-4412acfbc6eb",
+      "owner_id": "d48cb532-4b26-4a49-b3ec-a4983eadf63a",
+      "valid": true,
+      "plan": "Production",
+      "limit": "?",
+      "remaining": "?",
+      "chat_error": "HTTP 429: {\"id\":\"1c61671e-0def-4468-a2f6-a8da8a911ccb\",\"message\":\"Please wait and try again later\"}"
+    },
+    {
+      "key_redacted": "vDKYv8****zQy6",
+      "repository": "swapnasavalgi/Streamlit.app",
+      "url": "https://github.com/swapnasavalgi/Streamlit.app/blob/982ed654455b6b07a00c11cce46ee76303d6ed4a/.env.txt",
+      "organization_id": "da4f3807-9a85-49a5-bf6d-92de235f56bf",
+      "owner_id": "f2683853-1529-4491-aa8d-45bb2e8c0c1a",
+      "valid": true,
+      "plan": "Production",
+      "limit": "?",
+      "remaining": "?",
+      "chat_error": "HTTP 429: {\"id\":\"55148882-4f4a-4c8a-807e-964fa9f3f9b6\",\"message\":\"Please wait and try again later\"}"
+    },
+    {
+      "key_redacted": "gOu0qd****YMwR",
+      "repository": "amanmanjhi/Edemy-major-project-",
+      "url": "https://github.com/amanmanjhi/Edemy-major-project-/blob/fa9e4dabc3696843edf5d7623b69dc52ad7624ab/edumaster/.env",
+      "organization_id": "2cd0339b-968a-4136-b936-3c0be6e8b703",
+      "owner_id": "d9ab6963-0feb-4c4a-8551-a0ad21c92eb3",
+      "valid": true,
+      "plan": "Production",
+      "limit": "?",
+      "remaining": "?",
+      "chat_error": "HTTP 429: {\"id\":\"d1f30c02-effd-4830-8450-325adde30837\",\"message\":\"Please wait and try again later\"}"
+    },
+    {
+      "key_redacted": "81c416****5332",
+      "repository": "xchrisbradley/boringjobs",
+      "url": "https://github.com/xchrisbradley/boringjobs/blob/6992a2f38a819712d4e69e764701c483d4461b61/vercel.env",
+      "valid": false
+    },
+    {
+      "key_redacted": "sandbo****nAZI",
+      "repository": "canburaks/opendigitalgallery",
+      "url": "https://github.com/canburaks/opendigitalgallery/blob/250f0af054af24575a3fe915b7237a969603fcff/.sample.env",
+      "valid": false
+    },
+    {
+      "key_redacted": "sandbo****nsr9",
+      "repository": "mlkmhmtbyk/proshop",
+      "url": "https://github.com/mlkmhmtbyk/proshop/blob/baec6e423e9f971a83a25d8e8b5a95ba1e4d6877/example.env",
+      "valid": false
+    },
+    {
+      "key_redacted": "q6PNPo****SINS",
+      "repository": "jekportillano-da/Budget-Buddy-Mobile",
+      "url": "https://github.com/jekportillano-da/Budget-Buddy-Mobile/blob/854ea8fd7eb069e2a2814cf8b49c8e7ae8d46777/backend/.env.render.template",
+      "organization_id": "a739fe97-b8ae-4fae-b11d-bdf99a774518",
+      "owner_id": "afff063b-0854-49d8-b774-ae2218059fab",
+      "valid": true,
+      "plan": "Production",
+      "limit": "?",
+      "remaining": "?",
+      "chat_error": "HTTP 429: {\"id\":\"d697ce17-695f-4635-b68e-63f13b51e8f0\",\"message\":\"Please wait and try again later\"}"
+    },
+    {
+      "key_redacted": "7AQiaf****7m2Z",
+      "repository": "redis-developer/redis-rag-workbench",
+      "url": "https://github.com/redis-developer/redis-rag-workbench/blob/8ef3b3fc36fdfbd81fcd29bcbfac6160d86d81e5/.env-example",
+      "valid": false
+    },
+    {
+      "key_redacted": "X08iIz****BM8P",
+      "repository": "miguelmartmart/jddc_materiales_local_bd_ia",
+      "url": "https://github.com/miguelmartmart/jddc_materiales_local_bd_ia/blob/caa4c3d225c110ee61c875abd919a0f9628d1ca2/.env%20copy%202",
+      "organization_id": "88da5bb6-4ebc-48fc-bf06-d02863427dc1",
+      "owner_id": "d5a17355-a0a8-4b7a-b293-35b6a620cf8f",
+      "valid": true,
+      "plan": "Production",
+      "limit": "?",
+      "remaining": "?",
+      "chat_error": "HTTP 429: {\"id\":\"9b208987-7de3-4ed7-b85f-a1eee6b116eb\",\"message\":\"Please wait and try again later\"}"
+    },
+    {
+      "key_redacted": "SJ6RvY****1md4",
+      "repository": "manish182003/code-Review-and-Analysis-Backend",
+      "url": "https://github.com/manish182003/code-Review-and-Analysis-Backend/blob/fc2777ce9cdd44f6b5fcfd5c5f9a8a92ea16dbde/.env",
+      "organization_id": "2e2914b9-fb9e-41ca-9470-c59f84ab5fbf",
+      "owner_id": "70c6046d-f168-42cf-82a4-45072aa1babf",
+      "valid": true,
+      "plan": "Production",
+      "limit": "?",
+      "remaining": "?",
+      "chat_error": "HTTP 429: {\"id\":\"f4a74631-685a-4ae3-9521-59bf9b0fabbd\",\"message\":\"Please wait and try again later\"}"
     }
   ]
 }
