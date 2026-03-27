@@ -1,7 +1,7 @@
 {
   "service": "deepseek",
-  "scan_timestamp": "2026-03-26T07:45:19.842288",
-  "finding_count": 3,
+  "scan_timestamp": "2026-03-27T07:45:01.117687",
+  "finding_count": 2,
   "findings": [
     {
       "service": "deepseek",
@@ -14,20 +14,7 @@
       "description": "DeepSeek API Key",
       "severity": "high",
       "matched_pattern": "DEEP********************************************9e4f",
-      "timestamp": "2026-03-26T07:44:22.608458"
-    },
-    {
-      "service": "deepseek",
-      "file": ".env.deploy",
-      "repository": "franciscoesobral/AXON-DevOps-Executor-The-Hand-of-the-King-",
-      "url": "https://github.com/franciscoesobral/AXON-DevOps-Executor-The-Hand-of-the-King-/blob/bf82761a1ded1b26fab53a71bfd62d6ba28630d9/.env.deploy",
-      "line_number": 37,
-      "line_preview": "DEEPSEEK_API_KEY=sk-ada9f738b6044635943e3a3301cb601a",
-      "key_type": "deepseek_key",
-      "description": "DeepSeek API Key",
-      "severity": "high",
-      "matched_pattern": "DEEP********************************************601a",
-      "timestamp": "2026-03-26T07:44:26.532968"
+      "timestamp": "2026-03-27T07:43:57.879754"
     },
     {
       "service": "deepseek",
@@ -40,7 +27,7 @@
       "description": "DeepSeek API Key",
       "severity": "high",
       "matched_pattern": "DEEP********************************************e392",
-      "timestamp": "2026-03-26T07:44:59.405624"
+      "timestamp": "2026-03-27T07:44:40.907929"
     }
   ]
 }

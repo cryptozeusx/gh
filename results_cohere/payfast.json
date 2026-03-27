@@ -1,6 +1,6 @@
 {
   "service": "payfast",
-  "scan_timestamp": "2026-03-26T07:45:19.851964",
+  "scan_timestamp": "2026-03-27T07:45:01.127708",
   "finding_count": 4,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Payfast Merchant Key",
       "severity": "medium",
       "matched_pattern": "m0sf*****zqlm",
-      "timestamp": "2026-03-26T07:44:32.721853"
+      "timestamp": "2026-03-27T07:44:08.290084"
     },
     {
       "service": "payfast",
@@ -27,7 +27,7 @@
       "description": "Payfast Merchant Key",
       "severity": "medium",
       "matched_pattern": "PAYF****************************qlm\"",
-      "timestamp": "2026-03-26T07:44:33.952952"
+      "timestamp": "2026-03-27T07:44:10.081090"
     },
     {
       "service": "payfast",
@@ -40,7 +40,7 @@
       "description": "Payfast Merchant Key",
       "severity": "medium",
       "matched_pattern": "PAYF****************************qlm\"",
-      "timestamp": "2026-03-26T07:44:36.960103"
+      "timestamp": "2026-03-27T07:44:14.487514"
     },
     {
       "service": "payfast",
@@ -53,7 +53,7 @@
       "description": "Payfast Merchant Key",
       "severity": "medium",
       "matched_pattern": "PAYF****************************qlm\"",
-      "timestamp": "2026-03-26T07:44:49.729069"
+      "timestamp": "2026-03-27T07:44:29.957679"
     }
   ]
 }

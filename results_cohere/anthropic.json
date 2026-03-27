@@ -1,33 +1,20 @@
 {
   "service": "anthropic",
-  "scan_timestamp": "2026-03-26T07:45:19.838614",
+  "scan_timestamp": "2026-03-27T07:45:01.114106",
   "finding_count": 4,
   "findings": [
     {
       "service": "anthropic",
-      "file": ".env.local",
-      "repository": "mateuszpoland/upwork-proposal-ai-agent",
-      "url": "https://github.com/mateuszpoland/upwork-proposal-ai-agent/blob/355c6d4a567d5084aac046af407a3d232adf5f93/.env.local",
-      "line_number": 7,
-      "line_preview": "ANTHROPIC_API_KEY= # Required: Format: sk-ant-api03-...",
+      "file": ".env_sample",
+      "repository": "venture21/langchain-kr",
+      "url": "https://github.com/venture21/langchain-kr/blob/fdb20d447083759b8c5cb814046fc85eaae8ed40/.env_sample",
+      "line_number": 10,
+      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api0...",
       "key_type": "anthropic_api_key",
       "description": "Anthropic Api Key",
       "severity": "medium",
-      "matched_pattern": "# Re****************************-...",
-      "timestamp": "2026-03-26T07:44:22.419905"
-    },
-    {
-      "service": "anthropic",
-      "file": ".env.deploy",
-      "repository": "franciscoesobral/AXON-DevOps-Executor-The-Hand-of-the-King-",
-      "url": "https://github.com/franciscoesobral/AXON-DevOps-Executor-The-Hand-of-the-King-/blob/bf82761a1ded1b26fab53a71bfd62d6ba28630d9/.env.deploy",
-      "line_number": 23,
-      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api03-iShXhtaU0tePeQYK2U7NSRVstPotcPf3SsMiYPKdYiBuY-Ttcqy6XshaALQIyYK8RMXlV5ioGlN6W0dP2UuWkQ-94",
-      "key_type": "anthropic_api_key",
-      "description": "Anthropic Api Key",
-      "severity": "medium",
-      "matched_pattern": "ANTH**********************************************************************************************************************7wAA",
-      "timestamp": "2026-03-26T07:44:26.532563"
+      "matched_pattern": "sk-a******0...",
+      "timestamp": "2026-03-27T07:44:01.280754"
     },
     {
       "service": "anthropic",
@@ -40,7 +27,20 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************cwAA",
-      "timestamp": "2026-03-26T07:44:33.203344"
+      "timestamp": "2026-03-27T07:44:08.925889"
+    },
+    {
+      "service": "anthropic",
+      "file": ".env.local",
+      "repository": "mateuszpoland/upwork-proposal-ai-agent",
+      "url": "https://github.com/mateuszpoland/upwork-proposal-ai-agent/blob/355c6d4a567d5084aac046af407a3d232adf5f93/.env.local",
+      "line_number": 7,
+      "line_preview": "ANTHROPIC_API_KEY= # Required: Format: sk-ant-api03-...",
+      "key_type": "anthropic_api_key",
+      "description": "Anthropic Api Key",
+      "severity": "medium",
+      "matched_pattern": "# Re****************************-...",
+      "timestamp": "2026-03-27T07:44:40.150888"
     },
     {
       "service": "anthropic",
@@ -53,7 +53,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************DgAA",
-      "timestamp": "2026-03-26T07:44:59.404762"
+      "timestamp": "2026-03-27T07:44:40.907038"
     }
   ]
 }

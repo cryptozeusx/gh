@@ -1,6 +1,6 @@
 {
   "service": "nango",
-  "scan_timestamp": "2026-03-26T07:45:19.849850",
+  "scan_timestamp": "2026-03-27T07:45:01.125548",
   "finding_count": 2,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Nango Public Key",
       "severity": "medium",
       "matched_pattern": "bd44****************************61b6",
-      "timestamp": "2026-03-26T07:44:58.020263"
+      "timestamp": "2026-03-27T07:44:39.364582"
     },
     {
       "service": "nango",
@@ -27,7 +27,7 @@
       "description": "Nango Signing Key",
       "severity": "medium",
       "matched_pattern": "7f8a********************************************************8f9a",
-      "timestamp": "2026-03-26T07:44:58.020305"
+      "timestamp": "2026-03-27T07:44:39.364633"
     }
   ]
 }

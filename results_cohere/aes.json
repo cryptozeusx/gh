@@ -1,0 +1,20 @@
+{
+  "service": "aes",
+  "scan_timestamp": "2026-03-27T07:45:01.113629",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "aes",
+      "file": "inference/.env.example",
+      "repository": "TaskingAI/TaskingAI",
+      "url": "https://github.com/TaskingAI/TaskingAI/blob/f0092d6b2dd82e98e188e0b9849fdd4c7230dd98/inference/.env.example",
+      "line_number": 5,
+      "line_preview": "AES_ENCRYPTION_KEY=b90e4648ad699c3bdf62c0860e09eb9efc098ee75f215bf750847ae19d41e4b0",
+      "key_type": "aes_encryption_key",
+      "description": "Aes Encryption Key",
+      "severity": "medium",
+      "matched_pattern": "b90e********************************************************e4b0",
+      "timestamp": "2026-03-27T07:44:16.809974"
+    }
+  ]
+}

@@ -1,34 +1,8 @@
 {
   "service": "openai",
-  "scan_timestamp": "2026-03-26T07:45:19.851374",
-  "finding_count": 27,
+  "scan_timestamp": "2026-03-27T07:45:01.127068",
+  "finding_count": 25,
   "findings": [
-    {
-      "service": "openai",
-      "file": "docker/env/.env.app",
-      "repository": "tasneem-elhady/Legal-RAG",
-      "url": "https://github.com/tasneem-elhady/Legal-RAG/blob/f1523ee5beb9a1550b41e8bcd987505af43b374d/docker/env/.env.app",
-      "line_number": 15,
-      "line_preview": "OPENAI_API_KEY=\"CHnhlklH8VpVkVUcX56lxuvWZZvzYwJc0ZQjmU2X\"",
-      "key_type": "openai_api_key",
-      "description": "Openai Api Key",
-      "severity": "medium",
-      "matched_pattern": "OPEN*************************************************U2X\"",
-      "timestamp": "2026-03-26T07:44:22.238539"
-    },
-    {
-      "service": "openai",
-      "file": ".env.local",
-      "repository": "mateuszpoland/upwork-proposal-ai-agent",
-      "url": "https://github.com/mateuszpoland/upwork-proposal-ai-agent/blob/355c6d4a567d5084aac046af407a3d232adf5f93/.env.local",
-      "line_number": 8,
-      "line_preview": "OPENAI_API_KEY= # Optional, for OpenAI/OpenRouter models. Format: sk-proj-...",
-      "key_type": "openai_api_key",
-      "description": "Openai Api Key",
-      "severity": "medium",
-      "matched_pattern": "# Op*****************************************************-...",
-      "timestamp": "2026-03-26T07:44:22.420015"
-    },
     {
       "service": "openai",
       "file": ".env copy 2",
@@ -40,7 +14,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-o*****************************************************************9114",
-      "timestamp": "2026-03-26T07:44:22.607711"
+      "timestamp": "2026-03-27T07:43:57.878576"
     },
     {
       "service": "openai",
@@ -53,7 +27,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-p************************************************************************************************************************************************************plcA",
-      "timestamp": "2026-03-26T07:44:22.608220"
+      "timestamp": "2026-03-27T07:43:57.879173"
     },
     {
       "service": "openai",
@@ -66,7 +40,7 @@
       "description": "Openai Api Key",
       "severity": "medium",
       "matched_pattern": "OPEN***************************************************************************************************************************************************************************plcA",
-      "timestamp": "2026-03-26T07:44:22.608264"
+      "timestamp": "2026-03-27T07:43:57.879262"
     },
     {
       "service": "openai",
@@ -79,7 +53,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-5***************************9e4f",
-      "timestamp": "2026-03-26T07:44:22.608420"
+      "timestamp": "2026-03-27T07:43:57.879671"
     },
     {
       "service": "openai",
@@ -92,7 +66,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-0***************************a144",
-      "timestamp": "2026-03-26T07:44:22.608536"
+      "timestamp": "2026-03-27T07:43:57.879947"
     },
     {
       "service": "openai",
@@ -105,72 +79,20 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-a****************************************************************************************************OQAA",
-      "timestamp": "2026-03-26T07:44:22.608611"
+      "timestamp": "2026-03-27T07:43:57.880101"
     },
     {
       "service": "openai",
-      "file": ".env.deploy",
-      "repository": "franciscoesobral/AXON-DevOps-Executor-The-Hand-of-the-King-",
-      "url": "https://github.com/franciscoesobral/AXON-DevOps-Executor-The-Hand-of-the-King-/blob/bf82761a1ded1b26fab53a71bfd62d6ba28630d9/.env.deploy",
-      "line_number": 23,
-      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api03-iShXhtaU0tePeQYK2U7NSRVstPotcPf3SsMiYPKdYiBuY-Ttcqy6XshaALQIyYK8RMXlV5ioGlN6W0dP2UuWkQ-94",
-      "key_type": "openai_key",
-      "description": "OpenAI API Key",
-      "severity": "high",
-      "matched_pattern": "sk-a****************************************************************************************************7wAA",
-      "timestamp": "2026-03-26T07:44:26.532506"
-    },
-    {
-      "service": "openai",
-      "file": ".env.deploy",
-      "repository": "franciscoesobral/AXON-DevOps-Executor-The-Hand-of-the-King-",
-      "url": "https://github.com/franciscoesobral/AXON-DevOps-Executor-The-Hand-of-the-King-/blob/bf82761a1ded1b26fab53a71bfd62d6ba28630d9/.env.deploy",
-      "line_number": 29,
-      "line_preview": "OPENAI_API_KEY=sk-proj-nMVdr9lMWR6-RuAcr98XfyyYDKtUqCT7SpHUPLdozfBtMdLVH18vGwm_q5FtXmrhR4sjo835yeT3BlbkFJBggHtwA-9CoQ3LH",
-      "key_type": "openai_key",
-      "description": "OpenAI API Key",
-      "severity": "high",
-      "matched_pattern": "sk-p************************************************************************************************************************************************************I6kA",
-      "timestamp": "2026-03-26T07:44:26.532706"
-    },
-    {
-      "service": "openai",
-      "file": ".env.deploy",
-      "repository": "franciscoesobral/AXON-DevOps-Executor-The-Hand-of-the-King-",
-      "url": "https://github.com/franciscoesobral/AXON-DevOps-Executor-The-Hand-of-the-King-/blob/bf82761a1ded1b26fab53a71bfd62d6ba28630d9/.env.deploy",
-      "line_number": 29,
-      "line_preview": "OPENAI_API_KEY=sk-proj-nMVdr9lMWR6-RuAcr98XfyyYDKtUqCT7SpHUPLdozfBtMdLVH18vGwm_q5FtXmrhR4sjo835yeT3BlbkFJBggHtwA-9CoQ3LH",
+      "file": ".env_sample",
+      "repository": "venture21/langchain-kr",
+      "url": "https://github.com/venture21/langchain-kr/blob/fdb20d447083759b8c5cb814046fc85eaae8ed40/.env_sample",
+      "line_number": 1,
+      "line_preview": "OPENAI_API_KEY=sk-5K9kI4dia...",
       "key_type": "openai_api_key",
       "description": "Openai Api Key",
       "severity": "medium",
-      "matched_pattern": "OPEN***************************************************************************************************************************************************************************I6kA",
-      "timestamp": "2026-03-26T07:44:26.532756"
-    },
-    {
-      "service": "openai",
-      "file": ".env.deploy",
-      "repository": "franciscoesobral/AXON-DevOps-Executor-The-Hand-of-the-King-",
-      "url": "https://github.com/franciscoesobral/AXON-DevOps-Executor-The-Hand-of-the-King-/blob/bf82761a1ded1b26fab53a71bfd62d6ba28630d9/.env.deploy",
-      "line_number": 31,
-      "line_preview": "OPENAI_ADMIN_API_KEY=sk-admin-pJIiD-q0S3RpaC20KJWwWwduGaMObAQ8ywmE3wJ--4dS8VetMBHoXzxjf4T3BlbkFJy8wY59a2xwO19UV90WcI5k11",
-      "key_type": "openai_key",
-      "description": "OpenAI API Key",
-      "severity": "high",
-      "matched_pattern": "sk-a*****************************************************************************************************************************iAIA",
-      "timestamp": "2026-03-26T07:44:26.532845"
-    },
-    {
-      "service": "openai",
-      "file": ".env.deploy",
-      "repository": "franciscoesobral/AXON-DevOps-Executor-The-Hand-of-the-King-",
-      "url": "https://github.com/franciscoesobral/AXON-DevOps-Executor-The-Hand-of-the-King-/blob/bf82761a1ded1b26fab53a71bfd62d6ba28630d9/.env.deploy",
-      "line_number": 37,
-      "line_preview": "DEEPSEEK_API_KEY=sk-ada9f738b6044635943e3a3301cb601a",
-      "key_type": "openai_key",
-      "description": "OpenAI API Key",
-      "severity": "high",
-      "matched_pattern": "sk-a***************************601a",
-      "timestamp": "2026-03-26T07:44:26.532926"
+      "matched_pattern": "OPEN**********************a...",
+      "timestamp": "2026-03-27T07:44:01.280288"
     },
     {
       "service": "openai",
@@ -183,7 +105,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-p************************************************************************************************************************************************************KcEA",
-      "timestamp": "2026-03-26T07:44:33.203150"
+      "timestamp": "2026-03-27T07:44:08.925700"
     },
     {
       "service": "openai",
@@ -196,7 +118,7 @@
       "description": "Openai Api Key",
       "severity": "medium",
       "matched_pattern": "OPEN***************************************************************************************************************************************************************************KcEA",
-      "timestamp": "2026-03-26T07:44:33.203210"
+      "timestamp": "2026-03-27T07:44:08.925755"
     },
     {
       "service": "openai",
@@ -209,7 +131,46 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-a****************************************************************************************************cwAA",
-      "timestamp": "2026-03-26T07:44:33.203301"
+      "timestamp": "2026-03-27T07:44:08.925845"
+    },
+    {
+      "service": "openai",
+      "file": "docs/getting-started/claudeDL/env.vm.example",
+      "repository": "rzepeda/ragTools",
+      "url": "https://github.com/rzepeda/ragTools/blob/e70eb327bb487a6f8e639ec8376e5805b8f1da79/docs/getting-started/claudeDL/env.vm.example",
+      "line_number": 41,
+      "line_preview": "OPENAI_API_KEY=lm-studio  # Any value works with LM Studio",
+      "key_type": "openai_api_key",
+      "description": "Openai Api Key",
+      "severity": "medium",
+      "matched_pattern": "OPEN****************udio",
+      "timestamp": "2026-03-27T07:44:19.824089"
+    },
+    {
+      "service": "openai",
+      "file": ".env.FREE.example",
+      "repository": "ayush-mishra035/ayush-mishra035.github.io",
+      "url": "https://github.com/ayush-mishra035/ayush-mishra035.github.io/blob/175f8e2a706dacee7d083cbcdfd1a79175908546/.env.FREE.example",
+      "line_number": 31,
+      "line_preview": "OPENAI_API_KEY=sk-proj-ZV6zbDN7JgaC8CfQ_ZYH7m_IHX8eLp2QvGj7cAJmIXG0P_v4RKz2TqXkQ2r0a_0GTlJcIbdkHtT3BlbkFJUXHo5E6GY9ntJlQ",
+      "key_type": "openai_key",
+      "description": "OpenAI API Key",
+      "severity": "high",
+      "matched_pattern": "sk-p************************************************************************************************************************************************************TsEA",
+      "timestamp": "2026-03-27T07:44:21.209715"
+    },
+    {
+      "service": "openai",
+      "file": ".env.FREE.example",
+      "repository": "ayush-mishra035/ayush-mishra035.github.io",
+      "url": "https://github.com/ayush-mishra035/ayush-mishra035.github.io/blob/175f8e2a706dacee7d083cbcdfd1a79175908546/.env.FREE.example",
+      "line_number": 31,
+      "line_preview": "OPENAI_API_KEY=sk-proj-ZV6zbDN7JgaC8CfQ_ZYH7m_IHX8eLp2QvGj7cAJmIXG0P_v4RKz2TqXkQ2r0a_0GTlJcIbdkHtT3BlbkFJUXHo5E6GY9ntJlQ",
+      "key_type": "openai_api_key",
+      "description": "Openai Api Key",
+      "severity": "medium",
+      "matched_pattern": "OPEN***************************************************************************************************************************************************************************TsEA",
+      "timestamp": "2026-03-27T07:44:21.209772"
     },
     {
       "service": "openai",
@@ -222,7 +183,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-p************************************************************************************************************************************************************WbkA",
-      "timestamp": "2026-03-26T07:44:57.655985"
+      "timestamp": "2026-03-27T07:44:38.932363"
     },
     {
       "service": "openai",
@@ -235,7 +196,7 @@
       "description": "Openai Api Key",
       "severity": "medium",
       "matched_pattern": "OPEN***************************************************************************************************************************************************************************WbkA",
-      "timestamp": "2026-03-26T07:44:57.656032"
+      "timestamp": "2026-03-27T07:44:38.932431"
     },
     {
       "service": "openai",
@@ -248,7 +209,20 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-b***************************************************************************************Ghe1",
-      "timestamp": "2026-03-26T07:44:58.559063"
+      "timestamp": "2026-03-27T07:44:39.780531"
+    },
+    {
+      "service": "openai",
+      "file": ".env.local",
+      "repository": "mateuszpoland/upwork-proposal-ai-agent",
+      "url": "https://github.com/mateuszpoland/upwork-proposal-ai-agent/blob/355c6d4a567d5084aac046af407a3d232adf5f93/.env.local",
+      "line_number": 8,
+      "line_preview": "OPENAI_API_KEY= # Optional, for OpenAI/OpenRouter models. Format: sk-proj-...",
+      "key_type": "openai_api_key",
+      "description": "Openai Api Key",
+      "severity": "medium",
+      "matched_pattern": "# Op*****************************************************-...",
+      "timestamp": "2026-03-27T07:44:40.151036"
     },
     {
       "service": "openai",
@@ -261,7 +235,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-a****************************************************************************************************DgAA",
-      "timestamp": "2026-03-26T07:44:59.404691"
+      "timestamp": "2026-03-27T07:44:40.906982"
     },
     {
       "service": "openai",
@@ -274,7 +248,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-p************************************************************************************************************************************************************Z-YA",
-      "timestamp": "2026-03-26T07:44:59.404870"
+      "timestamp": "2026-03-27T07:44:40.907132"
     },
     {
       "service": "openai",
@@ -287,7 +261,7 @@
       "description": "Openai Api Key",
       "severity": "medium",
       "matched_pattern": "OPEN***************************************************************************************************************************************************************************Z-YA",
-      "timestamp": "2026-03-26T07:44:59.404915"
+      "timestamp": "2026-03-27T07:44:40.907181"
     },
     {
       "service": "openai",
@@ -300,7 +274,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-e***************************e392",
-      "timestamp": "2026-03-26T07:44:59.405583"
+      "timestamp": "2026-03-27T07:44:40.907865"
     },
     {
       "service": "openai",
@@ -313,7 +287,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-o*****************************************************************798b",
-      "timestamp": "2026-03-26T07:44:59.405863"
+      "timestamp": "2026-03-27T07:44:40.908254"
     },
     {
       "service": "openai",
@@ -326,7 +300,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-I*******************************************rGoF",
-      "timestamp": "2026-03-26T07:44:59.406202"
+      "timestamp": "2026-03-27T07:44:40.908817"
     },
     {
       "service": "openai",
@@ -339,7 +313,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-X*******************************************QEME",
-      "timestamp": "2026-03-26T07:44:59.406242"
+      "timestamp": "2026-03-27T07:44:40.908878"
     },
     {
       "service": "openai",
@@ -352,7 +326,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-e********************************************************2CE4",
-      "timestamp": "2026-03-26T07:44:59.406366"
+      "timestamp": "2026-03-27T07:44:40.909059"
     }
   ]
 }

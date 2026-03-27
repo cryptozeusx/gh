@@ -1,20 +1,20 @@
 {
   "service": "anon",
-  "scan_timestamp": "2026-03-26T07:45:19.838460",
-  "finding_count": 5,
+  "scan_timestamp": "2026-03-27T07:45:01.113968",
+  "finding_count": 4,
   "findings": [
     {
       "service": "anon",
       "file": "pmoves/env.shared.example",
       "repository": "POWERFULMOVES/PMOVES.AI",
-      "url": "https://github.com/POWERFULMOVES/PMOVES.AI/blob/46df2435ec1bd8035f24beeea375a45bb573dc90/pmoves/env.shared.example",
+      "url": "https://github.com/POWERFULMOVES/PMOVES.AI/blob/d9877a670b703049c6aea5abbc0695f6ec181551/pmoves/env.shared.example",
       "line_number": 96,
       "line_preview": "ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlzcyI6InN1cGFiYXNlLWRlbW8iLCJpYXQiOjE2NDE3NjkyMDAsIm",
       "key_type": "anon_key",
       "description": "Anon Key",
       "severity": "medium",
       "matched_pattern": "eyJh************************************************************************************************************************************************************************u4GE",
-      "timestamp": "2026-03-26T07:44:42.571173"
+      "timestamp": "2026-03-27T07:44:23.140592"
     },
     {
       "service": "anon",
@@ -27,20 +27,7 @@
       "description": "Anon Key",
       "severity": "medium",
       "matched_pattern": "ANON*****************************************************************************************************************************************************************************************************************9jUM",
-      "timestamp": "2026-03-26T07:44:58.558869"
-    },
-    {
-      "service": "anon",
-      "file": ".env.local",
-      "repository": "sudanva21/Career-Advisor-SIH",
-      "url": "https://github.com/sudanva21/Career-Advisor-SIH/blob/36d5272b7d80719b8c19696bbb6500b652ee9b14/.env.local",
-      "line_number": 9,
-      "line_preview": "NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd5dWR3anpqenRiZ2Rqd",
-      "key_type": "anon_key",
-      "description": "Anon Key",
-      "severity": "medium",
-      "matched_pattern": "ANON*****************************************************************************************************************************************************************************************************************MuT0",
-      "timestamp": "2026-03-26T07:44:59.635416"
+      "timestamp": "2026-03-27T07:44:39.780339"
     },
     {
       "service": "anon",
@@ -53,7 +40,7 @@
       "description": "Anon Key",
       "severity": "medium",
       "matched_pattern": "ANON*****************************************************************************************************************************************************************************************************************mrow",
-      "timestamp": "2026-03-26T07:45:04.169513"
+      "timestamp": "2026-03-27T07:44:45.558363"
     },
     {
       "service": "anon",
@@ -66,7 +53,7 @@
       "description": "Anon Key",
       "severity": "medium",
       "matched_pattern": "ANON*****************************************************************************************************************************************************************************************************************BAL0",
-      "timestamp": "2026-03-26T07:45:04.429998"
+      "timestamp": "2026-03-27T07:44:45.842396"
     }
   ]
 }

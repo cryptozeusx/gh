@@ -1,6 +1,6 @@
 {
   "service": "zhipuai",
-  "scan_timestamp": "2026-03-26T07:45:19.857557",
+  "scan_timestamp": "2026-03-27T07:45:01.134394",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "ZhipuAI (GLM) API Key",
       "severity": "high",
       "matched_pattern": "GLM_*****************************************************Ve5X",
-      "timestamp": "2026-03-26T07:44:22.608777"
+      "timestamp": "2026-03-27T07:43:57.880355"
     }
   ]
 }

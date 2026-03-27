@@ -1,0 +1,20 @@
+{
+  "service": "resend",
+  "scan_timestamp": "2026-03-27T07:45:01.130540",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "resend",
+      "file": ".env.example",
+      "repository": "agentset-ai/agentset",
+      "url": "https://github.com/agentset-ai/agentset/blob/76ff0f981a54a6f61b56810705298aef5c3188b2/.env.example",
+      "line_number": 13,
+      "line_preview": "RESEND_API_KEY=\"re_1234567890\"",
+      "key_type": "resend_api_key",
+      "description": "Resend Api Key",
+      "severity": "medium",
+      "matched_pattern": "re_1*****7890",
+      "timestamp": "2026-03-27T07:44:25.290626"
+    }
+  ]
+}

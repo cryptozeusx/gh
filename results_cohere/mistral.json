@@ -1,8 +1,21 @@
 {
   "service": "mistral",
-  "scan_timestamp": "2026-03-26T07:45:19.849279",
+  "scan_timestamp": "2026-03-27T07:45:01.125014",
   "finding_count": 4,
   "findings": [
+    {
+      "service": "mistral",
+      "file": ".env copy 2",
+      "repository": "miguelmartmart/jddc_materiales_local_bd_ia",
+      "url": "https://github.com/miguelmartmart/jddc_materiales_local_bd_ia/blob/caa4c3d225c110ee61c875abd919a0f9628d1ca2/.env%20copy%202",
+      "line_number": 6,
+      "line_preview": "MISTRAL_API_KEY=kNWedDXytORS5anyWvtnF46AoWy4fbhD",
+      "key_type": "mistral_api_key",
+      "description": "Mistral Api Key",
+      "severity": "medium",
+      "matched_pattern": "MIST****************************************fbhD",
+      "timestamp": "2026-03-27T07:43:57.879420"
+    },
     {
       "service": "mistral",
       "file": ".env",
@@ -14,7 +27,7 @@
       "description": "Mistral Api Key",
       "severity": "medium",
       "matched_pattern": "MIST****************************************r48a",
-      "timestamp": "2026-03-26T07:44:33.203778"
+      "timestamp": "2026-03-27T07:44:08.926206"
     },
     {
       "service": "mistral",
@@ -27,7 +40,7 @@
       "description": "Mistral Api Key",
       "severity": "medium",
       "matched_pattern": "MIST******************************************8GfS",
-      "timestamp": "2026-03-26T07:44:37.405731"
+      "timestamp": "2026-03-27T07:44:15.043867"
     },
     {
       "service": "mistral",
@@ -40,20 +53,7 @@
       "description": "Mistral Api Key",
       "severity": "medium",
       "matched_pattern": "MIST****************************************KYHC",
-      "timestamp": "2026-03-26T07:44:59.405486"
-    },
-    {
-      "service": "mistral",
-      "file": ".env.local",
-      "repository": "liveweb22/boltai",
-      "url": "https://github.com/liveweb22/boltai/blob/576e2a9775fe4343fce45a8c5d5d29e75fefa92b/.env.local",
-      "line_number": 50,
-      "line_preview": "MISTRAL_API_KEY=IGZPp2Tquhum5hKwjVwbgeb17onyBCw7",
-      "key_type": "mistral_api_key",
-      "description": "Mistral Api Key",
-      "severity": "medium",
-      "matched_pattern": "MIST****************************************BCw7",
-      "timestamp": "2026-03-26T07:45:00.196844"
+      "timestamp": "2026-03-27T07:44:40.907732"
     }
   ]
 }

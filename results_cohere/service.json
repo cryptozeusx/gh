@@ -1,33 +1,20 @@
 {
   "service": "service",
-  "scan_timestamp": "2026-03-26T07:45:19.855050",
-  "finding_count": 4,
+  "scan_timestamp": "2026-03-27T07:45:01.131535",
+  "finding_count": 3,
   "findings": [
     {
       "service": "service",
       "file": "pmoves/env.shared.example",
       "repository": "POWERFULMOVES/PMOVES.AI",
-      "url": "https://github.com/POWERFULMOVES/PMOVES.AI/blob/46df2435ec1bd8035f24beeea375a45bb573dc90/pmoves/env.shared.example",
+      "url": "https://github.com/POWERFULMOVES/PMOVES.AI/blob/d9877a670b703049c6aea5abbc0695f6ec181551/pmoves/env.shared.example",
       "line_number": 97,
       "line_preview": "SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoic2VydmljZV9yb2xlIiwiaXNzIjoic3VwYWJhc2UtZGVtbyIsImlhdC",
       "key_type": "service_role_key",
       "description": "Service Role Key",
       "severity": "medium",
       "matched_pattern": "eyJh***********************************************************************************************************************************************************************************Vt4Q",
-      "timestamp": "2026-03-26T07:44:42.571226"
-    },
-    {
-      "service": "service",
-      "file": ".env.local",
-      "repository": "sudanva21/Career-Advisor-SIH",
-      "url": "https://github.com/sudanva21/Career-Advisor-SIH/blob/36d5272b7d80719b8c19696bbb6500b652ee9b14/.env.local",
-      "line_number": 11,
-      "line_preview": "SUPABASE_SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd5dWR3anpqenRiZ2Rqd2RhZ",
-      "key_type": "service_role_key",
-      "description": "Service Role Key",
-      "severity": "medium",
-      "matched_pattern": "SERV************************************************************************************************************************************************************************************************************************************_bsc",
-      "timestamp": "2026-03-26T07:44:59.635512"
+      "timestamp": "2026-03-27T07:44:23.140651"
     },
     {
       "service": "service",
@@ -40,7 +27,7 @@
       "description": "Service Role Key",
       "severity": "medium",
       "matched_pattern": "SERV**************************************************c8Mx",
-      "timestamp": "2026-03-26T07:45:04.169618"
+      "timestamp": "2026-03-27T07:44:45.558485"
     },
     {
       "service": "service",
@@ -53,7 +40,7 @@
       "description": "Service Role Key",
       "severity": "medium",
       "matched_pattern": "SERV************************************************************************************************************************************************************************************************************************************itoI",
-      "timestamp": "2026-03-26T07:45:04.430104"
+      "timestamp": "2026-03-27T07:44:45.842523"
     }
   ]
 }

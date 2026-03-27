@@ -1,8 +1,21 @@
 {
   "service": "better",
-  "scan_timestamp": "2026-03-26T07:45:19.839892",
-  "finding_count": 1,
+  "scan_timestamp": "2026-03-27T07:45:01.114818",
+  "finding_count": 2,
   "findings": [
+    {
+      "service": "better",
+      "file": "olivermemory-backend-api-kit/.dev.vars.example",
+      "repository": "oliverv/olivermemory-console-gui",
+      "url": "https://github.com/oliverv/olivermemory-console-gui/blob/88eae1b906683fa5f3d4d5b4a79a3476b675da73/olivermemory-backend-api-kit/.dev.vars.example",
+      "line_number": 4,
+      "line_preview": "BETTER_AUTH_URL=http://localhost:8787",
+      "key_type": "better_auth_url",
+      "description": "Better Auth Url",
+      "severity": "medium",
+      "matched_pattern": "http*************8787",
+      "timestamp": "2026-03-27T07:44:24.930027"
+    },
     {
       "service": "better",
       "file": ".env.example",
@@ -13,8 +26,8 @@
       "key_type": "better_auth_url",
       "description": "Better Auth Url",
       "severity": "medium",
-      "matched_pattern": "http*************3000",
-      "timestamp": "2026-03-26T07:44:39.959663"
+      "matched_pattern": "BETT*******************************000\"",
+      "timestamp": "2026-03-27T07:44:25.290566"
     }
   ]
 }

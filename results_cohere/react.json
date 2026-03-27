@@ -1,7 +1,7 @@
 {
   "service": "react",
-  "scan_timestamp": "2026-03-26T07:45:19.853953",
-  "finding_count": 5,
+  "scan_timestamp": "2026-03-27T07:45:01.130115",
+  "finding_count": 6,
   "findings": [
     {
       "service": "react",
@@ -14,7 +14,7 @@
       "description": "React App Default Token List Url",
       "severity": "medium",
       "matched_pattern": "http*********************************************************************************************************json",
-      "timestamp": "2026-03-26T07:44:12.914685"
+      "timestamp": "2026-03-27T07:43:44.457855"
     },
     {
       "service": "react",
@@ -27,7 +27,7 @@
       "description": "React App Polygon Api Key Free",
       "severity": "medium",
       "matched_pattern": "S0m3********1K3y",
-      "timestamp": "2026-03-26T07:44:12.914836"
+      "timestamp": "2026-03-27T07:43:44.457997"
     },
     {
       "service": "react",
@@ -40,7 +40,7 @@
       "description": "React App Token List Exchange Custom Asset Logo Url",
       "severity": "medium",
       "matched_pattern": "http****************************************************************************************************.png",
-      "timestamp": "2026-03-26T07:44:12.914895"
+      "timestamp": "2026-03-27T07:43:44.458054"
     },
     {
       "service": "react",
@@ -53,7 +53,7 @@
       "description": "React App Token List Asset Generic Address Testnet Logo Url Base",
       "severity": "medium",
       "matched_pattern": "http******************************************************************************************************************ets/",
-      "timestamp": "2026-03-26T07:44:12.914949"
+      "timestamp": "2026-03-27T07:43:44.458120"
     },
     {
       "service": "react",
@@ -66,7 +66,20 @@
       "description": "React App Etherspot Api Key",
       "severity": "medium",
       "matched_pattern": "1234************alue",
-      "timestamp": "2026-03-26T07:44:30.258985"
+      "timestamp": "2026-03-27T07:44:05.132354"
+    },
+    {
+      "service": "react",
+      "file": "backend/.env",
+      "repository": "fabiosky21/TheNasa",
+      "url": "https://github.com/fabiosky21/TheNasa/blob/2b1345f83c7db4746498526982bb1e0b7633bc7f/backend/.env",
+      "line_number": 4,
+      "line_preview": "REACT_APP_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imlud3ZtZ3BnZXJibXVtdHJ",
+      "key_type": "react_app_supabase_anon_key",
+      "description": "React App Supabase Anon Key",
+      "severity": "medium",
+      "matched_pattern": "eyJh********************************************************************************************************************************************************************************************************IWAg",
+      "timestamp": "2026-03-27T07:44:12.143266"
     }
   ]
 }
