@@ -1,6 +1,6 @@
 {
   "service": "email",
-  "scan_timestamp": "2026-03-27T07:45:01.117938",
+  "scan_timestamp": "2026-03-28T06:42:17.292376",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Email Host Password",
       "severity": "high",
       "matched_pattern": "SG.y***************************_key",
-      "timestamp": "2026-03-27T07:44:33.270758"
+      "timestamp": "2026-03-28T06:41:50.356476"
     }
   ]
 }

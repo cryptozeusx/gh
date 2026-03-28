@@ -1,6 +1,6 @@
 {
   "service": "replicate",
-  "scan_timestamp": "2026-03-27T07:45:01.130413",
+  "scan_timestamp": "2026-03-28T06:42:17.304939",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Replicate Api Token",
       "severity": "medium",
       "matched_pattern": "r8_E********************************M11n",
-      "timestamp": "2026-03-27T07:44:40.909610"
+      "timestamp": "2026-03-28T06:41:56.561916"
     }
   ]
 }

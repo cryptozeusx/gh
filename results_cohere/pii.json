@@ -1,6 +1,6 @@
 {
   "service": "pii",
-  "scan_timestamp": "2026-03-27T07:45:01.128484",
+  "scan_timestamp": "2026-03-28T06:42:17.303160",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Pii Encryption Key",
       "severity": "medium",
       "matched_pattern": "beni**************************3rf!",
-      "timestamp": "2026-03-27T07:44:00.281178"
+      "timestamp": "2026-03-28T06:41:17.627404"
     }
   ]
 }

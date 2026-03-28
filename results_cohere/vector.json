@@ -1,6 +1,6 @@
 {
   "service": "vector",
-  "scan_timestamp": "2026-03-27T07:45:01.133639",
+  "scan_timestamp": "2026-03-28T06:42:17.307225",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Vector Db Api Key",
       "severity": "medium",
       "matched_pattern": "1234************************************cure",
-      "timestamp": "2026-03-27T07:44:16.932112"
+      "timestamp": "2026-03-28T06:41:34.964142"
     }
   ]
 }

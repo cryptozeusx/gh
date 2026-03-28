@@ -1,21 +1,8 @@
 {
   "service": "meili",
-  "scan_timestamp": "2026-03-27T07:45:01.124644",
-  "finding_count": 2,
+  "scan_timestamp": "2026-03-28T06:42:17.299194",
+  "finding_count": 1,
   "findings": [
-    {
-      "service": "meili",
-      "file": ".env.ochat",
-      "repository": "dirkpetersen/our-chat",
-      "url": "https://github.com/dirkpetersen/our-chat/blob/3502eb1220f10639ac24b925d6dee709b05ae34e/.env.ochat",
-      "line_number": 285,
-      "line_preview": "MEILI_MASTER_KEY=DrhYf7zENyR6AlUCKmnz0eYASOQdl6zxH7s7MKFSfFCt",
-      "key_type": "meili_master_key",
-      "description": "Meili Master Key",
-      "severity": "critical",
-      "matched_pattern": "DrhY************************************fFCt",
-      "timestamp": "2026-03-27T07:43:53.463406"
-    },
     {
       "service": "meili",
       "file": "librechat.env.example",
@@ -26,8 +13,8 @@
       "key_type": "meili_master_key",
       "description": "Meili Master Key",
       "severity": "critical",
-      "matched_pattern": "MEIL*****************************************************fFCt",
-      "timestamp": "2026-03-27T07:44:24.115810"
+      "matched_pattern": "DrhY************************************fFCt",
+      "timestamp": "2026-03-28T06:41:39.761016"
     }
   ]
 }

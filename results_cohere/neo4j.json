@@ -1,7 +1,7 @@
 {
   "service": "neo4j",
-  "scan_timestamp": "2026-03-27T07:45:01.125700",
-  "finding_count": 2,
+  "scan_timestamp": "2026-03-28T06:42:17.300189",
+  "finding_count": 1,
   "findings": [
     {
       "service": "neo4j",
@@ -14,20 +14,7 @@
       "description": "Neo4J Password",
       "severity": "high",
       "matched_pattern": "ragb**lder",
-      "timestamp": "2026-03-27T07:43:50.179335"
-    },
-    {
-      "service": "neo4j",
-      "file": "pmoves/env.shared.example",
-      "repository": "POWERFULMOVES/PMOVES.AI",
-      "url": "https://github.com/POWERFULMOVES/PMOVES.AI/blob/d9877a670b703049c6aea5abbc0695f6ec181551/pmoves/env.shared.example",
-      "line_number": 197,
-      "line_preview": "NEO4J_AUTH=${NEO4J_USER}/${NEO4J_PASSWORD}",
-      "key_type": "neo4j_auth",
-      "description": "Neo4J Auth",
-      "severity": "medium",
-      "matched_pattern": "${NE***********************ORD}",
-      "timestamp": "2026-03-27T07:44:23.140720"
+      "timestamp": "2026-03-28T06:41:10.068766"
     }
   ]
 }

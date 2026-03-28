@@ -1,21 +1,8 @@
 {
   "service": "encryption",
-  "scan_timestamp": "2026-03-27T07:45:01.118056",
+  "scan_timestamp": "2026-03-28T06:42:17.292489",
   "finding_count": 5,
   "findings": [
-    {
-      "service": "encryption",
-      "file": "staging.env.example",
-      "repository": "tradermaster74-code/JGNEXT_local_dev",
-      "url": "https://github.com/tradermaster74-code/JGNEXT_local_dev/blob/e9a0425e436e7d85343bd28909b6457c3bd7b0bb/staging.env.example",
-      "line_number": 271,
-      "line_preview": "ENCRYPTION_KEY=CHANGE_ME_ENCRYPTION_KEY_32_BYTES",
-      "key_type": "encryption_key",
-      "description": "Encryption Key",
-      "severity": "medium",
-      "matched_pattern": "CHAN*************************YTES",
-      "timestamp": "2026-03-27T07:44:19.697752"
-    },
     {
       "service": "encryption",
       "file": "backend/.env.prod.example",
@@ -26,21 +13,34 @@
       "key_type": "encryption_key",
       "description": "Encryption Key",
       "severity": "medium",
-      "matched_pattern": "ENCR****************************************x_32",
-      "timestamp": "2026-03-27T07:44:21.037497"
+      "matched_pattern": "gene*************************x_32",
+      "timestamp": "2026-03-28T06:41:18.851820"
     },
     {
       "service": "encryption",
-      "file": "env.example",
-      "repository": "dolmario/semantic-doc-finder",
-      "url": "https://github.com/dolmario/semantic-doc-finder/blob/af6af7c90b3146fb5a0aaf2b28c031ab7c8ea976/env.example",
+      "file": "strategy_engine/src/render.env.md",
+      "repository": "TemamAb/alpha",
+      "url": "https://github.com/TemamAb/alpha/blob/04cbe3f2f1aad32aec32370025982376082e2740/strategy_engine/src/render.env.md",
       "line_number": 12,
-      "line_preview": "N8N_ENCRYPTION_KEY=n8n-encryption-key-change-in-production",
+      "line_preview": "ENCRYPTION_KEY=afafe315290b51bf1483222f53bdf5640765474351aef6696e9bf544a1bd069e",
       "key_type": "encryption_key",
       "description": "Encryption Key",
       "severity": "medium",
-      "matched_pattern": "ENCR**********************************************tion",
-      "timestamp": "2026-03-27T07:44:26.333433"
+      "matched_pattern": "ENCR***********************************************************************069e",
+      "timestamp": "2026-03-28T06:41:25.705847"
+    },
+    {
+      "service": "encryption",
+      "file": "inference/.env.example",
+      "repository": "TaskingAI/TaskingAI",
+      "url": "https://github.com/TaskingAI/TaskingAI/blob/f0092d6b2dd82e98e188e0b9849fdd4c7230dd98/inference/.env.example",
+      "line_number": 5,
+      "line_preview": "AES_ENCRYPTION_KEY=b90e4648ad699c3bdf62c0860e09eb9efc098ee75f215bf750847ae19d41e4b0",
+      "key_type": "encryption_key",
+      "description": "Encryption Key",
+      "severity": "medium",
+      "matched_pattern": "ENCR***********************************************************************e4b0",
+      "timestamp": "2026-03-28T06:41:34.839644"
     },
     {
       "service": "encryption",
@@ -53,7 +53,7 @@
       "description": "Encryption Key",
       "severity": "medium",
       "matched_pattern": "ENCR***************************************RUKt",
-      "timestamp": "2026-03-27T07:44:39.364331"
+      "timestamp": "2026-03-28T06:41:55.423369"
     },
     {
       "service": "encryption",
@@ -66,7 +66,7 @@
       "description": "Encryption Key",
       "severity": "medium",
       "matched_pattern": "ENCR***************************************7ab2",
-      "timestamp": "2026-03-27T07:44:53.891937"
+      "timestamp": "2026-03-28T06:42:09.845057"
     }
   ]
 }

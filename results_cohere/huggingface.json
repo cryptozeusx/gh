@@ -1,20 +1,33 @@
 {
   "service": "huggingface",
-  "scan_timestamp": "2026-03-27T07:45:01.122750",
-  "finding_count": 5,
+  "scan_timestamp": "2026-03-28T06:42:17.297569",
+  "finding_count": 6,
   "findings": [
     {
       "service": "huggingface",
-      "file": ".env.local",
-      "repository": "sudanva21/Career-Advisor-SIH",
-      "url": "https://github.com/sudanva21/Career-Advisor-SIH/blob/36d5272b7d80719b8c19696bbb6500b652ee9b14/.env.local",
-      "line_number": 38,
-      "line_preview": "HUGGINGFACE_API_KEY=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",
+      "file": ".env.FREE.example",
+      "repository": "ayush-mishra035/ayush-mishra035.github.io",
+      "url": "https://github.com/ayush-mishra035/ayush-mishra035.github.io/blob/175f8e2a706dacee7d083cbcdfd1a79175908546/.env.FREE.example",
+      "line_number": 21,
+      "line_preview": "HUGGINGFACE_API_KEY=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",
       "key_type": "huggingface_api_key",
       "description": "Huggingface Api Key",
       "severity": "medium",
-      "matched_pattern": "HUGG*************************************************AmJS",
-      "timestamp": "2026-03-27T07:44:01.023900"
+      "matched_pattern": "HUGG*************************************************auRi",
+      "timestamp": "2026-03-28T06:41:17.531494"
+    },
+    {
+      "service": "huggingface",
+      "file": "finlit-gpt/.env.backup",
+      "repository": "Nono140503/FinLit-GPT",
+      "url": "https://github.com/Nono140503/FinLit-GPT/blob/0f2a1f487fd53b7cd81348e866abda56599cb8d2/finlit-gpt/.env.backup",
+      "line_number": 1,
+      "line_preview": "HUGGINGFACE_API_KEY=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",
+      "key_type": "huggingface_api_key",
+      "description": "Huggingface Api Key",
+      "severity": "medium",
+      "matched_pattern": "HUGG*************************************************TVgD",
+      "timestamp": "2026-03-28T06:41:19.465833"
     },
     {
       "service": "huggingface",
@@ -27,20 +40,7 @@
       "description": "Huggingface Api Key",
       "severity": "medium",
       "matched_pattern": "Hugg*************************************************kJud",
-      "timestamp": "2026-03-27T07:44:15.573391"
-    },
-    {
-      "service": "huggingface",
-      "file": ".env.FREE.example",
-      "repository": "ayush-mishra035/ayush-mishra035.github.io",
-      "url": "https://github.com/ayush-mishra035/ayush-mishra035.github.io/blob/175f8e2a706dacee7d083cbcdfd1a79175908546/.env.FREE.example",
-      "line_number": 21,
-      "line_preview": "HUGGINGFACE_API_KEY=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",
-      "key_type": "huggingface_api_key",
-      "description": "Huggingface Api Key",
-      "severity": "medium",
-      "matched_pattern": "HUGG*************************************************auRi",
-      "timestamp": "2026-03-27T07:44:21.209627"
+      "timestamp": "2026-03-28T06:41:33.476584"
     },
     {
       "service": "huggingface",
@@ -53,7 +53,20 @@
       "description": "Huggingface Api Token",
       "severity": "medium",
       "matched_pattern": "hf_g*****************************xfcH",
-      "timestamp": "2026-03-27T07:44:38.933662"
+      "timestamp": "2026-03-28T06:41:55.048968"
+    },
+    {
+      "service": "huggingface",
+      "file": ".env.local",
+      "repository": "sudanva21/Career-Advisor-SIH",
+      "url": "https://github.com/sudanva21/Career-Advisor-SIH/blob/36d5272b7d80719b8c19696bbb6500b652ee9b14/.env.local",
+      "line_number": 38,
+      "line_preview": "HUGGINGFACE_API_KEY=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",
+      "key_type": "huggingface_api_key",
+      "description": "Huggingface Api Key",
+      "severity": "medium",
+      "matched_pattern": "HUGG*************************************************AmJS",
+      "timestamp": "2026-03-28T06:41:56.910314"
     },
     {
       "service": "huggingface",
@@ -66,7 +79,7 @@
       "description": "Huggingface Api Token",
       "severity": "medium",
       "matched_pattern": "HUGG****************************************************JfKA",
-      "timestamp": "2026-03-27T07:44:41.498310"
+      "timestamp": "2026-03-28T06:41:57.300601"
     }
   ]
 }

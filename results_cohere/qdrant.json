@@ -1,6 +1,6 @@
 {
   "service": "qdrant",
-  "scan_timestamp": "2026-03-26T07:45:19.853652",
+  "scan_timestamp": "2026-03-28T06:42:17.304334",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Qdrant Api Key",
       "severity": "medium",
       "matched_pattern": "QDRA***************************************************************************************************************pjE\"",
-      "timestamp": "2026-03-26T07:45:00.089844"
+      "timestamp": "2026-03-28T06:41:57.300526"
     }
   ]
 }

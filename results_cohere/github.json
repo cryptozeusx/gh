@@ -1,20 +1,20 @@
 {
   "service": "github",
-  "scan_timestamp": "2026-03-27T07:45:01.121906",
+  "scan_timestamp": "2026-03-28T06:42:17.296368",
   "finding_count": 2,
   "findings": [
     {
       "service": "github",
-      "file": "etl-pipeline/config/.env.local.secrets",
+      "file": "etl-pipeline/config/.env.production.secrets",
       "repository": "NYPL/digital-research-books",
-      "url": "https://github.com/NYPL/digital-research-books/blob/419e2608db317937a41607764db096355b3c57f7/etl-pipeline/config/.env.local.secrets",
-      "line_number": 19,
-      "line_preview": "GITHUB_API_KEY=arn:aws:ssm:us-east-1:946183545209:parameter/drb/qa/github-key",
+      "url": "https://github.com/NYPL/digital-research-books/blob/480607a72d5bc266d241673265b43909bd552680/etl-pipeline/config/.env.production.secrets",
+      "line_number": 18,
+      "line_preview": "GITHUB_API_KEY=arn:aws:ssm:us-east-1:946183545209:parameter/drb/production/github-key",
       "key_type": "github_api_key",
       "description": "Github Api Key",
       "severity": "medium",
-      "matched_pattern": "arn:******************************************************-key",
-      "timestamp": "2026-03-27T07:43:52.977684"
+      "matched_pattern": "arn:**************************************************************-key",
+      "timestamp": "2026-03-28T06:41:13.127062"
     },
     {
       "service": "github",
@@ -27,7 +27,7 @@
       "description": "Github Webhook Secret",
       "severity": "high",
       "matched_pattern": "# (L******************ble)",
-      "timestamp": "2026-03-27T07:44:39.364517"
+      "timestamp": "2026-03-28T06:41:55.423597"
     }
   ]
 }

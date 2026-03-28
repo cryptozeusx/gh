@@ -1,8 +1,21 @@
 {
   "service": "co",
-  "scan_timestamp": "2026-03-27T07:45:01.115216",
-  "finding_count": 7,
+  "scan_timestamp": "2026-03-28T06:42:17.289681",
+  "finding_count": 8,
   "findings": [
+    {
+      "service": "co",
+      "file": "strategy_engine/src/render.env.md",
+      "repository": "TemamAb/alpha",
+      "url": "https://github.com/TemamAb/alpha/blob/04cbe3f2f1aad32aec32370025982376082e2740/strategy_engine/src/render.env.md",
+      "line_number": 116,
+      "line_preview": "PIMLICO_API_KEY=pim_UbfKR9ocMe5ibNUCGgB8fE",
+      "key_type": "co_api_key",
+      "description": "Co Api Key",
+      "severity": "medium",
+      "matched_pattern": "CO_A*****************************B8fE",
+      "timestamp": "2026-03-28T06:41:25.706007"
+    },
     {
       "service": "co",
       "file": ".env",
@@ -14,7 +27,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************************89cf",
-      "timestamp": "2026-03-27T07:44:08.412801"
+      "timestamp": "2026-03-28T06:41:27.299655"
     },
     {
       "service": "co",
@@ -27,7 +40,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************************d5a3",
-      "timestamp": "2026-03-27T07:44:08.543375"
+      "timestamp": "2026-03-28T06:41:27.410393"
     },
     {
       "service": "co",
@@ -40,7 +53,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********box-",
-      "timestamp": "2026-03-27T07:44:09.361190"
+      "timestamp": "2026-03-28T06:41:28.103288"
     },
     {
       "service": "co",
@@ -53,7 +66,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************s_90",
-      "timestamp": "2026-03-27T07:44:12.691966"
+      "timestamp": "2026-03-28T06:41:30.795910"
     },
     {
       "service": "co",
@@ -66,7 +79,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********************************61ad",
-      "timestamp": "2026-03-27T07:44:15.173442"
+      "timestamp": "2026-03-28T06:41:33.136777"
     },
     {
       "service": "co",
@@ -79,7 +92,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*****************************9QcP",
-      "timestamp": "2026-03-27T07:44:38.001932"
+      "timestamp": "2026-03-28T06:41:54.332922"
     },
     {
       "service": "co",
@@ -92,7 +105,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*******************************FcU'",
-      "timestamp": "2026-03-27T07:44:45.688402"
+      "timestamp": "2026-03-28T06:42:01.896809"
     }
   ]
 }

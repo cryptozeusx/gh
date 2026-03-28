@@ -1,7 +1,7 @@
 {
   "service": "db",
-  "scan_timestamp": "2026-03-27T07:45:01.117510",
-  "finding_count": 4,
+  "scan_timestamp": "2026-03-28T06:42:17.291885",
+  "finding_count": 3,
   "findings": [
     {
       "service": "db",
@@ -14,7 +14,7 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "8g3Z********DIRS",
-      "timestamp": "2026-03-27T07:43:51.185353"
+      "timestamp": "2026-03-28T06:41:08.601736"
     },
     {
       "service": "db",
@@ -27,7 +27,7 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "DB_P************3214",
-      "timestamp": "2026-03-27T07:44:04.212237"
+      "timestamp": "2026-03-28T06:41:22.745410"
     },
     {
       "service": "db",
@@ -40,20 +40,7 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "DB_P************************N*EW",
-      "timestamp": "2026-03-27T07:44:04.720674"
-    },
-    {
-      "service": "db",
-      "file": "pmoves/env.shared.example",
-      "repository": "POWERFULMOVES/PMOVES.AI",
-      "url": "https://github.com/POWERFULMOVES/PMOVES.AI/blob/d9877a670b703049c6aea5abbc0695f6ec181551/pmoves/env.shared.example",
-      "line_number": 142,
-      "line_preview": "N8N_DB_PASSWORD=CHANGE_ME_N8N_DB_PASSWORD",
-      "key_type": "db_password",
-      "description": "Db Password",
-      "severity": "high",
-      "matched_pattern": "DB_P*****************************WORD",
-      "timestamp": "2026-03-27T07:44:23.140272"
+      "timestamp": "2026-03-28T06:41:23.227412"
     }
   ]
 }

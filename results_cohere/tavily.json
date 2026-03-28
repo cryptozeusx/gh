@@ -1,21 +1,8 @@
 {
   "service": "tavily",
-  "scan_timestamp": "2026-03-27T07:45:01.133008",
-  "finding_count": 5,
+  "scan_timestamp": "2026-03-28T06:42:17.306786",
+  "finding_count": 2,
   "findings": [
-    {
-      "service": "tavily",
-      "file": ".env_sample",
-      "repository": "venture21/langchain-kr",
-      "url": "https://github.com/venture21/langchain-kr/blob/fdb20d447083759b8c5cb814046fc85eaae8ed40/.env_sample",
-      "line_number": 7,
-      "line_preview": "TAVILY_API_KEY=tvly-mGxBGvzbH...",
-      "key_type": "tavily_api_key",
-      "description": "Tavily Api Key",
-      "severity": "medium",
-      "matched_pattern": "TAVI************************H...",
-      "timestamp": "2026-03-27T07:44:01.280417"
-    },
     {
       "service": "tavily",
       "file": ".env",
@@ -27,7 +14,7 @@
       "description": "Tavily API Key",
       "severity": "high",
       "matched_pattern": "tvly*****************************2Xo0",
-      "timestamp": "2026-03-27T07:44:15.043547"
+      "timestamp": "2026-03-28T06:41:33.019120"
     },
     {
       "service": "tavily",
@@ -40,33 +27,7 @@
       "description": "Tavily API Key (named var)",
       "severity": "high",
       "matched_pattern": "TAVI**********************************************2Xo0",
-      "timestamp": "2026-03-27T07:44:15.043614"
-    },
-    {
-      "service": "tavily",
-      "file": ".env",
-      "repository": "MemeFormer/SearchSmart_NotHard",
-      "url": "https://github.com/MemeFormer/SearchSmart_NotHard/blob/c8f4eac66b344e41fd52fedc97cc97a19ebb4ff5/.env",
-      "line_number": 2,
-      "line_preview": "TAVILY_API_KEY=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",
-      "key_type": "tavily_key",
-      "description": "Tavily API Key",
-      "severity": "high",
-      "matched_pattern": "tvly*****************************jSg2",
-      "timestamp": "2026-03-27T07:44:15.710928"
-    },
-    {
-      "service": "tavily",
-      "file": ".env",
-      "repository": "MemeFormer/SearchSmart_NotHard",
-      "url": "https://github.com/MemeFormer/SearchSmart_NotHard/blob/c8f4eac66b344e41fd52fedc97cc97a19ebb4ff5/.env",
-      "line_number": 2,
-      "line_preview": "TAVILY_API_KEY=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",
-      "key_type": "tavily_named_key",
-      "description": "Tavily API Key (named var)",
-      "severity": "high",
-      "matched_pattern": "TAVI********************************************jSg2",
-      "timestamp": "2026-03-27T07:44:15.710977"
+      "timestamp": "2026-03-28T06:41:33.019166"
     }
   ]
 }
