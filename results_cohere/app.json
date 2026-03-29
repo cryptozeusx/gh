@@ -1,7 +1,7 @@
 {
   "service": "app",
-  "scan_timestamp": "2026-03-28T06:42:17.288822",
-  "finding_count": 9,
+  "scan_timestamp": "2026-03-29T07:36:00.287733",
+  "finding_count": 8,
   "findings": [
     {
       "service": "app",
@@ -14,7 +14,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "base*******************************************KgQ=",
-      "timestamp": "2026-03-28T06:41:08.714279"
+      "timestamp": "2026-03-29T07:34:38.110878"
     },
     {
       "service": "app",
@@ -27,20 +27,20 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************hXw=",
-      "timestamp": "2026-03-28T06:41:22.745293"
+      "timestamp": "2026-03-29T07:34:51.791177"
     },
     {
       "service": "app",
-      "file": ".env.bak",
-      "repository": "Piyushkumawat23/well-known",
-      "url": "https://github.com/Piyushkumawat23/well-known/blob/c626bd8134e455a116c28528270c4b20f6d86eb9/.env.bak",
+      "file": ".env.production.example",
+      "repository": "scoutprojekt0-sys/scout-projesi",
+      "url": "https://github.com/scoutprojekt0-sys/scout-projesi/blob/478fe68d15ad4b3d91df1319fba7067c059d1fef/.env.production.example",
       "line_number": 3,
-      "line_preview": "APP_KEY=base64:WrvqXJ+ilWOLItqI7C2N2R2dQkqFAHFYzTrQBBJqtso=",
+      "line_preview": "APP_KEY=base64:replace-with-generated-key",
       "key_type": "app_key",
       "description": "App Key",
       "severity": "medium",
-      "matched_pattern": "APP_***************************************************tso=",
-      "timestamp": "2026-03-28T06:41:27.187049"
+      "matched_pattern": "APP_*********************************-key",
+      "timestamp": "2026-03-29T07:34:57.886178"
     },
     {
       "service": "app",
@@ -53,7 +53,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************tso=",
-      "timestamp": "2026-03-28T06:41:28.460870"
+      "timestamp": "2026-03-29T07:34:59.539308"
     },
     {
       "service": "app",
@@ -66,7 +66,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************tso=",
-      "timestamp": "2026-03-28T06:41:32.520771"
+      "timestamp": "2026-03-29T07:35:05.508396"
     },
     {
       "service": "app",
@@ -79,7 +79,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************Wws=",
-      "timestamp": "2026-03-28T06:41:32.777445"
+      "timestamp": "2026-03-29T07:35:05.841480"
     },
     {
       "service": "app",
@@ -92,7 +92,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************tso=",
-      "timestamp": "2026-03-28T06:41:32.907615"
+      "timestamp": "2026-03-29T07:35:06.225114"
     },
     {
       "service": "app",
@@ -105,20 +105,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************e8p\"",
-      "timestamp": "2026-03-28T06:41:47.378304"
-    },
-    {
-      "service": "app",
-      "file": ".env.production.example",
-      "repository": "scoutprojekt0-sys/scout-projesi",
-      "url": "https://github.com/scoutprojekt0-sys/scout-projesi/blob/9845bc197b2589bfca5b1570c8a22a2427a0f2bf/.env.production.example",
-      "line_number": 3,
-      "line_preview": "APP_KEY=base64:replace-with-generated-key",
-      "key_type": "app_key",
-      "description": "App Key",
-      "severity": "medium",
-      "matched_pattern": "APP_*********************************-key",
-      "timestamp": "2026-03-28T06:41:50.941494"
+      "timestamp": "2026-03-29T07:35:26.292184"
     }
   ]
 }

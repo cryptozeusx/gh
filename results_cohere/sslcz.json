@@ -1,6 +1,6 @@
 {
   "service": "sslcz",
-  "scan_timestamp": "2026-03-28T06:42:17.306123",
+  "scan_timestamp": "2026-03-29T07:36:00.304048",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Sslcz Store Passwd",
       "severity": "high",
       "matched_pattern": "acti**************@ssl",
-      "timestamp": "2026-03-28T06:41:32.521465"
+      "timestamp": "2026-03-29T07:35:05.509229"
     }
   ]
 }

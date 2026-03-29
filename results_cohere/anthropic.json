@@ -1,46 +1,33 @@
 {
   "service": "anthropic",
-  "scan_timestamp": "2026-03-28T06:42:17.288085",
-  "finding_count": 6,
+  "scan_timestamp": "2026-03-29T07:36:00.287067",
+  "finding_count": 5,
   "findings": [
     {
       "service": "anthropic",
-      "file": ".env.local",
-      "repository": "mateuszpoland/upwork-proposal-ai-agent",
-      "url": "https://github.com/mateuszpoland/upwork-proposal-ai-agent/blob/355c6d4a567d5084aac046af407a3d232adf5f93/.env.local",
-      "line_number": 7,
-      "line_preview": "ANTHROPIC_API_KEY= # Required: Format: sk-ant-api03-...",
-      "key_type": "anthropic_api_key",
-      "description": "Anthropic Api Key",
-      "severity": "medium",
-      "matched_pattern": "# Re****************************-...",
-      "timestamp": "2026-03-28T06:41:15.404460"
-    },
-    {
-      "service": "anthropic",
-      "file": ".env.save",
-      "repository": "samrahimi/factoid-ai",
-      "url": "https://github.com/samrahimi/factoid-ai/blob/9b870d3e93ccf5e4a43d3bd03c81b6a1a1a81e77/.env.save",
-      "line_number": 8,
-      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api03-NN1FrN980a9GLfO2kOjD2GL-GuzxXiJjuZoBzOSypXGzlPE8ngg995Z02EzG4VpciK0IC0S3sjFSRr9OEzLCjA-Ir",
-      "key_type": "anthropic_api_key",
-      "description": "Anthropic Api Key",
-      "severity": "medium",
-      "matched_pattern": "ANTH**********************************************************************************************************************FAAA",
-      "timestamp": "2026-03-28T06:41:17.103735"
-    },
-    {
-      "service": "anthropic",
       "file": ".env_sample",
-      "repository": "venture21/langchain-kr",
-      "url": "https://github.com/venture21/langchain-kr/blob/fdb20d447083759b8c5cb814046fc85eaae8ed40/.env_sample",
+      "repository": "bm1120/RAG_practice",
+      "url": "https://github.com/bm1120/RAG_practice/blob/7185d868713816c003074f3d80c7b2e2238cff88/.env_sample",
       "line_number": 10,
       "line_preview": "ANTHROPIC_API_KEY=sk-ant-api0...",
       "key_type": "anthropic_api_key",
       "description": "Anthropic Api Key",
       "severity": "medium",
-      "matched_pattern": "ANTH************************0...",
-      "timestamp": "2026-03-28T06:41:17.920084"
+      "matched_pattern": "sk-a******0...",
+      "timestamp": "2026-03-29T07:34:41.870348"
+    },
+    {
+      "service": "anthropic",
+      "file": ".env.example",
+      "repository": "stevenfazzio/claude-code-changelog-analysis",
+      "url": "https://github.com/stevenfazzio/claude-code-changelog-analysis/blob/26475fd66ee99672a45798586587e3c07e2a69c0/.env.example",
+      "line_number": 1,
+      "line_preview": "ANTHROPIC_API_KEY=   # for enrich stage (Claude)",
+      "key_type": "anthropic_api_key",
+      "description": "Anthropic Api Key",
+      "severity": "medium",
+      "matched_pattern": "# fo*******************ude)",
+      "timestamp": "2026-03-29T07:34:57.545859"
     },
     {
       "service": "anthropic",
@@ -53,20 +40,20 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************cwAA",
-      "timestamp": "2026-03-28T06:41:27.754206"
+      "timestamp": "2026-03-29T07:34:58.659627"
     },
     {
       "service": "anthropic",
-      "file": "env.example",
-      "repository": "FranciscoE195/team-helper-bot",
-      "url": "https://github.com/FranciscoE195/team-helper-bot/blob/321dacb54e00954a95d5744a292cafb175f318b6/env.example",
-      "line_number": 6,
-      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api03-...",
+      "file": ".env.local",
+      "repository": "mateuszpoland/upwork-proposal-ai-agent",
+      "url": "https://github.com/mateuszpoland/upwork-proposal-ai-agent/blob/355c6d4a567d5084aac046af407a3d232adf5f93/.env.local",
+      "line_number": 7,
+      "line_preview": "ANTHROPIC_API_KEY= # Required: Format: sk-ant-api03-...",
       "key_type": "anthropic_api_key",
       "description": "Anthropic Api Key",
       "severity": "medium",
-      "matched_pattern": "ANTH**************************-...",
-      "timestamp": "2026-03-28T06:41:41.645211"
+      "matched_pattern": "# Re****************************-...",
+      "timestamp": "2026-03-29T07:35:39.992157"
     },
     {
       "service": "anthropic",
@@ -79,7 +66,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************DgAA",
-      "timestamp": "2026-03-28T06:41:56.560114"
+      "timestamp": "2026-03-29T07:35:41.692918"
     }
   ]
 }

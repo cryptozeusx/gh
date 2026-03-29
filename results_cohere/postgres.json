@@ -1,7 +1,7 @@
 {
   "service": "postgres",
-  "scan_timestamp": "2026-03-28T06:42:17.303705",
-  "finding_count": 2,
+  "scan_timestamp": "2026-03-29T07:36:00.301399",
+  "finding_count": 3,
   "findings": [
     {
       "service": "postgres",
@@ -14,7 +14,20 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "# Ge***************************4 32",
-      "timestamp": "2026-03-28T06:41:35.197041"
+      "timestamp": "2026-03-29T07:34:34.795053"
+    },
+    {
+      "service": "postgres",
+      "file": ".env.example",
+      "repository": "rsmed31/KubeAI",
+      "url": "https://github.com/rsmed31/KubeAI/blob/f483dc997c7dbe03e32a945fe323f859ee2a899b/.env.example",
+      "line_number": 7,
+      "line_preview": "POSTGRES_PASSWORD=kubeai_dev",
+      "key_type": "postgres_password",
+      "description": "Postgres Password",
+      "severity": "high",
+      "matched_pattern": "POST********************_dev",
+      "timestamp": "2026-03-29T07:35:21.047438"
     },
     {
       "service": "postgres",
@@ -27,7 +40,7 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "POST**************************IX6P",
-      "timestamp": "2026-03-28T06:41:55.047753"
+      "timestamp": "2026-03-29T07:35:38.413674"
     }
   ]
 }

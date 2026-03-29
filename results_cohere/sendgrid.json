@@ -1,8 +1,21 @@
 {
   "service": "sendgrid",
-  "scan_timestamp": "2026-03-28T06:42:17.305637",
-  "finding_count": 1,
+  "scan_timestamp": "2026-03-29T07:36:00.303495",
+  "finding_count": 2,
   "findings": [
+    {
+      "service": "sendgrid",
+      "file": "env.production.example",
+      "repository": "TahasCreations/tdc-products-website",
+      "url": "https://github.com/TahasCreations/tdc-products-website/blob/542dacf23e653e5c5f36001522494e1aff58ab7d/env.production.example",
+      "line_number": 21,
+      "line_preview": "SENDGRID_API_KEY=\"SG.your_sendgrid_api_key\"",
+      "key_type": "sendgrid_api_key",
+      "description": "Sendgrid Api Key",
+      "severity": "medium",
+      "matched_pattern": "SEND***********************************key\"",
+      "timestamp": "2026-03-29T07:35:28.381461"
+    },
     {
       "service": "sendgrid",
       "file": ".env.prod.example",
@@ -14,7 +27,7 @@
       "description": "Sendgrid Api Key",
       "severity": "medium",
       "matched_pattern": "SEND***********************************_key",
-      "timestamp": "2026-03-28T06:41:50.356429"
+      "timestamp": "2026-03-29T07:35:31.280479"
     }
   ]
 }

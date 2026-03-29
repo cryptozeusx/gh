@@ -1,85 +1,20 @@
 {
   "service": "api",
-  "scan_timestamp": "2026-03-28T06:42:17.288283",
-  "finding_count": 36,
+  "scan_timestamp": "2026-03-29T07:36:00.287252",
+  "finding_count": 28,
   "findings": [
     {
       "service": "api",
-      "file": "etl-pipeline/config/.env.production.secrets",
+      "file": "etl-pipeline/config/.env.qa.secrets",
       "repository": "NYPL/digital-research-books",
-      "url": "https://github.com/NYPL/digital-research-books/blob/480607a72d5bc266d241673265b43909bd552680/etl-pipeline/config/.env.production.secrets",
-      "line_number": 43,
-      "line_preview": "API_KEY=arn:aws:ssm:us-east-1:946183545209:parameter/drb/production/api-key",
+      "url": "https://github.com/NYPL/digital-research-books/blob/480607a72d5bc266d241673265b43909bd552680/etl-pipeline/config/.env.qa.secrets",
+      "line_number": 39,
+      "line_preview": "API_KEY=arn:aws:ssm:us-east-1:946183545209:parameter/drb/qa/api-key",
       "key_type": "api_key",
       "description": "Api Key",
       "severity": "medium",
-      "matched_pattern": "arn:***********************************************************-key",
-      "timestamp": "2026-03-28T06:41:13.127500"
-    },
-    {
-      "service": "api",
-      "file": ".env_sample",
-      "repository": "venture21/langchain-kr",
-      "url": "https://github.com/venture21/langchain-kr/blob/fdb20d447083759b8c5cb814046fc85eaae8ed40/.env_sample",
-      "line_number": 1,
-      "line_preview": "OPENAI_API_KEY=sk-5K9kI4dia...",
-      "key_type": "api_key",
-      "description": "Api Key",
-      "severity": "medium",
-      "matched_pattern": "API_***************a...",
-      "timestamp": "2026-03-28T06:41:17.919666"
-    },
-    {
-      "service": "api",
-      "file": ".env_sample",
-      "repository": "venture21/langchain-kr",
-      "url": "https://github.com/venture21/langchain-kr/blob/fdb20d447083759b8c5cb814046fc85eaae8ed40/.env_sample",
-      "line_number": 5,
-      "line_preview": "LANGSMITH_API_KEY=ls__69f274d55...",
-      "key_type": "api_key",
-      "description": "Api Key",
-      "severity": "medium",
-      "matched_pattern": "API_****************5...",
-      "timestamp": "2026-03-28T06:41:17.919820"
-    },
-    {
-      "service": "api",
-      "file": ".env_sample",
-      "repository": "venture21/langchain-kr",
-      "url": "https://github.com/venture21/langchain-kr/blob/fdb20d447083759b8c5cb814046fc85eaae8ed40/.env_sample",
-      "line_number": 7,
-      "line_preview": "TAVILY_API_KEY=tvly-mGxBGvzbH...",
-      "key_type": "api_key",
-      "description": "Api Key",
-      "severity": "medium",
-      "matched_pattern": "API_*****************H...",
-      "timestamp": "2026-03-28T06:41:17.919865"
-    },
-    {
-      "service": "api",
-      "file": ".env_sample",
-      "repository": "venture21/langchain-kr",
-      "url": "https://github.com/venture21/langchain-kr/blob/fdb20d447083759b8c5cb814046fc85eaae8ed40/.env_sample",
-      "line_number": 10,
-      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api0...",
-      "key_type": "api_key",
-      "description": "Api Key",
-      "severity": "medium",
-      "matched_pattern": "API_**************0...",
-      "timestamp": "2026-03-28T06:41:17.920019"
-    },
-    {
-      "service": "api",
-      "file": ".env_sample",
-      "repository": "venture21/langchain-kr",
-      "url": "https://github.com/venture21/langchain-kr/blob/fdb20d447083759b8c5cb814046fc85eaae8ed40/.env_sample",
-      "line_number": 11,
-      "line_preview": "UPSTAGE_API_KEY=up_oZ4HjE...",
-      "key_type": "api_key",
-      "description": "Api Key",
-      "severity": "medium",
-      "matched_pattern": "API_************E...",
-      "timestamp": "2026-03-28T06:41:17.920154"
+      "matched_pattern": "arn:***************************************************-key",
+      "timestamp": "2026-03-29T07:34:46.169140"
     },
     {
       "service": "api",
@@ -92,7 +27,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_********************************************************************************Br9H",
-      "timestamp": "2026-03-28T06:41:23.343939"
+      "timestamp": "2026-03-29T07:34:52.897192"
     },
     {
       "service": "api",
@@ -105,7 +40,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_********************************************************************************************************************************************************************************************A==\"",
-      "timestamp": "2026-03-28T06:41:25.105951"
+      "timestamp": "2026-03-29T07:34:55.672819"
     },
     {
       "service": "api",
@@ -118,7 +53,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************A==\"",
-      "timestamp": "2026-03-28T06:41:25.106075"
+      "timestamp": "2026-03-29T07:34:55.672969"
     },
     {
       "service": "api",
@@ -131,7 +66,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************************************************************************************************************************zc=\"",
-      "timestamp": "2026-03-28T06:41:25.106126"
+      "timestamp": "2026-03-29T07:34:55.673025"
     },
     {
       "service": "api",
@@ -144,7 +79,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_************************************************************************************************************************************************************************************************g==\"",
-      "timestamp": "2026-03-28T06:41:25.106171"
+      "timestamp": "2026-03-29T07:34:55.673073"
     },
     {
       "service": "api",
@@ -157,7 +92,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************************************************************************************************************************************************************nDU\"",
-      "timestamp": "2026-03-28T06:41:25.106225"
+      "timestamp": "2026-03-29T07:34:55.673115"
     },
     {
       "service": "api",
@@ -170,7 +105,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************+nu\"",
-      "timestamp": "2026-03-28T06:41:25.106269"
+      "timestamp": "2026-03-29T07:34:55.673170"
     },
     {
       "service": "api",
@@ -183,7 +118,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************************************************************************************************************************************************************************3E=\"",
-      "timestamp": "2026-03-28T06:41:25.106310"
+      "timestamp": "2026-03-29T07:34:55.673216"
     },
     {
       "service": "api",
@@ -196,7 +131,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_************************************************************************************************************************************************************************************************w==\"",
-      "timestamp": "2026-03-28T06:41:25.106388"
+      "timestamp": "2026-03-29T07:34:55.673309"
     },
     {
       "service": "api",
@@ -209,7 +144,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_************************************************************************************************************************************************************************************************A==\"",
-      "timestamp": "2026-03-28T06:41:25.106426"
+      "timestamp": "2026-03-29T07:34:55.673355"
     },
     {
       "service": "api",
@@ -222,7 +157,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************************************************************************************************************************************************************OOv\"",
-      "timestamp": "2026-03-28T06:41:25.106463"
+      "timestamp": "2026-03-29T07:34:55.673396"
     },
     {
       "service": "api",
@@ -235,7 +170,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************************************************************************************************************************************************************nE+\"",
-      "timestamp": "2026-03-28T06:41:25.106579"
+      "timestamp": "2026-03-29T07:34:55.673492"
     },
     {
       "service": "api",
@@ -248,7 +183,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_************************************************************************************************************************************************************************************************************************************Rc=\"",
-      "timestamp": "2026-03-28T06:41:25.106629"
+      "timestamp": "2026-03-29T07:34:55.673545"
     },
     {
       "service": "api",
@@ -261,7 +196,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_********************************************************************************************************************************************************************************A==\"",
-      "timestamp": "2026-03-28T06:41:25.106667"
+      "timestamp": "2026-03-29T07:34:55.673584"
     },
     {
       "service": "api",
@@ -274,7 +209,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_************************************************************************************************************************************************************************w==\"",
-      "timestamp": "2026-03-28T06:41:25.106710"
+      "timestamp": "2026-03-29T07:34:55.673629"
     },
     {
       "service": "api",
@@ -287,7 +222,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************************************************************************************************************************************************************Eui\"",
-      "timestamp": "2026-03-28T06:41:25.106754"
+      "timestamp": "2026-03-29T07:34:55.673707"
     },
     {
       "service": "api",
@@ -300,7 +235,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_************************************************************************************************************************************************************************oHV\"",
-      "timestamp": "2026-03-28T06:41:25.106829"
+      "timestamp": "2026-03-29T07:34:55.673806"
     },
     {
       "service": "api",
@@ -313,7 +248,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************************************************************************************************************************************************************************************g==\"",
-      "timestamp": "2026-03-28T06:41:25.106872"
+      "timestamp": "2026-03-29T07:34:55.673844"
     },
     {
       "service": "api",
@@ -326,7 +261,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************************************************************************************************************************************************************************A==\"",
-      "timestamp": "2026-03-28T06:41:25.106948"
+      "timestamp": "2026-03-29T07:34:55.673932"
     },
     {
       "service": "api",
@@ -339,7 +274,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************************************************************************************************************************************************Lk=\"",
-      "timestamp": "2026-03-28T06:41:25.106984"
+      "timestamp": "2026-03-29T07:34:55.673970"
     },
     {
       "service": "api",
@@ -352,7 +287,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_****************************************************************************************************************************************************************************************************g==\"",
-      "timestamp": "2026-03-28T06:41:25.107027"
+      "timestamp": "2026-03-29T07:34:55.674014"
     },
     {
       "service": "api",
@@ -365,7 +300,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_******************************************************************************************Hhk4",
-      "timestamp": "2026-03-28T06:41:27.981704"
+      "timestamp": "2026-03-29T07:34:58.994531"
     },
     {
       "service": "api",
@@ -378,59 +313,20 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_********box-",
-      "timestamp": "2026-03-28T06:41:28.103168"
+      "timestamp": "2026-03-29T07:34:59.173949"
     },
     {
       "service": "api",
-      "file": "docs/getting-started/claudeDL/env.vm.example",
-      "repository": "rzepeda/ragTools",
-      "url": "https://github.com/rzepeda/ragTools/blob/e70eb327bb487a6f8e639ec8376e5805b8f1da79/docs/getting-started/claudeDL/env.vm.example",
-      "line_number": 41,
-      "line_preview": "OPENAI_API_KEY=lm-studio  # Any value works with LM Studio",
+      "file": ".env.production.example",
+      "repository": "Prometheus-Automation/store",
+      "url": "https://github.com/Prometheus-Automation/store/blob/bd2e0d4ef72686cec7961c165f39b0644f5de515/.env.production.example",
+      "line_number": 40,
+      "line_preview": "SENDGRID_API_KEY=SG.your-sendgrid-api-key",
       "key_type": "api_key",
       "description": "Api Key",
       "severity": "medium",
-      "matched_pattern": "API_*********udio",
-      "timestamp": "2026-03-28T06:41:37.571896"
-    },
-    {
-      "service": "api",
-      "file": "env.example",
-      "repository": "FranciscoE195/team-helper-bot",
-      "url": "https://github.com/FranciscoE195/team-helper-bot/blob/321dacb54e00954a95d5744a292cafb175f318b6/env.example",
-      "line_number": 6,
-      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api03-...",
-      "key_type": "api_key",
-      "description": "Api Key",
-      "severity": "medium",
-      "matched_pattern": "API_****************-...",
-      "timestamp": "2026-03-28T06:41:41.645125"
-    },
-    {
-      "service": "api",
-      "file": ".env.example",
-      "repository": "agentset-ai/agentset",
-      "url": "https://github.com/agentset-ai/agentset/blob/76ff0f981a54a6f61b56810705298aef5c3188b2/.env.example",
-      "line_number": 13,
-      "line_preview": "RESEND_API_KEY=\"re_1234567890\"",
-      "key_type": "api_key",
-      "description": "Api Key",
-      "severity": "medium",
-      "matched_pattern": "API_***************890\"",
-      "timestamp": "2026-03-28T06:41:41.761660"
-    },
-    {
-      "service": "api",
-      "file": ".env.local.example",
-      "repository": "Kynto-Consulting/Killio-Frontend",
-      "url": "https://github.com/Kynto-Consulting/Killio-Frontend/blob/e558490f013cd5fdbf9adcaeb639f13f4bc1de75/.env.local.example",
-      "line_number": 13,
-      "line_preview": "ABLY_API_KEY=7N4yjg.6i_OBw:W1s0NyFHtmCEjIB1RxmMwYWtJL7rWlE-V7BPp1DHOhE      # Server-side only (used by the proxy)",
-      "key_type": "api_key",
-      "description": "Api Key",
-      "severity": "medium",
-      "matched_pattern": "API_*********************************************************HOhE",
-      "timestamp": "2026-03-28T06:41:42.332410"
+      "matched_pattern": "API_************************-key",
+      "timestamp": "2026-03-29T07:35:14.265997"
     },
     {
       "service": "api",
@@ -443,7 +339,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_**************************key\"",
-      "timestamp": "2026-03-28T06:41:48.667104"
+      "timestamp": "2026-03-29T07:35:28.381402"
     },
     {
       "service": "api",
@@ -456,7 +352,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_**************************_key",
-      "timestamp": "2026-03-28T06:41:50.356376"
+      "timestamp": "2026-03-29T07:35:31.280422"
     },
     {
       "service": "api",
@@ -469,7 +365,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_************************************************************************************YSui",
-      "timestamp": "2026-03-28T06:42:01.775857"
+      "timestamp": "2026-03-29T07:35:44.594657"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "service": "payku",
-  "scan_timestamp": "2026-03-28T06:42:17.302695",
+  "scan_timestamp": "2026-03-29T07:36:00.300400",
   "finding_count": 2,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Payku Public Token",
       "severity": "medium",
       "matched_pattern": "tkpu************************51f1",
-      "timestamp": "2026-03-28T06:41:32.521624"
+      "timestamp": "2026-03-29T07:35:05.509354"
     },
     {
       "service": "payku",
@@ -27,7 +27,7 @@
       "description": "Payku Private Token",
       "severity": "critical",
       "matched_pattern": "tkpi************************fc61",
-      "timestamp": "2026-03-28T06:41:32.521671"
+      "timestamp": "2026-03-29T07:35:05.509394"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "service": "aws",
-  "scan_timestamp": "2026-03-28T06:42:17.289155",
+  "scan_timestamp": "2026-03-29T07:36:00.287918",
   "finding_count": 4,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "AWS Access Key ID",
       "severity": "high",
       "matched_pattern": "AKIA************MPLE",
-      "timestamp": "2026-03-28T06:41:10.436636"
+      "timestamp": "2026-03-29T07:34:33.864978"
     },
     {
       "service": "aws",
@@ -27,7 +27,7 @@
       "description": "AWS Secret Access Key",
       "severity": "critical",
       "matched_pattern": "AWS_******************************************************EKEY",
-      "timestamp": "2026-03-28T06:41:10.436752"
+      "timestamp": "2026-03-29T07:34:33.865113"
     },
     {
       "service": "aws",
@@ -40,7 +40,7 @@
       "description": "AWS Access Key ID",
       "severity": "high",
       "matched_pattern": "AKIA************MPLE",
-      "timestamp": "2026-03-28T06:41:55.422904"
+      "timestamp": "2026-03-29T07:35:38.606738"
     },
     {
       "service": "aws",
@@ -53,7 +53,7 @@
       "description": "AWS Secret Access Key",
       "severity": "critical",
       "matched_pattern": "AWS_******************************************************EKEY",
-      "timestamp": "2026-03-28T06:41:55.422983"
+      "timestamp": "2026-03-29T07:35:38.606883"
     }
   ]
 }

@@ -1,21 +1,8 @@
 {
   "service": "supabase",
-  "scan_timestamp": "2026-03-28T06:42:17.306452",
-  "finding_count": 6,
+  "scan_timestamp": "2026-03-29T07:36:00.304475",
+  "finding_count": 4,
   "findings": [
-    {
-      "service": "supabase",
-      "file": ".env.local.example",
-      "repository": "kcg34kcg-web/Marinantex",
-      "url": "https://github.com/kcg34kcg-web/Marinantex/blob/7b21ca537ed7317f3101b486c5dfcc7bc9799808/.env.local.example",
-      "line_number": 7,
-      "line_preview": "SUPABASE_SERVICE_ROLE_KEY=\"eyJhbGciOiJIUzI1Ndsfdsfdsfdsfdsff34ffdf43ddsf3IMzHHcGVKSh2PKeTO1k_VAaqBpyL-EARA\"",
-      "key_type": "supabase_service_role_key",
-      "description": "Supabase Service Role Key",
-      "severity": "medium",
-      "matched_pattern": "eyJh***********************************************************************EARA",
-      "timestamp": "2026-03-28T06:41:17.627357"
-    },
     {
       "service": "supabase",
       "file": "backend/.env.example",
@@ -27,20 +14,7 @@
       "description": "Supabase Key",
       "severity": "medium",
       "matched_pattern": "eyJh********************************************************************************************************************************************************************************************************4isA",
-      "timestamp": "2026-03-28T06:41:31.477445"
-    },
-    {
-      "service": "supabase",
-      "file": "backend-render/.env.example",
-      "repository": "dvirdiei/shira",
-      "url": "https://github.com/dvirdiei/shira/blob/7b9ee72f3e7f385a0eb70dcd4db6efee9dbbc942/backend-render/.env.example",
-      "line_number": 7,
-      "line_preview": "SUPABASE_SERVICE_KEY=eyJhbGciOiJIUzI1NiIsI...",
-      "key_type": "supabase_service_key",
-      "description": "Supabase Service Key",
-      "severity": "medium",
-      "matched_pattern": "eyJh****************I...",
-      "timestamp": "2026-03-28T06:41:51.529201"
+      "timestamp": "2026-03-29T07:35:04.276618"
     },
     {
       "service": "supabase",
@@ -52,8 +26,8 @@
       "key_type": "supabase_service_role_key",
       "description": "Supabase Service Role Key",
       "severity": "medium",
-      "matched_pattern": "SUPA*********************************************************************************************************************************************************************************************************************************************_bsc",
-      "timestamp": "2026-03-28T06:41:56.910112"
+      "matched_pattern": "eyJh*******************************************************************************************************************************************************************************************************************_bsc",
+      "timestamp": "2026-03-29T07:35:41.030789"
     },
     {
       "service": "supabase",
@@ -66,7 +40,7 @@
       "description": "Supabase Service Role Key",
       "severity": "medium",
       "matched_pattern": "SUPA***********************************************************c8Mx",
-      "timestamp": "2026-03-28T06:42:01.775743"
+      "timestamp": "2026-03-29T07:35:44.594539"
     },
     {
       "service": "supabase",
@@ -79,7 +53,7 @@
       "description": "Supabase Service Role Key",
       "severity": "medium",
       "matched_pattern": "SUPA*********************************************************************************************************************************************************************************************************************************************itoI",
-      "timestamp": "2026-03-28T06:42:02.021286"
+      "timestamp": "2026-03-29T07:35:44.947571"
     }
   ]
 }

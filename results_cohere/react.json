@@ -1,7 +1,7 @@
 {
   "service": "react",
-  "scan_timestamp": "2026-03-28T06:42:17.304578",
-  "finding_count": 7,
+  "scan_timestamp": "2026-03-29T07:36:00.302285",
+  "finding_count": 6,
   "findings": [
     {
       "service": "react",
@@ -14,7 +14,7 @@
       "description": "React App Default Token List Url",
       "severity": "medium",
       "matched_pattern": "http*********************************************************************************************************json",
-      "timestamp": "2026-03-28T06:41:02.218260"
+      "timestamp": "2026-03-29T07:34:27.713631"
     },
     {
       "service": "react",
@@ -27,7 +27,7 @@
       "description": "React App Polygon Api Key Free",
       "severity": "medium",
       "matched_pattern": "S0m3********1K3y",
-      "timestamp": "2026-03-28T06:41:02.218352"
+      "timestamp": "2026-03-29T07:34:27.713782"
     },
     {
       "service": "react",
@@ -40,7 +40,7 @@
       "description": "React App Token List Exchange Custom Asset Logo Url",
       "severity": "medium",
       "matched_pattern": "http****************************************************************************************************.png",
-      "timestamp": "2026-03-28T06:41:02.218407"
+      "timestamp": "2026-03-29T07:34:27.713837"
     },
     {
       "service": "react",
@@ -53,20 +53,7 @@
       "description": "React App Token List Asset Generic Address Testnet Logo Url Base",
       "severity": "medium",
       "matched_pattern": "http******************************************************************************************************************ets/",
-      "timestamp": "2026-03-28T06:41:02.218468"
-    },
-    {
-      "service": "react",
-      "file": "finlit-gpt/.env.backup",
-      "repository": "Nono140503/FinLit-GPT",
-      "url": "https://github.com/Nono140503/FinLit-GPT/blob/0f2a1f487fd53b7cd81348e866abda56599cb8d2/finlit-gpt/.env.backup",
-      "line_number": 16,
-      "line_preview": "REACT_APP_FIREBASE_AUTH_DOMAIN=finlitgpt-391e3.firebaseapp.com",
-      "key_type": "react_app_firebase_auth_domain",
-      "description": "React App Firebase Auth Domain",
-      "severity": "medium",
-      "matched_pattern": "finl***********************.com",
-      "timestamp": "2026-03-28T06:41:19.466387"
+      "timestamp": "2026-03-29T07:34:27.713900"
     },
     {
       "service": "react",
@@ -79,7 +66,7 @@
       "description": "React App Etherspot Api Key",
       "severity": "medium",
       "matched_pattern": "1234************alue",
-      "timestamp": "2026-03-28T06:41:23.592441"
+      "timestamp": "2026-03-29T07:34:53.503280"
     },
     {
       "service": "react",
@@ -92,7 +79,7 @@
       "description": "React App Supabase Anon Key",
       "severity": "medium",
       "matched_pattern": "eyJh********************************************************************************************************************************************************************************************************IWAg",
-      "timestamp": "2026-03-28T06:41:30.331290"
+      "timestamp": "2026-03-29T07:35:02.503521"
     }
   ]
 }

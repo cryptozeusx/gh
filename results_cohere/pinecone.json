@@ -1,6 +1,6 @@
 {
   "service": "pinecone",
-  "scan_timestamp": "2026-03-28T06:42:17.303600",
+  "scan_timestamp": "2026-03-29T07:36:00.301284",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Pinecone Api Key",
       "severity": "medium",
       "matched_pattern": "PINE***********************************************************************************Fmii",
-      "timestamp": "2026-03-28T06:41:27.754593"
+      "timestamp": "2026-03-29T07:34:58.659981"
     }
   ]
 }

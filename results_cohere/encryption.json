@@ -1,33 +1,20 @@
 {
   "service": "encryption",
-  "scan_timestamp": "2026-03-28T06:42:17.292489",
-  "finding_count": 5,
+  "scan_timestamp": "2026-03-29T07:36:00.290990",
+  "finding_count": 4,
   "findings": [
-    {
-      "service": "encryption",
-      "file": "backend/.env.prod.example",
-      "repository": "Aviyadav22/Smriti",
-      "url": "https://github.com/Aviyadav22/Smriti/blob/6c9f1fc547fb9bdd01446fd871788e8a7bda8f64/backend/.env.prod.example",
-      "line_number": 19,
-      "line_preview": "ENCRYPTION_KEY=generate_with_openssl_rand_hex_32",
-      "key_type": "encryption_key",
-      "description": "Encryption Key",
-      "severity": "medium",
-      "matched_pattern": "gene*************************x_32",
-      "timestamp": "2026-03-28T06:41:18.851820"
-    },
     {
       "service": "encryption",
       "file": "strategy_engine/src/render.env.md",
       "repository": "TemamAb/alpha",
-      "url": "https://github.com/TemamAb/alpha/blob/04cbe3f2f1aad32aec32370025982376082e2740/strategy_engine/src/render.env.md",
+      "url": "https://github.com/TemamAb/alpha/blob/12b0b3a38b10a1d6f67f56537f6b427fabc86e5b/strategy_engine/src/render.env.md",
       "line_number": 12,
       "line_preview": "ENCRYPTION_KEY=afafe315290b51bf1483222f53bdf5640765474351aef6696e9bf544a1bd069e",
       "key_type": "encryption_key",
       "description": "Encryption Key",
       "severity": "medium",
-      "matched_pattern": "ENCR***********************************************************************069e",
-      "timestamp": "2026-03-28T06:41:25.705847"
+      "matched_pattern": "afaf********************************************************069e",
+      "timestamp": "2026-03-29T07:34:56.890091"
     },
     {
       "service": "encryption",
@@ -40,7 +27,7 @@
       "description": "Encryption Key",
       "severity": "medium",
       "matched_pattern": "ENCR***********************************************************************e4b0",
-      "timestamp": "2026-03-28T06:41:34.839644"
+      "timestamp": "2026-03-29T07:35:08.391208"
     },
     {
       "service": "encryption",
@@ -53,7 +40,7 @@
       "description": "Encryption Key",
       "severity": "medium",
       "matched_pattern": "ENCR***************************************RUKt",
-      "timestamp": "2026-03-28T06:41:55.423369"
+      "timestamp": "2026-03-29T07:35:38.607325"
     },
     {
       "service": "encryption",
@@ -66,7 +53,7 @@
       "description": "Encryption Key",
       "severity": "medium",
       "matched_pattern": "ENCR***************************************7ab2",
-      "timestamp": "2026-03-28T06:42:09.845057"
+      "timestamp": "2026-03-29T07:35:52.990129"
     }
   ]
 }

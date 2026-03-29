@@ -1,20 +1,33 @@
 {
   "service": "creds",
-  "scan_timestamp": "2026-03-28T06:42:17.290840",
-  "finding_count": 1,
+  "scan_timestamp": "2026-03-29T07:36:00.289318",
+  "finding_count": 2,
   "findings": [
     {
       "service": "creds",
-      "file": "librechat.env.example",
-      "repository": "vaaale/FetchCraft",
-      "url": "https://github.com/vaaale/FetchCraft/blob/6ee44fa5ba0951c0a0770d523831543dc806dd8c/librechat.env.example",
-      "line_number": 241,
+      "file": ".env.backup",
+      "repository": "hanzoai/chat",
+      "url": "https://github.com/hanzoai/chat/blob/cb09e86c904ef3be0a38e323bff257f410a291fc/.env.backup",
+      "line_number": 220,
       "line_preview": "CREDS_KEY=f34be427ebb29de8d88c107a71546019685ed8b241d8f2ed00c3df97ad2566f0",
       "key_type": "creds_key",
       "description": "Creds Key",
       "severity": "medium",
       "matched_pattern": "f34b********************************************************66f0",
-      "timestamp": "2026-03-28T06:41:39.760962"
+      "timestamp": "2026-03-29T07:34:48.194997"
+    },
+    {
+      "service": "creds",
+      "file": ".env.librechat",
+      "repository": "d-fine/DatalandMCP",
+      "url": "https://github.com/d-fine/DatalandMCP/blob/0e274d3ac6b610299968c6b71018ae88e2a392b5/.env.librechat",
+      "line_number": 241,
+      "line_preview": "CREDS_KEY=f34be427ebb29de8d88c107a71546019685ed8b241d8f2ed00c3df97ad2566f0",
+      "key_type": "creds_key",
+      "description": "Creds Key",
+      "severity": "medium",
+      "matched_pattern": "CRED******************************************************************66f0",
+      "timestamp": "2026-03-29T07:34:49.049508"
     }
   ]
 }

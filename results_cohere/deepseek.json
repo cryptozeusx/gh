@@ -1,21 +1,8 @@
 {
   "service": "deepseek",
-  "scan_timestamp": "2026-03-28T06:42:17.292021",
-  "finding_count": 2,
+  "scan_timestamp": "2026-03-29T07:36:00.290392",
+  "finding_count": 1,
   "findings": [
-    {
-      "service": "deepseek",
-      "file": ".env copy 2",
-      "repository": "miguelmartmart/jddc_materiales_local_bd_ia",
-      "url": "https://github.com/miguelmartmart/jddc_materiales_local_bd_ia/blob/caa4c3d225c110ee61c875abd919a0f9628d1ca2/.env%20copy%202",
-      "line_number": 8,
-      "line_preview": "DEEPSEEK_API_KEY=sk-50dd47b8ffda4ddf9168fe5732649e4f",
-      "key_type": "deepseek_key",
-      "description": "DeepSeek API Key",
-      "severity": "high",
-      "matched_pattern": "DEEP********************************************9e4f",
-      "timestamp": "2026-03-28T06:41:15.705071"
-    },
     {
       "service": "deepseek",
       "file": "iafactory-core-apps/video-studio/frontend/.env.local",
@@ -27,7 +14,7 @@
       "description": "DeepSeek API Key",
       "severity": "high",
       "matched_pattern": "DEEP********************************************e392",
-      "timestamp": "2026-03-28T06:41:56.560819"
+      "timestamp": "2026-03-29T07:35:41.693622"
     }
   ]
 }
