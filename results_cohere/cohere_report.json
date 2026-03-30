@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-03-28T07:30:45.286695",
+  "checked_at": "2026-03-30T08:59:43.902692",
   "total_keys": 78,
   "live_keys": 55,
   "results": [
@@ -78,7 +78,7 @@
       "valid": true,
       "plan": "Trial",
       "limit": "40",
-      "remaining": "39"
+      "remaining": "38"
     },
     {
       "key_redacted": "4Q5uYn****G84s",
@@ -484,7 +484,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 402: {\"id\":\"d46350ae-d45a-4d18-8654-d6d1b447fd39\",\"message\":\"Please add or update your payment method at "
+      "chat_error": "HTTP 402: {\"id\":\"1607d228-bea4-497f-83b0-003dec7c0817\",\"message\":\"Please add or update your payment method at "
     },
     {
       "key_redacted": "RMsr7n****WdRm",
@@ -598,9 +598,10 @@
       "organization_id": "292c4f86-840a-44d7-9486-59906d2d2d5b",
       "owner_id": "af1f3f61-f596-4b3c-8cc4-803805e33a80",
       "valid": true,
-      "plan": "Trial",
-      "limit": "40",
-      "remaining": "39"
+      "plan": "Production",
+      "limit": "?",
+      "remaining": "?",
+      "chat_error": "HTTP 429: {\"id\":\"009553b1-724a-4f72-a04a-891568768885\",\"message\":\"Please wait and try again later\"}"
     },
     {
       "key_redacted": "pczcIA****uJdA",
@@ -609,9 +610,10 @@
       "organization_id": "eb3cbb7b-92ab-4be6-bbbf-807d25a62bd0",
       "owner_id": "880ce995-7bff-43c2-b3cd-74e35df33afd",
       "valid": true,
-      "plan": "Trial",
-      "limit": "40",
-      "remaining": "39"
+      "plan": "Production",
+      "limit": "?",
+      "remaining": "?",
+      "chat_error": "HTTP 429: {\"id\":\"d29e397f-73e4-4384-8306-3f5e64ddacef\",\"message\":\"Please wait and try again later\"}"
     },
     {
       "key_redacted": "UHHM6t****SHSx",
@@ -620,9 +622,10 @@
       "organization_id": "7e4fedb8-83bf-4dbf-9ce6-661de132ae40",
       "owner_id": "a3ad6af6-8990-4ed7-94ee-0d351e642fd9",
       "valid": true,
-      "plan": "Trial",
-      "limit": "40",
-      "remaining": "39"
+      "plan": "Production",
+      "limit": "?",
+      "remaining": "?",
+      "chat_error": "HTTP 429: {\"id\":\"5d52324f-433e-47be-82cd-b1d496bf56b2\",\"message\":\"Please wait and try again later\"}"
     },
     {
       "key_redacted": "7ZT0rk****HDgT",
@@ -634,7 +637,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"2be46e5e-88a2-48eb-b8cb-93ca4a4c3c05\",\"message\":\"Please wait and try again later\"}"
+      "chat_error": "HTTP 429: {\"id\":\"66c9103c-eeb6-4a33-97fd-c2d38a54575a\",\"message\":\"Please wait and try again later\"}"
     },
     {
       "key_redacted": "jCh2tn****va0w",
@@ -646,7 +649,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"ad09c76d-c188-4ed4-93fa-8680c08e1e88\",\"message\":\"Please wait and try again later\"}"
+      "chat_error": "HTTP 429: {\"id\":\"d3882217-6ad4-49a2-bd48-65ac2a615b01\",\"message\":\"Please wait and try again later\"}"
     },
     {
       "key_redacted": "ImZLll****y3P9",
@@ -658,7 +661,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"85d690c7-8419-43b9-a1e3-901fe0ae7b43\",\"message\":\"Please wait and try again later\"}"
+      "chat_error": "HTTP 429: {\"id\":\"6fdfc410-e965-40c3-9893-1ad7e0d9c870\",\"message\":\"Please wait and try again later\"}"
     },
     {
       "key_redacted": "vDKYv8****zQy6",
@@ -670,7 +673,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"fac152f7-13a1-4cf1-bdc8-c16581d8bd02\",\"message\":\"Please wait and try again later\"}"
+      "chat_error": "HTTP 429: {\"id\":\"80d33144-896e-4b14-a878-50f7aa78eb31\",\"message\":\"Please wait and try again later\"}"
     },
     {
       "key_redacted": "gOu0qd****YMwR",
@@ -682,7 +685,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"47e4ee0e-36af-44d5-a0eb-cfe41d185765\",\"message\":\"Please wait and try again later\"}"
+      "chat_error": "HTTP 429: {\"id\":\"1976a939-f347-4316-8c03-e2705eb73b72\",\"message\":\"Please wait and try again later\"}"
     },
     {
       "key_redacted": "81c416****5332",
@@ -712,7 +715,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"3832de13-abdf-4077-8570-d3d9a30383d8\",\"message\":\"Please wait and try again later\"}"
+      "chat_error": "HTTP 429: {\"id\":\"bf08360a-dbf7-43a8-b432-f819e45afabe\",\"message\":\"Please wait and try again later\"}"
     },
     {
       "key_redacted": "7AQiaf****7m2Z",
@@ -730,7 +733,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"7cc5e1c3-91b9-4e21-b954-b3290552d38c\",\"message\":\"Please wait and try again later\"}"
+      "chat_error": "HTTP 429: {\"id\":\"66c5f472-03b8-45a5-bd52-924cf1ada3db\",\"message\":\"Please wait and try again later\"}"
     },
     {
       "key_redacted": "SJ6RvY****1md4",
@@ -742,7 +745,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"ec2db3e1-3fa4-4daa-a659-81a243f06ebe\",\"message\":\"Please wait and try again later\"}"
+      "chat_error": "HTTP 429: {\"id\":\"f9e5d276-3b57-4d9b-90e4-e16e17a00784\",\"message\":\"Please wait and try again later\"}"
     },
     {
       "key_redacted": "Iqdbur****P0b3",
@@ -754,7 +757,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"a2f9acd5-77c2-44e0-afe3-755de503dea3\",\"message\":\"Please wait and try again later\"}"
+      "chat_error": "HTTP 429: {\"id\":\"f430d2e4-d2ed-4c47-865a-11755fdefd4e\",\"message\":\"Please wait and try again later\"}"
     }
   ]
 }
