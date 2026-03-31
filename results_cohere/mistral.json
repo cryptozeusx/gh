@@ -1,21 +1,8 @@
 {
   "service": "mistral",
-  "scan_timestamp": "2026-03-29T07:36:00.297747",
-  "finding_count": 3,
+  "scan_timestamp": "2026-03-31T07:58:54.841528",
+  "finding_count": 2,
   "findings": [
-    {
-      "service": "mistral",
-      "file": ".env",
-      "repository": "SushantKadam73/startupAnalyzer-stremalit",
-      "url": "https://github.com/SushantKadam73/startupAnalyzer-stremalit/blob/2818eb678be67d7dbb1c2924860ed120078655d5/.env",
-      "line_number": 12,
-      "line_preview": "MISTRAL_API_KEY = JH888Glk45ZYWTF6GTcF2Nq1Y4eo8GfS",
-      "key_type": "mistral_api_key",
-      "description": "Mistral Api Key",
-      "severity": "medium",
-      "matched_pattern": "MIST******************************************8GfS",
-      "timestamp": "2026-03-29T07:35:06.391972"
-    },
     {
       "service": "mistral",
       "file": ".env.local",
@@ -27,7 +14,7 @@
       "description": "Mistral Api Key",
       "severity": "medium",
       "matched_pattern": "MIST****************************************BCw7",
-      "timestamp": "2026-03-29T07:35:40.692961"
+      "timestamp": "2026-03-31T07:57:41.640125"
     },
     {
       "service": "mistral",
@@ -40,7 +27,7 @@
       "description": "Mistral Api Key",
       "severity": "medium",
       "matched_pattern": "MIST****************************************KYHC",
-      "timestamp": "2026-03-29T07:35:41.693504"
+      "timestamp": "2026-03-31T07:58:35.016063"
     }
   ]
 }

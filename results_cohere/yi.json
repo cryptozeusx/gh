@@ -1,6 +1,6 @@
 {
   "service": "yi",
-  "scan_timestamp": "2026-03-28T06:42:17.307699",
+  "scan_timestamp": "2026-03-31T07:58:54.848749",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "01.ai Yi API Key",
       "severity": "high",
       "matched_pattern": "YI_A***********************************a1dd",
-      "timestamp": "2026-03-28T06:41:15.705578"
+      "timestamp": "2026-03-31T07:57:40.680023"
     }
   ]
 }

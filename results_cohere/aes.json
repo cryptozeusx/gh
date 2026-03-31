@@ -1,6 +1,6 @@
 {
   "service": "aes",
-  "scan_timestamp": "2026-03-27T07:45:01.113629",
+  "scan_timestamp": "2026-03-31T07:58:54.831868",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Aes Encryption Key",
       "severity": "medium",
       "matched_pattern": "b90e********************************************************e4b0",
-      "timestamp": "2026-03-27T07:44:16.809974"
+      "timestamp": "2026-03-31T07:58:04.835797"
     }
   ]
 }

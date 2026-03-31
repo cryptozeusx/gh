@@ -1,34 +1,8 @@
 {
   "service": "vite",
-  "scan_timestamp": "2026-03-29T07:36:00.305303",
-  "finding_count": 10,
+  "scan_timestamp": "2026-03-31T07:58:54.848508",
+  "finding_count": 8,
   "findings": [
-    {
-      "service": "vite",
-      "file": ".env",
-      "repository": "cecepns/carrywise-dashboard",
-      "url": "https://github.com/cecepns/carrywise-dashboard/blob/df159cbf9e60595a7db3a96a55eb9d473959cca8/.env",
-      "line_number": 8,
-      "line_preview": "VITE_MAPBOX_ACCESS_TOKEN=pk.eyJ1IjoiZGFyeS1raW1hIiwiYSI6ImNsYmY0dGhlZjAydWkzd282bTRhM2sxNGgifQ.-dhGzI0M8kCdMt7eS1SCTw",
-      "key_type": "vite_mapbox_access_token",
-      "description": "Vite Mapbox Access Token",
-      "severity": "medium",
-      "matched_pattern": "pk.e************************************************************************************SCTw",
-      "timestamp": "2026-03-29T07:34:58.043457"
-    },
-    {
-      "service": "vite",
-      "file": ".env",
-      "repository": "cecepns/carrywise-dashboard",
-      "url": "https://github.com/cecepns/carrywise-dashboard/blob/df159cbf9e60595a7db3a96a55eb9d473959cca8/.env",
-      "line_number": 9,
-      "line_preview": "VITE_STRIPE_PUBLISHABLE_KEY=pk_live_51MVujNBdYOotom3uL1efU5WAJP0YtCUDKRiIzQI5cKqbeOBEpFoNMCreKlhKZBOk1LbPESNZo02IRIlEk5a",
-      "key_type": "vite_stripe_publishable_key",
-      "description": "Vite Stripe Publishable Key",
-      "severity": "medium",
-      "matched_pattern": "pk_l***************************************************************************************************C0Kg",
-      "timestamp": "2026-03-29T07:34:58.043504"
-    },
     {
       "service": "vite",
       "file": ".env.local",
@@ -40,7 +14,7 @@
       "description": "Vite Cohere Api Key",
       "severity": "medium",
       "matched_pattern": "VITE****************************************************T8n1",
-      "timestamp": "2026-03-29T07:35:38.246493"
+      "timestamp": "2026-03-31T07:58:33.388032"
     },
     {
       "service": "vite",
@@ -53,7 +27,7 @@
       "description": "Vite Twilio Auth Token",
       "severity": "medium",
       "matched_pattern": "bb70************************1295",
-      "timestamp": "2026-03-29T07:35:38.246701"
+      "timestamp": "2026-03-31T07:58:33.388212"
     },
     {
       "service": "vite",
@@ -66,7 +40,7 @@
       "description": "Vite Hiro Api Key",
       "severity": "medium",
       "matched_pattern": "VITE******************************************4830",
-      "timestamp": "2026-03-29T07:35:42.580331"
+      "timestamp": "2026-03-31T07:58:35.711018"
     },
     {
       "service": "vite",
@@ -79,7 +53,7 @@
       "description": "Vite Coinmarketcap Api Key",
       "severity": "medium",
       "matched_pattern": "VITE***************************************************5fdc",
-      "timestamp": "2026-03-29T07:35:42.580431"
+      "timestamp": "2026-03-31T07:58:35.711116"
     },
     {
       "service": "vite",
@@ -92,7 +66,7 @@
       "description": "Vite Cohere Api Key",
       "severity": "medium",
       "matched_pattern": "VITE****************************************************T8n1",
-      "timestamp": "2026-03-29T07:35:42.580574"
+      "timestamp": "2026-03-31T07:58:35.711252"
     },
     {
       "service": "vite",
@@ -105,7 +79,7 @@
       "description": "Vite Pinata Api Key",
       "severity": "medium",
       "matched_pattern": "VITE********************************b5b8",
-      "timestamp": "2026-03-29T07:35:42.580728"
+      "timestamp": "2026-03-31T07:58:35.711375"
     },
     {
       "service": "vite",
@@ -118,7 +92,7 @@
       "description": "Vite Pinata Secret Key",
       "severity": "high",
       "matched_pattern": "VITE*******************************************************************************a19b",
-      "timestamp": "2026-03-29T07:35:42.580824"
+      "timestamp": "2026-03-31T07:58:35.711463"
     },
     {
       "service": "vite",
@@ -131,7 +105,7 @@
       "description": "Vite Twilio Auth Token",
       "severity": "medium",
       "matched_pattern": "VITE***********************************************1295",
-      "timestamp": "2026-03-29T07:35:42.580866"
+      "timestamp": "2026-03-31T07:58:35.711502"
     }
   ]
 }

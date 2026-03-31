@@ -1,6 +1,6 @@
 {
   "service": "dashscope",
-  "scan_timestamp": "2026-03-28T06:42:17.291083",
+  "scan_timestamp": "2026-03-31T07:58:54.834664",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Alibaba DashScope API Key",
       "severity": "high",
       "matched_pattern": "DASH*********************************************a144",
-      "timestamp": "2026-03-28T06:41:15.705437"
+      "timestamp": "2026-03-31T07:57:40.679808"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "service": "google",
-  "scan_timestamp": "2026-03-29T07:36:00.294595",
-  "finding_count": 29,
+  "scan_timestamp": "2026-03-31T07:58:54.838956",
+  "finding_count": 22,
   "findings": [
     {
       "service": "google",
@@ -14,7 +14,7 @@
       "description": "Google API Key",
       "severity": "high",
       "matched_pattern": "AIza*******************************3DOE",
-      "timestamp": "2026-03-29T07:34:31.832838"
+      "timestamp": "2026-03-31T07:57:27.805531"
     },
     {
       "service": "google",
@@ -27,20 +27,7 @@
       "description": "Google API Key",
       "severity": "high",
       "matched_pattern": "AIza*******************************M8w0",
-      "timestamp": "2026-03-29T07:34:33.888061"
-    },
-    {
-      "service": "google",
-      "file": ".env.txt",
-      "repository": "kriti11m/ADOBE",
-      "url": "https://github.com/kriti11m/ADOBE/blob/fde2a9b5bef85b68404a71b06e5d0fae341a2109/.env.txt",
-      "line_number": 13,
-      "line_preview": "GOOGLE_API_KEY=AIzaSyCQAFtl1hWQ4AkdYR1bwkvvEzfkyOqrDF8",
-      "key_type": "google_api_key",
-      "description": "Google API Key",
-      "severity": "high",
-      "matched_pattern": "AIza*******************************rDF8",
-      "timestamp": "2026-03-29T07:34:38.159760"
+      "timestamp": "2026-03-31T07:57:29.062325"
     },
     {
       "service": "google",
@@ -53,267 +40,46 @@
       "description": "Google Client Secret",
       "severity": "high",
       "matched_pattern": "----******************************************************--\\n",
-      "timestamp": "2026-03-29T07:34:38.328262"
+      "timestamp": "2026-03-31T07:57:38.945178"
     },
     {
       "service": "google",
-      "file": "var.env",
-      "repository": "Aoukacha-Moussa/Document-Q-A-System-RAG-with-MLFlow",
-      "url": "https://github.com/Aoukacha-Moussa/Document-Q-A-System-RAG-with-MLFlow/blob/883236384d998f36257edd1b02c414101e6eb9a9/var.env",
-      "line_number": 2,
-      "line_preview": "GOOGLE_API_KEY=AIzaSyCxY2OhKWCoJfesHTyA3aSRf_cyccxmo2Q",
-      "key_type": "google_api_key",
-      "description": "Google API Key",
-      "severity": "high",
-      "matched_pattern": "AIza*******************************mo2Q",
-      "timestamp": "2026-03-29T07:34:39.963785"
-    },
-    {
-      "service": "google",
-      "file": "var.env",
-      "repository": "Aoukacha-Moussa/Document-Q-A-System-RAG-with-MLFlow",
-      "url": "https://github.com/Aoukacha-Moussa/Document-Q-A-System-RAG-with-MLFlow/blob/883236384d998f36257edd1b02c414101e6eb9a9/var.env",
+      "file": "gif.env",
+      "repository": "iyer131/GIFt",
+      "url": "https://github.com/iyer131/GIFt/blob/a840026822dd8ec28c5c164e01a05fe96445f67c/gif.env",
       "line_number": 3,
-      "line_preview": "GOOGLE_API_KEY_P=AIzaSyAdbukPuoAUhQX6eBV4_Sq0P3gVoiSUc9g",
+      "line_preview": "TENOR_API_KEY = \"AIzaSyBEcZ3gnnMzGXyKxPrPeyM6xpLs3eDZfro\"",
       "key_type": "google_api_key",
       "description": "Google API Key",
       "severity": "high",
-      "matched_pattern": "AIza*******************************Uc9g",
-      "timestamp": "2026-03-29T07:34:39.963871"
+      "matched_pattern": "AIza*******************************Zfro",
+      "timestamp": "2026-03-31T07:57:39.672731"
     },
     {
       "service": "google",
-      "file": ".env.FREE.example",
-      "repository": "ayush-mishra035/ayush-mishra035.github.io",
-      "url": "https://github.com/ayush-mishra035/ayush-mishra035.github.io/blob/175f8e2a706dacee7d083cbcdfd1a79175908546/.env.FREE.example",
-      "line_number": 9,
-      "line_preview": "GEMINI_API_KEY=AIzaSyBBgnYib9OxeB-f0Am5q1sZ6DImc1mG4Z4",
+      "file": ".env copy 2",
+      "repository": "miguelmartmart/jddc_materiales_local_bd_ia",
+      "url": "https://github.com/miguelmartmart/jddc_materiales_local_bd_ia/blob/caa4c3d225c110ee61c875abd919a0f9628d1ca2/.env%20copy%202",
+      "line_number": 3,
+      "line_preview": "GEMINI_API_KEY=AIzaSyBO_nPgednEE6lThORCUK9ZOdbL81l0nSk",
       "key_type": "google_api_key",
       "description": "Google API Key",
       "severity": "high",
-      "matched_pattern": "AIza*******************************G4Z4",
-      "timestamp": "2026-03-29T07:34:44.246413"
+      "matched_pattern": "AIza*******************************0nSk",
+      "timestamp": "2026-03-31T07:57:40.678818"
     },
     {
       "service": "google",
-      "file": "etl-pipeline/config/.env.qa.secrets",
-      "repository": "NYPL/digital-research-books",
-      "url": "https://github.com/NYPL/digital-research-books/blob/480607a72d5bc266d241673265b43909bd552680/etl-pipeline/config/.env.qa.secrets",
-      "line_number": 20,
-      "line_preview": "GOOGLE_BOOKS_KEY=arn:aws:ssm:us-east-1:946183545209:parameter/drb/qa/google-books/api-key",
-      "key_type": "google_books_key",
-      "description": "Google Books Key",
-      "severity": "medium",
-      "matched_pattern": "arn:****************************************************************-key",
-      "timestamp": "2026-03-29T07:34:46.168740"
-    },
-    {
-      "service": "google",
-      "file": "etl-pipeline/config/.env.qa.secrets",
-      "repository": "NYPL/digital-research-books",
-      "url": "https://github.com/NYPL/digital-research-books/blob/480607a72d5bc266d241673265b43909bd552680/etl-pipeline/config/.env.qa.secrets",
-      "line_number": 37,
-      "line_preview": "GOOGLE_API_KEY=arn:aws:ssm:us-east-1:946183545209:parameter/drb/qa/google-ai-api-key",
-      "key_type": "google_api_key",
-      "description": "Google Api Key",
-      "severity": "medium",
-      "matched_pattern": "arn:*************************************************************-key",
-      "timestamp": "2026-03-29T07:34:46.169101"
-    },
-    {
-      "service": "google",
-      "file": "etl-pipeline/config/.env.qa.secrets",
-      "repository": "NYPL/digital-research-books",
-      "url": "https://github.com/NYPL/digital-research-books/blob/480607a72d5bc266d241673265b43909bd552680/etl-pipeline/config/.env.qa.secrets",
-      "line_number": 44,
-      "line_preview": "GOOGLE_DRIVE_SERVICE_KEY=arn:aws:ssm:us-east-1:946183545209:parameter/drb/qa/google-drive-service-key",
-      "key_type": "google_drive_service_key",
-      "description": "Google Drive Service Key",
-      "severity": "medium",
-      "matched_pattern": "arn:********************************************************************-key",
-      "timestamp": "2026-03-29T07:34:46.169277"
-    },
-    {
-      "service": "google",
-      "file": "src/couchdb_credentials.env",
-      "repository": "SuganesanD/chatBotBackup",
-      "url": "https://github.com/SuganesanD/chatBotBackup/blob/46e089e42b6c2acf213dd76aea49fdd648bf1e9c/src/couchdb_credentials.env",
-      "line_number": 5,
-      "line_preview": "GOOGLE_API_KEY=AIzaSyD4zXj3LQtUGxPRbAwxkVM4lzZpQE6urOk",
-      "key_type": "google_api_key",
-      "description": "Google API Key",
-      "severity": "high",
-      "matched_pattern": "AIza*******************************urOk",
-      "timestamp": "2026-03-29T07:34:55.080282"
-    },
-    {
-      "service": "google",
-      "file": ".env.example",
-      "repository": "Pro-GenAI/iRAT",
-      "url": "https://github.com/Pro-GenAI/iRAT/blob/d1a6c323c98c9a84ca4c18b119cf7badd6dee1bc/.env.example",
-      "line_number": 6,
-      "line_preview": "GOOGLE_API_KEYS=\"key1,key2\"  # API keys of all the team members",
-      "key_type": "google_api_keys",
-      "description": "Google Api Keys",
-      "severity": "medium",
-      "matched_pattern": "key1**************************************bers",
-      "timestamp": "2026-03-29T07:34:55.244483"
-    },
-    {
-      "service": "google",
-      "file": "strategy_engine/src/render.env.md",
-      "repository": "TemamAb/alpha",
-      "url": "https://github.com/TemamAb/alpha/blob/12b0b3a38b10a1d6f67f56537f6b427fabc86e5b/strategy_engine/src/render.env.md",
-      "line_number": 131,
-      "line_preview": "Google_AI_Studio=AIzaSyA5cRO39B9UkDw4URX638Z8zcINUvYCu-g",
-      "key_type": "google_api_key",
-      "description": "Google API Key",
-      "severity": "high",
-      "matched_pattern": "AIza*******************************Cu-g",
-      "timestamp": "2026-03-29T07:34:56.890007"
-    },
-    {
-      "service": "google",
-      "file": ".env",
-      "repository": "surya140104/Flood_Risk_140104",
-      "url": "https://github.com/surya140104/Flood_Risk_140104/blob/7e5ce762a7198a7b9fd701c6942d114bd3fe04b2/.env",
-      "line_number": 19,
-      "line_preview": "GEMINI_API_KEY=AIzaSyAvcHxOwx6rO8rIL-a2LIXCv6EhyAYC2ao",
-      "key_type": "google_api_key",
-      "description": "Google API Key",
-      "severity": "high",
-      "matched_pattern": "AIza*******************************C2ao",
-      "timestamp": "2026-03-29T07:34:58.207933"
-    },
-    {
-      "service": "google",
-      "file": ".env",
-      "repository": "PathfinderFederalSolutions/AgentForge",
-      "url": "https://github.com/PathfinderFederalSolutions/AgentForge/blob/312de179728e91e461708b7f48f2d3da8dc60232/.env",
+      "file": ".env copy 2",
+      "repository": "miguelmartmart/jddc_materiales_local_bd_ia",
+      "url": "https://github.com/miguelmartmart/jddc_materiales_local_bd_ia/blob/caa4c3d225c110ee61c875abd919a0f9628d1ca2/.env%20copy%202",
       "line_number": 4,
-      "line_preview": "GOOGLE_API_KEY=AIzaSyABrXlnHs0sXHWZS-XSmbmE4PYRWW0-w2A",
+      "line_preview": "GOOGLE_AI_STUDIO_API_KEY=AIzaSyAsa0nWrp9oiAD7O1ImBTkazcqMBH_kofo",
       "key_type": "google_api_key",
       "description": "Google API Key",
       "severity": "high",
-      "matched_pattern": "AIza*******************************-w2A",
-      "timestamp": "2026-03-29T07:34:58.659738"
-    },
-    {
-      "service": "google",
-      "file": ".env",
-      "repository": "markchou1205-uch/SiteMate",
-      "url": "https://github.com/markchou1205-uch/SiteMate/blob/e5fdc5803252f447684b9969886b576f3bc1bc0d/.env",
-      "line_number": 1,
-      "line_preview": "GEMINI_API_KEY=AIzaSyDNVf6aTo4u6mibNkSXDEi2fvX0yxso_vI",
-      "key_type": "google_api_key",
-      "description": "Google API Key",
-      "severity": "high",
-      "matched_pattern": "AIza*******************************o_vI",
-      "timestamp": "2026-03-29T07:34:58.994166"
-    },
-    {
-      "service": "google",
-      "file": ".env",
-      "repository": "markchou1205-uch/SiteMate",
-      "url": "https://github.com/markchou1205-uch/SiteMate/blob/e5fdc5803252f447684b9969886b576f3bc1bc0d/.env",
-      "line_number": 2,
-      "line_preview": "NEXT_PUBLIC_FIREBASE_API_KEY=AIzaSyB825tqTLbEKkEkCpUfEBzOhU5R_uKcStA",
-      "key_type": "google_api_key",
-      "description": "Google API Key",
-      "severity": "high",
-      "matched_pattern": "AIza*******************************cStA",
-      "timestamp": "2026-03-29T07:34:58.994406"
-    },
-    {
-      "service": "google",
-      "file": ".env.back",
-      "repository": "curetechb/mt",
-      "url": "https://github.com/curetechb/mt/blob/61fcfbd38981df211f945855604b90b4ec2cad19/.env.back",
-      "line_number": 140,
-      "line_preview": "MAP_API_KEY=\"AIzaSyC9x8mCn5-P8XUl59uGqwmmcU6Alt1qza8\"",
-      "key_type": "google_api_key",
-      "description": "Google API Key",
-      "severity": "high",
-      "matched_pattern": "AIza*******************************qza8",
-      "timestamp": "2026-03-29T07:35:05.509109"
-    },
-    {
-      "service": "google",
-      "file": ".env",
-      "repository": "SushantKadam73/startupAnalyzer-stremalit",
-      "url": "https://github.com/SushantKadam73/startupAnalyzer-stremalit/blob/2818eb678be67d7dbb1c2924860ed120078655d5/.env",
-      "line_number": 1,
-      "line_preview": "GOOGLE_API_KEY = AIzaSyBpCVHZDRVWHIfcCrChvyVRE_8St3X_3uQ",
-      "key_type": "google_api_key",
-      "description": "Google API Key",
-      "severity": "high",
-      "matched_pattern": "AIza*******************************_3uQ",
-      "timestamp": "2026-03-29T07:35:06.391305"
-    },
-    {
-      "service": "google",
-      "file": ".env.example",
-      "repository": "AmanSingh262/Smart-Search-Engine-",
-      "url": "https://github.com/AmanSingh262/Smart-Search-Engine-/blob/3ca8818374c88ec88e9276114c1fd7f7fc1a9b26/.env.example",
-      "line_number": 22,
-      "line_preview": "GOOGLE_API_KEY=AIzaSyCm4SWLQdSAScPB96RzPpZYyeHqv466WYU",
-      "key_type": "google_api_key",
-      "description": "Google API Key",
-      "severity": "high",
-      "matched_pattern": "AIza*******************************6WYU",
-      "timestamp": "2026-03-29T07:35:21.529323"
-    },
-    {
-      "service": "google",
-      "file": "env.example",
-      "repository": "ikayaalp/gastrofolly",
-      "url": "https://github.com/ikayaalp/gastrofolly/blob/9e879ce387c350653f5b5c70ac9e8e471195a1a6/env.example",
-      "line_number": 33,
-      "line_preview": "NEXT_PUBLIC_FIREBASE_API_KEY=\"AIzaSyCdIEjKdLERURzRZxuIgWqqtb2-WY785jc\"",
-      "key_type": "google_api_key",
-      "description": "Google API Key",
-      "severity": "high",
-      "matched_pattern": "AIza*******************************85jc",
-      "timestamp": "2026-03-29T07:35:37.057391"
-    },
-    {
-      "service": "google",
-      "file": "env.local",
-      "repository": "StJohnErvin/john-ervin-portfolio-v2",
-      "url": "https://github.com/StJohnErvin/john-ervin-portfolio-v2/blob/e8cf37e5e37df351e819dee9c6c6e637677f1c97/env.local",
-      "line_number": 11,
-      "line_preview": "GEMINI_API_KEY=AIzaSyBDnGv078HfLaR4d5A6odrg5eWhN3E9_ag",
-      "key_type": "google_api_key",
-      "description": "Google API Key",
-      "severity": "high",
-      "matched_pattern": "AIza*******************************9_ag",
-      "timestamp": "2026-03-29T07:35:37.578886"
-    },
-    {
-      "service": "google",
-      "file": "env.local",
-      "repository": "Chumanitikili/FactCast_curse",
-      "url": "https://github.com/Chumanitikili/FactCast_curse/blob/09b5aae521245d6a4a4b86cd2ca89225850cde95/env.local",
-      "line_number": 31,
-      "line_preview": "GOOGLE_GEMINI_API_KEY=AIzaSyBvouNU-OM08bAwr5U_m6jlnygfo55inns",
-      "key_type": "google_api_key",
-      "description": "Google API Key",
-      "severity": "high",
-      "matched_pattern": "AIza*******************************inns",
-      "timestamp": "2026-03-29T07:35:38.414110"
-    },
-    {
-      "service": "google",
-      "file": "env.local",
-      "repository": "Chumanitikili/FactCast_curse",
-      "url": "https://github.com/Chumanitikili/FactCast_curse/blob/09b5aae521245d6a4a4b86cd2ca89225850cde95/env.local",
-      "line_number": 36,
-      "line_preview": "GOOGLE_API_KEY=AIzaSyBCIktX7MvpKKO82AGyzq0AdcXJOF43s1A",
-      "key_type": "google_api_key",
-      "description": "Google API Key",
-      "severity": "high",
-      "matched_pattern": "AIza*******************************3s1A",
-      "timestamp": "2026-03-29T07:35:38.414232"
+      "matched_pattern": "AIza*******************************kofo",
+      "timestamp": "2026-03-31T07:57:40.678943"
     },
     {
       "service": "google",
@@ -326,7 +92,46 @@
       "description": "Google API Key",
       "severity": "high",
       "matched_pattern": "AIza*******************************uM_k",
-      "timestamp": "2026-03-29T07:35:40.692728"
+      "timestamp": "2026-03-31T07:57:41.639908"
+    },
+    {
+      "service": "google",
+      "file": "etl-pipeline/config/.env.qa.secrets",
+      "repository": "NYPL/digital-research-books",
+      "url": "https://github.com/NYPL/digital-research-books/blob/6e96436dabd6c1b0bb45b981de2f604fe8206b81/etl-pipeline/config/.env.qa.secrets",
+      "line_number": 20,
+      "line_preview": "GOOGLE_BOOKS_KEY=arn:aws:ssm:us-east-1:946183545209:parameter/drb/qa/google-books/api-key",
+      "key_type": "google_books_key",
+      "description": "Google Books Key",
+      "severity": "medium",
+      "matched_pattern": "arn:****************************************************************-key",
+      "timestamp": "2026-03-31T07:57:42.458526"
+    },
+    {
+      "service": "google",
+      "file": "etl-pipeline/config/.env.qa.secrets",
+      "repository": "NYPL/digital-research-books",
+      "url": "https://github.com/NYPL/digital-research-books/blob/6e96436dabd6c1b0bb45b981de2f604fe8206b81/etl-pipeline/config/.env.qa.secrets",
+      "line_number": 37,
+      "line_preview": "GOOGLE_API_KEY=arn:aws:ssm:us-east-1:946183545209:parameter/drb/qa/google-ai-api-key",
+      "key_type": "google_api_key",
+      "description": "Google Api Key",
+      "severity": "medium",
+      "matched_pattern": "arn:*************************************************************-key",
+      "timestamp": "2026-03-31T07:57:42.458899"
+    },
+    {
+      "service": "google",
+      "file": "etl-pipeline/config/.env.qa.secrets",
+      "repository": "NYPL/digital-research-books",
+      "url": "https://github.com/NYPL/digital-research-books/blob/6e96436dabd6c1b0bb45b981de2f604fe8206b81/etl-pipeline/config/.env.qa.secrets",
+      "line_number": 44,
+      "line_preview": "GOOGLE_DRIVE_SERVICE_KEY=arn:aws:ssm:us-east-1:946183545209:parameter/drb/qa/google-drive-service-key",
+      "key_type": "google_drive_service_key",
+      "description": "Google Drive Service Key",
+      "severity": "medium",
+      "matched_pattern": "arn:********************************************************************-key",
+      "timestamp": "2026-03-31T07:57:42.459062"
     },
     {
       "service": "google",
@@ -339,7 +144,111 @@
       "description": "Google API Key",
       "severity": "high",
       "matched_pattern": "AIza*******************************Hrow",
-      "timestamp": "2026-03-29T07:35:41.030710"
+      "timestamp": "2026-03-31T07:57:42.867945"
+    },
+    {
+      "service": "google",
+      "file": "finlit-gpt/.env.backup",
+      "repository": "Nono140503/FinLit-GPT",
+      "url": "https://github.com/Nono140503/FinLit-GPT/blob/0f2a1f487fd53b7cd81348e866abda56599cb8d2/finlit-gpt/.env.backup",
+      "line_number": 4,
+      "line_preview": "NEXT_PUBLIC_GEMINI_API_KEY=AIzaSyCX1aJERX8-hbgjV4NaIuGjQgjwlkwql08",
+      "key_type": "google_api_key",
+      "description": "Google API Key",
+      "severity": "high",
+      "matched_pattern": "AIza*******************************ql08",
+      "timestamp": "2026-03-31T07:57:43.630439"
+    },
+    {
+      "service": "google",
+      "file": "finlit-gpt/.env.backup",
+      "repository": "Nono140503/FinLit-GPT",
+      "url": "https://github.com/Nono140503/FinLit-GPT/blob/0f2a1f487fd53b7cd81348e866abda56599cb8d2/finlit-gpt/.env.backup",
+      "line_number": 8,
+      "line_preview": "VITE_GOOGLE_TRANSLATE_API_KEY=AIzaSyD1R6QSRGPAtB0wXn-I0NjNguOIvJwH7CU",
+      "key_type": "google_api_key",
+      "description": "Google API Key",
+      "severity": "high",
+      "matched_pattern": "AIza*******************************H7CU",
+      "timestamp": "2026-03-31T07:57:43.630558"
+    },
+    {
+      "service": "google",
+      "file": "finlit-gpt/.env.backup",
+      "repository": "Nono140503/FinLit-GPT",
+      "url": "https://github.com/Nono140503/FinLit-GPT/blob/0f2a1f487fd53b7cd81348e866abda56599cb8d2/finlit-gpt/.env.backup",
+      "line_number": 12,
+      "line_preview": "YOUTUBE_API_KEY=\"AIzaSyBVxTn9Hk0jNJhXt8mTisn91Wn_JBoveN0\"",
+      "key_type": "google_api_key",
+      "description": "Google API Key",
+      "severity": "high",
+      "matched_pattern": "AIza*******************************veN0",
+      "timestamp": "2026-03-31T07:57:43.630703"
+    },
+    {
+      "service": "google",
+      "file": "finlit-gpt/.env.backup",
+      "repository": "Nono140503/FinLit-GPT",
+      "url": "https://github.com/Nono140503/FinLit-GPT/blob/0f2a1f487fd53b7cd81348e866abda56599cb8d2/finlit-gpt/.env.backup",
+      "line_number": 15,
+      "line_preview": "REACT_APP_FIREBASE_API_KEY=AIzaSyD6S5Rdj8d4ZWxMyqPE2mhr_MLHa9qq2sw",
+      "key_type": "google_api_key",
+      "description": "Google API Key",
+      "severity": "high",
+      "matched_pattern": "AIza*******************************q2sw",
+      "timestamp": "2026-03-31T07:57:43.630780"
+    },
+    {
+      "service": "google",
+      "file": "env.example",
+      "repository": "ikayaalp/gastrofolly",
+      "url": "https://github.com/ikayaalp/gastrofolly/blob/9e879ce387c350653f5b5c70ac9e8e471195a1a6/env.example",
+      "line_number": 33,
+      "line_preview": "NEXT_PUBLIC_FIREBASE_API_KEY=\"AIzaSyCdIEjKdLERURzRZxuIgWqqtb2-WY785jc\"",
+      "key_type": "google_api_key",
+      "description": "Google API Key",
+      "severity": "high",
+      "matched_pattern": "AIza*******************************85jc",
+      "timestamp": "2026-03-31T07:58:31.787617"
+    },
+    {
+      "service": "google",
+      "file": "env.local",
+      "repository": "StJohnErvin/john-ervin-portfolio-v2",
+      "url": "https://github.com/StJohnErvin/john-ervin-portfolio-v2/blob/e8cf37e5e37df351e819dee9c6c6e637677f1c97/env.local",
+      "line_number": 11,
+      "line_preview": "GEMINI_API_KEY=AIzaSyBDnGv078HfLaR4d5A6odrg5eWhN3E9_ag",
+      "key_type": "google_api_key",
+      "description": "Google API Key",
+      "severity": "high",
+      "matched_pattern": "AIza*******************************9_ag",
+      "timestamp": "2026-03-31T07:58:32.939086"
+    },
+    {
+      "service": "google",
+      "file": "env.local",
+      "repository": "Chumanitikili/FactCast_curse",
+      "url": "https://github.com/Chumanitikili/FactCast_curse/blob/09b5aae521245d6a4a4b86cd2ca89225850cde95/env.local",
+      "line_number": 31,
+      "line_preview": "GOOGLE_GEMINI_API_KEY=AIzaSyBvouNU-OM08bAwr5U_m6jlnygfo55inns",
+      "key_type": "google_api_key",
+      "description": "Google API Key",
+      "severity": "high",
+      "matched_pattern": "AIza*******************************inns",
+      "timestamp": "2026-03-31T07:58:33.482572"
+    },
+    {
+      "service": "google",
+      "file": "env.local",
+      "repository": "Chumanitikili/FactCast_curse",
+      "url": "https://github.com/Chumanitikili/FactCast_curse/blob/09b5aae521245d6a4a4b86cd2ca89225850cde95/env.local",
+      "line_number": 36,
+      "line_preview": "GOOGLE_API_KEY=AIzaSyBCIktX7MvpKKO82AGyzq0AdcXJOF43s1A",
+      "key_type": "google_api_key",
+      "description": "Google API Key",
+      "severity": "high",
+      "matched_pattern": "AIza*******************************3s1A",
+      "timestamp": "2026-03-31T07:58:33.482723"
     },
     {
       "service": "google",
@@ -352,7 +261,7 @@
       "description": "Google API Key",
       "severity": "high",
       "matched_pattern": "AIza*******************************Dsdg",
-      "timestamp": "2026-03-29T07:35:41.693208"
+      "timestamp": "2026-03-31T07:58:35.015770"
     },
     {
       "service": "google",
@@ -365,7 +274,7 @@
       "description": "Google API Key",
       "severity": "high",
       "matched_pattern": "AIza*******************************cG40",
-      "timestamp": "2026-03-29T07:35:41.693340"
+      "timestamp": "2026-03-31T07:58:35.015891"
     },
     {
       "service": "google",
@@ -378,7 +287,7 @@
       "description": "Google Generative Ai Api Key",
       "severity": "medium",
       "matched_pattern": "GOOG************************************************************cG40",
-      "timestamp": "2026-03-29T07:35:41.693418"
+      "timestamp": "2026-03-31T07:58:35.015972"
     }
   ]
 }

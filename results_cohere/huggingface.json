@@ -1,20 +1,33 @@
 {
   "service": "huggingface",
-  "scan_timestamp": "2026-03-29T07:36:00.295462",
+  "scan_timestamp": "2026-03-31T07:58:54.839811",
   "finding_count": 4,
   "findings": [
     {
       "service": "huggingface",
-      "file": ".env",
-      "repository": "rishab-d12/jarviss",
-      "url": "https://github.com/rishab-d12/jarviss/blob/9b71545e2c5acbe9a8103f12636e74f9d3f63aa5/.env",
-      "line_number": 7,
-      "line_preview": "HuggingFace_API_Key=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",
+      "file": ".env.local",
+      "repository": "sudanva21/Career-Advisor-SIH",
+      "url": "https://github.com/sudanva21/Career-Advisor-SIH/blob/36d5272b7d80719b8c19696bbb6500b652ee9b14/.env.local",
+      "line_number": 38,
+      "line_preview": "HUGGINGFACE_API_KEY=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",
       "key_type": "huggingface_api_key",
       "description": "Huggingface Api Key",
       "severity": "medium",
-      "matched_pattern": "Hugg*************************************************kJud",
-      "timestamp": "2026-03-29T07:35:07.145978"
+      "matched_pattern": "HUGG*************************************************AmJS",
+      "timestamp": "2026-03-31T07:57:42.867820"
+    },
+    {
+      "service": "huggingface",
+      "file": "finlit-gpt/.env.backup",
+      "repository": "Nono140503/FinLit-GPT",
+      "url": "https://github.com/Nono140503/FinLit-GPT/blob/0f2a1f487fd53b7cd81348e866abda56599cb8d2/finlit-gpt/.env.backup",
+      "line_number": 1,
+      "line_preview": "HUGGINGFACE_API_KEY=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",
+      "key_type": "huggingface_api_key",
+      "description": "Huggingface Api Key",
+      "severity": "medium",
+      "matched_pattern": "HUGG*************************************************TVgD",
+      "timestamp": "2026-03-31T07:57:43.630254"
     },
     {
       "service": "huggingface",
@@ -27,7 +40,7 @@
       "description": "Huggingface Api Token",
       "severity": "medium",
       "matched_pattern": "hf_g*****************************xfcH",
-      "timestamp": "2026-03-29T07:35:38.414908"
+      "timestamp": "2026-03-31T07:58:33.483515"
     },
     {
       "service": "huggingface",
@@ -40,20 +53,7 @@
       "description": "Huggingface Api Token",
       "severity": "medium",
       "matched_pattern": "HUGG****************************************************JfKA",
-      "timestamp": "2026-03-29T07:35:40.540958"
-    },
-    {
-      "service": "huggingface",
-      "file": ".env.local",
-      "repository": "sudanva21/Career-Advisor-SIH",
-      "url": "https://github.com/sudanva21/Career-Advisor-SIH/blob/36d5272b7d80719b8c19696bbb6500b652ee9b14/.env.local",
-      "line_number": 38,
-      "line_preview": "HUGGINGFACE_API_KEY=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",
-      "key_type": "huggingface_api_key",
-      "description": "Huggingface Api Key",
-      "severity": "medium",
-      "matched_pattern": "HUGG*************************************************AmJS",
-      "timestamp": "2026-03-29T07:35:41.030557"
+      "timestamp": "2026-03-31T07:58:34.699952"
     }
   ]
 }

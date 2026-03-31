@@ -1,0 +1,46 @@
+{
+  "service": "qbo",
+  "scan_timestamp": "2026-03-31T07:58:54.845339",
+  "finding_count": 3,
+  "findings": [
+    {
+      "service": "qbo",
+      "file": "compose/env.example",
+      "repository": "sFinOe/voxProfit-backend",
+      "url": "https://github.com/sFinOe/voxProfit-backend/blob/e77c0b1f2dcc89aefa238bfd66d88e0388134b31/compose/env.example",
+      "line_number": 126,
+      "line_preview": "QBO_AUTHORIZATION_URL=https://appcenter.intuit.com/connect/oauth2",
+      "key_type": "qbo_authorization_url",
+      "description": "Qbo Authorization Url",
+      "severity": "medium",
+      "matched_pattern": "http***********************************uth2",
+      "timestamp": "2026-03-31T07:58:11.396668"
+    },
+    {
+      "service": "qbo",
+      "file": "compose/env.example",
+      "repository": "sFinOe/voxProfit-backend",
+      "url": "https://github.com/sFinOe/voxProfit-backend/blob/e77c0b1f2dcc89aefa238bfd66d88e0388134b31/compose/env.example",
+      "line_number": 127,
+      "line_preview": "QBO_TOKEN_URL=https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "key_type": "qbo_token_url",
+      "description": "Qbo Token Url",
+      "severity": "medium",
+      "matched_pattern": "http*************************************************arer",
+      "timestamp": "2026-03-31T07:58:11.396781"
+    },
+    {
+      "service": "qbo",
+      "file": "compose/env.example",
+      "repository": "sFinOe/voxProfit-backend",
+      "url": "https://github.com/sFinOe/voxProfit-backend/blob/e77c0b1f2dcc89aefa238bfd66d88e0388134b31/compose/env.example",
+      "line_number": 132,
+      "line_preview": "QBO_STATE_TOKEN=-KI5Jugt",
+      "key_type": "qbo_state_token",
+      "description": "Qbo State Token",
+      "severity": "medium",
+      "matched_pattern": "********",
+      "timestamp": "2026-03-31T07:58:11.396829"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "service": "admin",
-  "scan_timestamp": "2026-03-28T06:42:17.287704",
+  "scan_timestamp": "2026-03-31T07:58:54.831669",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Admin Ui Password Hash",
       "severity": "high",
       "matched_pattern": "$2b$*********************************************************************************************************************ent!",
-      "timestamp": "2026-03-28T06:41:12.449120"
+      "timestamp": "2026-03-31T07:57:40.321963"
     }
   ]
 }

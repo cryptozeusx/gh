@@ -1,7 +1,7 @@
 {
   "service": "postgres",
-  "scan_timestamp": "2026-03-29T07:36:00.301399",
-  "finding_count": 3,
+  "scan_timestamp": "2026-03-31T07:58:54.844990",
+  "finding_count": 5,
   "findings": [
     {
       "service": "postgres",
@@ -14,20 +14,46 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "# Ge***************************4 32",
-      "timestamp": "2026-03-29T07:34:34.795053"
+      "timestamp": "2026-03-31T07:57:32.791301"
     },
     {
       "service": "postgres",
-      "file": ".env.example",
-      "repository": "rsmed31/KubeAI",
-      "url": "https://github.com/rsmed31/KubeAI/blob/f483dc997c7dbe03e32a945fe323f859ee2a899b/.env.example",
-      "line_number": 7,
-      "line_preview": "POSTGRES_PASSWORD=kubeai_dev",
+      "file": ".env.hanzo.example",
+      "repository": "hanzoai/chat",
+      "url": "https://github.com/hanzoai/chat/blob/cb09e86c904ef3be0a38e323bff257f410a291fc/.env.hanzo.example",
+      "line_number": 14,
+      "line_preview": "POSTGRES_PASSWORD=hanzo123",
       "key_type": "postgres_password",
       "description": "Postgres Password",
       "severity": "high",
-      "matched_pattern": "POST********************_dev",
-      "timestamp": "2026-03-29T07:35:21.047438"
+      "matched_pattern": "POST******************o123",
+      "timestamp": "2026-03-31T07:57:40.035883"
+    },
+    {
+      "service": "postgres",
+      "file": ".env.openapi",
+      "repository": "EtroxTaran/rag_demo",
+      "url": "https://github.com/EtroxTaran/rag_demo/blob/6f1bee4b145eee8c13dd076359dfc198c1251d5c/.env.openapi",
+      "line_number": 21,
+      "line_preview": "POSTGRES_PASSWORD=ragdemo_pw",
+      "key_type": "postgres_password",
+      "description": "Postgres Password",
+      "severity": "high",
+      "matched_pattern": "POST********************o_pw",
+      "timestamp": "2026-03-31T07:57:47.530551"
+    },
+    {
+      "service": "postgres",
+      "file": "env.example",
+      "repository": "dolmario/semantic-doc-finder",
+      "url": "https://github.com/dolmario/semantic-doc-finder/blob/af6af7c90b3146fb5a0aaf2b28c031ab7c8ea976/env.example",
+      "line_number": 6,
+      "line_preview": "POSTGRES_PASSWORD=docintel123",
+      "key_type": "postgres_password",
+      "description": "Postgres Password",
+      "severity": "high",
+      "matched_pattern": "POST*********************l123",
+      "timestamp": "2026-03-31T07:58:08.269915"
     },
     {
       "service": "postgres",
@@ -40,7 +66,7 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "POST**************************IX6P",
-      "timestamp": "2026-03-29T07:35:38.413674"
+      "timestamp": "2026-03-31T07:58:33.482124"
     }
   ]
 }

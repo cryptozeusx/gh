@@ -1,7 +1,7 @@
 {
   "service": "pimlico",
-  "scan_timestamp": "2026-03-29T07:36:00.300988",
-  "finding_count": 4,
+  "scan_timestamp": "2026-03-31T07:58:54.844671",
+  "finding_count": 3,
   "findings": [
     {
       "service": "pimlico",
@@ -14,7 +14,7 @@
       "description": "Pimlico Usdc Token Address",
       "severity": "medium",
       "matched_pattern": "0x92*******************************************************************************************************************ens)",
-      "timestamp": "2026-03-29T07:35:35.909836"
+      "timestamp": "2026-03-31T07:58:31.061145"
     },
     {
       "service": "pimlico",
@@ -27,7 +27,7 @@
       "description": "Pimlico Erc20 Token Contract",
       "severity": "medium",
       "matched_pattern": "0x0b**********************************502a",
-      "timestamp": "2026-03-29T07:35:35.909894"
+      "timestamp": "2026-03-31T07:58:31.061202"
     },
     {
       "service": "pimlico",
@@ -40,20 +40,7 @@
       "description": "Pimlico Erc721 Token Contract",
       "severity": "medium",
       "matched_pattern": "0xf1**********************************7a05",
-      "timestamp": "2026-03-29T07:35:35.909942"
-    },
-    {
-      "service": "pimlico",
-      "file": ".env.local",
-      "repository": "Gauravk0029/madhouse-wallet",
-      "url": "https://github.com/Gauravk0029/madhouse-wallet/blob/5ee554e1fd27eaf7d69a146efd3e7db7583acd61/.env.local",
-      "line_number": 1,
-      "line_preview": "NEXT_PUBLIC_PIMLICO_API_KEY='pim_C2hN8VhSZsDJE3uAY4WFcU'",
-      "key_type": "pimlico_api_key",
-      "description": "Pimlico Api Key",
-      "severity": "medium",
-      "matched_pattern": "PIML************************************FcU'",
-      "timestamp": "2026-03-29T07:35:44.767971"
+      "timestamp": "2026-03-31T07:58:31.061261"
     }
   ]
 }

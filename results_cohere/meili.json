@@ -1,20 +1,33 @@
 {
   "service": "meili",
-  "scan_timestamp": "2026-03-29T07:36:00.297346",
-  "finding_count": 2,
+  "scan_timestamp": "2026-03-31T07:58:54.841237",
+  "finding_count": 3,
   "findings": [
     {
       "service": "meili",
-      "file": ".env.backup",
-      "repository": "hanzoai/chat",
-      "url": "https://github.com/hanzoai/chat/blob/cb09e86c904ef3be0a38e323bff257f410a291fc/.env.backup",
-      "line_number": 307,
+      "file": ".env.ochat",
+      "repository": "dirkpetersen/our-chat",
+      "url": "https://github.com/dirkpetersen/our-chat/blob/3502eb1220f10639ac24b925d6dee709b05ae34e/.env.ochat",
+      "line_number": 285,
       "line_preview": "MEILI_MASTER_KEY=DrhYf7zENyR6AlUCKmnz0eYASOQdl6zxH7s7MKFSfFCt",
       "key_type": "meili_master_key",
       "description": "Meili Master Key",
       "severity": "critical",
       "matched_pattern": "DrhY************************************fFCt",
-      "timestamp": "2026-03-29T07:34:48.195053"
+      "timestamp": "2026-03-31T07:57:33.785401"
+    },
+    {
+      "service": "meili",
+      "file": ".env.hanzo.example",
+      "repository": "hanzoai/chat",
+      "url": "https://github.com/hanzoai/chat/blob/cb09e86c904ef3be0a38e323bff257f410a291fc/.env.hanzo.example",
+      "line_number": 32,
+      "line_preview": "MEILI_MASTER_KEY=HanzoMeiliMasterKey",
+      "key_type": "meili_master_key",
+      "description": "Meili Master Key",
+      "severity": "critical",
+      "matched_pattern": "MEIL****************************rKey",
+      "timestamp": "2026-03-31T07:57:40.036004"
     },
     {
       "service": "meili",
@@ -27,7 +40,7 @@
       "description": "Meili Master Key",
       "severity": "critical",
       "matched_pattern": "MEIL*****************************************************fFCt",
-      "timestamp": "2026-03-29T07:34:49.049690"
+      "timestamp": "2026-03-31T07:57:47.340797"
     }
   ]
 }

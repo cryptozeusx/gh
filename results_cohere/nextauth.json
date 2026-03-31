@@ -1,33 +1,33 @@
 {
   "service": "nextauth",
-  "scan_timestamp": "2026-03-29T07:36:00.299204",
-  "finding_count": 6,
+  "scan_timestamp": "2026-03-31T07:58:54.843158",
+  "finding_count": 5,
   "findings": [
     {
       "service": "nextauth",
-      "file": ".env.example",
-      "repository": "AvarchLLC/EIPsInsight",
-      "url": "https://github.com/AvarchLLC/EIPsInsight/blob/2f4ecdfc33dc9b2885d7ce075be2a88ff340f631/.env.example",
-      "line_number": 31,
-      "line_preview": "NEXTAUTH_URL=http://localhost:3000",
+      "file": "env.example",
+      "repository": "khaphanpro-123/voichat1012",
+      "url": "https://github.com/khaphanpro-123/voichat1012/blob/bb65f2dca83407ca1af5684a42d3dbb3fd4dcace/env.example",
+      "line_number": 4,
+      "line_preview": "NEXTAUTH_URL=http://localhost:3001",
       "key_type": "nextauth_url",
       "description": "Nextauth Url",
       "severity": "medium",
-      "matched_pattern": "http*************3000",
-      "timestamp": "2026-03-29T07:35:13.914560"
+      "matched_pattern": "http*************3001",
+      "timestamp": "2026-03-31T07:58:09.229300"
     },
     {
       "service": "nextauth",
-      "file": ".env.example",
-      "repository": "SrivantSV/NEXIUMS",
-      "url": "https://github.com/SrivantSV/NEXIUMS/blob/86de4b4297aa73fcf92d42d8bc7a6cefdbb1dbf8/.env.example",
-      "line_number": 79,
+      "file": "docs/misc/env.example",
+      "repository": "Azora-OS/azora",
+      "url": "https://github.com/Azora-OS/azora/blob/c828c400b3b369348eb038e4bb7c03d03cc29c7f/docs/misc/env.example",
+      "line_number": 56,
       "line_preview": "NEXTAUTH_URL=http://localhost:3000",
       "key_type": "nextauth_url",
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "NEXT**************************3000",
-      "timestamp": "2026-03-29T07:35:20.740680"
+      "timestamp": "2026-03-31T07:58:13.880130"
     },
     {
       "service": "nextauth",
@@ -40,7 +40,7 @@
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "NEXT****************************000\"",
-      "timestamp": "2026-03-29T07:35:37.056955"
+      "timestamp": "2026-03-31T07:58:31.787213"
     },
     {
       "service": "nextauth",
@@ -53,20 +53,7 @@
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "NEXT**************************3000",
-      "timestamp": "2026-03-29T07:35:39.210943"
-    },
-    {
-      "service": "nextauth",
-      "file": "iafactory-core-apps/video-studio/frontend/.env.local",
-      "repository": "bensalemboualem/Saas-iFactory-Algeria",
-      "url": "https://github.com/bensalemboualem/Saas-iFactory-Algeria/blob/d8a455ea4f6a40455e4771ba0121cf31516f7bea/iafactory-core-apps/video-studio/frontend/.env.local",
-      "line_number": 74,
-      "line_preview": "NEXTAUTH_SECRET=GENERER_AVEC_openssl_rand_base64_32",
-      "key_type": "nextauth_secret",
-      "description": "Nextauth Secret",
-      "severity": "high",
-      "matched_pattern": "NEXT*******************************************4_32",
-      "timestamp": "2026-03-29T07:35:41.694494"
+      "timestamp": "2026-03-31T07:58:33.875219"
     },
     {
       "service": "nextauth",
@@ -79,7 +66,7 @@
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "NEXT**************************3000",
-      "timestamp": "2026-03-29T07:35:41.694533"
+      "timestamp": "2026-03-31T07:58:35.017250"
     }
   ]
 }

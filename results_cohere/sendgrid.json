@@ -1,8 +1,21 @@
 {
   "service": "sendgrid",
-  "scan_timestamp": "2026-03-29T07:36:00.303495",
-  "finding_count": 2,
+  "scan_timestamp": "2026-03-31T07:58:54.846766",
+  "finding_count": 3,
   "findings": [
+    {
+      "service": "sendgrid",
+      "file": ".env.production.example",
+      "repository": "Prometheus-Automation/store",
+      "url": "https://github.com/Prometheus-Automation/store/blob/bd2e0d4ef72686cec7961c165f39b0644f5de515/.env.production.example",
+      "line_number": 40,
+      "line_preview": "SENDGRID_API_KEY=SG.your-sendgrid-api-key",
+      "key_type": "sendgrid_api_key",
+      "description": "Sendgrid Api Key",
+      "severity": "medium",
+      "matched_pattern": "SEND*********************************-key",
+      "timestamp": "2026-03-31T07:58:12.312959"
+    },
     {
       "service": "sendgrid",
       "file": "env.production.example",
@@ -14,7 +27,7 @@
       "description": "Sendgrid Api Key",
       "severity": "medium",
       "matched_pattern": "SEND***********************************key\"",
-      "timestamp": "2026-03-29T07:35:28.381461"
+      "timestamp": "2026-03-31T07:58:24.560722"
     },
     {
       "service": "sendgrid",
@@ -27,7 +40,7 @@
       "description": "Sendgrid Api Key",
       "severity": "medium",
       "matched_pattern": "SEND***********************************_key",
-      "timestamp": "2026-03-29T07:35:31.280479"
+      "timestamp": "2026-03-31T07:58:26.852842"
     }
   ]
 }
