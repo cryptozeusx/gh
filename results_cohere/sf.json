@@ -1,33 +1,33 @@
 {
   "service": "sf",
-  "scan_timestamp": "2026-03-26T07:45:19.855199",
+  "scan_timestamp": "2026-04-01T08:21:40.015285",
   "finding_count": 2,
   "findings": [
     {
       "service": "sf",
       "file": ".envold",
       "repository": "AlpheCIT/AI_Software_Development_Platform",
-      "url": "https://github.com/AlpheCIT/AI_Software_Development_Platform/blob/28c062a39884bf9802770afd5bec3542348afac0/.envold",
+      "url": "https://github.com/AlpheCIT/AI_Software_Development_Platform/blob/c09cc448d1023b9b50733b1b3d986d1f073bb4f4/.envold",
       "line_number": 106,
       "line_preview": "SF_PASSWORD=81TH9FradR&_!lquhu2?",
       "key_type": "sf_password",
       "description": "Sf Password",
       "severity": "high",
       "matched_pattern": "81TH************hu2?",
-      "timestamp": "2026-03-26T07:44:21.861248"
+      "timestamp": "2026-04-01T08:20:41.951323"
     },
     {
       "service": "sf",
       "file": ".envold",
       "repository": "AlpheCIT/AI_Software_Development_Platform",
-      "url": "https://github.com/AlpheCIT/AI_Software_Development_Platform/blob/28c062a39884bf9802770afd5bec3542348afac0/.envold",
+      "url": "https://github.com/AlpheCIT/AI_Software_Development_Platform/blob/c09cc448d1023b9b50733b1b3d986d1f073bb4f4/.envold",
       "line_number": 107,
       "line_preview": "SF_SECURITY_TOKEN=U91lP5B1dtSFfHTH5wgMlIWw1",
       "key_type": "sf_security_token",
       "description": "Sf Security Token",
       "severity": "medium",
       "matched_pattern": "U91l*****************IWw1",
-      "timestamp": "2026-03-26T07:44:21.861293"
+      "timestamp": "2026-04-01T08:20:41.951368"
     }
   ]
 }

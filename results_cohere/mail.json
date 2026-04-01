@@ -1,20 +1,20 @@
 {
   "service": "mail",
-  "scan_timestamp": "2026-03-31T07:58:54.841135",
+  "scan_timestamp": "2026-04-01T08:21:40.008768",
   "finding_count": 1,
   "findings": [
     {
       "service": "mail",
-      "file": ".env.dbdump.example",
+      "file": ".env.docker",
       "repository": "whitebear0909/b2bwood",
-      "url": "https://github.com/whitebear0909/b2bwood/blob/60d99e660accf265ebfda1369997b4a3594ad574/.env.dbdump.example",
-      "line_number": 50,
+      "url": "https://github.com/whitebear0909/b2bwood/blob/60d99e660accf265ebfda1369997b4a3594ad574/.env.docker",
+      "line_number": 37,
       "line_preview": "MAIL_PASSWORD=\"09b2cd7b738b565723bf4cec3ba86b0f-d32d817f-d0cd60b6\"",
       "key_type": "mail_password",
       "description": "Mail Password",
       "severity": "high",
       "matched_pattern": "09b2******************************************60b6",
-      "timestamp": "2026-03-31T07:58:23.260561"
+      "timestamp": "2026-04-01T08:20:57.621439"
     }
   ]
 }

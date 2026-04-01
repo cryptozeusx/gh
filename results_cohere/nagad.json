@@ -1,20 +1,20 @@
 {
   "service": "nagad",
-  "scan_timestamp": "2026-03-31T07:58:54.842102",
+  "scan_timestamp": "2026-04-01T08:21:40.009769",
   "finding_count": 1,
   "findings": [
     {
       "service": "nagad",
-      "file": ".env.dbdump.example",
+      "file": ".env.docker",
       "repository": "whitebear0909/b2bwood",
-      "url": "https://github.com/whitebear0909/b2bwood/blob/60d99e660accf265ebfda1369997b4a3594ad574/.env.dbdump.example",
-      "line_number": 157,
+      "url": "https://github.com/whitebear0909/b2bwood/blob/60d99e660accf265ebfda1369997b4a3594ad574/.env.docker",
+      "line_number": 144,
       "line_preview": "NAGAD_PG_PUBLIC_KEY=\"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiCWvxDZZesS1g1lQfilVt8l3X5aMbXg5WOCYdG7q5C+Qevw0upm3tyY",
       "key_type": "nagad_pg_public_key",
       "description": "Nagad Pg Public Key",
       "severity": "medium",
       "matched_pattern": "MIIB************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************AQAB",
-      "timestamp": "2026-03-31T07:58:23.260736"
+      "timestamp": "2026-04-01T08:20:57.621478"
     }
   ]
 }

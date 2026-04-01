@@ -1,8 +1,21 @@
 {
   "service": "anthropic",
-  "scan_timestamp": "2026-03-31T07:58:54.832258",
-  "finding_count": 2,
+  "scan_timestamp": "2026-04-01T08:21:39.998657",
+  "finding_count": 3,
   "findings": [
+    {
+      "service": "anthropic",
+      "file": "env.example",
+      "repository": "FranciscoE195/team-helper-bot",
+      "url": "https://github.com/FranciscoE195/team-helper-bot/blob/321dacb54e00954a95d5744a292cafb175f318b6/env.example",
+      "line_number": 6,
+      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api03-...",
+      "key_type": "anthropic_api_key",
+      "description": "Anthropic Api Key",
+      "severity": "medium",
+      "matched_pattern": "ANTH**************************-...",
+      "timestamp": "2026-04-01T08:21:03.148330"
+    },
     {
       "service": "anthropic",
       "file": ".env.local",
@@ -14,7 +27,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "# Re****************************-...",
-      "timestamp": "2026-03-31T07:58:34.355260"
+      "timestamp": "2026-04-01T08:21:19.589174"
     },
     {
       "service": "anthropic",
@@ -27,7 +40,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************DgAA",
-      "timestamp": "2026-03-31T07:58:35.015480"
+      "timestamp": "2026-04-01T08:21:20.303916"
     }
   ]
 }

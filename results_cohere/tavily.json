@@ -1,21 +1,8 @@
 {
   "service": "tavily",
-  "scan_timestamp": "2026-03-29T07:36:00.304797",
-  "finding_count": 3,
+  "scan_timestamp": "2026-04-01T08:21:40.016422",
+  "finding_count": 4,
   "findings": [
-    {
-      "service": "tavily",
-      "file": ".env_sample",
-      "repository": "bm1120/RAG_practice",
-      "url": "https://github.com/bm1120/RAG_practice/blob/7185d868713816c003074f3d80c7b2e2238cff88/.env_sample",
-      "line_number": 7,
-      "line_preview": "TAVILY_API_KEY=tvly-mGxBGvzbH...",
-      "key_type": "tavily_api_key",
-      "description": "Tavily Api Key",
-      "severity": "medium",
-      "matched_pattern": "tvly*********H...",
-      "timestamp": "2026-03-29T07:34:41.870306"
-    },
     {
       "service": "tavily",
       "file": ".env",
@@ -27,7 +14,7 @@
       "description": "Tavily API Key",
       "severity": "high",
       "matched_pattern": "tvly*****************************2Xo0",
-      "timestamp": "2026-03-29T07:35:06.391699"
+      "timestamp": "2026-04-01T08:20:54.494561"
     },
     {
       "service": "tavily",
@@ -40,7 +27,33 @@
       "description": "Tavily API Key (named var)",
       "severity": "high",
       "matched_pattern": "TAVI**********************************************2Xo0",
-      "timestamp": "2026-03-29T07:35:06.391743"
+      "timestamp": "2026-04-01T08:20:54.494601"
+    },
+    {
+      "service": "tavily",
+      "file": ".env",
+      "repository": "MemeFormer/SearchSmart_NotHard",
+      "url": "https://github.com/MemeFormer/SearchSmart_NotHard/blob/c8f4eac66b344e41fd52fedc97cc97a19ebb4ff5/.env",
+      "line_number": 2,
+      "line_preview": "TAVILY_API_KEY=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",
+      "key_type": "tavily_key",
+      "description": "Tavily API Key",
+      "severity": "high",
+      "matched_pattern": "tvly*****************************jSg2",
+      "timestamp": "2026-04-01T08:20:54.878720"
+    },
+    {
+      "service": "tavily",
+      "file": ".env",
+      "repository": "MemeFormer/SearchSmart_NotHard",
+      "url": "https://github.com/MemeFormer/SearchSmart_NotHard/blob/c8f4eac66b344e41fd52fedc97cc97a19ebb4ff5/.env",
+      "line_number": 2,
+      "line_preview": "TAVILY_API_KEY=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",
+      "key_type": "tavily_named_key",
+      "description": "Tavily API Key (named var)",
+      "severity": "high",
+      "matched_pattern": "TAVI********************************************jSg2",
+      "timestamp": "2026-04-01T08:20:54.878761"
     }
   ]
 }

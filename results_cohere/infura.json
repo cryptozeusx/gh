@@ -1,6 +1,6 @@
 {
   "service": "infura",
-  "scan_timestamp": "2026-03-29T07:36:00.295755",
+  "scan_timestamp": "2026-04-01T08:21:40.007372",
   "finding_count": 2,
   "findings": [
     {
@@ -14,20 +14,20 @@
       "description": "Infura Api Key",
       "severity": "medium",
       "matched_pattern": "INFU***********************************************************************************************************************************************************************************************nE+\"",
-      "timestamp": "2026-03-29T07:34:55.673443"
+      "timestamp": "2026-04-01T08:20:51.168388"
     },
     {
       "service": "infura",
       "file": "strategy_engine/src/render.env.md",
       "repository": "TemamAb/alpha",
-      "url": "https://github.com/TemamAb/alpha/blob/12b0b3a38b10a1d6f67f56537f6b427fabc86e5b/strategy_engine/src/render.env.md",
+      "url": "https://github.com/TemamAb/alpha/blob/24c87a897c3b554d75a02cb9ddb9896b9bbdf321/strategy_engine/src/render.env.md",
       "line_number": 112,
       "line_preview": "INFURA_API_KEY=mK2nj6ZSi1mZ2THJMUHcF",
       "key_type": "infura_api_key",
       "description": "Infura Api Key",
       "severity": "medium",
       "matched_pattern": "INFU****************************UHcF",
-      "timestamp": "2026-03-29T07:34:56.889783"
+      "timestamp": "2026-04-01T08:20:51.786142"
     }
   ]
 }

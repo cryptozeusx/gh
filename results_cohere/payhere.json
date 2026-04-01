@@ -1,6 +1,6 @@
 {
   "service": "payhere",
-  "scan_timestamp": "2026-03-29T07:36:00.300265",
+  "scan_timestamp": "2026-04-01T08:21:40.011730",
   "finding_count": 2,
   "findings": [
     {
@@ -14,20 +14,20 @@
       "description": "Payhere Secret",
       "severity": "high",
       "matched_pattern": "PAYH*****************************************************Ivs\"",
-      "timestamp": "2026-03-29T07:35:05.508606"
+      "timestamp": "2026-04-01T08:20:55.486036"
     },
     {
       "service": "payhere",
-      "file": ".env.dbdump.example",
+      "file": ".env.docker",
       "repository": "whitebear0909/b2bwood",
-      "url": "https://github.com/whitebear0909/b2bwood/blob/60d99e660accf265ebfda1369997b4a3594ad574/.env.dbdump.example",
-      "line_number": 124,
+      "url": "https://github.com/whitebear0909/b2bwood/blob/60d99e660accf265ebfda1369997b4a3594ad574/.env.docker",
+      "line_number": 111,
       "line_preview": "PAYHERE_SECRET=\"4kmtyso0vxZ8ggjJN5MyUm4p5k6Cmyswo4ZCcldBFIvs\"",
       "key_type": "payhere_secret",
       "description": "Payhere Secret",
       "severity": "high",
       "matched_pattern": "PAYH*****************************************************Ivs\"",
-      "timestamp": "2026-03-29T07:35:26.291737"
+      "timestamp": "2026-04-01T08:20:57.620897"
     }
   ]
 }

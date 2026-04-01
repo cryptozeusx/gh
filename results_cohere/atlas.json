@@ -1,0 +1,20 @@
+{
+  "service": "atlas",
+  "scan_timestamp": "2026-04-01T08:21:39.999781",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "atlas",
+      "file": ".env.dist",
+      "repository": "SerPeter/code-atlas",
+      "url": "https://github.com/SerPeter/code-atlas/blob/944d708e4593848f839d79dd9a15ca3a0486e4b8/.env.dist",
+      "line_number": 70,
+      "line_preview": "ATLAS_SEARCH__TOKENIZER=cl100k_base",
+      "key_type": "atlas_search__tokenizer",
+      "description": "Atlas Search  Tokenizer",
+      "severity": "medium",
+      "matched_pattern": "cl10***base",
+      "timestamp": "2026-04-01T08:20:45.978521"
+    }
+  ]
+}

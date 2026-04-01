@@ -1,6 +1,6 @@
 {
   "service": "ngenius",
-  "scan_timestamp": "2026-03-29T07:36:00.299375",
+  "scan_timestamp": "2026-04-01T08:21:40.010947",
   "finding_count": 2,
   "findings": [
     {
@@ -14,20 +14,20 @@
       "description": "Ngenius Api Key",
       "severity": "medium",
       "matched_pattern": "NGEN**************************************************************************************************************Q==\"",
-      "timestamp": "2026-03-29T07:35:05.508770"
+      "timestamp": "2026-04-01T08:20:55.486165"
     },
     {
       "service": "ngenius",
-      "file": ".env.dbdump.example",
+      "file": ".env.docker",
       "repository": "whitebear0909/b2bwood",
-      "url": "https://github.com/whitebear0909/b2bwood/blob/60d99e660accf265ebfda1369997b4a3594ad574/.env.dbdump.example",
-      "line_number": 131,
+      "url": "https://github.com/whitebear0909/b2bwood/blob/60d99e660accf265ebfda1369997b4a3594ad574/.env.docker",
+      "line_number": 118,
       "line_preview": "NGENIUS_API_KEY=\"OGQyYmY3YWQtYzFiMS00ODljLWEyZDQtZTM5ZWIyYTc4NTcxOjkxMjVkMzNmLWU5YjItNDFlNy05Y2JlLWUwNDEyMGViNDM1YQ==\"",
       "key_type": "ngenius_api_key",
       "description": "Ngenius Api Key",
       "severity": "medium",
       "matched_pattern": "NGEN**************************************************************************************************************Q==\"",
-      "timestamp": "2026-03-29T07:35:26.291870"
+      "timestamp": "2026-04-01T08:20:57.621017"
     }
   ]
 }

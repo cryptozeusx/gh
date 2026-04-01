@@ -1,7 +1,7 @@
 {
   "service": "better",
-  "scan_timestamp": "2026-03-28T06:42:17.289303",
-  "finding_count": 1,
+  "scan_timestamp": "2026-04-01T08:21:40.000019",
+  "finding_count": 2,
   "findings": [
     {
       "service": "better",
@@ -14,7 +14,20 @@
       "description": "Better Auth Url",
       "severity": "medium",
       "matched_pattern": "http*************3000",
-      "timestamp": "2026-03-28T06:41:41.761708"
+      "timestamp": "2026-04-01T08:20:59.287788"
+    },
+    {
+      "service": "better",
+      "file": ".env.example",
+      "repository": "Nu11ified/fable",
+      "url": "https://github.com/Nu11ified/fable/blob/96737c98c634306fe7d20f8c3451d238c3a7f8f9/.env.example",
+      "line_number": 23,
+      "line_preview": "NEXT_PUBLIC_BETTER_AUTH_URL=\"http://localhost:3000\"",
+      "key_type": "better_auth_url",
+      "description": "Better Auth Url",
+      "severity": "medium",
+      "matched_pattern": "BETT*******************************000\"",
+      "timestamp": "2026-04-01T08:21:11.135953"
     }
   ]
 }

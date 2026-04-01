@@ -1,8 +1,21 @@
 {
   "service": "supabase",
-  "scan_timestamp": "2026-03-31T07:58:54.847466",
-  "finding_count": 3,
+  "scan_timestamp": "2026-04-01T08:21:40.016173",
+  "finding_count": 4,
   "findings": [
+    {
+      "service": "supabase",
+      "file": ".env.production.example",
+      "repository": "kcg34kcg-web/Marinantex",
+      "url": "https://github.com/kcg34kcg-web/Marinantex/blob/7b21ca537ed7317f3101b486c5dfcc7bc9799808/.env.production.example",
+      "line_number": 7,
+      "line_preview": "SUPABASE_SERVICE_ROLE_KEY=\"sdf34f-sdEARA\"",
+      "key_type": "supabase_service_role_key",
+      "description": "Supabase Service Role Key",
+      "severity": "medium",
+      "matched_pattern": "sdf3*****EARA",
+      "timestamp": "2026-04-01T08:20:44.688226"
+    },
     {
       "service": "supabase",
       "file": ".env.local",
@@ -13,8 +26,8 @@
       "key_type": "supabase_service_role_key",
       "description": "Supabase Service Role Key",
       "severity": "medium",
-      "matched_pattern": "eyJh*******************************************************************************************************************************************************************************************************************_bsc",
-      "timestamp": "2026-03-31T07:57:42.868023"
+      "matched_pattern": "SUPA*********************************************************************************************************************************************************************************************************************************************_bsc",
+      "timestamp": "2026-04-01T08:20:45.355150"
     },
     {
       "service": "supabase",
@@ -27,7 +40,7 @@
       "description": "Supabase Service Role Key",
       "severity": "medium",
       "matched_pattern": "SUPA***********************************************************c8Mx",
-      "timestamp": "2026-03-31T07:58:39.189610"
+      "timestamp": "2026-04-01T08:21:24.645995"
     },
     {
       "service": "supabase",
@@ -40,7 +53,7 @@
       "description": "Supabase Service Role Key",
       "severity": "medium",
       "matched_pattern": "SUPA*********************************************************************************************************************************************************************************************************************************************itoI",
-      "timestamp": "2026-03-31T07:58:39.397760"
+      "timestamp": "2026-04-01T08:21:24.960556"
     }
   ]
 }

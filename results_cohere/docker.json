@@ -1,0 +1,20 @@
+{
+  "service": "docker",
+  "scan_timestamp": "2026-04-01T08:21:40.002490",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "docker",
+      "file": ".env.dist",
+      "repository": "Opillion-GmbH-Co-KG/easy-stack-deepseek",
+      "url": "https://github.com/Opillion-GmbH-Co-KG/easy-stack-deepseek/blob/24db154705692b2bbd6adf99a5871a8848cc433e/.env.dist",
+      "line_number": 97,
+      "line_preview": "DOCKER_PASS=dckr_pat_2hu4Dk184aD77Zlv1_qey6rQ6Jo",
+      "key_type": "docker_pass",
+      "description": "Docker Pass",
+      "severity": "high",
+      "matched_pattern": "dckr****************************Q6Jo",
+      "timestamp": "2026-04-01T08:20:44.337791"
+    }
+  ]
+}

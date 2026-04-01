@@ -1,7 +1,7 @@
 {
   "service": "react",
-  "scan_timestamp": "2026-03-31T07:58:54.845724",
-  "finding_count": 5,
+  "scan_timestamp": "2026-04-01T08:21:40.014121",
+  "finding_count": 7,
   "findings": [
     {
       "service": "react",
@@ -14,7 +14,7 @@
       "description": "React App Default Token List Url",
       "severity": "medium",
       "matched_pattern": "http*********************************************************************************************************json",
-      "timestamp": "2026-03-31T07:57:25.619544"
+      "timestamp": "2026-04-01T08:20:33.873210"
     },
     {
       "service": "react",
@@ -27,7 +27,7 @@
       "description": "React App Polygon Api Key Free",
       "severity": "medium",
       "matched_pattern": "S0m3********1K3y",
-      "timestamp": "2026-03-31T07:57:25.619686"
+      "timestamp": "2026-04-01T08:20:33.873334"
     },
     {
       "service": "react",
@@ -40,7 +40,7 @@
       "description": "React App Token List Exchange Custom Asset Logo Url",
       "severity": "medium",
       "matched_pattern": "http****************************************************************************************************.png",
-      "timestamp": "2026-03-31T07:57:25.619742"
+      "timestamp": "2026-04-01T08:20:33.873389"
     },
     {
       "service": "react",
@@ -53,20 +53,46 @@
       "description": "React App Token List Asset Generic Address Testnet Logo Url Base",
       "severity": "medium",
       "matched_pattern": "http******************************************************************************************************************ets/",
-      "timestamp": "2026-03-31T07:57:25.619806"
+      "timestamp": "2026-04-01T08:20:33.873438"
     },
     {
       "service": "react",
-      "file": "finlit-gpt/.env.backup",
-      "repository": "Nono140503/FinLit-GPT",
-      "url": "https://github.com/Nono140503/FinLit-GPT/blob/0f2a1f487fd53b7cd81348e866abda56599cb8d2/finlit-gpt/.env.backup",
-      "line_number": 16,
-      "line_preview": "REACT_APP_FIREBASE_AUTH_DOMAIN=finlitgpt-391e3.firebaseapp.com",
-      "key_type": "react_app_firebase_auth_domain",
-      "description": "React App Firebase Auth Domain",
+      "file": ".history/pastry-chatbot/.env_20241211214140",
+      "repository": "agrnerd17/Website-Chatbot",
+      "url": "https://github.com/agrnerd17/Website-Chatbot/blob/54cb97ca098eb106cd5d2e06b8fc3a5c590c928f/.history/pastry-chatbot/.env_20241211214140",
+      "line_number": 1,
+      "line_preview": "REACT_APP_COHERE_API_KEY=\"MZMPKzJRl6Uzwsyp0GiTFA28MmxobOcHn9gAZoQ6\"",
+      "key_type": "react_app_cohere_api_key",
+      "description": "React App Cohere Api Key",
       "severity": "medium",
-      "matched_pattern": "finl***********************.com",
-      "timestamp": "2026-03-31T07:57:43.630854"
+      "matched_pattern": "REAC***********************************************************oQ6\"",
+      "timestamp": "2026-04-01T08:20:45.602718"
+    },
+    {
+      "service": "react",
+      "file": ".env-sample",
+      "repository": "ethereum/kohaku-extension",
+      "url": "https://github.com/ethereum/kohaku-extension/blob/fe2ba3a330b4552fc0f810662196666099eeb4af/.env-sample",
+      "line_number": 42,
+      "line_preview": "REACT_APP_ETHERSPOT_API_KEY=\"12345\" # dummy value",
+      "key_type": "react_app_etherspot_api_key",
+      "description": "React App Etherspot Api Key",
+      "severity": "medium",
+      "matched_pattern": "1234************alue",
+      "timestamp": "2026-04-01T08:20:50.196629"
+    },
+    {
+      "service": "react",
+      "file": "backend/.env",
+      "repository": "fabiosky21/TheNasa",
+      "url": "https://github.com/fabiosky21/TheNasa/blob/2b1345f83c7db4746498526982bb1e0b7633bc7f/backend/.env",
+      "line_number": 4,
+      "line_preview": "REACT_APP_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imlud3ZtZ3BnZXJibXVtdHJ",
+      "key_type": "react_app_supabase_anon_key",
+      "description": "React App Supabase Anon Key",
+      "severity": "medium",
+      "matched_pattern": "eyJh********************************************************************************************************************************************************************************************************IWAg",
+      "timestamp": "2026-04-01T08:20:53.207268"
     }
   ]
 }

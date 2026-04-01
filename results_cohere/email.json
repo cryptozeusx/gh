@@ -1,21 +1,8 @@
 {
   "service": "email",
-  "scan_timestamp": "2026-03-31T07:58:54.835724",
-  "finding_count": 2,
+  "scan_timestamp": "2026-04-01T08:21:40.002673",
+  "finding_count": 1,
   "findings": [
-    {
-      "service": "email",
-      "file": "compose/env.example",
-      "repository": "sFinOe/voxProfit-backend",
-      "url": "https://github.com/sFinOe/voxProfit-backend/blob/e77c0b1f2dcc89aefa238bfd66d88e0388134b31/compose/env.example",
-      "line_number": 61,
-      "line_preview": "EMAIL_HOST_PASSWORD=  # Sensitive info, consider using Docker secrets",
-      "key_type": "email_host_password",
-      "description": "Email Host Password",
-      "severity": "high",
-      "matched_pattern": "# Se***************************************rets",
-      "timestamp": "2026-03-31T07:58:11.396617"
-    },
     {
       "service": "email",
       "file": ".env.prod.example",
@@ -26,8 +13,8 @@
       "key_type": "email_host_password",
       "description": "Email Host Password",
       "severity": "high",
-      "matched_pattern": "EMAI***********************************************_key",
-      "timestamp": "2026-03-31T07:58:26.852739"
+      "matched_pattern": "SG.y***************************_key",
+      "timestamp": "2026-04-01T08:21:11.912103"
     }
   ]
 }

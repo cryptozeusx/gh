@@ -1,7 +1,7 @@
 {
   "service": "cookie",
-  "scan_timestamp": "2026-03-31T07:58:54.834037",
-  "finding_count": 1,
+  "scan_timestamp": "2026-04-01T08:21:40.001213",
+  "finding_count": 2,
   "findings": [
     {
       "service": "cookie",
@@ -14,7 +14,20 @@
       "description": "Cookie Secret",
       "severity": "high",
       "matched_pattern": "COOK************************************************US__",
-      "timestamp": "2026-03-31T07:58:25.984621"
+      "timestamp": "2026-04-01T08:20:55.587870"
+    },
+    {
+      "service": "cookie",
+      "file": "backend/.env.production.example",
+      "repository": "Orhanguezel/vistaseed",
+      "url": "https://github.com/Orhanguezel/vistaseed/blob/3d5bf2d3d4703910adc620bec8672d4c8160c0ec/backend/.env.production.example",
+      "line_number": 39,
+      "line_preview": "COOKIE_SECRET=__GENERATE_ANOTHER_STRONG_RANDOM_64_PLUS__",
+      "key_type": "cookie_secret",
+      "description": "Cookie Secret",
+      "severity": "high",
+      "matched_pattern": "COOK************************************************US__",
+      "timestamp": "2026-04-01T08:21:09.592684"
     }
   ]
 }

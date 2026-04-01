@@ -1,6 +1,6 @@
 {
   "service": "postgres",
-  "scan_timestamp": "2026-03-31T07:58:54.844990",
+  "scan_timestamp": "2026-04-01T08:21:40.013155",
   "finding_count": 5,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "# Ge***************************4 32",
-      "timestamp": "2026-03-31T07:57:32.791301"
+      "timestamp": "2026-04-01T08:20:39.947301"
     },
     {
       "service": "postgres",
@@ -27,7 +27,7 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "POST******************o123",
-      "timestamp": "2026-03-31T07:57:40.035883"
+      "timestamp": "2026-04-01T08:20:42.250573"
     },
     {
       "service": "postgres",
@@ -40,20 +40,20 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "POST********************o_pw",
-      "timestamp": "2026-03-31T07:57:47.530551"
+      "timestamp": "2026-04-01T08:20:46.643247"
     },
     {
       "service": "postgres",
-      "file": "env.example",
-      "repository": "dolmario/semantic-doc-finder",
-      "url": "https://github.com/dolmario/semantic-doc-finder/blob/af6af7c90b3146fb5a0aaf2b28c031ab7c8ea976/env.example",
-      "line_number": 6,
-      "line_preview": "POSTGRES_PASSWORD=docintel123",
+      "file": "backend/.env.production",
+      "repository": "oguzbenturk/UKC.world",
+      "url": "https://github.com/oguzbenturk/UKC.world/blob/68f8c37754f3a001984f455bcdb6f10b2cd08522/backend/.env.production",
+      "line_number": 8,
+      "line_preview": "POSTGRES_PASSWORD=WHMgux86",
       "key_type": "postgres_password",
       "description": "Postgres Password",
       "severity": "high",
-      "matched_pattern": "POST*********************l123",
-      "timestamp": "2026-03-31T07:58:08.269915"
+      "matched_pattern": "POST******************ux86",
+      "timestamp": "2026-04-01T08:20:57.375023"
     },
     {
       "service": "postgres",
@@ -66,7 +66,7 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "POST**************************IX6P",
-      "timestamp": "2026-03-31T07:58:33.482124"
+      "timestamp": "2026-04-01T08:21:18.662516"
     }
   ]
 }
