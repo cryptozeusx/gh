@@ -1,20 +1,20 @@
 {
   "service": "gemini",
-  "scan_timestamp": "2026-04-01T08:21:40.003891",
-  "finding_count": 6,
+  "scan_timestamp": "2026-04-02T07:51:01.727747",
+  "finding_count": 7,
   "findings": [
     {
       "service": "gemini",
-      "file": "backend/.env.production.example",
-      "repository": "anusbutt/Physical-AI-Humanoid-Robotics-Textbook",
-      "url": "https://github.com/anusbutt/Physical-AI-Humanoid-Robotics-Textbook/blob/d69019d393f38bd1189987d41b238d46a20220d4/backend/.env.production.example",
-      "line_number": 7,
-      "line_preview": "GEMINI_API_KEY=AIzaSy...  # Get from: https://ai.google.dev/",
+      "file": ".env.txt",
+      "repository": "kriti11m/ADOBE",
+      "url": "https://github.com/kriti11m/ADOBE/blob/fde2a9b5bef85b68404a71b06e5d0fae341a2109/.env.txt",
+      "line_number": 14,
+      "line_preview": "GEMINI_API_KEY=AIzaSyCQAFtl1hWQ4AkdYR1bwkvvEzfkyOqrDF8",
       "key_type": "gemini_api_key",
       "description": "Gemini Api Key",
       "severity": "medium",
-      "matched_pattern": "AIza*************************************dev/",
-      "timestamp": "2026-04-01T08:20:45.494562"
+      "matched_pattern": "GEMI**********************************************rDF8",
+      "timestamp": "2026-04-02T07:49:55.325415"
     },
     {
       "service": "gemini",
@@ -27,7 +27,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************C2ao",
-      "timestamp": "2026-04-01T08:20:52.066659"
+      "timestamp": "2026-04-02T07:50:08.045104"
     },
     {
       "service": "gemini",
@@ -40,7 +40,20 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************o_vI",
-      "timestamp": "2026-04-01T08:20:52.577161"
+      "timestamp": "2026-04-02T07:50:08.574355"
+    },
+    {
+      "service": "gemini",
+      "file": ".env.FREE.example",
+      "repository": "ayush-mishra035/ayush-mishra035.github.io",
+      "url": "https://github.com/ayush-mishra035/ayush-mishra035.github.io/blob/175f8e2a706dacee7d083cbcdfd1a79175908546/.env.FREE.example",
+      "line_number": 9,
+      "line_preview": "GEMINI_API_KEY=AIzaSyBBgnYib9OxeB-f0Am5q1sZ6DImc1mG4Z4",
+      "key_type": "gemini_api_key",
+      "description": "Gemini Api Key",
+      "severity": "medium",
+      "matched_pattern": "GEMI**********************************************G4Z4",
+      "timestamp": "2026-04-02T07:50:18.561416"
     },
     {
       "service": "gemini",
@@ -53,7 +66,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************9_ag",
-      "timestamp": "2026-04-01T08:21:18.050070"
+      "timestamp": "2026-04-02T07:50:40.764175"
     },
     {
       "service": "gemini",
@@ -66,7 +79,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************inns",
-      "timestamp": "2026-04-01T08:21:18.663090"
+      "timestamp": "2026-04-02T07:50:41.299625"
     },
     {
       "service": "gemini",
@@ -79,7 +92,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************Dsdg",
-      "timestamp": "2026-04-01T08:21:20.304448"
+      "timestamp": "2026-04-02T07:50:42.811344"
     }
   ]
 }

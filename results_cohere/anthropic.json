@@ -1,20 +1,20 @@
 {
   "service": "anthropic",
-  "scan_timestamp": "2026-04-01T08:21:39.998657",
+  "scan_timestamp": "2026-04-02T07:51:01.722994",
   "finding_count": 3,
   "findings": [
     {
       "service": "anthropic",
-      "file": "env.example",
-      "repository": "FranciscoE195/team-helper-bot",
-      "url": "https://github.com/FranciscoE195/team-helper-bot/blob/321dacb54e00954a95d5744a292cafb175f318b6/env.example",
-      "line_number": 6,
-      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api03-...",
+      "file": ".env.example",
+      "repository": "stevenfazzio/semantic-github-map",
+      "url": "https://github.com/stevenfazzio/semantic-github-map/blob/4035e2eb01d4e79769b8e41b7dabe95a93b9018d/.env.example",
+      "line_number": 4,
+      "line_preview": "ANTHROPIC_API_KEY=      # Anthropic API key (README summarization + topic naming)",
       "key_type": "anthropic_api_key",
       "description": "Anthropic Api Key",
       "severity": "medium",
-      "matched_pattern": "ANTH**************************-...",
-      "timestamp": "2026-04-01T08:21:03.148330"
+      "matched_pattern": "# An*************************************************ing)",
+      "timestamp": "2026-04-02T07:50:34.847168"
     },
     {
       "service": "anthropic",
@@ -27,7 +27,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "# Re****************************-...",
-      "timestamp": "2026-04-01T08:21:19.589174"
+      "timestamp": "2026-04-02T07:50:42.144425"
     },
     {
       "service": "anthropic",
@@ -40,7 +40,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************DgAA",
-      "timestamp": "2026-04-01T08:21:20.303916"
+      "timestamp": "2026-04-02T07:50:42.810968"
     }
   ]
 }

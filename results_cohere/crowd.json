@@ -1,20 +1,33 @@
 {
   "service": "crowd",
-  "scan_timestamp": "2026-04-01T08:21:40.001625",
-  "finding_count": 1,
+  "scan_timestamp": "2026-04-02T07:51:01.725381",
+  "finding_count": 2,
   "findings": [
     {
       "service": "crowd",
       "file": "backend/.env.dist.local",
       "repository": "linuxfoundation/crowd.dev",
-      "url": "https://github.com/linuxfoundation/crowd.dev/blob/d953ce033fa297d2dab888ec504fe3236256f90e/backend/.env.dist.local",
+      "url": "https://github.com/linuxfoundation/crowd.dev/blob/20f8fe46c38ce10559546ccf058c87efe876e67c/backend/.env.dist.local",
       "line_number": 66,
       "line_preview": "CROWD_SEGMENT_WRITE_KEY=TdX3BLaZuHpHyzN2lcDiNiRHDSH9Piyl",
       "key_type": "crowd_segment_write_key",
       "description": "Crowd Segment Write Key",
       "severity": "medium",
       "matched_pattern": "TdX3************************Piyl",
-      "timestamp": "2026-04-01T08:21:17.930888"
+      "timestamp": "2026-04-02T07:50:40.645508"
+    },
+    {
+      "service": "crowd",
+      "file": "backend/.env.dist.local",
+      "repository": "linuxfoundation/crowd.dev",
+      "url": "https://github.com/linuxfoundation/crowd.dev/blob/20f8fe46c38ce10559546ccf058c87efe876e67c/backend/.env.dist.local",
+      "line_number": 151,
+      "line_preview": "CROWD_TEMPORAL_ENCRYPTION_KEY=FweBMRnGCLshER8FlSvNusQA6G3MRUKt",
+      "key_type": "crowd_temporal_encryption_key",
+      "description": "Crowd Temporal Encryption Key",
+      "severity": "medium",
+      "matched_pattern": "FweB************************RUKt",
+      "timestamp": "2026-04-02T07:50:40.645605"
     }
   ]
 }

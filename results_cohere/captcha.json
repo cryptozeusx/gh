@@ -1,21 +1,8 @@
 {
   "service": "captcha",
-  "scan_timestamp": "2026-04-01T08:21:40.000138",
-  "finding_count": 3,
+  "scan_timestamp": "2026-04-02T07:51:01.724052",
+  "finding_count": 2,
   "findings": [
-    {
-      "service": "captcha",
-      "file": ".envv",
-      "repository": "mehedi8gb/emed-stable-4.8",
-      "url": "https://github.com/mehedi8gb/emed-stable-4.8/blob/f0fd05538ad4ee7567f9ef8b327e14ed07dda66d/.envv",
-      "line_number": 116,
-      "line_preview": "CAPTCHA_KEY=\"6Ld_nrsZAAAAAO-MowQQPfbD9yoio52GiMgUrmRX\"",
-      "key_type": "captcha_key",
-      "description": "Captcha Key",
-      "severity": "medium",
-      "matched_pattern": "6Ld_********************************rmRX",
-      "timestamp": "2026-04-01T08:20:53.411662"
-    },
     {
       "service": "captcha",
       "file": ".env.back",
@@ -26,21 +13,21 @@
       "key_type": "captcha_key",
       "description": "Captcha Key",
       "severity": "medium",
-      "matched_pattern": "CAPT**********************************************mRX\"",
-      "timestamp": "2026-04-01T08:20:55.486207"
+      "matched_pattern": "6Ld_********************************rmRX",
+      "timestamp": "2026-04-02T07:50:12.187664"
     },
     {
       "service": "captcha",
-      "file": ".env.docker",
+      "file": ".env.dbdump.example",
       "repository": "whitebear0909/b2bwood",
-      "url": "https://github.com/whitebear0909/b2bwood/blob/60d99e660accf265ebfda1369997b4a3594ad574/.env.docker",
-      "line_number": 121,
+      "url": "https://github.com/whitebear0909/b2bwood/blob/60d99e660accf265ebfda1369997b4a3594ad574/.env.dbdump.example",
+      "line_number": 134,
       "line_preview": "CAPTCHA_KEY=\"6Ld_nrsZAAAAAO-MowQQPfbD9yoio52GiMgUrmRX\"",
       "key_type": "captcha_key",
       "description": "Captcha Key",
       "severity": "medium",
       "matched_pattern": "CAPT**********************************************mRX\"",
-      "timestamp": "2026-04-01T08:20:57.621057"
+      "timestamp": "2026-04-02T07:50:30.210037"
     }
   ]
 }

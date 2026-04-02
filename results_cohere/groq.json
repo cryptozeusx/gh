@@ -1,7 +1,7 @@
 {
   "service": "groq",
-  "scan_timestamp": "2026-04-01T08:21:40.006920",
-  "finding_count": 5,
+  "scan_timestamp": "2026-04-02T07:51:01.730760",
+  "finding_count": 6,
   "findings": [
     {
       "service": "groq",
@@ -14,7 +14,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ***************************************************************egLH",
-      "timestamp": "2026-04-01T08:20:54.494439"
+      "timestamp": "2026-04-02T07:50:10.907625"
     },
     {
       "service": "groq",
@@ -27,7 +27,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ*************************************************************HfDm",
-      "timestamp": "2026-04-01T08:20:54.706315"
+      "timestamp": "2026-04-02T07:50:11.139819"
     },
     {
       "service": "groq",
@@ -40,7 +40,20 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ*************************************************************bx9C",
-      "timestamp": "2026-04-01T08:20:54.878620"
+      "timestamp": "2026-04-02T07:50:11.435046"
+    },
+    {
+      "service": "groq",
+      "file": ".env.FREE.example",
+      "repository": "ayush-mishra035/ayush-mishra035.github.io",
+      "url": "https://github.com/ayush-mishra035/ayush-mishra035.github.io/blob/175f8e2a706dacee7d083cbcdfd1a79175908546/.env.FREE.example",
+      "line_number": 13,
+      "line_preview": "GROQ_API_KEY=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",
+      "key_type": "groq_api_key",
+      "description": "Groq Api Key",
+      "severity": "medium",
+      "matched_pattern": "GROQ*************************************************************YHCA",
+      "timestamp": "2026-04-02T07:50:18.561508"
     },
     {
       "service": "groq",
@@ -53,7 +66,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ*************************************************************5dr7",
-      "timestamp": "2026-04-01T08:21:20.304264"
+      "timestamp": "2026-04-02T07:50:42.811191"
     },
     {
       "service": "groq",
@@ -66,7 +79,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ******************************************************************************************zNFn",
-      "timestamp": "2026-04-01T08:21:20.764785"
+      "timestamp": "2026-04-02T07:50:43.225685"
     }
   ]
 }

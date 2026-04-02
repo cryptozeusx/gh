@@ -1,20 +1,33 @@
 {
   "service": "n8n",
-  "scan_timestamp": "2026-04-01T08:21:40.009667",
-  "finding_count": 1,
+  "scan_timestamp": "2026-04-02T07:51:01.733361",
+  "finding_count": 2,
   "findings": [
     {
       "service": "n8n",
-      "file": ".env.openapi",
-      "repository": "EtroxTaran/rag_demo",
-      "url": "https://github.com/EtroxTaran/rag_demo/blob/6f1bee4b145eee8c13dd076359dfc198c1251d5c/.env.openapi",
-      "line_number": 43,
-      "line_preview": "N8N_ENCRYPTION_KEY=rag-demo-encryption-key-2024",
-      "key_type": "n8n_encryption_key",
-      "description": "N8N Encryption Key",
+      "file": ".env-example",
+      "repository": "matheusbuniotto/ai-platform-stack",
+      "url": "https://github.com/matheusbuniotto/ai-platform-stack/blob/0d4e995cb3746d2110e3c237130ec781c13ab489/.env-example",
+      "line_number": 50,
+      "line_preview": "N8N_GENERIC_API_KEY=sk-1234 # ALERT! SHOULD BE CHANGED",
+      "key_type": "n8n_generic_api_key",
+      "description": "N8N Generic Api Key",
       "severity": "medium",
-      "matched_pattern": "rag-********************2024",
-      "timestamp": "2026-04-01T08:20:46.643609"
+      "matched_pattern": "sk-1**************************NGED",
+      "timestamp": "2026-04-02T07:49:58.247147"
+    },
+    {
+      "service": "n8n",
+      "file": ".env-example",
+      "repository": "matheusbuniotto/ai-platform-stack",
+      "url": "https://github.com/matheusbuniotto/ai-platform-stack/blob/0d4e995cb3746d2110e3c237130ec781c13ab489/.env-example",
+      "line_number": 51,
+      "line_preview": "N8N_BASIC_AUTH_USER=admin # ALERT! SHOULD BE CHANGED",
+      "key_type": "n8n_basic_auth_user",
+      "description": "N8N Basic Auth User",
+      "severity": "medium",
+      "matched_pattern": "admi************************NGED",
+      "timestamp": "2026-04-02T07:49:58.247191"
     }
   ]
 }

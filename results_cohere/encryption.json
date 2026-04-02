@@ -1,60 +1,8 @@
 {
   "service": "encryption",
-  "scan_timestamp": "2026-04-01T08:21:40.002781",
-  "finding_count": 5,
+  "scan_timestamp": "2026-04-02T07:51:01.726711",
+  "finding_count": 1,
   "findings": [
-    {
-      "service": "encryption",
-      "file": "strategy_engine/src/render.env.md",
-      "repository": "TemamAb/alpha",
-      "url": "https://github.com/TemamAb/alpha/blob/24c87a897c3b554d75a02cb9ddb9896b9bbdf321/strategy_engine/src/render.env.md",
-      "line_number": 12,
-      "line_preview": "ENCRYPTION_KEY=afafe315290b51bf1483222f53bdf5640765474351aef6696e9bf544a1bd069e",
-      "key_type": "encryption_key",
-      "description": "Encryption Key",
-      "severity": "medium",
-      "matched_pattern": "afaf********************************************************069e",
-      "timestamp": "2026-04-01T08:20:51.786423"
-    },
-    {
-      "service": "encryption",
-      "file": "inference/.env.example",
-      "repository": "TaskingAI/TaskingAI",
-      "url": "https://github.com/TaskingAI/TaskingAI/blob/f0092d6b2dd82e98e188e0b9849fdd4c7230dd98/inference/.env.example",
-      "line_number": 5,
-      "line_preview": "AES_ENCRYPTION_KEY=b90e4648ad699c3bdf62c0860e09eb9efc098ee75f215bf750847ae19d41e4b0",
-      "key_type": "encryption_key",
-      "description": "Encryption Key",
-      "severity": "medium",
-      "matched_pattern": "ENCR***********************************************************************e4b0",
-      "timestamp": "2026-04-01T08:20:58.690769"
-    },
-    {
-      "service": "encryption",
-      "file": "backend/.env.dist.local",
-      "repository": "linuxfoundation/crowd.dev",
-      "url": "https://github.com/linuxfoundation/crowd.dev/blob/d953ce033fa297d2dab888ec504fe3236256f90e/backend/.env.dist.local",
-      "line_number": 151,
-      "line_preview": "CROWD_TEMPORAL_ENCRYPTION_KEY=FweBMRnGCLshER8FlSvNusQA6G3MRUKt",
-      "key_type": "encryption_key",
-      "description": "Encryption Key",
-      "severity": "medium",
-      "matched_pattern": "ENCR***************************************RUKt",
-      "timestamp": "2026-04-01T08:21:17.930836"
-    },
-    {
-      "service": "encryption",
-      "file": "backend/.env.dist.local",
-      "repository": "LF-Decentralized-Trust-labs/gitmesh",
-      "url": "https://github.com/LF-Decentralized-Trust-labs/gitmesh/blob/77f1b509cde0b8b8cb392b010eb764a1b9e6636a/backend/.env.dist.local",
-      "line_number": 292,
-      "line_preview": "TEMPORAL_ENCRYPTION_KEY=FweBMRnGCLshER8FlSvNusQA6G3MRUKt",
-      "key_type": "encryption_key",
-      "description": "Encryption Key",
-      "severity": "medium",
-      "matched_pattern": "ENCR***************************************RUKt",
-      "timestamp": "2026-04-01T08:21:18.855766"
-    },
     {
       "service": "encryption",
       "file": ".env.development",
@@ -65,8 +13,8 @@
       "key_type": "encryption_key",
       "description": "Encryption Key",
       "severity": "medium",
-      "matched_pattern": "ENCR***************************************7ab2",
-      "timestamp": "2026-04-01T08:21:32.543491"
+      "matched_pattern": "9990************************7ab2",
+      "timestamp": "2026-04-02T07:50:54.093500"
     }
   ]
 }

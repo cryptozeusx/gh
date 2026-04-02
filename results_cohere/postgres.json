@@ -1,7 +1,7 @@
 {
   "service": "postgres",
-  "scan_timestamp": "2026-04-01T08:21:40.013155",
-  "finding_count": 5,
+  "scan_timestamp": "2026-04-02T07:51:01.736022",
+  "finding_count": 3,
   "findings": [
     {
       "service": "postgres",
@@ -14,7 +14,7 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "# Ge***************************4 32",
-      "timestamp": "2026-04-01T08:20:39.947301"
+      "timestamp": "2026-04-02T07:49:53.614379"
     },
     {
       "service": "postgres",
@@ -27,33 +27,7 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "POST******************o123",
-      "timestamp": "2026-04-01T08:20:42.250573"
-    },
-    {
-      "service": "postgres",
-      "file": ".env.openapi",
-      "repository": "EtroxTaran/rag_demo",
-      "url": "https://github.com/EtroxTaran/rag_demo/blob/6f1bee4b145eee8c13dd076359dfc198c1251d5c/.env.openapi",
-      "line_number": 21,
-      "line_preview": "POSTGRES_PASSWORD=ragdemo_pw",
-      "key_type": "postgres_password",
-      "description": "Postgres Password",
-      "severity": "high",
-      "matched_pattern": "POST********************o_pw",
-      "timestamp": "2026-04-01T08:20:46.643247"
-    },
-    {
-      "service": "postgres",
-      "file": "backend/.env.production",
-      "repository": "oguzbenturk/UKC.world",
-      "url": "https://github.com/oguzbenturk/UKC.world/blob/68f8c37754f3a001984f455bcdb6f10b2cd08522/backend/.env.production",
-      "line_number": 8,
-      "line_preview": "POSTGRES_PASSWORD=WHMgux86",
-      "key_type": "postgres_password",
-      "description": "Postgres Password",
-      "severity": "high",
-      "matched_pattern": "POST******************ux86",
-      "timestamp": "2026-04-01T08:20:57.375023"
+      "timestamp": "2026-04-02T07:49:56.917910"
     },
     {
       "service": "postgres",
@@ -66,7 +40,7 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "POST**************************IX6P",
-      "timestamp": "2026-04-01T08:21:18.662516"
+      "timestamp": "2026-04-02T07:50:41.299101"
     }
   ]
 }

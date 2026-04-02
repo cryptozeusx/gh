@@ -1,6 +1,6 @@
 {
   "service": "db",
-  "scan_timestamp": "2026-04-01T08:21:40.002215",
+  "scan_timestamp": "2026-04-02T07:51:01.726219",
   "finding_count": 5,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "8g3Z********DIRS",
-      "timestamp": "2026-04-01T08:20:40.169384"
+      "timestamp": "2026-04-02T07:49:52.146601"
     },
     {
       "service": "db",
@@ -27,7 +27,7 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "DB_P************3214",
-      "timestamp": "2026-04-01T08:20:49.480790"
+      "timestamp": "2026-04-02T07:50:04.811592"
     },
     {
       "service": "db",
@@ -40,7 +40,7 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "DB_P************************N*EW",
-      "timestamp": "2026-04-01T08:20:49.872064"
+      "timestamp": "2026-04-02T07:50:05.242504"
     },
     {
       "service": "db",
@@ -53,7 +53,7 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "DB_P*************Dk>0",
-      "timestamp": "2026-04-01T08:20:56.135999"
+      "timestamp": "2026-04-02T07:50:13.045453"
     },
     {
       "service": "db",
@@ -66,7 +66,7 @@
       "description": "Db Postgres Password",
       "severity": "high",
       "matched_pattern": "CHAN*******************************************cret",
-      "timestamp": "2026-04-01T08:21:02.588466"
+      "timestamp": "2026-04-02T07:50:22.518416"
     }
   ]
 }

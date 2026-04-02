@@ -1,7 +1,7 @@
 {
   "service": "supabase",
-  "scan_timestamp": "2026-04-01T08:21:40.016173",
-  "finding_count": 4,
+  "scan_timestamp": "2026-04-02T07:51:01.738855",
+  "finding_count": 5,
   "findings": [
     {
       "service": "supabase",
@@ -14,7 +14,7 @@
       "description": "Supabase Service Role Key",
       "severity": "medium",
       "matched_pattern": "sdf3*****EARA",
-      "timestamp": "2026-04-01T08:20:44.688226"
+      "timestamp": "2026-04-02T07:49:59.604191"
     },
     {
       "service": "supabase",
@@ -27,7 +27,20 @@
       "description": "Supabase Service Role Key",
       "severity": "medium",
       "matched_pattern": "SUPA*********************************************************************************************************************************************************************************************************************************************_bsc",
-      "timestamp": "2026-04-01T08:20:45.355150"
+      "timestamp": "2026-04-02T07:50:00.058688"
+    },
+    {
+      "service": "supabase",
+      "file": "backend/.env.example",
+      "repository": "Anubhavjaiswal21/todo-summary-assistant",
+      "url": "https://github.com/Anubhavjaiswal21/todo-summary-assistant/blob/b30a5a09fd58a3340a5f8406d62751821c4dee7b/backend/.env.example",
+      "line_number": 2,
+      "line_preview": "SUPABASE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVsY2Z5Y2doaWdhZXp0b2x5emZuIiwicm9sZS",
+      "key_type": "supabase_key",
+      "description": "Supabase Key",
+      "severity": "medium",
+      "matched_pattern": "eyJh********************************************************************************************************************************************************************************************************4isA",
+      "timestamp": "2026-04-02T07:50:33.514662"
     },
     {
       "service": "supabase",
@@ -40,7 +53,7 @@
       "description": "Supabase Service Role Key",
       "severity": "medium",
       "matched_pattern": "SUPA***********************************************************c8Mx",
-      "timestamp": "2026-04-01T08:21:24.645995"
+      "timestamp": "2026-04-02T07:50:45.880814"
     },
     {
       "service": "supabase",
@@ -53,7 +66,7 @@
       "description": "Supabase Service Role Key",
       "severity": "medium",
       "matched_pattern": "SUPA*********************************************************************************************************************************************************************************************************************************************itoI",
-      "timestamp": "2026-04-01T08:21:24.960556"
+      "timestamp": "2026-04-02T07:50:46.277252"
     }
   ]
 }

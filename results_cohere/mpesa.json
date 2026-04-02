@@ -1,6 +1,6 @@
 {
   "service": "mpesa",
-  "scan_timestamp": "2026-04-01T08:21:40.009443",
+  "scan_timestamp": "2026-04-02T07:51:01.733114",
   "finding_count": 3,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Mpesa Consumer Key",
       "severity": "medium",
       "matched_pattern": "AhVB************************BsbS",
-      "timestamp": "2026-04-01T08:20:55.486776"
+      "timestamp": "2026-04-02T07:50:12.187868"
     },
     {
       "service": "mpesa",
@@ -27,7 +27,7 @@
       "description": "Mpesa Password",
       "severity": "high",
       "matched_pattern": "Mukt***097#",
-      "timestamp": "2026-04-01T08:20:55.486850"
+      "timestamp": "2026-04-02T07:50:12.187908"
     },
     {
       "service": "mpesa",
@@ -40,7 +40,7 @@
       "description": "Mpesa Passkey",
       "severity": "high",
       "matched_pattern": "3551********************************************************634e",
-      "timestamp": "2026-04-01T08:20:55.486900"
+      "timestamp": "2026-04-02T07:50:12.187953"
     }
   ]
 }
