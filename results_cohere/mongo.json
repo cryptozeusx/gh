@@ -1,7 +1,7 @@
 {
   "service": "mongo",
-  "scan_timestamp": "2026-04-02T07:51:01.733016",
-  "finding_count": 1,
+  "scan_timestamp": "2026-04-03T07:46:55.804653",
+  "finding_count": 2,
   "findings": [
     {
       "service": "mongo",
@@ -14,7 +14,20 @@
       "description": "Mongo Password",
       "severity": "high",
       "matched_pattern": "********",
-      "timestamp": "2026-04-02T07:49:56.918042"
+      "timestamp": "2026-04-03T07:46:02.538629"
+    },
+    {
+      "service": "mongo",
+      "file": "tau/backend/env.example",
+      "repository": "ruslankf777/RAG",
+      "url": "https://github.com/ruslankf777/RAG/blob/617d62f52475fa306fd40c8ee7e378060224cb3c/tau/backend/env.example",
+      "line_number": 6,
+      "line_preview": "MONGO_ROOT_PASSWORD=tau_password_2024",
+      "key_type": "mongo_root_password",
+      "description": "Mongo Root Password",
+      "severity": "high",
+      "matched_pattern": "tau_*********2024",
+      "timestamp": "2026-04-03T07:46:23.701948"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "service": "tailscale",
-  "scan_timestamp": "2026-03-27T07:45:01.132879",
-  "finding_count": 2,
+  "scan_timestamp": "2026-04-03T07:46:55.811565",
+  "finding_count": 1,
   "findings": [
     {
       "service": "tailscale",
@@ -14,20 +14,7 @@
       "description": "Tailscale Authkey File",
       "severity": "medium",
       "matched_pattern": "CATA***************************************************************.txt",
-      "timestamp": "2026-03-27T07:44:20.910867"
-    },
-    {
-      "service": "tailscale",
-      "file": "pmoves/env.shared.example",
-      "repository": "POWERFULMOVES/PMOVES.AI",
-      "url": "https://github.com/POWERFULMOVES/PMOVES.AI/blob/d9877a670b703049c6aea5abbc0695f6ec181551/pmoves/env.shared.example",
-      "line_number": 353,
-      "line_preview": "TAILSCALE_AUTHKEY_FILE=CATACLYSM_STUDIOS_INC/PMOVES-PROVISIONS/tailscale/tailscale_authkey.txt",
-      "key_type": "tailscale_authkey_file",
-      "description": "Tailscale Authkey File",
-      "severity": "medium",
-      "matched_pattern": "TAIL**************************************************************************************.txt",
-      "timestamp": "2026-03-27T07:44:23.140513"
+      "timestamp": "2026-04-03T07:46:22.771995"
     }
   ]
 }

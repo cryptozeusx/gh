@@ -1,7 +1,7 @@
 {
   "service": "app",
-  "scan_timestamp": "2026-04-02T07:51:01.723377",
-  "finding_count": 10,
+  "scan_timestamp": "2026-04-03T07:46:55.794387",
+  "finding_count": 11,
   "findings": [
     {
       "service": "app",
@@ -14,7 +14,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "base*******************************************KgQ=",
-      "timestamp": "2026-04-02T07:49:52.248117"
+      "timestamp": "2026-04-03T07:45:58.124894"
     },
     {
       "service": "app",
@@ -27,7 +27,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************hXw=",
-      "timestamp": "2026-04-02T07:50:04.811450"
+      "timestamp": "2026-04-03T07:46:08.615424"
     },
     {
       "service": "app",
@@ -40,7 +40,20 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************tso=",
-      "timestamp": "2026-04-02T07:50:08.989899"
+      "timestamp": "2026-04-03T07:46:11.980206"
+    },
+    {
+      "service": "app",
+      "file": ".envv",
+      "repository": "mehedi8gb/emed-stable-4.8",
+      "url": "https://github.com/mehedi8gb/emed-stable-4.8/blob/f0fd05538ad4ee7567f9ef8b327e14ed07dda66d/.envv",
+      "line_number": 3,
+      "line_preview": "APP_KEY=base64:WrvqXJ+ilWOLItqI7C2N2R2dQkqFAHFYzTrQBBJqtso=",
+      "key_type": "app_key",
+      "description": "App Key",
+      "severity": "medium",
+      "matched_pattern": "APP_***************************************************tso=",
+      "timestamp": "2026-04-03T07:46:12.543288"
     },
     {
       "service": "app",
@@ -53,7 +66,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************tso=",
-      "timestamp": "2026-04-02T07:50:12.187021"
+      "timestamp": "2026-04-03T07:46:14.590653"
     },
     {
       "service": "app",
@@ -66,7 +79,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************Wws=",
-      "timestamp": "2026-04-02T07:50:12.437936"
+      "timestamp": "2026-04-03T07:46:14.772668"
     },
     {
       "service": "app",
@@ -79,7 +92,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************tso=",
-      "timestamp": "2026-04-02T07:50:12.580834"
+      "timestamp": "2026-04-03T07:46:14.888029"
     },
     {
       "service": "app",
@@ -92,7 +105,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************nYQ=",
-      "timestamp": "2026-04-02T07:50:13.045014"
+      "timestamp": "2026-04-03T07:46:15.289883"
     },
     {
       "service": "app",
@@ -105,7 +118,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************Xv8=",
-      "timestamp": "2026-04-02T07:50:13.338912"
+      "timestamp": "2026-04-03T07:46:15.521778"
     },
     {
       "service": "app",
@@ -118,20 +131,20 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************e8p\"",
-      "timestamp": "2026-04-02T07:50:30.210283"
+      "timestamp": "2026-04-03T07:46:28.468592"
     },
     {
       "service": "app",
       "file": ".env.production.example",
       "repository": "scoutprojekt0-sys/scout-projesi",
-      "url": "https://github.com/scoutprojekt0-sys/scout-projesi/blob/f6f8d821633440270f830550bde02048528bad64/.env.production.example",
+      "url": "https://github.com/scoutprojekt0-sys/scout-projesi/blob/e362929bff5a7ae94042202760e334c03e31746f/.env.production.example",
       "line_number": 3,
       "line_preview": "APP_KEY=base64:replace-with-generated-key",
       "key_type": "app_key",
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_*********************************-key",
-      "timestamp": "2026-04-02T07:50:33.408120"
+      "timestamp": "2026-04-03T07:46:30.036104"
     }
   ]
 }

@@ -1,20 +1,20 @@
 {
   "service": "huggingface",
-  "scan_timestamp": "2026-04-02T07:51:01.730912",
+  "scan_timestamp": "2026-04-03T07:46:55.802590",
   "finding_count": 4,
   "findings": [
     {
       "service": "huggingface",
-      "file": "docker/bolt-diy/.env.enc",
-      "repository": "nezdemkovski/ansible-scripts",
-      "url": "https://github.com/nezdemkovski/ansible-scripts/blob/88ed31f5c6f5ccca6796d063e31fe19d49f2a608/docker/bolt-diy/.env.enc",
-      "line_number": 13,
-      "line_preview": "HuggingFace_API_KEY=ENC[AES256_GCM,data:7eMc+JEXX6mVZLQAoMKGCxpw+iGM96UA/vZBTM3VE2kciv+9Mw==,iv:vLGMklQM37fHwMlgDOzd727q",
+      "file": ".env.local",
+      "repository": "sudanva21/Career-Advisor-SIH",
+      "url": "https://github.com/sudanva21/Career-Advisor-SIH/blob/36d5272b7d80719b8c19696bbb6500b652ee9b14/.env.local",
+      "line_number": 38,
+      "line_preview": "HUGGINGFACE_API_KEY=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",
       "key_type": "huggingface_api_key",
       "description": "Huggingface Api Key",
       "severity": "medium",
-      "matched_pattern": "Hugg***************************************************************************************************************************************************************************str]",
-      "timestamp": "2026-04-02T07:50:02.252437"
+      "matched_pattern": "HUGG*************************************************AmJS",
+      "timestamp": "2026-04-03T07:46:05.773071"
     },
     {
       "service": "huggingface",
@@ -27,7 +27,7 @@
       "description": "Huggingface Api Key",
       "severity": "medium",
       "matched_pattern": "HUGG*************************************************auRi",
-      "timestamp": "2026-04-02T07:50:18.561686"
+      "timestamp": "2026-04-03T07:46:21.906579"
     },
     {
       "service": "huggingface",
@@ -40,7 +40,7 @@
       "description": "Huggingface Api Token",
       "severity": "medium",
       "matched_pattern": "hf_g*****************************xfcH",
-      "timestamp": "2026-04-02T07:50:41.300491"
+      "timestamp": "2026-04-03T07:46:34.103760"
     },
     {
       "service": "huggingface",
@@ -53,7 +53,7 @@
       "description": "Huggingface Api Token",
       "severity": "medium",
       "matched_pattern": "HUGG****************************************************JfKA",
-      "timestamp": "2026-04-02T07:50:42.355636"
+      "timestamp": "2026-04-03T07:46:35.081265"
     }
   ]
 }

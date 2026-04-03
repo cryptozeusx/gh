@@ -1,0 +1,20 @@
+{
+  "service": "ably",
+  "scan_timestamp": "2026-04-03T07:46:55.793301",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "ably",
+      "file": ".env.local.example",
+      "repository": "Kynto-Consulting/Killio-Frontend",
+      "url": "https://github.com/Kynto-Consulting/Killio-Frontend/blob/306a79159b9d067be7d13b8aed9513a68ff6cc7b/.env.local.example",
+      "line_number": 13,
+      "line_preview": "ABLY_API_KEY=7N4yjg.6i_OBw:W1s0NyFHtmCEjIB1RxmMwYWtJL7rWlE-V7BPp1DHOhE      # Server-side only (used by the proxy)",
+      "key_type": "ably_api_key",
+      "description": "Ably Api Key",
+      "severity": "medium",
+      "matched_pattern": "7N4y*********************************************************************************************oxy)",
+      "timestamp": "2026-04-03T07:46:04.458685"
+    }
+  ]
+}

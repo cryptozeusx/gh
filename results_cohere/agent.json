@@ -1,0 +1,20 @@
+{
+  "service": "agent",
+  "scan_timestamp": "2026-04-03T07:46:55.793676",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "agent",
+      "file": "config/env.example",
+      "repository": "memaxo/alfred",
+      "url": "https://github.com/memaxo/alfred/blob/226a597e8c9c64ce54d079da0f9b834eca369d6c/config/env.example",
+      "line_number": 186,
+      "line_preview": "AGENT_ED25519_PRIVATE=-----BEGIN PRIVATE KEY-----\\nyour-private-key\\n-----END PRIVATE KEY-----",
+      "key_type": "agent_ed25519_private",
+      "description": "Agent Ed25519 Private",
+      "severity": "critical",
+      "matched_pattern": "----****************************************************************----",
+      "timestamp": "2026-04-03T07:46:24.003173"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "service": "react",
-  "scan_timestamp": "2026-04-02T07:51:01.737047",
+  "scan_timestamp": "2026-04-03T07:46:55.809152",
   "finding_count": 6,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "React App Default Token List Url",
       "severity": "medium",
       "matched_pattern": "http*********************************************************************************************************json",
-      "timestamp": "2026-04-02T07:49:45.608888"
+      "timestamp": "2026-04-03T07:45:52.927619"
     },
     {
       "service": "react",
@@ -27,7 +27,7 @@
       "description": "React App Polygon Api Key Free",
       "severity": "medium",
       "matched_pattern": "S0m3********1K3y",
-      "timestamp": "2026-04-02T07:49:45.609039"
+      "timestamp": "2026-04-03T07:45:52.927714"
     },
     {
       "service": "react",
@@ -40,7 +40,7 @@
       "description": "React App Token List Exchange Custom Asset Logo Url",
       "severity": "medium",
       "matched_pattern": "http****************************************************************************************************.png",
-      "timestamp": "2026-04-02T07:49:45.609097"
+      "timestamp": "2026-04-03T07:45:52.927770"
     },
     {
       "service": "react",
@@ -53,7 +53,7 @@
       "description": "React App Token List Asset Generic Address Testnet Logo Url Base",
       "severity": "medium",
       "matched_pattern": "http******************************************************************************************************************ets/",
-      "timestamp": "2026-04-02T07:49:45.609148"
+      "timestamp": "2026-04-03T07:45:52.927822"
     },
     {
       "service": "react",
@@ -66,7 +66,7 @@
       "description": "React App Etherspot Api Key",
       "severity": "medium",
       "matched_pattern": "1234************alue",
-      "timestamp": "2026-04-02T07:50:05.462052"
+      "timestamp": "2026-04-03T07:46:09.156447"
     },
     {
       "service": "react",
@@ -79,7 +79,7 @@
       "description": "React App Supabase Anon Key",
       "severity": "medium",
       "matched_pattern": "eyJh********************************************************************************************************************************************************************************************************IWAg",
-      "timestamp": "2026-04-02T07:50:09.471709"
+      "timestamp": "2026-04-03T07:46:12.377239"
     }
   ]
 }

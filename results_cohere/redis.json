@@ -1,7 +1,7 @@
 {
   "service": "redis",
-  "scan_timestamp": "2026-04-02T07:51:01.737203",
-  "finding_count": 2,
+  "scan_timestamp": "2026-04-03T07:46:55.809325",
+  "finding_count": 1,
   "findings": [
     {
       "service": "redis",
@@ -14,20 +14,7 @@
       "description": "Redis Password",
       "severity": "high",
       "matched_pattern": "# Ge***************************4 32",
-      "timestamp": "2026-04-02T07:49:53.614500"
-    },
-    {
-      "service": "redis",
-      "file": "gif.env",
-      "repository": "iyer131/GIFt",
-      "url": "https://github.com/iyer131/GIFt/blob/a840026822dd8ec28c5c164e01a05fe96445f67c/gif.env",
-      "line_number": 14,
-      "line_preview": "CLOUD_REDIS_PASSWORD=BaLED3ro5pucIwwLEHXEGMozLtFalDRx",
-      "key_type": "redis_password",
-      "description": "Redis Password",
-      "severity": "high",
-      "matched_pattern": "REDI***************************************lDRx",
-      "timestamp": "2026-04-02T07:49:56.568076"
+      "timestamp": "2026-04-03T07:46:00.944424"
     }
   ]
 }

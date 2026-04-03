@@ -1,7 +1,7 @@
 {
   "service": "api",
-  "scan_timestamp": "2026-04-02T07:51:01.723128",
-  "finding_count": 10,
+  "scan_timestamp": "2026-04-03T07:46:55.794179",
+  "finding_count": 7,
   "findings": [
     {
       "service": "api",
@@ -14,7 +14,7 @@
       "description": "Api Password",
       "severity": "high",
       "matched_pattern": "Deng***7258",
-      "timestamp": "2026-04-02T07:50:07.915553"
+      "timestamp": "2026-04-03T07:46:11.082114"
     },
     {
       "service": "api",
@@ -27,7 +27,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_******************************************************************************************Hhk4",
-      "timestamp": "2026-04-02T07:50:08.574593"
+      "timestamp": "2026-04-03T07:46:11.565018"
     },
     {
       "service": "api",
@@ -40,46 +40,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_***************890\"",
-      "timestamp": "2026-04-02T07:50:17.770874"
-    },
-    {
-      "service": "api",
-      "file": ".env.production.example",
-      "repository": "Prometheus-Automation/store",
-      "url": "https://github.com/Prometheus-Automation/store/blob/bd2e0d4ef72686cec7961c165f39b0644f5de515/.env.production.example",
-      "line_number": 40,
-      "line_preview": "SENDGRID_API_KEY=SG.your-sendgrid-api-key",
-      "key_type": "api_key",
-      "description": "Api Key",
-      "severity": "medium",
-      "matched_pattern": "API_************************-key",
-      "timestamp": "2026-04-02T07:50:20.220549"
-    },
-    {
-      "service": "api",
-      "file": ".env.production.example",
-      "repository": "kevanbtc/landlord-tenant-web3",
-      "url": "https://github.com/kevanbtc/landlord-tenant-web3/blob/40b346d93510429657464e0ea58737462ced653f/.env.production.example",
-      "line_number": 160,
-      "line_preview": "SENDGRID_API_KEY=SG.your_sendgrid_api_key",
-      "key_type": "api_key",
-      "description": "Api Key",
-      "severity": "medium",
-      "matched_pattern": "API_************************_key",
-      "timestamp": "2026-04-02T07:50:22.652541"
-    },
-    {
-      "service": "api",
-      "file": "docs/getting-started/claudeDL/env.vm.example",
-      "repository": "rzepeda/ragTools",
-      "url": "https://github.com/rzepeda/ragTools/blob/e70eb327bb487a6f8e639ec8376e5805b8f1da79/docs/getting-started/claudeDL/env.vm.example",
-      "line_number": 41,
-      "line_preview": "OPENAI_API_KEY=lm-studio  # Any value works with LM Studio",
-      "key_type": "api_key",
-      "description": "Api Key",
-      "severity": "medium",
-      "matched_pattern": "API_*********udio",
-      "timestamp": "2026-04-02T07:50:24.641791"
+      "timestamp": "2026-04-03T07:46:24.264802"
     },
     {
       "service": "api",
@@ -92,7 +53,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_**************************_key",
-      "timestamp": "2026-04-02T07:50:32.204911"
+      "timestamp": "2026-04-03T07:46:29.326069"
     },
     {
       "service": "api",
@@ -105,7 +66,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_**************************key\"",
-      "timestamp": "2026-04-02T07:50:34.639355"
+      "timestamp": "2026-04-03T07:46:31.085128"
     },
     {
       "service": "api",
@@ -118,7 +79,7 @@
       "description": "Api Secret",
       "severity": "high",
       "matched_pattern": "API_*****************************************************YNze",
-      "timestamp": "2026-04-02T07:50:41.299980"
+      "timestamp": "2026-04-03T07:46:34.103401"
     },
     {
       "service": "api",
@@ -131,7 +92,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_************************************************************************************YSui",
-      "timestamp": "2026-04-02T07:50:45.880966"
+      "timestamp": "2026-04-03T07:46:40.415182"
     }
   ]
 }

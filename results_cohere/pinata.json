@@ -1,6 +1,6 @@
 {
   "service": "pinata",
-  "scan_timestamp": "2026-04-02T07:51:01.735904",
+  "scan_timestamp": "2026-04-03T07:46:55.807953",
   "finding_count": 3,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Pinata Api Key",
       "severity": "medium",
       "matched_pattern": "PINA*******************************************************************************************************************************************************************************oHV\"",
-      "timestamp": "2026-04-02T07:50:06.866525"
+      "timestamp": "2026-04-03T07:46:10.291752"
     },
     {
       "service": "pinata",
@@ -27,7 +27,7 @@
       "description": "Pinata Api Key",
       "severity": "medium",
       "matched_pattern": "PINA***************************b5b8",
-      "timestamp": "2026-04-02T07:50:41.203225"
+      "timestamp": "2026-04-03T07:46:34.013659"
     },
     {
       "service": "pinata",
@@ -40,7 +40,7 @@
       "description": "Pinata Api Key",
       "severity": "medium",
       "matched_pattern": "PINA***************************b5b8",
-      "timestamp": "2026-04-02T07:50:43.556247"
+      "timestamp": "2026-04-03T07:46:36.039172"
     }
   ]
 }

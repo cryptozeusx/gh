@@ -1,6 +1,6 @@
 {
   "service": "postgres",
-  "scan_timestamp": "2026-04-02T07:51:01.736022",
+  "scan_timestamp": "2026-04-03T07:46:55.808126",
   "finding_count": 3,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "# Ge***************************4 32",
-      "timestamp": "2026-04-02T07:49:53.614379"
+      "timestamp": "2026-04-03T07:46:00.944303"
     },
     {
       "service": "postgres",
@@ -27,7 +27,7 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "POST******************o123",
-      "timestamp": "2026-04-02T07:49:56.917910"
+      "timestamp": "2026-04-03T07:46:02.538560"
     },
     {
       "service": "postgres",
@@ -40,7 +40,7 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "POST**************************IX6P",
-      "timestamp": "2026-04-02T07:50:41.299101"
+      "timestamp": "2026-04-03T07:46:34.102415"
     }
   ]
 }

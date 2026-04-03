@@ -1,20 +1,20 @@
 {
   "service": "x402",
-  "scan_timestamp": "2026-04-02T07:51:01.739787",
+  "scan_timestamp": "2026-04-03T07:46:55.812312",
   "finding_count": 1,
   "findings": [
     {
       "service": "x402",
       "file": ".env.production.example",
       "repository": "FinAegis/core-banking-prototype-laravel",
-      "url": "https://github.com/FinAegis/core-banking-prototype-laravel/blob/1c6c9eb5099e2a7fea2b9a2fffbeb7efcbf6a665/.env.production.example",
+      "url": "https://github.com/FinAegis/core-banking-prototype-laravel/blob/99529b469dba9d149166e4a73bb985e7d8d8731d/.env.production.example",
       "line_number": 253,
       "line_preview": "X402_CLIENT_SIGNER_KEY_ID=    # HSM key ID for production signing",
       "key_type": "x402_client_signer_key_id",
       "description": "X402 Client Signer Key Id",
       "severity": "medium",
       "matched_pattern": "# HS***************************ning",
-      "timestamp": "2026-04-02T07:50:06.067791"
+      "timestamp": "2026-04-03T07:46:09.638765"
     }
   ]
 }

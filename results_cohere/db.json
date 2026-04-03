@@ -1,7 +1,7 @@
 {
   "service": "db",
-  "scan_timestamp": "2026-04-02T07:51:01.726219",
-  "finding_count": 5,
+  "scan_timestamp": "2026-04-03T07:46:55.797519",
+  "finding_count": 4,
   "findings": [
     {
       "service": "db",
@@ -14,7 +14,7 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "8g3Z********DIRS",
-      "timestamp": "2026-04-02T07:49:52.146601"
+      "timestamp": "2026-04-03T07:45:58.060856"
     },
     {
       "service": "db",
@@ -27,7 +27,7 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "DB_P************3214",
-      "timestamp": "2026-04-02T07:50:04.811592"
+      "timestamp": "2026-04-03T07:46:08.615514"
     },
     {
       "service": "db",
@@ -40,7 +40,7 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "DB_P************************N*EW",
-      "timestamp": "2026-04-02T07:50:05.242504"
+      "timestamp": "2026-04-03T07:46:08.974729"
     },
     {
       "service": "db",
@@ -53,20 +53,7 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "DB_P*************Dk>0",
-      "timestamp": "2026-04-02T07:50:13.045453"
-    },
-    {
-      "service": "db",
-      "file": ".env.production.example",
-      "repository": "langgraphsystem/lawercase",
-      "url": "https://github.com/langgraphsystem/lawercase/blob/13943fd4ab652cdc4c3ff799ea4869ba46b59531/.env.production.example",
-      "line_number": 36,
-      "line_preview": "DB_POSTGRES_PASSWORD=CHANGE_ME_IN_PRODUCTION  # pragma: allowlist secret",
-      "key_type": "db_postgres_password",
-      "description": "Db Postgres Password",
-      "severity": "high",
-      "matched_pattern": "CHAN*******************************************cret",
-      "timestamp": "2026-04-02T07:50:22.518416"
+      "timestamp": "2026-04-03T07:46:15.290247"
     }
   ]
 }
