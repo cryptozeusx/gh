@@ -51,7 +51,17 @@ SERVICE_SEEDS: List[Tuple[str, str]] = [
     # Chinese / Asian AI Platforms
     ("deepseek",    'filename:.env "DEEPSEEK_API_KEY"'),
     ("moonshot",    'filename:.env "MOONSHOT_API_KEY"'),
+    # SiliconFlow  (siliconflow.cn / api.siliconflow.cn)
     ("siliconflow", 'filename:.env "SILICONFLOW_API_KEY"'),
+    ("siliconflow", 'filename:.env "SILICONFLOW_KEY"'),
+    ("siliconflow", 'filename:.env "SF_API_KEY"'),
+    ("siliconflow", 'filename:.env siliconflow.cn'),
+    ("siliconflow", 'filename:.env "api.siliconflow.cn"'),
+    ("siliconflow", '"https://api.siliconflow.cn"'),
+    ("siliconflow", 'extension:example "SILICONFLOW_API_KEY"'),
+    ("siliconflow", 'extension:example "SF_API_KEY"'),
+    ("siliconflow", 'extension:local "SILICONFLOW_API_KEY"'),
+    ("siliconflow", 'extension:development "SILICONFLOW_API_KEY"'),
     ("zhipuai",     'filename:.env "ZHIPUAI_API_KEY"'),
     ("dashscope",   'filename:.env "DASHSCOPE_API_KEY"'),
     ("minimax",     'filename:.env "MINIMAX_API_KEY"'),

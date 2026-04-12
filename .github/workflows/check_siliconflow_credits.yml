@@ -1,0 +1,60 @@
+name: SiliconFlow User Info Checker
+
+on:
+  workflow_dispatch:
+    inputs:
+      input_file:
+        description: "Path to the SiliconFlow NDJSON findings file"
+        required: false
+        default: "results_siliconflow/siliconflow.ndjson"
+        type: string
+      output_file:
+        description: "Path to save the JSON report"
+        required: false
+        default: "results_siliconflow/user_info_report.json"
+        type: string
+
+jobs:
+  check-siliconflow:
+    name: Check SiliconFlow keys (GET /v1/user/info)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install curl-cffi
+
+      - name: Check user info
+        run: |
+          python tools/check_siliconflow_credits.py \
+            --input "${{ inputs.input_file }}" \
+            --output "${{ inputs.output_file }}"
+
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: siliconflow-user-info-${{ github.run_id }}
+          path: ${{ inputs.output_file }}
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Commit and push report
+        if: always()
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "${{ inputs.output_file }}" || true
+          git diff --staged --quiet || git commit -m "siliconflow user info report [run #${{ github.run_number }}]"
+          git push
