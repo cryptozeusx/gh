@@ -1,7 +1,7 @@
 {
   "service": "database",
-  "scan_timestamp": "2026-04-03T07:46:55.796844",
-  "finding_count": 42,
+  "scan_timestamp": "2026-04-13T06:04:01.976304",
+  "finding_count": 38,
   "findings": [
     {
       "service": "database",
@@ -14,72 +14,59 @@
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA********************************************6/db",
-      "timestamp": "2026-04-03T07:45:59.561747"
+      "timestamp": "2026-04-13T06:03:05.278020"
     },
     {
       "service": "database",
-      "file": "control-plane/.env.base",
-      "repository": "inferablehq/inferable",
-      "url": "https://github.com/inferablehq/inferable/blob/c67acb8172cf0957ce872c818d8d4a8434f20f75/control-plane/.env.base",
-      "line_number": 6,
-      "line_preview": "DATABASE_URL=\"postgresql://inferable:inferable@localhost:5432/inferable\"",
+      "file": ".env.2",
+      "repository": "serebano/tictapp-storage-api",
+      "url": "https://github.com/serebano/tictapp-storage-api/blob/31ab25f1990d29992dc9eb2861b568fd8b571514/.env.2",
+      "line_number": 9,
+      "line_preview": "DATABASE_URL=postgres://postgres:bnfr757y47gyerdfbhr7ruf@db.fapp.xxx:5432/postgres",
       "key_type": "database_url",
       "description": "Database Connection String",
       "severity": "critical",
-      "matched_pattern": "DATA****************************************************************ble\"",
-      "timestamp": "2026-04-03T07:45:59.634661"
+      "matched_pattern": "DATA**************************************************************************gres",
+      "timestamp": "2026-04-13T06:03:05.345315"
     },
     {
       "service": "database",
-      "file": ".env.example",
-      "repository": "nalaso/windai",
-      "url": "https://github.com/nalaso/windai/blob/3694baa432544f9ff0462f542b1c812e185b1d6b/.env.example",
-      "line_number": 6,
-      "line_preview": "DATABASE_URL=\"mongodb+srv://<user>:<password>@<cluster>.mongodb.net/<database>?retryWrites=true&w=majority\"",
+      "file": ".env.j2",
+      "repository": "gebre2113/auto-money-maker",
+      "url": "https://github.com/gebre2113/auto-money-maker/blob/4276359b4008e6814890d90bec09aa867d87f8cd/.env.j2",
+      "line_number": 10,
+      "line_preview": "DATABASE_URL=postgresql://profitmaster:{{ vault_db_password }}@localhost:5432/profitmaster_production",
       "key_type": "database_url",
       "description": "Database Connection String",
       "severity": "critical",
-      "matched_pattern": "DATA***************************************************************************************************ity\"",
-      "timestamp": "2026-04-03T07:46:02.059817"
+      "matched_pattern": "DATA*********************************************************************************************tion",
+      "timestamp": "2026-04-13T06:03:06.133177"
     },
     {
       "service": "database",
-      "file": ".envrc.example",
-      "repository": "nishatdhillon/llm-gateway",
-      "url": "https://github.com/nishatdhillon/llm-gateway/blob/52fd9d8ffd12431d944e81961bb4a73582bc934c/.envrc.example",
-      "line_number": 5,
-      "line_preview": "export DATABASE_URL=postgresql://postgres:postgres@postgres:5432/llm_gateway",
+      "file": ".env.docker",
+      "repository": "RyanLisse/hgg-roborail-rag",
+      "url": "https://github.com/RyanLisse/hgg-roborail-rag/blob/1e02ee1a8ccdcc47d1a6940bf975f1f8ce4ed02d/.env.docker",
+      "line_number": 17,
+      "line_preview": "DATABASE_URL=postgresql://postgres:postgres@postgres:5432/roborail_prod",
       "key_type": "database_url",
       "description": "Database Connection String",
       "severity": "critical",
-      "matched_pattern": "DATA*************************************************************eway",
-      "timestamp": "2026-04-03T07:46:02.165629"
+      "matched_pattern": "DATA***************************************************************prod",
+      "timestamp": "2026-04-13T06:03:07.541195"
     },
     {
       "service": "database",
-      "file": ".env.local.example",
-      "repository": "LukeKosner/Zekher",
-      "url": "https://github.com/LukeKosner/Zekher/blob/6dcb984c96fc402a6953572809be4a914005ab2f/.env.local.example",
-      "line_number": 5,
-      "line_preview": "DATABASE_URL=\"postgresql://user:password@host:5432/zekher?sslmode=require\"",
+      "file": ".env.server.template",
+      "repository": "sobebarali/ecoready",
+      "url": "https://github.com/sobebarali/ecoready/blob/4523b05eda466226beb9e9a91344a148b1dd1f56/.env.server.template",
+      "line_number": 8,
+      "line_preview": "DATABASE_URL=mongodb://admin:password@localhost:27017/ecoready?authSource=admin",
       "key_type": "database_url",
       "description": "Database Connection String",
       "severity": "critical",
-      "matched_pattern": "DATA******************************************************************ire\"",
-      "timestamp": "2026-04-03T07:46:02.609693"
-    },
-    {
-      "service": "database",
-      "file": "config.env",
-      "repository": "srnadimovska/soils_app",
-      "url": "https://github.com/srnadimovska/soils_app/blob/d7b3b2a77356141d461a0f2ecc8d5779e870d86b/config.env",
-      "line_number": 3,
-      "line_preview": "DATABASE_PASSWORD = wzXYdglZjoLNTUe2",
-      "key_type": "database_password",
-      "description": "Database Password",
-      "severity": "high",
-      "matched_pattern": "wzXY********TUe2",
-      "timestamp": "2026-04-03T07:46:03.831602"
+      "matched_pattern": "DATA***********************************************************************dmin",
+      "timestamp": "2026-04-13T06:03:11.723892"
     },
     {
       "service": "database",
@@ -92,7 +79,33 @@
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA*****************************************************************r_v2",
-      "timestamp": "2026-04-03T07:46:05.085720"
+      "timestamp": "2026-04-13T06:03:12.133851"
+    },
+    {
+      "service": "database",
+      "file": "control-plane/.env.base",
+      "repository": "inferablehq/inferable",
+      "url": "https://github.com/inferablehq/inferable/blob/c67acb8172cf0957ce872c818d8d4a8434f20f75/control-plane/.env.base",
+      "line_number": 6,
+      "line_preview": "DATABASE_URL=\"postgresql://inferable:inferable@localhost:5432/inferable\"",
+      "key_type": "database_url",
+      "description": "Database Connection String",
+      "severity": "critical",
+      "matched_pattern": "DATA****************************************************************ble\"",
+      "timestamp": "2026-04-13T06:03:12.396099"
+    },
+    {
+      "service": "database",
+      "file": ".env.production.example",
+      "repository": "corydkidd/sumis-contract-intelligence",
+      "url": "https://github.com/corydkidd/sumis-contract-intelligence/blob/2a8b51c88176ad016715ca8e5863a36a58327269/.env.production.example",
+      "line_number": 7,
+      "line_preview": "DATABASE_URL=postgresql://postgres:[password]@db.[project-ref].supabase.co:5432/postgres",
+      "key_type": "database_url",
+      "description": "Database Connection String",
+      "severity": "critical",
+      "matched_pattern": "DATA********************************************************************************gres",
+      "timestamp": "2026-04-13T06:03:12.483382"
     },
     {
       "service": "database",
@@ -105,163 +118,7 @@
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA*************************************************************g_db",
-      "timestamp": "2026-04-03T07:46:05.362431"
-    },
-    {
-      "service": "database",
-      "file": "Youtube_clone/.env(sample)",
-      "repository": "Jual-Sunil/FastAPI",
-      "url": "https://github.com/Jual-Sunil/FastAPI/blob/b33b2a49805d427774c7e847a323737a47e1281e/Youtube_clone/.env(sample)",
-      "line_number": 6,
-      "line_preview": "LOCAL_DATABASE_URL = postgresql://USER:PASSWORD@localhost:5432/Database",
-      "key_type": "database_url",
-      "description": "Database Connection String",
-      "severity": "critical",
-      "matched_pattern": "DATA*********************************************************base",
-      "timestamp": "2026-04-03T07:46:05.447408"
-    },
-    {
-      "service": "database",
-      "file": ".env.local",
-      "repository": "sudanva21/Career-Advisor-SIH",
-      "url": "https://github.com/sudanva21/Career-Advisor-SIH/blob/36d5272b7d80719b8c19696bbb6500b652ee9b14/.env.local",
-      "line_number": 25,
-      "line_preview": "DATABASE_URL=\"postgresql://postgres:Akash%401234@db.tyymopgkofdscyyghvyp.supabase.co:5432/postgres\"",
-      "key_type": "database_url",
-      "description": "Database Connection String",
-      "severity": "critical",
-      "matched_pattern": "DATA*******************************************************************************************res\"",
-      "timestamp": "2026-04-03T07:46:05.772938"
-    },
-    {
-      "service": "database",
-      "file": "examples/agenticx-for-future-prediction/.env.example",
-      "repository": "DemonDamon/AgenticX",
-      "url": "https://github.com/DemonDamon/AgenticX/blob/609c706e71acbe79405356077de1a516b28a1782/examples/agenticx-for-future-prediction/.env.example",
-      "line_number": 74,
-      "line_preview": "DATABASE_URL=postgresql://postgres:password@postgres:5432/agenticx",
-      "key_type": "database_url",
-      "description": "Database Connection String",
-      "severity": "critical",
-      "matched_pattern": "DATA**********************************************************ticx",
-      "timestamp": "2026-04-03T07:46:05.986474"
-    },
-    {
-      "service": "database",
-      "file": "infra.env",
-      "repository": "tradermaster74-code/JGNEXT_local_dev",
-      "url": "https://github.com/tradermaster74-code/JGNEXT_local_dev/blob/e9a0425e436e7d85343bd28909b6457c3bd7b0bb/infra.env",
-      "line_number": 5,
-      "line_preview": "DATABASE_URL=postgresql+asyncpg://jg_admin:admin123@localhost:5432/jgnext",
-      "key_type": "database_url",
-      "description": "Database Connection String",
-      "severity": "critical",
-      "matched_pattern": "DATA*****************************************************************next",
-      "timestamp": "2026-04-03T07:46:06.322512"
-    },
-    {
-      "service": "database",
-      "file": ".env-neon",
-      "repository": "dranandnandi/gmbreviewsystemwithneondb",
-      "url": "https://github.com/dranandnandi/gmbreviewsystemwithneondb/blob/fc1fbfd294f39979d42af369cc3d2415f6a3e0d0/.env-neon",
-      "line_number": 3,
-      "line_preview": "NEON_DATABASE_URL=postgresql://neondb_owner:npg_tIC1vZHAh3Ry@ep-purple-frog-aemziw9j-pooler.c-2.us-east-2.aws.neon.tech/",
-      "key_type": "database_url",
-      "description": "Database Connection String",
-      "severity": "critical",
-      "matched_pattern": "DATA*********************************************************************************************************************************************************uire",
-      "timestamp": "2026-04-03T07:46:08.331892"
-    },
-    {
-      "service": "database",
-      "file": "apps/api/.env.staging.example",
-      "repository": "Bl4cKr0W2/vpc-music",
-      "url": "https://github.com/Bl4cKr0W2/vpc-music/blob/4dd81d3c77ef3eb6bb83a8605cdaddc7abed8709/apps/api/.env.staging.example",
-      "line_number": 10,
-      "line_preview": "DATABASE_URL=postgresql://admin:jvpfgZ-W_s9*duvxN*EW@postgresql-204635-0.cloudclusters.net:10061/vpc-music-stg",
-      "key_type": "database_url",
-      "description": "Database Connection String",
-      "severity": "critical",
-      "matched_pattern": "DATA******************************************************************************************************-stg",
-      "timestamp": "2026-04-03T07:46:08.974804"
-    },
-    {
-      "service": "database",
-      "file": ".env.production.example",
-      "repository": "YevheniiaDolska/aibl",
-      "url": "https://github.com/YevheniiaDolska/aibl/blob/af8dc2502b990dbebf64bc321d30b4569d278710/.env.production.example",
-      "line_number": 354,
-      "line_preview": "DATABASE_URL=postgresql://user:password@localhost:5432/aidol",
-      "key_type": "database_url",
-      "description": "Database Connection String",
-      "severity": "critical",
-      "matched_pattern": "DATA****************************************************idol",
-      "timestamp": "2026-04-03T07:46:09.721847"
-    },
-    {
-      "service": "database",
-      "file": ".env.model",
-      "repository": "MTES-MCT/trackdechets",
-      "url": "https://github.com/MTES-MCT/trackdechets/blob/6d20759c0a961a57139bc0dcadbe64c02cc90737/.env.model",
-      "line_number": 37,
-      "line_preview": "DATABASE_URL=postgresql://USER:PWD@HOST:PORT/DB_NAME",
-      "key_type": "database_url",
-      "description": "Database Connection String",
-      "severity": "critical",
-      "matched_pattern": "DATA********************************************NAME",
-      "timestamp": "2026-04-03T07:46:09.806120"
-    },
-    {
-      "service": "database",
-      "file": ".env",
-      "repository": "shomere/kira_psycho_clinics",
-      "url": "https://github.com/shomere/kira_psycho_clinics/blob/418b0148701a91cdec6ec547e7098d357309b639/.env",
-      "line_number": 4,
-      "line_preview": "DATABASE_URL=postgresql://neondb_owner:npg_7PDeApwVn6uQ@ep-wispy-sun-agpjb3kb-pooler.c-2.eu-central-1.aws.neon.tech/neon",
-      "key_type": "database_url",
-      "description": "Database Connection String",
-      "severity": "critical",
-      "matched_pattern": "DATA**********************************************************************************************************************************************************uire",
-      "timestamp": "2026-04-03T07:46:11.242750"
-    },
-    {
-      "service": "database",
-      "file": ".env.production.template",
-      "repository": "mtarikucar/kds",
-      "url": "https://github.com/mtarikucar/kds/blob/60834d515f559a5bc21ec21925f1d2b76e47080c/.env.production.template",
-      "line_number": 10,
-      "line_preview": "DATABASE_URL=postgresql://postgres:CHANGE_THIS_STRONG_PASSWORD@postgres:5432/restaurant_pos_prod",
-      "key_type": "database_url",
-      "description": "Database Connection String",
-      "severity": "critical",
-      "matched_pattern": "DATA****************************************************************************************prod",
-      "timestamp": "2026-04-03T07:46:13.193748"
-    },
-    {
-      "service": "database",
-      "file": ".env.sample",
-      "repository": "stephancill/open-browser-wallet",
-      "url": "https://github.com/stephancill/open-browser-wallet/blob/b05a3cf66d4eb1b26d75951d6a8fb122896ae7f2/.env.sample",
-      "line_number": 8,
-      "line_preview": "DATABASE_URL=\"postgresql://postgres:password@localhost:5432/postgres\"",
-      "key_type": "database_url",
-      "description": "Database Connection String",
-      "severity": "critical",
-      "matched_pattern": "DATA*************************************************************res\"",
-      "timestamp": "2026-04-03T07:46:14.108587"
-    },
-    {
-      "service": "database",
-      "file": "deployment/kubernetes/secret.yaml.example",
-      "repository": "majiayu000/litellm-rs",
-      "url": "https://github.com/majiayu000/litellm-rs/blob/63f0c2b6faf9e38d7a43c76e0a91550c7c69f2e5/deployment/kubernetes/secret.yaml.example",
-      "line_number": 19,
-      "line_preview": "DATABASE_URL: \"postgresql://gateway:YOUR_DB_PASSWORD@postgres-service:5432/gateway\"",
-      "key_type": "database_url",
-      "description": "Database Connection String",
-      "severity": "critical",
-      "matched_pattern": "DATA***************************************************************************way\"",
-      "timestamp": "2026-04-03T07:46:18.581410"
+      "timestamp": "2026-04-13T06:03:13.153533"
     },
     {
       "service": "database",
@@ -274,124 +131,202 @@
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA**************************************************************************qshy",
-      "timestamp": "2026-04-03T07:46:22.291806"
+      "timestamp": "2026-04-13T06:03:13.365915"
     },
     {
       "service": "database",
-      "file": "docs/demo/env.shared.example",
-      "repository": "POWERFULMOVES/PMOVES-DoX",
-      "url": "https://github.com/POWERFULMOVES/PMOVES-DoX/blob/3b212bb36d5a0440a6a7ad3ca99078299621a7d6/docs/demo/env.shared.example",
-      "line_number": 239,
-      "line_preview": "CHANNEL_MONITOR_DATABASE_URL=postgresql://postgres:postgres@host.docker.internal:65432/postgres",
+      "file": ".env-neon",
+      "repository": "dranandnandi/gmbreviewsystemwithneondb",
+      "url": "https://github.com/dranandnandi/gmbreviewsystemwithneondb/blob/fc1fbfd294f39979d42af369cc3d2415f6a3e0d0/.env-neon",
+      "line_number": 3,
+      "line_preview": "NEON_DATABASE_URL=postgresql://neondb_owner:npg_tIC1vZHAh3Ry@ep-purple-frog-aemziw9j-pooler.c-2.us-east-2.aws.neon.tech/",
       "key_type": "database_url",
       "description": "Database Connection String",
       "severity": "critical",
-      "matched_pattern": "DATA***********************************************************************gres",
-      "timestamp": "2026-04-03T07:46:22.771894"
+      "matched_pattern": "DATA*********************************************************************************************************************************************************uire",
+      "timestamp": "2026-04-13T06:03:14.888945"
+    },
+    {
+      "service": "database",
+      "file": "apps/api/.env.staging.example",
+      "repository": "Bl4cKr0W2/vpc-music",
+      "url": "https://github.com/Bl4cKr0W2/vpc-music/blob/4dd81d3c77ef3eb6bb83a8605cdaddc7abed8709/apps/api/.env.staging.example",
+      "line_number": 10,
+      "line_preview": "DATABASE_URL=postgresql://admin:jvpfgZ-W_s9*duvxN*EW@postgresql-204635-0.cloudclusters.net:10061/vpc-music-stg",
+      "key_type": "database_url",
+      "description": "Database Connection String",
+      "severity": "critical",
+      "matched_pattern": "DATA******************************************************************************************************-stg",
+      "timestamp": "2026-04-13T06:03:15.425409"
     },
     {
       "service": "database",
       "file": ".env.production.example",
-      "repository": "LOSANDES-IA/LOGOS-AI-NATIVE-ECOSYSTEM",
-      "url": "https://github.com/LOSANDES-IA/LOGOS-AI-NATIVE-ECOSYSTEM/blob/0d6b036e3d31bd1f49e2caa95f327c9793453f00/.env.production.example",
-      "line_number": 14,
-      "line_preview": "DATABASE_URL=postgresql+asyncpg://logos_user:secure_password@postgres:5432/logos_prod",
+      "repository": "YevheniiaDolska/aibl",
+      "url": "https://github.com/YevheniiaDolska/aibl/blob/af8dc2502b990dbebf64bc321d30b4569d278710/.env.production.example",
+      "line_number": 354,
+      "line_preview": "DATABASE_URL=postgresql://user:password@localhost:5432/aidol",
       "key_type": "database_url",
       "description": "Database Connection String",
       "severity": "critical",
-      "matched_pattern": "DATA*****************************************************************************prod",
-      "timestamp": "2026-04-03T07:46:23.048080"
+      "matched_pattern": "DATA****************************************************idol",
+      "timestamp": "2026-04-13T06:03:16.190080"
     },
     {
       "service": "database",
-      "file": "backend/env.example",
-      "repository": "sayantanmandal1/timeandspace",
-      "url": "https://github.com/sayantanmandal1/timeandspace/blob/8847d7de31e0af3df3ee3c8c8d4db20c45158f7c/backend/env.example",
+      "file": ".env.model",
+      "repository": "MTES-MCT/trackdechets",
+      "url": "https://github.com/MTES-MCT/trackdechets/blob/9884b55f97eaf8c0ae2ee31dd430d04434f4690b/.env.model",
+      "line_number": 37,
+      "line_preview": "DATABASE_URL=postgresql://USER:PWD@HOST:PORT/DB_NAME",
+      "key_type": "database_url",
+      "description": "Database Connection String",
+      "severity": "critical",
+      "matched_pattern": "DATA********************************************NAME",
+      "timestamp": "2026-04-13T06:03:16.295429"
+    },
+    {
+      "service": "database",
+      "file": "strategy_engine/src/render.env.md",
+      "repository": "TemamAb/alpha",
+      "url": "https://github.com/TemamAb/alpha/blob/80be4d1acaeff2db132ac414b08d0c7982165f2e/strategy_engine/src/render.env.md",
+      "line_number": 4,
+      "line_preview": "DATABASE_URL=postgresql://aineon:password@localhost:5432/aineon",
+      "key_type": "database_url",
+      "description": "Database Connection String",
+      "severity": "critical",
+      "matched_pattern": "DATA*******************************************************neon",
+      "timestamp": "2026-04-13T06:03:17.144540"
+    },
+    {
+      "service": "database",
+      "file": ".env",
+      "repository": "shomere/kira_psycho_clinics",
+      "url": "https://github.com/shomere/kira_psycho_clinics/blob/418b0148701a91cdec6ec547e7098d357309b639/.env",
+      "line_number": 4,
+      "line_preview": "DATABASE_URL=postgresql://neondb_owner:npg_7PDeApwVn6uQ@ep-wispy-sun-agpjb3kb-pooler.c-2.eu-central-1.aws.neon.tech/neon",
+      "key_type": "database_url",
+      "description": "Database Connection String",
+      "severity": "critical",
+      "matched_pattern": "DATA**********************************************************************************************************************************************************uire",
+      "timestamp": "2026-04-13T06:03:17.512161"
+    },
+    {
+      "service": "database",
+      "file": ".env.production.template",
+      "repository": "mtarikucar/kds",
+      "url": "https://github.com/mtarikucar/kds/blob/149604d7b2e3ddfaad4a0723f723efa970620632/.env.production.template",
+      "line_number": 10,
+      "line_preview": "DATABASE_URL=postgresql://postgres:CHANGE_THIS_STRONG_PASSWORD@postgres:5432/restaurant_pos_prod",
+      "key_type": "database_url",
+      "description": "Database Connection String",
+      "severity": "critical",
+      "matched_pattern": "DATA****************************************************************************************prod",
+      "timestamp": "2026-04-13T06:03:19.332195"
+    },
+    {
+      "service": "database",
+      "file": ".env.production.template",
+      "repository": "nftecnologia/crmbet-gaming-pinecone",
+      "url": "https://github.com/nftecnologia/crmbet-gaming-pinecone/blob/4cd133d628077a86756b5ee0456d62a0b5a5ae56/.env.production.template",
+      "line_number": 16,
+      "line_preview": "DATABASE_URL=postgresql://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_NAME}",
+      "key_type": "database_url",
+      "description": "Database Connection String",
+      "severity": "critical",
+      "matched_pattern": "DATA****************************************************************************AME}",
+      "timestamp": "2026-04-13T06:03:19.433838"
+    },
+    {
+      "service": "database",
+      "file": ".env.sample",
+      "repository": "stephancill/open-browser-wallet",
+      "url": "https://github.com/stephancill/open-browser-wallet/blob/b05a3cf66d4eb1b26d75951d6a8fb122896ae7f2/.env.sample",
+      "line_number": 8,
+      "line_preview": "DATABASE_URL=\"postgresql://postgres:password@localhost:5432/postgres\"",
+      "key_type": "database_url",
+      "description": "Database Connection String",
+      "severity": "critical",
+      "matched_pattern": "DATA*************************************************************res\"",
+      "timestamp": "2026-04-13T06:03:20.526392"
+    },
+    {
+      "service": "database",
+      "file": "deployment/kubernetes/secret.yaml.example",
+      "repository": "majiayu000/litellm-rs",
+      "url": "https://github.com/majiayu000/litellm-rs/blob/22b71f5bf640873e8ad8beaf62756a485f224315/deployment/kubernetes/secret.yaml.example",
+      "line_number": 19,
+      "line_preview": "DATABASE_URL: \"postgresql://gateway:YOUR_DB_PASSWORD@postgres-service:5432/gateway\"",
+      "key_type": "database_url",
+      "description": "Database Connection String",
+      "severity": "critical",
+      "matched_pattern": "DATA***************************************************************************way\"",
+      "timestamp": "2026-04-13T06:03:24.543988"
+    },
+    {
+      "service": "database",
+      "file": "staging.env.example",
+      "repository": "tradermaster74-code/JGNEXT_local_dev",
+      "url": "https://github.com/tradermaster74-code/JGNEXT_local_dev/blob/e9a0425e436e7d85343bd28909b6457c3bd7b0bb/staging.env.example",
       "line_number": 29,
-      "line_preview": "DATABASE_URL=postgresql://username:password@localhost:5432/dsa_analysis",
+      "line_preview": "DATABASE_URL=postgresql://jgnext:CHANGE_ME_POSTGRES_PASSWORD@postgres:5432/jgnext_staging",
       "key_type": "database_url",
       "description": "Database Connection String",
       "severity": "critical",
-      "matched_pattern": "DATA***************************************************************ysis",
-      "timestamp": "2026-04-03T07:46:23.141558"
+      "matched_pattern": "DATA*********************************************************************************ging",
+      "timestamp": "2026-04-13T06:03:26.493523"
     },
     {
       "service": "database",
-      "file": "env.example",
-      "repository": "SivanRP/studysync",
-      "url": "https://github.com/SivanRP/studysync/blob/54efe7f61dc4be17c020d3ad6cf05e82a165bb4f/env.example",
-      "line_number": 7,
-      "line_preview": "DATABASE_URL=\"postgresql://username:password@localhost:5432/studysync\"",
+      "file": "docs/getting-started/claudeDL/env.vm.example",
+      "repository": "rzepeda/ragTools",
+      "url": "https://github.com/rzepeda/ragTools/blob/e70eb327bb487a6f8e639ec8376e5805b8f1da79/docs/getting-started/claudeDL/env.vm.example",
+      "line_number": 26,
+      "line_preview": "DATABASE_URL=postgresql://rag_user:rag_password@${HOST_IP}:5432/rag_factory",
       "key_type": "database_url",
       "description": "Database Connection String",
       "severity": "critical",
-      "matched_pattern": "DATA**************************************************************ync\"",
-      "timestamp": "2026-04-03T07:46:23.507947"
-    },
-    {
-      "service": "database",
-      "file": "env.example",
-      "repository": "YuvDwi/Quilt",
-      "url": "https://github.com/YuvDwi/Quilt/blob/3b74d6ea1b93e76100afa4b7ba31f32d58fcc3a3/env.example",
-      "line_number": 2,
-      "line_preview": "DATABASE_URL=postgresql://quilt_user:your_secure_password@localhost:5432/quilt_embeddings",
-      "key_type": "database_url",
-      "description": "Database Connection String",
-      "severity": "critical",
-      "matched_pattern": "DATA*********************************************************************************ings",
-      "timestamp": "2026-04-03T07:46:23.616574"
+      "matched_pattern": "DATA*******************************************************************tory",
+      "timestamp": "2026-04-13T06:03:26.608255"
     },
     {
       "service": "database",
       "file": ".env.local.example",
-      "repository": "RostislavDublin/rag-lab",
-      "url": "https://github.com/RostislavDublin/rag-lab/blob/cecadcb448d3d626ebd19ee7fccbaa418e679cd3/.env.local.example",
+      "repository": "LukeKosner/Zekher",
+      "url": "https://github.com/LukeKosner/Zekher/blob/6dcb984c96fc402a6953572809be4a914005ab2f/.env.local.example",
       "line_number": 5,
-      "line_preview": "DATABASE_URL=postgresql://rag_user:your-password@localhost:5432/rag_db",
+      "line_preview": "DATABASE_URL=\"postgresql://user:password@host:5432/zekher?sslmode=require\"",
       "key_type": "database_url",
       "description": "Database Connection String",
       "severity": "critical",
-      "matched_pattern": "DATA**************************************************************g_db",
-      "timestamp": "2026-04-03T07:46:23.877326"
+      "matched_pattern": "DATA******************************************************************ire\"",
+      "timestamp": "2026-04-13T06:03:27.988624"
     },
     {
       "service": "database",
-      "file": "config/env.example",
-      "repository": "memaxo/alfred",
-      "url": "https://github.com/memaxo/alfred/blob/226a597e8c9c64ce54d079da0f9b834eca369d6c/config/env.example",
-      "line_number": 10,
-      "line_preview": "DATABASE_URL=postgresql://alfred:alfred@localhost:5432/alfred",
+      "file": "services/api/env.example",
+      "repository": "derril-tech/ai-local-rag-system",
+      "url": "https://github.com/derril-tech/ai-local-rag-system/blob/1cdaa27c05f27a02a58ed1ab3f0618e599e17b38/services/api/env.example",
+      "line_number": 14,
+      "line_preview": "DATABASE_URL=postgresql+asyncpg://postgres:password@localhost:5432/rag_system",
       "key_type": "database_url",
       "description": "Database Connection String",
       "severity": "critical",
-      "matched_pattern": "DATA*****************************************************fred",
-      "timestamp": "2026-04-03T07:46:24.003038"
-    },
-    {
-      "service": "database",
-      "file": ".env.example",
-      "repository": "agentset-ai/agentset",
-      "url": "https://github.com/agentset-ai/agentset/blob/76ff0f981a54a6f61b56810705298aef5c3188b2/.env.example",
-      "line_number": 2,
-      "line_preview": "DATABASE_URL=\"postgresql://postgres:password@localhost:5432/app.agentset.ai\"",
-      "key_type": "database_url",
-      "description": "Database Connection String",
-      "severity": "critical",
-      "matched_pattern": "DATA********************************************************************.ai\"",
-      "timestamp": "2026-04-03T07:46:24.264682"
+      "matched_pattern": "DATA*********************************************************************stem",
+      "timestamp": "2026-04-13T06:03:30.554093"
     },
     {
       "service": "database",
       "file": "proposal-executor/deployment/staging/secrets.yaml.example",
       "repository": "geobrowser/gaia",
-      "url": "https://github.com/geobrowser/gaia/blob/3692277f287397e62ec0e4864c63481405b07f31/proposal-executor/deployment/staging/secrets.yaml.example",
+      "url": "https://github.com/geobrowser/gaia/blob/e9f89f0254d266d71652e4244cf53c7dd0047ee9/proposal-executor/deployment/staging/secrets.yaml.example",
       "line_number": 17,
       "line_preview": "DATABASE_URL: \"postgresql://readonly_user:password@host:5432/dbname\"",
       "key_type": "database_url",
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA************************************************************ame\"",
-      "timestamp": "2026-04-03T07:46:26.604252"
+      "timestamp": "2026-04-13T06:03:33.037331"
     },
     {
       "service": "database",
@@ -404,7 +339,7 @@
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA******************************************************************n_db",
-      "timestamp": "2026-04-03T07:46:29.325959"
+      "timestamp": "2026-04-13T06:03:34.357472"
     },
     {
       "service": "database",
@@ -417,20 +352,20 @@
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA**************************************************************ket\"",
-      "timestamp": "2026-04-03T07:46:31.085028"
+      "timestamp": "2026-04-13T06:03:36.392632"
     },
     {
       "service": "database",
       "file": ".env.example",
-      "repository": "enuda-labs/label-x",
-      "url": "https://github.com/enuda-labs/label-x/blob/49802d7cf0d53433741dbce65bf07c8e0f1857cf/.env.example",
-      "line_number": 6,
-      "line_preview": "DATABASE_URL=postgres://user:password@localhost:5432/dbname",
+      "repository": "Matthew-Booth-Py/data-labeller",
+      "url": "https://github.com/Matthew-Booth-Py/data-labeller/blob/3009ded5dcabeae3e6b0737c3991e7c0a23829c0/.env.example",
+      "line_number": 26,
+      "line_preview": "DJANGO_DATABASE_URL=postgres://uu:uu@postgres:5432/uu_django",
       "key_type": "database_url",
       "description": "Database Connection String",
       "severity": "critical",
-      "matched_pattern": "DATA***************************************************name",
-      "timestamp": "2026-04-03T07:46:32.105502"
+      "matched_pattern": "DATA*********************************************ango",
+      "timestamp": "2026-04-13T06:03:36.739097"
     },
     {
       "service": "database",
@@ -443,7 +378,20 @@
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA*********************************************************************************************************************rue\"",
-      "timestamp": "2026-04-03T07:46:33.110212"
+      "timestamp": "2026-04-13T06:03:38.819282"
+    },
+    {
+      "service": "database",
+      "file": "server/env.example",
+      "repository": "Damzy-23/NourishNeural",
+      "url": "https://github.com/Damzy-23/NourishNeural/blob/ddaa710e317d81808aa7518787bc970c2e50cee3/server/env.example",
+      "line_number": 7,
+      "line_preview": "DATABASE_URL=postgresql://username:password@localhost:5432/pantrypal",
+      "key_type": "database_url",
+      "description": "Database Connection String",
+      "severity": "critical",
+      "matched_pattern": "DATA************************************************************ypal",
+      "timestamp": "2026-04-13T06:03:39.340101"
     },
     {
       "service": "database",
@@ -456,7 +404,7 @@
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA****************************************************************************************************************************uire",
-      "timestamp": "2026-04-03T07:46:34.101992"
+      "timestamp": "2026-04-13T06:03:40.375248"
     },
     {
       "service": "database",
@@ -468,8 +416,8 @@
       "key_type": "database_password",
       "description": "Database Password",
       "severity": "high",
-      "matched_pattern": "DATA**************************IX6P",
-      "timestamp": "2026-04-03T07:46:34.102167"
+      "matched_pattern": "npg_********IX6P",
+      "timestamp": "2026-04-13T06:03:40.376858"
     },
     {
       "service": "database",
@@ -482,7 +430,7 @@
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA**********************************************************pace",
-      "timestamp": "2026-04-03T07:46:34.273859"
+      "timestamp": "2026-04-13T06:03:40.497042"
     },
     {
       "service": "database",
@@ -495,7 +443,20 @@
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA************************************************************mydb",
-      "timestamp": "2026-04-03T07:46:34.801518"
+      "timestamp": "2026-04-13T06:03:41.012332"
+    },
+    {
+      "service": "database",
+      "file": ".env.local",
+      "repository": "sudanva21/Career-Advisor-SIH",
+      "url": "https://github.com/sudanva21/Career-Advisor-SIH/blob/36d5272b7d80719b8c19696bbb6500b652ee9b14/.env.local",
+      "line_number": 25,
+      "line_preview": "DATABASE_URL=\"postgresql://postgres:Akash%401234@db.tyymopgkofdscyyghvyp.supabase.co:5432/postgres\"",
+      "key_type": "database_url",
+      "description": "Database Connection String",
+      "severity": "critical",
+      "matched_pattern": "DATA*******************************************************************************************res\"",
+      "timestamp": "2026-04-13T06:03:41.661696"
     },
     {
       "service": "database",
@@ -508,7 +469,7 @@
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA***************************************************************udio",
-      "timestamp": "2026-04-03T07:46:35.454163"
+      "timestamp": "2026-04-13T06:03:41.895524"
     },
     {
       "service": "database",
@@ -521,7 +482,7 @@
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA***************************************************************************ent\"",
-      "timestamp": "2026-04-03T07:46:47.923735"
+      "timestamp": "2026-04-13T06:03:53.948537"
     },
     {
       "service": "database",
@@ -534,20 +495,7 @@
       "description": "Database Connection String",
       "severity": "critical",
       "matched_pattern": "DATA****************************************************************************data",
-      "timestamp": "2026-04-03T07:46:48.195804"
-    },
-    {
-      "service": "database",
-      "file": "backend/.env.development",
-      "repository": "oguzbenturk/UKC.world",
-      "url": "https://github.com/oguzbenturk/UKC.world/blob/330f88fdf8c3a9b622f6af8c8192c3154045de23/backend/.env.development",
-      "line_number": 3,
-      "line_preview": "DATABASE_URL=postgresql://plannivo:WHMgux86@217.154.201.29:5432/plannivo",
-      "key_type": "database_url",
-      "description": "Database Connection String",
-      "severity": "critical",
-      "matched_pattern": "DATA****************************************************************nivo",
-      "timestamp": "2026-04-03T07:46:54.514279"
+      "timestamp": "2026-04-13T06:03:54.251617"
     }
   ]
 }

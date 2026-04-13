@@ -1,8 +1,73 @@
 {
   "service": "tavily",
-  "scan_timestamp": "2026-04-03T07:46:55.811682",
-  "finding_count": 4,
+  "scan_timestamp": "2026-04-13T06:04:01.990292",
+  "finding_count": 9,
   "findings": [
+    {
+      "service": "tavily",
+      "file": ".env_sample",
+      "repository": "jia5232/langchain_teddy",
+      "url": "https://github.com/jia5232/langchain_teddy/blob/1999da031d689326fc7db9596b4a29b10076e290/.env_sample",
+      "line_number": 7,
+      "line_preview": "TAVILY_API_KEY=tvly-mGxBGvzbH...",
+      "key_type": "tavily_api_key",
+      "description": "Tavily Api Key",
+      "severity": "medium",
+      "matched_pattern": "tvly*********H...",
+      "timestamp": "2026-04-13T06:03:07.475266"
+    },
+    {
+      "service": "tavily",
+      "file": ".env_sample",
+      "repository": "IHAGI-c/langchain-study",
+      "url": "https://github.com/IHAGI-c/langchain-study/blob/e1d2ade5cd6605f27240005edcfbd7cc1c6dba8b/.env_sample",
+      "line_number": 9,
+      "line_preview": "TAVILY_API_KEY=tvly-mGxBGvzbH...",
+      "key_type": "tavily_api_key",
+      "description": "Tavily Api Key",
+      "severity": "medium",
+      "matched_pattern": "TAVI************************H...",
+      "timestamp": "2026-04-13T06:03:08.500060"
+    },
+    {
+      "service": "tavily",
+      "file": ".env_sample",
+      "repository": "bm1120/RAG_practice",
+      "url": "https://github.com/bm1120/RAG_practice/blob/7185d868713816c003074f3d80c7b2e2238cff88/.env_sample",
+      "line_number": 7,
+      "line_preview": "TAVILY_API_KEY=tvly-mGxBGvzbH...",
+      "key_type": "tavily_api_key",
+      "description": "Tavily Api Key",
+      "severity": "medium",
+      "matched_pattern": "TAVI************************H...",
+      "timestamp": "2026-04-13T06:03:08.825611"
+    },
+    {
+      "service": "tavily",
+      "file": ".env_sample",
+      "repository": "BeomgiSo0613/fast_campus_rag",
+      "url": "https://github.com/BeomgiSo0613/fast_campus_rag/blob/7ea856023099fe7fab6af79a2535e675571fccc7/.env_sample",
+      "line_number": 7,
+      "line_preview": "TAVILY_API_KEY=tvly-mGxBGvzbH...",
+      "key_type": "tavily_api_key",
+      "description": "Tavily Api Key",
+      "severity": "medium",
+      "matched_pattern": "TAVI************************H...",
+      "timestamp": "2026-04-13T06:03:11.921475"
+    },
+    {
+      "service": "tavily",
+      "file": ".env_sample",
+      "repository": "venture21/langchain-kr",
+      "url": "https://github.com/venture21/langchain-kr/blob/fdb20d447083759b8c5cb814046fc85eaae8ed40/.env_sample",
+      "line_number": 7,
+      "line_preview": "TAVILY_API_KEY=tvly-mGxBGvzbH...",
+      "key_type": "tavily_api_key",
+      "description": "Tavily Api Key",
+      "severity": "medium",
+      "matched_pattern": "TAVI************************H...",
+      "timestamp": "2026-04-13T06:03:12.056317"
+    },
     {
       "service": "tavily",
       "file": ".env",
@@ -14,7 +79,7 @@
       "description": "Tavily API Key",
       "severity": "high",
       "matched_pattern": "tvly*****************************2Xo0",
-      "timestamp": "2026-04-03T07:46:13.487585"
+      "timestamp": "2026-04-13T06:03:19.886748"
     },
     {
       "service": "tavily",
@@ -27,7 +92,7 @@
       "description": "Tavily API Key (named var)",
       "severity": "high",
       "matched_pattern": "TAVI**********************************************2Xo0",
-      "timestamp": "2026-04-03T07:46:13.487628"
+      "timestamp": "2026-04-13T06:03:19.886790"
     },
     {
       "service": "tavily",
@@ -40,7 +105,7 @@
       "description": "Tavily API Key",
       "severity": "high",
       "matched_pattern": "tvly*****************************jSg2",
-      "timestamp": "2026-04-03T07:46:13.856050"
+      "timestamp": "2026-04-13T06:03:20.252512"
     },
     {
       "service": "tavily",
@@ -53,7 +118,7 @@
       "description": "Tavily API Key (named var)",
       "severity": "high",
       "matched_pattern": "TAVI********************************************jSg2",
-      "timestamp": "2026-04-03T07:46:13.856092"
+      "timestamp": "2026-04-13T06:03:20.252554"
     }
   ]
 }

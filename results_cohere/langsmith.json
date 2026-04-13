@@ -1,8 +1,21 @@
 {
   "service": "langsmith",
-  "scan_timestamp": "2026-03-27T07:45:01.124183",
-  "finding_count": 1,
+  "scan_timestamp": "2026-04-13T06:04:01.983579",
+  "finding_count": 2,
   "findings": [
+    {
+      "service": "langsmith",
+      "file": ".env_sample",
+      "repository": "jia5232/langchain_teddy",
+      "url": "https://github.com/jia5232/langchain_teddy/blob/1999da031d689326fc7db9596b4a29b10076e290/.env_sample",
+      "line_number": 5,
+      "line_preview": "LANGSMITH_API_KEY=ls__69f274d55...",
+      "key_type": "langsmith_api_key",
+      "description": "Langsmith Api Key",
+      "severity": "medium",
+      "matched_pattern": "ls__********5...",
+      "timestamp": "2026-04-13T06:03:07.475221"
+    },
     {
       "service": "langsmith",
       "file": ".env_sample",
@@ -13,8 +26,8 @@
       "key_type": "langsmith_api_key",
       "description": "Langsmith Api Key",
       "severity": "medium",
-      "matched_pattern": "ls__********5...",
-      "timestamp": "2026-03-27T07:44:01.280626"
+      "matched_pattern": "LANG**************************5...",
+      "timestamp": "2026-04-13T06:03:12.056233"
     }
   ]
 }

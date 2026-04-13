@@ -1,6 +1,6 @@
 {
   "service": "nextauth",
-  "scan_timestamp": "2026-04-03T07:46:55.805955",
+  "scan_timestamp": "2026-04-13T06:04:01.985327",
   "finding_count": 7,
   "findings": [
     {
@@ -14,33 +14,33 @@
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "http*************3000",
-      "timestamp": "2026-04-03T07:45:59.561816"
+      "timestamp": "2026-04-13T06:03:05.278141"
     },
     {
       "service": "nextauth",
-      "file": "env.example",
-      "repository": "khaphanpro-123/voichat1012",
-      "url": "https://github.com/khaphanpro-123/voichat1012/blob/a0c90873c3a83317f4ff120ba34ce9505dea55dd/env.example",
-      "line_number": 4,
-      "line_preview": "NEXTAUTH_URL=http://localhost:3001",
+      "file": ".env.docker",
+      "repository": "RyanLisse/hgg-roborail-rag",
+      "url": "https://github.com/RyanLisse/hgg-roborail-rag/blob/1e02ee1a8ccdcc47d1a6940bf975f1f8ce4ed02d/.env.docker",
+      "line_number": 42,
+      "line_preview": "NEXTAUTH_URL=http://localhost:3000",
       "key_type": "nextauth_url",
       "description": "Nextauth Url",
       "severity": "medium",
-      "matched_pattern": "NEXT**************************3001",
-      "timestamp": "2026-04-03T07:46:22.129040"
+      "matched_pattern": "NEXT**************************3000",
+      "timestamp": "2026-04-13T06:03:07.541287"
     },
     {
       "service": "nextauth",
-      "file": "env.example",
-      "repository": "SivanRP/studysync",
-      "url": "https://github.com/SivanRP/studysync/blob/54efe7f61dc4be17c020d3ad6cf05e82a165bb4f/env.example",
-      "line_number": 12,
-      "line_preview": "NEXTAUTH_URL=\"http://localhost:3000\"",
+      "file": "docs/misc/env.example",
+      "repository": "Azora-OS/azora",
+      "url": "https://github.com/Azora-OS/azora/blob/c828c400b3b369348eb038e4bb7c03d03cc29c7f/docs/misc/env.example",
+      "line_number": 56,
+      "line_preview": "NEXTAUTH_URL=http://localhost:3000",
       "key_type": "nextauth_url",
       "description": "Nextauth Url",
       "severity": "medium",
-      "matched_pattern": "NEXT****************************000\"",
-      "timestamp": "2026-04-03T07:46:23.508076"
+      "matched_pattern": "NEXT**************************3000",
+      "timestamp": "2026-04-13T06:03:29.366672"
     },
     {
       "service": "nextauth",
@@ -53,7 +53,7 @@
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "NEXT****************************000\"",
-      "timestamp": "2026-04-03T07:46:32.436663"
+      "timestamp": "2026-04-13T06:03:38.064196"
     },
     {
       "service": "nextauth",
@@ -66,7 +66,7 @@
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "NEXT**************************3000",
-      "timestamp": "2026-04-03T07:46:34.538514"
+      "timestamp": "2026-04-13T06:03:40.743278"
     },
     {
       "service": "nextauth",
@@ -79,7 +79,7 @@
       "description": "Nextauth Secret",
       "severity": "high",
       "matched_pattern": "NEXT*******************************************4_32",
-      "timestamp": "2026-04-03T07:46:35.454287"
+      "timestamp": "2026-04-13T06:03:41.895701"
     },
     {
       "service": "nextauth",
@@ -92,7 +92,7 @@
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "NEXT**************************3000",
-      "timestamp": "2026-04-03T07:46:35.454326"
+      "timestamp": "2026-04-13T06:03:41.895758"
     }
   ]
 }

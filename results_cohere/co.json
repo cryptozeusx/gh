@@ -1,8 +1,21 @@
 {
   "service": "co",
-  "scan_timestamp": "2026-04-03T07:46:55.795555",
-  "finding_count": 9,
+  "scan_timestamp": "2026-04-13T06:04:01.974915",
+  "finding_count": 11,
   "findings": [
+    {
+      "service": "co",
+      "file": "strategy_engine/src/render.env.md",
+      "repository": "TemamAb/alpha",
+      "url": "https://github.com/TemamAb/alpha/blob/80be4d1acaeff2db132ac414b08d0c7982165f2e/strategy_engine/src/render.env.md",
+      "line_number": 116,
+      "line_preview": "PIMLICO_API_KEY=pim_UbfKR9ocMe5ibNUCGgB8fE",
+      "key_type": "co_api_key",
+      "description": "Co Api Key",
+      "severity": "medium",
+      "matched_pattern": "CO_A*****************************B8fE",
+      "timestamp": "2026-04-13T06:03:17.144935"
+    },
     {
       "service": "co",
       "file": ".env",
@@ -14,7 +27,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************************89cf",
-      "timestamp": "2026-04-03T07:46:10.995754"
+      "timestamp": "2026-04-13T06:03:17.252467"
     },
     {
       "service": "co",
@@ -27,7 +40,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*******************Q80T",
-      "timestamp": "2026-04-03T07:46:11.081786"
+      "timestamp": "2026-04-13T06:03:17.326452"
     },
     {
       "service": "co",
@@ -40,7 +53,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************************d5a3",
-      "timestamp": "2026-04-03T07:46:11.158445"
+      "timestamp": "2026-04-13T06:03:17.433285"
     },
     {
       "service": "co",
@@ -53,7 +66,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************s_90",
-      "timestamp": "2026-04-03T07:46:12.736520"
+      "timestamp": "2026-04-13T06:03:19.054884"
     },
     {
       "service": "co",
@@ -66,46 +79,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********************************61ad",
-      "timestamp": "2026-04-03T07:46:13.572002"
-    },
-    {
-      "service": "co",
-      "file": "public_html/.env.backup2",
-      "repository": "fazliozdemir33/bilgeai",
-      "url": "https://github.com/fazliozdemir33/bilgeai/blob/ef4deb167dee6bbc281163fc6c2a4cfc318584e7/public_html/.env.backup2",
-      "line_number": 103,
-      "line_preview": "IYZICO_API_KEY=pSw8IH2ejQVLz1ZvlwSFc77cDuqgTylK",
-      "key_type": "co_api_key",
-      "description": "Co Api Key",
-      "severity": "medium",
-      "matched_pattern": "CO_A***********************************TylK",
-      "timestamp": "2026-04-03T07:46:15.290324"
-    },
-    {
-      "service": "co",
-      "file": ".env.example",
-      "repository": "stevenfazzio/semantic-github-map",
-      "url": "https://github.com/stevenfazzio/semantic-github-map/blob/4035e2eb01d4e79769b8e41b7dabe95a93b9018d/.env.example",
-      "line_number": 3,
-      "line_preview": "CO_API_KEY=             # Cohere API key (embeddings + topic modeling)",
-      "key_type": "co_api_key",
-      "description": "Co Api Key",
-      "severity": "medium",
-      "matched_pattern": "# Co**************************************ing)",
-      "timestamp": "2026-04-03T07:46:30.795445"
-    },
-    {
-      "service": "co",
-      "file": "env.example",
-      "repository": "phamcamnguyen1994/metamask-monad-envio",
-      "url": "https://github.com/phamcamnguyen1994/metamask-monad-envio/blob/8e719f970f04c54e1131568922781015e7cfc8c6/env.example",
-      "line_number": 16,
-      "line_preview": "NEXT_PUBLIC_PIMLICO_API_KEY=pim_ki22Ti5FjpeeJguDHh9QcP",
-      "key_type": "co_api_key",
-      "description": "Co Api Key",
-      "severity": "medium",
-      "matched_pattern": "CO_A*****************************9QcP",
-      "timestamp": "2026-04-03T07:46:32.853854"
+      "timestamp": "2026-04-13T06:03:20.001051"
     },
     {
       "service": "co",
@@ -118,7 +92,59 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*******************************FcU'",
-      "timestamp": "2026-04-03T07:46:40.514395"
+      "timestamp": "2026-04-13T06:03:20.451337"
+    },
+    {
+      "service": "co",
+      "file": "public_html/.env.backup2",
+      "repository": "fazliozdemir33/bilgeai",
+      "url": "https://github.com/fazliozdemir33/bilgeai/blob/ef4deb167dee6bbc281163fc6c2a4cfc318584e7/public_html/.env.backup2",
+      "line_number": 103,
+      "line_preview": "IYZICO_API_KEY=pSw8IH2ejQVLz1ZvlwSFc77cDuqgTylK",
+      "key_type": "co_api_key",
+      "description": "Co Api Key",
+      "severity": "medium",
+      "matched_pattern": "CO_A***********************************TylK",
+      "timestamp": "2026-04-13T06:03:21.325332"
+    },
+    {
+      "service": "co",
+      "file": ".env.example",
+      "repository": "stevenfazzio/semantic-github-map",
+      "url": "https://github.com/stevenfazzio/semantic-github-map/blob/4035e2eb01d4e79769b8e41b7dabe95a93b9018d/.env.example",
+      "line_number": 3,
+      "line_preview": "CO_API_KEY=             # Cohere API key (embeddings + topic modeling)",
+      "key_type": "co_api_key",
+      "description": "Co Api Key",
+      "severity": "medium",
+      "matched_pattern": "# Co**************************************ing)",
+      "timestamp": "2026-04-13T06:03:34.190767"
+    },
+    {
+      "service": "co",
+      "file": ".env.example",
+      "repository": "stevenfazzio/claude-code-changelog-analysis",
+      "url": "https://github.com/stevenfazzio/claude-code-changelog-analysis/blob/fdddafdc79e27ea3fc9ac2bc142343ab95a392a1/.env.example",
+      "line_number": 2,
+      "line_preview": "CO_API_KEY=          # for embed stage (Cohere)",
+      "key_type": "co_api_key",
+      "description": "Co Api Key",
+      "severity": "medium",
+      "matched_pattern": "# fo******************ere)",
+      "timestamp": "2026-04-13T06:03:37.121000"
+    },
+    {
+      "service": "co",
+      "file": "env.example",
+      "repository": "phamcamnguyen1994/metamask-monad-envio",
+      "url": "https://github.com/phamcamnguyen1994/metamask-monad-envio/blob/8e719f970f04c54e1131568922781015e7cfc8c6/env.example",
+      "line_number": 16,
+      "line_preview": "NEXT_PUBLIC_PIMLICO_API_KEY=pim_ki22Ti5FjpeeJguDHh9QcP",
+      "key_type": "co_api_key",
+      "description": "Co Api Key",
+      "severity": "medium",
+      "matched_pattern": "CO_A*****************************9QcP",
+      "timestamp": "2026-04-13T06:03:38.572220"
     }
   ]
 }

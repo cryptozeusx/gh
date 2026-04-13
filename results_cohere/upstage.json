@@ -1,8 +1,34 @@
 {
   "service": "upstage",
-  "scan_timestamp": "2026-03-29T07:36:00.305069",
-  "finding_count": 1,
+  "scan_timestamp": "2026-04-13T06:04:01.990611",
+  "finding_count": 5,
   "findings": [
+    {
+      "service": "upstage",
+      "file": ".env_sample",
+      "repository": "jia5232/langchain_teddy",
+      "url": "https://github.com/jia5232/langchain_teddy/blob/1999da031d689326fc7db9596b4a29b10076e290/.env_sample",
+      "line_number": 11,
+      "line_preview": "UPSTAGE_API_KEY=up_oZ4HjE...",
+      "key_type": "upstage_api_key",
+      "description": "Upstage Api Key",
+      "severity": "medium",
+      "matched_pattern": "up_o****E...",
+      "timestamp": "2026-04-13T06:03:07.475359"
+    },
+    {
+      "service": "upstage",
+      "file": ".env_sample",
+      "repository": "IHAGI-c/langchain-study",
+      "url": "https://github.com/IHAGI-c/langchain-study/blob/e1d2ade5cd6605f27240005edcfbd7cc1c6dba8b/.env_sample",
+      "line_number": 13,
+      "line_preview": "UPSTAGE_API_KEY=up_oZ4HjE...",
+      "key_type": "upstage_api_key",
+      "description": "Upstage Api Key",
+      "severity": "medium",
+      "matched_pattern": "UPST********************E...",
+      "timestamp": "2026-04-13T06:03:08.500276"
+    },
     {
       "service": "upstage",
       "file": ".env_sample",
@@ -13,8 +39,34 @@
       "key_type": "upstage_api_key",
       "description": "Upstage Api Key",
       "severity": "medium",
-      "matched_pattern": "up_o****E...",
-      "timestamp": "2026-03-29T07:34:41.870388"
+      "matched_pattern": "UPST********************E...",
+      "timestamp": "2026-04-13T06:03:08.825813"
+    },
+    {
+      "service": "upstage",
+      "file": ".env_sample",
+      "repository": "BeomgiSo0613/fast_campus_rag",
+      "url": "https://github.com/BeomgiSo0613/fast_campus_rag/blob/7ea856023099fe7fab6af79a2535e675571fccc7/.env_sample",
+      "line_number": 11,
+      "line_preview": "UPSTAGE_API_KEY=up_oZ4HjE...",
+      "key_type": "upstage_api_key",
+      "description": "Upstage Api Key",
+      "severity": "medium",
+      "matched_pattern": "UPST********************E...",
+      "timestamp": "2026-04-13T06:03:11.921774"
+    },
+    {
+      "service": "upstage",
+      "file": ".env_sample",
+      "repository": "venture21/langchain-kr",
+      "url": "https://github.com/venture21/langchain-kr/blob/fdb20d447083759b8c5cb814046fc85eaae8ed40/.env_sample",
+      "line_number": 11,
+      "line_preview": "UPSTAGE_API_KEY=up_oZ4HjE...",
+      "key_type": "upstage_api_key",
+      "description": "Upstage Api Key",
+      "severity": "medium",
+      "matched_pattern": "UPST********************E...",
+      "timestamp": "2026-04-13T06:03:12.056823"
     }
   ]
 }

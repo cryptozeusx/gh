@@ -1,6 +1,6 @@
 {
   "service": "db",
-  "scan_timestamp": "2026-04-03T07:46:55.797519",
+  "scan_timestamp": "2026-04-13T06:04:01.977048",
   "finding_count": 4,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "8g3Z********DIRS",
-      "timestamp": "2026-04-03T07:45:58.060856"
+      "timestamp": "2026-04-13T06:03:03.577068"
     },
     {
       "service": "db",
@@ -27,7 +27,7 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "DB_P************3214",
-      "timestamp": "2026-04-03T07:46:08.615514"
+      "timestamp": "2026-04-13T06:03:15.114699"
     },
     {
       "service": "db",
@@ -40,7 +40,7 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "DB_P************************N*EW",
-      "timestamp": "2026-04-03T07:46:08.974729"
+      "timestamp": "2026-04-13T06:03:15.425265"
     },
     {
       "service": "db",
@@ -53,7 +53,7 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "DB_P*************Dk>0",
-      "timestamp": "2026-04-03T07:46:15.290247"
+      "timestamp": "2026-04-13T06:03:21.325238"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "service": "next",
-  "scan_timestamp": "2026-04-03T07:46:55.805665",
-  "finding_count": 17,
+  "scan_timestamp": "2026-04-13T06:04:01.985104",
+  "finding_count": 12,
   "findings": [
     {
       "service": "next",
@@ -14,7 +14,7 @@
       "description": "Next Public Client Secret Google",
       "severity": "high",
       "matched_pattern": "GOCS***************************0XZh",
-      "timestamp": "2026-04-03T07:45:56.950788"
+      "timestamp": "2026-04-13T06:03:02.452991"
     },
     {
       "service": "next",
@@ -27,46 +27,20 @@
       "description": "Next Public Supabase Anon Key",
       "severity": "medium",
       "matched_pattern": "eyJh********************************************************************************************************************************************************************************************************oBuY",
-      "timestamp": "2026-04-03T07:45:57.075755"
+      "timestamp": "2026-04-13T06:03:02.546502"
     },
     {
       "service": "next",
-      "file": ".env.local.backup",
-      "repository": "dineshyadav03/fineai",
-      "url": "https://github.com/dineshyadav03/fineai/blob/ee52c6f54e82d3846b0f3370301d41d30e41248b/.env.local.backup",
+      "file": ".env.save",
+      "repository": "samrahimi/factoid-ai",
+      "url": "https://github.com/samrahimi/factoid-ai/blob/9b870d3e93ccf5e4a43d3bd03c81b6a1a1a81e77/.env.save",
       "line_number": 2,
-      "line_preview": "NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp4bmtmcm1zenp5eWVvY",
+      "line_preview": "NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNha2JiZGlveXZiamNla",
       "key_type": "next_public_supabase_anon_key",
       "description": "Next Public Supabase Anon Key",
       "severity": "medium",
-      "matched_pattern": "NEXT**************************************************************************************************************************************************************************************************************************************P_oE",
-      "timestamp": "2026-04-03T07:46:02.470792"
-    },
-    {
-      "service": "next",
-      "file": ".env.local.example",
-      "repository": "Kynto-Consulting/Killio-Frontend",
-      "url": "https://github.com/Kynto-Consulting/Killio-Frontend/blob/306a79159b9d067be7d13b8aed9513a68ff6cc7b/.env.local.example",
-      "line_number": 12,
-      "line_preview": "NEXT_PUBLIC_ABLY_AUTH_URL=/api/ably-auth   # Proxy through Next.js API route",
-      "key_type": "next_public_ably_auth_url",
-      "description": "Next Public Ably Auth Url",
-      "severity": "medium",
-      "matched_pattern": "/api******************************************oute",
-      "timestamp": "2026-04-03T07:46:04.458637"
-    },
-    {
-      "service": "next",
-      "file": ".env.local",
-      "repository": "sudanva21/Career-Advisor-SIH",
-      "url": "https://github.com/sudanva21/Career-Advisor-SIH/blob/36d5272b7d80719b8c19696bbb6500b652ee9b14/.env.local",
-      "line_number": 9,
-      "line_preview": "NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd5dWR3anpqenRiZ2Rqd",
-      "key_type": "next_public_supabase_anon_key",
-      "description": "Next Public Supabase Anon Key",
-      "severity": "medium",
-      "matched_pattern": "NEXT**************************************************************************************************************************************************************************************************************************************MuT0",
-      "timestamp": "2026-04-03T07:46:05.772845"
+      "matched_pattern": "NEXT**************************************************************************************************************************************************************************************************************************************sIIc",
+      "timestamp": "2026-04-13T06:03:09.622168"
     },
     {
       "service": "next",
@@ -79,111 +53,7 @@
       "description": "Next Public Supabase Anon Key",
       "severity": "medium",
       "matched_pattern": "NEXT**************************************************************************************************************************************************************************************************************************************cg7Q",
-      "timestamp": "2026-04-03T07:46:11.158326"
-    },
-    {
-      "service": "next",
-      "file": ".env.example",
-      "repository": "ragaeeb/salat10-next",
-      "url": "https://github.com/ragaeeb/salat10-next/blob/2bf81045de8f7d0d44b6aab85d36da1b60043c01/.env.example",
-      "line_number": 10,
-      "line_preview": "NEXT_PUBLIC_ANALYTICS_STORAGE_KEY=salat10_analytics",
-      "key_type": "next_public_analytics_storage_key",
-      "description": "Next Public Analytics Storage Key",
-      "severity": "medium",
-      "matched_pattern": "sala*********tics",
-      "timestamp": "2026-04-03T07:46:31.799863"
-    },
-    {
-      "service": "next",
-      "file": ".env.example",
-      "repository": "ragaeeb/salat10-next",
-      "url": "https://github.com/ragaeeb/salat10-next/blob/2bf81045de8f7d0d44b6aab85d36da1b60043c01/.env.example",
-      "line_number": 16,
-      "line_preview": "NEXT_PUBLIC_SESSION_ID_KEY=salat10_session_id",
-      "key_type": "next_public_session_id_key",
-      "description": "Next Public Session Id Key",
-      "severity": "medium",
-      "matched_pattern": "sala**********n_id",
-      "timestamp": "2026-04-03T07:46:31.799936"
-    },
-    {
-      "service": "next",
-      "file": "env.example",
-      "repository": "ikayaalp/gastrofolly",
-      "url": "https://github.com/ikayaalp/gastrofolly/blob/9e879ce387c350653f5b5c70ac9e8e471195a1a6/env.example",
-      "line_number": 33,
-      "line_preview": "NEXT_PUBLIC_FIREBASE_API_KEY=\"AIzaSyCdIEjKdLERURzRZxuIgWqqtb2-WY785jc\"",
-      "key_type": "next_public_firebase_api_key",
-      "description": "Next Public Firebase Api Key",
-      "severity": "medium",
-      "matched_pattern": "NEXT**************************************************************5jc\"",
-      "timestamp": "2026-04-03T07:46:32.437077"
-    },
-    {
-      "service": "next",
-      "file": "env.example",
-      "repository": "ikayaalp/gastrofolly",
-      "url": "https://github.com/ikayaalp/gastrofolly/blob/9e879ce387c350653f5b5c70ac9e8e471195a1a6/env.example",
-      "line_number": 34,
-      "line_preview": "NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=\"Culinora-f5ddc.firebaseapp.com\"",
-      "key_type": "next_public_firebase_auth_domain",
-      "description": "Next Public Firebase Auth Domain",
-      "severity": "medium",
-      "matched_pattern": "Culi**********************.com",
-      "timestamp": "2026-04-03T07:46:32.437118"
-    },
-    {
-      "service": "next",
-      "file": "env.local",
-      "repository": "Chumanitikili/FactCast_curse",
-      "url": "https://github.com/Chumanitikili/FactCast_curse/blob/09b5aae521245d6a4a4b86cd2ca89225850cde95/env.local",
-      "line_number": 24,
-      "line_preview": "NEXT_PUBLIC_STACK_PUBLISHABLE_CLIENT_KEY=pck_w8b50n5yvagn6zg2x7pynmw292e655x8nv46gznqmh028",
-      "key_type": "next_public_stack_publishable_client_key",
-      "description": "Next Public Stack Publishable Client Key",
-      "severity": "medium",
-      "matched_pattern": "pck_*****************************************h028",
-      "timestamp": "2026-04-03T07:46:34.103674"
-    },
-    {
-      "service": "next",
-      "file": ".env.local",
-      "repository": "COMP5241-2526Sem1/24005826G_lab2_V2",
-      "url": "https://github.com/COMP5241-2526Sem1/24005826G_lab2_V2/blob/c61afb6874831e6d59f5c6586b0ce8e2ccf793bb/.env.local",
-      "line_number": 3,
-      "line_preview": "NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVrZ2Z6aXdzcnZtd2F5Z",
-      "key_type": "next_public_supabase_anon_key",
-      "description": "Next Public Supabase Anon Key",
-      "severity": "medium",
-      "matched_pattern": "NEXT**************************************************************************************************************************************************************************************************************************************9jUM",
-      "timestamp": "2026-04-03T07:46:34.609215"
-    },
-    {
-      "service": "next",
-      "file": ".env.local",
-      "repository": "Orkestaia/orkesta-os",
-      "url": "https://github.com/Orkestaia/orkesta-os/blob/df0130fd2403feb2ce5ae64ba4754a5e51310f08/.env.local",
-      "line_number": 2,
-      "line_preview": "NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJsbnlobW9zc2xoeHFvc",
-      "key_type": "next_public_supabase_anon_key",
-      "description": "Next Public Supabase Anon Key",
-      "severity": "medium",
-      "matched_pattern": "NEXT**************************************************************************************************************************************************************************************************************************************mrow",
-      "timestamp": "2026-04-03T07:46:40.414904"
-    },
-    {
-      "service": "next",
-      "file": ".env.local",
-      "repository": "Gauravk0029/madhouse-wallet",
-      "url": "https://github.com/Gauravk0029/madhouse-wallet/blob/5ee554e1fd27eaf7d69a146efd3e7db7583acd61/.env.local",
-      "line_number": 1,
-      "line_preview": "NEXT_PUBLIC_PIMLICO_API_KEY='pim_C2hN8VhSZsDJE3uAY4WFcU'",
-      "key_type": "next_public_pimlico_api_key",
-      "description": "Next Public Pimlico Api Key",
-      "severity": "medium",
-      "matched_pattern": "NEXT************************************************FcU'",
-      "timestamp": "2026-04-03T07:46:40.514509"
+      "timestamp": "2026-04-13T06:03:17.433066"
     },
     {
       "service": "next",
@@ -196,20 +66,85 @@
       "description": "Next Public Supabase Anon Key",
       "severity": "medium",
       "matched_pattern": "NEXT**************************************************************************************************************************************************************************************************************************************BAL0",
-      "timestamp": "2026-04-03T07:46:40.697111"
+      "timestamp": "2026-04-13T06:03:22.306247"
     },
     {
       "service": "next",
-      "file": ".env.development",
-      "repository": "shaurya722/garak-frontend",
-      "url": "https://github.com/shaurya722/garak-frontend/blob/8fb019dbb7ac1cd9ad3ff85c17d6b299406be2c2/.env.development",
-      "line_number": 7,
-      "line_preview": "NEXT_PUBLIC_COHERE_API_KEY=8217P7uFymBwZHvpg9Ew7DAvrY8rTCX4zd4S3VLY",
-      "key_type": "next_public_cohere_api_key",
-      "description": "Next Public Cohere Api Key",
+      "file": "env.example",
+      "repository": "ikayaalp/gastrofolly",
+      "url": "https://github.com/ikayaalp/gastrofolly/blob/9e879ce387c350653f5b5c70ac9e8e471195a1a6/env.example",
+      "line_number": 34,
+      "line_preview": "NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=\"Culinora-f5ddc.firebaseapp.com\"",
+      "key_type": "next_public_firebase_auth_domain",
+      "description": "Next Public Firebase Auth Domain",
       "severity": "medium",
-      "matched_pattern": "NEXT***********************************************************3VLY",
-      "timestamp": "2026-04-03T07:46:48.018866"
+      "matched_pattern": "Culi**********************.com",
+      "timestamp": "2026-04-13T06:03:38.064699"
+    },
+    {
+      "service": "next",
+      "file": "env.example",
+      "repository": "phamcamnguyen1994/metamask-monad-envio",
+      "url": "https://github.com/phamcamnguyen1994/metamask-monad-envio/blob/8e719f970f04c54e1131568922781015e7cfc8c6/env.example",
+      "line_number": 16,
+      "line_preview": "NEXT_PUBLIC_PIMLICO_API_KEY=pim_ki22Ti5FjpeeJguDHh9QcP",
+      "key_type": "next_public_pimlico_api_key",
+      "description": "Next Public Pimlico Api Key",
+      "severity": "medium",
+      "matched_pattern": "NEXT**********************************************9QcP",
+      "timestamp": "2026-04-13T06:03:38.572330"
+    },
+    {
+      "service": "next",
+      "file": "env.local",
+      "repository": "Chumanitikili/FactCast_curse",
+      "url": "https://github.com/Chumanitikili/FactCast_curse/blob/09b5aae521245d6a4a4b86cd2ca89225850cde95/env.local",
+      "line_number": 24,
+      "line_preview": "NEXT_PUBLIC_STACK_PUBLISHABLE_CLIENT_KEY=pck_w8b50n5yvagn6zg2x7pynmw292e655x8nv46gznqmh028",
+      "key_type": "next_public_stack_publishable_client_key",
+      "description": "Next Public Stack Publishable Client Key",
+      "severity": "medium",
+      "matched_pattern": "pck_*****************************************h028",
+      "timestamp": "2026-04-13T06:03:40.376897"
+    },
+    {
+      "service": "next",
+      "file": ".env.local",
+      "repository": "COMP5241-2526Sem1/24005826G_lab2_V2",
+      "url": "https://github.com/COMP5241-2526Sem1/24005826G_lab2_V2/blob/c61afb6874831e6d59f5c6586b0ce8e2ccf793bb/.env.local",
+      "line_number": 3,
+      "line_preview": "NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVrZ2Z6aXdzcnZtd2F5Z",
+      "key_type": "next_public_supabase_anon_key",
+      "description": "Next Public Supabase Anon Key",
+      "severity": "medium",
+      "matched_pattern": "NEXT**************************************************************************************************************************************************************************************************************************************9jUM",
+      "timestamp": "2026-04-13T06:03:40.826929"
+    },
+    {
+      "service": "next",
+      "file": ".env.local",
+      "repository": "sudanva21/Career-Advisor-SIH",
+      "url": "https://github.com/sudanva21/Career-Advisor-SIH/blob/36d5272b7d80719b8c19696bbb6500b652ee9b14/.env.local",
+      "line_number": 9,
+      "line_preview": "NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd5dWR3anpqenRiZ2Rqd",
+      "key_type": "next_public_supabase_anon_key",
+      "description": "Next Public Supabase Anon Key",
+      "severity": "medium",
+      "matched_pattern": "NEXT**************************************************************************************************************************************************************************************************************************************MuT0",
+      "timestamp": "2026-04-13T06:03:41.661461"
+    },
+    {
+      "service": "next",
+      "file": ".env.local",
+      "repository": "Orkestaia/orkesta-os",
+      "url": "https://github.com/Orkestaia/orkesta-os/blob/df0130fd2403feb2ce5ae64ba4754a5e51310f08/.env.local",
+      "line_number": 2,
+      "line_preview": "NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJsbnlobW9zc2xoeHFvc",
+      "key_type": "next_public_supabase_anon_key",
+      "description": "Next Public Supabase Anon Key",
+      "severity": "medium",
+      "matched_pattern": "NEXT**************************************************************************************************************************************************************************************************************************************mrow",
+      "timestamp": "2026-04-13T06:03:46.614626"
     },
     {
       "service": "next",
@@ -222,7 +157,7 @@
       "description": "Next Public Turnstile Site Key",
       "severity": "medium",
       "matched_pattern": "0x4A****************YDS6",
-      "timestamp": "2026-04-03T07:46:54.679250"
+      "timestamp": "2026-04-13T06:04:00.778048"
     }
   ]
 }

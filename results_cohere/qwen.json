@@ -1,6 +1,6 @@
 {
   "service": "qwen",
-  "scan_timestamp": "2026-04-03T07:46:55.809026",
+  "scan_timestamp": "2026-04-13T06:04:01.988086",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Qwen Access Key Id",
       "severity": "medium",
       "matched_pattern": "LTAI****************bnc3",
-      "timestamp": "2026-04-03T07:46:35.454487"
+      "timestamp": "2026-04-13T06:03:41.896017"
     }
   ]
 }

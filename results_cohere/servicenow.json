@@ -1,0 +1,20 @@
+{
+  "service": "servicenow",
+  "scan_timestamp": "2026-04-13T06:04:01.989449",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "servicenow",
+      "file": ".env copy",
+      "repository": "NABEEL2348/servicenow-mcp34",
+      "url": "https://github.com/NABEEL2348/servicenow-mcp34/blob/9a494241b02813d8de7a4df389b488cacc70f3a2/.env%20copy",
+      "line_number": 3,
+      "line_preview": "SERVICENOW_PASSWORD=\"nMG2!9lZtZ-m\"",
+      "key_type": "servicenow_password",
+      "description": "Servicenow Password",
+      "severity": "high",
+      "matched_pattern": "nMG2****tZ-m",
+      "timestamp": "2026-04-13T06:03:08.287354"
+    }
+  ]
+}
