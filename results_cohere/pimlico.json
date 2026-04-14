@@ -1,34 +1,8 @@
 {
   "service": "pimlico",
-  "scan_timestamp": "2026-04-13T06:04:01.987099",
-  "finding_count": 6,
+  "scan_timestamp": "2026-04-14T05:51:04.088920",
+  "finding_count": 4,
   "findings": [
-    {
-      "service": "pimlico",
-      "file": ".env.local",
-      "repository": "Gauravk0029/madhouse-wallet",
-      "url": "https://github.com/Gauravk0029/madhouse-wallet/blob/5ee554e1fd27eaf7d69a146efd3e7db7583acd61/.env.local",
-      "line_number": 1,
-      "line_preview": "NEXT_PUBLIC_PIMLICO_API_KEY='pim_C2hN8VhSZsDJE3uAY4WFcU'",
-      "key_type": "pimlico_api_key",
-      "description": "Pimlico Api Key",
-      "severity": "medium",
-      "matched_pattern": "PIML************************************FcU'",
-      "timestamp": "2026-04-13T06:03:20.451388"
-    },
-    {
-      "service": "pimlico",
-      "file": "vercel.env",
-      "repository": "xchrisbradley/boringjobs",
-      "url": "https://github.com/xchrisbradley/boringjobs/blob/6992a2f38a819712d4e69e764701c483d4461b61/vercel.env",
-      "line_number": 25,
-      "line_preview": "PIMLICO_API_KEY=81c4160f-ec4b-4580-b4bd-7e10d0df5332",
-      "key_type": "pimlico_api_key",
-      "description": "Pimlico Api Key",
-      "severity": "medium",
-      "matched_pattern": "PIML********************************************5332",
-      "timestamp": "2026-04-13T06:03:22.217181"
-    },
     {
       "service": "pimlico",
       "file": "examples/4337-gas-metering/.env.example",
@@ -40,7 +14,7 @@
       "description": "Pimlico Usdc Token Address",
       "severity": "medium",
       "matched_pattern": "0x92*******************************************************************************************************************ens)",
-      "timestamp": "2026-04-13T06:03:37.408956"
+      "timestamp": "2026-04-14T05:50:38.454187"
     },
     {
       "service": "pimlico",
@@ -53,7 +27,7 @@
       "description": "Pimlico Erc20 Token Contract",
       "severity": "medium",
       "matched_pattern": "0x0b**********************************502a",
-      "timestamp": "2026-04-13T06:03:37.409011"
+      "timestamp": "2026-04-14T05:50:38.454226"
     },
     {
       "service": "pimlico",
@@ -66,7 +40,7 @@
       "description": "Pimlico Erc721 Token Contract",
       "severity": "medium",
       "matched_pattern": "0xf1**********************************7a05",
-      "timestamp": "2026-04-13T06:03:37.409058"
+      "timestamp": "2026-04-14T05:50:38.454256"
     },
     {
       "service": "pimlico",
@@ -79,7 +53,7 @@
       "description": "Pimlico Api Key",
       "severity": "medium",
       "matched_pattern": "PIML**********************************9QcP",
-      "timestamp": "2026-04-13T06:03:38.572272"
+      "timestamp": "2026-04-14T05:50:40.245412"
     }
   ]
 }

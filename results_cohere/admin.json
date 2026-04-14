@@ -1,6 +1,6 @@
 {
   "service": "admin",
-  "scan_timestamp": "2026-04-13T06:04:01.972692",
+  "scan_timestamp": "2026-04-14T05:51:04.078861",
   "finding_count": 2,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Admin Ui Password Hash",
       "severity": "high",
       "matched_pattern": "$2b$*********************************************************************************************************************ent!",
-      "timestamp": "2026-04-13T06:03:06.059835"
+      "timestamp": "2026-04-14T05:49:35.823384"
     },
     {
       "service": "admin",
@@ -27,7 +27,7 @@
       "description": "Admin Reset Api Key",
       "severity": "medium",
       "matched_pattern": "Secu******nKey",
-      "timestamp": "2026-04-13T06:03:10.563168"
+      "timestamp": "2026-04-14T05:49:43.907559"
     }
   ]
 }

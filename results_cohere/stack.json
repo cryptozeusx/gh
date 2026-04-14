@@ -1,6 +1,6 @@
 {
   "service": "stack",
-  "scan_timestamp": "2026-04-13T06:04:01.989871",
+  "scan_timestamp": "2026-04-14T05:51:04.090738",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Stack Secret Server Key",
       "severity": "high",
       "matched_pattern": "ssk_*****************************************2y78",
-      "timestamp": "2026-04-13T06:03:40.376941"
+      "timestamp": "2026-04-14T05:50:42.666003"
     }
   ]
 }

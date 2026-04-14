@@ -1,6 +1,6 @@
 {
   "service": "app",
-  "scan_timestamp": "2026-04-13T06:04:01.973968",
+  "scan_timestamp": "2026-04-14T05:51:04.079810",
   "finding_count": 10,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "base*******************************************KgQ=",
-      "timestamp": "2026-04-13T06:03:03.665774"
+      "timestamp": "2026-04-14T05:49:38.675615"
     },
     {
       "service": "app",
@@ -27,7 +27,7 @@
       "description": "App Author",
       "severity": "medium",
       "matched_pattern": "Fady**aher",
-      "timestamp": "2026-04-13T06:03:10.645134"
+      "timestamp": "2026-04-14T05:49:44.066465"
     },
     {
       "service": "app",
@@ -40,20 +40,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************hXw=",
-      "timestamp": "2026-04-13T06:03:15.114573"
-    },
-    {
-      "service": "app",
-      "file": ".env.bak",
-      "repository": "Piyushkumawat23/well-known",
-      "url": "https://github.com/Piyushkumawat23/well-known/blob/c626bd8134e455a116c28528270c4b20f6d86eb9/.env.bak",
-      "line_number": 3,
-      "line_preview": "APP_KEY=base64:WrvqXJ+ilWOLItqI7C2N2R2dQkqFAHFYzTrQBBJqtso=",
-      "key_type": "app_key",
-      "description": "App Key",
-      "severity": "medium",
-      "matched_pattern": "APP_***************************************************tso=",
-      "timestamp": "2026-04-13T06:03:18.337837"
+      "timestamp": "2026-04-14T05:49:52.461632"
     },
     {
       "service": "app",
@@ -66,7 +53,20 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************tso=",
-      "timestamp": "2026-04-13T06:03:18.801155"
+      "timestamp": "2026-04-14T05:49:59.694639"
+    },
+    {
+      "service": "app",
+      "file": ".env.back",
+      "repository": "curetechb/mt",
+      "url": "https://github.com/curetechb/mt/blob/61fcfbd38981df211f945855604b90b4ec2cad19/.env.back",
+      "line_number": 3,
+      "line_preview": "APP_KEY=base64:WrvqXJ+ilWOLItqI7C2N2R2dQkqFAHFYzTrQBBJqtso=",
+      "key_type": "app_key",
+      "description": "App Key",
+      "severity": "medium",
+      "matched_pattern": "APP_***************************************************tso=",
+      "timestamp": "2026-04-14T05:50:02.937005"
     },
     {
       "service": "app",
@@ -79,20 +79,20 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************Wws=",
-      "timestamp": "2026-04-13T06:03:20.989476"
+      "timestamp": "2026-04-14T05:50:03.310670"
     },
     {
       "service": "app",
-      "file": "storage/dotenv-editor/backups/.env.backup_2022_10_01_011032",
+      "file": "storage/dotenv-editor/backups/.env.backup_2022_10_01_011349",
       "repository": "raydanielg/Help-Desk",
-      "url": "https://github.com/raydanielg/Help-Desk/blob/89a445889474e7f2334fc0f42bc344defec7bf74/storage/dotenv-editor/backups/.env.backup_2022_10_01_011032",
+      "url": "https://github.com/raydanielg/Help-Desk/blob/89a445889474e7f2334fc0f42bc344defec7bf74/storage/dotenv-editor/backups/.env.backup_2022_10_01_011349",
       "line_number": 4,
       "line_preview": "APP_KEY=base64:WrvqXJ+ilWOLItqI7C2N2R2dQkqFAHFYzTrQBBJqtso=",
       "key_type": "app_key",
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************tso=",
-      "timestamp": "2026-04-13T06:03:21.096059"
+      "timestamp": "2026-04-14T05:50:03.488310"
     },
     {
       "service": "app",
@@ -105,7 +105,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************nYQ=",
-      "timestamp": "2026-04-13T06:03:21.324912"
+      "timestamp": "2026-04-14T05:50:03.999847"
     },
     {
       "service": "app",
@@ -118,7 +118,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************Xv8=",
-      "timestamp": "2026-04-13T06:03:21.566096"
+      "timestamp": "2026-04-14T05:50:04.453384"
     },
     {
       "service": "app",
@@ -131,7 +131,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************e8p\"",
-      "timestamp": "2026-04-13T06:03:37.695111"
+      "timestamp": "2026-04-14T05:50:30.275009"
     }
   ]
 }

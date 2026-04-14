@@ -1,6 +1,6 @@
 {
   "service": "telegram",
-  "scan_timestamp": "2026-04-13T06:04:01.990509",
+  "scan_timestamp": "2026-04-14T05:51:04.091186",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Telegram Bot Token",
       "severity": "medium",
       "matched_pattern": "1234*********F...",
-      "timestamp": "2026-04-13T06:03:12.734760"
+      "timestamp": "2026-04-14T05:49:49.284491"
     }
   ]
 }

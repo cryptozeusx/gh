@@ -1,21 +1,8 @@
 {
   "service": "huggingfacehub",
-  "scan_timestamp": "2026-04-13T06:04:01.982291",
-  "finding_count": 5,
+  "scan_timestamp": "2026-04-14T05:51:04.085657",
+  "finding_count": 4,
   "findings": [
-    {
-      "service": "huggingfacehub",
-      "file": ".env_sample",
-      "repository": "jia5232/langchain_teddy",
-      "url": "https://github.com/jia5232/langchain_teddy/blob/1999da031d689326fc7db9596b4a29b10076e290/.env_sample",
-      "line_number": 2,
-      "line_preview": "HUGGINGFACEHUB_API_TOKEN=hf_oEHVwJ...",
-      "key_type": "huggingfacehub_api_token",
-      "description": "Huggingfacehub Api Token",
-      "severity": "medium",
-      "matched_pattern": "hf_o****J...",
-      "timestamp": "2026-04-13T06:03:07.475172"
-    },
     {
       "service": "huggingfacehub",
       "file": ".env_sample",
@@ -26,21 +13,21 @@
       "key_type": "huggingfacehub_api_token",
       "description": "Huggingfacehub Api Token",
       "severity": "medium",
-      "matched_pattern": "HUGG*****************************J...",
-      "timestamp": "2026-04-13T06:03:08.500006"
+      "matched_pattern": "hf_o****J...",
+      "timestamp": "2026-04-14T05:49:40.435924"
     },
     {
       "service": "huggingfacehub",
       "file": ".env_sample",
-      "repository": "bm1120/RAG_practice",
-      "url": "https://github.com/bm1120/RAG_practice/blob/7185d868713816c003074f3d80c7b2e2238cff88/.env_sample",
+      "repository": "jykim-code/RAGClass",
+      "url": "https://github.com/jykim-code/RAGClass/blob/edf490b0aad5593672ab560a41c7268f08ca389d/.env_sample",
       "line_number": 2,
       "line_preview": "HUGGINGFACEHUB_API_TOKEN=hf_oEHVwJ...",
       "key_type": "huggingfacehub_api_token",
       "description": "Huggingfacehub Api Token",
       "severity": "medium",
       "matched_pattern": "HUGG*****************************J...",
-      "timestamp": "2026-04-13T06:03:08.825512"
+      "timestamp": "2026-04-14T05:49:40.861013"
     },
     {
       "service": "huggingfacehub",
@@ -53,7 +40,7 @@
       "description": "Huggingfacehub Api Token",
       "severity": "medium",
       "matched_pattern": "HUGG*****************************J...",
-      "timestamp": "2026-04-13T06:03:11.921314"
+      "timestamp": "2026-04-14T05:49:47.409662"
     },
     {
       "service": "huggingfacehub",
@@ -66,7 +53,7 @@
       "description": "Huggingfacehub Api Token",
       "severity": "medium",
       "matched_pattern": "HUGG*****************************J...",
-      "timestamp": "2026-04-13T06:03:12.056185"
+      "timestamp": "2026-04-14T05:49:47.801413"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "service": "xai",
-  "scan_timestamp": "2026-04-13T06:04:01.991154",
+  "scan_timestamp": "2026-04-14T05:51:04.091861",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Xai Api Key",
       "severity": "medium",
       "matched_pattern": "XAI_******************************************************************************************4Lso",
-      "timestamp": "2026-04-13T06:03:19.887131"
+      "timestamp": "2026-04-14T05:50:01.179545"
     }
   ]
 }

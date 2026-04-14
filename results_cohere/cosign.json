@@ -1,6 +1,6 @@
 {
   "service": "cosign",
-  "scan_timestamp": "2026-04-13T06:04:01.975889",
+  "scan_timestamp": "2026-04-14T05:51:04.081142",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Cosign Key",
       "severity": "medium",
       "matched_pattern": "k8s:******************keys",
-      "timestamp": "2026-04-13T06:03:12.734904"
+      "timestamp": "2026-04-14T05:49:49.284625"
     }
   ]
 }

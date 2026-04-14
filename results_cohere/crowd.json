@@ -1,20 +1,20 @@
 {
   "service": "crowd",
-  "scan_timestamp": "2026-04-13T06:04:01.976086",
+  "scan_timestamp": "2026-04-14T05:51:04.081272",
   "finding_count": 1,
   "findings": [
     {
       "service": "crowd",
       "file": "backend/.env.dist.local",
       "repository": "linuxfoundation/crowd.dev",
-      "url": "https://github.com/linuxfoundation/crowd.dev/blob/76d870ad74908c92ed588443930a3c21538e2dcd/backend/.env.dist.local",
+      "url": "https://github.com/linuxfoundation/crowd.dev/blob/a45678738c849f5b86ea3566a87fcc7413d307b0/backend/.env.dist.local",
       "line_number": 66,
       "line_preview": "CROWD_SEGMENT_WRITE_KEY=TdX3BLaZuHpHyzN2lcDiNiRHDSH9Piyl",
       "key_type": "crowd_segment_write_key",
       "description": "Crowd Segment Write Key",
       "severity": "medium",
       "matched_pattern": "TdX3************************Piyl",
-      "timestamp": "2026-04-13T06:03:40.027969"
+      "timestamp": "2026-04-14T05:50:41.655535"
     }
   ]
 }
