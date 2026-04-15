@@ -1,20 +1,20 @@
 {
   "service": "litellm",
-  "scan_timestamp": "2026-04-02T07:51:01.732263",
+  "scan_timestamp": "2026-04-15T05:50:42.316489",
   "finding_count": 1,
   "findings": [
     {
       "service": "litellm",
-      "file": ".env-example",
-      "repository": "matheusbuniotto/ai-platform-stack",
-      "url": "https://github.com/matheusbuniotto/ai-platform-stack/blob/0d4e995cb3746d2110e3c237130ec781c13ab489/.env-example",
-      "line_number": 29,
-      "line_preview": "LITELLM_MASTER_KEY=sk-1234 #  ALERT: need to same as OPENAI_API_KEYS environment variable",
-      "key_type": "litellm_master_key",
-      "description": "Litellm Master Key",
-      "severity": "critical",
-      "matched_pattern": "sk-1**************************************************************able",
-      "timestamp": "2026-04-02T07:49:58.247032"
+      "file": "env.example",
+      "repository": "revenium/revenium-middleware-litellm-node",
+      "url": "https://github.com/revenium/revenium-middleware-litellm-node/blob/615f244fe7f5983e9984cf699062fbb6a5597276/env.example",
+      "line_number": 20,
+      "line_preview": "LITELLM_API_KEY=\"sk-1234\" #litellm key issued as proxy for another provider's key",
+      "key_type": "litellm_api_key",
+      "description": "Litellm Api Key",
+      "severity": "medium",
+      "matched_pattern": "sk-1******************************************************** key",
+      "timestamp": "2026-04-15T05:50:05.799288"
     }
   ]
 }

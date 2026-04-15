@@ -1,20 +1,20 @@
 {
   "service": "superface",
-  "scan_timestamp": "2026-04-14T05:51:04.090973",
+  "scan_timestamp": "2026-04-15T05:50:42.322297",
   "finding_count": 2,
   "findings": [
     {
       "service": "superface",
       "file": "backend/.env.dist.local",
       "repository": "linuxfoundation/crowd.dev",
-      "url": "https://github.com/linuxfoundation/crowd.dev/blob/a45678738c849f5b86ea3566a87fcc7413d307b0/backend/.env.dist.local",
+      "url": "https://github.com/linuxfoundation/crowd.dev/blob/9e7cc18d082481d24dd1398b1b10502e882f8538/backend/.env.dist.local",
       "line_number": 68,
       "line_preview": "SUPERFACE_SDK_TOKEN=sfs_29f8c03402d48b583f9b35bbb5fbb423cf638e73bde38a7cce6a5fb7bb352720193471189882b6d82494203bc998be47",
       "key_type": "superface_sdk_token",
       "description": "Superface Sdk Token",
       "severity": "medium",
       "matched_pattern": "sfs_*************************************************************************************************************************************819b",
-      "timestamp": "2026-04-14T05:50:41.655565"
+      "timestamp": "2026-04-15T05:50:20.294022"
     },
     {
       "service": "superface",
@@ -27,7 +27,7 @@
       "description": "Superface Sdk Token",
       "severity": "medium",
       "matched_pattern": "SUPE*********************************************************************************************************************************************************819b",
-      "timestamp": "2026-04-14T05:50:42.929953"
+      "timestamp": "2026-04-15T05:50:20.917479"
     }
   ]
 }

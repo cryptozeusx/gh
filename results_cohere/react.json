@@ -1,6 +1,6 @@
 {
   "service": "react",
-  "scan_timestamp": "2026-04-14T05:51:04.089700",
+  "scan_timestamp": "2026-04-15T05:50:42.320714",
   "finding_count": 5,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "React App Default Token List Url",
       "severity": "medium",
       "matched_pattern": "http*********************************************************************************************************json",
-      "timestamp": "2026-04-14T05:49:27.972187"
+      "timestamp": "2026-04-15T05:49:38.970855"
     },
     {
       "service": "react",
@@ -27,7 +27,7 @@
       "description": "React App Polygon Api Key Free",
       "severity": "medium",
       "matched_pattern": "S0m3********1K3y",
-      "timestamp": "2026-04-14T05:49:27.972328"
+      "timestamp": "2026-04-15T05:49:38.970989"
     },
     {
       "service": "react",
@@ -40,7 +40,7 @@
       "description": "React App Token List Exchange Custom Asset Logo Url",
       "severity": "medium",
       "matched_pattern": "http****************************************************************************************************.png",
-      "timestamp": "2026-04-14T05:49:27.972366"
+      "timestamp": "2026-04-15T05:49:38.971046"
     },
     {
       "service": "react",
@@ -53,7 +53,7 @@
       "description": "React App Token List Asset Generic Address Testnet Logo Url Base",
       "severity": "medium",
       "matched_pattern": "http******************************************************************************************************************ets/",
-      "timestamp": "2026-04-14T05:49:27.972397"
+      "timestamp": "2026-04-15T05:49:38.971097"
     },
     {
       "service": "react",
@@ -66,7 +66,7 @@
       "description": "React App Mapbox Access Token",
       "severity": "medium",
       "matched_pattern": "pk.e*************************************************************************************HGtA",
-      "timestamp": "2026-04-14T05:49:42.591490"
+      "timestamp": "2026-04-15T05:49:46.296643"
     }
   ]
 }

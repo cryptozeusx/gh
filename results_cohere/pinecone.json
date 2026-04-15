@@ -1,47 +1,8 @@
 {
   "service": "pinecone",
-  "scan_timestamp": "2026-04-14T05:51:04.089078",
-  "finding_count": 4,
+  "scan_timestamp": "2026-04-15T05:50:42.319871",
+  "finding_count": 1,
   "findings": [
-    {
-      "service": "pinecone",
-      "file": ".env_sample",
-      "repository": "jykim-code/RAGClass",
-      "url": "https://github.com/jykim-code/RAGClass/blob/edf490b0aad5593672ab560a41c7268f08ca389d/.env_sample",
-      "line_number": 9,
-      "line_preview": "PINECONE_API_KEY=549b555d-c388-4d...",
-      "key_type": "pinecone_api_key",
-      "description": "Pinecone Api Key",
-      "severity": "medium",
-      "matched_pattern": "PINE****************************d...",
-      "timestamp": "2026-04-14T05:49:40.861155"
-    },
-    {
-      "service": "pinecone",
-      "file": ".env_sample",
-      "repository": "BeomgiSo0613/fast_campus_rag",
-      "url": "https://github.com/BeomgiSo0613/fast_campus_rag/blob/7ea856023099fe7fab6af79a2535e675571fccc7/.env_sample",
-      "line_number": 9,
-      "line_preview": "PINECONE_API_KEY=549b555d-c388-4d...",
-      "key_type": "pinecone_api_key",
-      "description": "Pinecone Api Key",
-      "severity": "medium",
-      "matched_pattern": "PINE****************************d...",
-      "timestamp": "2026-04-14T05:49:47.409854"
-    },
-    {
-      "service": "pinecone",
-      "file": ".env_sample",
-      "repository": "venture21/langchain-kr",
-      "url": "https://github.com/venture21/langchain-kr/blob/fdb20d447083759b8c5cb814046fc85eaae8ed40/.env_sample",
-      "line_number": 9,
-      "line_preview": "PINECONE_API_KEY=549b555d-c388-4d...",
-      "key_type": "pinecone_api_key",
-      "description": "Pinecone Api Key",
-      "severity": "medium",
-      "matched_pattern": "PINE****************************d...",
-      "timestamp": "2026-04-14T05:49:47.801586"
-    },
     {
       "service": "pinecone",
       "file": ".env",
@@ -53,7 +14,7 @@
       "description": "Pinecone Api Key",
       "severity": "medium",
       "matched_pattern": "PINE***********************************************************************************Fmii",
-      "timestamp": "2026-04-14T05:49:57.374997"
+      "timestamp": "2026-04-15T05:49:56.572362"
     }
   ]
 }

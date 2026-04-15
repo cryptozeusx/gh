@@ -1,6 +1,6 @@
 {
   "service": "vite",
-  "scan_timestamp": "2026-04-14T05:51:04.091525",
+  "scan_timestamp": "2026-04-15T05:50:42.323268",
   "finding_count": 10,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Vite Mapbox Access Token",
       "severity": "medium",
       "matched_pattern": "pk.e************************************************************************************SCTw",
-      "timestamp": "2026-04-14T05:49:56.343473"
+      "timestamp": "2026-04-15T05:49:56.095247"
     },
     {
       "service": "vite",
@@ -27,7 +27,20 @@
       "description": "Vite Stripe Publishable Key",
       "severity": "medium",
       "matched_pattern": "pk_l***************************************************************************************************C0Kg",
-      "timestamp": "2026-04-14T05:49:56.343501"
+      "timestamp": "2026-04-15T05:49:56.095291"
+    },
+    {
+      "service": "vite",
+      "file": ".env.local",
+      "repository": "lucylow/bitmind",
+      "url": "https://github.com/lucylow/bitmind/blob/69373692624dfb027154c229e57413c20bc75ef2/.env.local",
+      "line_number": 33,
+      "line_preview": "VITE_COHERE_API_KEY=wXPn4lvSsndtltIQaF3upiZbrGiyIiShKN9uT8n1",
+      "key_type": "vite_cohere_api_key",
+      "description": "Vite Cohere Api Key",
+      "severity": "medium",
+      "matched_pattern": "VITE****************************************************T8n1",
+      "timestamp": "2026-04-15T05:50:20.689690"
     },
     {
       "service": "vite",
@@ -40,20 +53,7 @@
       "description": "Vite Twilio Auth Token",
       "severity": "medium",
       "matched_pattern": "bb70************************1295",
-      "timestamp": "2026-04-14T05:50:42.360990"
-    },
-    {
-      "service": "vite",
-      "file": ".env.local",
-      "repository": "FryoPie/Neuro-pal",
-      "url": "https://github.com/FryoPie/Neuro-pal/blob/6025d3872516f95cb0e2e70c6dc0bf6c1da88cab/.env.local",
-      "line_number": 3,
-      "line_preview": "VITE_COHERE_API_KEY=VT0ISoMP3jm46ACA3o5HxczihpiRUg2ixyMjZj9Q",
-      "key_type": "vite_cohere_api_key",
-      "description": "Vite Cohere Api Key",
-      "severity": "medium",
-      "matched_pattern": "VITE****************************************************Zj9Q",
-      "timestamp": "2026-04-14T05:50:45.347180"
+      "timestamp": "2026-04-15T05:50:20.689913"
     },
     {
       "service": "vite",
@@ -66,7 +66,7 @@
       "description": "Vite Hiro Api Key",
       "severity": "medium",
       "matched_pattern": "VITE******************************************4830",
-      "timestamp": "2026-04-14T05:50:46.358145"
+      "timestamp": "2026-04-15T05:50:22.556954"
     },
     {
       "service": "vite",
@@ -79,7 +79,7 @@
       "description": "Vite Coinmarketcap Api Key",
       "severity": "medium",
       "matched_pattern": "VITE***************************************************5fdc",
-      "timestamp": "2026-04-14T05:50:46.358223"
+      "timestamp": "2026-04-15T05:50:22.557053"
     },
     {
       "service": "vite",
@@ -92,7 +92,7 @@
       "description": "Vite Cohere Api Key",
       "severity": "medium",
       "matched_pattern": "VITE****************************************************T8n1",
-      "timestamp": "2026-04-14T05:50:46.358298"
+      "timestamp": "2026-04-15T05:50:22.557183"
     },
     {
       "service": "vite",
@@ -105,7 +105,7 @@
       "description": "Vite Pinata Api Key",
       "severity": "medium",
       "matched_pattern": "VITE********************************b5b8",
-      "timestamp": "2026-04-14T05:50:46.358376"
+      "timestamp": "2026-04-15T05:50:22.557356"
     },
     {
       "service": "vite",
@@ -118,7 +118,7 @@
       "description": "Vite Pinata Secret Key",
       "severity": "high",
       "matched_pattern": "VITE*******************************************************************************a19b",
-      "timestamp": "2026-04-14T05:50:46.358426"
+      "timestamp": "2026-04-15T05:50:22.557483"
     },
     {
       "service": "vite",
@@ -131,7 +131,7 @@
       "description": "Vite Twilio Auth Token",
       "severity": "medium",
       "matched_pattern": "VITE***********************************************1295",
-      "timestamp": "2026-04-14T05:50:46.358450"
+      "timestamp": "2026-04-15T05:50:22.557537"
     }
   ]
 }

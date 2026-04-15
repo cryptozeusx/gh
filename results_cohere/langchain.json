@@ -1,21 +1,8 @@
 {
   "service": "langchain",
-  "scan_timestamp": "2026-04-14T05:51:04.086491",
-  "finding_count": 4,
+  "scan_timestamp": "2026-04-15T05:50:42.316384",
+  "finding_count": 2,
   "findings": [
-    {
-      "service": "langchain",
-      "file": ".env_sample",
-      "repository": "IHAGI-c/langchain-study",
-      "url": "https://github.com/IHAGI-c/langchain-study/blob/e1d2ade5cd6605f27240005edcfbd7cc1c6dba8b/.env_sample",
-      "line_number": 7,
-      "line_preview": "LANGCHAIN_API_KEY=ls__69f274d55...",
-      "key_type": "langchain_api_key",
-      "description": "Langchain Api Key",
-      "severity": "medium",
-      "matched_pattern": "ls__********5...",
-      "timestamp": "2026-04-14T05:49:40.435954"
-    },
     {
       "service": "langchain",
       "file": ".env_sample",
@@ -26,34 +13,21 @@
       "key_type": "langchain_api_key",
       "description": "Langchain Api Key",
       "severity": "medium",
-      "matched_pattern": "LANG**************************5...",
-      "timestamp": "2026-04-14T05:49:40.861049"
+      "matched_pattern": "ls__********5...",
+      "timestamp": "2026-04-15T05:49:48.858378"
     },
     {
       "service": "langchain",
-      "file": ".env_sample",
-      "repository": "BeomgiSo0613/fast_campus_rag",
-      "url": "https://github.com/BeomgiSo0613/fast_campus_rag/blob/7ea856023099fe7fab6af79a2535e675571fccc7/.env_sample",
-      "line_number": 5,
-      "line_preview": "LANGCHAIN_API_KEY=ls__69f274d55...",
+      "file": "var.env",
+      "repository": "Aoukacha-Moussa/Document-Q-A-System-RAG-with-MLFlow",
+      "url": "https://github.com/Aoukacha-Moussa/Document-Q-A-System-RAG-with-MLFlow/blob/883236384d998f36257edd1b02c414101e6eb9a9/var.env",
+      "line_number": 6,
+      "line_preview": "LANGCHAIN_API_KEY=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",
       "key_type": "langchain_api_key",
       "description": "Langchain Api Key",
       "severity": "medium",
-      "matched_pattern": "LANG**************************5...",
-      "timestamp": "2026-04-14T05:49:47.409693"
-    },
-    {
-      "service": "langchain",
-      "file": "code-qa-rag/.env_sample",
-      "repository": "Jae-hoya/jaeho_template",
-      "url": "https://github.com/Jae-hoya/jaeho_template/blob/dafcb4c1f0e47d1dc8f993d9ce335d983d311d68/code-qa-rag/.env_sample",
-      "line_number": 4,
-      "line_preview": "LANGCHAIN_API_KEY=ls__69f274d55...",
-      "key_type": "langchain_api_key",
-      "description": "Langchain Api Key",
-      "severity": "medium",
-      "matched_pattern": "LANG**************************5...",
-      "timestamp": "2026-04-14T05:49:48.792493"
+      "matched_pattern": "LANG*************************************************************2e1f",
+      "timestamp": "2026-04-15T05:49:50.237042"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "service": "app",
-  "scan_timestamp": "2026-04-14T05:51:04.079810",
-  "finding_count": 10,
+  "scan_timestamp": "2026-04-15T05:50:42.307470",
+  "finding_count": 9,
   "findings": [
     {
       "service": "app",
@@ -14,20 +14,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "base*******************************************KgQ=",
-      "timestamp": "2026-04-14T05:49:38.675615"
-    },
-    {
-      "service": "app",
-      "file": "docker/env/.env.example.app",
-      "repository": "fadymaher24/mini-RAG",
-      "url": "https://github.com/fadymaher24/mini-RAG/blob/eaa3abf8c7cb9e6cbb181cb11bbead7c15b31ea6/docker/env/.env.example.app",
-      "line_number": 4,
-      "line_preview": "APP_AUTHOR=\"Fady Maher\"",
-      "key_type": "app_author",
-      "description": "App Author",
-      "severity": "medium",
-      "matched_pattern": "Fady**aher",
-      "timestamp": "2026-04-14T05:49:44.066465"
+      "timestamp": "2026-04-15T05:49:44.262315"
     },
     {
       "service": "app",
@@ -40,7 +27,20 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************hXw=",
-      "timestamp": "2026-04-14T05:49:52.461632"
+      "timestamp": "2026-04-15T05:49:53.966353"
+    },
+    {
+      "service": "app",
+      "file": ".env.production.example",
+      "repository": "scoutprojekt0-sys/scout-projesi",
+      "url": "https://github.com/scoutprojekt0-sys/scout-projesi/blob/62710f880ef592dd6097fafea0cb0bba1e7dcbfd/.env.production.example",
+      "line_number": 3,
+      "line_preview": "APP_KEY=base64:replace-with-generated-key",
+      "key_type": "app_key",
+      "description": "App Key",
+      "severity": "medium",
+      "matched_pattern": "APP_*********************************-key",
+      "timestamp": "2026-04-15T05:49:57.107050"
     },
     {
       "service": "app",
@@ -53,20 +53,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************tso=",
-      "timestamp": "2026-04-14T05:49:59.694639"
-    },
-    {
-      "service": "app",
-      "file": ".env.back",
-      "repository": "curetechb/mt",
-      "url": "https://github.com/curetechb/mt/blob/61fcfbd38981df211f945855604b90b4ec2cad19/.env.back",
-      "line_number": 3,
-      "line_preview": "APP_KEY=base64:WrvqXJ+ilWOLItqI7C2N2R2dQkqFAHFYzTrQBBJqtso=",
-      "key_type": "app_key",
-      "description": "App Key",
-      "severity": "medium",
-      "matched_pattern": "APP_***************************************************tso=",
-      "timestamp": "2026-04-14T05:50:02.937005"
+      "timestamp": "2026-04-15T05:49:57.648284"
     },
     {
       "service": "app",
@@ -79,7 +66,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************Wws=",
-      "timestamp": "2026-04-14T05:50:03.310670"
+      "timestamp": "2026-04-15T05:49:59.328560"
     },
     {
       "service": "app",
@@ -92,7 +79,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************tso=",
-      "timestamp": "2026-04-14T05:50:03.488310"
+      "timestamp": "2026-04-15T05:49:59.420713"
     },
     {
       "service": "app",
@@ -105,7 +92,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************nYQ=",
-      "timestamp": "2026-04-14T05:50:03.999847"
+      "timestamp": "2026-04-15T05:49:59.724688"
     },
     {
       "service": "app",
@@ -118,7 +105,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************Xv8=",
-      "timestamp": "2026-04-14T05:50:04.453384"
+      "timestamp": "2026-04-15T05:49:59.917549"
     },
     {
       "service": "app",
@@ -131,7 +118,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************e8p\"",
-      "timestamp": "2026-04-14T05:50:30.275009"
+      "timestamp": "2026-04-15T05:50:17.767310"
     }
   ]
 }
