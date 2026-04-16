@@ -1,0 +1,60 @@
+name: Apify Token Checker
+
+on:
+  workflow_dispatch:
+    inputs:
+      input_file:
+        description: "Path to the Apify NDJSON findings file"
+        required: false
+        default: "results_apify/apify.ndjson"
+        type: string
+      output_file:
+        description: "Path to save the JSON report"
+        required: false
+        default: "results_apify/user_me_report.json"
+        type: string
+
+jobs:
+  check-apify:
+    name: Check Apify tokens (GET /v2/users/me)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install curl-cffi
+
+      - name: Check tokens
+        run: |
+          python tools/check_apify_credits.py \
+            --input "${{ inputs.input_file }}" \
+            --output "${{ inputs.output_file }}"
+
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: apify-users-me-${{ github.run_id }}
+          path: ${{ inputs.output_file }}
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Commit and push report
+        if: always()
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "${{ inputs.output_file }}" || true
+          git diff --staged --quiet || git commit -m "apify users/me report [run #${{ github.run_number }}]"
+          git push

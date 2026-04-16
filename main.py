@@ -90,6 +90,21 @@ SERVICE_SEEDS: List[Tuple[str, str]] = [
     ("firecrawl",   'extension:example fc-'),
     ("firecrawl",   'extension:local "FIRECRAWL_API_KEY"'),
     ("firecrawl",   'extension:development "FIRECRAWL_API_KEY"'),
+
+    # Apify (apify.com / api.apify.com)
+    ("apify",       'filename:.env "APIFY_TOKEN"'),
+    ("apify",       'filename:.env "APIFY_API_TOKEN"'),
+    ("apify",       'filename:.env "APIFY_API_KEY"'),
+    ("apify",       'filename:.env apify_api_'),
+    ("apify",       'filename:.env APIFY_API_'),
+    ("apify",       'filename:.env "MY_APIFY_TOKEN"'),
+    ("apify",       'filename:.env apify.com'),
+    ("apify",       '"https://api.apify.com"'),
+    ("apify",       'extension:example "APIFY_TOKEN"'),
+    ("apify",       'extension:example "APIFY_API_TOKEN"'),
+    ("apify",       'extension:example apify_api_'),
+    ("apify",       'extension:local "APIFY_TOKEN"'),
+    ("apify",       'extension:development "APIFY_TOKEN"'),
     
     # Tavily (tavily.com)
     ("tavily",      'filename:.env "TAVILY_API_KEY"'),
@@ -225,6 +240,9 @@ class PatternDatabase:
         "firecrawl_key":         {"pattern": r"fc-[a-f0-9]{32}",                                                                    "description": "Firecrawl API Key",             "severity": "high"},
         # Named-variable variants people commonly use
         "firecrawl_named_key":   {"pattern": r"(?i)(?:FIRECRAWL[_-]?(?:API[_-]?)?(?:KEY|SECRET|TOKEN)|X[_-]FIRECRAWL[_-]API[_-]KEY|FC[_-]API[_-]KEY)\s*[=:]\s*[\"']?fc-[a-f0-9]{32}[\"']?", "description": "Firecrawl API Key (named var)", "severity": "high"},
+        # Apify  (apify.com)
+        "apify_key":             {"pattern": r"apify_api_[A-Za-z0-9_-]{10,}",                                                                 "description": "Apify API Token",               "severity": "high"},
+        "apify_named_key":       {"pattern": r"(?i)(?:APIFY|M(?:Y)?[_-]?APIFY)[_-]?(?:API[_-]?)?(?:TOKEN|KEY)\s*[=:]\s*[\"']?apify_api_[A-Za-z0-9_-]{10,}[\"']?", "description": "Apify API Token (named var)", "severity": "high"},
         # Tavily  (tavily.com)
         "tavily_key":            {"pattern": r"tvly-[a-zA-Z0-9]{32}",                                                               "description": "Tavily API Key",                "severity": "high"},
         "tavily_named_key":      {"pattern": r"(?i)(?:TAVILY[_-]?(?:API[_-]?)?(?:KEY|SECRET|TOKEN)|X[_-]TAVILY[_-]API[_-]KEY)\s*[=:]\s*[\"']?tvly-[a-zA-Z0-9]{32}[\"']?", "description": "Tavily API Key (named var)", "severity": "high"},
@@ -262,6 +280,8 @@ class PatternDatabase:
         "serper_key":            "serper",
         "firecrawl_key":         "firecrawl",
         "firecrawl_named_key":   "firecrawl",
+        "apify_key":             "apify",
+        "apify_named_key":       "apify",
         "tavily_key":            "tavily",
         "tavily_named_key":      "tavily",
         "cohere_key":            "cohere",
@@ -1246,6 +1266,7 @@ class MainExplorer:
             ("lingyiwanwu",  "yi"),   # Yi's Chinese brand name domain
             # Web Scraping / Data
             ("firecrawl",    "firecrawl"),
+            ("apify",        "apify"),
             ("tavily",       "tavily"),
             ("cohere",       "cohere"),
         ]
@@ -1352,7 +1373,7 @@ Examples:
     parser.add_argument("--verbose", "-v", action="store_true",
                         help="Print a line for every file scanned, not just hits")
     parser.add_argument("--services", "-s",
-                        help="Comma-separated list of services to scan (e.g. firecrawl,openai). "
+                        help="Comma-separated list of services to scan (e.g. firecrawl,apify,openai). "
                              "Default: all known services.")
 
     args = parser.parse_args()
