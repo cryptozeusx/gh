@@ -32,13 +32,14 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install curl-cffi
+        run: pip install requests
 
       - name: Check tokens
         run: |
           python tools/check_apify_credits.py \
             --input "${{ inputs.input_file }}" \
-            --output "${{ inputs.output_file }}"
+            --output "${{ inputs.output_file }}" \
+            --no-save
 
       - name: Upload report
         if: always()
