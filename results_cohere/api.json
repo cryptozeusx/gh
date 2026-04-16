@@ -1,7 +1,7 @@
 {
   "service": "api",
-  "scan_timestamp": "2026-04-15T05:50:42.307329",
-  "finding_count": 5,
+  "scan_timestamp": "2026-04-16T05:51:50.379394",
+  "finding_count": 6,
   "findings": [
     {
       "service": "api",
@@ -14,20 +14,33 @@
       "description": "Api Password",
       "severity": "high",
       "matched_pattern": "Deng***7258",
-      "timestamp": "2026-04-15T05:49:56.192195"
+      "timestamp": "2026-04-16T05:51:02.066441"
     },
     {
       "service": "api",
-      "file": ".env",
-      "repository": "markchou1205-uch/SiteMate",
-      "url": "https://github.com/markchou1205-uch/SiteMate/blob/e5fdc5803252f447684b9969886b576f3bc1bc0d/.env",
-      "line_number": 8,
-      "line_preview": "NEXT_PUBLIC_PDF_CO_API_KEY=markchou1205@yahoo.com.tw_o1kCLzKREjL0aKIBeiWThQF2FGZQCHqzhi0DF8bkyNO2mknRqOJwIVAAaaJ1Hhk4",
+      "file": "docs/getting-started/claudeDL/env.vm.example",
+      "repository": "rzepeda/ragTools",
+      "url": "https://github.com/rzepeda/ragTools/blob/e70eb327bb487a6f8e639ec8376e5805b8f1da79/docs/getting-started/claudeDL/env.vm.example",
+      "line_number": 41,
+      "line_preview": "OPENAI_API_KEY=lm-studio  # Any value works with LM Studio",
       "key_type": "api_key",
       "description": "Api Key",
       "severity": "medium",
-      "matched_pattern": "API_******************************************************************************************Hhk4",
-      "timestamp": "2026-04-15T05:49:56.639806"
+      "matched_pattern": "API_*********udio",
+      "timestamp": "2026-04-16T05:51:12.448690"
+    },
+    {
+      "service": "api",
+      "file": ".env.production.example",
+      "repository": "Prometheus-Automation/store",
+      "url": "https://github.com/Prometheus-Automation/store/blob/bd2e0d4ef72686cec7961c165f39b0644f5de515/.env.production.example",
+      "line_number": 40,
+      "line_preview": "SENDGRID_API_KEY=SG.your-sendgrid-api-key",
+      "key_type": "api_key",
+      "description": "Api Key",
+      "severity": "medium",
+      "matched_pattern": "API_************************-key",
+      "timestamp": "2026-04-16T05:51:17.232757"
     },
     {
       "service": "api",
@@ -40,7 +53,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_**************************key\"",
-      "timestamp": "2026-04-15T05:50:13.611535"
+      "timestamp": "2026-04-16T05:51:21.323550"
     },
     {
       "service": "api",
@@ -53,7 +66,7 @@
       "description": "Api Secret",
       "severity": "high",
       "matched_pattern": "API_*****************************************************YNze",
-      "timestamp": "2026-04-15T05:50:20.781597"
+      "timestamp": "2026-04-16T05:51:28.825826"
     },
     {
       "service": "api",
@@ -66,7 +79,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_************************************************************************************YSui",
-      "timestamp": "2026-04-15T05:50:27.028754"
+      "timestamp": "2026-04-16T05:51:35.185052"
     }
   ]
 }

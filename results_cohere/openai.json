@@ -1,7 +1,7 @@
 {
   "service": "openai",
-  "scan_timestamp": "2026-04-15T05:50:42.318533",
-  "finding_count": 36,
+  "scan_timestamp": "2026-04-16T05:51:50.389356",
+  "finding_count": 38,
   "findings": [
     {
       "service": "openai",
@@ -14,7 +14,7 @@
       "description": "Openai Api Key",
       "severity": "medium",
       "matched_pattern": "sk-.******************* \uac1c\uc778\ud0a4",
-      "timestamp": "2026-04-15T05:49:47.452435"
+      "timestamp": "2026-04-16T05:50:51.287591"
     },
     {
       "service": "openai",
@@ -27,7 +27,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-o*****************************************************************9114",
-      "timestamp": "2026-04-15T05:49:48.692251"
+      "timestamp": "2026-04-16T05:50:52.868659"
     },
     {
       "service": "openai",
@@ -40,7 +40,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-p************************************************************************************************************************************************************plcA",
-      "timestamp": "2026-04-15T05:49:48.692521"
+      "timestamp": "2026-04-16T05:50:52.868823"
     },
     {
       "service": "openai",
@@ -53,7 +53,7 @@
       "description": "Openai Api Key",
       "severity": "medium",
       "matched_pattern": "OPEN***************************************************************************************************************************************************************************plcA",
-      "timestamp": "2026-04-15T05:49:48.692560"
+      "timestamp": "2026-04-16T05:50:52.868849"
     },
     {
       "service": "openai",
@@ -66,7 +66,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-5***************************9e4f",
-      "timestamp": "2026-04-15T05:49:48.692714"
+      "timestamp": "2026-04-16T05:50:52.868943"
     },
     {
       "service": "openai",
@@ -79,7 +79,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-0***************************a144",
-      "timestamp": "2026-04-15T05:49:48.692855"
+      "timestamp": "2026-04-16T05:50:52.869022"
     },
     {
       "service": "openai",
@@ -92,7 +92,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-a****************************************************************************************************OQAA",
-      "timestamp": "2026-04-15T05:49:48.692943"
+      "timestamp": "2026-04-16T05:50:52.869071"
     },
     {
       "service": "openai",
@@ -105,7 +105,7 @@
       "description": "Openai Api Key",
       "severity": "medium",
       "matched_pattern": "OPEN**********************a...",
-      "timestamp": "2026-04-15T05:49:48.858146"
+      "timestamp": "2026-04-16T05:50:53.065868"
     },
     {
       "service": "openai",
@@ -118,7 +118,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-e***************************************************************************************ywkA",
-      "timestamp": "2026-04-15T05:49:49.705103"
+      "timestamp": "2026-04-16T05:50:54.056760"
     },
     {
       "service": "openai",
@@ -131,7 +131,7 @@
       "description": "Openai Api Key",
       "severity": "medium",
       "matched_pattern": "OPEN******************************************************************************************************ywkA",
-      "timestamp": "2026-04-15T05:49:49.705156"
+      "timestamp": "2026-04-16T05:50:54.056789"
     },
     {
       "service": "openai",
@@ -144,7 +144,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-a****************************************************************************************************FAAA",
-      "timestamp": "2026-04-15T05:49:49.705240"
+      "timestamp": "2026-04-16T05:50:54.056839"
     },
     {
       "service": "openai",
@@ -157,7 +157,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-o*****************************************************************ffaf",
-      "timestamp": "2026-04-15T05:49:49.705644"
+      "timestamp": "2026-04-16T05:50:54.057090"
     },
     {
       "service": "openai",
@@ -170,7 +170,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-d*******************************************8HNg",
-      "timestamp": "2026-04-15T05:49:51.472781"
+      "timestamp": "2026-04-16T05:50:56.158145"
     },
     {
       "service": "openai",
@@ -183,7 +183,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-l*******************************************yAHT",
-      "timestamp": "2026-04-15T05:49:51.472974"
+      "timestamp": "2026-04-16T05:50:56.158330"
     },
     {
       "service": "openai",
@@ -196,7 +196,7 @@
       "description": "Openai Api Key",
       "severity": "medium",
       "matched_pattern": "OPEN************************************************************AHT\"",
-      "timestamp": "2026-04-15T05:49:51.473021"
+      "timestamp": "2026-04-16T05:50:56.158357"
     },
     {
       "service": "openai",
@@ -209,7 +209,33 @@
       "description": "Openai Api Key",
       "severity": "medium",
       "matched_pattern": "# Op*****************************************************-...",
-      "timestamp": "2026-04-15T05:49:52.067202"
+      "timestamp": "2026-04-16T05:50:56.948671"
+    },
+    {
+      "service": "openai",
+      "file": "strategy_engine/src/render.env.md",
+      "repository": "TemamAb/alpha",
+      "url": "https://github.com/TemamAb/alpha/blob/80be4d1acaeff2db132ac414b08d0c7982165f2e/strategy_engine/src/render.env.md",
+      "line_number": 3,
+      "line_preview": "OPENAI_API_KEY=sk-proj-ALR4BqHjoWr05SIQ5TDpMHZllIcwlRvBj7dOKseSnLSbII1P3Gljk-PnxFdrUy1fd4DXl2vvNzT3BlbkFJ9n3MZBF8dQ9iN-t",
+      "key_type": "openai_key",
+      "description": "OpenAI API Key",
+      "severity": "high",
+      "matched_pattern": "sk-p************************************************************************************************************************************************************pj0A",
+      "timestamp": "2026-04-16T05:51:01.856985"
+    },
+    {
+      "service": "openai",
+      "file": "strategy_engine/src/render.env.md",
+      "repository": "TemamAb/alpha",
+      "url": "https://github.com/TemamAb/alpha/blob/80be4d1acaeff2db132ac414b08d0c7982165f2e/strategy_engine/src/render.env.md",
+      "line_number": 3,
+      "line_preview": "OPENAI_API_KEY=sk-proj-ALR4BqHjoWr05SIQ5TDpMHZllIcwlRvBj7dOKseSnLSbII1P3Gljk-PnxFdrUy1fd4DXl2vvNzT3BlbkFJ9n3MZBF8dQ9iN-t",
+      "key_type": "openai_api_key",
+      "description": "Openai Api Key",
+      "severity": "medium",
+      "matched_pattern": "OPEN***************************************************************************************************************************************************************************pj0A",
+      "timestamp": "2026-04-16T05:51:01.857023"
     },
     {
       "service": "openai",
@@ -222,7 +248,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-e***************************1692",
-      "timestamp": "2026-04-15T05:49:56.191672"
+      "timestamp": "2026-04-16T05:51:02.066134"
     },
     {
       "service": "openai",
@@ -235,7 +261,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-p************************************************************************************************************************************************************zr4A",
-      "timestamp": "2026-04-15T05:49:56.192040"
+      "timestamp": "2026-04-16T05:51:02.066341"
     },
     {
       "service": "openai",
@@ -248,7 +274,7 @@
       "description": "Openai Api Key",
       "severity": "medium",
       "matched_pattern": "OPEN***************************************************************************************************************************************************************************zr4A",
-      "timestamp": "2026-04-15T05:49:56.192079"
+      "timestamp": "2026-04-16T05:51:02.066369"
     },
     {
       "service": "openai",
@@ -261,7 +287,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-p************************************************************************************************************************************************************KcEA",
-      "timestamp": "2026-04-15T05:49:56.571493"
+      "timestamp": "2026-04-16T05:51:02.573466"
     },
     {
       "service": "openai",
@@ -274,7 +300,7 @@
       "description": "Openai Api Key",
       "severity": "medium",
       "matched_pattern": "OPEN***************************************************************************************************************************************************************************KcEA",
-      "timestamp": "2026-04-15T05:49:56.571573"
+      "timestamp": "2026-04-16T05:51:02.573504"
     },
     {
       "service": "openai",
@@ -287,7 +313,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-a****************************************************************************************************cwAA",
-      "timestamp": "2026-04-15T05:49:56.571712"
+      "timestamp": "2026-04-16T05:51:02.573558"
     },
     {
       "service": "openai",
@@ -300,7 +326,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-p************************************************************************************************************************************************************-psA",
-      "timestamp": "2026-04-15T05:49:59.724877"
+      "timestamp": "2026-04-16T05:51:06.474992"
     },
     {
       "service": "openai",
@@ -313,20 +339,20 @@
       "description": "Openai Api Key",
       "severity": "medium",
       "matched_pattern": "OPEN*****************************************************************************************************************************************************************************psA\"",
-      "timestamp": "2026-04-15T05:49:59.724938"
+      "timestamp": "2026-04-16T05:51:06.475022"
     },
     {
       "service": "openai",
-      "file": ".env.example",
-      "repository": "techgopal/ultrafast-ai-gateway",
-      "url": "https://github.com/techgopal/ultrafast-ai-gateway/blob/b7fa3be6aa50464b9722d632ad75c48f3dfb5404/.env.example",
-      "line_number": 22,
-      "line_preview": "GATEWAY_API_KEYS='[{\"key\":\"sk-ultrafast-gateway-key-12345\",\"name\":\"default\",\"enabled\":true,\"rate_limit\":{\"requests_per_m",
-      "key_type": "openai_key",
-      "description": "OpenAI API Key",
-      "severity": "high",
-      "matched_pattern": "sk-u**********************2345",
-      "timestamp": "2026-04-15T05:50:06.692940"
+      "file": "docs/getting-started/claudeDL/env.vm.example",
+      "repository": "rzepeda/ragTools",
+      "url": "https://github.com/rzepeda/ragTools/blob/e70eb327bb487a6f8e639ec8376e5805b8f1da79/docs/getting-started/claudeDL/env.vm.example",
+      "line_number": 41,
+      "line_preview": "OPENAI_API_KEY=lm-studio  # Any value works with LM Studio",
+      "key_type": "openai_api_key",
+      "description": "Openai Api Key",
+      "severity": "medium",
+      "matched_pattern": "OPEN****************udio",
+      "timestamp": "2026-04-16T05:51:12.448651"
     },
     {
       "service": "openai",
@@ -339,7 +365,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-p************************************************************************************************************************************************************WbkA",
-      "timestamp": "2026-04-15T05:50:20.780538"
+      "timestamp": "2026-04-16T05:51:28.825382"
     },
     {
       "service": "openai",
@@ -352,7 +378,7 @@
       "description": "Openai Api Key",
       "severity": "medium",
       "matched_pattern": "OPEN***************************************************************************************************************************************************************************WbkA",
-      "timestamp": "2026-04-15T05:50:20.780601"
+      "timestamp": "2026-04-16T05:51:28.825410"
     },
     {
       "service": "openai",
@@ -365,7 +391,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-b***************************************************************************************Ghe1",
-      "timestamp": "2026-04-15T05:50:21.146914"
+      "timestamp": "2026-04-16T05:51:29.257640"
     },
     {
       "service": "openai",
@@ -378,7 +404,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-a****************************************************************************************************DgAA",
-      "timestamp": "2026-04-15T05:50:22.086516"
+      "timestamp": "2026-04-16T05:51:30.307684"
     },
     {
       "service": "openai",
@@ -391,7 +417,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-p************************************************************************************************************************************************************Z-YA",
-      "timestamp": "2026-04-15T05:50:22.086675"
+      "timestamp": "2026-04-16T05:51:30.307784"
     },
     {
       "service": "openai",
@@ -404,7 +430,7 @@
       "description": "Openai Api Key",
       "severity": "medium",
       "matched_pattern": "OPEN***************************************************************************************************************************************************************************Z-YA",
-      "timestamp": "2026-04-15T05:50:22.086719"
+      "timestamp": "2026-04-16T05:51:30.307811"
     },
     {
       "service": "openai",
@@ -417,7 +443,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-e***************************e392",
-      "timestamp": "2026-04-15T05:50:22.087246"
+      "timestamp": "2026-04-16T05:51:30.308148"
     },
     {
       "service": "openai",
@@ -430,7 +456,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-o*****************************************************************798b",
-      "timestamp": "2026-04-15T05:50:22.087539"
+      "timestamp": "2026-04-16T05:51:30.308396"
     },
     {
       "service": "openai",
@@ -443,7 +469,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-I*******************************************rGoF",
-      "timestamp": "2026-04-15T05:50:22.087893"
+      "timestamp": "2026-04-16T05:51:30.308714"
     },
     {
       "service": "openai",
@@ -456,7 +482,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-X*******************************************QEME",
-      "timestamp": "2026-04-15T05:50:22.087932"
+      "timestamp": "2026-04-16T05:51:30.308747"
     },
     {
       "service": "openai",
@@ -469,7 +495,7 @@
       "description": "OpenAI API Key",
       "severity": "high",
       "matched_pattern": "sk-e********************************************************2CE4",
-      "timestamp": "2026-04-15T05:50:22.088055"
+      "timestamp": "2026-04-16T05:51:30.308846"
     }
   ]
 }

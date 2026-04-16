@@ -1,6 +1,6 @@
 {
   "service": "openrouter",
-  "scan_timestamp": "2026-04-15T05:50:42.319001",
+  "scan_timestamp": "2026-04-16T05:51:50.389784",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Openrouter Api Key",
       "severity": "medium",
       "matched_pattern": "OPEN************************************************************************************ffaf",
-      "timestamp": "2026-04-15T05:49:49.705682"
+      "timestamp": "2026-04-16T05:50:54.057114"
     }
   ]
 }

@@ -1,21 +1,8 @@
 {
   "service": "cookie",
-  "scan_timestamp": "2026-04-15T05:50:42.309113",
-  "finding_count": 2,
+  "scan_timestamp": "2026-04-16T05:51:50.380918",
+  "finding_count": 1,
   "findings": [
-    {
-      "service": "cookie",
-      "file": "backend/.env.production.example",
-      "repository": "Orhanguezel/paketjet",
-      "url": "https://github.com/Orhanguezel/paketjet/blob/1944e1383d28c76e48aa444d666b8fdf35f425e8/backend/.env.production.example",
-      "line_number": 39,
-      "line_preview": "COOKIE_SECRET=__GENERATE_ANOTHER_STRONG_RANDOM_64_PLUS__",
-      "key_type": "cookie_secret",
-      "description": "Cookie Secret",
-      "severity": "high",
-      "matched_pattern": "COOK************************************************US__",
-      "timestamp": "2026-04-15T05:49:58.993099"
-    },
     {
       "service": "cookie",
       "file": "backend/.env.production.example",
@@ -27,7 +14,7 @@
       "description": "Cookie Secret",
       "severity": "high",
       "matched_pattern": "COOK************************************************US__",
-      "timestamp": "2026-04-15T05:49:59.245066"
+      "timestamp": "2026-04-16T05:51:05.920321"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "service": "anthropic",
-  "scan_timestamp": "2026-04-15T05:50:42.307185",
+  "scan_timestamp": "2026-04-16T05:51:50.379288",
   "finding_count": 5,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "sk-a******0...",
-      "timestamp": "2026-04-15T05:49:48.858464"
+      "timestamp": "2026-04-16T05:50:53.066152"
     },
     {
       "service": "anthropic",
@@ -27,7 +27,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************FAAA",
-      "timestamp": "2026-04-15T05:49:49.705279"
+      "timestamp": "2026-04-16T05:50:54.056864"
     },
     {
       "service": "anthropic",
@@ -40,7 +40,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "# Re****************************-...",
-      "timestamp": "2026-04-15T05:49:52.067101"
+      "timestamp": "2026-04-16T05:50:56.948552"
     },
     {
       "service": "anthropic",
@@ -53,7 +53,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************cwAA",
-      "timestamp": "2026-04-15T05:49:56.571778"
+      "timestamp": "2026-04-16T05:51:02.573584"
     },
     {
       "service": "anthropic",
@@ -66,7 +66,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************DgAA",
-      "timestamp": "2026-04-15T05:50:22.086578"
+      "timestamp": "2026-04-16T05:51:30.307722"
     }
   ]
 }

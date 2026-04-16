@@ -1,7 +1,7 @@
 {
   "service": "captcha",
-  "scan_timestamp": "2026-04-15T05:50:42.308159",
-  "finding_count": 2,
+  "scan_timestamp": "2026-04-16T05:51:50.380077",
+  "finding_count": 3,
   "findings": [
     {
       "service": "captcha",
@@ -14,7 +14,20 @@
       "description": "Captcha Key",
       "severity": "medium",
       "matched_pattern": "6Ld_********************************rmRX",
-      "timestamp": "2026-04-15T05:49:57.648644"
+      "timestamp": "2026-04-16T05:51:03.929677"
+    },
+    {
+      "service": "captcha",
+      "file": ".env.back",
+      "repository": "curetechb/mt",
+      "url": "https://github.com/curetechb/mt/blob/61fcfbd38981df211f945855604b90b4ec2cad19/.env.back",
+      "line_number": 116,
+      "line_preview": "CAPTCHA_KEY=\"6Ld_nrsZAAAAAO-MowQQPfbD9yoio52GiMgUrmRX\"",
+      "key_type": "captcha_key",
+      "description": "Captcha Key",
+      "severity": "medium",
+      "matched_pattern": "CAPT**********************************************mRX\"",
+      "timestamp": "2026-04-16T05:51:05.826618"
     },
     {
       "service": "captcha",
@@ -27,7 +40,7 @@
       "description": "Captcha Key",
       "severity": "medium",
       "matched_pattern": "CAPT**********************************************mRX\"",
-      "timestamp": "2026-04-15T05:50:17.767061"
+      "timestamp": "2026-04-16T05:51:25.691344"
     }
   ]
 }

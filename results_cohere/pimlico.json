@@ -1,8 +1,34 @@
 {
   "service": "pimlico",
-  "scan_timestamp": "2026-04-14T05:51:04.088920",
-  "finding_count": 4,
+  "scan_timestamp": "2026-04-16T05:51:50.390576",
+  "finding_count": 5,
   "findings": [
+    {
+      "service": "pimlico",
+      "file": ".env.local",
+      "repository": "Gauravk0029/madhouse-wallet",
+      "url": "https://github.com/Gauravk0029/madhouse-wallet/blob/5ee554e1fd27eaf7d69a146efd3e7db7583acd61/.env.local",
+      "line_number": 1,
+      "line_preview": "NEXT_PUBLIC_PIMLICO_API_KEY='pim_C2hN8VhSZsDJE3uAY4WFcU'",
+      "key_type": "pimlico_api_key",
+      "description": "Pimlico Api Key",
+      "severity": "medium",
+      "matched_pattern": "PIML************************************FcU'",
+      "timestamp": "2026-04-16T05:51:05.283756"
+    },
+    {
+      "service": "pimlico",
+      "file": "vercel.env",
+      "repository": "xchrisbradley/boringjobs",
+      "url": "https://github.com/xchrisbradley/boringjobs/blob/6992a2f38a819712d4e69e764701c483d4461b61/vercel.env",
+      "line_number": 25,
+      "line_preview": "PIMLICO_API_KEY=81c4160f-ec4b-4580-b4bd-7e10d0df5332",
+      "key_type": "pimlico_api_key",
+      "description": "Pimlico Api Key",
+      "severity": "medium",
+      "matched_pattern": "PIML********************************************5332",
+      "timestamp": "2026-04-16T05:51:07.655022"
+    },
     {
       "service": "pimlico",
       "file": "examples/4337-gas-metering/.env.example",
@@ -14,7 +40,7 @@
       "description": "Pimlico Usdc Token Address",
       "severity": "medium",
       "matched_pattern": "0x92*******************************************************************************************************************ens)",
-      "timestamp": "2026-04-14T05:50:38.454187"
+      "timestamp": "2026-04-16T05:51:27.790663"
     },
     {
       "service": "pimlico",
@@ -27,7 +53,7 @@
       "description": "Pimlico Erc20 Token Contract",
       "severity": "medium",
       "matched_pattern": "0x0b**********************************502a",
-      "timestamp": "2026-04-14T05:50:38.454226"
+      "timestamp": "2026-04-16T05:51:27.790716"
     },
     {
       "service": "pimlico",
@@ -40,20 +66,7 @@
       "description": "Pimlico Erc721 Token Contract",
       "severity": "medium",
       "matched_pattern": "0xf1**********************************7a05",
-      "timestamp": "2026-04-14T05:50:38.454256"
-    },
-    {
-      "service": "pimlico",
-      "file": "env.example",
-      "repository": "phamcamnguyen1994/metamask-monad-envio",
-      "url": "https://github.com/phamcamnguyen1994/metamask-monad-envio/blob/8e719f970f04c54e1131568922781015e7cfc8c6/env.example",
-      "line_number": 16,
-      "line_preview": "NEXT_PUBLIC_PIMLICO_API_KEY=pim_ki22Ti5FjpeeJguDHh9QcP",
-      "key_type": "pimlico_api_key",
-      "description": "Pimlico Api Key",
-      "severity": "medium",
-      "matched_pattern": "PIML**********************************9QcP",
-      "timestamp": "2026-04-14T05:50:40.245412"
+      "timestamp": "2026-04-16T05:51:27.790745"
     }
   ]
 }

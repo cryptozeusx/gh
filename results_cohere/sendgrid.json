@@ -1,6 +1,6 @@
 {
   "service": "sendgrid",
-  "scan_timestamp": "2026-04-13T06:04:01.989133",
+  "scan_timestamp": "2026-04-16T05:51:50.392440",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Sendgrid Api Key",
       "severity": "medium",
       "matched_pattern": "SEND***********************************key\"",
-      "timestamp": "2026-04-13T06:03:36.392818"
+      "timestamp": "2026-04-16T05:51:21.323593"
     }
   ]
 }

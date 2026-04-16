@@ -1,6 +1,6 @@
 {
   "service": "fal",
-  "scan_timestamp": "2026-04-15T05:50:42.311328",
+  "scan_timestamp": "2026-04-16T05:51:50.382945",
   "finding_count": 2,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Fal Key",
       "severity": "medium",
       "matched_pattern": "2070*************************************************************6acb",
-      "timestamp": "2026-04-15T05:49:49.705801"
+      "timestamp": "2026-04-16T05:50:54.057191"
     },
     {
       "service": "fal",
@@ -27,7 +27,7 @@
       "description": "Fal Key",
       "severity": "medium",
       "matched_pattern": "FAL_*********************************************************************1bb0",
-      "timestamp": "2026-04-15T05:50:22.088093"
+      "timestamp": "2026-04-16T05:51:30.308879"
     }
   ]
 }

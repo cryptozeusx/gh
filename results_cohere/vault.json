@@ -1,6 +1,6 @@
 {
   "service": "vault",
-  "scan_timestamp": "2026-04-15T05:50:42.323091",
+  "scan_timestamp": "2026-04-16T05:51:50.394032",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Vault Token",
       "severity": "medium",
       "matched_pattern": "hvs.****GEME",
-      "timestamp": "2026-04-15T05:50:09.881032"
+      "timestamp": "2026-04-16T05:51:17.350955"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "service": "huggingfacehub",
-  "scan_timestamp": "2026-04-15T05:50:42.315313",
+  "scan_timestamp": "2026-04-16T05:51:50.386503",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Huggingfacehub Api Token",
       "severity": "medium",
       "matched_pattern": "hf_o****J...",
-      "timestamp": "2026-04-15T05:49:48.858332"
+      "timestamp": "2026-04-16T05:50:53.066069"
     }
   ]
 }

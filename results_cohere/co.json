@@ -1,8 +1,34 @@
 {
   "service": "co",
-  "scan_timestamp": "2026-04-15T05:50:42.308270",
-  "finding_count": 7,
+  "scan_timestamp": "2026-04-16T05:51:50.380182",
+  "finding_count": 8,
   "findings": [
+    {
+      "service": "co",
+      "file": ".env",
+      "repository": "davalpez/Local-AI-aplications-with-Haystack",
+      "url": "https://github.com/davalpez/Local-AI-aplications-with-Haystack/blob/0daa8316c053423c235aa6c6a23665dc16b3cfb6/.env",
+      "line_number": 3,
+      "line_preview": "CO_API_KEY=#Introduce your API KEY",
+      "key_type": "co_api_key",
+      "description": "Co Api Key",
+      "severity": "medium",
+      "matched_pattern": "CO_A*************duce",
+      "timestamp": "2026-04-16T05:51:01.634162"
+    },
+    {
+      "service": "co",
+      "file": "strategy_engine/src/render.env.md",
+      "repository": "TemamAb/alpha",
+      "url": "https://github.com/TemamAb/alpha/blob/80be4d1acaeff2db132ac414b08d0c7982165f2e/strategy_engine/src/render.env.md",
+      "line_number": 116,
+      "line_preview": "PIMLICO_API_KEY=pim_UbfKR9ocMe5ibNUCGgB8fE",
+      "key_type": "co_api_key",
+      "description": "Co Api Key",
+      "severity": "medium",
+      "matched_pattern": "CO_A*****************************B8fE",
+      "timestamp": "2026-04-16T05:51:01.857216"
+    },
     {
       "service": "co",
       "file": ".env",
@@ -14,7 +40,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************************89cf",
-      "timestamp": "2026-04-15T05:49:56.095079"
+      "timestamp": "2026-04-16T05:51:01.963118"
     },
     {
       "service": "co",
@@ -27,7 +53,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*******************Q80T",
-      "timestamp": "2026-04-15T05:49:56.191903"
+      "timestamp": "2026-04-16T05:51:02.066265"
     },
     {
       "service": "co",
@@ -40,20 +66,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************************d5a3",
-      "timestamp": "2026-04-15T05:49:56.274594"
-    },
-    {
-      "service": "co",
-      "file": ".env",
-      "repository": "NepsenX/NepsenX",
-      "url": "https://github.com/NepsenX/NepsenX/blob/762cc29ed45fa717b9ca2653a7663c324d6b460d/.env",
-      "line_number": 19,
-      "line_preview": "CO_API_KEY=co_secure_access_90",
-      "key_type": "co_api_key",
-      "description": "Co Api Key",
-      "severity": "medium",
-      "matched_pattern": "CO_A**********************s_90",
-      "timestamp": "2026-04-15T05:49:57.862641"
+      "timestamp": "2026-04-16T05:51:02.175825"
     },
     {
       "service": "co",
@@ -66,7 +79,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********************************61ad",
-      "timestamp": "2026-04-15T05:49:58.519676"
+      "timestamp": "2026-04-16T05:51:04.863069"
     },
     {
       "service": "co",
@@ -79,7 +92,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*******************************FcU'",
-      "timestamp": "2026-04-15T05:49:58.828485"
+      "timestamp": "2026-04-16T05:51:05.283702"
     },
     {
       "service": "co",
@@ -92,7 +105,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********************************TylK",
-      "timestamp": "2026-04-15T05:49:59.725149"
+      "timestamp": "2026-04-16T05:51:06.475170"
     }
   ]
 }

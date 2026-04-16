@@ -1,6 +1,6 @@
 {
   "service": "mongo",
-  "scan_timestamp": "2026-04-15T05:50:42.317305",
+  "scan_timestamp": "2026-04-16T05:51:50.388183",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Mongo Password",
       "severity": "high",
       "matched_pattern": "********",
-      "timestamp": "2026-04-15T05:50:08.359439"
+      "timestamp": "2026-04-16T05:51:16.232797"
     }
   ]
 }

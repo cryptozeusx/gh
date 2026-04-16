@@ -1,21 +1,8 @@
 {
   "service": "postgres",
-  "scan_timestamp": "2026-04-15T05:50:42.319967",
-  "finding_count": 3,
+  "scan_timestamp": "2026-04-16T05:51:50.390876",
+  "finding_count": 2,
   "findings": [
-    {
-      "service": "postgres",
-      "file": "env.example",
-      "repository": "dolmario/semantic-doc-finder",
-      "url": "https://github.com/dolmario/semantic-doc-finder/blob/af6af7c90b3146fb5a0aaf2b28c031ab7c8ea976/env.example",
-      "line_number": 6,
-      "line_preview": "POSTGRES_PASSWORD=docintel123",
-      "key_type": "postgres_password",
-      "description": "Postgres Password",
-      "severity": "high",
-      "matched_pattern": "doci***l123",
-      "timestamp": "2026-04-15T05:50:07.175299"
-    },
     {
       "service": "postgres",
       "file": ".env.hanzo.example",
@@ -26,8 +13,8 @@
       "key_type": "postgres_password",
       "description": "Postgres Password",
       "severity": "high",
-      "matched_pattern": "POST******************o123",
-      "timestamp": "2026-04-15T05:50:08.359267"
+      "matched_pattern": "********",
+      "timestamp": "2026-04-16T05:51:16.232755"
     },
     {
       "service": "postgres",
@@ -40,7 +27,7 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "POST**************************IX6P",
-      "timestamp": "2026-04-15T05:50:20.780215"
+      "timestamp": "2026-04-16T05:51:28.825257"
     }
   ]
 }
