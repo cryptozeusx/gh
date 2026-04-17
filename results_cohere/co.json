@@ -1,7 +1,7 @@
 {
   "service": "co",
-  "scan_timestamp": "2026-04-16T05:51:50.380182",
-  "finding_count": 8,
+  "scan_timestamp": "2026-04-17T05:52:25.145760",
+  "finding_count": 10,
   "findings": [
     {
       "service": "co",
@@ -14,7 +14,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*************duce",
-      "timestamp": "2026-04-16T05:51:01.634162"
+      "timestamp": "2026-04-17T05:51:41.493447"
     },
     {
       "service": "co",
@@ -27,7 +27,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*****************************B8fE",
-      "timestamp": "2026-04-16T05:51:01.857216"
+      "timestamp": "2026-04-17T05:51:41.695599"
     },
     {
       "service": "co",
@@ -40,7 +40,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************************89cf",
-      "timestamp": "2026-04-16T05:51:01.963118"
+      "timestamp": "2026-04-17T05:51:41.783026"
     },
     {
       "service": "co",
@@ -53,7 +53,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*******************Q80T",
-      "timestamp": "2026-04-16T05:51:02.066265"
+      "timestamp": "2026-04-17T05:51:41.866911"
     },
     {
       "service": "co",
@@ -66,7 +66,20 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************************d5a3",
-      "timestamp": "2026-04-16T05:51:02.175825"
+      "timestamp": "2026-04-17T05:51:41.952651"
+    },
+    {
+      "service": "co",
+      "file": ".env",
+      "repository": "NepsenX/NepsenX",
+      "url": "https://github.com/NepsenX/NepsenX/blob/762cc29ed45fa717b9ca2653a7663c324d6b460d/.env",
+      "line_number": 19,
+      "line_preview": "CO_API_KEY=co_secure_access_90",
+      "key_type": "co_api_key",
+      "description": "Co Api Key",
+      "severity": "medium",
+      "matched_pattern": "CO_A**********************s_90",
+      "timestamp": "2026-04-17T05:51:43.561248"
     },
     {
       "service": "co",
@@ -79,7 +92,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********************************61ad",
-      "timestamp": "2026-04-16T05:51:04.863069"
+      "timestamp": "2026-04-17T05:51:44.278613"
     },
     {
       "service": "co",
@@ -92,7 +105,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*******************************FcU'",
-      "timestamp": "2026-04-16T05:51:05.283702"
+      "timestamp": "2026-04-17T05:51:44.608791"
     },
     {
       "service": "co",
@@ -105,7 +118,20 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********************************TylK",
-      "timestamp": "2026-04-16T05:51:06.475170"
+      "timestamp": "2026-04-17T05:51:45.503701"
+    },
+    {
+      "service": "co",
+      "file": ".env.example",
+      "repository": "stevenfazzio/huggingface-dataset-map",
+      "url": "https://github.com/stevenfazzio/huggingface-dataset-map/blob/bcdb969fd282e436c718ec1ba5428a70eba707b9/.env.example",
+      "line_number": 3,
+      "line_preview": "CO_API_KEY=             # Cohere API key (card embeddings)",
+      "key_type": "co_api_key",
+      "description": "Co Api Key",
+      "severity": "medium",
+      "matched_pattern": "# Co**************************ngs)",
+      "timestamp": "2026-04-17T05:51:58.921600"
     }
   ]
 }

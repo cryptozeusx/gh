@@ -1,8 +1,21 @@
 {
   "service": "qdrant",
-  "scan_timestamp": "2026-04-01T08:21:40.013769",
-  "finding_count": 1,
+  "scan_timestamp": "2026-04-17T05:52:25.159378",
+  "finding_count": 2,
   "findings": [
+    {
+      "service": "qdrant",
+      "file": ".env.example",
+      "repository": "sourangshupal/Hybrid-Search-RAG",
+      "url": "https://github.com/sourangshupal/Hybrid-Search-RAG/blob/207e3c50ceddcbab0b9ffe56c3713555f50cc6db/.env.example",
+      "line_number": 32,
+      "line_preview": "QDRANT_API_KEY=\"\"  # Optional, for cloud Qdrant",
+      "key_type": "qdrant_api_key",
+      "description": "Qdrant Api Key",
+      "severity": "medium",
+      "matched_pattern": "  # **********************rant",
+      "timestamp": "2026-04-17T05:51:52.344389"
+    },
     {
       "service": "qdrant",
       "file": "backend-api/.env.local",
@@ -14,7 +27,7 @@
       "description": "Qdrant Api Key",
       "severity": "medium",
       "matched_pattern": "QDRA***************************************************************************************************************pjE\"",
-      "timestamp": "2026-04-01T08:21:19.878364"
+      "timestamp": "2026-04-17T05:52:04.337707"
     }
   ]
 }

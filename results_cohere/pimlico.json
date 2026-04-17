@@ -1,6 +1,6 @@
 {
   "service": "pimlico",
-  "scan_timestamp": "2026-04-16T05:51:50.390576",
+  "scan_timestamp": "2026-04-17T05:52:25.158120",
   "finding_count": 5,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Pimlico Api Key",
       "severity": "medium",
       "matched_pattern": "PIML************************************FcU'",
-      "timestamp": "2026-04-16T05:51:05.283756"
+      "timestamp": "2026-04-17T05:51:44.608854"
     },
     {
       "service": "pimlico",
@@ -27,7 +27,7 @@
       "description": "Pimlico Api Key",
       "severity": "medium",
       "matched_pattern": "PIML********************************************5332",
-      "timestamp": "2026-04-16T05:51:07.655022"
+      "timestamp": "2026-04-17T05:51:46.525150"
     },
     {
       "service": "pimlico",
@@ -40,7 +40,7 @@
       "description": "Pimlico Usdc Token Address",
       "severity": "medium",
       "matched_pattern": "0x92*******************************************************************************************************************ens)",
-      "timestamp": "2026-04-16T05:51:27.790663"
+      "timestamp": "2026-04-17T05:52:02.220404"
     },
     {
       "service": "pimlico",
@@ -53,7 +53,7 @@
       "description": "Pimlico Erc20 Token Contract",
       "severity": "medium",
       "matched_pattern": "0x0b**********************************502a",
-      "timestamp": "2026-04-16T05:51:27.790716"
+      "timestamp": "2026-04-17T05:52:02.220461"
     },
     {
       "service": "pimlico",
@@ -66,7 +66,7 @@
       "description": "Pimlico Erc721 Token Contract",
       "severity": "medium",
       "matched_pattern": "0xf1**********************************7a05",
-      "timestamp": "2026-04-16T05:51:27.790745"
+      "timestamp": "2026-04-17T05:52:02.220510"
     }
   ]
 }

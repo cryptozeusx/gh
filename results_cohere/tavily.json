@@ -1,21 +1,8 @@
 {
   "service": "tavily",
-  "scan_timestamp": "2026-04-16T05:51:50.393595",
-  "finding_count": 5,
+  "scan_timestamp": "2026-04-17T05:52:25.162446",
+  "finding_count": 4,
   "findings": [
-    {
-      "service": "tavily",
-      "file": ".env_sample",
-      "repository": "jykim-code/RAGClass",
-      "url": "https://github.com/jykim-code/RAGClass/blob/edf490b0aad5593672ab560a41c7268f08ca389d/.env_sample",
-      "line_number": 7,
-      "line_preview": "TAVILY_API_KEY=tvly-mGxBGvzbH...",
-      "key_type": "tavily_api_key",
-      "description": "Tavily Api Key",
-      "severity": "medium",
-      "matched_pattern": "tvly*********H...",
-      "timestamp": "2026-04-16T05:50:53.066124"
-    },
     {
       "service": "tavily",
       "file": ".env",
@@ -27,7 +14,7 @@
       "description": "Tavily API Key",
       "severity": "high",
       "matched_pattern": "tvly*****************************2Xo0",
-      "timestamp": "2026-04-16T05:51:04.771647"
+      "timestamp": "2026-04-17T05:51:44.184149"
     },
     {
       "service": "tavily",
@@ -40,7 +27,7 @@
       "description": "Tavily API Key (named var)",
       "severity": "high",
       "matched_pattern": "TAVI**********************************************2Xo0",
-      "timestamp": "2026-04-16T05:51:04.771674"
+      "timestamp": "2026-04-17T05:51:44.184191"
     },
     {
       "service": "tavily",
@@ -53,7 +40,7 @@
       "description": "Tavily API Key",
       "severity": "high",
       "matched_pattern": "tvly*****************************jSg2",
-      "timestamp": "2026-04-16T05:51:05.180323"
+      "timestamp": "2026-04-17T05:51:44.527705"
     },
     {
       "service": "tavily",
@@ -66,7 +53,7 @@
       "description": "Tavily API Key (named var)",
       "severity": "high",
       "matched_pattern": "TAVI********************************************jSg2",
-      "timestamp": "2026-04-16T05:51:05.180350"
+      "timestamp": "2026-04-17T05:51:44.527746"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "service": "encryption",
-  "scan_timestamp": "2026-04-16T05:51:50.382536",
+  "scan_timestamp": "2026-04-17T05:52:25.148373",
   "finding_count": 5,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Encryption Key",
       "severity": "medium",
       "matched_pattern": "afaf********************************************************069e",
-      "timestamp": "2026-04-16T05:51:01.857351"
+      "timestamp": "2026-04-17T05:51:41.695820"
     },
     {
       "service": "encryption",
@@ -27,20 +27,20 @@
       "description": "Encryption Key",
       "severity": "medium",
       "matched_pattern": "ENCR****************************************YTES",
-      "timestamp": "2026-04-16T05:51:12.320653"
+      "timestamp": "2026-04-17T05:51:53.242701"
     },
     {
       "service": "encryption",
       "file": "backend/.env.dist.local",
       "repository": "linuxfoundation/crowd.dev",
-      "url": "https://github.com/linuxfoundation/crowd.dev/blob/fd071e4e4921dab9d8bbcc51c2a7cb14e654c204/backend/.env.dist.local",
+      "url": "https://github.com/linuxfoundation/crowd.dev/blob/f40f137c9dd4792affe20dc46bf8b443d18e94fc/backend/.env.dist.local",
       "line_number": 151,
       "line_preview": "CROWD_TEMPORAL_ENCRYPTION_KEY=FweBMRnGCLshER8FlSvNusQA6G3MRUKt",
       "key_type": "encryption_key",
       "description": "Encryption Key",
       "severity": "medium",
       "matched_pattern": "ENCR***************************************RUKt",
-      "timestamp": "2026-04-16T05:51:28.314093"
+      "timestamp": "2026-04-17T05:52:02.712717"
     },
     {
       "service": "encryption",
@@ -53,7 +53,7 @@
       "description": "Encryption Key",
       "severity": "medium",
       "matched_pattern": "ENCR***************************************RUKt",
-      "timestamp": "2026-04-16T05:51:28.965028"
+      "timestamp": "2026-04-17T05:52:03.401708"
     },
     {
       "service": "encryption",
@@ -66,7 +66,7 @@
       "description": "Encryption Key",
       "severity": "medium",
       "matched_pattern": "ENCR***************************************7ab2",
-      "timestamp": "2026-04-16T05:51:42.958421"
+      "timestamp": "2026-04-17T05:52:17.462279"
     }
   ]
 }

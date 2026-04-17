@@ -1,6 +1,6 @@
 {
   "service": "x402",
-  "scan_timestamp": "2026-04-16T05:51:50.394493",
+  "scan_timestamp": "2026-04-17T05:52:25.163449",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "X402 Client Signer Key Id",
       "severity": "medium",
       "matched_pattern": "# HS***************************ning",
-      "timestamp": "2026-04-16T05:51:00.509406"
+      "timestamp": "2026-04-17T05:51:40.494181"
     }
   ]
 }

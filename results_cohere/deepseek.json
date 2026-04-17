@@ -1,21 +1,8 @@
 {
   "service": "deepseek",
-  "scan_timestamp": "2026-04-16T05:51:50.382078",
-  "finding_count": 3,
+  "scan_timestamp": "2026-04-17T05:52:25.147860",
+  "finding_count": 2,
   "findings": [
-    {
-      "service": "deepseek",
-      "file": ".env copy 2",
-      "repository": "miguelmartmart/jddc_materiales_local_bd_ia",
-      "url": "https://github.com/miguelmartmart/jddc_materiales_local_bd_ia/blob/caa4c3d225c110ee61c875abd919a0f9628d1ca2/.env%20copy%202",
-      "line_number": 8,
-      "line_preview": "DEEPSEEK_API_KEY=sk-50dd47b8ffda4ddf9168fe5732649e4f",
-      "key_type": "deepseek_key",
-      "description": "DeepSeek API Key",
-      "severity": "high",
-      "matched_pattern": "DEEP********************************************9e4f",
-      "timestamp": "2026-04-16T05:50:52.868968"
-    },
     {
       "service": "deepseek",
       "file": ".env",
@@ -27,7 +14,7 @@
       "description": "DeepSeek API Key",
       "severity": "high",
       "matched_pattern": "DEEP********************************************1692",
-      "timestamp": "2026-04-16T05:51:02.066170"
+      "timestamp": "2026-04-17T05:51:41.866784"
     },
     {
       "service": "deepseek",
@@ -40,7 +27,7 @@
       "description": "DeepSeek API Key",
       "severity": "high",
       "matched_pattern": "DEEP********************************************e392",
-      "timestamp": "2026-04-16T05:51:30.308172"
+      "timestamp": "2026-04-17T05:52:04.689932"
     }
   ]
 }

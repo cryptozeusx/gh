@@ -1,6 +1,6 @@
 {
   "service": "grafana",
-  "scan_timestamp": "2026-04-16T05:51:50.386117",
+  "scan_timestamp": "2026-04-17T05:52:25.152676",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Grafana Password",
       "severity": "high",
       "matched_pattern": "very************************************hars",
-      "timestamp": "2026-04-16T05:51:24.378532"
+      "timestamp": "2026-04-17T05:51:59.439291"
     }
   ]
 }

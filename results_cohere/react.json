@@ -1,7 +1,7 @@
 {
   "service": "react",
-  "scan_timestamp": "2026-04-16T05:51:50.391626",
-  "finding_count": 5,
+  "scan_timestamp": "2026-04-17T05:52:25.159785",
+  "finding_count": 4,
   "findings": [
     {
       "service": "react",
@@ -14,7 +14,7 @@
       "description": "React App Default Token List Url",
       "severity": "medium",
       "matched_pattern": "http*********************************************************************************************************json",
-      "timestamp": "2026-04-16T05:50:42.624393"
+      "timestamp": "2026-04-17T05:51:23.852968"
     },
     {
       "service": "react",
@@ -27,7 +27,7 @@
       "description": "React App Polygon Api Key Free",
       "severity": "medium",
       "matched_pattern": "S0m3********1K3y",
-      "timestamp": "2026-04-16T05:50:42.624523"
+      "timestamp": "2026-04-17T05:51:23.853104"
     },
     {
       "service": "react",
@@ -40,7 +40,7 @@
       "description": "React App Token List Exchange Custom Asset Logo Url",
       "severity": "medium",
       "matched_pattern": "http****************************************************************************************************.png",
-      "timestamp": "2026-04-16T05:50:42.624570"
+      "timestamp": "2026-04-17T05:51:23.853158"
     },
     {
       "service": "react",
@@ -53,20 +53,7 @@
       "description": "React App Token List Asset Generic Address Testnet Logo Url Base",
       "severity": "medium",
       "matched_pattern": "http******************************************************************************************************************ets/",
-      "timestamp": "2026-04-16T05:50:42.624604"
-    },
-    {
-      "service": "react",
-      "file": ".env.txt",
-      "repository": "ykatyhoney/React-Store",
-      "url": "https://github.com/ykatyhoney/React-Store/blob/ea3863443e1bf7d92cc8273051245f3f07456b21/.env.txt",
-      "line_number": 8,
-      "line_preview": "REACT_APP_MAPBOX_ACCESS_TOKEN=pk.eyJ1IjoiZ2ljb2RlcmdhbCIsImEiOiJjazcxODNscXYwM3R3M2V0aGcwMWxvcWV0In0.s246-Q7mSmCOOeqwP-H",
-      "key_type": "react_app_mapbox_access_token",
-      "description": "React App Mapbox Access Token",
-      "severity": "medium",
-      "matched_pattern": "pk.e*************************************************************************************HGtA",
-      "timestamp": "2026-04-16T05:50:51.089546"
+      "timestamp": "2026-04-17T05:51:23.853222"
     }
   ]
 }

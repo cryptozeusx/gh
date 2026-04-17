@@ -1,7 +1,7 @@
 {
   "service": "cohere",
-  "scan_timestamp": "2026-04-16T05:51:50.380341",
-  "finding_count": 56,
+  "scan_timestamp": "2026-04-17T05:52:25.145960",
+  "finding_count": 58,
   "findings": [
     {
       "service": "cohere",
@@ -14,7 +14,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "COHE***********************************************7m2Z",
-      "timestamp": "2026-04-16T05:50:49.002583"
+      "timestamp": "2026-04-17T05:51:30.800637"
     },
     {
       "service": "cohere",
@@ -27,72 +27,7 @@
       "description": "Cohere Api Key",
       "severity": "medium",
       "matched_pattern": "COHE***********************************8ZH\"",
-      "timestamp": "2026-04-16T05:50:50.376664"
-    },
-    {
-      "service": "cohere",
-      "file": ".env copy 2",
-      "repository": "miguelmartmart/jddc_materiales_local_bd_ia",
-      "url": "https://github.com/miguelmartmart/jddc_materiales_local_bd_ia/blob/caa4c3d225c110ee61c875abd919a0f9628d1ca2/.env%20copy%202",
-      "line_number": 19,
-      "line_preview": "COHERE_API_KEY=X08iIzmT3k5kxzf2bPpI2IgCrUSQmtxFU8DFBM8P",
-      "key_type": "cohere_key",
-      "description": "Cohere API Key",
-      "severity": "high",
-      "matched_pattern": "COHE***********************************************BM8P",
-      "timestamp": "2026-04-16T05:50:52.869350"
-    },
-    {
-      "service": "cohere",
-      "file": ".env.exampl",
-      "repository": "Thome07/RAG-Basico",
-      "url": "https://github.com/Thome07/RAG-Basico/blob/d6a186d0b70b1fa252c02fdd76e46d0e3908f978/.env.exampl",
-      "line_number": 2,
-      "line_preview": "COHERE_API_KEY=\"Sua Chave Da CoHere\"",
-      "key_type": "cohere_api_key",
-      "description": "Cohere Api Key",
-      "severity": "medium",
-      "matched_pattern": "Sua ***********Here",
-      "timestamp": "2026-04-16T05:50:53.160505"
-    },
-    {
-      "service": "cohere",
-      "file": ".env.docker",
-      "repository": "Savitha11111/FloodAi",
-      "url": "https://github.com/Savitha11111/FloodAi/blob/14cf7c1801a1db389ee09af539f12aaa513318be/.env.docker",
-      "line_number": 17,
-      "line_preview": "COHERE_API_KEY=WuWBkSf2A5ErNBUTXjRRjCfCgMtIspDfCMeFCRR0",
-      "key_type": "cohere_key",
-      "description": "Cohere API Key",
-      "severity": "high",
-      "matched_pattern": "COHE***********************************************CRR0",
-      "timestamp": "2026-04-16T05:50:53.256934"
-    },
-    {
-      "service": "cohere",
-      "file": ".env.providers",
-      "repository": "RobertoSilvaDevFullStack/crm-balloon",
-      "url": "https://github.com/RobertoSilvaDevFullStack/crm-balloon/blob/cc1ea0a3ed503a36ec727a4e5de9e1ea70d33d7e/.env.providers",
-      "line_number": 21,
-      "line_preview": "COHERE_API_KEY=eNSZyVS5fWz18s3rNyImNmHHI9dw54uFO3V17ux8",
-      "key_type": "cohere_key",
-      "description": "Cohere API Key",
-      "severity": "high",
-      "matched_pattern": "COHE***********************************************7ux8",
-      "timestamp": "2026-04-16T05:50:53.757893"
-    },
-    {
-      "service": "cohere",
-      "file": ".env.save",
-      "repository": "samrahimi/factoid-ai",
-      "url": "https://github.com/samrahimi/factoid-ai/blob/9b870d3e93ccf5e4a43d3bd03c81b6a1a1a81e77/.env.save",
-      "line_number": 13,
-      "line_preview": "COHERE_API_KEY=kqAuzSMeErwOu3Hnr7ve6x0nhK3ic1EVQGNjzLo1",
-      "key_type": "cohere_key",
-      "description": "Cohere API Key",
-      "severity": "high",
-      "matched_pattern": "COHE***********************************************zLo1",
-      "timestamp": "2026-04-16T05:50:54.057014"
+      "timestamp": "2026-04-17T05:51:32.337057"
     },
     {
       "service": "cohere",
@@ -105,7 +40,33 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "COHE***********************************************jdMN",
-      "timestamp": "2026-04-16T05:50:54.653067"
+      "timestamp": "2026-04-17T05:51:34.438904"
+    },
+    {
+      "service": "cohere",
+      "file": "gif.env",
+      "repository": "iyer131/GIFt",
+      "url": "https://github.com/iyer131/GIFt/blob/a840026822dd8ec28c5c164e01a05fe96445f67c/gif.env",
+      "line_number": 1,
+      "line_preview": "COHERE_API_KEY = \"UHHM6tMjdtFMA4bdy0jNO3AfZEz6A5DrkYMWSHSx\"",
+      "key_type": "cohere_key",
+      "description": "Cohere API Key",
+      "severity": "high",
+      "matched_pattern": "COHE**************************************************SHSx",
+      "timestamp": "2026-04-17T05:51:34.518494"
+    },
+    {
+      "service": "cohere",
+      "file": ".env.defaults",
+      "repository": "BlakkTyger/fantasy-cricket-chatbot",
+      "url": "https://github.com/BlakkTyger/fantasy-cricket-chatbot/blob/053e91285b488eb526d3f6662f17df4f8256770d/.env.defaults",
+      "line_number": 3,
+      "line_preview": "COHERE_API_KEY=\"ImZLlll10FZDiqWEKZRlXNBTvS9uv7H51Oqfy3P9\"",
+      "key_type": "cohere_key",
+      "description": "Cohere API Key",
+      "severity": "high",
+      "matched_pattern": "COHE************************************************y3P9",
+      "timestamp": "2026-04-17T05:51:34.995652"
     },
     {
       "service": "cohere",
@@ -118,7 +79,33 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "COHE************************************************EQMB",
-      "timestamp": "2026-04-16T05:50:56.158408"
+      "timestamp": "2026-04-17T05:51:35.089409"
+    },
+    {
+      "service": "cohere",
+      "file": ".env.langchain",
+      "repository": "ashmin-01/chat-bot-backend",
+      "url": "https://github.com/ashmin-01/chat-bot-backend/blob/55c19f77eab94463abe2b18e5bf030bb49d740d2/.env.langchain",
+      "line_number": 3,
+      "line_preview": "COHERE_API_KEY=pczcIAiOQLKPrJo3wRKrKlZyZpsqkw7lJiEhuJdA",
+      "key_type": "cohere_key",
+      "description": "Cohere API Key",
+      "severity": "high",
+      "matched_pattern": "COHE***********************************************uJdA",
+      "timestamp": "2026-04-17T05:51:35.226204"
+    },
+    {
+      "service": "cohere",
+      "file": ".env.providers",
+      "repository": "RobertoSilvaDevFullStack/crm-balloon",
+      "url": "https://github.com/RobertoSilvaDevFullStack/crm-balloon/blob/cc1ea0a3ed503a36ec727a4e5de9e1ea70d33d7e/.env.providers",
+      "line_number": 21,
+      "line_preview": "COHERE_API_KEY=eNSZyVS5fWz18s3rNyImNmHHI9dw54uFO3V17ux8",
+      "key_type": "cohere_key",
+      "description": "Cohere API Key",
+      "severity": "high",
+      "matched_pattern": "COHE***********************************************7ux8",
+      "timestamp": "2026-04-17T05:51:35.291691"
     },
     {
       "service": "cohere",
@@ -131,7 +118,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "COHE***********************************************XcJv",
-      "timestamp": "2026-04-16T05:50:56.841827"
+      "timestamp": "2026-04-17T05:51:35.479125"
     },
     {
       "service": "cohere",
@@ -144,7 +131,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "COHE***********************************************znyz",
-      "timestamp": "2026-04-16T05:50:57.048723"
+      "timestamp": "2026-04-17T05:51:35.654947"
     },
     {
       "service": "cohere",
@@ -157,7 +144,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "COHE***********************************************Zj9Q",
-      "timestamp": "2026-04-16T05:50:57.137584"
+      "timestamp": "2026-04-17T05:51:35.747542"
     },
     {
       "service": "cohere",
@@ -170,7 +157,20 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "COHE***********************************************OkSm",
-      "timestamp": "2026-04-16T05:50:57.233878"
+      "timestamp": "2026-04-17T05:51:35.822008"
+    },
+    {
+      "service": "cohere",
+      "file": ".env.save",
+      "repository": "samrahimi/factoid-ai",
+      "url": "https://github.com/samrahimi/factoid-ai/blob/9b870d3e93ccf5e4a43d3bd03c81b6a1a1a81e77/.env.save",
+      "line_number": 13,
+      "line_preview": "COHERE_API_KEY=kqAuzSMeErwOu3Hnr7ve6x0nhK3ic1EVQGNjzLo1",
+      "key_type": "cohere_key",
+      "description": "Cohere API Key",
+      "severity": "high",
+      "matched_pattern": "COHE***********************************************zLo1",
+      "timestamp": "2026-04-17T05:51:36.071930"
     },
     {
       "service": "cohere",
@@ -183,7 +183,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "CO_A***************************************dde5",
-      "timestamp": "2026-04-16T05:50:59.990067"
+      "timestamp": "2026-04-17T05:51:40.060181"
     },
     {
       "service": "cohere",
@@ -196,7 +196,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "CO_A*******************************************HsaY",
-      "timestamp": "2026-04-16T05:51:00.903928"
+      "timestamp": "2026-04-17T05:51:40.875603"
     },
     {
       "service": "cohere",
@@ -209,7 +209,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "CO_A************************************************************JqwL",
-      "timestamp": "2026-04-16T05:51:01.007601"
+      "timestamp": "2026-04-17T05:51:40.956007"
     },
     {
       "service": "cohere",
@@ -222,7 +222,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "CO_A*******************************************HsaY",
-      "timestamp": "2026-04-16T05:51:01.115174"
+      "timestamp": "2026-04-17T05:51:41.041801"
     },
     {
       "service": "cohere",
@@ -235,7 +235,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "CO_A***********************************************************5Njb",
-      "timestamp": "2026-04-16T05:51:01.229791"
+      "timestamp": "2026-04-17T05:51:41.139740"
     },
     {
       "service": "cohere",
@@ -248,7 +248,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "CO_A*******************************************6OGz",
-      "timestamp": "2026-04-16T05:51:02.274249"
+      "timestamp": "2026-04-17T05:51:42.039478"
     },
     {
       "service": "cohere",
@@ -261,7 +261,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "CO_A************************************************f002",
-      "timestamp": "2026-04-16T05:51:02.383363"
+      "timestamp": "2026-04-17T05:51:42.132315"
     },
     {
       "service": "cohere",
@@ -274,7 +274,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "CO_A*******************************************1md4",
-      "timestamp": "2026-04-16T05:51:02.479981"
+      "timestamp": "2026-04-17T05:51:42.236330"
     },
     {
       "service": "cohere",
@@ -287,7 +287,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "CO_A*******************************************AnmU",
-      "timestamp": "2026-04-16T05:51:02.573772"
+      "timestamp": "2026-04-17T05:51:42.324786"
     },
     {
       "service": "cohere",
@@ -300,7 +300,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "CO_A*******************************************78ll",
-      "timestamp": "2026-04-16T05:51:02.680442"
+      "timestamp": "2026-04-17T05:51:42.412947"
     },
     {
       "service": "cohere",
@@ -313,33 +313,33 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "CO_A*******************************************ruiv",
-      "timestamp": "2026-04-16T05:51:02.999950"
+      "timestamp": "2026-04-17T05:51:42.704824"
     },
     {
       "service": "cohere",
       "file": "src/.env",
-      "repository": "AnthonyCh2001/webtest",
-      "url": "https://github.com/AnthonyCh2001/webtest/blob/75f8cd0edf666bb6d6d9c492b33ad568f65d650b/src/.env",
+      "repository": "AnthonyCh2001/HireNotes-AI",
+      "url": "https://github.com/AnthonyCh2001/HireNotes-AI/blob/ada0e27956dad19074e7463dcc1dbda3da709714/src/.env",
       "line_number": 1,
-      "line_preview": "CO_API_KEY=CK1XwrGsFqDur1NWsOsP51bFDc9thfvCi7BedE4r",
+      "line_preview": "CO_API_KEY=UDPD4ejJEx3J7hW9JpSLyuGQZ6w6THRENZcBuBZE",
       "key_type": "cohere_key",
       "description": "Cohere API Key",
       "severity": "high",
-      "matched_pattern": "CO_A*******************************************dE4r",
-      "timestamp": "2026-04-16T05:51:03.108482"
+      "matched_pattern": "CO_A*******************************************uBZE",
+      "timestamp": "2026-04-17T05:51:42.784010"
     },
     {
       "service": "cohere",
       "file": "backend/.env",
-      "repository": "devi5040/chatbot",
-      "url": "https://github.com/devi5040/chatbot/blob/cea7eddca8cb846392a63640fefa122c042ffe65/backend/.env",
+      "repository": "linh-kl-trinh/cmdf2024-HearToStudy",
+      "url": "https://github.com/linh-kl-trinh/cmdf2024-HearToStudy/blob/4d3f4d0e880a510abc15a411258fab93d73f69af/backend/.env",
       "line_number": 1,
-      "line_preview": "CO_API_KEY=V8mQhF0cKQEL5MIcV7l5TbQk6nh5Q7Ei07HN9a5d",
+      "line_preview": "CO_API_KEY=e9CVYJsU8V9DyzJe185qErh8aFbewSeh15EEPuLj",
       "key_type": "cohere_key",
       "description": "Cohere API Key",
       "severity": "high",
-      "matched_pattern": "CO_A*******************************************9a5d",
-      "timestamp": "2026-04-16T05:51:03.548905"
+      "matched_pattern": "CO_A*******************************************PuLj",
+      "timestamp": "2026-04-17T05:51:43.133730"
     },
     {
       "service": "cohere",
@@ -352,7 +352,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "CO_A*******************************************WdRm",
-      "timestamp": "2026-04-16T05:51:03.627665"
+      "timestamp": "2026-04-17T05:51:43.211096"
     },
     {
       "service": "cohere",
@@ -365,7 +365,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "CO_A*******************************************rvfa",
-      "timestamp": "2026-04-16T05:51:03.725419"
+      "timestamp": "2026-04-17T05:51:43.297964"
     },
     {
       "service": "cohere",
@@ -378,7 +378,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "CO_A*******************************************JbU2",
-      "timestamp": "2026-04-16T05:51:03.821833"
+      "timestamp": "2026-04-17T05:51:43.380320"
     },
     {
       "service": "cohere",
@@ -391,7 +391,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "CO_A********************************************PE9o",
-      "timestamp": "2026-04-16T05:51:03.929594"
+      "timestamp": "2026-04-17T05:51:43.456068"
     },
     {
       "service": "cohere",
@@ -404,7 +404,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "CO_A**********************************************C6ic",
-      "timestamp": "2026-04-16T05:51:04.771773"
+      "timestamp": "2026-04-17T05:51:44.184361"
     },
     {
       "service": "cohere",
@@ -417,7 +417,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "CO_A*******************************************7KNs",
-      "timestamp": "2026-04-16T05:51:04.971553"
+      "timestamp": "2026-04-17T05:51:44.369285"
     },
     {
       "service": "cohere",
@@ -430,7 +430,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "CO_A*******************************************JXcB",
-      "timestamp": "2026-04-16T05:51:05.065886"
+      "timestamp": "2026-04-17T05:51:44.446797"
     },
     {
       "service": "cohere",
@@ -443,7 +443,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "CO_A*******************************************LYId",
-      "timestamp": "2026-04-16T05:51:05.180465"
+      "timestamp": "2026-04-17T05:51:44.527921"
     },
     {
       "service": "cohere",
@@ -456,7 +456,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "CO_A********************************************PE9o",
-      "timestamp": "2026-04-16T05:51:05.826669"
+      "timestamp": "2026-04-17T05:51:44.955549"
     },
     {
       "service": "cohere",
@@ -469,7 +469,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "CO_A***********************************************************************5iAG",
-      "timestamp": "2026-04-16T05:51:06.600203"
+      "timestamp": "2026-04-17T05:51:45.584625"
     },
     {
       "service": "cohere",
@@ -482,7 +482,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "CO_A*******************************************LXDv",
-      "timestamp": "2026-04-16T05:51:06.820923"
+      "timestamp": "2026-04-17T05:51:45.804073"
     },
     {
       "service": "cohere",
@@ -495,7 +495,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "CO_A*******************************************YMwR",
-      "timestamp": "2026-04-16T05:51:07.136161"
+      "timestamp": "2026-04-17T05:51:46.081718"
     },
     {
       "service": "cohere",
@@ -508,7 +508,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "CO_A*******************************************nzoL",
-      "timestamp": "2026-04-16T05:51:07.549851"
+      "timestamp": "2026-04-17T05:51:46.431328"
     },
     {
       "service": "cohere",
@@ -521,7 +521,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "CO_A***************************************5332",
-      "timestamp": "2026-04-16T05:51:07.654997"
+      "timestamp": "2026-04-17T05:51:46.525109"
     },
     {
       "service": "cohere",
@@ -534,7 +534,33 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "CO_A*******************************************DbTn",
-      "timestamp": "2026-04-16T05:51:07.769110"
+      "timestamp": "2026-04-17T05:51:46.609317"
+    },
+    {
+      "service": "cohere",
+      "file": ".sample.env",
+      "repository": "canburaks/opendigitalgallery",
+      "url": "https://github.com/canburaks/opendigitalgallery/blob/250f0af054af24575a3fe915b7237a969603fcff/.sample.env",
+      "line_number": 8,
+      "line_preview": "IYZICO_API_KEY=\"sandbox-afXhZPW0MQlE4dCUUlHcEopnMBgXnAZI\"",
+      "key_type": "cohere_key",
+      "description": "Cohere API Key",
+      "severity": "high",
+      "matched_pattern": "CO_A********************************************nAZI",
+      "timestamp": "2026-04-17T05:51:46.773023"
+    },
+    {
+      "service": "cohere",
+      "file": ".env.local.example",
+      "repository": "Moodify-friends/moodify-web-interface",
+      "url": "https://github.com/Moodify-friends/moodify-web-interface/blob/11763f45e70d7e2e883cb7e7ed01f18ba2d5b7fd/.env.local.example",
+      "line_number": 4,
+      "line_preview": "COHERE_API_KEY=OL8kzIkOAMZOJ7JhhqzVayTfNyEk0OuSFCm3bhel",
+      "key_type": "cohere_key",
+      "description": "Cohere API Key",
+      "severity": "high",
+      "matched_pattern": "COHE***********************************************bhel",
+      "timestamp": "2026-04-17T05:51:52.631952"
     },
     {
       "service": "cohere",
@@ -547,7 +573,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "CO_A*******************************************hVqC",
-      "timestamp": "2026-04-16T05:51:24.485872"
+      "timestamp": "2026-04-17T05:51:59.513036"
     },
     {
       "service": "cohere",
@@ -560,7 +586,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "CO_A********************************************PE9o",
-      "timestamp": "2026-04-16T05:51:25.691399"
+      "timestamp": "2026-04-17T05:52:00.651585"
     },
     {
       "service": "cohere",
@@ -573,7 +599,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "COHE***********************************************T8n1",
-      "timestamp": "2026-04-16T05:51:28.720899"
+      "timestamp": "2026-04-17T05:52:03.197316"
     },
     {
       "service": "cohere",
@@ -586,7 +612,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "COHE***********************************************ag6t",
-      "timestamp": "2026-04-16T05:51:28.825529"
+      "timestamp": "2026-04-17T05:52:03.280830"
     },
     {
       "service": "cohere",
@@ -599,7 +625,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "COHE***********************************************UB1D",
-      "timestamp": "2026-04-16T05:51:29.257586"
+      "timestamp": "2026-04-17T05:52:03.871369"
     },
     {
       "service": "cohere",
@@ -612,7 +638,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "COHE***********************************************hdFS",
-      "timestamp": "2026-04-16T05:51:29.746830"
+      "timestamp": "2026-04-17T05:52:04.337846"
     },
     {
       "service": "cohere",
@@ -625,7 +651,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "COHE***********************************************ssh3",
-      "timestamp": "2026-04-16T05:51:30.044666"
+      "timestamp": "2026-04-17T05:52:04.497204"
     },
     {
       "service": "cohere",
@@ -638,7 +664,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "COHE***********************************************Sg3a",
-      "timestamp": "2026-04-16T05:51:30.308247"
+      "timestamp": "2026-04-17T05:52:04.690014"
     },
     {
       "service": "cohere",
@@ -651,7 +677,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "COHE***********************************************T8n1",
-      "timestamp": "2026-04-16T05:51:30.882152"
+      "timestamp": "2026-04-17T05:52:05.202096"
     },
     {
       "service": "cohere",
@@ -664,7 +690,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "CO_A****************************************************************RfpW",
-      "timestamp": "2026-04-16T05:51:35.184995"
+      "timestamp": "2026-04-17T05:52:09.574724"
     },
     {
       "service": "cohere",
@@ -677,7 +703,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "COHE**************************************************a2Hv",
-      "timestamp": "2026-04-16T05:51:42.205172"
+      "timestamp": "2026-04-17T05:52:16.696320"
     },
     {
       "service": "cohere",
@@ -690,7 +716,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "COHE***********************************************VGIU",
-      "timestamp": "2026-04-16T05:51:42.415596"
+      "timestamp": "2026-04-17T05:52:16.925820"
     },
     {
       "service": "cohere",
@@ -703,7 +729,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "COHE***********************************************3VLY",
-      "timestamp": "2026-04-16T05:51:42.730142"
+      "timestamp": "2026-04-17T05:52:17.263434"
     },
     {
       "service": "cohere",
@@ -716,7 +742,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "CO_A*******************************************FBUN",
-      "timestamp": "2026-04-16T05:51:49.159889"
+      "timestamp": "2026-04-17T05:52:23.926170"
     },
     {
       "service": "cohere",
@@ -729,7 +755,7 @@
       "description": "Cohere API Key",
       "severity": "high",
       "matched_pattern": "CO_A****************************************cc23",
-      "timestamp": "2026-04-16T05:51:49.274170"
+      "timestamp": "2026-04-17T05:52:24.021131"
     }
   ]
 }

@@ -1,20 +1,20 @@
 {
   "service": "anthropic",
-  "scan_timestamp": "2026-04-16T05:51:50.379288",
+  "scan_timestamp": "2026-04-17T05:52:25.144350",
   "finding_count": 5,
   "findings": [
     {
       "service": "anthropic",
-      "file": ".env_sample",
-      "repository": "jykim-code/RAGClass",
-      "url": "https://github.com/jykim-code/RAGClass/blob/edf490b0aad5593672ab560a41c7268f08ca389d/.env_sample",
-      "line_number": 10,
-      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api0...",
+      "file": ".env.local",
+      "repository": "mateuszpoland/upwork-proposal-ai-agent",
+      "url": "https://github.com/mateuszpoland/upwork-proposal-ai-agent/blob/355c6d4a567d5084aac046af407a3d232adf5f93/.env.local",
+      "line_number": 7,
+      "line_preview": "ANTHROPIC_API_KEY= # Required: Format: sk-ant-api03-...",
       "key_type": "anthropic_api_key",
       "description": "Anthropic Api Key",
       "severity": "medium",
-      "matched_pattern": "sk-a******0...",
-      "timestamp": "2026-04-16T05:50:53.066152"
+      "matched_pattern": "# Re****************************-...",
+      "timestamp": "2026-04-17T05:51:35.560351"
     },
     {
       "service": "anthropic",
@@ -27,20 +27,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************FAAA",
-      "timestamp": "2026-04-16T05:50:54.056864"
-    },
-    {
-      "service": "anthropic",
-      "file": ".env.local",
-      "repository": "mateuszpoland/upwork-proposal-ai-agent",
-      "url": "https://github.com/mateuszpoland/upwork-proposal-ai-agent/blob/355c6d4a567d5084aac046af407a3d232adf5f93/.env.local",
-      "line_number": 7,
-      "line_preview": "ANTHROPIC_API_KEY= # Required: Format: sk-ant-api03-...",
-      "key_type": "anthropic_api_key",
-      "description": "Anthropic Api Key",
-      "severity": "medium",
-      "matched_pattern": "# Re****************************-...",
-      "timestamp": "2026-04-16T05:50:56.948552"
+      "timestamp": "2026-04-17T05:51:36.071734"
     },
     {
       "service": "anthropic",
@@ -53,7 +40,20 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************cwAA",
-      "timestamp": "2026-04-16T05:51:02.573584"
+      "timestamp": "2026-04-17T05:51:42.324451"
+    },
+    {
+      "service": "anthropic",
+      "file": ".env.example",
+      "repository": "stevenfazzio/huggingface-dataset-map",
+      "url": "https://github.com/stevenfazzio/huggingface-dataset-map/blob/bcdb969fd282e436c718ec1ba5428a70eba707b9/.env.example",
+      "line_number": 4,
+      "line_preview": "ANTHROPIC_API_KEY=      # Anthropic API key (Toponymy topic naming via Claude Sonnet)",
+      "key_type": "anthropic_api_key",
+      "description": "Anthropic Api Key",
+      "severity": "medium",
+      "matched_pattern": "# An*****************************************************net)",
+      "timestamp": "2026-04-17T05:51:58.921659"
     },
     {
       "service": "anthropic",
@@ -66,7 +66,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************DgAA",
-      "timestamp": "2026-04-16T05:51:30.307722"
+      "timestamp": "2026-04-17T05:52:04.689216"
     }
   ]
 }

@@ -1,21 +1,8 @@
 {
   "service": "mistral",
-  "scan_timestamp": "2026-04-16T05:51:50.388078",
-  "finding_count": 5,
+  "scan_timestamp": "2026-04-17T05:52:25.154921",
+  "finding_count": 4,
   "findings": [
-    {
-      "service": "mistral",
-      "file": ".env.save",
-      "repository": "samrahimi/factoid-ai",
-      "url": "https://github.com/samrahimi/factoid-ai/blob/9b870d3e93ccf5e4a43d3bd03c81b6a1a1a81e77/.env.save",
-      "line_number": 11,
-      "line_preview": "MISTRAL_API_KEY=qdsFQ10gr5mzlDwPXvW4eWpj4JZsswdN",
-      "key_type": "mistral_api_key",
-      "description": "Mistral Api Key",
-      "severity": "medium",
-      "matched_pattern": "MIST****************************************swdN",
-      "timestamp": "2026-04-16T05:50:54.056966"
-    },
     {
       "service": "mistral",
       "file": ".env",
@@ -27,7 +14,7 @@
       "description": "Mistral Api Key",
       "severity": "medium",
       "matched_pattern": "MIST****************************************r48a",
-      "timestamp": "2026-04-16T05:51:02.573721"
+      "timestamp": "2026-04-17T05:51:42.324706"
     },
     {
       "service": "mistral",
@@ -40,7 +27,7 @@
       "description": "Mistral Api Key",
       "severity": "medium",
       "matched_pattern": "MIST******************************************8GfS",
-      "timestamp": "2026-04-16T05:51:04.771818"
+      "timestamp": "2026-04-17T05:51:44.184437"
     },
     {
       "service": "mistral",
@@ -53,7 +40,7 @@
       "description": "Mistral Api Key",
       "severity": "medium",
       "matched_pattern": "MIST****************************************BCw7",
-      "timestamp": "2026-04-16T05:51:29.838264"
+      "timestamp": "2026-04-17T05:52:04.404233"
     },
     {
       "service": "mistral",
@@ -66,7 +53,7 @@
       "description": "Mistral Api Key",
       "severity": "medium",
       "matched_pattern": "MIST****************************************KYHC",
-      "timestamp": "2026-04-16T05:51:30.308094"
+      "timestamp": "2026-04-17T05:52:04.689813"
     }
   ]
 }

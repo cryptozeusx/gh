@@ -1,7 +1,7 @@
 {
   "service": "api",
-  "scan_timestamp": "2026-04-16T05:51:50.379394",
-  "finding_count": 6,
+  "scan_timestamp": "2026-04-17T05:52:25.144510",
+  "finding_count": 5,
   "findings": [
     {
       "service": "api",
@@ -14,7 +14,7 @@
       "description": "Api Password",
       "severity": "high",
       "matched_pattern": "Deng***7258",
-      "timestamp": "2026-04-16T05:51:02.066441"
+      "timestamp": "2026-04-17T05:51:41.867188"
     },
     {
       "service": "api",
@@ -27,20 +27,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_*********udio",
-      "timestamp": "2026-04-16T05:51:12.448690"
-    },
-    {
-      "service": "api",
-      "file": ".env.production.example",
-      "repository": "Prometheus-Automation/store",
-      "url": "https://github.com/Prometheus-Automation/store/blob/bd2e0d4ef72686cec7961c165f39b0644f5de515/.env.production.example",
-      "line_number": 40,
-      "line_preview": "SENDGRID_API_KEY=SG.your-sendgrid-api-key",
-      "key_type": "api_key",
-      "description": "Api Key",
-      "severity": "medium",
-      "matched_pattern": "API_************************-key",
-      "timestamp": "2026-04-16T05:51:17.232757"
+      "timestamp": "2026-04-17T05:51:49.748564"
     },
     {
       "service": "api",
@@ -53,7 +40,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_**************************key\"",
-      "timestamp": "2026-04-16T05:51:21.323550"
+      "timestamp": "2026-04-17T05:51:56.688316"
     },
     {
       "service": "api",
@@ -66,7 +53,7 @@
       "description": "Api Secret",
       "severity": "high",
       "matched_pattern": "API_*****************************************************YNze",
-      "timestamp": "2026-04-16T05:51:28.825826"
+      "timestamp": "2026-04-17T05:52:03.281299"
     },
     {
       "service": "api",
@@ -79,7 +66,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_************************************************************************************YSui",
-      "timestamp": "2026-04-16T05:51:35.185052"
+      "timestamp": "2026-04-17T05:52:09.574829"
     }
   ]
 }
