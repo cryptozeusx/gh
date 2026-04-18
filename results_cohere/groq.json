@@ -1,34 +1,8 @@
 {
   "service": "groq",
-  "scan_timestamp": "2026-04-17T05:52:25.152777",
-  "finding_count": 6,
+  "scan_timestamp": "2026-04-18T05:26:37.402547",
+  "finding_count": 4,
   "findings": [
-    {
-      "service": "groq",
-      "file": ".env.providers",
-      "repository": "RobertoSilvaDevFullStack/crm-balloon",
-      "url": "https://github.com/RobertoSilvaDevFullStack/crm-balloon/blob/cc1ea0a3ed503a36ec727a4e5de9e1ea70d33d7e/.env.providers",
-      "line_number": 11,
-      "line_preview": "GROQ_API_KEY=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",
-      "key_type": "groq_api_key",
-      "description": "Groq Api Key",
-      "severity": "medium",
-      "matched_pattern": "GROQ*************************************************************m9P4",
-      "timestamp": "2026-04-17T05:51:35.291438"
-    },
-    {
-      "service": "groq",
-      "file": ".env",
-      "repository": "SushantKadam73/startupAnalyzer-stremalit",
-      "url": "https://github.com/SushantKadam73/startupAnalyzer-stremalit/blob/2818eb678be67d7dbb1c2924860ed120078655d5/.env",
-      "line_number": 2,
-      "line_preview": "GROQ_API_KEY = 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",
-      "key_type": "groq_api_key",
-      "description": "Groq Api Key",
-      "severity": "medium",
-      "matched_pattern": "GROQ***************************************************************egLH",
-      "timestamp": "2026-04-17T05:51:44.184024"
-    },
     {
       "service": "groq",
       "file": ".env",
@@ -40,7 +14,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ*************************************************************HfDm",
-      "timestamp": "2026-04-17T05:51:44.369191"
+      "timestamp": "2026-04-18T05:25:53.630826"
     },
     {
       "service": "groq",
@@ -53,7 +27,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ*************************************************************bx9C",
-      "timestamp": "2026-04-17T05:51:44.527606"
+      "timestamp": "2026-04-18T05:25:53.809952"
     },
     {
       "service": "groq",
@@ -66,7 +40,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ*************************************************************5dr7",
-      "timestamp": "2026-04-17T05:52:04.689431"
+      "timestamp": "2026-04-18T05:26:17.755033"
     },
     {
       "service": "groq",
@@ -79,7 +53,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ******************************************************************************************zNFn",
-      "timestamp": "2026-04-17T05:52:04.933632"
+      "timestamp": "2026-04-18T05:26:18.229116"
     }
   ]
 }

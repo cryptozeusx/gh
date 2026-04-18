@@ -1,21 +1,8 @@
 {
   "service": "mistral",
-  "scan_timestamp": "2026-04-17T05:52:25.154921",
-  "finding_count": 4,
+  "scan_timestamp": "2026-04-18T05:26:37.404421",
+  "finding_count": 3,
   "findings": [
-    {
-      "service": "mistral",
-      "file": ".env",
-      "repository": "PathfinderFederalSolutions/AgentForge",
-      "url": "https://github.com/PathfinderFederalSolutions/AgentForge/blob/312de179728e91e461708b7f48f2d3da8dc60232/.env",
-      "line_number": 5,
-      "line_preview": "MISTRAL_API_KEY=4jW2wIOToye2GUqfDjbpwinvYWe9r48a",
-      "key_type": "mistral_api_key",
-      "description": "Mistral Api Key",
-      "severity": "medium",
-      "matched_pattern": "MIST****************************************r48a",
-      "timestamp": "2026-04-17T05:51:42.324706"
-    },
     {
       "service": "mistral",
       "file": ".env",
@@ -27,7 +14,7 @@
       "description": "Mistral Api Key",
       "severity": "medium",
       "matched_pattern": "MIST******************************************8GfS",
-      "timestamp": "2026-04-17T05:51:44.184437"
+      "timestamp": "2026-04-18T05:25:53.426546"
     },
     {
       "service": "mistral",
@@ -40,7 +27,7 @@
       "description": "Mistral Api Key",
       "severity": "medium",
       "matched_pattern": "MIST****************************************BCw7",
-      "timestamp": "2026-04-17T05:52:04.404233"
+      "timestamp": "2026-04-18T05:26:17.307525"
     },
     {
       "service": "mistral",
@@ -53,7 +40,7 @@
       "description": "Mistral Api Key",
       "severity": "medium",
       "matched_pattern": "MIST****************************************KYHC",
-      "timestamp": "2026-04-17T05:52:04.689813"
+      "timestamp": "2026-04-18T05:26:17.755543"
     }
   ]
 }

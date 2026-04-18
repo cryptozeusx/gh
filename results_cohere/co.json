@@ -1,7 +1,7 @@
 {
   "service": "co",
-  "scan_timestamp": "2026-04-17T05:52:25.145760",
-  "finding_count": 10,
+  "scan_timestamp": "2026-04-18T05:26:37.396620",
+  "finding_count": 9,
   "findings": [
     {
       "service": "co",
@@ -14,20 +14,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*************duce",
-      "timestamp": "2026-04-17T05:51:41.493447"
-    },
-    {
-      "service": "co",
-      "file": "strategy_engine/src/render.env.md",
-      "repository": "TemamAb/alpha",
-      "url": "https://github.com/TemamAb/alpha/blob/80be4d1acaeff2db132ac414b08d0c7982165f2e/strategy_engine/src/render.env.md",
-      "line_number": 116,
-      "line_preview": "PIMLICO_API_KEY=pim_UbfKR9ocMe5ibNUCGgB8fE",
-      "key_type": "co_api_key",
-      "description": "Co Api Key",
-      "severity": "medium",
-      "matched_pattern": "CO_A*****************************B8fE",
-      "timestamp": "2026-04-17T05:51:41.695599"
+      "timestamp": "2026-04-18T05:25:50.530617"
     },
     {
       "service": "co",
@@ -40,7 +27,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************************89cf",
-      "timestamp": "2026-04-17T05:51:41.783026"
+      "timestamp": "2026-04-18T05:25:50.706123"
     },
     {
       "service": "co",
@@ -53,7 +40,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*******************Q80T",
-      "timestamp": "2026-04-17T05:51:41.866911"
+      "timestamp": "2026-04-18T05:25:50.787559"
     },
     {
       "service": "co",
@@ -66,7 +53,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************************d5a3",
-      "timestamp": "2026-04-17T05:51:41.952651"
+      "timestamp": "2026-04-18T05:25:50.876751"
     },
     {
       "service": "co",
@@ -79,7 +66,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************s_90",
-      "timestamp": "2026-04-17T05:51:43.561248"
+      "timestamp": "2026-04-18T05:25:52.739721"
     },
     {
       "service": "co",
@@ -92,7 +79,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********************************61ad",
-      "timestamp": "2026-04-17T05:51:44.278613"
+      "timestamp": "2026-04-18T05:25:53.512603"
     },
     {
       "service": "co",
@@ -105,7 +92,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*******************************FcU'",
-      "timestamp": "2026-04-17T05:51:44.608791"
+      "timestamp": "2026-04-18T05:25:53.999674"
     },
     {
       "service": "co",
@@ -118,20 +105,20 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********************************TylK",
-      "timestamp": "2026-04-17T05:51:45.503701"
+      "timestamp": "2026-04-18T05:25:55.093494"
     },
     {
       "service": "co",
       "file": ".env.example",
-      "repository": "stevenfazzio/huggingface-dataset-map",
-      "url": "https://github.com/stevenfazzio/huggingface-dataset-map/blob/bcdb969fd282e436c718ec1ba5428a70eba707b9/.env.example",
+      "repository": "stevenfazzio/semantic-github-map",
+      "url": "https://github.com/stevenfazzio/semantic-github-map/blob/4035e2eb01d4e79769b8e41b7dabe95a93b9018d/.env.example",
       "line_number": 3,
-      "line_preview": "CO_API_KEY=             # Cohere API key (card embeddings)",
+      "line_preview": "CO_API_KEY=             # Cohere API key (embeddings + topic modeling)",
       "key_type": "co_api_key",
       "description": "Co Api Key",
       "severity": "medium",
-      "matched_pattern": "# Co**************************ngs)",
-      "timestamp": "2026-04-17T05:51:58.921600"
+      "matched_pattern": "# Co**************************************ing)",
+      "timestamp": "2026-04-18T05:26:13.186305"
     }
   ]
 }

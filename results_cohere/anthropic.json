@@ -1,8 +1,34 @@
 {
   "service": "anthropic",
-  "scan_timestamp": "2026-04-17T05:52:25.144350",
-  "finding_count": 5,
+  "scan_timestamp": "2026-04-18T05:26:37.395445",
+  "finding_count": 4,
   "findings": [
+    {
+      "service": "anthropic",
+      "file": "env.example",
+      "repository": "FranciscoE195/team-helper-bot",
+      "url": "https://github.com/FranciscoE195/team-helper-bot/blob/321dacb54e00954a95d5744a292cafb175f318b6/env.example",
+      "line_number": 6,
+      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api03-...",
+      "key_type": "anthropic_api_key",
+      "description": "Anthropic Api Key",
+      "severity": "medium",
+      "matched_pattern": "ANTH**************************-...",
+      "timestamp": "2026-04-18T05:26:01.528645"
+    },
+    {
+      "service": "anthropic",
+      "file": ".env.example",
+      "repository": "stevenfazzio/semantic-github-map",
+      "url": "https://github.com/stevenfazzio/semantic-github-map/blob/4035e2eb01d4e79769b8e41b7dabe95a93b9018d/.env.example",
+      "line_number": 4,
+      "line_preview": "ANTHROPIC_API_KEY=      # Anthropic API key (README summarization + topic naming)",
+      "key_type": "anthropic_api_key",
+      "description": "Anthropic Api Key",
+      "severity": "medium",
+      "matched_pattern": "# An*************************************************ing)",
+      "timestamp": "2026-04-18T05:26:13.186360"
+    },
     {
       "service": "anthropic",
       "file": ".env.local",
@@ -14,46 +40,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "# Re****************************-...",
-      "timestamp": "2026-04-17T05:51:35.560351"
-    },
-    {
-      "service": "anthropic",
-      "file": ".env.save",
-      "repository": "samrahimi/factoid-ai",
-      "url": "https://github.com/samrahimi/factoid-ai/blob/9b870d3e93ccf5e4a43d3bd03c81b6a1a1a81e77/.env.save",
-      "line_number": 8,
-      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api03-NN1FrN980a9GLfO2kOjD2GL-GuzxXiJjuZoBzOSypXGzlPE8ngg995Z02EzG4VpciK0IC0S3sjFSRr9OEzLCjA-Ir",
-      "key_type": "anthropic_api_key",
-      "description": "Anthropic Api Key",
-      "severity": "medium",
-      "matched_pattern": "ANTH**********************************************************************************************************************FAAA",
-      "timestamp": "2026-04-17T05:51:36.071734"
-    },
-    {
-      "service": "anthropic",
-      "file": ".env",
-      "repository": "PathfinderFederalSolutions/AgentForge",
-      "url": "https://github.com/PathfinderFederalSolutions/AgentForge/blob/312de179728e91e461708b7f48f2d3da8dc60232/.env",
-      "line_number": 2,
-      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api03-z7IWfPc0RCO1GqNjM9Ef_RnrB-4zhnMnAoSzDarOcwgcRtg7SSvJ3oz0pndHhOuHRSetEaH5xlbJdy4O_m_bZA-Zp",
-      "key_type": "anthropic_api_key",
-      "description": "Anthropic Api Key",
-      "severity": "medium",
-      "matched_pattern": "ANTH**********************************************************************************************************************cwAA",
-      "timestamp": "2026-04-17T05:51:42.324451"
-    },
-    {
-      "service": "anthropic",
-      "file": ".env.example",
-      "repository": "stevenfazzio/huggingface-dataset-map",
-      "url": "https://github.com/stevenfazzio/huggingface-dataset-map/blob/bcdb969fd282e436c718ec1ba5428a70eba707b9/.env.example",
-      "line_number": 4,
-      "line_preview": "ANTHROPIC_API_KEY=      # Anthropic API key (Toponymy topic naming via Claude Sonnet)",
-      "key_type": "anthropic_api_key",
-      "description": "Anthropic Api Key",
-      "severity": "medium",
-      "matched_pattern": "# An*****************************************************net)",
-      "timestamp": "2026-04-17T05:51:58.921659"
+      "timestamp": "2026-04-18T05:26:16.895228"
     },
     {
       "service": "anthropic",
@@ -66,7 +53,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************DgAA",
-      "timestamp": "2026-04-17T05:52:04.689216"
+      "timestamp": "2026-04-18T05:26:17.754627"
     }
   ]
 }

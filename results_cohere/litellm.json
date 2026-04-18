@@ -1,6 +1,6 @@
 {
   "service": "litellm",
-  "scan_timestamp": "2026-04-15T05:50:42.316489",
+  "scan_timestamp": "2026-04-18T05:26:37.403634",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Litellm Api Key",
       "severity": "medium",
       "matched_pattern": "sk-1******************************************************** key",
-      "timestamp": "2026-04-15T05:50:05.799288"
+      "timestamp": "2026-04-18T05:26:01.721894"
     }
   ]
 }

@@ -1,34 +1,8 @@
 {
   "service": "nextauth",
-  "scan_timestamp": "2026-04-17T05:52:25.156280",
-  "finding_count": 5,
+  "scan_timestamp": "2026-04-18T05:26:37.405401",
+  "finding_count": 3,
   "findings": [
-    {
-      "service": "nextauth",
-      "file": ".env.example",
-      "repository": "quenti-io/quenti",
-      "url": "https://github.com/quenti-io/quenti/blob/b8fa3527c662c6a059875a0add36389f447b7d47/.env.example",
-      "line_number": 15,
-      "line_preview": "NEXTAUTH_URL=http://localhost:3000",
-      "key_type": "nextauth_url",
-      "description": "Nextauth Url",
-      "severity": "medium",
-      "matched_pattern": "http*************3000",
-      "timestamp": "2026-04-17T05:51:30.648550"
-    },
-    {
-      "service": "nextauth",
-      "file": ".env.docker",
-      "repository": "RyanLisse/hgg-roborail-rag",
-      "url": "https://github.com/RyanLisse/hgg-roborail-rag/blob/1e02ee1a8ccdcc47d1a6940bf975f1f8ce4ed02d/.env.docker",
-      "line_number": 42,
-      "line_preview": "NEXTAUTH_URL=http://localhost:3000",
-      "key_type": "nextauth_url",
-      "description": "Nextauth Url",
-      "severity": "medium",
-      "matched_pattern": "NEXT**************************3000",
-      "timestamp": "2026-04-17T05:51:32.821033"
-    },
     {
       "service": "nextauth",
       "file": ".env.local",
@@ -39,8 +13,8 @@
       "key_type": "nextauth_url",
       "description": "Nextauth Url",
       "severity": "medium",
-      "matched_pattern": "NEXT**************************3000",
-      "timestamp": "2026-04-17T05:52:03.783103"
+      "matched_pattern": "http*************3000",
+      "timestamp": "2026-04-18T05:26:16.515526"
     },
     {
       "service": "nextauth",
@@ -53,7 +27,7 @@
       "description": "Nextauth Secret",
       "severity": "high",
       "matched_pattern": "NEXT*******************************************4_32",
-      "timestamp": "2026-04-17T05:52:04.691098"
+      "timestamp": "2026-04-18T05:26:17.756602"
     },
     {
       "service": "nextauth",
@@ -66,7 +40,7 @@
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "NEXT**************************3000",
-      "timestamp": "2026-04-17T05:52:04.691141"
+      "timestamp": "2026-04-18T05:26:17.756652"
     }
   ]
 }

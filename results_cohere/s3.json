@@ -1,6 +1,6 @@
 {
   "service": "s3",
-  "scan_timestamp": "2026-04-16T05:51:50.391832",
+  "scan_timestamp": "2026-04-18T05:26:37.408268",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "S3 Secret Access Key",
       "severity": "high",
       "matched_pattern": "mini*****n123",
-      "timestamp": "2026-04-16T05:51:14.569826"
+      "timestamp": "2026-04-18T05:26:02.660769"
     }
   ]
 }

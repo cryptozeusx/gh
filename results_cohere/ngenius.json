@@ -1,6 +1,6 @@
 {
   "service": "ngenius",
-  "scan_timestamp": "2026-04-17T05:52:25.156503",
+  "scan_timestamp": "2026-04-18T05:26:37.405521",
   "finding_count": 2,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Ngenius Api Key",
       "severity": "medium",
       "matched_pattern": "NGEN**************************************************************************************************************Q==\"",
-      "timestamp": "2026-04-17T05:51:44.955393"
+      "timestamp": "2026-04-18T05:25:54.396585"
     },
     {
       "service": "ngenius",
@@ -27,7 +27,7 @@
       "description": "Ngenius Api Key",
       "severity": "medium",
       "matched_pattern": "NGEN**************************************************************************************************************Q==\"",
-      "timestamp": "2026-04-17T05:52:00.651428"
+      "timestamp": "2026-04-18T05:26:09.527907"
     }
   ]
 }

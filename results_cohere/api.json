@@ -1,7 +1,7 @@
 {
   "service": "api",
-  "scan_timestamp": "2026-04-17T05:52:25.144510",
-  "finding_count": 5,
+  "scan_timestamp": "2026-04-18T05:26:37.395586",
+  "finding_count": 7,
   "findings": [
     {
       "service": "api",
@@ -14,7 +14,20 @@
       "description": "Api Password",
       "severity": "high",
       "matched_pattern": "Deng***7258",
-      "timestamp": "2026-04-17T05:51:41.867188"
+      "timestamp": "2026-04-18T05:25:50.787811"
+    },
+    {
+      "service": "api",
+      "file": ".env",
+      "repository": "markchou1205-uch/SiteMate",
+      "url": "https://github.com/markchou1205-uch/SiteMate/blob/e5fdc5803252f447684b9969886b576f3bc1bc0d/.env",
+      "line_number": 8,
+      "line_preview": "NEXT_PUBLIC_PDF_CO_API_KEY=markchou1205@yahoo.com.tw_o1kCLzKREjL0aKIBeiWThQF2FGZQCHqzhi0DF8bkyNO2mknRqOJwIVAAaaJ1Hhk4",
+      "key_type": "api_key",
+      "description": "Api Key",
+      "severity": "medium",
+      "matched_pattern": "API_******************************************************************************************Hhk4",
+      "timestamp": "2026-04-18T05:25:51.474592"
     },
     {
       "service": "api",
@@ -27,7 +40,20 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_*********udio",
-      "timestamp": "2026-04-17T05:51:49.748564"
+      "timestamp": "2026-04-18T05:26:00.974824"
+    },
+    {
+      "service": "api",
+      "file": "env.example",
+      "repository": "FranciscoE195/team-helper-bot",
+      "url": "https://github.com/FranciscoE195/team-helper-bot/blob/321dacb54e00954a95d5744a292cafb175f318b6/env.example",
+      "line_number": 6,
+      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api03-...",
+      "key_type": "api_key",
+      "description": "Api Key",
+      "severity": "medium",
+      "matched_pattern": "API_****************-...",
+      "timestamp": "2026-04-18T05:26:01.528513"
     },
     {
       "service": "api",
@@ -40,7 +66,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_**************************key\"",
-      "timestamp": "2026-04-17T05:51:56.688316"
+      "timestamp": "2026-04-18T05:26:08.812077"
     },
     {
       "service": "api",
@@ -53,7 +79,7 @@
       "description": "Api Secret",
       "severity": "high",
       "matched_pattern": "API_*****************************************************YNze",
-      "timestamp": "2026-04-17T05:52:03.281299"
+      "timestamp": "2026-04-18T05:26:16.043735"
     },
     {
       "service": "api",
@@ -66,7 +92,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_************************************************************************************YSui",
-      "timestamp": "2026-04-17T05:52:09.574829"
+      "timestamp": "2026-04-18T05:26:22.006013"
     }
   ]
 }

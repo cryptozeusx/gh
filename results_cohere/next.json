@@ -1,7 +1,7 @@
 {
   "service": "next",
-  "scan_timestamp": "2026-04-17T05:52:25.156022",
-  "finding_count": 12,
+  "scan_timestamp": "2026-04-18T05:26:37.405196",
+  "finding_count": 9,
   "findings": [
     {
       "service": "next",
@@ -14,7 +14,7 @@
       "description": "Next Public Client Secret Google",
       "severity": "high",
       "matched_pattern": "GOCS***************************0XZh",
-      "timestamp": "2026-04-17T05:51:27.884849"
+      "timestamp": "2026-04-18T05:25:38.657792"
     },
     {
       "service": "next",
@@ -27,20 +27,7 @@
       "description": "Next Public Supabase Anon Key",
       "severity": "medium",
       "matched_pattern": "eyJh********************************************************************************************************************************************************************************************************oBuY",
-      "timestamp": "2026-04-17T05:51:27.967677"
-    },
-    {
-      "service": "next",
-      "file": ".env.save",
-      "repository": "samrahimi/factoid-ai",
-      "url": "https://github.com/samrahimi/factoid-ai/blob/9b870d3e93ccf5e4a43d3bd03c81b6a1a1a81e77/.env.save",
-      "line_number": 2,
-      "line_preview": "NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNha2JiZGlveXZiamNla",
-      "key_type": "next_public_supabase_anon_key",
-      "description": "Next Public Supabase Anon Key",
-      "severity": "medium",
-      "matched_pattern": "NEXT**************************************************************************************************************************************************************************************************************************************sIIc",
-      "timestamp": "2026-04-17T05:51:36.071292"
+      "timestamp": "2026-04-18T05:25:38.758376"
     },
     {
       "service": "next",
@@ -53,7 +40,7 @@
       "description": "Next Public Supabase Anon Key",
       "severity": "medium",
       "matched_pattern": "NEXT**************************************************************************************************************************************************************************************************************************************cg7Q",
-      "timestamp": "2026-04-17T05:51:41.952388"
+      "timestamp": "2026-04-18T05:25:50.876516"
     },
     {
       "service": "next",
@@ -66,33 +53,7 @@
       "description": "Next Public Supabase Anon Key",
       "severity": "medium",
       "matched_pattern": "NEXT**************************************************************************************************************************************************************************************************************************************BAL0",
-      "timestamp": "2026-04-17T05:51:46.609084"
-    },
-    {
-      "service": "next",
-      "file": ".env.example",
-      "repository": "shahnewaz-labib/local-lens",
-      "url": "https://github.com/shahnewaz-labib/local-lens/blob/d8438bcd9d11621e8ac87bf6da574f8f7dc782ef/.env.example",
-      "line_number": 2,
-      "line_preview": "NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=public_key",
-      "key_type": "next_public_clerk_publishable_key",
-      "description": "Next Public Clerk Publishable Key",
-      "severity": "medium",
-      "matched_pattern": "publ**_key",
-      "timestamp": "2026-04-17T05:51:59.091365"
-    },
-    {
-      "service": "next",
-      "file": ".env.local.example",
-      "repository": "petfendyotel-byte/petfendy",
-      "url": "https://github.com/petfendyotel-byte/petfendy/blob/16bac415863fb1ad63f4ae800f7096f15b8ee179/.env.local.example",
-      "line_number": 28,
-      "line_preview": "NEXT_PUBLIC_TEST_ADMIN_PASSWORD_HASH=$2b$12$C8.izTK3qs/MOrucqQzw5.potXQo7b21fHT/Z4EnM6jEmZNZ7EGN2",
-      "key_type": "next_public_test_admin_password_hash",
-      "description": "Next Public Test Admin Password Hash",
-      "severity": "high",
-      "matched_pattern": "$2b$****************************************************EGN2",
-      "timestamp": "2026-04-17T05:52:00.183403"
+      "timestamp": "2026-04-18T05:25:56.177497"
     },
     {
       "service": "next",
@@ -105,7 +66,7 @@
       "description": "Next Public Stack Publishable Client Key",
       "severity": "medium",
       "matched_pattern": "pck_*****************************************h028",
-      "timestamp": "2026-04-17T05:52:03.281639"
+      "timestamp": "2026-04-18T05:26:16.044155"
     },
     {
       "service": "next",
@@ -118,7 +79,7 @@
       "description": "Next Public Supabase Anon Key",
       "severity": "medium",
       "matched_pattern": "NEXT**************************************************************************************************************************************************************************************************************************************9jUM",
-      "timestamp": "2026-04-17T05:52:03.871126"
+      "timestamp": "2026-04-18T05:26:16.615933"
     },
     {
       "service": "next",
@@ -131,7 +92,7 @@
       "description": "Next Public Supabase Anon Key",
       "severity": "medium",
       "matched_pattern": "NEXT**************************************************************************************************************************************************************************************************************************************MuT0",
-      "timestamp": "2026-04-17T05:52:04.496784"
+      "timestamp": "2026-04-18T05:26:17.509072"
     },
     {
       "service": "next",
@@ -144,7 +105,7 @@
       "description": "Next Public Supabase Anon Key",
       "severity": "medium",
       "matched_pattern": "NEXT**************************************************************************************************************************************************************************************************************************************mrow",
-      "timestamp": "2026-04-17T05:52:09.574474"
+      "timestamp": "2026-04-18T05:26:22.005662"
     },
     {
       "service": "next",
@@ -157,7 +118,7 @@
       "description": "Next Public Turnstile Site Key",
       "severity": "medium",
       "matched_pattern": "0x4A****************YDS6",
-      "timestamp": "2026-04-17T05:52:23.926411"
+      "timestamp": "2026-04-18T05:26:36.191390"
     }
   ]
 }

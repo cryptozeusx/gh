@@ -1,21 +1,8 @@
 {
   "service": "encryption",
-  "scan_timestamp": "2026-04-17T05:52:25.148373",
-  "finding_count": 5,
+  "scan_timestamp": "2026-04-18T05:26:37.398847",
+  "finding_count": 4,
   "findings": [
-    {
-      "service": "encryption",
-      "file": "strategy_engine/src/render.env.md",
-      "repository": "TemamAb/alpha",
-      "url": "https://github.com/TemamAb/alpha/blob/80be4d1acaeff2db132ac414b08d0c7982165f2e/strategy_engine/src/render.env.md",
-      "line_number": 12,
-      "line_preview": "ENCRYPTION_KEY=afafe315290b51bf1483222f53bdf5640765474351aef6696e9bf544a1bd069e",
-      "key_type": "encryption_key",
-      "description": "Encryption Key",
-      "severity": "medium",
-      "matched_pattern": "afaf********************************************************069e",
-      "timestamp": "2026-04-17T05:51:41.695820"
-    },
     {
       "service": "encryption",
       "file": "staging.env.example",
@@ -26,21 +13,21 @@
       "key_type": "encryption_key",
       "description": "Encryption Key",
       "severity": "medium",
-      "matched_pattern": "ENCR****************************************YTES",
-      "timestamp": "2026-04-17T05:51:53.242701"
+      "matched_pattern": "CHAN*************************YTES",
+      "timestamp": "2026-04-18T05:26:00.774160"
     },
     {
       "service": "encryption",
       "file": "backend/.env.dist.local",
       "repository": "linuxfoundation/crowd.dev",
-      "url": "https://github.com/linuxfoundation/crowd.dev/blob/f40f137c9dd4792affe20dc46bf8b443d18e94fc/backend/.env.dist.local",
+      "url": "https://github.com/linuxfoundation/crowd.dev/blob/e3ed966b64cd800143282021c1574989f8e1a169/backend/.env.dist.local",
       "line_number": 151,
       "line_preview": "CROWD_TEMPORAL_ENCRYPTION_KEY=FweBMRnGCLshER8FlSvNusQA6G3MRUKt",
       "key_type": "encryption_key",
       "description": "Encryption Key",
       "severity": "medium",
       "matched_pattern": "ENCR***************************************RUKt",
-      "timestamp": "2026-04-17T05:52:02.712717"
+      "timestamp": "2026-04-18T05:26:15.457869"
     },
     {
       "service": "encryption",
@@ -53,7 +40,7 @@
       "description": "Encryption Key",
       "severity": "medium",
       "matched_pattern": "ENCR***************************************RUKt",
-      "timestamp": "2026-04-17T05:52:03.401708"
+      "timestamp": "2026-04-18T05:26:16.183746"
     },
     {
       "service": "encryption",
@@ -66,7 +53,7 @@
       "description": "Encryption Key",
       "severity": "medium",
       "matched_pattern": "ENCR***************************************7ab2",
-      "timestamp": "2026-04-17T05:52:17.462279"
+      "timestamp": "2026-04-18T05:26:29.917608"
     }
   ]
 }
