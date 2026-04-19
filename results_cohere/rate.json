@@ -1,6 +1,6 @@
 {
   "service": "rate",
-  "scan_timestamp": "2026-04-18T05:26:37.407925",
+  "scan_timestamp": "2026-04-19T05:49:50.719976",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Rate Limit Auth",
       "severity": "medium",
       "matched_pattern": "10/m*nute",
-      "timestamp": "2026-04-18T05:25:59.988985"
+      "timestamp": "2026-04-19T05:49:11.754236"
     }
   ]
 }

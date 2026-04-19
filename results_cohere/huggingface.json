@@ -1,8 +1,21 @@
 {
   "service": "huggingface",
-  "scan_timestamp": "2026-04-18T05:26:37.402679",
-  "finding_count": 2,
+  "scan_timestamp": "2026-04-19T05:49:50.715069",
+  "finding_count": 4,
   "findings": [
+    {
+      "service": "huggingface",
+      "file": ".env.providers",
+      "repository": "RobertoSilvaDevFullStack/crm-balloon",
+      "url": "https://github.com/RobertoSilvaDevFullStack/crm-balloon/blob/cc1ea0a3ed503a36ec727a4e5de9e1ea70d33d7e/.env.providers",
+      "line_number": 16,
+      "line_preview": "HUGGINGFACE_API_KEY=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",
+      "key_type": "huggingface_api_key",
+      "description": "Huggingface Api Key",
+      "severity": "medium",
+      "matched_pattern": "HUGG*************************************************QOlR",
+      "timestamp": "2026-04-19T05:48:58.922855"
+    },
     {
       "service": "huggingface",
       "file": "env.local",
@@ -14,7 +27,7 @@
       "description": "Huggingface Api Token",
       "severity": "medium",
       "matched_pattern": "hf_g*****************************xfcH",
-      "timestamp": "2026-04-18T05:26:16.044285"
+      "timestamp": "2026-04-19T05:49:29.020061"
     },
     {
       "service": "huggingface",
@@ -27,7 +40,20 @@
       "description": "Huggingface Api Token",
       "severity": "medium",
       "matched_pattern": "HUGG****************************************************JfKA",
-      "timestamp": "2026-04-18T05:26:17.230603"
+      "timestamp": "2026-04-19T05:49:29.840981"
+    },
+    {
+      "service": "huggingface",
+      "file": ".env.local",
+      "repository": "sudanva21/Career-Advisor-SIH",
+      "url": "https://github.com/sudanva21/Career-Advisor-SIH/blob/36d5272b7d80719b8c19696bbb6500b652ee9b14/.env.local",
+      "line_number": 38,
+      "line_preview": "HUGGINGFACE_API_KEY=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",
+      "key_type": "huggingface_api_key",
+      "description": "Huggingface Api Key",
+      "severity": "medium",
+      "matched_pattern": "HUGG*************************************************AmJS",
+      "timestamp": "2026-04-19T05:49:30.092685"
     }
   ]
 }

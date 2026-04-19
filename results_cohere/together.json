@@ -1,6 +1,6 @@
 {
   "service": "together",
-  "scan_timestamp": "2026-04-17T05:52:25.162623",
+  "scan_timestamp": "2026-04-19T05:49:50.721929",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Together Api Key",
       "severity": "medium",
       "matched_pattern": "TOGE*************************************************************************5df3",
-      "timestamp": "2026-04-17T05:52:04.690092"
+      "timestamp": "2026-04-19T05:49:30.345358"
     }
   ]
 }

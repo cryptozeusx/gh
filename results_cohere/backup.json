@@ -1,6 +1,6 @@
 {
   "service": "backup",
-  "scan_timestamp": "2026-04-18T05:26:37.396396",
+  "scan_timestamp": "2026-04-19T05:49:50.709379",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Backup S3 Access Key",
       "severity": "medium",
       "matched_pattern": "CHAN**********************_KEY",
-      "timestamp": "2026-04-18T05:26:00.774115"
+      "timestamp": "2026-04-19T05:49:12.738052"
     }
   ]
 }

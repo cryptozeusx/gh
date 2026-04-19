@@ -1,6 +1,6 @@
 {
   "service": "private",
-  "scan_timestamp": "2026-04-18T05:26:37.407115",
+  "scan_timestamp": "2026-04-19T05:49:50.719743",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Private Key",
       "severity": "critical",
       "matched_pattern": "0x..**********************************************ded.",
-      "timestamp": "2026-04-18T05:26:12.536318"
+      "timestamp": "2026-04-19T05:49:26.977158"
     }
   ]
 }

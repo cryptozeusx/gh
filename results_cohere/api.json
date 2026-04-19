@@ -1,60 +1,8 @@
 {
   "service": "api",
-  "scan_timestamp": "2026-04-18T05:26:37.395586",
-  "finding_count": 7,
+  "scan_timestamp": "2026-04-19T05:49:50.708777",
+  "finding_count": 4,
   "findings": [
-    {
-      "service": "api",
-      "file": ".env",
-      "repository": "eyesli/crypto-quant-trading",
-      "url": "https://github.com/eyesli/crypto-quant-trading/blob/753bfb37c4b7a58f53479461ef24fe54daaced92/.env",
-      "line_number": 13,
-      "line_preview": "API_PASSWORD=Deng#147258",
-      "key_type": "api_password",
-      "description": "Api Password",
-      "severity": "high",
-      "matched_pattern": "Deng***7258",
-      "timestamp": "2026-04-18T05:25:50.787811"
-    },
-    {
-      "service": "api",
-      "file": ".env",
-      "repository": "markchou1205-uch/SiteMate",
-      "url": "https://github.com/markchou1205-uch/SiteMate/blob/e5fdc5803252f447684b9969886b576f3bc1bc0d/.env",
-      "line_number": 8,
-      "line_preview": "NEXT_PUBLIC_PDF_CO_API_KEY=markchou1205@yahoo.com.tw_o1kCLzKREjL0aKIBeiWThQF2FGZQCHqzhi0DF8bkyNO2mknRqOJwIVAAaaJ1Hhk4",
-      "key_type": "api_key",
-      "description": "Api Key",
-      "severity": "medium",
-      "matched_pattern": "API_******************************************************************************************Hhk4",
-      "timestamp": "2026-04-18T05:25:51.474592"
-    },
-    {
-      "service": "api",
-      "file": "docs/getting-started/claudeDL/env.vm.example",
-      "repository": "rzepeda/ragTools",
-      "url": "https://github.com/rzepeda/ragTools/blob/e70eb327bb487a6f8e639ec8376e5805b8f1da79/docs/getting-started/claudeDL/env.vm.example",
-      "line_number": 41,
-      "line_preview": "OPENAI_API_KEY=lm-studio  # Any value works with LM Studio",
-      "key_type": "api_key",
-      "description": "Api Key",
-      "severity": "medium",
-      "matched_pattern": "API_*********udio",
-      "timestamp": "2026-04-18T05:26:00.974824"
-    },
-    {
-      "service": "api",
-      "file": "env.example",
-      "repository": "FranciscoE195/team-helper-bot",
-      "url": "https://github.com/FranciscoE195/team-helper-bot/blob/321dacb54e00954a95d5744a292cafb175f318b6/env.example",
-      "line_number": 6,
-      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api03-...",
-      "key_type": "api_key",
-      "description": "Api Key",
-      "severity": "medium",
-      "matched_pattern": "API_****************-...",
-      "timestamp": "2026-04-18T05:26:01.528513"
-    },
     {
       "service": "api",
       "file": "env.production.example",
@@ -66,7 +14,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_**************************key\"",
-      "timestamp": "2026-04-18T05:26:08.812077"
+      "timestamp": "2026-04-19T05:49:21.315875"
     },
     {
       "service": "api",
@@ -79,7 +27,20 @@
       "description": "Api Secret",
       "severity": "high",
       "matched_pattern": "API_*****************************************************YNze",
-      "timestamp": "2026-04-18T05:26:16.043735"
+      "timestamp": "2026-04-19T05:49:29.019653"
+    },
+    {
+      "service": "api",
+      "file": ".env.local",
+      "repository": "Rady119/pdfsir-tools",
+      "url": "https://github.com/Rady119/pdfsir-tools/blob/94a64711d0a14d90ea5c0cceab8ff9a53b42005f/.env.local",
+      "line_number": 1,
+      "line_preview": "PDF_CO_API_KEY=z2009@yahoo.com_BAdeT1HQWUk5C7jX0DnmDA9I0u7ATkdqazXvUJqwLrcF9q0DmUMmYQ8FaCDIBr9H",
+      "key_type": "api_key",
+      "description": "Api Key",
+      "severity": "medium",
+      "matched_pattern": "API_********************************************************************************Br9H",
+      "timestamp": "2026-04-19T05:49:35.399472"
     },
     {
       "service": "api",
@@ -92,7 +53,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_************************************************************************************YSui",
-      "timestamp": "2026-04-18T05:26:22.006013"
+      "timestamp": "2026-04-19T05:49:35.488424"
     }
   ]
 }

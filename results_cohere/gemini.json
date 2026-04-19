@@ -1,20 +1,20 @@
 {
   "service": "gemini",
-  "scan_timestamp": "2026-04-18T05:26:37.399894",
+  "scan_timestamp": "2026-04-19T05:49:50.712547",
   "finding_count": 4,
   "findings": [
     {
       "service": "gemini",
-      "file": ".env",
-      "repository": "markchou1205-uch/SiteMate",
-      "url": "https://github.com/markchou1205-uch/SiteMate/blob/e5fdc5803252f447684b9969886b576f3bc1bc0d/.env",
-      "line_number": 1,
-      "line_preview": "GEMINI_API_KEY=AIzaSyDNVf6aTo4u6mibNkSXDEi2fvX0yxso_vI",
+      "file": ".env.providers",
+      "repository": "RobertoSilvaDevFullStack/crm-balloon",
+      "url": "https://github.com/RobertoSilvaDevFullStack/crm-balloon/blob/cc1ea0a3ed503a36ec727a4e5de9e1ea70d33d7e/.env.providers",
+      "line_number": 7,
+      "line_preview": "GEMINI_API_KEY=AIzaSyBZ_dWy4OuPx-3MbLhqsQrKxGQ1DUn3jtw",
       "key_type": "gemini_api_key",
       "description": "Gemini Api Key",
       "severity": "medium",
-      "matched_pattern": "GEMI**********************************************o_vI",
-      "timestamp": "2026-04-18T05:25:51.474367"
+      "matched_pattern": "GEMI**********************************************3jtw",
+      "timestamp": "2026-04-19T05:48:58.922666"
     },
     {
       "service": "gemini",
@@ -27,7 +27,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************9_ag",
-      "timestamp": "2026-04-18T05:26:15.542932"
+      "timestamp": "2026-04-19T05:49:28.645275"
     },
     {
       "service": "gemini",
@@ -40,7 +40,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************inns",
-      "timestamp": "2026-04-18T05:26:16.043097"
+      "timestamp": "2026-04-19T05:49:29.019286"
     },
     {
       "service": "gemini",
@@ -53,7 +53,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************Dsdg",
-      "timestamp": "2026-04-18T05:26:17.755246"
+      "timestamp": "2026-04-19T05:49:30.344852"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "service": "meili",
-  "scan_timestamp": "2026-04-17T05:52:25.154584",
-  "finding_count": 4,
+  "scan_timestamp": "2026-04-19T05:49:50.716508",
+  "finding_count": 3,
   "findings": [
     {
       "service": "meili",
@@ -14,7 +14,7 @@
       "description": "Meili Master Key",
       "severity": "critical",
       "matched_pattern": "DrhY************************************fFCt",
-      "timestamp": "2026-04-17T05:51:32.014601"
+      "timestamp": "2026-04-19T05:48:56.182429"
     },
     {
       "service": "meili",
@@ -27,20 +27,7 @@
       "description": "Meili Master Key",
       "severity": "critical",
       "matched_pattern": "MEIL****************************rKey",
-      "timestamp": "2026-04-17T05:51:33.802379"
-    },
-    {
-      "service": "meili",
-      "file": "librechat.env.example",
-      "repository": "vaaale/FetchCraft",
-      "url": "https://github.com/vaaale/FetchCraft/blob/6ee44fa5ba0951c0a0770d523831543dc806dd8c/librechat.env.example",
-      "line_number": 328,
-      "line_preview": "MEILI_MASTER_KEY=DrhYf7zENyR6AlUCKmnz0eYASOQdl6zxH7s7MKFSfFCt",
-      "key_type": "meili_master_key",
-      "description": "Meili Master Key",
-      "severity": "critical",
-      "matched_pattern": "MEIL*****************************************************fFCt",
-      "timestamp": "2026-04-17T05:51:50.374946"
+      "timestamp": "2026-04-19T05:48:57.440325"
     },
     {
       "service": "meili",
@@ -53,7 +40,7 @@
       "description": "Meili Master Key",
       "severity": "critical",
       "matched_pattern": "MEIL*****************************************************fFCt",
-      "timestamp": "2026-04-17T05:51:50.938670"
+      "timestamp": "2026-04-19T05:49:16.074103"
     }
   ]
 }

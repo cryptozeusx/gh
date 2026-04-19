@@ -1,21 +1,8 @@
 {
   "service": "pinata",
-  "scan_timestamp": "2026-04-18T05:26:37.406825",
-  "finding_count": 3,
+  "scan_timestamp": "2026-04-19T05:49:50.719450",
+  "finding_count": 2,
   "findings": [
-    {
-      "service": "pinata",
-      "file": ".env.production",
-      "repository": "darrylyeo/blockhead",
-      "url": "https://github.com/darrylyeo/blockhead/blob/a7caa77447c0c51c388df7f81fc4879d25623ab4/.env.production",
-      "line_number": 115,
-      "line_preview": "PUBLIC_PINATA_API_KEY=\"encrypted:BOJvPLLkeWwQhtiHq+qhIriYVVEMINUsbGQ32/ZMbPsZgGufpozS7XvgNt72x4DBKMRPIpuwV47berIQc6BGwxI",
-      "key_type": "pinata_api_key",
-      "description": "Pinata Api Key",
-      "severity": "medium",
-      "matched_pattern": "PINA*******************************************************************************************************************************************************************************oHV\"",
-      "timestamp": "2026-04-18T05:25:50.135171"
-    },
     {
       "service": "pinata",
       "file": ".env.local",
@@ -27,7 +14,7 @@
       "description": "Pinata Api Key",
       "severity": "medium",
       "matched_pattern": "PINA***************************b5b8",
-      "timestamp": "2026-04-18T05:26:15.943971"
+      "timestamp": "2026-04-19T05:48:57.929516"
     },
     {
       "service": "pinata",
@@ -40,7 +27,7 @@
       "description": "Pinata Api Key",
       "severity": "medium",
       "matched_pattern": "PINA***************************b5b8",
-      "timestamp": "2026-04-18T05:26:18.516941"
+      "timestamp": "2026-04-19T05:49:30.980197"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "service": "twitch",
-  "scan_timestamp": "2026-04-17T05:52:25.162867",
+  "scan_timestamp": "2026-04-19T05:49:50.722153",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Twitch Auth Url",
       "severity": "medium",
       "matched_pattern": "http*********************************************************************************************************ials",
-      "timestamp": "2026-04-17T05:51:50.850732"
+      "timestamp": "2026-04-19T05:49:15.975223"
     }
   ]
 }
