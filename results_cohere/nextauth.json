@@ -1,7 +1,7 @@
 {
   "service": "nextauth",
-  "scan_timestamp": "2026-04-19T05:49:50.718120",
-  "finding_count": 5,
+  "scan_timestamp": "2026-04-20T06:04:04.847695",
+  "finding_count": 7,
   "findings": [
     {
       "service": "nextauth",
@@ -14,7 +14,7 @@
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "http*************3000",
-      "timestamp": "2026-04-19T05:48:54.753974"
+      "timestamp": "2026-04-20T06:03:06.297130"
     },
     {
       "service": "nextauth",
@@ -27,7 +27,7 @@
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "NEXT**************************3000",
-      "timestamp": "2026-04-19T05:48:56.815407"
+      "timestamp": "2026-04-20T06:03:08.605713"
     },
     {
       "service": "nextauth",
@@ -40,7 +40,20 @@
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "NEXT**************************3000",
-      "timestamp": "2026-04-19T05:49:01.685358"
+      "timestamp": "2026-04-20T06:03:14.726189"
+    },
+    {
+      "service": "nextauth",
+      "file": "docs/misc/env.example",
+      "repository": "Azora-OS/azora",
+      "url": "https://github.com/Azora-OS/azora/blob/c828c400b3b369348eb038e4bb7c03d03cc29c7f/docs/misc/env.example",
+      "line_number": 56,
+      "line_preview": "NEXTAUTH_URL=http://localhost:3000",
+      "key_type": "nextauth_url",
+      "description": "Nextauth Url",
+      "severity": "medium",
+      "matched_pattern": "NEXT**************************3000",
+      "timestamp": "2026-04-20T06:03:31.962087"
     },
     {
       "service": "nextauth",
@@ -53,7 +66,20 @@
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "NEXT****************************000\"",
-      "timestamp": "2026-04-19T05:49:27.656214"
+      "timestamp": "2026-04-20T06:03:41.663912"
+    },
+    {
+      "service": "nextauth",
+      "file": "iafactory-core-apps/video-studio/frontend/.env.local",
+      "repository": "bensalemboualem/Saas-iFactory-Algeria",
+      "url": "https://github.com/bensalemboualem/Saas-iFactory-Algeria/blob/d8a455ea4f6a40455e4771ba0121cf31516f7bea/iafactory-core-apps/video-studio/frontend/.env.local",
+      "line_number": 74,
+      "line_preview": "NEXTAUTH_SECRET=GENERER_AVEC_openssl_rand_base64_32",
+      "key_type": "nextauth_secret",
+      "description": "Nextauth Secret",
+      "severity": "high",
+      "matched_pattern": "NEXT*******************************************4_32",
+      "timestamp": "2026-04-20T06:03:44.336204"
     },
     {
       "service": "nextauth",
@@ -66,7 +92,7 @@
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "NEXT**************************3000",
-      "timestamp": "2026-04-19T05:49:30.346221"
+      "timestamp": "2026-04-20T06:03:44.336235"
     }
   ]
 }

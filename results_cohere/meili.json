@@ -1,6 +1,6 @@
 {
   "service": "meili",
-  "scan_timestamp": "2026-04-19T05:49:50.716508",
+  "scan_timestamp": "2026-04-20T06:04:04.845998",
   "finding_count": 3,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Meili Master Key",
       "severity": "critical",
       "matched_pattern": "DrhY************************************fFCt",
-      "timestamp": "2026-04-19T05:48:56.182429"
+      "timestamp": "2026-04-20T06:03:07.818544"
     },
     {
       "service": "meili",
@@ -27,7 +27,7 @@
       "description": "Meili Master Key",
       "severity": "critical",
       "matched_pattern": "MEIL****************************rKey",
-      "timestamp": "2026-04-19T05:48:57.440325"
+      "timestamp": "2026-04-20T06:03:09.310280"
     },
     {
       "service": "meili",
@@ -40,7 +40,7 @@
       "description": "Meili Master Key",
       "severity": "critical",
       "matched_pattern": "MEIL*****************************************************fFCt",
-      "timestamp": "2026-04-19T05:49:16.074103"
+      "timestamp": "2026-04-20T06:03:32.175933"
     }
   ]
 }

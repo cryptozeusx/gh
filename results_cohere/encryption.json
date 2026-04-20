@@ -1,6 +1,6 @@
 {
   "service": "encryption",
-  "scan_timestamp": "2026-04-19T05:49:50.711805",
+  "scan_timestamp": "2026-04-20T06:04:04.839475",
   "finding_count": 4,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Encryption Key",
       "severity": "medium",
       "matched_pattern": "CHAN*************************YTES",
-      "timestamp": "2026-04-19T05:49:12.738094"
+      "timestamp": "2026-04-20T06:03:29.106835"
     },
     {
       "service": "encryption",
@@ -27,7 +27,7 @@
       "description": "Encryption Key",
       "severity": "medium",
       "matched_pattern": "ENCR***************************************RUKt",
-      "timestamp": "2026-04-19T05:49:28.557547"
+      "timestamp": "2026-04-20T06:03:42.527198"
     },
     {
       "service": "encryption",
@@ -40,7 +40,7 @@
       "description": "Encryption Key",
       "severity": "medium",
       "matched_pattern": "ENCR***************************************RUKt",
-      "timestamp": "2026-04-19T05:49:29.127693"
+      "timestamp": "2026-04-20T06:03:43.136068"
     },
     {
       "service": "encryption",
@@ -53,7 +53,7 @@
       "description": "Encryption Key",
       "severity": "medium",
       "matched_pattern": "ENCR***************************************7ab2",
-      "timestamp": "2026-04-19T05:49:43.168152"
+      "timestamp": "2026-04-20T06:03:57.090663"
     }
   ]
 }

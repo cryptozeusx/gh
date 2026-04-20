@@ -1,20 +1,33 @@
 {
   "service": "cookie",
-  "scan_timestamp": "2026-04-19T05:49:50.710303",
-  "finding_count": 1,
+  "scan_timestamp": "2026-04-20T06:04:04.837818",
+  "finding_count": 2,
   "findings": [
     {
       "service": "cookie",
       "file": "backend/.env.production.example",
-      "repository": "Orhanguezel/vistaseed",
-      "url": "https://github.com/Orhanguezel/vistaseed/blob/10f36e5b9ac2c9a612b3e54b48e9da7c6e8ed68b/backend/.env.production.example",
+      "repository": "Orhanguezel/paketjet",
+      "url": "https://github.com/Orhanguezel/paketjet/blob/1944e1383d28c76e48aa444d666b8fdf35f425e8/backend/.env.production.example",
       "line_number": 39,
       "line_preview": "COOKIE_SECRET=__GENERATE_ANOTHER_STRONG_RANDOM_64_PLUS__",
       "key_type": "cookie_secret",
       "description": "Cookie Secret",
       "severity": "high",
       "matched_pattern": "COOK************************************************US__",
-      "timestamp": "2026-04-19T05:49:25.369724"
+      "timestamp": "2026-04-20T06:03:22.622636"
+    },
+    {
+      "service": "cookie",
+      "file": "backend/.env.production.example",
+      "repository": "Orhanguezel/katalogAI",
+      "url": "https://github.com/Orhanguezel/katalogAI/blob/4a4b7fdf1ffe98163fc9781229c9dccc788abfd6/backend/.env.production.example",
+      "line_number": 39,
+      "line_preview": "COOKIE_SECRET=__GENERATE_ANOTHER_STRONG_RANDOM_64_PLUS__",
+      "key_type": "cookie_secret",
+      "description": "Cookie Secret",
+      "severity": "high",
+      "matched_pattern": "COOK************************************************US__",
+      "timestamp": "2026-04-20T06:03:22.952855"
     }
   ]
 }

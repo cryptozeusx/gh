@@ -1,8 +1,21 @@
 {
   "service": "supabase",
-  "scan_timestamp": "2026-04-19T05:49:50.721515",
+  "scan_timestamp": "2026-04-20T06:04:04.852705",
   "finding_count": 4,
   "findings": [
+    {
+      "service": "supabase",
+      "file": ".env.local",
+      "repository": "osmantandogan/hmtbtbv4",
+      "url": "https://github.com/osmantandogan/hmtbtbv4/blob/7f682b4d2e3e1c34c4ff7d63d5bcc3144814a541/.env.local",
+      "line_number": 8,
+      "line_preview": "SUPABASE_SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRxbG5tdGFqbGhybXJncXV6d",
+      "key_type": "supabase_service_role_key",
+      "description": "Supabase Service Role Key",
+      "severity": "medium",
+      "matched_pattern": "eyJh*******************************************************************************************************************************************************************************************************************itoI",
+      "timestamp": "2026-04-20T06:03:24.525853"
+    },
     {
       "service": "supabase",
       "file": "backend/.env.example",
@@ -14,7 +27,7 @@
       "description": "Supabase Key",
       "severity": "medium",
       "matched_pattern": "eyJh********************************************************************************************************************************************************************************************************4isA",
-      "timestamp": "2026-04-19T05:49:24.236596"
+      "timestamp": "2026-04-20T06:03:38.592914"
     },
     {
       "service": "supabase",
@@ -26,8 +39,8 @@
       "key_type": "supabase_service_role_key",
       "description": "Supabase Service Role Key",
       "severity": "medium",
-      "matched_pattern": "eyJh*******************************************************************************************************************************************************************************************************************_bsc",
-      "timestamp": "2026-04-19T05:49:30.092902"
+      "matched_pattern": "SUPA*********************************************************************************************************************************************************************************************************************************************_bsc",
+      "timestamp": "2026-04-20T06:03:44.116919"
     },
     {
       "service": "supabase",
@@ -40,20 +53,7 @@
       "description": "Supabase Service Role Key",
       "severity": "medium",
       "matched_pattern": "SUPA***********************************************************c8Mx",
-      "timestamp": "2026-04-19T05:49:35.488332"
-    },
-    {
-      "service": "supabase",
-      "file": ".env.local",
-      "repository": "osmantandogan/hmtbtbv4",
-      "url": "https://github.com/osmantandogan/hmtbtbv4/blob/7f682b4d2e3e1c34c4ff7d63d5bcc3144814a541/.env.local",
-      "line_number": 8,
-      "line_preview": "SUPABASE_SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRxbG5tdGFqbGhybXJncXV6d",
-      "key_type": "supabase_service_role_key",
-      "description": "Supabase Service Role Key",
-      "severity": "medium",
-      "matched_pattern": "SUPA*********************************************************************************************************************************************************************************************************************************************itoI",
-      "timestamp": "2026-04-19T05:49:35.789048"
+      "timestamp": "2026-04-20T06:03:49.296500"
     }
   ]
 }

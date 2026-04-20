@@ -1,6 +1,6 @@
 {
   "service": "payhere",
-  "scan_timestamp": "2026-04-18T05:26:37.406056",
+  "scan_timestamp": "2026-04-20T06:04:04.848989",
   "finding_count": 2,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Payhere Secret",
       "severity": "high",
       "matched_pattern": "PAYH*****************************************************Ivs\"",
-      "timestamp": "2026-04-18T05:25:54.396451"
+      "timestamp": "2026-04-20T06:03:22.846904"
     },
     {
       "service": "payhere",
@@ -27,7 +27,7 @@
       "description": "Payhere Secret",
       "severity": "high",
       "matched_pattern": "PAYH*****************************************************Ivs\"",
-      "timestamp": "2026-04-18T05:26:09.527756"
+      "timestamp": "2026-04-20T06:03:40.018889"
     }
   ]
 }

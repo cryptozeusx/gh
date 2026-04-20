@@ -1,2178 +1,2493 @@
 {
   "scan_metadata": {
-    "timestamp": "2026-04-19T05:49:50.723125",
-    "total_repositories": 111,
-    "total_files_scanned": 111,
-    "total_findings": 492,
+    "timestamp": "2026-04-20T06:04:04.854447",
+    "total_repositories": 158,
+    "total_files_scanned": 158,
+    "total_findings": 769,
     "scanner_version": "2.0",
     "scanned_repos": {
       "ProcessMaker/processmaker": {
-        "last_scanned": "2026-04-19T05:48:47.742112+00:00",
+        "last_scanned": "2026-04-20T06:02:59.356307+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "danangkonang/aplication-poin-of-sale-web-php-codeigniter": {
-        "last_scanned": "2026-04-19T05:48:47.819039+00:00",
+        "last_scanned": "2026-04-20T06:02:59.431315+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "hnawaz007/pythondataanalysis": {
-        "last_scanned": "2026-04-19T05:48:47.890032+00:00",
+        "last_scanned": "2026-04-20T06:02:59.491056+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "anyproto/any-ns": {
-        "last_scanned": "2026-04-19T05:48:47.981548+00:00",
+        "last_scanned": "2026-04-20T06:02:59.573160+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "DLR-SC/repository-synergy": {
-        "last_scanned": "2026-04-19T05:48:48.057937+00:00",
+        "last_scanned": "2026-04-20T06:02:59.653133+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "guzun-corp/chain-traverser": {
-        "last_scanned": "2026-04-19T05:48:48.145833+00:00",
+        "last_scanned": "2026-04-20T06:02:59.730724+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "Xdavius/postinstall-debian-12": {
+        "last_scanned": "2026-04-20T06:02:59.826751+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "GrabarzUndPartner/gp-vue-boilerplate": {
-        "last_scanned": "2026-04-19T05:48:48.240177+00:00",
+        "last_scanned": "2026-04-20T06:02:59.901781+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "victoni/elasticsearch2": {
-        "last_scanned": "2026-04-19T05:48:48.309626+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "AIxHunter/FileWizardAI": {
-        "last_scanned": "2026-04-19T05:48:48.393180+00:00",
+        "last_scanned": "2026-04-20T06:02:59.978850+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "harisvsulaiman/shopify-nextjs-template": {
-        "last_scanned": "2026-04-19T05:48:48.466815+00:00",
+        "last_scanned": "2026-04-20T06:03:00.049387+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "AIxHunter/FileWizardAI": {
+        "last_scanned": "2026-04-20T06:03:00.123322+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "starwave-protocol/starwaveprotocol": {
-        "last_scanned": "2026-04-19T05:48:48.544489+00:00",
+        "last_scanned": "2026-04-20T06:03:00.191336+00:00",
         "github_updated_at": "",
         "keys_found": 1
       },
       "EquityGrinder/krsync-watch": {
-        "last_scanned": "2026-04-19T05:48:48.614057+00:00",
+        "last_scanned": "2026-04-20T06:03:00.286942+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "ShangjinTang/geocraft": {
+        "last_scanned": "2026-04-20T06:03:00.380141+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "Le-Rucher-d-Apidae/swapi-finance-interface": {
-        "last_scanned": "2026-04-19T05:48:48.694107+00:00",
+        "last_scanned": "2026-04-20T06:03:00.472060+00:00",
         "github_updated_at": "",
         "keys_found": 4
       },
-      "ShangjinTang/geocraft": {
-        "last_scanned": "2026-04-19T05:48:48.775196+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
       "pasannissanka/network_go": {
-        "last_scanned": "2026-04-19T05:48:48.862931+00:00",
+        "last_scanned": "2026-04-20T06:03:00.566754+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "gildemberg-santos/libratica-go": {
-        "last_scanned": "2026-04-19T05:48:48.954870+00:00",
+        "last_scanned": "2026-04-20T06:03:00.639230+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "shimpei1494/my-country-app": {
-        "last_scanned": "2026-04-19T05:48:49.031503+00:00",
+        "last_scanned": "2026-04-20T06:03:00.732529+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "VEIIEV/fastApi_YLAB_project": {
-        "last_scanned": "2026-04-19T05:48:49.104693+00:00",
+        "last_scanned": "2026-04-20T06:03:00.820166+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "wzulfikar/docker-sendportal": {
-        "last_scanned": "2026-04-19T05:48:49.188315+00:00",
+        "last_scanned": "2026-04-20T06:03:00.893404+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "sdamians/DSVS_MiSonGyny2025": {
+        "last_scanned": "2026-04-20T06:03:01.001297+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "githiwi/Zefen-FullStack": {
-        "last_scanned": "2026-04-19T05:48:49.271827+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "MHIA-collab/MHI-backend": {
-        "last_scanned": "2026-04-19T05:48:49.352698+00:00",
-        "github_updated_at": "",
-        "keys_found": 1
-      },
-      "bold-ronin/Vee": {
-        "last_scanned": "2026-04-19T05:48:49.415772+00:00",
+        "last_scanned": "2026-04-20T06:03:01.136221+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "noahbei/webServer": {
-        "last_scanned": "2026-04-19T05:48:49.502091+00:00",
+        "last_scanned": "2026-04-20T06:03:01.230942+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "MHIA-collab/MHI-backend": {
+        "last_scanned": "2026-04-20T06:03:01.312476+00:00",
+        "github_updated_at": "",
+        "keys_found": 1
+      },
+      "bold-ronin/Vee": {
+        "last_scanned": "2026-04-20T06:03:01.402994+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "MatixLab/matix-blog": {
-        "last_scanned": "2026-04-19T05:48:49.591737+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "gayashan4lk/next-auth-wth-app-dir": {
-        "last_scanned": "2026-04-19T05:48:49.681129+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "Bitbox-Connect/Bitbox": {
-        "last_scanned": "2026-04-19T05:48:49.770141+00:00",
+        "last_scanned": "2026-04-20T06:03:01.499705+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "PilarczykM/AI-Notes": {
-        "last_scanned": "2026-04-19T05:48:49.858965+00:00",
+        "last_scanned": "2026-04-20T06:03:01.594878+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "Bitbox-Connect/Bitbox": {
+        "last_scanned": "2026-04-20T06:03:01.681395+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "felixmariotto/Edelweiss-Editor": {
-        "last_scanned": "2026-04-19T05:48:49.947125+00:00",
+        "last_scanned": "2026-04-20T06:03:01.773074+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "LeLeader55/LBCPART": {
-        "last_scanned": "2026-04-19T05:48:50.035027+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "0xcyphered/remilias.eth": {
-        "last_scanned": "2026-04-19T05:48:50.116515+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "Mycelium-Lab/FairFight": {
-        "last_scanned": "2026-04-19T05:48:50.185249+00:00",
+        "last_scanned": "2026-04-20T06:03:01.908575+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "GabrielF0900/ChatPRO": {
-        "last_scanned": "2026-04-19T05:48:50.270769+00:00",
+        "last_scanned": "2026-04-20T06:03:01.999375+00:00",
         "github_updated_at": "",
         "keys_found": 1
       },
+      "0xcyphered/remilias.eth": {
+        "last_scanned": "2026-04-20T06:03:02.081214+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "Mycelium-Lab/FairFight": {
+        "last_scanned": "2026-04-20T06:03:02.142131+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
       "rodentskie/api_clean_architecture": {
-        "last_scanned": "2026-04-19T05:48:50.354923+00:00",
+        "last_scanned": "2026-04-20T06:03:02.249078+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "web3-identity/cns-metadata-service": {
-        "last_scanned": "2026-04-19T05:48:50.440633+00:00",
+        "last_scanned": "2026-04-20T06:03:02.354416+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "tabaresjc/HeadUP": {
-        "last_scanned": "2026-04-19T05:48:50.533059+00:00",
+        "last_scanned": "2026-04-20T06:03:02.435404+00:00",
         "github_updated_at": "",
         "keys_found": 1
       },
       "Tomochain-Name-Service/tns-contracts": {
-        "last_scanned": "2026-04-19T05:48:50.622625+00:00",
+        "last_scanned": "2026-04-20T06:03:02.524427+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "Kcorb0/sparta-data22-project": {
-        "last_scanned": "2026-04-19T05:48:50.692412+00:00",
+        "last_scanned": "2026-04-20T06:03:02.603809+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "ChristianJavierMelo/Vehicle-Type-Recognition": {
-        "last_scanned": "2026-04-19T05:48:50.781486+00:00",
+        "last_scanned": "2026-04-20T06:03:02.694783+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "EternalDreamer01/Nyx": {
-        "last_scanned": "2026-04-19T05:48:50.874652+00:00",
+        "last_scanned": "2026-04-20T06:03:02.800803+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "Mysticloud/Pterodactyl-Trial-Servers": {
-        "last_scanned": "2026-04-19T05:48:50.959604+00:00",
+        "last_scanned": "2026-04-20T06:03:02.929535+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "aerisweather/react-mapsgl": {
-        "last_scanned": "2026-04-19T05:48:51.056260+00:00",
+        "last_scanned": "2026-04-20T06:03:03.013409+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "ivandj0h/budget-tracker": {
-        "last_scanned": "2026-04-19T05:48:51.139626+00:00",
+        "last_scanned": "2026-04-20T06:03:03.101581+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "ruOpenCart/opencart3-webpack-theme": {
-        "last_scanned": "2026-04-19T05:48:51.226247+00:00",
+        "last_scanned": "2026-04-20T06:03:03.209960+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "izhangzhihao/Real-time-Data-Warehouse": {
-        "last_scanned": "2026-04-19T05:48:51.303293+00:00",
+        "last_scanned": "2026-04-20T06:03:03.281177+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "ChrisFlick/React-Reversi": {
-        "last_scanned": "2026-04-19T05:48:51.394262+00:00",
+        "last_scanned": "2026-04-20T06:03:03.365385+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "GeorgiosIoannouCoder/vera": {
-        "last_scanned": "2026-04-19T05:48:51.503261+00:00",
+        "last_scanned": "2026-04-20T06:03:03.451994+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "betingrich/BWM-XMD": {
-        "last_scanned": "2026-04-19T05:48:51.591070+00:00",
+        "last_scanned": "2026-04-20T06:03:03.539924+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "kohei-kp/schedule_crawler": {
-        "last_scanned": "2026-04-19T05:48:51.675939+00:00",
+        "last_scanned": "2026-04-20T06:03:03.611853+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "liris-legal/nlp-practice": {
-        "last_scanned": "2026-04-19T05:48:51.766126+00:00",
+        "last_scanned": "2026-04-20T06:03:03.706434+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "eesee-io/contracts": {
-        "last_scanned": "2026-04-19T05:48:51.848732+00:00",
+        "last_scanned": "2026-04-20T06:03:03.808150+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "evmns/evmns-contracts": {
-        "last_scanned": "2026-04-19T05:48:51.937899+00:00",
+        "last_scanned": "2026-04-20T06:03:03.890858+00:00",
         "github_updated_at": "",
         "keys_found": 2
       },
       "cherifimehdi/Retrieve_Data_Application_Case": {
-        "last_scanned": "2026-04-19T05:48:52.028705+00:00",
+        "last_scanned": "2026-04-20T06:03:03.992704+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "muhammad-rifqi/kneks_react": {
-        "last_scanned": "2026-04-19T05:48:52.112583+00:00",
+        "last_scanned": "2026-04-20T06:03:04.135707+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "christh2/B-DOP-400-COT-4-1-mymarvin": {
-        "last_scanned": "2026-04-19T05:48:52.208708+00:00",
+        "last_scanned": "2026-04-20T06:03:04.203360+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "Ohnoimded/maya_telegram_rag": {
-        "last_scanned": "2026-04-19T05:48:52.289202+00:00",
+        "last_scanned": "2026-04-20T06:03:04.321020+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "NinoslavVasic/Multi-Blockchain-Wallet-in-Python": {
-        "last_scanned": "2026-04-19T05:48:52.374472+00:00",
+        "last_scanned": "2026-04-20T06:03:04.408565+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "CoinFabrik/solidity-rnd": {
-        "last_scanned": "2026-04-19T05:48:52.455876+00:00",
+        "last_scanned": "2026-04-20T06:03:04.493549+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "translated/echo-server": {
-        "last_scanned": "2026-04-19T05:48:52.555781+00:00",
+        "last_scanned": "2026-04-20T06:03:04.584445+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
-      "tomurashigaraki22/tracui": {
-        "last_scanned": "2026-04-19T05:48:52.644008+00:00",
-        "github_updated_at": "",
-        "keys_found": 1
-      },
       "madsemilgodstil/vrm_foofest": {
-        "last_scanned": "2026-04-19T05:48:52.748547+00:00",
+        "last_scanned": "2026-04-20T06:03:04.733768+00:00",
         "github_updated_at": "",
         "keys_found": 1
       },
       "siteslave/express-onefile": {
-        "last_scanned": "2026-04-19T05:48:52.829717+00:00",
+        "last_scanned": "2026-04-20T06:03:04.872107+00:00",
         "github_updated_at": "",
         "keys_found": 1
       },
       "SEOTAEEYOUL/kubernetes-cluster": {
-        "last_scanned": "2026-04-19T05:48:52.911762+00:00",
+        "last_scanned": "2026-04-20T06:03:05.008151+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "RyotaTamuraJp/pdf2htmlex-api": {
-        "last_scanned": "2026-04-19T05:48:52.995739+00:00",
+        "last_scanned": "2026-04-20T06:03:05.098529+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "RyotaTamuraJp/libreoffice-ja": {
-        "last_scanned": "2026-04-19T05:48:53.087512+00:00",
+        "last_scanned": "2026-04-20T06:03:05.188224+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "sahokun/discord-stock-bot": {
-        "last_scanned": "2026-04-19T05:48:53.154300+00:00",
+        "last_scanned": "2026-04-20T06:03:05.309556+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "Mycelium-Lab/FairIncentiveProtocol-API": {
-        "last_scanned": "2026-04-19T05:48:53.217485+00:00",
+        "last_scanned": "2026-04-20T06:03:05.390750+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "Mycelium-Lab/dWill": {
-        "last_scanned": "2026-04-19T05:48:53.311488+00:00",
+        "last_scanned": "2026-04-20T06:03:05.480338+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "andreszlima/munchminder": {
-        "last_scanned": "2026-04-19T05:48:53.392180+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "nm-dl1212/django_restapi": {
-        "last_scanned": "2026-04-19T05:48:53.478771+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "Tatsu015/zaim_api_sample": {
-        "last_scanned": "2026-04-19T05:48:53.577770+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "soso0024/conoha-todo": {
-        "last_scanned": "2026-04-19T05:48:53.655079+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "FC-Melgarejo/proyecto_final": {
-        "last_scanned": "2026-04-19T05:48:53.746770+00:00",
-        "github_updated_at": "",
-        "keys_found": 1
-      },
-      "sh-ogawa/laravel53-turtorial": {
-        "last_scanned": "2026-04-19T05:48:53.827805+00:00",
-        "github_updated_at": "",
-        "keys_found": 1
-      },
-      "killstealking/gcs-uploader": {
-        "last_scanned": "2026-04-19T05:48:53.940208+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "IvanZhutyaev/Seka-Card_Game": {
-        "last_scanned": "2026-04-19T05:48:54.036898+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "rodentskie/api_typescript": {
-        "last_scanned": "2026-04-19T05:48:54.126751+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "RunCor399/MatchFlix": {
-        "last_scanned": "2026-04-19T05:48:54.216553+00:00",
+        "last_scanned": "2026-04-20T06:03:05.571994+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "cohere-ai/cohere-toolkit": {
-        "last_scanned": "2026-04-19T05:48:54.248364+00:00",
+        "last_scanned": "2026-04-20T06:03:05.740187+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
-      "Sharikarajan07/Event-Ticketing-Dapp": {
-        "last_scanned": "2026-04-19T05:48:54.297209+00:00",
-        "github_updated_at": "",
-        "keys_found": 5
-      },
       "KruxAI/ragbuilder": {
-        "last_scanned": "2026-04-19T05:48:54.321941+00:00",
+        "last_scanned": "2026-04-20T06:03:05.822261+00:00",
         "github_updated_at": "",
         "keys_found": 1
       },
-      "CanKer/todo-app-react": {
-        "last_scanned": "2026-04-19T05:48:54.373478+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
       "Azure/azure-search-vector-samples": {
-        "last_scanned": "2026-04-19T05:48:54.396036+00:00",
+        "last_scanned": "2026-04-20T06:03:05.912042+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "YassKhazzan/openperplex_backend_os": {
-        "last_scanned": "2026-04-19T05:48:54.457480+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "uroybd/topobon": {
-        "last_scanned": "2026-04-19T05:48:54.468998+00:00",
+        "last_scanned": "2026-04-20T06:03:05.984115+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "CommandCodeAI/BaseAI": {
-        "last_scanned": "2026-04-19T05:48:54.531205+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "Manjaka13/hauth": {
-        "last_scanned": "2026-04-19T05:48:54.574169+00:00",
+        "last_scanned": "2026-04-20T06:03:06.079860+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "cognesy/instructor-php": {
-        "last_scanned": "2026-04-19T05:48:54.605412+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "shawn-sandy/fp-kit": {
-        "last_scanned": "2026-04-19T05:48:54.670136+00:00",
+        "last_scanned": "2026-04-20T06:03:06.145131+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "illuin-tech/vidore-benchmark": {
-        "last_scanned": "2026-04-19T05:48:54.677486+00:00",
+        "last_scanned": "2026-04-20T06:03:06.215553+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "quenti-io/quenti": {
-        "last_scanned": "2026-04-19T05:48:54.754116+00:00",
+        "last_scanned": "2026-04-20T06:03:06.297176+00:00",
         "github_updated_at": "",
         "keys_found": 2
       },
-      "iseeface/A4-discord-bot": {
-        "last_scanned": "2026-04-19T05:48:54.755397+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "Young-ai-leaders/rag-sec-filling": {
-        "last_scanned": "2026-04-19T05:48:54.821662+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
       "vaughanlove/PromptBreeder": {
-        "last_scanned": "2026-04-19T05:48:54.834492+00:00",
+        "last_scanned": "2026-04-20T06:03:06.379918+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "redis-developer/redis-rag-workbench": {
-        "last_scanned": "2026-04-19T05:48:54.906780+00:00",
+        "last_scanned": "2026-04-20T06:03:06.457363+00:00",
         "github_updated_at": "",
         "keys_found": 3
       },
-      "andev0x/socks5-proxy-analytics": {
-        "last_scanned": "2026-04-19T05:48:54.911114+00:00",
+      "nm-dl1212/django_restapi": {
+        "last_scanned": "2026-04-20T06:03:06.527657+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "ZhuJD-China/RainbowGPT": {
-        "last_scanned": "2026-04-19T05:48:54.974129+00:00",
+        "last_scanned": "2026-04-20T06:03:06.547218+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
-      "Subham-Maity/MERN_Chat_App": {
-        "last_scanned": "2026-04-19T05:48:54.991873+00:00",
+      "Tatsu015/zaim_api_sample": {
+        "last_scanned": "2026-04-20T06:03:06.616094+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "phact/streaming-assistants": {
-        "last_scanned": "2026-04-19T05:48:55.039225+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "ivandj0h/attendant-app": {
-        "last_scanned": "2026-04-19T05:48:55.085537+00:00",
+        "last_scanned": "2026-04-20T06:03:06.618336+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "PersonaFlow/agentstack": {
-        "last_scanned": "2026-04-19T05:48:55.111580+00:00",
+        "last_scanned": "2026-04-20T06:03:06.692080+00:00",
         "github_updated_at": "",
         "keys_found": 1
       },
-      "abd0hrz/Doctor-appointment-booking-app": {
-        "last_scanned": "2026-04-19T05:48:55.166204+00:00",
+      "soso0024/conoha-todo": {
+        "last_scanned": "2026-04-20T06:03:06.695134+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "lesteroliver911/contextual-chunking-graphpowered-rag": {
-        "last_scanned": "2026-04-19T05:48:55.187818+00:00",
+        "last_scanned": "2026-04-20T06:03:06.774436+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
-      "ShkvarunDM/Console_Application": {
-        "last_scanned": "2026-04-19T05:48:55.250129+00:00",
+      "FC-Melgarejo/proyecto_final": {
+        "last_scanned": "2026-04-20T06:03:06.794561+00:00",
         "github_updated_at": "",
-        "keys_found": 0
+        "keys_found": 1
       },
       "autogenai/easy-problems-that-llms-get-wrong": {
-        "last_scanned": "2026-04-19T05:48:55.261011+00:00",
+        "last_scanned": "2026-04-20T06:03:06.844322+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "Sohaib-Ahmed21/WebSocket_FastApi_Chatbot": {
-        "last_scanned": "2026-04-19T05:48:55.329864+00:00",
+        "last_scanned": "2026-04-20T06:03:06.903036+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
-      "eersnington/zaplineai-backend": {
-        "last_scanned": "2026-04-19T05:48:55.338049+00:00",
+      "sh-ogawa/laravel53-turtorial": {
+        "last_scanned": "2026-04-20T06:03:06.939588+00:00",
         "github_updated_at": "",
-        "keys_found": 0
+        "keys_found": 1
       },
       "NCBI-Codeathons/mlxai-2024-team-beaumont": {
-        "last_scanned": "2026-04-19T05:48:55.393508+00:00",
+        "last_scanned": "2026-04-20T06:03:06.974935+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
-      "face-hh/Minig-Ames": {
-        "last_scanned": "2026-04-19T05:48:55.416929+00:00",
+      "killstealking/gcs-uploader": {
+        "last_scanned": "2026-04-20T06:03:07.024275+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "BigDataBoutique/elasticsearch-semantic-search-tutorial": {
-        "last_scanned": "2026-04-19T05:48:55.460249+00:00",
+        "last_scanned": "2026-04-20T06:03:07.045839+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
-      "Encore16Backend/ByeBuyigApp": {
-        "last_scanned": "2026-04-19T05:48:55.510606+00:00",
+      "IvanZhutyaev/Seka-Card_Game": {
+        "last_scanned": "2026-04-20T06:03:07.102874+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "rhamenator/ai-scraping-defense": {
-        "last_scanned": "2026-04-19T05:48:55.531626+00:00",
+        "last_scanned": "2026-04-20T06:03:07.122086+00:00",
         "github_updated_at": "",
         "keys_found": 1
       },
-      "serebano/tictapp-storage-api": {
-        "last_scanned": "2026-04-19T05:48:55.592840+00:00",
-        "github_updated_at": "",
-        "keys_found": 9
-      },
       "BladonGarlanddev/humanoid": {
-        "last_scanned": "2026-04-19T05:48:55.596463+00:00",
+        "last_scanned": "2026-04-20T06:03:07.189865+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "rodentskie/api_typescript": {
+        "last_scanned": "2026-04-20T06:03:07.207441+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "RunCor399/MatchFlix": {
+        "last_scanned": "2026-04-20T06:03:07.272022+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "WordsGPT/ChatWords": {
-        "last_scanned": "2026-04-19T05:48:55.663248+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "Web3ViraLabs/Solana-Auto-Transfer": {
-        "last_scanned": "2026-04-19T05:48:55.667944+00:00",
+        "last_scanned": "2026-04-20T06:03:07.275763+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "catalyzt-tech/OP-GovGPT": {
-        "last_scanned": "2026-04-19T05:48:55.730766+00:00",
+        "last_scanned": "2026-04-20T06:03:07.350221+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
-      "wisnij/dotfiles": {
-        "last_scanned": "2026-04-19T05:48:55.757706+00:00",
+      "Sharikarajan07/Event-Ticketing-Dapp": {
+        "last_scanned": "2026-04-20T06:03:07.359271+00:00",
         "github_updated_at": "",
-        "keys_found": 0
+        "keys_found": 5
       },
       "Unicorn-Commander/Ops-Center-OSS": {
-        "last_scanned": "2026-04-19T05:48:55.792837+00:00",
+        "last_scanned": "2026-04-20T06:03:07.435198+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
-      "Pannry/learnegy-webserver": {
-        "last_scanned": "2026-04-19T05:48:55.845320+00:00",
+      "CanKer/todo-app-react": {
+        "last_scanned": "2026-04-20T06:03:07.486061+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "Kodylow/matador": {
-        "last_scanned": "2026-04-19T05:48:55.868971+00:00",
+        "last_scanned": "2026-04-20T06:03:07.503758+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "uroybd/topobon": {
+        "last_scanned": "2026-04-20T06:03:07.566014+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "bean980310/ai-companion": {
-        "last_scanned": "2026-04-19T05:48:55.934833+00:00",
+        "last_scanned": "2026-04-20T06:03:07.567813+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
-      "Nurio34/whatsup": {
-        "last_scanned": "2026-04-19T05:48:55.944090+00:00",
+      "Manjaka13/hauth": {
+        "last_scanned": "2026-04-20T06:03:07.654660+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "Thinkful-Ed/capstone-langchain-chatbot-starter": {
-        "last_scanned": "2026-04-19T05:48:56.008379+00:00",
+        "last_scanned": "2026-04-20T06:03:07.659755+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "shawn-sandy/fp-kit": {
+        "last_scanned": "2026-04-20T06:03:07.742897+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "fahmiaziz98/langchain_project": {
-        "last_scanned": "2026-04-19T05:48:56.097458+00:00",
+        "last_scanned": "2026-04-20T06:03:07.745584+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "dirkpetersen/our-chat": {
-        "last_scanned": "2026-04-19T05:48:56.182467+00:00",
+        "last_scanned": "2026-04-20T06:03:07.818576+00:00",
         "github_updated_at": "",
         "keys_found": 6
       },
+      "iseeface/A4-discord-bot": {
+        "last_scanned": "2026-04-20T06:03:07.832875+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "Young-ai-leaders/rag-sec-filling": {
+        "last_scanned": "2026-04-20T06:03:07.903491+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
       "Stelvio-Chibuco/HackerGPT-2.0": {
-        "last_scanned": "2026-04-19T05:48:56.245756+00:00",
+        "last_scanned": "2026-04-20T06:03:07.916792+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "foomanchu8008/opendiscourse-ansible-alt": {
-        "last_scanned": "2026-04-19T05:48:56.312223+00:00",
+        "last_scanned": "2026-04-20T06:03:08.007130+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "andev0x/socks5-proxy-analytics": {
+        "last_scanned": "2026-04-20T06:03:08.029240+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "younus-alsaadi/Agentic-customer-support-copilot": {
-        "last_scanned": "2026-04-19T05:48:56.385392+00:00",
+        "last_scanned": "2026-04-20T06:03:08.111202+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "Subham-Maity/MERN_Chat_App": {
+        "last_scanned": "2026-04-20T06:03:08.121212+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "ivandj0h/attendant-app": {
+        "last_scanned": "2026-04-20T06:03:08.247942+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "menloparklab/cohere-weaviate-wikipedia-retrieval": {
-        "last_scanned": "2026-04-19T05:48:56.451494+00:00",
+        "last_scanned": "2026-04-20T06:03:08.253842+00:00",
         "github_updated_at": "",
         "keys_found": 1
       },
       "jxnl/systematically-improving-rag": {
-        "last_scanned": "2026-04-19T05:48:56.523834+00:00",
+        "last_scanned": "2026-04-20T06:03:08.333920+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "abd0hrz/Doctor-appointment-booking-app": {
+        "last_scanned": "2026-04-20T06:03:08.344755+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "luighifeodrippe/chatlendario": {
-        "last_scanned": "2026-04-19T05:48:56.601356+00:00",
+        "last_scanned": "2026-04-20T06:03:08.391255+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "ShkvarunDM/Console_Application": {
+        "last_scanned": "2026-04-20T06:03:08.446953+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "gebre2113/auto-money-maker": {
-        "last_scanned": "2026-04-19T05:48:56.687067+00:00",
+        "last_scanned": "2026-04-20T06:03:08.474887+00:00",
         "github_updated_at": "",
         "keys_found": 1
       },
       "SamnangGit/LLM-Bot-Server": {
-        "last_scanned": "2026-04-19T05:48:56.746459+00:00",
+        "last_scanned": "2026-04-20T06:03:08.534158+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "RyanLisse/hgg-roborail-rag": {
-        "last_scanned": "2026-04-19T05:48:56.815455+00:00",
+        "last_scanned": "2026-04-20T06:03:08.605757+00:00",
         "github_updated_at": "",
         "keys_found": 2
       },
+      "eersnington/zaplineai-backend": {
+        "last_scanned": "2026-04-20T06:03:08.670390+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
       "dangjingtao/open-proxy-api-deno": {
-        "last_scanned": "2026-04-19T05:48:56.893059+00:00",
+        "last_scanned": "2026-04-20T06:03:08.671125+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "nreith/loc-ai": {
-        "last_scanned": "2026-04-19T05:48:56.974524+00:00",
+        "last_scanned": "2026-04-20T06:03:08.763435+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "face-hh/Minig-Ames": {
+        "last_scanned": "2026-04-20T06:03:08.764711+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "aliabdelmonam/RAG-app": {
-        "last_scanned": "2026-04-19T05:48:57.054515+00:00",
+        "last_scanned": "2026-04-20T06:03:08.842919+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
+      "Encore16Backend/ByeBuyigApp": {
+        "last_scanned": "2026-04-20T06:03:08.859252+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "serebano/tictapp-storage-api": {
+        "last_scanned": "2026-04-20T06:03:08.917755+00:00",
+        "github_updated_at": "",
+        "keys_found": 9
+      },
       "ahmdeltoky03/RAGGuide_": {
-        "last_scanned": "2026-04-19T05:48:57.138427+00:00",
+        "last_scanned": "2026-04-20T06:03:08.950155+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "Web3ViraLabs/Solana-Auto-Transfer": {
+        "last_scanned": "2026-04-20T06:03:08.989405+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "iog-creator/BibleScholarProject": {
-        "last_scanned": "2026-04-19T05:48:57.209217+00:00",
+        "last_scanned": "2026-04-20T06:03:09.072824+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "wisnij/dotfiles": {
+        "last_scanned": "2026-04-20T06:03:09.102851+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "dineshyadav03/fineai": {
-        "last_scanned": "2026-04-19T05:48:57.289370+00:00",
+        "last_scanned": "2026-04-20T06:03:09.175428+00:00",
         "github_updated_at": "",
         "keys_found": 4
       },
       "yorunoR/benches-docker-front": {
-        "last_scanned": "2026-04-19T05:48:57.356342+00:00",
+        "last_scanned": "2026-04-20T06:03:09.232550+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "hanzoai/chat": {
-        "last_scanned": "2026-04-19T05:48:57.440510+00:00",
+        "last_scanned": "2026-04-20T06:03:09.310526+00:00",
         "github_updated_at": "",
         "keys_found": 3
       },
       "jekportillano-da/Budget-Buddy-Mobile": {
-        "last_scanned": "2026-04-19T05:48:57.520731+00:00",
+        "last_scanned": "2026-04-20T06:03:09.383715+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "nalaso/windai": {
-        "last_scanned": "2026-04-19T05:48:57.587903+00:00",
+        "last_scanned": "2026-04-20T06:03:09.519961+00:00",
         "github_updated_at": "",
         "keys_found": 2
       },
       "ennajari/ENIAD-ASSISTANT": {
-        "last_scanned": "2026-04-19T05:48:57.673750+00:00",
+        "last_scanned": "2026-04-20T06:03:09.647986+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "tasneem-elhady/Legal-RAG": {
-        "last_scanned": "2026-04-19T05:48:57.754341+00:00",
+        "last_scanned": "2026-04-20T06:03:09.718438+00:00",
         "github_updated_at": "",
         "keys_found": 3
       },
       "thompsonson/c4ai-ml-agents": {
-        "last_scanned": "2026-04-19T05:48:57.841960+00:00",
+        "last_scanned": "2026-04-20T06:03:09.819149+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "lucylow/bitmind": {
-        "last_scanned": "2026-04-19T05:48:57.929672+00:00",
+        "last_scanned": "2026-04-20T06:03:09.955807+00:00",
         "github_updated_at": "",
         "keys_found": 8
       },
       "kSuroweczka/Article-Retrieval-System-RAG": {
-        "last_scanned": "2026-04-19T05:48:58.020202+00:00",
+        "last_scanned": "2026-04-20T06:03:10.071746+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "TogetherCrew/operations": {
-        "last_scanned": "2026-04-19T05:48:58.094831+00:00",
+        "last_scanned": "2026-04-20T06:03:10.168643+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "miguelmartmart/jddc_materiales_local_bd_ia": {
-        "last_scanned": "2026-04-19T05:48:58.168720+00:00",
+        "last_scanned": "2026-04-20T06:03:10.266031+00:00",
         "github_updated_at": "",
         "keys_found": 31
       },
       "melihtop35/llm": {
-        "last_scanned": "2026-04-19T05:48:58.236756+00:00",
+        "last_scanned": "2026-04-20T06:03:10.366596+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "ISIS2007-Grupo3/MVP": {
-        "last_scanned": "2026-04-19T05:48:58.310774+00:00",
+        "last_scanned": "2026-04-20T06:03:10.482203+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "I2A2-ai-atividade-coletiva/NFe-AI--Exercicioi2a2": {
-        "last_scanned": "2026-04-19T05:48:58.392588+00:00",
+        "last_scanned": "2026-04-20T06:03:10.577406+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "hllj/FPT-AI-Challenges-2023": {
-        "last_scanned": "2026-04-19T05:48:58.479635+00:00",
+        "last_scanned": "2026-04-20T06:03:10.686638+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "igamenovoer/my-litellm-proxy": {
-        "last_scanned": "2026-04-19T05:48:58.559698+00:00",
+        "last_scanned": "2026-04-20T06:03:10.766333+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "sugarkwork/interview": {
-        "last_scanned": "2026-04-19T05:48:58.633314+00:00",
+        "last_scanned": "2026-04-20T06:03:10.843641+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "h2-ml-lm/langchain-tutorial": {
-        "last_scanned": "2026-04-19T05:48:58.708954+00:00",
+        "last_scanned": "2026-04-20T06:03:10.961294+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "kakikubo/learning-rag": {
-        "last_scanned": "2026-04-19T05:48:58.788378+00:00",
+        "last_scanned": "2026-04-20T06:03:11.049638+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "ashmin-01/chat-bot-backend": {
-        "last_scanned": "2026-04-19T05:48:58.848756+00:00",
+        "last_scanned": "2026-04-20T06:03:11.115458+00:00",
         "github_updated_at": "",
         "keys_found": 5
       },
       "RobertoSilvaDevFullStack/crm-balloon": {
-        "last_scanned": "2026-04-19T05:48:58.923008+00:00",
+        "last_scanned": "2026-04-20T06:03:11.212689+00:00",
         "github_updated_at": "",
         "keys_found": 10
       },
       "Rithik05/smartlang": {
-        "last_scanned": "2026-04-19T05:48:58.997439+00:00",
+        "last_scanned": "2026-04-20T06:03:11.353143+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "SethDwumah/multiple_pdf_chat_genai": {
-        "last_scanned": "2026-04-19T05:48:59.090134+00:00",
+        "last_scanned": "2026-04-20T06:03:11.437538+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "samrahimi/factoid-ai": {
-        "last_scanned": "2026-04-19T05:48:59.158937+00:00",
+        "last_scanned": "2026-04-20T06:03:11.550040+00:00",
         "github_updated_at": "",
         "keys_found": 20
       },
       "Kaw-Aii/skintwinformx": {
-        "last_scanned": "2026-04-19T05:48:59.241401+00:00",
+        "last_scanned": "2026-04-20T06:03:11.633207+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "mini-rag-ai/MiniRag": {
-        "last_scanned": "2026-04-19T05:48:59.319692+00:00",
+        "last_scanned": "2026-04-20T06:03:11.851635+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "HassenChaaben/Mini_Rag_Application": {
-        "last_scanned": "2026-04-19T05:48:59.393798+00:00",
+        "last_scanned": "2026-04-20T06:03:11.967782+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "aahmedehab0/mini-rag-app": {
-        "last_scanned": "2026-04-19T05:48:59.488065+00:00",
+        "last_scanned": "2026-04-20T06:03:12.079543+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "JohnHalim/mini-rag-app": {
-        "last_scanned": "2026-04-19T05:48:59.579644+00:00",
+        "last_scanned": "2026-04-20T06:03:12.183118+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "Reofdev07/osai": {
-        "last_scanned": "2026-04-19T05:48:59.713803+00:00",
+        "last_scanned": "2026-04-20T06:03:12.271165+00:00",
         "github_updated_at": "",
         "keys_found": 2
       },
       "Aoukacha-Moussa/Document-Q-A-System-RAG-with-MLFlow": {
-        "last_scanned": "2026-04-19T05:48:59.796664+00:00",
+        "last_scanned": "2026-04-20T06:03:12.389220+00:00",
         "github_updated_at": "",
         "keys_found": 6
       },
       "iyer131/GIFt": {
-        "last_scanned": "2026-04-19T05:48:59.876083+00:00",
+        "last_scanned": "2026-04-20T06:03:12.485776+00:00",
         "github_updated_at": "",
         "keys_found": 6
       },
       "anasnofal/mini-rag": {
-        "last_scanned": "2026-04-19T05:48:59.962248+00:00",
+        "last_scanned": "2026-04-20T06:03:12.613526+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "shawky-gamal-22/mini-rag-app": {
-        "last_scanned": "2026-04-19T05:49:00.034657+00:00",
+        "last_scanned": "2026-04-20T06:03:12.714321+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "Elbhnasy/RAG-application": {
-        "last_scanned": "2026-04-19T05:49:00.108084+00:00",
+        "last_scanned": "2026-04-20T06:03:12.830716+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "Yousif-Abuzeid/Deep-Query": {
-        "last_scanned": "2026-04-19T05:49:00.186764+00:00",
+        "last_scanned": "2026-04-20T06:03:12.904178+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "EbEmad/rag-app": {
-        "last_scanned": "2026-04-19T05:49:00.275823+00:00",
+        "last_scanned": "2026-04-20T06:03:13.033787+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "hassan1324sa/mini-rag": {
-        "last_scanned": "2026-04-19T05:49:00.362093+00:00",
+        "last_scanned": "2026-04-20T06:03:13.163112+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "BhagavanReddy07/Sabadeploy": {
-        "last_scanned": "2026-04-19T05:49:00.501553+00:00",
+        "last_scanned": "2026-04-20T06:03:13.290376+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "Linli1221/sasa": {
-        "last_scanned": "2026-04-19T05:49:00.573774+00:00",
+        "last_scanned": "2026-04-20T06:03:13.385743+00:00",
         "github_updated_at": "",
         "keys_found": 1
       },
       "thromel/llm-contracts-research": {
-        "last_scanned": "2026-04-19T05:49:00.644672+00:00",
+        "last_scanned": "2026-04-20T06:03:13.482834+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "ZeradamK/claudio2.2": {
-        "last_scanned": "2026-04-19T05:49:00.722538+00:00",
+        "last_scanned": "2026-04-20T06:03:13.571043+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "bey1321/News-Bias-Detector": {
-        "last_scanned": "2026-04-19T05:49:00.800829+00:00",
+        "last_scanned": "2026-04-20T06:03:13.651529+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "BlockSavvy/jetstream": {
-        "last_scanned": "2026-04-19T05:49:00.882207+00:00",
+        "last_scanned": "2026-04-20T06:03:13.744594+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "hanzy1110/langflow_chatbot": {
-        "last_scanned": "2026-04-19T05:49:00.968301+00:00",
+        "last_scanned": "2026-04-20T06:03:13.827967+00:00",
         "github_updated_at": "",
         "keys_found": 6
       },
       "shaigit/RAGA_Project": {
-        "last_scanned": "2026-04-19T05:49:01.063892+00:00",
+        "last_scanned": "2026-04-20T06:03:13.913623+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "glerner/gl-color-palette-generator": {
-        "last_scanned": "2026-04-19T05:49:01.139172+00:00",
+        "last_scanned": "2026-04-20T06:03:14.056684+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "mdimado/MedRaga": {
-        "last_scanned": "2026-04-19T05:49:01.218625+00:00",
+        "last_scanned": "2026-04-20T06:03:14.182557+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "ArshpreetChabbewal/Cohere-Feedback-Compiler": {
-        "last_scanned": "2026-04-19T05:49:01.294132+00:00",
+        "last_scanned": "2026-04-20T06:03:14.263470+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "Cupid0nn/Hotelify": {
-        "last_scanned": "2026-04-19T05:49:01.379794+00:00",
+        "last_scanned": "2026-04-20T06:03:14.345578+00:00",
         "github_updated_at": "",
         "keys_found": 6
       },
       "HarleyCoops/ProjectTemplates": {
-        "last_scanned": "2026-04-19T05:49:01.446549+00:00",
+        "last_scanned": "2026-04-20T06:03:14.409018+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "sobebarali/ecoready": {
-        "last_scanned": "2026-04-19T05:49:01.525381+00:00",
+        "last_scanned": "2026-04-20T06:03:14.516063+00:00",
         "github_updated_at": "",
         "keys_found": 1
       },
       "fantcy-coder/Temp_chat_bot": {
-        "last_scanned": "2026-04-19T05:49:01.597894+00:00",
+        "last_scanned": "2026-04-20T06:03:14.613790+00:00",
         "github_updated_at": "",
         "keys_found": 2
       },
       "JohnEvansOkyere/Chat_PDF_RAG_APP": {
-        "last_scanned": "2026-04-19T05:49:01.685437+00:00",
+        "last_scanned": "2026-04-20T06:03:14.726332+00:00",
         "github_updated_at": "",
         "keys_found": 1
       },
       "mateuszpoland/upwork-proposal-ai-agent": {
-        "last_scanned": "2026-04-19T05:49:01.767791+00:00",
+        "last_scanned": "2026-04-20T06:03:14.814980+00:00",
         "github_updated_at": "",
         "keys_found": 2
       },
-      "elastic/elasticsearch-labs": {
-        "last_scanned": "2026-04-19T05:49:09.497044+00:00",
+      "LinkedInLearning/hands-on-ai-rag-using-llamaindex-3830207": {
+        "last_scanned": "2026-04-20T06:03:15.870684+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
-      "patterns-ai-core/langchainrb": {
-        "last_scanned": "2026-04-19T05:49:09.573105+00:00",
+      "aws-solutions-library-samples/guidance-for-multi-provider-generative-ai-gateway-on-aws": {
+        "last_scanned": "2026-04-20T06:03:15.964260+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
-      "SpillwaveSolutions/agent-brain": {
-        "last_scanned": "2026-04-19T05:49:09.647092+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "chris-paganon/vue-ai-tools": {
-        "last_scanned": "2026-04-19T05:49:09.732178+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "vistec-AI/nitibench": {
-        "last_scanned": "2026-04-19T05:49:09.831073+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "majiayu000/litellm-rs": {
-        "last_scanned": "2026-04-19T05:49:09.916075+00:00",
-        "github_updated_at": "",
-        "keys_found": 1
-      },
-      "mohsen1/mafia-arena": {
-        "last_scanned": "2026-04-19T05:49:09.985713+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "nishatdhillon/llm-gateway": {
-        "last_scanned": "2026-04-19T05:49:10.082105+00:00",
-        "github_updated_at": "",
-        "keys_found": 1
-      },
-      "cornmankl/ai-prompts-generator": {
-        "last_scanned": "2026-04-19T05:49:10.194612+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "lefred/oci-genai-hw": {
-        "last_scanned": "2026-04-19T05:49:10.285900+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "entrepeneur4lyf/ig-coder": {
-        "last_scanned": "2026-04-19T05:49:10.362340+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "mihirh19/Restaurant_name_generator": {
-        "last_scanned": "2026-04-19T05:49:10.463828+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "Kj158/ai-todo-planner": {
-        "last_scanned": "2026-04-19T05:49:10.568232+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "PromptCheck/promptcheck": {
-        "last_scanned": "2026-04-19T05:49:10.630188+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "maeceloacm1998/DevLanguages": {
-        "last_scanned": "2026-04-19T05:49:10.714365+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "nauanbek/saqshy": {
-        "last_scanned": "2026-04-19T05:49:10.813713+00:00",
-        "github_updated_at": "",
-        "keys_found": 3
-      },
-      "protemplate/crawl4ai-docker": {
-        "last_scanned": "2026-04-19T05:49:10.908436+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "Mohamedkhaled687/DocSage": {
-        "last_scanned": "2026-04-19T05:49:11.048504+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "Orcapt/orca-pip": {
-        "last_scanned": "2026-04-19T05:49:11.148887+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "laibaaimran22/Hackathon-2-Todo-App-speckit": {
-        "last_scanned": "2026-04-19T05:49:11.248821+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "mohamedfathi540/Fehres-Scrapper": {
-        "last_scanned": "2026-04-19T05:49:11.355537+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "AmeerArsala/UniverseLM": {
-        "last_scanned": "2026-04-19T05:49:11.483862+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "denisprosperous/v0-strategy-engine-pro": {
-        "last_scanned": "2026-04-19T05:49:11.577567+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "MISHHF93/CareDroid-Ai": {
-        "last_scanned": "2026-04-19T05:49:11.666236+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "mohamedfathi540/RxTract": {
-        "last_scanned": "2026-04-19T05:49:11.754346+00:00",
-        "github_updated_at": "",
-        "keys_found": 1
-      },
-      "Cursedpotential/mcp-tool-platform": {
-        "last_scanned": "2026-04-19T05:49:11.836683+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "rafiehb555/ehb-Gosellr": {
-        "last_scanned": "2026-04-19T05:49:11.993309+00:00",
-        "github_updated_at": "",
-        "keys_found": 1
-      },
-      "POVIEW-AI/rag-backend": {
-        "last_scanned": "2026-04-19T05:49:12.079161+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "MrHanan-dev/ConvoAI-Assistant": {
-        "last_scanned": "2026-04-19T05:49:12.179124+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "POWERFULMOVES/PMOVES-DoX": {
-        "last_scanned": "2026-04-19T05:49:12.326490+00:00",
-        "github_updated_at": "",
-        "keys_found": 2
-      },
-      "QDScholium/ScholiumAI": {
-        "last_scanned": "2026-04-19T05:49:12.410360+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "mirasoth/noesium": {
-        "last_scanned": "2026-04-19T05:49:12.512186+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "daniel8824-del/galaxy-rag-chatbot": {
-        "last_scanned": "2026-04-19T05:49:12.620870+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "tradermaster74-code/JGNEXT_local_dev": {
-        "last_scanned": "2026-04-19T05:49:12.738133+00:00",
-        "github_updated_at": "",
-        "keys_found": 6
-      },
-      "Writesonic/GPTRouter": {
-        "last_scanned": "2026-04-19T05:49:12.820798+00:00",
-        "github_updated_at": "",
-        "keys_found": 1
-      },
-      "netalex/epiclesis-engine": {
-        "last_scanned": "2026-04-19T05:49:12.907483+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "puneetrinity/seacrchllm": {
-        "last_scanned": "2026-04-19T05:49:13.031858+00:00",
-        "github_updated_at": "",
-        "keys_found": 3
-      },
-      "Ajirohack/LAS": {
-        "last_scanned": "2026-04-19T05:49:13.112882+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "dantonoli/Synapse": {
-        "last_scanned": "2026-04-19T05:49:13.184064+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "Gzeu/profesorXtrader": {
-        "last_scanned": "2026-04-19T05:49:13.264390+00:00",
-        "github_updated_at": "",
-        "keys_found": 1
-      },
-      "leaninnovationlabs/opsloom": {
-        "last_scanned": "2026-04-19T05:49:13.375821+00:00",
-        "github_updated_at": "",
-        "keys_found": 1
-      },
-      "firebitsbr/gocode": {
-        "last_scanned": "2026-04-19T05:49:13.498599+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "mkuangdotcom/DualComm": {
-        "last_scanned": "2026-04-19T05:49:13.610423+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "KyleFin/fostercare-rag": {
-        "last_scanned": "2026-04-19T05:49:13.690719+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "harshalDharpure/awesome-rag-architectures-2026": {
-        "last_scanned": "2026-04-19T05:49:13.803110+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "revenium/revenium-middleware-litellm-node": {
-        "last_scanned": "2026-04-19T05:49:13.882492+00:00",
-        "github_updated_at": "",
-        "keys_found": 1
-      },
-      "rodrigocfranco/multimodal-rag-langchain": {
-        "last_scanned": "2026-04-19T05:49:13.967353+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "MarkMCFC/llm-proxy": {
-        "last_scanned": "2026-04-19T05:49:14.068323+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "20obb/ai-agent": {
-        "last_scanned": "2026-04-19T05:49:14.162716+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "homie-gg/homie": {
-        "last_scanned": "2026-04-19T05:49:14.250348+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "kirollos21/AUC-Research-Assistant": {
-        "last_scanned": "2026-04-19T05:49:14.349337+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "aubford/peplink-agent": {
-        "last_scanned": "2026-04-19T05:49:14.440940+00:00",
-        "github_updated_at": "",
-        "keys_found": 1
-      },
-      "echoandzoey/litellm_filmagent": {
-        "last_scanned": "2026-04-19T05:49:14.531090+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "sungminwoo0612/daily-arxiv-insights-ops": {
-        "last_scanned": "2026-04-19T05:49:14.613397+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "yond5413/social-stock-insights": {
-        "last_scanned": "2026-04-19T05:49:14.705293+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "AishSoni/Narada-AI": {
-        "last_scanned": "2026-04-19T05:49:14.802713+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "SamnangGit/synthetic-data-generation": {
-        "last_scanned": "2026-04-19T05:49:14.893748+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "michael7736/my_rag1": {
-        "last_scanned": "2026-04-19T05:49:14.985856+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "Mahdi-Hosseini/aramoon-webapp": {
-        "last_scanned": "2026-04-19T05:49:15.118993+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "NeuralEmpowerment/python-agent-template_v1": {
-        "last_scanned": "2026-04-19T05:49:15.221683+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "demonzblood007/cinegenie": {
-        "last_scanned": "2026-04-19T05:49:15.306746+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "marlon19991/bancolombia-component-generator-mvp": {
-        "last_scanned": "2026-04-19T05:49:15.414788+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "ashokcpg/YeetThePacket": {
-        "last_scanned": "2026-04-19T05:49:15.512770+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "gavento/discord_entities": {
-        "last_scanned": "2026-04-19T05:49:15.614472+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "ShyamSundR/stackai-vector-db": {
-        "last_scanned": "2026-04-19T05:49:15.700267+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "leogopal/bolt.local.llm": {
-        "last_scanned": "2026-04-19T05:49:15.773401+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "over7-maker/Advanced-Multi-Agent-Intelligence-System": {
-        "last_scanned": "2026-04-19T05:49:15.857810+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "ericrisco/twitch-chat-toxicity": {
-        "last_scanned": "2026-04-19T05:49:15.975341+00:00",
-        "github_updated_at": "",
-        "keys_found": 1
-      },
-      "tanguangyun/ChatHub": {
-        "last_scanned": "2026-04-19T05:49:16.074338+00:00",
-        "github_updated_at": "",
-        "keys_found": 6
-      },
-      "migkapa/pluginator": {
-        "last_scanned": "2026-04-19T05:49:16.199278+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "loki135/CodeSensei": {
-        "last_scanned": "2026-04-19T05:49:16.291108+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "Everest1508/ai-chat-system": {
-        "last_scanned": "2026-04-19T05:49:16.399529+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "Spidergy07/CEDT_FinalProject": {
-        "last_scanned": "2026-04-19T05:49:16.509761+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "aniruddha-chaudhari/mathagent": {
-        "last_scanned": "2026-04-19T05:49:16.602144+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "sideme/ChatTool": {
-        "last_scanned": "2026-04-19T05:49:16.693998+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "qdrant/qdrant-rag-eval": {
-        "last_scanned": "2026-04-19T05:49:16.824242+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "tundraray/litskills": {
-        "last_scanned": "2026-04-19T05:49:16.928621+00:00",
-        "github_updated_at": "",
-        "keys_found": 1
-      },
-      "Malothu-yash/Maya_16D": {
-        "last_scanned": "2026-04-19T05:49:17.018053+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "DeepFlow-research/manager_agent_gym": {
-        "last_scanned": "2026-04-19T05:49:17.109523+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "adophilus/asiwaj-igbo-voice-assistant": {
-        "last_scanned": "2026-04-19T05:49:17.204777+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "umitkacar/awesome-mlops": {
-        "last_scanned": "2026-04-19T05:49:17.298062+00:00",
-        "github_updated_at": "",
-        "keys_found": 1
-      },
-      "JuliusHenke/autopentest": {
-        "last_scanned": "2026-04-19T05:49:17.380584+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "derril-tech/ai-local-rag-system": {
-        "last_scanned": "2026-04-19T05:49:17.480674+00:00",
-        "github_updated_at": "",
-        "keys_found": 1
-      },
-      "SARAMALI15792/AINativeBook": {
-        "last_scanned": "2026-04-19T05:49:17.558607+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "chris-conifer/production-rag-pipeline": {
-        "last_scanned": "2026-04-19T05:49:17.643648+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "OpenCodeIntel/opencodeintel": {
-        "last_scanned": "2026-04-19T05:49:17.742073+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "haseeb-heaven/glucose-gpt": {
-        "last_scanned": "2026-04-19T05:49:17.829099+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "Zephyrus2822/PulseBoard": {
-        "last_scanned": "2026-04-19T05:49:17.910869+00:00",
-        "github_updated_at": "",
-        "keys_found": 1
-      },
-      "wandb/llm-leaderboard": {
-        "last_scanned": "2026-04-19T05:49:18.002899+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "ggozad/haiku.rag": {
-        "last_scanned": "2026-04-19T05:49:18.721809+00:00",
+      "eleven-labs/blog.eleven-labs.com": {
+        "last_scanned": "2026-04-20T06:03:16.055210+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "isundaylee/istaroth": {
-        "last_scanned": "2026-04-19T05:49:18.800403+00:00",
+        "last_scanned": "2026-04-20T06:03:16.135993+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
-      "manishkatyan/langgraph-chat-app": {
-        "last_scanned": "2026-04-19T05:49:18.898492+00:00",
+      "AFutureD/koma": {
+        "last_scanned": "2026-04-20T06:03:16.222839+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
-      "shivangjhalani/chat": {
-        "last_scanned": "2026-04-19T05:49:18.985893+00:00",
+      "superset-studio/majordomo-llm": {
+        "last_scanned": "2026-04-20T06:03:16.326179+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
-      "UTSC-CSCC09-Programming-on-the-Web/project-meaaji": {
-        "last_scanned": "2026-04-19T05:49:19.079204+00:00",
+      "geometerio/daily_co_api": {
+        "last_scanned": "2026-04-20T06:03:16.420441+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "dranandnandi/gmbreviewsystemwithneondb": {
+        "last_scanned": "2026-04-20T06:03:16.505928+00:00",
+        "github_updated_at": "",
+        "keys_found": 3
+      },
+      "agosro/pi-data-challenge-4-rag-api": {
+        "last_scanned": "2026-04-20T06:03:16.606854+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "Buwaneka-Sumanasekara/sahan-traders-laravel": {
+        "last_scanned": "2026-04-20T06:03:16.726945+00:00",
+        "github_updated_at": "",
+        "keys_found": 2
+      },
+      "ananya5151/PDF-TO-AND-FROM-CONVERTER": {
+        "last_scanned": "2026-04-20T06:03:16.883042+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "Web3Auth/web3auth-web": {
+        "last_scanned": "2026-04-20T06:03:16.981320+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "Bl4cKr0W2/vpc-music": {
-        "last_scanned": "2026-04-19T05:49:19.184408+00:00",
+        "last_scanned": "2026-04-20T06:03:17.077560+00:00",
+        "github_updated_at": "",
+        "keys_found": 2
+      },
+      "codenteq/laerx": {
+        "last_scanned": "2026-04-20T06:03:17.190597+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "trocco-io/terraform-provider-trocco": {
+        "last_scanned": "2026-04-20T06:03:17.268012+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "MisranDolan/uyghur-chatbot": {
+        "last_scanned": "2026-04-20T06:03:17.361728+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "ethereum/kohaku-commons": {
+        "last_scanned": "2026-04-20T06:03:17.458277+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "mingderwang/pimlico-viem-4337": {
+        "last_scanned": "2026-04-20T06:03:17.525022+00:00",
+        "github_updated_at": "",
+        "keys_found": 3
+      },
+      "TemamAb/brightsky": {
+        "last_scanned": "2026-04-20T06:03:17.608273+00:00",
         "github_updated_at": "",
         "keys_found": 1
       },
-      "superset-studio/majordomo-llm": {
-        "last_scanned": "2026-04-19T05:49:19.288726+00:00",
+      "faraazahmad/graphsense": {
+        "last_scanned": "2026-04-20T06:03:17.694171+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "AhmetUtkuPelen/Restaurant_App": {
+        "last_scanned": "2026-04-20T06:03:17.789836+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "FinAegis/core-banking-prototype-laravel": {
-        "last_scanned": "2026-04-19T05:49:19.396841+00:00",
+        "last_scanned": "2026-04-20T06:03:17.903358+00:00",
         "github_updated_at": "",
         "keys_found": 3
-      },
-      "glenn-ac/rekordcrate-rag": {
-        "last_scanned": "2026-04-19T05:49:19.489079+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "dyaskur/google-chat-translator": {
-        "last_scanned": "2026-04-19T05:49:19.575582+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "ethaccount/SAManager": {
-        "last_scanned": "2026-04-19T05:49:19.704758+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "faraazahmad/graphsense": {
-        "last_scanned": "2026-04-19T05:49:19.797992+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "do9a/wcagtr": {
-        "last_scanned": "2026-04-19T05:49:19.911237+00:00",
-        "github_updated_at": "",
-        "keys_found": 5
-      },
-      "abeachmad/ZeroToll": {
-        "last_scanned": "2026-04-19T05:49:20.009642+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "Skolasta/django-ecommerce-website": {
-        "last_scanned": "2026-04-19T05:49:20.098282+00:00",
-        "github_updated_at": "",
-        "keys_found": 1
-      },
-      "locker-labs/auto-hodl": {
-        "last_scanned": "2026-04-19T05:49:20.206987+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "Sahinerprogramming/mypety_pro": {
-        "last_scanned": "2026-04-19T05:49:20.283909+00:00",
-        "github_updated_at": "",
-        "keys_found": 1
-      },
-      "salim359/iwb25-293-pixel": {
-        "last_scanned": "2026-04-19T05:49:20.394850+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "Hobie1Kenobi/agentic-crypto-swarm-prototype": {
-        "last_scanned": "2026-04-19T05:49:20.507681+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "crypblizz8/lil-smart-accounts": {
-        "last_scanned": "2026-04-19T05:49:20.617844+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "drewskidang/sean_cant_code": {
-        "last_scanned": "2026-04-19T05:49:20.698226+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "Bufffer/getskillz.io": {
-        "last_scanned": "2026-04-19T05:49:20.803315+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "TomCocSuker/MessyAlpha": {
-        "last_scanned": "2026-04-19T05:49:20.893537+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "whitebear0909/b2bwood": {
-        "last_scanned": "2026-04-19T05:49:21.007108+00:00",
-        "github_updated_at": "",
-        "keys_found": 14
-      },
-      "AmbireTech/ambire-common": {
-        "last_scanned": "2026-04-19T05:49:21.113174+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "Chamidu-Maduwantha/job-application-processing-pipeline--Metana-assignment": {
-        "last_scanned": "2026-04-19T05:49:21.205462+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "TahasCreations/tdc-products-website": {
-        "last_scanned": "2026-04-19T05:49:21.315929+00:00",
-        "github_updated_at": "",
-        "keys_found": 2
-      },
-      "geobrowser/gaia": {
-        "last_scanned": "2026-04-19T05:49:21.409338+00:00",
-        "github_updated_at": "",
-        "keys_found": 1
-      },
-      "cemzdmrrr/uretim-takip": {
-        "last_scanned": "2026-04-19T05:49:21.512348+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "xmlking/agentic": {
-        "last_scanned": "2026-04-19T05:49:21.586090+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
       },
       "YevheniiaDolska/aibl": {
-        "last_scanned": "2026-04-19T05:49:21.666666+00:00",
-        "github_updated_at": "",
-        "keys_found": 1
-      },
-      "jvelezmagic/langchain-advanced-document-handling-retrieval-techniques-course": {
-        "last_scanned": "2026-04-19T05:49:21.740213+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "EmpowerCaptial/pmu-pro": {
-        "last_scanned": "2026-04-19T05:49:21.827988+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "krishnadck/ai-bootcamp-agentic-rag": {
-        "last_scanned": "2026-04-19T05:49:21.913339+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "dylan8902/website": {
-        "last_scanned": "2026-04-19T05:49:22.002228+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "xmlking/ai-agents": {
-        "last_scanned": "2026-04-19T05:49:22.129956+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "Orhanguezel/katalogAI": {
-        "last_scanned": "2026-04-19T05:49:22.236952+00:00",
-        "github_updated_at": "",
-        "keys_found": 3
-      },
-      "keisukefunatsu/402_payment": {
-        "last_scanned": "2026-04-19T05:49:22.327625+00:00",
-        "github_updated_at": "",
-        "keys_found": 1
-      },
-      "mjdyibrahim/askNature": {
-        "last_scanned": "2026-04-19T05:49:22.420034+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "thepembeweb/ai-product-assistant": {
-        "last_scanned": "2026-04-19T05:49:22.509883+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "Rickaym/aya-my-tk": {
-        "last_scanned": "2026-04-19T05:49:22.605753+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "stevenfazzio/claude-code-changelog-analysis": {
-        "last_scanned": "2026-04-19T05:49:22.699840+00:00",
-        "github_updated_at": "",
-        "keys_found": 2
-      },
-      "spped2000/GroqDiscordAssistant": {
-        "last_scanned": "2026-04-19T05:49:22.795105+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "YS-2357/compare-ai": {
-        "last_scanned": "2026-04-19T05:49:22.867531+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "piyush-0p/MurfAi-30days": {
-        "last_scanned": "2026-04-19T05:49:22.954277+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "SriomDash/CoeusAI": {
-        "last_scanned": "2026-04-19T05:49:23.042638+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "mbrotos/cohere-explore": {
-        "last_scanned": "2026-04-19T05:49:23.135104+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "VansonLeung/poc_graph_pipeline_builder": {
-        "last_scanned": "2026-04-19T05:49:23.225149+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "rozral/ar_izguvi_paplasinata_teksta_generesana_latviesu_valodai": {
-        "last_scanned": "2026-04-19T05:49:23.315237+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "v01cano/provseek": {
-        "last_scanned": "2026-04-19T05:49:23.412259+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "chenxiex/akasha": {
-        "last_scanned": "2026-04-19T05:49:23.499949+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "sibshahz/RAG_EMB_VECTOR": {
-        "last_scanned": "2026-04-19T05:49:23.576939+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "yuki-o1o5/ai-gourmet-navigator-dest": {
-        "last_scanned": "2026-04-19T05:49:23.661415+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "shahnewaz-labib/local-lens": {
-        "last_scanned": "2026-04-19T05:49:23.751690+00:00",
-        "github_updated_at": "",
-        "keys_found": 1
-      },
-      "Kaskas-python/ai-amazon-shopping-assistant": {
-        "last_scanned": "2026-04-19T05:49:23.833796+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "BatuhanVarlik/E-Commerce-App": {
-        "last_scanned": "2026-04-19T05:49:23.939602+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "Pro-GenAI/iRAT": {
-        "last_scanned": "2026-04-19T05:49:24.046624+00:00",
-        "github_updated_at": "",
-        "keys_found": 1
-      },
-      "pimlicolabs/privy-demo": {
-        "last_scanned": "2026-04-19T05:49:24.147826+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "Anubhavjaiswal21/todo-summary-assistant": {
-        "last_scanned": "2026-04-19T05:49:24.236652+00:00",
-        "github_updated_at": "",
-        "keys_found": 3
-      },
-      "CSC392-CSC492-Building-AI-ML-systems/HealthAssessmentDashboard": {
-        "last_scanned": "2026-04-19T05:49:24.334786+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "Melaonn/AI-Blog": {
-        "last_scanned": "2026-04-19T05:49:24.426470+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "tal-sitton/Hiker": {
-        "last_scanned": "2026-04-19T05:49:24.521909+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "alee0151/sungaurd": {
-        "last_scanned": "2026-04-19T05:49:24.611887+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "maxbeyer1/notelens": {
-        "last_scanned": "2026-04-19T05:49:24.710705+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "darrylyeo/blockhead": {
-        "last_scanned": "2026-04-19T05:49:24.809117+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "AliHakim773/TULP": {
-        "last_scanned": "2026-04-19T05:49:24.907080+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "dvirdiei/shira": {
-        "last_scanned": "2026-04-19T05:49:25.006522+00:00",
+        "last_scanned": "2026-04-20T06:03:18.010308+00:00",
         "github_updated_at": "",
         "keys_found": 1
       },
       "MetaMask/smart-accounts-kit": {
-        "last_scanned": "2026-04-19T05:49:25.106764+00:00",
+        "last_scanned": "2026-04-20T06:03:18.109265+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
-      "theonlyamos/cognitrix": {
-        "last_scanned": "2026-04-19T05:49:25.194630+00:00",
+      "LCOGT/mop": {
+        "last_scanned": "2026-04-20T06:03:18.211961+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
-      "zerodevapp/sdk": {
-        "last_scanned": "2026-04-19T05:49:25.282631+00:00",
+      "SuganesanD/chatBotBackup": {
+        "last_scanned": "2026-04-20T06:03:18.307439+00:00",
+        "github_updated_at": "",
+        "keys_found": 4
+      },
+      "Rady119/pdfsir-tools": {
+        "last_scanned": "2026-04-20T06:03:18.404857+00:00",
+        "github_updated_at": "",
+        "keys_found": 2
+      },
+      "SuganesanD/chatbot-module": {
+        "last_scanned": "2026-04-20T06:03:18.489616+00:00",
+        "github_updated_at": "",
+        "keys_found": 4
+      },
+      "Master-utsav/my-brain": {
+        "last_scanned": "2026-04-20T06:03:18.596114+00:00",
+        "github_updated_at": "",
+        "keys_found": 1
+      },
+      "darrylyeo/blockhead": {
+        "last_scanned": "2026-04-20T06:03:18.694199+00:00",
+        "github_updated_at": "",
+        "keys_found": 39
+      },
+      "routetonull/opencheck": {
+        "last_scanned": "2026-04-20T06:03:18.796555+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "luvnft/ETHgame": {
+        "last_scanned": "2026-04-20T06:03:18.903947+00:00",
+        "github_updated_at": "",
+        "keys_found": 2
+      },
+      "fredcamaral/dotfiles": {
+        "last_scanned": "2026-04-20T06:03:19.056740+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "davalpez/Local-AI-aplications-with-Haystack": {
+        "last_scanned": "2026-04-20T06:03:19.154044+00:00",
+        "github_updated_at": "",
+        "keys_found": 3
+      },
+      "AMASASIA/AIM-IAM": {
+        "last_scanned": "2026-04-20T06:03:19.237661+00:00",
+        "github_updated_at": "",
+        "keys_found": 1
+      },
+      "cecepns/carrywise-dashboard": {
+        "last_scanned": "2026-04-20T06:03:19.337332+00:00",
+        "github_updated_at": "",
+        "keys_found": 6
+      },
+      "eyesli/crypto-quant-trading": {
+        "last_scanned": "2026-04-20T06:03:19.444957+00:00",
+        "github_updated_at": "",
+        "keys_found": 14
+      },
+      "surya140104/Flood_Risk_140104": {
+        "last_scanned": "2026-04-20T06:03:19.537723+00:00",
+        "github_updated_at": "",
+        "keys_found": 7
+      },
+      "myforktiina/sepak-takraw-chatbot": {
+        "last_scanned": "2026-04-20T06:03:19.614466+00:00",
+        "github_updated_at": "",
+        "keys_found": 2
+      },
+      "shomere/kira_psycho_clinics": {
+        "last_scanned": "2026-04-20T06:03:19.715131+00:00",
+        "github_updated_at": "",
+        "keys_found": 6
+      },
+      "manish182003/code-Review-and-Analysis-Backend": {
+        "last_scanned": "2026-04-20T06:03:19.803839+00:00",
+        "github_updated_at": "",
+        "keys_found": 4
+      },
+      "PathfinderFederalSolutions/AgentForge": {
+        "last_scanned": "2026-04-20T06:03:19.893100+00:00",
+        "github_updated_at": "",
+        "keys_found": 14
+      },
+      "subhodeep1512/HealthBot_SM_2026": {
+        "last_scanned": "2026-04-20T06:03:19.990096+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "markchou1205-uch/SiteMate": {
+        "last_scanned": "2026-04-20T06:03:20.092578+00:00",
+        "github_updated_at": "",
+        "keys_found": 8
+      },
+      "AnthonyCh2001/HIRENOTESAI": {
+        "last_scanned": "2026-04-20T06:03:20.184193+00:00",
+        "github_updated_at": "",
+        "keys_found": 2
+      },
+      "AnthonyCh2001/webtest": {
+        "last_scanned": "2026-04-20T06:03:20.303859+00:00",
+        "github_updated_at": "",
+        "keys_found": 2
+      },
+      "AnthonyCh2001/HireNotes-AI": {
+        "last_scanned": "2026-04-20T06:03:20.402093+00:00",
+        "github_updated_at": "",
+        "keys_found": 2
+      },
+      "lirona/anonWallet": {
+        "last_scanned": "2026-04-20T06:03:20.493317+00:00",
+        "github_updated_at": "",
+        "keys_found": 2
+      },
+      "devi5040/chatbot": {
+        "last_scanned": "2026-04-20T06:03:20.618447+00:00",
+        "github_updated_at": "",
+        "keys_found": 2
+      },
+      "linh-kl-trinh/cmdf2024-HearToStudy": {
+        "last_scanned": "2026-04-20T06:03:20.745703+00:00",
+        "github_updated_at": "",
+        "keys_found": 2
+      },
+      "fabiosky21/TheNasa": {
+        "last_scanned": "2026-04-20T06:03:20.826400+00:00",
+        "github_updated_at": "",
+        "keys_found": 4
+      },
+      "WerKdev/SABER-TCC": {
+        "last_scanned": "2026-04-20T06:03:20.918102+00:00",
+        "github_updated_at": "",
+        "keys_found": 2
+      },
+      "scoutprojekt0-sys/scout-projesi": {
+        "last_scanned": "2026-04-20T06:03:21.004183+00:00",
+        "github_updated_at": "",
+        "keys_found": 1
+      },
+      "mehedi8gb/emed-stable-4.8": {
+        "last_scanned": "2026-04-20T06:03:21.100365+00:00",
+        "github_updated_at": "",
+        "keys_found": 9
+      },
+      "NepsenX/NepsenX": {
+        "last_scanned": "2026-04-20T06:03:21.193309+00:00",
+        "github_updated_at": "",
+        "keys_found": 3
+      },
+      "Thomas-K-John/generative-ai-projects": {
+        "last_scanned": "2026-04-20T06:03:21.277667+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "Orhanguezel/vistaseed": {
-        "last_scanned": "2026-04-19T05:49:25.369768+00:00",
-        "github_updated_at": "",
-        "keys_found": 4
-      },
-      "Pradeeppilotdev/johnwrizzkid": {
-        "last_scanned": "2026-04-19T05:49:25.470705+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "snowman12320/docker-express-sample-mongo": {
-        "last_scanned": "2026-04-19T05:49:25.561005+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "ivysaurxp001/mon-stake": {
-        "last_scanned": "2026-04-19T05:49:25.661060+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "haim-ari/ai-development": {
-        "last_scanned": "2026-04-19T05:49:25.744869+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "HelixDevelopment/HelixAgent": {
-        "last_scanned": "2026-04-19T05:49:25.821354+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "BCHarrell/RTHub-LLM-CTF": {
-        "last_scanned": "2026-04-19T05:49:25.912639+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "keypo-us/keypo-cli": {
-        "last_scanned": "2026-04-19T05:49:25.992760+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "Danik911/thesis_project": {
-        "last_scanned": "2026-04-19T05:49:26.065092+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "MohammedAlshami/ermap": {
-        "last_scanned": "2026-04-19T05:49:26.156110+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "Matthew-Booth-Py/data-labeller": {
-        "last_scanned": "2026-04-19T05:49:26.252975+00:00",
-        "github_updated_at": "",
-        "keys_found": 1
-      },
-      "ak-hosting/ak-rentacar": {
-        "last_scanned": "2026-04-19T05:49:26.365901+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "pistolinkr/DI2025checker": {
-        "last_scanned": "2026-04-19T05:49:26.453324+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "enuda-labs/label-x": {
-        "last_scanned": "2026-04-19T05:49:26.556603+00:00",
-        "github_updated_at": "",
-        "keys_found": 1
-      },
-      "dranandnandi/gmbreviewsystemwithneondb": {
-        "last_scanned": "2026-04-19T05:49:26.659781+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "fahmadiqbal1/noblenest-academy": {
-        "last_scanned": "2026-04-19T05:49:26.763132+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "dynamic-labs-oss/hackathon-starter-kit": {
-        "last_scanned": "2026-04-19T05:49:26.881257+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "safe-fndn/safe-modules": {
-        "last_scanned": "2026-04-19T05:49:26.977726+00:00",
-        "github_updated_at": "",
-        "keys_found": 9
-      },
-      "Tenderly/node-extensions-library": {
-        "last_scanned": "2026-04-19T05:49:27.065852+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "DeepakSilaych/Financial_Agentic_RAG": {
-        "last_scanned": "2026-04-19T05:49:27.163281+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "GrafeoDB/grafeo-memory": {
-        "last_scanned": "2026-04-19T05:49:27.258415+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "SuhanPoojary/Reprice-backend": {
-        "last_scanned": "2026-04-19T05:49:27.355512+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "aozyildirim/Agena": {
-        "last_scanned": "2026-04-19T05:49:27.454494+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "geobrowser/geogenesis": {
-        "last_scanned": "2026-04-19T05:49:27.567073+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "ikayaalp/gastrofolly": {
-        "last_scanned": "2026-04-19T05:49:27.656774+00:00",
-        "github_updated_at": "",
-        "keys_found": 9
-      },
-      "vladkesler/initrunner": {
-        "last_scanned": "2026-04-19T05:49:27.766891+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "bradyluce/production-system": {
-        "last_scanned": "2026-04-19T05:49:27.865347+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "pimlicolabs/web3auth-demo": {
-        "last_scanned": "2026-04-19T05:49:27.958635+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "ViduraMC/Trash2Cash": {
-        "last_scanned": "2026-04-19T05:49:28.061425+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "linuxfoundation/crowd.dev": {
-        "last_scanned": "2026-04-19T05:49:28.557713+00:00",
-        "github_updated_at": "",
-        "keys_found": 6
-      },
-      "StJohnErvin/john-ervin-portfolio-v2": {
-        "last_scanned": "2026-04-19T05:49:28.645320+00:00",
+        "last_scanned": "2026-04-20T06:03:21.390412+00:00",
         "github_updated_at": "",
         "keys_found": 3
       },
-      "open-politics/opol": {
-        "last_scanned": "2026-04-19T05:49:28.748458+00:00",
-        "github_updated_at": "",
-        "keys_found": 1
-      },
-      "AloysiusSundar/RouteOptimization": {
-        "last_scanned": "2026-04-19T05:49:28.838310+00:00",
+      "cemzdmrrr/uretim-takip": {
+        "last_scanned": "2026-04-20T06:03:21.484372+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
-      "Haschwalt29/Sentinel-OS": {
-        "last_scanned": "2026-04-19T05:49:28.926003+00:00",
+      "omerada/marifetbul-backend-api": {
+        "last_scanned": "2026-04-20T06:03:21.575639+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
-      "Chumanitikili/FactCast_curse": {
-        "last_scanned": "2026-04-19T05:49:29.020178+00:00",
-        "github_updated_at": "",
-        "keys_found": 41
-      },
-      "LF-Decentralized-Trust-labs/gitmesh": {
-        "last_scanned": "2026-04-19T05:49:29.127986+00:00",
-        "github_updated_at": "",
-        "keys_found": 18
-      },
-      "srini047/hack-for-hackers": {
-        "last_scanned": "2026-04-19T05:49:29.223718+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "ojasskapre/llm_notebooks": {
-        "last_scanned": "2026-04-19T05:49:29.308809+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "COMP5241-2526Sem1/24005826G_lab2_V2": {
-        "last_scanned": "2026-04-19T05:49:29.382181+00:00",
-        "github_updated_at": "",
-        "keys_found": 6
-      },
-      "rnavales14/sampleboltnew": {
-        "last_scanned": "2026-04-19T05:49:29.453141+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "abhishek-mehta-dev/DocuAI-Pro": {
-        "last_scanned": "2026-04-19T05:49:29.553537+00:00",
-        "github_updated_at": "",
-        "keys_found": 1
-      },
-      "jhonmvr/code-ia": {
-        "last_scanned": "2026-04-19T05:49:29.627749+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "VoHaiDung/ag-news-text-classification": {
-        "last_scanned": "2026-04-19T05:49:29.764709+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "Ricesuu/COS30049-Park-Guide-Training-and-Management": {
-        "last_scanned": "2026-04-19T05:49:29.841276+00:00",
-        "github_updated_at": "",
-        "keys_found": 8
-      },
-      "liveweb22/boltai": {
-        "last_scanned": "2026-04-19T05:49:29.929430+00:00",
-        "github_updated_at": "",
-        "keys_found": 4
-      },
-      "callingforhelp/mcp-server": {
-        "last_scanned": "2026-04-19T05:49:30.006189+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "sudanva21/Career-Advisor-SIH": {
-        "last_scanned": "2026-04-19T05:49:30.092984+00:00",
-        "github_updated_at": "",
-        "keys_found": 11
-      },
-      "Sekiro7019/edessential": {
-        "last_scanned": "2026-04-19T05:49:30.174285+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "web-page-url/anything-llm-ai-v1": {
-        "last_scanned": "2026-04-19T05:49:30.249201+00:00",
-        "github_updated_at": "",
-        "keys_found": 2
-      },
-      "bensalemboualem/Saas-iFactory-Algeria": {
-        "last_scanned": "2026-04-19T05:49:30.346523+00:00",
-        "github_updated_at": "",
-        "keys_found": 46
-      },
-      "FryoPie/Neuro-pal": {
-        "last_scanned": "2026-04-19T05:49:30.429628+00:00",
-        "github_updated_at": "",
-        "keys_found": 3
-      },
-      "panyero-mobile/autoclick": {
-        "last_scanned": "2026-04-19T05:49:30.506231+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "MJ1422/Dogtor-Chatbot": {
-        "last_scanned": "2026-04-19T05:49:30.584697+00:00",
-        "github_updated_at": "",
-        "keys_found": 2
-      },
-      "lightshing/bolt.diy": {
-        "last_scanned": "2026-04-19T05:49:30.656650+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "LudwigSolutionsAI/ubiquitous-octo-bassoon": {
-        "last_scanned": "2026-04-19T05:49:30.733804+00:00",
-        "github_updated_at": "",
-        "keys_found": 2
-      },
-      "rjolaverria/ktor-chatbot": {
-        "last_scanned": "2026-04-19T05:49:30.815421+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "zsantana/infra-devops": {
-        "last_scanned": "2026-04-19T05:49:30.885673+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "lucylow/bitmind-adk-agents": {
-        "last_scanned": "2026-04-19T05:49:30.980410+00:00",
-        "github_updated_at": "",
-        "keys_found": 13
-      },
-      "Sekiro7019/frontend": {
-        "last_scanned": "2026-04-19T05:49:31.047675+00:00",
-        "github_updated_at": "",
-        "keys_found": 0
-      },
-      "Rady119/pdfsir-tools": {
-        "last_scanned": "2026-04-19T05:49:35.399524+00:00",
-        "github_updated_at": "",
-        "keys_found": 2
-      },
-      "Orkestaia/orkesta-os": {
-        "last_scanned": "2026-04-19T05:49:35.488522+00:00",
-        "github_updated_at": "",
-        "keys_found": 6
-      },
-      "Gauravk0029/madhouse-wallet": {
-        "last_scanned": "2026-04-19T05:49:35.601801+00:00",
-        "github_updated_at": "",
-        "keys_found": 2
-      },
-      "berkaydogdu88-del/E-commerce": {
-        "last_scanned": "2026-04-19T05:49:35.692473+00:00",
+      "mtarikucar/kds": {
+        "last_scanned": "2026-04-20T06:03:21.678728+00:00",
         "github_updated_at": "",
         "keys_found": 5
       },
+      "furkandogmus/emanetcim": {
+        "last_scanned": "2026-04-20T06:03:21.765887+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "petrosrodinos/portify": {
+        "last_scanned": "2026-04-20T06:03:21.846878+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "SushantKadam73/startupAnalyzer-stremalit": {
+        "last_scanned": "2026-04-20T06:03:21.918596+00:00",
+        "github_updated_at": "",
+        "keys_found": 19
+      },
+      "shivansh-arch/Wheater-app": {
+        "last_scanned": "2026-04-20T06:03:22.012072+00:00",
+        "github_updated_at": "",
+        "keys_found": 2
+      },
+      "davidpaul551/Healthcare_assistant": {
+        "last_scanned": "2026-04-20T06:03:22.098527+00:00",
+        "github_updated_at": "",
+        "keys_found": 4
+      },
+      "Muskanagrawal2005/aiAgent": {
+        "last_scanned": "2026-04-20T06:03:22.177364+00:00",
+        "github_updated_at": "",
+        "keys_found": 2
+      },
+      "MemeFormer/SearchSmart_NotHard": {
+        "last_scanned": "2026-04-20T06:03:22.254331+00:00",
+        "github_updated_at": "",
+        "keys_found": 9
+      },
+      "AmbireTech/extension": {
+        "last_scanned": "2026-04-20T06:03:22.346994+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "Gauravk0029/madhouse-wallet": {
+        "last_scanned": "2026-04-20T06:03:22.452558+00:00",
+        "github_updated_at": "",
+        "keys_found": 2
+      },
+      "stephancill/open-browser-wallet": {
+        "last_scanned": "2026-04-20T06:03:22.535851+00:00",
+        "github_updated_at": "",
+        "keys_found": 1
+      },
+      "Orhanguezel/paketjet": {
+        "last_scanned": "2026-04-20T06:03:22.622673+00:00",
+        "github_updated_at": "",
+        "keys_found": 4
+      },
+      "umityaman/canary-digital": {
+        "last_scanned": "2026-04-20T06:03:22.726098+00:00",
+        "github_updated_at": "",
+        "keys_found": 3
+      },
+      "curetechb/mt": {
+        "last_scanned": "2026-04-20T06:03:22.847635+00:00",
+        "github_updated_at": "",
+        "keys_found": 24
+      },
+      "Orhanguezel/katalogAI": {
+        "last_scanned": "2026-04-20T06:03:22.952894+00:00",
+        "github_updated_at": "",
+        "keys_found": 4
+      },
+      "MdTanvirHassan/alimartbd": {
+        "last_scanned": "2026-04-20T06:03:23.059254+00:00",
+        "github_updated_at": "",
+        "keys_found": 6
+      },
+      "raydanielg/Help-Desk": {
+        "last_scanned": "2026-04-20T06:03:23.162395+00:00",
+        "github_updated_at": "",
+        "keys_found": 1
+      },
+      "Skolasta/django-ecommerce-website": {
+        "last_scanned": "2026-04-20T06:03:23.251730+00:00",
+        "github_updated_at": "",
+        "keys_found": 1
+      },
+      "keisukefunatsu/402_payment": {
+        "last_scanned": "2026-04-20T06:03:23.326878+00:00",
+        "github_updated_at": "",
+        "keys_found": 1
+      },
+      "fazliozdemir33/bilgeai": {
+        "last_scanned": "2026-04-20T06:03:23.411186+00:00",
+        "github_updated_at": "",
+        "keys_found": 16
+      },
+      "Anuj3558/QuizGenerator": {
+        "last_scanned": "2026-04-20T06:03:23.492927+00:00",
+        "github_updated_at": "",
+        "keys_found": 3
+      },
+      "ahaseeb99/feastly": {
+        "last_scanned": "2026-04-20T06:03:23.627845+00:00",
+        "github_updated_at": "",
+        "keys_found": 1
+      },
+      "Viswa-Sai-Reddy/Hirewise": {
+        "last_scanned": "2026-04-20T06:03:23.723567+00:00",
+        "github_updated_at": "",
+        "keys_found": 4
+      },
+      "locker-labs/auto-hodl": {
+        "last_scanned": "2026-04-20T06:03:23.830495+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "valentinaovsianik/SKY_kursovik": {
+        "last_scanned": "2026-04-20T06:03:23.917165+00:00",
+        "github_updated_at": "",
+        "keys_found": 1
+      },
+      "amanmanjhi/Edemy-major-project-": {
+        "last_scanned": "2026-04-20T06:03:24.026377+00:00",
+        "github_updated_at": "",
+        "keys_found": 2
+      },
+      "vladkesler/initrunner": {
+        "last_scanned": "2026-04-20T06:03:24.117913+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "Butch78/poetry_to_uv": {
+        "last_scanned": "2026-04-20T06:03:24.212390+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "berkaydogdu88-del/E-commerce": {
+        "last_scanned": "2026-04-20T06:03:24.316757+00:00",
+        "github_updated_at": "",
+        "keys_found": 5
+      },
+      "xchrisbradley/boringjobs": {
+        "last_scanned": "2026-04-20T06:03:24.413120+00:00",
+        "github_updated_at": "",
+        "keys_found": 7
+      },
       "osmantandogan/hmtbtbv4": {
-        "last_scanned": "2026-04-19T05:49:35.789407+00:00",
+        "last_scanned": "2026-04-20T06:03:24.525962+00:00",
         "github_updated_at": "",
         "keys_found": 10
       },
       "ahmeterdem86/relax": {
-        "last_scanned": "2026-04-19T05:49:35.872365+00:00",
+        "last_scanned": "2026-04-20T06:03:24.615200+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
+      "elastic/elasticsearch-labs": {
+        "last_scanned": "2026-04-20T06:03:25.965954+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "patterns-ai-core/langchainrb": {
+        "last_scanned": "2026-04-20T06:03:26.045824+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "SpillwaveSolutions/agent-brain": {
+        "last_scanned": "2026-04-20T06:03:26.111943+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "chris-paganon/vue-ai-tools": {
+        "last_scanned": "2026-04-20T06:03:26.195064+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "vistec-AI/nitibench": {
+        "last_scanned": "2026-04-20T06:03:26.268983+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "majiayu000/litellm-rs": {
+        "last_scanned": "2026-04-20T06:03:26.355888+00:00",
+        "github_updated_at": "",
+        "keys_found": 1
+      },
+      "mohsen1/mafia-arena": {
+        "last_scanned": "2026-04-20T06:03:26.427780+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "nishatdhillon/llm-gateway": {
+        "last_scanned": "2026-04-20T06:03:26.515184+00:00",
+        "github_updated_at": "",
+        "keys_found": 1
+      },
+      "cornmankl/ai-prompts-generator": {
+        "last_scanned": "2026-04-20T06:03:26.604297+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "lefred/oci-genai-hw": {
+        "last_scanned": "2026-04-20T06:03:26.687743+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "entrepeneur4lyf/ig-coder": {
+        "last_scanned": "2026-04-20T06:03:26.780147+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "Kj158/ai-todo-planner": {
+        "last_scanned": "2026-04-20T06:03:26.861399+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "PromptCheck/promptcheck": {
+        "last_scanned": "2026-04-20T06:03:26.958778+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "UTSC-CSCC09-Programming-on-the-Web/project-meaaji": {
+        "last_scanned": "2026-04-20T06:03:27.075887+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "nauanbek/saqshy": {
+        "last_scanned": "2026-04-20T06:03:27.165831+00:00",
+        "github_updated_at": "",
+        "keys_found": 3
+      },
+      "protemplate/crawl4ai-docker": {
+        "last_scanned": "2026-04-20T06:03:27.295618+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "Mohamedkhaled687/DocSage": {
+        "last_scanned": "2026-04-20T06:03:27.391049+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "Marduc666/bolt.diy-Coolify": {
+        "last_scanned": "2026-04-20T06:03:27.464909+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "laibaaimran22/Hackathon-2-Todo-App-speckit": {
+        "last_scanned": "2026-04-20T06:03:27.555115+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "leaninnovationlabs/opsloom": {
+        "last_scanned": "2026-04-20T06:03:27.666954+00:00",
+        "github_updated_at": "",
+        "keys_found": 1
+      },
+      "sinanuozdemir/oreilly-retrieval-augmented-gen-ai": {
+        "last_scanned": "2026-04-20T06:03:27.761329+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "mohamedfathi540/Fehres-Scrapper": {
+        "last_scanned": "2026-04-20T06:03:27.868024+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "AmeerArsala/UniverseLM": {
+        "last_scanned": "2026-04-20T06:03:27.974848+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "stepflow-ai/stepflow": {
+        "last_scanned": "2026-04-20T06:03:28.075148+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "denisprosperous/v0-strategy-engine-pro": {
+        "last_scanned": "2026-04-20T06:03:28.178650+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "cbwinslow/doc_assembler_web": {
+        "last_scanned": "2026-04-20T06:03:28.277122+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "mohamedfathi540/RxTract": {
+        "last_scanned": "2026-04-20T06:03:28.364675+00:00",
+        "github_updated_at": "",
+        "keys_found": 1
+      },
+      "Ruchir28/Neural_Search": {
+        "last_scanned": "2026-04-20T06:03:28.470589+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "kalyogyogi-ui/kalyogyogi-ui.github.io": {
+        "last_scanned": "2026-04-20T06:03:28.544547+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "mihirh19/Restaurant_name_generator": {
+        "last_scanned": "2026-04-20T06:03:28.633531+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "ChicagoHAI/NeuriCo": {
+        "last_scanned": "2026-04-20T06:03:28.705662+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "snow-ghost/agent": {
+        "last_scanned": "2026-04-20T06:03:28.793199+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "mirasoth/noesium": {
+        "last_scanned": "2026-04-20T06:03:28.915876+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "daniel8824-del/galaxy-rag-chatbot": {
+        "last_scanned": "2026-04-20T06:03:28.997254+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "tradermaster74-code/JGNEXT_local_dev": {
+        "last_scanned": "2026-04-20T06:03:29.106871+00:00",
+        "github_updated_at": "",
+        "keys_found": 6
+      },
+      "netalex/epiclesis-engine": {
+        "last_scanned": "2026-04-20T06:03:29.201577+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "puneetrinity/seacrchllm": {
+        "last_scanned": "2026-04-20T06:03:29.319771+00:00",
+        "github_updated_at": "",
+        "keys_found": 3
+      },
+      "Ajirohack/LAS": {
+        "last_scanned": "2026-04-20T06:03:29.393700+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "dantonoli/Synapse": {
+        "last_scanned": "2026-04-20T06:03:29.478014+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "lspahija/blizzardberry": {
+        "last_scanned": "2026-04-20T06:03:29.575944+00:00",
+        "github_updated_at": "",
+        "keys_found": 1
+      },
+      "firebitsbr/gocode": {
+        "last_scanned": "2026-04-20T06:03:29.719740+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "KyleFin/fostercare-rag": {
+        "last_scanned": "2026-04-20T06:03:29.812327+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "harshalDharpure/awesome-rag-architectures-2026": {
+        "last_scanned": "2026-04-20T06:03:29.920884+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "nelsonrandy111/customer-churn-prediction-system": {
+        "last_scanned": "2026-04-20T06:03:30.006306+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "rodrigocfranco/multimodal-rag-langchain": {
+        "last_scanned": "2026-04-20T06:03:30.095166+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "POWERFULMOVES/PMOVES-DoX": {
+        "last_scanned": "2026-04-20T06:03:30.178398+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "homie-gg/homie": {
+        "last_scanned": "2026-04-20T06:03:30.286341+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "y2010-ops/AI_ResumeReviewer": {
+        "last_scanned": "2026-04-20T06:03:30.380431+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "aubford/peplink-agent": {
+        "last_scanned": "2026-04-20T06:03:30.469353+00:00",
+        "github_updated_at": "",
+        "keys_found": 1
+      },
+      "echoandzoey/litellm_filmagent": {
+        "last_scanned": "2026-04-20T06:03:30.546637+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "derril-tech/ai-game-narrative-generator": {
+        "last_scanned": "2026-04-20T06:03:30.658002+00:00",
+        "github_updated_at": "",
+        "keys_found": 2
+      },
+      "AishSoni/Narada-AI": {
+        "last_scanned": "2026-04-20T06:03:30.731077+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "SamnangGit/synthetic-data-generation": {
+        "last_scanned": "2026-04-20T06:03:30.819269+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "egbusonemmanuel/med-learn": {
+        "last_scanned": "2026-04-20T06:03:30.904630+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "michael7736/my_rag1": {
+        "last_scanned": "2026-04-20T06:03:30.997297+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "nescampos/carvbot": {
+        "last_scanned": "2026-04-20T06:03:31.110157+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "nonexistent9/venture-scout-bot": {
+        "last_scanned": "2026-04-20T06:03:31.189985+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "demonzblood007/cinegenie": {
+        "last_scanned": "2026-04-20T06:03:31.280592+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "marlon19991/bancolombia-component-generator-mvp": {
+        "last_scanned": "2026-04-20T06:03:31.376774+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "gavento/discord_entities": {
+        "last_scanned": "2026-04-20T06:03:31.485144+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "li199-code/chatbi-agent-js-v2": {
+        "last_scanned": "2026-04-20T06:03:31.581278+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "pythongurfer/BVG-GPT-0.3": {
+        "last_scanned": "2026-04-20T06:03:31.677282+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "ericrisco/twitch-chat-toxicity": {
+        "last_scanned": "2026-04-20T06:03:31.775028+00:00",
+        "github_updated_at": "",
+        "keys_found": 1
+      },
+      "danenftyessir/PROPERTY": {
+        "last_scanned": "2026-04-20T06:03:31.873702+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "Azora-OS/azora": {
+        "last_scanned": "2026-04-20T06:03:31.962247+00:00",
+        "github_updated_at": "",
+        "keys_found": 1
+      },
+      "wandb/llm-leaderboard": {
+        "last_scanned": "2026-04-20T06:03:32.060748+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "tanguangyun/ChatHub": {
+        "last_scanned": "2026-04-20T06:03:32.176130+00:00",
+        "github_updated_at": "",
+        "keys_found": 6
+      },
+      "parthpatidar03/AI-Powered-Workflow-Automation-Agent": {
+        "last_scanned": "2026-04-20T06:03:32.261161+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "loki135/CodeSensei": {
+        "last_scanned": "2026-04-20T06:03:32.354673+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "umitkacar/awesome-mlops": {
+        "last_scanned": "2026-04-20T06:03:32.441023+00:00",
+        "github_updated_at": "",
+        "keys_found": 1
+      },
+      "Everest1508/ai-chat-system": {
+        "last_scanned": "2026-04-20T06:03:32.538173+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "aniruddha-chaudhari/mathagent": {
+        "last_scanned": "2026-04-20T06:03:32.622650+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "Umangg007/SaaS_app": {
+        "last_scanned": "2026-04-20T06:03:32.714382+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "sideme/ChatTool": {
+        "last_scanned": "2026-04-20T06:03:32.806542+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "qdrant/qdrant-rag-eval": {
+        "last_scanned": "2026-04-20T06:03:32.907441+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "tundraray/litskills": {
+        "last_scanned": "2026-04-20T06:03:32.992885+00:00",
+        "github_updated_at": "",
+        "keys_found": 1
+      },
+      "nicholasching/HTN2025": {
+        "last_scanned": "2026-04-20T06:03:33.075768+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "OpenCodeIntel/opencodeintel": {
+        "last_scanned": "2026-04-20T06:03:33.157832+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "MaskyS/tweetscope": {
+        "last_scanned": "2026-04-20T06:03:33.251998+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "adophilus/asiwaj-igbo-voice-assistant": {
+        "last_scanned": "2026-04-20T06:03:33.357358+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "hrayleung/Cocode": {
+        "last_scanned": "2026-04-20T06:03:33.449415+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "derril-tech/ai-local-rag-system": {
+        "last_scanned": "2026-04-20T06:03:33.536817+00:00",
+        "github_updated_at": "",
+        "keys_found": 1
+      },
+      "SARAMALI15792/AINativeBook": {
+        "last_scanned": "2026-04-20T06:03:33.629715+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "chris-conifer/production-rag-pipeline": {
+        "last_scanned": "2026-04-20T06:03:33.720396+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "yudataguy/RawRAG": {
+        "last_scanned": "2026-04-20T06:03:33.830916+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "oGYCo/GithubBot": {
+        "last_scanned": "2026-04-20T06:03:33.920448+00:00",
+        "github_updated_at": "",
+        "keys_found": 1
+      },
+      "dldx/climate-rag": {
+        "last_scanned": "2026-04-20T06:03:33.990228+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "ggozad/haiku.rag": {
+        "last_scanned": "2026-04-20T06:03:34.730546+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "manishkatyan/langgraph-chat-app": {
+        "last_scanned": "2026-04-20T06:03:34.830933+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "shivangjhalani/chat": {
+        "last_scanned": "2026-04-20T06:03:34.902490+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "glenn-ac/rekordcrate-rag": {
+        "last_scanned": "2026-04-20T06:03:34.989285+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "dyaskur/google-chat-translator": {
+        "last_scanned": "2026-04-20T06:03:35.087139+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "ethaccount/SAManager": {
+        "last_scanned": "2026-04-20T06:03:35.183970+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "do9a/wcagtr": {
+        "last_scanned": "2026-04-20T06:03:35.258903+00:00",
+        "github_updated_at": "",
+        "keys_found": 5
+      },
+      "abeachmad/ZeroToll": {
+        "last_scanned": "2026-04-20T06:03:35.339813+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "Sahinerprogramming/mypety_pro": {
+        "last_scanned": "2026-04-20T06:03:35.507710+00:00",
+        "github_updated_at": "",
+        "keys_found": 1
+      },
+      "salim359/iwb25-293-pixel": {
+        "last_scanned": "2026-04-20T06:03:35.589581+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "Hobie1Kenobi/agentic-crypto-swarm-prototype": {
+        "last_scanned": "2026-04-20T06:03:35.681081+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "crypblizz8/lil-smart-accounts": {
+        "last_scanned": "2026-04-20T06:03:35.777684+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "drewskidang/sean_cant_code": {
+        "last_scanned": "2026-04-20T06:03:35.860041+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "geobrowser/gaia": {
+        "last_scanned": "2026-04-20T06:03:35.932125+00:00",
+        "github_updated_at": "",
+        "keys_found": 1
+      },
+      "xmlking/agentic": {
+        "last_scanned": "2026-04-20T06:03:35.997656+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "jvelezmagic/langchain-advanced-document-handling-retrieval-techniques-course": {
+        "last_scanned": "2026-04-20T06:03:36.114129+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "EmpowerCaptial/pmu-pro": {
+        "last_scanned": "2026-04-20T06:03:36.213944+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "krishnadck/ai-bootcamp-agentic-rag": {
+        "last_scanned": "2026-04-20T06:03:36.295102+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "dylan8902/website": {
+        "last_scanned": "2026-04-20T06:03:36.395242+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "rqzbeh/Simple-bibliometric": {
+        "last_scanned": "2026-04-20T06:03:36.494219+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "James-A-Young/ShootingMatch.app": {
+        "last_scanned": "2026-04-20T06:03:36.581180+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "thepembeweb/ai-product-assistant": {
+        "last_scanned": "2026-04-20T06:03:36.687250+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "stevenfazzio/claude-code-changelog-analysis": {
+        "last_scanned": "2026-04-20T06:03:36.776579+00:00",
+        "github_updated_at": "",
+        "keys_found": 2
+      },
+      "stevenfazzio/semantic-github-map": {
+        "last_scanned": "2026-04-20T06:03:36.859364+00:00",
+        "github_updated_at": "",
+        "keys_found": 3
+      },
+      "Bufffer/getskillz.io": {
+        "last_scanned": "2026-04-20T06:03:36.964202+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "spped2000/GroqDiscordAssistant": {
+        "last_scanned": "2026-04-20T06:03:37.068747+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "ivysaurxp001/mon-stake": {
+        "last_scanned": "2026-04-20T06:03:37.155142+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "YS-2357/compare-ai": {
+        "last_scanned": "2026-04-20T06:03:37.221434+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "piyush-0p/MurfAi-30days": {
+        "last_scanned": "2026-04-20T06:03:37.313994+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "SriomDash/CoeusAI": {
+        "last_scanned": "2026-04-20T06:03:37.416573+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "mbrotos/cohere-explore": {
+        "last_scanned": "2026-04-20T06:03:37.495090+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "VansonLeung/poc_graph_pipeline_builder": {
+        "last_scanned": "2026-04-20T06:03:37.574686+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "rozral/ar_izguvi_paplasinata_teksta_generesana_latviesu_valodai": {
+        "last_scanned": "2026-04-20T06:03:37.655427+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "Prithvi-Naidu/rentos": {
+        "last_scanned": "2026-04-20T06:03:37.740979+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "chenxiex/akasha": {
+        "last_scanned": "2026-04-20T06:03:37.831638+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "stevenfazzio/huggingface-dataset-map": {
+        "last_scanned": "2026-04-20T06:03:37.927309+00:00",
+        "github_updated_at": "",
+        "keys_found": 3
+      },
+      "sibshahz/RAG_EMB_VECTOR": {
+        "last_scanned": "2026-04-20T06:03:37.998500+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "shahnewaz-labib/local-lens": {
+        "last_scanned": "2026-04-20T06:03:38.102469+00:00",
+        "github_updated_at": "",
+        "keys_found": 1
+      },
+      "Kaskas-python/ai-amazon-shopping-assistant": {
+        "last_scanned": "2026-04-20T06:03:38.193019+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "Pro-GenAI/iRAT": {
+        "last_scanned": "2026-04-20T06:03:38.314095+00:00",
+        "github_updated_at": "",
+        "keys_found": 1
+      },
+      "httpdss/structkit": {
+        "last_scanned": "2026-04-20T06:03:38.397449+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "pimlicolabs/privy-demo": {
+        "last_scanned": "2026-04-20T06:03:38.496065+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "Anubhavjaiswal21/todo-summary-assistant": {
+        "last_scanned": "2026-04-20T06:03:38.592955+00:00",
+        "github_updated_at": "",
+        "keys_found": 3
+      },
+      "Melaonn/AI-Blog": {
+        "last_scanned": "2026-04-20T06:03:38.695183+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "tal-sitton/Hiker": {
+        "last_scanned": "2026-04-20T06:03:38.776816+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "alee0151/sungaurd": {
+        "last_scanned": "2026-04-20T06:03:38.857264+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "maxbeyer1/notelens": {
+        "last_scanned": "2026-04-20T06:03:38.950467+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "AliHakim773/TULP": {
+        "last_scanned": "2026-04-20T06:03:39.053290+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "TomCocSuker/MessyAlpha": {
+        "last_scanned": "2026-04-20T06:03:39.146897+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "dvirdiei/shira": {
+        "last_scanned": "2026-04-20T06:03:39.252951+00:00",
+        "github_updated_at": "",
+        "keys_found": 1
+      },
+      "zerodevapp/sdk": {
+        "last_scanned": "2026-04-20T06:03:39.358250+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "Pradeeppilotdev/johnwrizzkid": {
+        "last_scanned": "2026-04-20T06:03:39.447132+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "xmlking/ai-agents": {
+        "last_scanned": "2026-04-20T06:03:39.542651+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "snowman12320/docker-express-sample-mongo": {
+        "last_scanned": "2026-04-20T06:03:39.635682+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "haim-ari/ai-development": {
+        "last_scanned": "2026-04-20T06:03:39.728107+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "HelixDevelopment/HelixAgent": {
+        "last_scanned": "2026-04-20T06:03:39.801412+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "BCHarrell/RTHub-LLM-CTF": {
+        "last_scanned": "2026-04-20T06:03:39.896070+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "whitebear0909/b2bwood": {
+        "last_scanned": "2026-04-20T06:03:40.019468+00:00",
+        "github_updated_at": "",
+        "keys_found": 18
+      },
+      "AmbireTech/ambire-common": {
+        "last_scanned": "2026-04-20T06:03:40.110292+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "keypo-us/keypo-cli": {
+        "last_scanned": "2026-04-20T06:03:40.190290+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "Danik911/thesis_project": {
+        "last_scanned": "2026-04-20T06:03:40.272270+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "MohammedAlshami/ermap": {
+        "last_scanned": "2026-04-20T06:03:40.344736+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "Matthew-Booth-Py/data-labeller": {
+        "last_scanned": "2026-04-20T06:03:40.435824+00:00",
+        "github_updated_at": "",
+        "keys_found": 1
+      },
+      "ak-hosting/ak-rentacar": {
+        "last_scanned": "2026-04-20T06:03:40.539409+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "pistolinkr/DI2025checker": {
+        "last_scanned": "2026-04-20T06:03:40.624832+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "enuda-labs/label-x": {
+        "last_scanned": "2026-04-20T06:03:40.727996+00:00",
+        "github_updated_at": "",
+        "keys_found": 1
+      },
+      "fahmadiqbal1/noblenest-academy": {
+        "last_scanned": "2026-04-20T06:03:40.841529+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "dynamic-labs-oss/hackathon-starter-kit": {
+        "last_scanned": "2026-04-20T06:03:40.942275+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "safe-fndn/safe-modules": {
+        "last_scanned": "2026-04-20T06:03:41.023664+00:00",
+        "github_updated_at": "",
+        "keys_found": 9
+      },
+      "Tenderly/node-extensions-library": {
+        "last_scanned": "2026-04-20T06:03:41.108633+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "DeepakSilaych/Financial_Agentic_RAG": {
+        "last_scanned": "2026-04-20T06:03:41.211653+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "GrafeoDB/grafeo-memory": {
+        "last_scanned": "2026-04-20T06:03:41.305520+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "SuhanPoojary/Reprice-backend": {
+        "last_scanned": "2026-04-20T06:03:41.388554+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "aozyildirim/Agena": {
+        "last_scanned": "2026-04-20T06:03:41.483957+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "geobrowser/geogenesis": {
+        "last_scanned": "2026-04-20T06:03:41.566823+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "ikayaalp/gastrofolly": {
+        "last_scanned": "2026-04-20T06:03:41.664371+00:00",
+        "github_updated_at": "",
+        "keys_found": 10
+      },
+      "bradyluce/production-system": {
+        "last_scanned": "2026-04-20T06:03:41.748914+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "pimlicolabs/web3auth-demo": {
+        "last_scanned": "2026-04-20T06:03:41.835296+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "ViduraMC/Trash2Cash": {
+        "last_scanned": "2026-04-20T06:03:41.933875+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "valensangui8/vote-chain2": {
+        "last_scanned": "2026-04-20T06:03:42.026946+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "linuxfoundation/crowd.dev": {
+        "last_scanned": "2026-04-20T06:03:42.527325+00:00",
+        "github_updated_at": "",
+        "keys_found": 6
+      },
+      "StJohnErvin/john-ervin-portfolio-v2": {
+        "last_scanned": "2026-04-20T06:03:42.615000+00:00",
+        "github_updated_at": "",
+        "keys_found": 3
+      },
+      "open-politics/opol": {
+        "last_scanned": "2026-04-20T06:03:42.729663+00:00",
+        "github_updated_at": "",
+        "keys_found": 1
+      },
+      "AloysiusSundar/RouteOptimization": {
+        "last_scanned": "2026-04-20T06:03:42.835190+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "Haschwalt29/Sentinel-OS": {
+        "last_scanned": "2026-04-20T06:03:42.926647+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "Chumanitikili/FactCast_curse": {
+        "last_scanned": "2026-04-20T06:03:43.012785+00:00",
+        "github_updated_at": "",
+        "keys_found": 41
+      },
+      "LF-Decentralized-Trust-labs/gitmesh": {
+        "last_scanned": "2026-04-20T06:03:43.136389+00:00",
+        "github_updated_at": "",
+        "keys_found": 18
+      },
+      "srini047/hack-for-hackers": {
+        "last_scanned": "2026-04-20T06:03:43.237840+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "ojasskapre/llm_notebooks": {
+        "last_scanned": "2026-04-20T06:03:43.318000+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "COMP5241-2526Sem1/24005826G_lab2_V2": {
+        "last_scanned": "2026-04-20T06:03:43.410801+00:00",
+        "github_updated_at": "",
+        "keys_found": 6
+      },
+      "rnavales14/sampleboltnew": {
+        "last_scanned": "2026-04-20T06:03:43.480850+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "abhishek-mehta-dev/DocuAI-Pro": {
+        "last_scanned": "2026-04-20T06:03:43.588660+00:00",
+        "github_updated_at": "",
+        "keys_found": 1
+      },
+      "jhonmvr/code-ia": {
+        "last_scanned": "2026-04-20T06:03:43.662730+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "VoHaiDung/ag-news-text-classification": {
+        "last_scanned": "2026-04-20T06:03:43.818094+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "Ricesuu/COS30049-Park-Guide-Training-and-Management": {
+        "last_scanned": "2026-04-20T06:03:43.901207+00:00",
+        "github_updated_at": "",
+        "keys_found": 8
+      },
+      "liveweb22/boltai": {
+        "last_scanned": "2026-04-20T06:03:43.964043+00:00",
+        "github_updated_at": "",
+        "keys_found": 4
+      },
+      "callingforhelp/mcp-server": {
+        "last_scanned": "2026-04-20T06:03:44.042265+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "sudanva21/Career-Advisor-SIH": {
+        "last_scanned": "2026-04-20T06:03:44.117225+00:00",
+        "github_updated_at": "",
+        "keys_found": 11
+      },
+      "Sekiro7019/edessential": {
+        "last_scanned": "2026-04-20T06:03:44.182672+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "web-page-url/anything-llm-ai-v1": {
+        "last_scanned": "2026-04-20T06:03:44.245298+00:00",
+        "github_updated_at": "",
+        "keys_found": 2
+      },
+      "bensalemboualem/Saas-iFactory-Algeria": {
+        "last_scanned": "2026-04-20T06:03:44.336400+00:00",
+        "github_updated_at": "",
+        "keys_found": 47
+      },
+      "FryoPie/Neuro-pal": {
+        "last_scanned": "2026-04-20T06:03:44.431430+00:00",
+        "github_updated_at": "",
+        "keys_found": 3
+      },
+      "panyero-mobile/autoclick": {
+        "last_scanned": "2026-04-20T06:03:44.500205+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "MJ1422/Dogtor-Chatbot": {
+        "last_scanned": "2026-04-20T06:03:44.606510+00:00",
+        "github_updated_at": "",
+        "keys_found": 2
+      },
+      "lightshing/bolt.diy": {
+        "last_scanned": "2026-04-20T06:03:44.684974+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "LudwigSolutionsAI/ubiquitous-octo-bassoon": {
+        "last_scanned": "2026-04-20T06:03:44.750583+00:00",
+        "github_updated_at": "",
+        "keys_found": 2
+      },
+      "rjolaverria/ktor-chatbot": {
+        "last_scanned": "2026-04-20T06:03:44.837896+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "zsantana/infra-devops": {
+        "last_scanned": "2026-04-20T06:03:44.905539+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "lucylow/bitmind-adk-agents": {
+        "last_scanned": "2026-04-20T06:03:44.990058+00:00",
+        "github_updated_at": "",
+        "keys_found": 13
+      },
+      "Sekiro7019/frontend": {
+        "last_scanned": "2026-04-20T06:03:45.057417+00:00",
+        "github_updated_at": "",
+        "keys_found": 0
+      },
+      "Orkestaia/orkesta-os": {
+        "last_scanned": "2026-04-20T06:03:49.296666+00:00",
+        "github_updated_at": "",
+        "keys_found": 6
+      },
       "elray72/next-web-v2": {
-        "last_scanned": "2026-04-19T05:49:35.959542+00:00",
+        "last_scanned": "2026-04-20T06:03:49.379445+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "techgopal/ultrafast-ai-gateway": {
-        "last_scanned": "2026-04-19T05:49:42.427842+00:00",
+        "last_scanned": "2026-04-20T06:03:56.345618+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "kaleabteweld/Agelgil-recipe-hub": {
-        "last_scanned": "2026-04-19T05:49:42.529468+00:00",
+        "last_scanned": "2026-04-20T06:03:56.430327+00:00",
         "github_updated_at": "",
         "keys_found": 11
       },
       "akabbas/resumatch": {
-        "last_scanned": "2026-04-19T05:49:42.629120+00:00",
+        "last_scanned": "2026-04-20T06:03:56.512814+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "AmenAdem/cora-banking-assistant": {
-        "last_scanned": "2026-04-19T05:49:42.698256+00:00",
+        "last_scanned": "2026-04-20T06:03:56.629081+00:00",
         "github_updated_at": "",
         "keys_found": 2
       },
       "kt-chan/anyzearch": {
-        "last_scanned": "2026-04-19T05:49:42.772157+00:00",
+        "last_scanned": "2026-04-20T06:03:56.703154+00:00",
         "github_updated_at": "",
         "keys_found": 3
       },
       "Dewscntd/AixG": {
-        "last_scanned": "2026-04-19T05:49:42.865682+00:00",
+        "last_scanned": "2026-04-20T06:03:56.821242+00:00",
         "github_updated_at": "",
         "keys_found": 1
       },
       "shaurya722/garak-frontend": {
-        "last_scanned": "2026-04-19T05:49:42.990836+00:00",
+        "last_scanned": "2026-04-20T06:03:56.911855+00:00",
         "github_updated_at": "",
         "keys_found": 3
       },
       "OsOsorioP/Orzalia": {
-        "last_scanned": "2026-04-19T05:49:43.075822+00:00",
+        "last_scanned": "2026-04-20T06:03:56.996724+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "abdobzx/MAAR": {
-        "last_scanned": "2026-04-19T05:49:43.168250+00:00",
+        "last_scanned": "2026-04-20T06:03:57.090749+00:00",
         "github_updated_at": "",
         "keys_found": 3
       },
       "rufaromugabe/anythinglm": {
-        "last_scanned": "2026-04-19T05:49:43.255704+00:00",
+        "last_scanned": "2026-04-20T06:03:57.153340+00:00",
         "github_updated_at": "",
         "keys_found": 3
       },
       "Web3Auth/single-factor-auth": {
-        "last_scanned": "2026-04-19T05:49:49.401254+00:00",
+        "last_scanned": "2026-04-20T06:04:03.544239+00:00",
         "github_updated_at": "",
         "keys_found": 0
       },
       "meacar42/g-rkem-hoca-mira-": {
-        "last_scanned": "2026-04-19T05:49:49.499981+00:00",
+        "last_scanned": "2026-04-20T06:04:03.640627+00:00",
         "github_updated_at": "",
         "keys_found": 7
       },
       "3chillies-uk/UmbracoHeadlessSandbox": {
-        "last_scanned": "2026-04-19T05:49:49.601828+00:00",
+        "last_scanned": "2026-04-20T06:04:03.736862+00:00",
         "github_updated_at": "",
         "keys_found": 2
       },
       "sudeaydin/ustaapp": {
-        "last_scanned": "2026-04-19T05:49:49.706049+00:00",
+        "last_scanned": "2026-04-20T06:04:03.832281+00:00",
         "github_updated_at": "",
         "keys_found": 0
       }
@@ -2180,17 +2495,21 @@
     "visited_services": {
       "generic": {
         "worker_id": "worker_001_generic",
-        "spawned_at": "2026-04-19T05:48:47.606534+00:00",
+        "spawned_at": "2026-04-20T06:02:59.255060+00:00",
         "status": "done"
       },
       "cohere": {
         "worker_id": "worker_002_cohere",
-        "spawned_at": "2026-04-19T05:48:47.607264+00:00",
+        "spawned_at": "2026-04-20T06:02:59.255863+00:00",
         "status": "done"
       }
     }
   },
   "services": {
+    "aamarpay": {
+      "finding_count": 1,
+      "file": "aamarpay.json"
+    },
     "admin": {
       "finding_count": 1,
       "file": "admin.json"
@@ -2200,35 +2519,35 @@
       "file": "alchemy.json"
     },
     "anon": {
-      "finding_count": 7,
+      "finding_count": 9,
       "file": "anon.json"
     },
     "anthropic": {
-      "finding_count": 3,
+      "finding_count": 6,
       "file": "anthropic.json"
     },
     "api": {
-      "finding_count": 4,
+      "finding_count": 29,
       "file": "api.json"
     },
     "app": {
-      "finding_count": 2,
+      "finding_count": 10,
       "file": "app.json"
+    },
+    "apple": {
+      "finding_count": 2,
+      "file": "apple.json"
     },
     "aws": {
       "finding_count": 8,
       "file": "aws.json"
-    },
-    "azure": {
-      "finding_count": 1,
-      "file": "azure.json"
     },
     "backup": {
       "finding_count": 1,
       "file": "backup.json"
     },
     "captcha": {
-      "finding_count": 1,
+      "finding_count": 3,
       "file": "captcha.json"
     },
     "cloud": {
@@ -2236,15 +2555,15 @@
       "file": "cloud.json"
     },
     "co": {
-      "finding_count": 2,
+      "finding_count": 11,
       "file": "co.json"
     },
     "cohere": {
-      "finding_count": 33,
+      "finding_count": 59,
       "file": "cohere.json"
     },
     "cookie": {
-      "finding_count": 1,
+      "finding_count": 2,
       "file": "cookie.json"
     },
     "creds": {
@@ -2260,7 +2579,7 @@
       "file": "dashscope.json"
     },
     "database": {
-      "finding_count": 31,
+      "finding_count": 34,
       "file": "database.json"
     },
     "datasax": {
@@ -2268,12 +2587,16 @@
       "file": "datasax.json"
     },
     "db": {
-      "finding_count": 2,
+      "finding_count": 4,
       "file": "db.json"
     },
     "deepseek": {
-      "finding_count": 2,
+      "finding_count": 3,
       "file": "deepseek.json"
+    },
+    "dotenv": {
+      "finding_count": 1,
+      "file": "dotenv.json"
     },
     "elevenlabs": {
       "finding_count": 1,
@@ -2284,8 +2607,20 @@
       "file": "encryption.json"
     },
     "etherscan": {
-      "finding_count": 1,
+      "finding_count": 2,
       "file": "etherscan.json"
+    },
+    "exa": {
+      "finding_count": 1,
+      "file": "exa.json"
+    },
+    "exchange": {
+      "finding_count": 1,
+      "file": "exchange.json"
+    },
+    "expo": {
+      "finding_count": 1,
+      "file": "expo.json"
     },
     "fal": {
       "finding_count": 2,
@@ -2295,40 +2630,56 @@
       "finding_count": 5,
       "file": "firebase.json"
     },
+    "firecrawl": {
+      "finding_count": 2,
+      "file": "firecrawl.json"
+    },
     "gelato": {
       "finding_count": 3,
       "file": "gelato.json"
     },
     "gemini": {
-      "finding_count": 4,
+      "finding_count": 6,
       "file": "gemini.json"
     },
     "generic": {
-      "finding_count": 158,
+      "finding_count": 247,
       "file": "generic.json"
     },
     "github": {
-      "finding_count": 1,
+      "finding_count": 3,
       "file": "github.json"
     },
+    "gmail": {
+      "finding_count": 1,
+      "file": "gmail.json"
+    },
     "google": {
-      "finding_count": 18,
+      "finding_count": 27,
       "file": "google.json"
     },
     "groq": {
-      "finding_count": 4,
+      "finding_count": 7,
       "file": "groq.json"
+    },
+    "hf": {
+      "finding_count": 1,
+      "file": "hf.json"
     },
     "huggingface": {
       "finding_count": 4,
       "file": "huggingface.json"
     },
+    "infura": {
+      "finding_count": 1,
+      "file": "infura.json"
+    },
     "iyzico": {
-      "finding_count": 8,
+      "finding_count": 14,
       "file": "iyzico.json"
     },
     "jwt": {
-      "finding_count": 20,
+      "finding_count": 28,
       "file": "jwt.json"
     },
     "kling": {
@@ -2338,10 +2689,6 @@
     "kplus": {
       "finding_count": 1,
       "file": "kplus.json"
-    },
-    "litellm": {
-      "finding_count": 1,
-      "file": "litellm.json"
     },
     "logflare": {
       "finding_count": 2,
@@ -2359,17 +2706,25 @@
       "finding_count": 3,
       "file": "meili.json"
     },
+    "merchant": {
+      "finding_count": 1,
+      "file": "merchant.json"
+    },
     "minimax": {
       "finding_count": 1,
       "file": "minimax.json"
     },
     "mistral": {
-      "finding_count": 3,
+      "finding_count": 5,
       "file": "mistral.json"
     },
     "mongo": {
       "finding_count": 1,
       "file": "mongo.json"
+    },
+    "mpesa": {
+      "finding_count": 3,
+      "file": "mpesa.json"
     },
     "mysql": {
       "finding_count": 1,
@@ -2388,23 +2743,27 @@
       "file": "neo4j.json"
     },
     "neondb": {
-      "finding_count": 8,
+      "finding_count": 11,
       "file": "neondb.json"
     },
     "next": {
-      "finding_count": 13,
+      "finding_count": 14,
       "file": "next.json"
     },
     "nextauth": {
-      "finding_count": 5,
+      "finding_count": 7,
       "file": "nextauth.json"
+    },
+    "ngenius": {
+      "finding_count": 2,
+      "file": "ngenius.json"
     },
     "nodemailer": {
       "finding_count": 1,
       "file": "nodemailer.json"
     },
     "openai": {
-      "finding_count": 26,
+      "finding_count": 34,
       "file": "openai.json"
     },
     "openrouter": {
@@ -2416,11 +2775,27 @@
       "file": "outlook.json"
     },
     "payfast": {
-      "finding_count": 1,
+      "finding_count": 3,
       "file": "payfast.json"
     },
-    "pdf": {
+    "payhere": {
+      "finding_count": 2,
+      "file": "payhere.json"
+    },
+    "payku": {
+      "finding_count": 2,
+      "file": "payku.json"
+    },
+    "paytm": {
       "finding_count": 1,
+      "file": "paytm.json"
+    },
+    "paytr": {
+      "finding_count": 1,
+      "file": "paytr.json"
+    },
+    "pdf": {
+      "finding_count": 3,
       "file": "pdf.json"
     },
     "pgpassword": {
@@ -2432,7 +2807,7 @@
       "file": "pimlico.json"
     },
     "pinata": {
-      "finding_count": 2,
+      "finding_count": 3,
       "file": "pinata.json"
     },
     "postgres": {
@@ -2442,6 +2817,14 @@
     "private": {
       "finding_count": 1,
       "file": "private.json"
+    },
+    "proxypay": {
+      "finding_count": 2,
+      "file": "proxypay.json"
+    },
+    "public": {
+      "finding_count": 13,
+      "file": "public.json"
     },
     "qwen": {
       "finding_count": 1,
@@ -2459,12 +2842,16 @@
       "finding_count": 1,
       "file": "replicate.json"
     },
+    "s3": {
+      "finding_count": 1,
+      "file": "s3.json"
+    },
     "searxng": {
       "finding_count": 1,
       "file": "searxng.json"
     },
     "secret": {
-      "finding_count": 21,
+      "finding_count": 28,
       "file": "secret.json"
     },
     "segment": {
@@ -2483,9 +2870,21 @@
       "finding_count": 2,
       "file": "slack.json"
     },
+    "ssl": {
+      "finding_count": 1,
+      "file": "ssl.json"
+    },
+    "sslcz": {
+      "finding_count": 1,
+      "file": "sslcz.json"
+    },
     "stack": {
       "finding_count": 1,
       "file": "stack.json"
+    },
+    "stripe": {
+      "finding_count": 1,
+      "file": "stripe.json"
     },
     "supabase": {
       "finding_count": 4,
@@ -2495,9 +2894,9 @@
       "finding_count": 2,
       "file": "superface.json"
     },
-    "tailscale": {
-      "finding_count": 1,
-      "file": "tailscale.json"
+    "tavily": {
+      "finding_count": 4,
+      "file": "tavily.json"
     },
     "together": {
       "finding_count": 1,
@@ -2520,12 +2919,16 @@
       "file": "vertexsms.json"
     },
     "vite": {
-      "finding_count": 8,
+      "finding_count": 10,
       "file": "vite.json"
     },
     "widget": {
       "finding_count": 2,
       "file": "widget.json"
+    },
+    "xai": {
+      "finding_count": 1,
+      "file": "xai.json"
     },
     "yi": {
       "finding_count": 1,

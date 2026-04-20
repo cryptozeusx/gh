@@ -1,6 +1,6 @@
 {
   "service": "aws",
-  "scan_timestamp": "2026-04-19T05:49:50.709051",
+  "scan_timestamp": "2026-04-20T06:04:04.836293",
   "finding_count": 8,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "AWS Secret Access Key",
       "severity": "critical",
       "matched_pattern": "AWS_******************************************************4d9e",
-      "timestamp": "2026-04-19T05:48:55.592546"
+      "timestamp": "2026-04-20T06:03:08.917523"
     },
     {
       "service": "aws",
@@ -27,7 +27,7 @@
       "description": "Aws Access Key Id",
       "severity": "medium",
       "matched_pattern": "3be0************************3441",
-      "timestamp": "2026-04-19T05:48:55.592717"
+      "timestamp": "2026-04-20T06:03:08.917654"
     },
     {
       "service": "aws",
@@ -40,7 +40,7 @@
       "description": "AWS Access Key ID",
       "severity": "high",
       "matched_pattern": "AKIA************MPLE",
-      "timestamp": "2026-04-19T05:49:28.557316"
+      "timestamp": "2026-04-20T06:03:42.526945"
     },
     {
       "service": "aws",
@@ -53,7 +53,7 @@
       "description": "Aws Access Key Id",
       "severity": "medium",
       "matched_pattern": "AWS_******************************MPLE",
-      "timestamp": "2026-04-19T05:49:28.557451"
+      "timestamp": "2026-04-20T06:03:42.527113"
     },
     {
       "service": "aws",
@@ -66,7 +66,7 @@
       "description": "AWS Secret Access Key",
       "severity": "critical",
       "matched_pattern": "AWS_******************************************************EKEY",
-      "timestamp": "2026-04-19T05:49:28.557503"
+      "timestamp": "2026-04-20T06:03:42.527160"
     },
     {
       "service": "aws",
@@ -79,7 +79,7 @@
       "description": "AWS Access Key ID",
       "severity": "high",
       "matched_pattern": "AKIA************MPLE",
-      "timestamp": "2026-04-19T05:49:29.127089"
+      "timestamp": "2026-04-20T06:03:43.135498"
     },
     {
       "service": "aws",
@@ -92,7 +92,7 @@
       "description": "Aws Access Key Id",
       "severity": "medium",
       "matched_pattern": "AWS_******************************MPLE",
-      "timestamp": "2026-04-19T05:49:29.127207"
+      "timestamp": "2026-04-20T06:03:43.135677"
     },
     {
       "service": "aws",
@@ -105,7 +105,7 @@
       "description": "AWS Secret Access Key",
       "severity": "critical",
       "matched_pattern": "AWS_******************************************************EKEY",
-      "timestamp": "2026-04-19T05:49:29.127260"
+      "timestamp": "2026-04-20T06:03:43.135725"
     }
   ]
 }

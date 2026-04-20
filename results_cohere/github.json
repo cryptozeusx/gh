@@ -1,8 +1,34 @@
 {
   "service": "github",
-  "scan_timestamp": "2026-04-19T05:49:50.714466",
-  "finding_count": 1,
+  "scan_timestamp": "2026-04-20T06:04:04.843487",
+  "finding_count": 3,
   "findings": [
+    {
+      "service": "github",
+      "file": ".env_template",
+      "repository": "valentinaovsianik/SKY_kursovik",
+      "url": "https://github.com/valentinaovsianik/SKY_kursovik/blob/466d129a8f0a5a6ced79ea716df50d6ccdcc544e/.env_template",
+      "line_number": 9,
+      "line_preview": "GITHUB_TOKEN=git@github.com:valentinaovsianik/SKY_kursovik.git",
+      "key_type": "github_token",
+      "description": "Github Token",
+      "severity": "medium",
+      "matched_pattern": "git@*****************************************.git",
+      "timestamp": "2026-04-20T06:03:23.917024"
+    },
+    {
+      "service": "github",
+      "file": ".env.example",
+      "repository": "stevenfazzio/semantic-github-map",
+      "url": "https://github.com/stevenfazzio/semantic-github-map/blob/4035e2eb01d4e79769b8e41b7dabe95a93b9018d/.env.example",
+      "line_number": 2,
+      "line_preview": "GITHUB_TOKEN=           # GitHub personal access token (for GraphQL API)",
+      "key_type": "github_token",
+      "description": "Github Token",
+      "severity": "medium",
+      "matched_pattern": "# Gi****************************************API)",
+      "timestamp": "2026-04-20T06:03:36.859132"
+    },
     {
       "service": "github",
       "file": "backend/.env.dist.local",
@@ -14,7 +40,7 @@
       "description": "Github Webhook Secret",
       "severity": "high",
       "matched_pattern": "# (L******************ble)",
-      "timestamp": "2026-04-19T05:49:29.127865"
+      "timestamp": "2026-04-20T06:03:43.136225"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "service": "anon",
-  "scan_timestamp": "2026-04-19T05:49:50.708401",
-  "finding_count": 7,
+  "scan_timestamp": "2026-04-20T06:04:04.835055",
+  "finding_count": 9,
   "findings": [
     {
       "service": "anon",
@@ -14,7 +14,7 @@
       "description": "Anon Key",
       "severity": "medium",
       "matched_pattern": "eyJh*****************************************************************************************************************************************************************************************************ku-4",
-      "timestamp": "2026-04-19T05:48:55.592614"
+      "timestamp": "2026-04-20T06:03:08.917560"
     },
     {
       "service": "anon",
@@ -27,7 +27,7 @@
       "description": "Anon Key",
       "severity": "medium",
       "matched_pattern": "ANON*****************************************************************************************************************************************************************************************************************P_oE",
-      "timestamp": "2026-04-19T05:48:57.289215"
+      "timestamp": "2026-04-20T06:03:09.175310"
     },
     {
       "service": "anon",
@@ -40,46 +40,33 @@
       "description": "Anon Key",
       "severity": "medium",
       "matched_pattern": "ANON*****************************************************************************************************************************************************************************************************************sIIc",
-      "timestamp": "2026-04-19T05:48:59.158118"
+      "timestamp": "2026-04-20T06:03:11.549405"
     },
     {
       "service": "anon",
-      "file": ".env.local",
-      "repository": "COMP5241-2526Sem1/24005826G_lab2_V2",
-      "url": "https://github.com/COMP5241-2526Sem1/24005826G_lab2_V2/blob/c61afb6874831e6d59f5c6586b0ce8e2ccf793bb/.env.local",
-      "line_number": 3,
-      "line_preview": "NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVrZ2Z6aXdzcnZtd2F5Z",
+      "file": ".env",
+      "repository": "surya140104/Flood_Risk_140104",
+      "url": "https://github.com/surya140104/Flood_Risk_140104/blob/7e5ce762a7198a7b9fd701c6942d114bd3fe04b2/.env",
+      "line_number": 12,
+      "line_preview": "NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImduY2RtdXVkbWxvemNmY",
       "key_type": "anon_key",
       "description": "Anon Key",
       "severity": "medium",
-      "matched_pattern": "ANON*****************************************************************************************************************************************************************************************************************9jUM",
-      "timestamp": "2026-04-19T05:49:29.381919"
+      "matched_pattern": "ANON*****************************************************************************************************************************************************************************************************************cg7Q",
+      "timestamp": "2026-04-20T06:03:19.537496"
     },
     {
       "service": "anon",
-      "file": ".env.local",
-      "repository": "sudanva21/Career-Advisor-SIH",
-      "url": "https://github.com/sudanva21/Career-Advisor-SIH/blob/36d5272b7d80719b8c19696bbb6500b652ee9b14/.env.local",
-      "line_number": 9,
-      "line_preview": "NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd5dWR3anpqenRiZ2Rqd",
+      "file": "backend/.env",
+      "repository": "fabiosky21/TheNasa",
+      "url": "https://github.com/fabiosky21/TheNasa/blob/2b1345f83c7db4746498526982bb1e0b7633bc7f/backend/.env",
+      "line_number": 4,
+      "line_preview": "REACT_APP_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imlud3ZtZ3BnZXJibXVtdHJ",
       "key_type": "anon_key",
       "description": "Anon Key",
       "severity": "medium",
-      "matched_pattern": "ANON*****************************************************************************************************************************************************************************************************************MuT0",
-      "timestamp": "2026-04-19T05:49:30.092501"
-    },
-    {
-      "service": "anon",
-      "file": ".env.local",
-      "repository": "Orkestaia/orkesta-os",
-      "url": "https://github.com/Orkestaia/orkesta-os/blob/df0130fd2403feb2ce5ae64ba4754a5e51310f08/.env.local",
-      "line_number": 2,
-      "line_preview": "NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJsbnlobW9zc2xoeHFvc",
-      "key_type": "anon_key",
-      "description": "Anon Key",
-      "severity": "medium",
-      "matched_pattern": "ANON*****************************************************************************************************************************************************************************************************************mrow",
-      "timestamp": "2026-04-19T05:49:35.488278"
+      "matched_pattern": "ANON*****************************************************************************************************************************************************************************************************************IWAg",
+      "timestamp": "2026-04-20T06:03:20.826366"
     },
     {
       "service": "anon",
@@ -92,7 +79,46 @@
       "description": "Anon Key",
       "severity": "medium",
       "matched_pattern": "ANON*****************************************************************************************************************************************************************************************************************BAL0",
-      "timestamp": "2026-04-19T05:49:35.788995"
+      "timestamp": "2026-04-20T06:03:24.525352"
+    },
+    {
+      "service": "anon",
+      "file": ".env.local",
+      "repository": "COMP5241-2526Sem1/24005826G_lab2_V2",
+      "url": "https://github.com/COMP5241-2526Sem1/24005826G_lab2_V2/blob/c61afb6874831e6d59f5c6586b0ce8e2ccf793bb/.env.local",
+      "line_number": 3,
+      "line_preview": "NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVrZ2Z6aXdzcnZtd2F5Z",
+      "key_type": "anon_key",
+      "description": "Anon Key",
+      "severity": "medium",
+      "matched_pattern": "ANON*****************************************************************************************************************************************************************************************************************9jUM",
+      "timestamp": "2026-04-20T06:03:43.410578"
+    },
+    {
+      "service": "anon",
+      "file": ".env.local",
+      "repository": "sudanva21/Career-Advisor-SIH",
+      "url": "https://github.com/sudanva21/Career-Advisor-SIH/blob/36d5272b7d80719b8c19696bbb6500b652ee9b14/.env.local",
+      "line_number": 9,
+      "line_preview": "NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd5dWR3anpqenRiZ2Rqd",
+      "key_type": "anon_key",
+      "description": "Anon Key",
+      "severity": "medium",
+      "matched_pattern": "ANON*****************************************************************************************************************************************************************************************************************MuT0",
+      "timestamp": "2026-04-20T06:03:44.116873"
+    },
+    {
+      "service": "anon",
+      "file": ".env.local",
+      "repository": "Orkestaia/orkesta-os",
+      "url": "https://github.com/Orkestaia/orkesta-os/blob/df0130fd2403feb2ce5ae64ba4754a5e51310f08/.env.local",
+      "line_number": 2,
+      "line_preview": "NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJsbnlobW9zc2xoeHFvc",
+      "key_type": "anon_key",
+      "description": "Anon Key",
+      "severity": "medium",
+      "matched_pattern": "ANON*****************************************************************************************************************************************************************************************************************mrow",
+      "timestamp": "2026-04-20T06:03:49.296452"
     }
   ]
 }

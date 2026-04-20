@@ -1,6 +1,6 @@
 {
   "service": "mysql",
-  "scan_timestamp": "2026-04-19T05:49:50.717130",
+  "scan_timestamp": "2026-04-20T06:04:04.846738",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Mysql Root Password",
       "severity": "high",
       "matched_pattern": "Admi***3456",
-      "timestamp": "2026-04-19T05:48:50.532923"
+      "timestamp": "2026-04-20T06:03:02.435249"
     }
   ]
 }
