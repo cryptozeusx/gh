@@ -1,34 +1,8 @@
 {
   "service": "groq",
-  "scan_timestamp": "2026-04-20T06:04:04.844129",
-  "finding_count": 7,
+  "scan_timestamp": "2026-04-21T05:52:12.719115",
+  "finding_count": 5,
   "findings": [
-    {
-      "service": "groq",
-      "file": ".env.langchain",
-      "repository": "ashmin-01/chat-bot-backend",
-      "url": "https://github.com/ashmin-01/chat-bot-backend/blob/55c19f77eab94463abe2b18e5bf030bb49d740d2/.env.langchain",
-      "line_number": 2,
-      "line_preview": "GROQ_API_KEY=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",
-      "key_type": "groq_api_key",
-      "description": "Groq Api Key",
-      "severity": "medium",
-      "matched_pattern": "GROQ*************************************************************npwN",
-      "timestamp": "2026-04-20T06:03:11.115358"
-    },
-    {
-      "service": "groq",
-      "file": ".env.providers",
-      "repository": "RobertoSilvaDevFullStack/crm-balloon",
-      "url": "https://github.com/RobertoSilvaDevFullStack/crm-balloon/blob/cc1ea0a3ed503a36ec727a4e5de9e1ea70d33d7e/.env.providers",
-      "line_number": 11,
-      "line_preview": "GROQ_API_KEY=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",
-      "key_type": "groq_api_key",
-      "description": "Groq Api Key",
-      "severity": "medium",
-      "matched_pattern": "GROQ*************************************************************m9P4",
-      "timestamp": "2026-04-20T06:03:11.212487"
-    },
     {
       "service": "groq",
       "file": ".env",
@@ -40,7 +14,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ***************************************************************egLH",
-      "timestamp": "2026-04-20T06:03:21.918086"
+      "timestamp": "2026-04-21T05:51:31.168737"
     },
     {
       "service": "groq",
@@ -53,7 +27,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ*************************************************************HfDm",
-      "timestamp": "2026-04-20T06:03:22.098368"
+      "timestamp": "2026-04-21T05:51:31.370043"
     },
     {
       "service": "groq",
@@ -66,20 +40,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ*************************************************************bx9C",
-      "timestamp": "2026-04-20T06:03:22.254062"
-    },
-    {
-      "service": "groq",
-      "file": "iafactory-core-apps/video-studio/frontend/.env.local",
-      "repository": "bensalemboualem/Saas-iFactory-Algeria",
-      "url": "https://github.com/bensalemboualem/Saas-iFactory-Algeria/blob/d8a455ea4f6a40455e4771ba0121cf31516f7bea/iafactory-core-apps/video-studio/frontend/.env.local",
-      "line_number": 8,
-      "line_preview": "GROQ_API_KEY=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",
-      "key_type": "groq_api_key",
-      "description": "Groq Api Key",
-      "severity": "medium",
-      "matched_pattern": "GROQ*************************************************************5dr7",
-      "timestamp": "2026-04-20T06:03:44.334975"
+      "timestamp": "2026-04-21T05:51:31.559144"
     },
     {
       "service": "groq",
@@ -92,7 +53,20 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ******************************************************************************************zNFn",
-      "timestamp": "2026-04-20T06:03:44.750523"
+      "timestamp": "2026-04-21T05:51:52.110689"
+    },
+    {
+      "service": "groq",
+      "file": "iafactory-core-apps/video-studio/frontend/.env.local",
+      "repository": "bensalemboualem/Saas-iFactory-Algeria",
+      "url": "https://github.com/bensalemboualem/Saas-iFactory-Algeria/blob/d8a455ea4f6a40455e4771ba0121cf31516f7bea/iafactory-core-apps/video-studio/frontend/.env.local",
+      "line_number": 8,
+      "line_preview": "GROQ_API_KEY=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",
+      "key_type": "groq_api_key",
+      "description": "Groq Api Key",
+      "severity": "medium",
+      "matched_pattern": "GROQ*************************************************************5dr7",
+      "timestamp": "2026-04-21T05:51:52.219485"
     }
   ]
 }

@@ -1,20 +1,46 @@
 {
   "service": "huggingfacehub",
-  "scan_timestamp": "2026-04-16T05:51:50.386503",
-  "finding_count": 1,
+  "scan_timestamp": "2026-04-21T05:52:12.719559",
+  "finding_count": 3,
   "findings": [
     {
       "service": "huggingfacehub",
       "file": ".env_sample",
-      "repository": "jykim-code/RAGClass",
-      "url": "https://github.com/jykim-code/RAGClass/blob/edf490b0aad5593672ab560a41c7268f08ca389d/.env_sample",
+      "repository": "jia5232/langchain_teddy",
+      "url": "https://github.com/jia5232/langchain_teddy/blob/1999da031d689326fc7db9596b4a29b10076e290/.env_sample",
       "line_number": 2,
       "line_preview": "HUGGINGFACEHUB_API_TOKEN=hf_oEHVwJ...",
       "key_type": "huggingfacehub_api_token",
       "description": "Huggingfacehub Api Token",
       "severity": "medium",
       "matched_pattern": "hf_o****J...",
-      "timestamp": "2026-04-16T05:50:53.066069"
+      "timestamp": "2026-04-21T05:51:14.930034"
+    },
+    {
+      "service": "huggingfacehub",
+      "file": ".env_sample",
+      "repository": "bm1120/RAG_practice",
+      "url": "https://github.com/bm1120/RAG_practice/blob/7185d868713816c003074f3d80c7b2e2238cff88/.env_sample",
+      "line_number": 2,
+      "line_preview": "HUGGINGFACEHUB_API_TOKEN=hf_oEHVwJ...",
+      "key_type": "huggingfacehub_api_token",
+      "description": "Huggingfacehub Api Token",
+      "severity": "medium",
+      "matched_pattern": "HUGG*****************************J...",
+      "timestamp": "2026-04-21T05:51:16.722712"
+    },
+    {
+      "service": "huggingfacehub",
+      "file": ".env_sample",
+      "repository": "venture21/langchain-kr",
+      "url": "https://github.com/venture21/langchain-kr/blob/fdb20d447083759b8c5cb814046fc85eaae8ed40/.env_sample",
+      "line_number": 2,
+      "line_preview": "HUGGINGFACEHUB_API_TOKEN=hf_oEHVwJ...",
+      "key_type": "huggingfacehub_api_token",
+      "description": "Huggingfacehub Api Token",
+      "severity": "medium",
+      "matched_pattern": "HUGG*****************************J...",
+      "timestamp": "2026-04-21T05:51:19.917779"
     }
   ]
 }

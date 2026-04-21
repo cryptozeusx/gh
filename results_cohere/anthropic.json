@@ -1,8 +1,34 @@
 {
   "service": "anthropic",
-  "scan_timestamp": "2026-04-20T06:04:04.835283",
-  "finding_count": 6,
+  "scan_timestamp": "2026-04-21T05:52:12.710722",
+  "finding_count": 9,
   "findings": [
+    {
+      "service": "anthropic",
+      "file": ".env_sample",
+      "repository": "jia5232/langchain_teddy",
+      "url": "https://github.com/jia5232/langchain_teddy/blob/1999da031d689326fc7db9596b4a29b10076e290/.env_sample",
+      "line_number": 10,
+      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api0...",
+      "key_type": "anthropic_api_key",
+      "description": "Anthropic Api Key",
+      "severity": "medium",
+      "matched_pattern": "sk-a******0...",
+      "timestamp": "2026-04-21T05:51:14.930163"
+    },
+    {
+      "service": "anthropic",
+      "file": ".env_sample",
+      "repository": "bm1120/RAG_practice",
+      "url": "https://github.com/bm1120/RAG_practice/blob/7185d868713816c003074f3d80c7b2e2238cff88/.env_sample",
+      "line_number": 10,
+      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api0...",
+      "key_type": "anthropic_api_key",
+      "description": "Anthropic Api Key",
+      "severity": "medium",
+      "matched_pattern": "ANTH************************0...",
+      "timestamp": "2026-04-21T05:51:16.722948"
+    },
     {
       "service": "anthropic",
       "file": ".env.local",
@@ -14,7 +40,33 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "# Re****************************-...",
-      "timestamp": "2026-04-20T06:03:14.814784"
+      "timestamp": "2026-04-21T05:51:19.632425"
+    },
+    {
+      "service": "anthropic",
+      "file": ".env_sample",
+      "repository": "venture21/langchain-kr",
+      "url": "https://github.com/venture21/langchain-kr/blob/fdb20d447083759b8c5cb814046fc85eaae8ed40/.env_sample",
+      "line_number": 10,
+      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api0...",
+      "key_type": "anthropic_api_key",
+      "description": "Anthropic Api Key",
+      "severity": "medium",
+      "matched_pattern": "ANTH************************0...",
+      "timestamp": "2026-04-21T05:51:19.918068"
+    },
+    {
+      "service": "anthropic",
+      "file": ".env.example",
+      "repository": "stevenfazzio/claude-code-changelog-analysis",
+      "url": "https://github.com/stevenfazzio/claude-code-changelog-analysis/blob/75e657e4b311a2307ac7edfe0d4661313f213385/.env.example",
+      "line_number": 1,
+      "line_preview": "ANTHROPIC_API_KEY=   # for enrich stage (Claude)",
+      "key_type": "anthropic_api_key",
+      "description": "Anthropic Api Key",
+      "severity": "medium",
+      "matched_pattern": "# fo*******************ude)",
+      "timestamp": "2026-04-21T05:51:26.126409"
     },
     {
       "service": "anthropic",
@@ -27,20 +79,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************cwAA",
-      "timestamp": "2026-04-20T06:03:19.892805"
-    },
-    {
-      "service": "anthropic",
-      "file": ".env.example",
-      "repository": "stevenfazzio/claude-code-changelog-analysis",
-      "url": "https://github.com/stevenfazzio/claude-code-changelog-analysis/blob/fdfca88ce498ce2e2f0e75a11c4f24fdc8845727/.env.example",
-      "line_number": 1,
-      "line_preview": "ANTHROPIC_API_KEY=   # for enrich stage (Claude)",
-      "key_type": "anthropic_api_key",
-      "description": "Anthropic Api Key",
-      "severity": "medium",
-      "matched_pattern": "# fo*******************ude)",
-      "timestamp": "2026-04-20T06:03:36.776385"
+      "timestamp": "2026-04-21T05:51:26.864687"
     },
     {
       "service": "anthropic",
@@ -53,7 +92,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "# An*************************************************ing)",
-      "timestamp": "2026-04-20T06:03:36.859328"
+      "timestamp": "2026-04-21T05:51:45.728479"
     },
     {
       "service": "anthropic",
@@ -66,7 +105,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "# An*****************************************************net)",
-      "timestamp": "2026-04-20T06:03:37.927269"
+      "timestamp": "2026-04-21T05:51:46.451000"
     },
     {
       "service": "anthropic",
@@ -79,7 +118,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************DgAA",
-      "timestamp": "2026-04-20T06:03:44.334784"
+      "timestamp": "2026-04-21T05:51:52.219257"
     }
   ]
 }

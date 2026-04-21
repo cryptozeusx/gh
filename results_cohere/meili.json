@@ -1,21 +1,8 @@
 {
   "service": "meili",
-  "scan_timestamp": "2026-04-20T06:04:04.845998",
-  "finding_count": 3,
+  "scan_timestamp": "2026-04-21T05:52:12.721508",
+  "finding_count": 1,
   "findings": [
-    {
-      "service": "meili",
-      "file": ".env.ochat",
-      "repository": "dirkpetersen/our-chat",
-      "url": "https://github.com/dirkpetersen/our-chat/blob/3502eb1220f10639ac24b925d6dee709b05ae34e/.env.ochat",
-      "line_number": 285,
-      "line_preview": "MEILI_MASTER_KEY=DrhYf7zENyR6AlUCKmnz0eYASOQdl6zxH7s7MKFSfFCt",
-      "key_type": "meili_master_key",
-      "description": "Meili Master Key",
-      "severity": "critical",
-      "matched_pattern": "DrhY************************************fFCt",
-      "timestamp": "2026-04-20T06:03:07.818544"
-    },
     {
       "service": "meili",
       "file": ".env.hanzo.example",
@@ -26,21 +13,8 @@
       "key_type": "meili_master_key",
       "description": "Meili Master Key",
       "severity": "critical",
-      "matched_pattern": "MEIL****************************rKey",
-      "timestamp": "2026-04-20T06:03:09.310280"
-    },
-    {
-      "service": "meili",
-      "file": ".env.zh.example",
-      "repository": "tanguangyun/ChatHub",
-      "url": "https://github.com/tanguangyun/ChatHub/blob/e4041b3f361c314d008d92969e6f533d8c08b84d/.env.zh.example",
-      "line_number": 397,
-      "line_preview": "MEILI_MASTER_KEY=DrhYf7zENyR6AlUCKmnz0eYASOQdl6zxH7s7MKFSfFCt",
-      "key_type": "meili_master_key",
-      "description": "Meili Master Key",
-      "severity": "critical",
-      "matched_pattern": "MEIL*****************************************************fFCt",
-      "timestamp": "2026-04-20T06:03:32.175933"
+      "matched_pattern": "Hanz***********rKey",
+      "timestamp": "2026-04-21T05:51:15.799483"
     }
   ]
 }

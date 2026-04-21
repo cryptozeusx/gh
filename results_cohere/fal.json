@@ -1,21 +1,8 @@
 {
   "service": "fal",
-  "scan_timestamp": "2026-04-20T06:04:04.840060",
-  "finding_count": 2,
+  "scan_timestamp": "2026-04-21T05:52:12.715367",
+  "finding_count": 1,
   "findings": [
-    {
-      "service": "fal",
-      "file": ".env.save",
-      "repository": "samrahimi/factoid-ai",
-      "url": "https://github.com/samrahimi/factoid-ai/blob/9b870d3e93ccf5e4a43d3bd03c81b6a1a1a81e77/.env.save",
-      "line_number": 23,
-      "line_preview": "FAL_KEY=20703b59-6aeb-4a9e-8513-b43aa0431775:5b2b2a6e92cc8b1bfe4e21462c486acb",
-      "key_type": "fal_key",
-      "description": "Fal Key",
-      "severity": "medium",
-      "matched_pattern": "2070*************************************************************6acb",
-      "timestamp": "2026-04-20T06:03:11.550010"
-    },
     {
       "service": "fal",
       "file": "iafactory-core-apps/video-studio/frontend/.env.local",
@@ -26,8 +13,8 @@
       "key_type": "fal_key",
       "description": "Fal Key",
       "severity": "medium",
-      "matched_pattern": "FAL_*********************************************************************1bb0",
-      "timestamp": "2026-04-20T06:03:44.336073"
+      "matched_pattern": "99bd*************************************************************1bb0",
+      "timestamp": "2026-04-21T05:51:52.221506"
     }
   ]
 }

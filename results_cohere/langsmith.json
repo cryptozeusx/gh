@@ -1,6 +1,6 @@
 {
   "service": "langsmith",
-  "scan_timestamp": "2026-04-13T06:04:01.983579",
+  "scan_timestamp": "2026-04-21T05:52:12.720976",
   "finding_count": 2,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Langsmith Api Key",
       "severity": "medium",
       "matched_pattern": "ls__********5...",
-      "timestamp": "2026-04-13T06:03:07.475221"
+      "timestamp": "2026-04-21T05:51:14.930080"
     },
     {
       "service": "langsmith",
@@ -27,7 +27,7 @@
       "description": "Langsmith Api Key",
       "severity": "medium",
       "matched_pattern": "LANG**************************5...",
-      "timestamp": "2026-04-13T06:03:12.056233"
+      "timestamp": "2026-04-21T05:51:19.917831"
     }
   ]
 }

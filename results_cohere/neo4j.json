@@ -1,6 +1,6 @@
 {
   "service": "neo4j",
-  "scan_timestamp": "2026-04-20T06:04:04.847072",
+  "scan_timestamp": "2026-04-21T05:52:12.722450",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Neo4J Password",
       "severity": "high",
       "matched_pattern": "ragb**lder",
-      "timestamp": "2026-04-20T06:03:05.822099"
+      "timestamp": "2026-04-21T05:51:11.018859"
     }
   ]
 }

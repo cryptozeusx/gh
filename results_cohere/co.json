@@ -1,33 +1,33 @@
 {
   "service": "co",
-  "scan_timestamp": "2026-04-20T06:04:04.836829",
-  "finding_count": 11,
+  "scan_timestamp": "2026-04-21T05:52:12.712130",
+  "finding_count": 10,
   "findings": [
     {
       "service": "co",
-      "file": ".env",
-      "repository": "davalpez/Local-AI-aplications-with-Haystack",
-      "url": "https://github.com/davalpez/Local-AI-aplications-with-Haystack/blob/0daa8316c053423c235aa6c6a23665dc16b3cfb6/.env",
-      "line_number": 3,
-      "line_preview": "CO_API_KEY=#Introduce your API KEY",
+      "file": ".env.dev",
+      "repository": "mustafaguler3/java-spring-ecommerce-app",
+      "url": "https://github.com/mustafaguler3/java-spring-ecommerce-app/blob/58b6475847c80bd97a9674a74be3b29df3e4270e/.env.dev",
+      "line_number": 12,
+      "line_preview": "IYZICO_API_KEY=sandbox_api_key_12345",
       "key_type": "co_api_key",
       "description": "Co Api Key",
       "severity": "medium",
-      "matched_pattern": "CO_A*************duce",
-      "timestamp": "2026-04-20T06:03:19.153968"
+      "matched_pattern": "CO_A************************2345",
+      "timestamp": "2026-04-21T05:51:25.732482"
     },
     {
       "service": "co",
-      "file": ".env",
-      "repository": "cecepns/carrywise-dashboard",
-      "url": "https://github.com/cecepns/carrywise-dashboard/blob/df159cbf9e60595a7db3a96a55eb9d473959cca8/.env",
-      "line_number": 6,
-      "line_preview": "VITE_MAPS_CO_API_KEY=658ea164ba8de424993651furba89cf",
+      "file": ".env.example",
+      "repository": "stevenfazzio/claude-code-changelog-analysis",
+      "url": "https://github.com/stevenfazzio/claude-code-changelog-analysis/blob/75e657e4b311a2307ac7edfe0d4661313f213385/.env.example",
+      "line_number": 2,
+      "line_preview": "CO_API_KEY=          # for embed stage (Cohere)",
       "key_type": "co_api_key",
       "description": "Co Api Key",
       "severity": "medium",
-      "matched_pattern": "CO_A**********************************89cf",
-      "timestamp": "2026-04-20T06:03:19.337150"
+      "matched_pattern": "# fo******************ere)",
+      "timestamp": "2026-04-21T05:51:26.126521"
     },
     {
       "service": "co",
@@ -40,7 +40,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*******************Q80T",
-      "timestamp": "2026-04-20T06:03:19.444668"
+      "timestamp": "2026-04-21T05:51:26.356467"
     },
     {
       "service": "co",
@@ -53,7 +53,20 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************************d5a3",
-      "timestamp": "2026-04-20T06:03:19.537578"
+      "timestamp": "2026-04-21T05:51:26.462309"
+    },
+    {
+      "service": "co",
+      "file": "strategy_engine/src/render.env.md",
+      "repository": "TemamAb/alpha",
+      "url": "https://github.com/TemamAb/alpha/blob/80be4d1acaeff2db132ac414b08d0c7982165f2e/strategy_engine/src/render.env.md",
+      "line_number": 116,
+      "line_preview": "PIMLICO_API_KEY=pim_UbfKR9ocMe5ibNUCGgB8fE",
+      "key_type": "co_api_key",
+      "description": "Co Api Key",
+      "severity": "medium",
+      "matched_pattern": "CO_A*****************************B8fE",
+      "timestamp": "2026-04-21T05:51:27.294566"
     },
     {
       "service": "co",
@@ -66,7 +79,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************s_90",
-      "timestamp": "2026-04-20T06:03:21.193261"
+      "timestamp": "2026-04-21T05:51:29.752478"
     },
     {
       "service": "co",
@@ -79,7 +92,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********************************61ad",
-      "timestamp": "2026-04-20T06:03:22.012029"
+      "timestamp": "2026-04-21T05:51:31.266528"
     },
     {
       "service": "co",
@@ -92,33 +105,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*******************************FcU'",
-      "timestamp": "2026-04-20T06:03:22.452514"
-    },
-    {
-      "service": "co",
-      "file": "public_html/.env.backup2",
-      "repository": "fazliozdemir33/bilgeai",
-      "url": "https://github.com/fazliozdemir33/bilgeai/blob/ef4deb167dee6bbc281163fc6c2a4cfc318584e7/public_html/.env.backup2",
-      "line_number": 103,
-      "line_preview": "IYZICO_API_KEY=pSw8IH2ejQVLz1ZvlwSFc77cDuqgTylK",
-      "key_type": "co_api_key",
-      "description": "Co Api Key",
-      "severity": "medium",
-      "matched_pattern": "CO_A***********************************TylK",
-      "timestamp": "2026-04-20T06:03:23.410976"
-    },
-    {
-      "service": "co",
-      "file": ".env.example",
-      "repository": "stevenfazzio/claude-code-changelog-analysis",
-      "url": "https://github.com/stevenfazzio/claude-code-changelog-analysis/blob/fdfca88ce498ce2e2f0e75a11c4f24fdc8845727/.env.example",
-      "line_number": 2,
-      "line_preview": "CO_API_KEY=          # for embed stage (Cohere)",
-      "key_type": "co_api_key",
-      "description": "Co Api Key",
-      "severity": "medium",
-      "matched_pattern": "# fo******************ere)",
-      "timestamp": "2026-04-20T06:03:36.776533"
+      "timestamp": "2026-04-21T05:51:31.653474"
     },
     {
       "service": "co",
@@ -131,7 +118,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "# Co**************************************ing)",
-      "timestamp": "2026-04-20T06:03:36.859282"
+      "timestamp": "2026-04-21T05:51:45.728423"
     },
     {
       "service": "co",
@@ -144,7 +131,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "# Co**************************ngs)",
-      "timestamp": "2026-04-20T06:03:37.927222"
+      "timestamp": "2026-04-21T05:51:46.450946"
     }
   ]
 }

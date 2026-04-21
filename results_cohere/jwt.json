@@ -1,7 +1,7 @@
 {
   "service": "jwt",
-  "scan_timestamp": "2026-04-20T06:04:04.844942",
-  "finding_count": 28,
+  "scan_timestamp": "2026-04-21T05:52:12.720118",
+  "finding_count": 26,
   "findings": [
     {
       "service": "jwt",
@@ -14,20 +14,7 @@
       "description": "Jwt Secret",
       "severity": "high",
       "matched_pattern": "MITR**********************2004",
-      "timestamp": "2026-04-20T06:03:01.312318"
-    },
-    {
-      "service": "jwt",
-      "file": ".env.ochat",
-      "repository": "dirkpetersen/our-chat",
-      "url": "https://github.com/dirkpetersen/our-chat/blob/3502eb1220f10639ac24b925d6dee709b05ae34e/.env.ochat",
-      "line_number": 380,
-      "line_preview": "JWT_SECRET=16f8c0ef4a5d391b26034086c628469d3f9f497f08163ab9b40137092f2909ef",
-      "key_type": "jwt_secret",
-      "description": "JWT Secret Key",
-      "severity": "high",
-      "matched_pattern": "JWT_*******************************************************************09ef",
-      "timestamp": "2026-04-20T06:03:07.818386"
+      "timestamp": "2026-04-21T05:51:05.804949"
     },
     {
       "service": "jwt",
@@ -40,7 +27,33 @@
       "description": "JWT Secret Key",
       "severity": "high",
       "matched_pattern": "JWT_********************************************************gv5b",
-      "timestamp": "2026-04-20T06:03:08.917424"
+      "timestamp": "2026-04-21T05:51:13.509054"
+    },
+    {
+      "service": "jwt",
+      "file": ".env.railway.example",
+      "repository": "RyanLisse/hgg-roborail-rag",
+      "url": "https://github.com/RyanLisse/hgg-roborail-rag/blob/1e02ee1a8ccdcc47d1a6940bf975f1f8ce4ed02d/.env.railway.example",
+      "line_number": 7,
+      "line_preview": "AUTH_SECRET=generate-with-openssl-rand-base64-32",
+      "key_type": "jwt_secret",
+      "description": "JWT Secret Key",
+      "severity": "high",
+      "matched_pattern": "AUTH****************************************4-32",
+      "timestamp": "2026-04-21T05:51:16.551321"
+    },
+    {
+      "service": "jwt",
+      "file": ".env.prod.example",
+      "repository": "Porschivezz/weaksignals",
+      "url": "https://github.com/Porschivezz/weaksignals/blob/5d9dba65fa95b5dfe08defd1010ede6a254d2b6a/.env.prod.example",
+      "line_number": 26,
+      "line_preview": "JWT_SECRET=CHANGE_ME_generate_with_openssl_rand_hex_64",
+      "key_type": "jwt_secret",
+      "description": "JWT Secret Key",
+      "severity": "high",
+      "matched_pattern": "JWT_**********************************************x_64",
+      "timestamp": "2026-04-21T05:51:18.077571"
     },
     {
       "service": "jwt",
@@ -53,7 +66,7 @@
       "description": "JWT Secret Key",
       "severity": "high",
       "matched_pattern": "AUTH************************************1324",
-      "timestamp": "2026-04-20T06:03:18.903903"
+      "timestamp": "2026-04-21T05:51:25.506507"
     },
     {
       "service": "jwt",
@@ -66,7 +79,7 @@
       "description": "JWT Secret Key",
       "severity": "high",
       "matched_pattern": "JWT_************************************************2024",
-      "timestamp": "2026-04-20T06:03:19.715033"
+      "timestamp": "2026-04-21T05:51:26.654385"
     },
     {
       "service": "jwt",
@@ -79,111 +92,46 @@
       "description": "JWT Secret Key",
       "severity": "high",
       "matched_pattern": "JWT_*******************************************************************0939",
-      "timestamp": "2026-04-20T06:03:19.803806"
+      "timestamp": "2026-04-21T05:51:26.791419"
     },
     {
       "service": "jwt",
-      "file": "backend/.env.production.example",
-      "repository": "Orhanguezel/vistaseed",
-      "url": "https://github.com/Orhanguezel/vistaseed/blob/594ec78e62032b133b8eeb54ed62bba4b1b40053/backend/.env.production.example",
-      "line_number": 38,
-      "line_preview": "JWT_SECRET=__GENERATE_STRONG_RANDOM_64_PLUS__",
+      "file": "strategy_engine/src/render.env.md",
+      "repository": "TemamAb/alpha",
+      "url": "https://github.com/TemamAb/alpha/blob/80be4d1acaeff2db132ac414b08d0c7982165f2e/strategy_engine/src/render.env.md",
+      "line_number": 11,
+      "line_preview": "JWT_SECRET=61be481104ac06a35ed85b60294ae1e58e998a4484213af7d02385ded663dc2c",
       "key_type": "jwt_secret",
       "description": "JWT Secret Key",
       "severity": "high",
-      "matched_pattern": "JWT_*************************************US__",
-      "timestamp": "2026-04-20T06:03:21.390333"
+      "matched_pattern": "JWT_*******************************************************************dc2c",
+      "timestamp": "2026-04-21T05:51:27.294396"
     },
     {
       "service": "jwt",
       "file": ".env.production.template",
       "repository": "mtarikucar/kds",
-      "url": "https://github.com/mtarikucar/kds/blob/149604d7b2e3ddfaad4a0723f723efa970620632/.env.production.template",
+      "url": "https://github.com/mtarikucar/kds/blob/fcb39c390cde729c85e3109404611ce0781df3ec/.env.production.template",
       "line_number": 20,
       "line_preview": "JWT_SECRET=CHANGE_THIS_TO_RANDOM_SECRET_64_CHARS",
       "key_type": "jwt_secret",
       "description": "JWT Secret Key",
       "severity": "high",
       "matched_pattern": "JWT_****************************************HARS",
-      "timestamp": "2026-04-20T06:03:21.678627"
+      "timestamp": "2026-04-21T05:51:30.923165"
     },
     {
       "service": "jwt",
       "file": ".env.production.template",
-      "repository": "mtarikucar/kds",
-      "url": "https://github.com/mtarikucar/kds/blob/149604d7b2e3ddfaad4a0723f723efa970620632/.env.production.template",
-      "line_number": 22,
-      "line_preview": "JWT_REFRESH_SECRET=CHANGE_THIS_TO_DIFFERENT_RANDOM_SECRET_64_CHARS",
-      "key_type": "jwt_refresh_secret",
-      "description": "Jwt Refresh Secret",
-      "severity": "high",
-      "matched_pattern": "JWT_**********************************************************HARS",
-      "timestamp": "2026-04-20T06:03:21.678698"
-    },
-    {
-      "service": "jwt",
-      "file": "backend/.env.production.example",
-      "repository": "Orhanguezel/paketjet",
-      "url": "https://github.com/Orhanguezel/paketjet/blob/1944e1383d28c76e48aa444d666b8fdf35f425e8/backend/.env.production.example",
-      "line_number": 38,
-      "line_preview": "JWT_SECRET=__GENERATE_STRONG_RANDOM_64_PLUS__",
+      "repository": "nftecnologia/crmbet-gaming-pinecone",
+      "url": "https://github.com/nftecnologia/crmbet-gaming-pinecone/blob/4cd133d628077a86756b5ee0456d62a0b5a5ae56/.env.production.template",
+      "line_number": 34,
+      "line_preview": "JWT_SECRET=CHANGE_ME_JWT_SECRET_KEY_MINIMUM_32_CHARACTERS",
       "key_type": "jwt_secret",
       "description": "JWT Secret Key",
       "severity": "high",
-      "matched_pattern": "JWT_*************************************US__",
-      "timestamp": "2026-04-20T06:03:22.622526"
-    },
-    {
-      "service": "jwt",
-      "file": "backend/.env.production.template",
-      "repository": "umityaman/canary-digital",
-      "url": "https://github.com/umityaman/canary-digital/blob/3f60d31797ae370eb6d0b35ac4ac73801999bb5a/backend/.env.production.template",
-      "line_number": 13,
-      "line_preview": "JWT_SECRET=CHANGE_THIS_TO_32_CHAR_SECRET",
-      "key_type": "jwt_secret",
-      "description": "JWT Secret Key",
-      "severity": "high",
-      "matched_pattern": "JWT_********************************CRET",
-      "timestamp": "2026-04-20T06:03:22.725999"
-    },
-    {
-      "service": "jwt",
-      "file": "backend/.env.production.template",
-      "repository": "umityaman/canary-digital",
-      "url": "https://github.com/umityaman/canary-digital/blob/3f60d31797ae370eb6d0b35ac4ac73801999bb5a/backend/.env.production.template",
-      "line_number": 14,
-      "line_preview": "JWT_REFRESH_SECRET=CHANGE_THIS_TO_32_CHAR_SECRET",
-      "key_type": "jwt_refresh_secret",
-      "description": "Jwt Refresh Secret",
-      "severity": "high",
-      "matched_pattern": "JWT_****************************************CRET",
-      "timestamp": "2026-04-20T06:03:22.726062"
-    },
-    {
-      "service": "jwt",
-      "file": "backend/.env.production.example",
-      "repository": "Orhanguezel/katalogAI",
-      "url": "https://github.com/Orhanguezel/katalogAI/blob/4a4b7fdf1ffe98163fc9781229c9dccc788abfd6/backend/.env.production.example",
-      "line_number": 38,
-      "line_preview": "JWT_SECRET=__GENERATE_STRONG_RANDOM_64_PLUS__",
-      "key_type": "jwt_secret",
-      "description": "JWT Secret Key",
-      "severity": "high",
-      "matched_pattern": "JWT_*************************************US__",
-      "timestamp": "2026-04-20T06:03:22.952758"
-    },
-    {
-      "service": "jwt",
-      "file": ".env.prod.example",
-      "repository": "nauanbek/saqshy",
-      "url": "https://github.com/nauanbek/saqshy/blob/f82057815dc72896bb71b4f9e36b93b63cb8e855/.env.prod.example",
-      "line_number": 93,
-      "line_preview": "JWT_SECRET=generate_with_openssl_rand_hex_32",
-      "key_type": "jwt_secret",
-      "description": "JWT Secret Key",
-      "severity": "high",
-      "matched_pattern": "JWT_************************************x_32",
-      "timestamp": "2026-04-20T06:03:27.165791"
+      "matched_pattern": "JWT_*************************************************TERS",
+      "timestamp": "2026-04-21T05:51:31.044636"
     },
     {
       "service": "jwt",
@@ -196,33 +144,46 @@
       "description": "JWT Secret Key",
       "severity": "high",
       "matched_pattern": "jwt_************************************rZXk",
-      "timestamp": "2026-04-20T06:03:29.319686"
+      "timestamp": "2026-04-21T05:51:35.874149"
     },
     {
       "service": "jwt",
-      "file": ".env.zh.example",
-      "repository": "tanguangyun/ChatHub",
-      "url": "https://github.com/tanguangyun/ChatHub/blob/e4041b3f361c314d008d92969e6f533d8c08b84d/.env.zh.example",
-      "line_number": 513,
-      "line_preview": "JWT_SECRET=16f8c0ef4a5d391b26034086c628469d3f9f497f08163ab9b40137092f2909ef",
+      "file": ".env.prod.example",
+      "repository": "nauanbek/saqshy",
+      "url": "https://github.com/nauanbek/saqshy/blob/f82057815dc72896bb71b4f9e36b93b63cb8e855/.env.prod.example",
+      "line_number": 93,
+      "line_preview": "JWT_SECRET=generate_with_openssl_rand_hex_32",
       "key_type": "jwt_secret",
       "description": "JWT Secret Key",
       "severity": "high",
-      "matched_pattern": "JWT_*******************************************************************09ef",
-      "timestamp": "2026-04-20T06:03:32.176021"
+      "matched_pattern": "JWT_************************************x_32",
+      "timestamp": "2026-04-21T05:51:37.583737"
     },
     {
       "service": "jwt",
-      "file": ".env.zh.example",
-      "repository": "tanguangyun/ChatHub",
-      "url": "https://github.com/tanguangyun/ChatHub/blob/e4041b3f361c314d008d92969e6f533d8c08b84d/.env.zh.example",
-      "line_number": 515,
-      "line_preview": "JWT_REFRESH_SECRET=eaa5191f2914e30b9387fd84e254e4ba6fc51b4654968a9b0803b456a54b8418",
-      "key_type": "jwt_refresh_secret",
-      "description": "Jwt Refresh Secret",
+      "file": "config.toml.example",
+      "repository": "OriginalLeeDunn/projekt.ReaperKey",
+      "url": "https://github.com/OriginalLeeDunn/projekt.ReaperKey/blob/e1214878f90772a2936d850ae064209759cec12c/config.toml.example",
+      "line_number": 33,
+      "line_preview": "jwt_secret = \"CHANGE_ME_minimum_32_characters_long!!\"",
+      "key_type": "jwt_secret",
+      "description": "JWT Secret Key",
       "severity": "high",
-      "matched_pattern": "JWT_***************************************************************************8418",
-      "timestamp": "2026-04-20T06:03:32.176098"
+      "matched_pattern": "jwt_******************************************long",
+      "timestamp": "2026-04-21T05:51:42.821669"
+    },
+    {
+      "service": "jwt",
+      "file": "backend/.env.production.example",
+      "repository": "Orhanguezel/paketjet",
+      "url": "https://github.com/Orhanguezel/paketjet/blob/1944e1383d28c76e48aa444d666b8fdf35f425e8/backend/.env.production.example",
+      "line_number": 38,
+      "line_preview": "JWT_SECRET=__GENERATE_STRONG_RANDOM_64_PLUS__",
+      "key_type": "jwt_secret",
+      "description": "JWT Secret Key",
+      "severity": "high",
+      "matched_pattern": "JWT_*************************************US__",
+      "timestamp": "2026-04-21T05:51:42.968899"
     },
     {
       "service": "jwt",
@@ -235,7 +196,20 @@
       "description": "JWT Secret Key",
       "severity": "high",
       "matched_pattern": "JWT_************************************hars",
-      "timestamp": "2026-04-20T06:03:35.258747"
+      "timestamp": "2026-04-21T05:51:45.291397"
+    },
+    {
+      "service": "jwt",
+      "file": "backend/.env.production.example",
+      "repository": "Orhanguezel/katalogAI",
+      "url": "https://github.com/Orhanguezel/katalogAI/blob/4a4b7fdf1ffe98163fc9781229c9dccc788abfd6/backend/.env.production.example",
+      "line_number": 38,
+      "line_preview": "JWT_SECRET=__GENERATE_STRONG_RANDOM_64_PLUS__",
+      "key_type": "jwt_secret",
+      "description": "JWT Secret Key",
+      "severity": "high",
+      "matched_pattern": "JWT_*************************************US__",
+      "timestamp": "2026-04-21T05:51:49.073501"
     },
     {
       "service": "jwt",
@@ -248,7 +222,7 @@
       "description": "JWT Secret Key",
       "severity": "high",
       "matched_pattern": "JWT_***************************************************************************************************3cb8",
-      "timestamp": "2026-04-20T06:03:43.012430"
+      "timestamp": "2026-04-21T05:51:51.037414"
     },
     {
       "service": "jwt",
@@ -261,7 +235,7 @@
       "description": "Jwt Refresh Secret",
       "severity": "high",
       "matched_pattern": "JWT_***********************************************************************************************************28f6",
-      "timestamp": "2026-04-20T06:03:43.012497"
+      "timestamp": "2026-04-21T05:51:51.037498"
     },
     {
       "service": "jwt",
@@ -274,7 +248,7 @@
       "description": "Jwt Token",
       "severity": "medium",
       "matched_pattern": "ff78****************************************************************************************3cb8",
-      "timestamp": "2026-04-20T06:03:43.012727"
+      "timestamp": "2026-04-21T05:51:51.037775"
     },
     {
       "service": "jwt",
@@ -287,7 +261,7 @@
       "description": "Jwt Refresh Token",
       "severity": "medium",
       "matched_pattern": "9cc7****************************************************************************************28f6",
-      "timestamp": "2026-04-20T06:03:43.012757"
+      "timestamp": "2026-04-21T05:51:51.037813"
     },
     {
       "service": "jwt",
@@ -300,33 +274,7 @@
       "description": "JWT Secret Key",
       "severity": "high",
       "matched_pattern": "JWT_***********************************d29b",
-      "timestamp": "2026-04-20T06:03:43.135850"
-    },
-    {
-      "service": "jwt",
-      "file": ".env.local",
-      "repository": "sudanva21/Career-Advisor-SIH",
-      "url": "https://github.com/sudanva21/Career-Advisor-SIH/blob/36d5272b7d80719b8c19696bbb6500b652ee9b14/.env.local",
-      "line_number": 32,
-      "line_preview": "JWT_SECRET=\"$2a$10$Dx4r3dUCFfZk8/dmA4zbF/bmE+NvG49idyzwVQ/5ZdhMQwb/LH0bE/f4ljyHbvK+vMaqgvN0HjyxameL66ToIdtEbg==\"",
-      "key_type": "jwt_secret",
-      "description": "Jwt Secret",
-      "severity": "high",
-      "matched_pattern": "$2a$*******************************************************************************************bg==",
-      "timestamp": "2026-04-20T06:03:44.117194"
-    },
-    {
-      "service": "jwt",
-      "file": "server/.env.local",
-      "repository": "web-page-url/anything-llm-ai-v1",
-      "url": "https://github.com/web-page-url/anything-llm-ai-v1/blob/e43f8f20cde27bb5646d1db61cf8b3b92b258775/server/.env.local",
-      "line_number": 2,
-      "line_preview": "JWT_SECRET=\"my-random-string-for-seeding\" # Please generate random string at least 12 chars long.",
-      "key_type": "jwt_secret",
-      "description": "Jwt Secret",
-      "severity": "high",
-      "matched_pattern": "my-r*****************************************************************************ong.",
-      "timestamp": "2026-04-20T06:03:44.245100"
+      "timestamp": "2026-04-21T05:51:51.172640"
     },
     {
       "service": "jwt",
@@ -339,7 +287,33 @@
       "description": "JWT Secret Key",
       "severity": "high",
       "matched_pattern": "AUTH***************************************4_32",
-      "timestamp": "2026-04-20T06:03:44.336168"
+      "timestamp": "2026-04-21T05:51:52.221066"
+    },
+    {
+      "service": "jwt",
+      "file": ".env.local",
+      "repository": "sudanva21/Career-Advisor-SIH",
+      "url": "https://github.com/sudanva21/Career-Advisor-SIH/blob/36d5272b7d80719b8c19696bbb6500b652ee9b14/.env.local",
+      "line_number": 32,
+      "line_preview": "JWT_SECRET=\"$2a$10$Dx4r3dUCFfZk8/dmA4zbF/bmE+NvG49idyzwVQ/5ZdhMQwb/LH0bE/f4ljyHbvK+vMaqgvN0HjyxameL66ToIdtEbg==\"",
+      "key_type": "jwt_secret",
+      "description": "Jwt Secret",
+      "severity": "high",
+      "matched_pattern": "$2a$*******************************************************************************************bg==",
+      "timestamp": "2026-04-21T05:51:52.561308"
+    },
+    {
+      "service": "jwt",
+      "file": "server/.env.local",
+      "repository": "web-page-url/anything-llm-ai-v1",
+      "url": "https://github.com/web-page-url/anything-llm-ai-v1/blob/e43f8f20cde27bb5646d1db61cf8b3b92b258775/server/.env.local",
+      "line_number": 2,
+      "line_preview": "JWT_SECRET=\"my-random-string-for-seeding\" # Please generate random string at least 12 chars long.",
+      "key_type": "jwt_secret",
+      "description": "Jwt Secret",
+      "severity": "high",
+      "matched_pattern": "my-r*****************************************************************************ong.",
+      "timestamp": "2026-04-21T05:51:52.968736"
     },
     {
       "service": "jwt",
@@ -352,7 +326,7 @@
       "description": "JWT Secret Key",
       "severity": "high",
       "matched_pattern": "JWT_*************************************231\"",
-      "timestamp": "2026-04-20T06:03:56.703072"
+      "timestamp": "2026-04-21T05:52:04.742777"
     },
     {
       "service": "jwt",
@@ -365,7 +339,7 @@
       "description": "JWT Secret Key",
       "severity": "high",
       "matched_pattern": "JWT_*************************************jXs\"",
-      "timestamp": "2026-04-20T06:03:57.153258"
+      "timestamp": "2026-04-21T05:52:05.223586"
     }
   ]
 }

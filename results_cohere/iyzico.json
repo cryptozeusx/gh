@@ -1,111 +1,33 @@
 {
   "service": "iyzico",
-  "scan_timestamp": "2026-04-20T06:04:04.844688",
-  "finding_count": 14,
+  "scan_timestamp": "2026-04-21T05:52:12.719871",
+  "finding_count": 12,
   "findings": [
     {
       "service": "iyzico",
-      "file": ".env.back",
-      "repository": "curetechb/mt",
-      "url": "https://github.com/curetechb/mt/blob/61fcfbd38981df211f945855604b90b4ec2cad19/.env.back",
+      "file": ".envv",
+      "repository": "mehedi8gb/emed-stable-4.8",
+      "url": "https://github.com/mehedi8gb/emed-stable-4.8/blob/f0fd05538ad4ee7567f9ef8b327e14ed07dda66d/.envv",
       "line_number": 128,
       "line_preview": "IYZICO_API_KEY=\"sandbox-1GcasNxaRSuHuxbK1aD67VSSpS2xPE9o\"",
       "key_type": "iyzico_api_key",
       "description": "Iyzico Api Key",
       "severity": "medium",
       "matched_pattern": "IYZI*************************************************E9o\"",
-      "timestamp": "2026-04-20T06:03:22.847150"
+      "timestamp": "2026-04-21T05:51:30.250049"
     },
     {
       "service": "iyzico",
-      "file": ".env.back",
-      "repository": "curetechb/mt",
-      "url": "https://github.com/curetechb/mt/blob/61fcfbd38981df211f945855604b90b4ec2cad19/.env.back",
+      "file": ".envv",
+      "repository": "mehedi8gb/emed-stable-4.8",
+      "url": "https://github.com/mehedi8gb/emed-stable-4.8/blob/f0fd05538ad4ee7567f9ef8b327e14ed07dda66d/.envv",
       "line_number": 129,
       "line_preview": "IYZICO_SECRET_KEY=\"sandbox-j7X6sWA2B8qhN6wwyYGbxYYf5JCliceu\"",
       "key_type": "iyzico_secret_key",
       "description": "Iyzico Secret Key",
       "severity": "high",
       "matched_pattern": "IYZI****************************************************ceu\"",
-      "timestamp": "2026-04-20T06:03:22.847215"
-    },
-    {
-      "service": "iyzico",
-      "file": "public_html/.env.backup2",
-      "repository": "fazliozdemir33/bilgeai",
-      "url": "https://github.com/fazliozdemir33/bilgeai/blob/ef4deb167dee6bbc281163fc6c2a4cfc318584e7/public_html/.env.backup2",
-      "line_number": 103,
-      "line_preview": "IYZICO_API_KEY=pSw8IH2ejQVLz1ZvlwSFc77cDuqgTylK",
-      "key_type": "iyzico_api_key",
-      "description": "Iyzico Api Key",
-      "severity": "medium",
-      "matched_pattern": "IYZI***************************************TylK",
-      "timestamp": "2026-04-20T06:03:23.411005"
-    },
-    {
-      "service": "iyzico",
-      "file": "public_html/.env.backup2",
-      "repository": "fazliozdemir33/bilgeai",
-      "url": "https://github.com/fazliozdemir33/bilgeai/blob/ef4deb167dee6bbc281163fc6c2a4cfc318584e7/public_html/.env.backup2",
-      "line_number": 104,
-      "line_preview": "IYZICO_SECRET_KEY=IIqUrUcfxZ1ERIaJFSQAIkcu6uE01BU7",
-      "key_type": "iyzico_secret_key",
-      "description": "Iyzico Secret Key",
-      "severity": "high",
-      "matched_pattern": "IYZI******************************************1BU7",
-      "timestamp": "2026-04-20T06:03:23.411065"
-    },
-    {
-      "service": "iyzico",
-      "file": ".env.local",
-      "repository": "berkaydogdu88-del/E-commerce",
-      "url": "https://github.com/berkaydogdu88-del/E-commerce/blob/de8f21ecba76cef42acdd3acb7a0cbba4a8f033e/.env.local",
-      "line_number": 1,
-      "line_preview": "IYZICO_API_KEY=sandbox-TXQElD2zFQuzbGzplDx580bXFjd9nzoL",
-      "key_type": "iyzico_api_key",
-      "description": "Iyzico Api Key",
-      "severity": "medium",
-      "matched_pattern": "IYZI***********************************************nzoL",
-      "timestamp": "2026-04-20T06:03:24.316598"
-    },
-    {
-      "service": "iyzico",
-      "file": ".env.local",
-      "repository": "berkaydogdu88-del/E-commerce",
-      "url": "https://github.com/berkaydogdu88-del/E-commerce/blob/de8f21ecba76cef42acdd3acb7a0cbba4a8f033e/.env.local",
-      "line_number": 2,
-      "line_preview": "IYZICO_SECRET_KEY=sandbox-TgeAB6M20zxouuEsAsezp0fEqXjvh6Wx",
-      "key_type": "iyzico_secret_key",
-      "description": "Iyzico Secret Key",
-      "severity": "high",
-      "matched_pattern": "IYZI**************************************************h6Wx",
-      "timestamp": "2026-04-20T06:03:24.316706"
-    },
-    {
-      "service": "iyzico",
-      "file": ".env.local",
-      "repository": "osmantandogan/hmtbtbv4",
-      "url": "https://github.com/osmantandogan/hmtbtbv4/blob/7f682b4d2e3e1c34c4ff7d63d5bcc3144814a541/.env.local",
-      "line_number": 18,
-      "line_preview": "IYZICO_API_KEY=sandbox-FVYchJX5AIAgecrHdbQLU7rUEJWcDbTn",
-      "key_type": "iyzico_api_key",
-      "description": "Iyzico Api Key",
-      "severity": "medium",
-      "matched_pattern": "IYZI***********************************************DbTn",
-      "timestamp": "2026-04-20T06:03:24.525574"
-    },
-    {
-      "service": "iyzico",
-      "file": ".env.local",
-      "repository": "osmantandogan/hmtbtbv4",
-      "url": "https://github.com/osmantandogan/hmtbtbv4/blob/7f682b4d2e3e1c34c4ff7d63d5bcc3144814a541/.env.local",
-      "line_number": 19,
-      "line_preview": "IYZICO_SECRET_KEY=sandbox-eP1DS1u7HVdAelEY4aiub1Ud0RsYexnA",
-      "key_type": "iyzico_secret_key",
-      "description": "Iyzico Secret Key",
-      "severity": "high",
-      "matched_pattern": "IYZI**************************************************exnA",
-      "timestamp": "2026-04-20T06:03:24.525733"
+      "timestamp": "2026-04-21T05:51:30.250139"
     },
     {
       "service": "iyzico",
@@ -118,7 +40,7 @@
       "description": "Iyzico Api Key",
       "severity": "medium",
       "matched_pattern": "IYZI*************************************************E9o\"",
-      "timestamp": "2026-04-20T06:03:40.019147"
+      "timestamp": "2026-04-21T05:51:43.554506"
     },
     {
       "service": "iyzico",
@@ -131,7 +53,33 @@
       "description": "Iyzico Secret Key",
       "severity": "high",
       "matched_pattern": "IYZI****************************************************ceu\"",
-      "timestamp": "2026-04-20T06:03:40.019209"
+      "timestamp": "2026-04-21T05:51:43.554682"
+    },
+    {
+      "service": "iyzico",
+      "file": ".env.local.example",
+      "repository": "berkaydogdu88-del/E-commerce",
+      "url": "https://github.com/berkaydogdu88-del/E-commerce/blob/de8f21ecba76cef42acdd3acb7a0cbba4a8f033e/.env.local.example",
+      "line_number": 1,
+      "line_preview": "IYZICO_API_KEY=sandbox-TXQElD2zFQuzbGzplDx580bXFjd9nzoL",
+      "key_type": "iyzico_api_key",
+      "description": "Iyzico Api Key",
+      "severity": "medium",
+      "matched_pattern": "IYZI***********************************************nzoL",
+      "timestamp": "2026-04-21T05:51:44.324668"
+    },
+    {
+      "service": "iyzico",
+      "file": ".env.local.example",
+      "repository": "berkaydogdu88-del/E-commerce",
+      "url": "https://github.com/berkaydogdu88-del/E-commerce/blob/de8f21ecba76cef42acdd3acb7a0cbba4a8f033e/.env.local.example",
+      "line_number": 2,
+      "line_preview": "IYZICO_SECRET_KEY=sandbox-TgeAB6M20zxouuEsAsezp0fEqXjvh6Wx",
+      "key_type": "iyzico_secret_key",
+      "description": "Iyzico Secret Key",
+      "severity": "high",
+      "matched_pattern": "IYZI**************************************************h6Wx",
+      "timestamp": "2026-04-21T05:51:44.324757"
     },
     {
       "service": "iyzico",
@@ -144,7 +92,7 @@
       "description": "Iyzico Api Key",
       "severity": "medium",
       "matched_pattern": "IYZI***************************************************uve\"",
-      "timestamp": "2026-04-20T06:03:41.664148"
+      "timestamp": "2026-04-21T05:51:49.259877"
     },
     {
       "service": "iyzico",
@@ -157,7 +105,33 @@
       "description": "Iyzico Secret Key",
       "severity": "high",
       "matched_pattern": "IYZI****************************************************M27\"",
-      "timestamp": "2026-04-20T06:03:41.664217"
+      "timestamp": "2026-04-21T05:51:49.259979"
+    },
+    {
+      "service": "iyzico",
+      "file": ".env.local",
+      "repository": "osmantandogan/hmtbtbv4",
+      "url": "https://github.com/osmantandogan/hmtbtbv4/blob/7f682b4d2e3e1c34c4ff7d63d5bcc3144814a541/.env.local",
+      "line_number": 18,
+      "line_preview": "IYZICO_API_KEY=sandbox-FVYchJX5AIAgecrHdbQLU7rUEJWcDbTn",
+      "key_type": "iyzico_api_key",
+      "description": "Iyzico Api Key",
+      "severity": "medium",
+      "matched_pattern": "IYZI***********************************************DbTn",
+      "timestamp": "2026-04-21T05:51:57.424839"
+    },
+    {
+      "service": "iyzico",
+      "file": ".env.local",
+      "repository": "osmantandogan/hmtbtbv4",
+      "url": "https://github.com/osmantandogan/hmtbtbv4/blob/7f682b4d2e3e1c34c4ff7d63d5bcc3144814a541/.env.local",
+      "line_number": 19,
+      "line_preview": "IYZICO_SECRET_KEY=sandbox-eP1DS1u7HVdAelEY4aiub1Ud0RsYexnA",
+      "key_type": "iyzico_secret_key",
+      "description": "Iyzico Secret Key",
+      "severity": "high",
+      "matched_pattern": "IYZI**************************************************exnA",
+      "timestamp": "2026-04-21T05:51:57.424921"
     },
     {
       "service": "iyzico",
@@ -170,7 +144,7 @@
       "description": "Iyzico Api Key",
       "severity": "medium",
       "matched_pattern": "IYZI***********************************************FBUN",
-      "timestamp": "2026-04-20T06:04:03.640432"
+      "timestamp": "2026-04-21T05:52:11.461738"
     },
     {
       "service": "iyzico",
@@ -183,7 +157,7 @@
       "description": "Iyzico Secret Key",
       "severity": "high",
       "matched_pattern": "IYZI******************************************9NXN",
-      "timestamp": "2026-04-20T06:04:03.640519"
+      "timestamp": "2026-04-21T05:52:11.461843"
     }
   ]
 }

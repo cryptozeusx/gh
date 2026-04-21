@@ -1,21 +1,8 @@
 {
   "service": "pinata",
-  "scan_timestamp": "2026-04-20T06:04:04.849804",
+  "scan_timestamp": "2026-04-21T05:52:12.724847",
   "finding_count": 3,
   "findings": [
-    {
-      "service": "pinata",
-      "file": ".env.local",
-      "repository": "lucylow/bitmind",
-      "url": "https://github.com/lucylow/bitmind/blob/69373692624dfb027154c229e57413c20bc75ef2/.env.local",
-      "line_number": 40,
-      "line_preview": "VITE_PINATA_API_KEY=96405b9987dce548b5b8",
-      "key_type": "pinata_api_key",
-      "description": "Pinata Api Key",
-      "severity": "medium",
-      "matched_pattern": "PINA***************************b5b8",
-      "timestamp": "2026-04-20T06:03:09.955710"
-    },
     {
       "service": "pinata",
       "file": ".env.production",
@@ -27,7 +14,20 @@
       "description": "Pinata Api Key",
       "severity": "medium",
       "matched_pattern": "PINA*******************************************************************************************************************************************************************************oHV\"",
-      "timestamp": "2026-04-20T06:03:18.693504"
+      "timestamp": "2026-04-21T05:51:24.883417"
+    },
+    {
+      "service": "pinata",
+      "file": ".env.local",
+      "repository": "lucylow/bitmind",
+      "url": "https://github.com/lucylow/bitmind/blob/69373692624dfb027154c229e57413c20bc75ef2/.env.local",
+      "line_number": 40,
+      "line_preview": "VITE_PINATA_API_KEY=96405b9987dce548b5b8",
+      "key_type": "pinata_api_key",
+      "description": "Pinata Api Key",
+      "severity": "medium",
+      "matched_pattern": "PINA***************************b5b8",
+      "timestamp": "2026-04-21T05:51:50.948930"
     },
     {
       "service": "pinata",
@@ -40,7 +40,7 @@
       "description": "Pinata Api Key",
       "severity": "medium",
       "matched_pattern": "PINA***************************b5b8",
-      "timestamp": "2026-04-20T06:03:44.989897"
+      "timestamp": "2026-04-21T05:51:53.059494"
     }
   ]
 }
