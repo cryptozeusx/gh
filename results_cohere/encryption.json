@@ -1,7 +1,7 @@
 {
   "service": "encryption",
-  "scan_timestamp": "2026-04-21T05:52:12.714666",
-  "finding_count": 6,
+  "scan_timestamp": "2026-04-22T05:52:17.857438",
+  "finding_count": 5,
   "findings": [
     {
       "service": "encryption",
@@ -14,7 +14,7 @@
       "description": "Encryption Key",
       "severity": "medium",
       "matched_pattern": "afaf********************************************************069e",
-      "timestamp": "2026-04-21T05:51:27.294816"
+      "timestamp": "2026-04-22T05:51:31.030600"
     },
     {
       "service": "encryption",
@@ -27,7 +27,7 @@
       "description": "Encryption Key",
       "severity": "medium",
       "matched_pattern": "ENCR***********************************************************************e4b0",
-      "timestamp": "2026-04-21T05:51:33.142663"
+      "timestamp": "2026-04-22T05:51:36.573285"
     },
     {
       "service": "encryption",
@@ -40,20 +40,7 @@
       "description": "Encryption Key",
       "severity": "medium",
       "matched_pattern": "ENCR***********************************************************************e1f2",
-      "timestamp": "2026-04-21T05:51:35.747357"
-    },
-    {
-      "service": "encryption",
-      "file": ".env.local.example",
-      "repository": "kcg34kcg-web/Marinantex",
-      "url": "https://github.com/kcg34kcg-web/Marinantex/blob/497c58d1bdf4ac30f3307cd4afca546350de4cc7/.env.local.example",
-      "line_number": 22,
-      "line_preview": "PII_ENCRYPTION_KEY=benim-dsfdsfcosdfdsfesi-23-3223rf!",
-      "key_type": "encryption_key",
-      "description": "Encryption Key",
-      "severity": "medium",
-      "matched_pattern": "ENCR*****************************************3rf!",
-      "timestamp": "2026-04-21T05:51:37.796450"
+      "timestamp": "2026-04-22T05:51:39.518374"
     },
     {
       "service": "encryption",
@@ -66,7 +53,7 @@
       "description": "Encryption Key",
       "severity": "medium",
       "matched_pattern": "ENCR***************************************RUKt",
-      "timestamp": "2026-04-21T05:51:51.172928"
+      "timestamp": "2026-04-22T05:51:56.191970"
     },
     {
       "service": "encryption",
@@ -79,7 +66,7 @@
       "description": "Encryption Key",
       "severity": "medium",
       "matched_pattern": "ENCR***************************************7ab2",
-      "timestamp": "2026-04-21T05:52:05.117626"
+      "timestamp": "2026-04-22T05:52:10.357561"
     }
   ]
 }

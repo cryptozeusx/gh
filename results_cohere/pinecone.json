@@ -1,7 +1,7 @@
 {
   "service": "pinecone",
-  "scan_timestamp": "2026-04-21T05:52:12.725000",
-  "finding_count": 3,
+  "scan_timestamp": "2026-04-22T05:52:17.866456",
+  "finding_count": 2,
   "findings": [
     {
       "service": "pinecone",
@@ -14,20 +14,7 @@
       "description": "Pinecone Api Key",
       "severity": "medium",
       "matched_pattern": "PINE****************************d...",
-      "timestamp": "2026-04-21T05:51:16.722908"
-    },
-    {
-      "service": "pinecone",
-      "file": ".env_sample",
-      "repository": "venture21/langchain-kr",
-      "url": "https://github.com/venture21/langchain-kr/blob/fdb20d447083759b8c5cb814046fc85eaae8ed40/.env_sample",
-      "line_number": 9,
-      "line_preview": "PINECONE_API_KEY=549b555d-c388-4d...",
-      "key_type": "pinecone_api_key",
-      "description": "Pinecone Api Key",
-      "severity": "medium",
-      "matched_pattern": "PINE****************************d...",
-      "timestamp": "2026-04-21T05:51:19.918019"
+      "timestamp": "2026-04-22T05:51:19.724491"
     },
     {
       "service": "pinecone",
@@ -40,7 +27,7 @@
       "description": "Pinecone Api Key",
       "severity": "medium",
       "matched_pattern": "PINE***********************************************************************************Fmii",
-      "timestamp": "2026-04-21T05:51:26.865027"
+      "timestamp": "2026-04-22T05:51:30.621493"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "service": "oclc",
-  "scan_timestamp": "2026-04-21T05:52:12.723580",
+  "scan_timestamp": "2026-04-22T05:52:17.865212",
   "finding_count": 2,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Oclc Metadata Secret",
       "severity": "high",
       "matched_pattern": "arn:****************************************************************cret",
-      "timestamp": "2026-04-21T05:51:13.338973"
+      "timestamp": "2026-04-22T05:51:15.959663"
     },
     {
       "service": "oclc",
@@ -27,7 +27,7 @@
       "description": "Oclc Client Secret",
       "severity": "high",
       "matched_pattern": "arn:**************************************************************cret",
-      "timestamp": "2026-04-21T05:51:13.339019"
+      "timestamp": "2026-04-22T05:51:15.959699"
     }
   ]
 }

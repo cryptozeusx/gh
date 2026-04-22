@@ -1,8 +1,21 @@
 {
   "service": "slack",
-  "scan_timestamp": "2026-04-21T05:52:12.727974",
-  "finding_count": 2,
+  "scan_timestamp": "2026-04-22T05:52:17.868823",
+  "finding_count": 3,
   "findings": [
+    {
+      "service": "slack",
+      "file": ".env.example",
+      "repository": "Kynto-Consulting/bloomx",
+      "url": "https://github.com/Kynto-Consulting/bloomx/blob/57db1f9f55c9df0c982837e05ca4dc48d9132c95/.env.example",
+      "line_number": 51,
+      "line_preview": "SLACK_SIGNING_SECRET=\"...\" # Optional if creating event subscriptions",
+      "key_type": "slack_signing_secret",
+      "description": "Slack Signing Secret",
+      "severity": "high",
+      "matched_pattern": "...\"***************************************ions",
+      "timestamp": "2026-04-22T05:51:45.799198"
+    },
     {
       "service": "slack",
       "file": "backend/.env.dist.local",
@@ -14,7 +27,7 @@
       "description": "Slack Reporter Token",
       "severity": "medium",
       "matched_pattern": "# On*****************************************************ble)",
-      "timestamp": "2026-04-21T05:51:51.173012"
+      "timestamp": "2026-04-22T05:51:56.192034"
     },
     {
       "service": "slack",
@@ -27,7 +40,7 @@
       "description": "Slack Notifier Client Secret",
       "severity": "high",
       "matched_pattern": "clie*******************************************************************ble)",
-      "timestamp": "2026-04-21T05:51:51.173057"
+      "timestamp": "2026-04-22T05:51:56.192066"
     }
   ]
 }

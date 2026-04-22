@@ -1,7 +1,7 @@
 {
   "service": "anthropic",
-  "scan_timestamp": "2026-04-21T05:52:12.710722",
-  "finding_count": 9,
+  "scan_timestamp": "2026-04-22T05:52:17.853418",
+  "finding_count": 7,
   "findings": [
     {
       "service": "anthropic",
@@ -14,7 +14,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "sk-a******0...",
-      "timestamp": "2026-04-21T05:51:14.930163"
+      "timestamp": "2026-04-22T05:51:17.782792"
     },
     {
       "service": "anthropic",
@@ -27,7 +27,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH************************0...",
-      "timestamp": "2026-04-21T05:51:16.722948"
+      "timestamp": "2026-04-22T05:51:19.724524"
     },
     {
       "service": "anthropic",
@@ -40,33 +40,20 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "# Re****************************-...",
-      "timestamp": "2026-04-21T05:51:19.632425"
-    },
-    {
-      "service": "anthropic",
-      "file": ".env_sample",
-      "repository": "venture21/langchain-kr",
-      "url": "https://github.com/venture21/langchain-kr/blob/fdb20d447083759b8c5cb814046fc85eaae8ed40/.env_sample",
-      "line_number": 10,
-      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api0...",
-      "key_type": "anthropic_api_key",
-      "description": "Anthropic Api Key",
-      "severity": "medium",
-      "matched_pattern": "ANTH************************0...",
-      "timestamp": "2026-04-21T05:51:19.918068"
+      "timestamp": "2026-04-22T05:51:23.888983"
     },
     {
       "service": "anthropic",
       "file": ".env.example",
       "repository": "stevenfazzio/claude-code-changelog-analysis",
-      "url": "https://github.com/stevenfazzio/claude-code-changelog-analysis/blob/75e657e4b311a2307ac7edfe0d4661313f213385/.env.example",
+      "url": "https://github.com/stevenfazzio/claude-code-changelog-analysis/blob/521624ea311b03c969cc26a5bc05f195cdc62514/.env.example",
       "line_number": 1,
       "line_preview": "ANTHROPIC_API_KEY=   # for enrich stage (Claude)",
       "key_type": "anthropic_api_key",
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "# fo*******************ude)",
-      "timestamp": "2026-04-21T05:51:26.126409"
+      "timestamp": "2026-04-22T05:51:29.997891"
     },
     {
       "service": "anthropic",
@@ -79,7 +66,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************cwAA",
-      "timestamp": "2026-04-21T05:51:26.864687"
+      "timestamp": "2026-04-22T05:51:30.621237"
     },
     {
       "service": "anthropic",
@@ -92,20 +79,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "# An*************************************************ing)",
-      "timestamp": "2026-04-21T05:51:45.728479"
-    },
-    {
-      "service": "anthropic",
-      "file": ".env.example",
-      "repository": "stevenfazzio/huggingface-dataset-map",
-      "url": "https://github.com/stevenfazzio/huggingface-dataset-map/blob/bcdb969fd282e436c718ec1ba5428a70eba707b9/.env.example",
-      "line_number": 4,
-      "line_preview": "ANTHROPIC_API_KEY=      # Anthropic API key (Toponymy topic naming via Claude Sonnet)",
-      "key_type": "anthropic_api_key",
-      "description": "Anthropic Api Key",
-      "severity": "medium",
-      "matched_pattern": "# An*****************************************************net)",
-      "timestamp": "2026-04-21T05:51:46.451000"
+      "timestamp": "2026-04-22T05:51:53.791969"
     },
     {
       "service": "anthropic",
@@ -118,7 +92,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************DgAA",
-      "timestamp": "2026-04-21T05:51:52.219257"
+      "timestamp": "2026-04-22T05:51:57.220165"
     }
   ]
 }

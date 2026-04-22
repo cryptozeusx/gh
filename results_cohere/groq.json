@@ -1,21 +1,8 @@
 {
   "service": "groq",
-  "scan_timestamp": "2026-04-21T05:52:12.719115",
-  "finding_count": 5,
+  "scan_timestamp": "2026-04-22T05:52:17.861606",
+  "finding_count": 4,
   "findings": [
-    {
-      "service": "groq",
-      "file": ".env",
-      "repository": "SushantKadam73/startupAnalyzer-stremalit",
-      "url": "https://github.com/SushantKadam73/startupAnalyzer-stremalit/blob/2818eb678be67d7dbb1c2924860ed120078655d5/.env",
-      "line_number": 2,
-      "line_preview": "GROQ_API_KEY = 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",
-      "key_type": "groq_api_key",
-      "description": "Groq Api Key",
-      "severity": "medium",
-      "matched_pattern": "GROQ***************************************************************egLH",
-      "timestamp": "2026-04-21T05:51:31.168737"
-    },
     {
       "service": "groq",
       "file": ".env",
@@ -27,7 +14,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ*************************************************************HfDm",
-      "timestamp": "2026-04-21T05:51:31.370043"
+      "timestamp": "2026-04-22T05:51:35.030624"
     },
     {
       "service": "groq",
@@ -40,7 +27,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ*************************************************************bx9C",
-      "timestamp": "2026-04-21T05:51:31.559144"
+      "timestamp": "2026-04-22T05:51:35.206539"
     },
     {
       "service": "groq",
@@ -53,7 +40,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ******************************************************************************************zNFn",
-      "timestamp": "2026-04-21T05:51:52.110689"
+      "timestamp": "2026-04-22T05:51:57.111592"
     },
     {
       "service": "groq",
@@ -66,7 +53,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ*************************************************************5dr7",
-      "timestamp": "2026-04-21T05:51:52.219485"
+      "timestamp": "2026-04-22T05:51:57.220357"
     }
   ]
 }

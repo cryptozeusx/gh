@@ -1,6 +1,6 @@
 {
   "service": "session",
-  "scan_timestamp": "2026-04-21T05:52:12.727739",
+  "scan_timestamp": "2026-04-22T05:52:17.868606",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Session Jwt Public Key",
       "severity": "medium",
       "matched_pattern": "arn:******************************************************************-key",
-      "timestamp": "2026-04-21T05:51:13.339527"
+      "timestamp": "2026-04-22T05:51:15.960025"
     }
   ]
 }

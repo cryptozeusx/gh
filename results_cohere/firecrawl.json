@@ -1,6 +1,6 @@
 {
   "service": "firecrawl",
-  "scan_timestamp": "2026-04-21T05:52:12.715694",
+  "scan_timestamp": "2026-04-22T05:52:17.858213",
   "finding_count": 2,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Firecrawl API Key",
       "severity": "high",
       "matched_pattern": "fc-d***************************2cee",
-      "timestamp": "2026-04-21T05:51:31.169417"
+      "timestamp": "2026-04-22T05:51:34.866622"
     },
     {
       "service": "firecrawl",
@@ -27,7 +27,7 @@
       "description": "Firecrawl API Key (named var)",
       "severity": "high",
       "matched_pattern": "FIRE***********************************************2cee",
-      "timestamp": "2026-04-21T05:51:31.169481"
+      "timestamp": "2026-04-22T05:51:34.866652"
     }
   ]
 }

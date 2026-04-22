@@ -1,21 +1,8 @@
 {
   "service": "redis",
-  "scan_timestamp": "2026-04-21T05:52:12.726491",
-  "finding_count": 2,
+  "scan_timestamp": "2026-04-22T05:52:17.867467",
+  "finding_count": 1,
   "findings": [
-    {
-      "service": "redis",
-      "file": "template/{{cookiecutter.project_slug}}/.env.prod.example",
-      "repository": "arpitkasaudhan/ai-fullstack-platform",
-      "url": "https://github.com/arpitkasaudhan/ai-fullstack-platform/blob/2fd91c7d308a2de03cc23ee2b33b3a65e0c883d3/template/%7B%7Bcookiecutter.project_slug%7D%7D/.env.prod.example",
-      "line_number": 40,
-      "line_preview": "REDIS_PASSWORD=  # Generate: openssl rand -base64 32",
-      "key_type": "redis_password",
-      "description": "Redis Password",
-      "severity": "high",
-      "matched_pattern": "# Ge***************************4 32",
-      "timestamp": "2026-04-21T05:51:39.384261"
-    },
     {
       "service": "redis",
       "file": "template/{{cookiecutter.project_slug}}/.env.prod.example",
@@ -27,7 +14,7 @@
       "description": "Redis Password",
       "severity": "high",
       "matched_pattern": "# Ge***************************4 32",
-      "timestamp": "2026-04-21T05:51:39.830452"
+      "timestamp": "2026-04-22T05:51:40.426236"
     }
   ]
 }

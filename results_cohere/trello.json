@@ -1,0 +1,20 @@
+{
+  "service": "trello",
+  "scan_timestamp": "2026-04-22T05:52:17.869564",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "trello",
+      "file": ".env.example",
+      "repository": "Kynto-Consulting/bloomx",
+      "url": "https://github.com/Kynto-Consulting/bloomx/blob/57db1f9f55c9df0c982837e05ca4dc48d9132c95/.env.example",
+      "line_number": 62,
+      "line_preview": "TRELLO_API_KEY=\"...\" # The Application Key (not user token)",
+      "key_type": "trello_api_key",
+      "description": "Trello Api Key",
+      "severity": "medium",
+      "matched_pattern": "...\"***********************************ken)",
+      "timestamp": "2026-04-22T05:51:45.799247"
+    }
+  ]
+}

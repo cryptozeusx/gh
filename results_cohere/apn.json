@@ -1,0 +1,20 @@
+{
+  "service": "apn",
+  "scan_timestamp": "2026-04-22T05:52:17.854132",
+  "finding_count": 1,
+  "findings": [
+    {
+      "service": "apn",
+      "file": ".env.example",
+      "repository": "mrahmadt/smartMoney",
+      "url": "https://github.com/mrahmadt/smartMoney/blob/2c7c66d7398729f3a398ab867022ed264e8fdb71/.env.example",
+      "line_number": 104,
+      "line_preview": "APN_PRIVATE_KEY=          # Path to .p8 key file (default: storage/app/apns/AuthKey.p8)",
+      "key_type": "apn_private_key",
+      "description": "Apn Private Key",
+      "severity": "critical",
+      "matched_pattern": "# Pa*****************************************************.p8)",
+      "timestamp": "2026-04-22T05:51:42.889556"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "service": "huggingfacehub",
-  "scan_timestamp": "2026-04-21T05:52:12.719559",
-  "finding_count": 3,
+  "scan_timestamp": "2026-04-22T05:52:17.861848",
+  "finding_count": 2,
   "findings": [
     {
       "service": "huggingfacehub",
@@ -14,7 +14,7 @@
       "description": "Huggingfacehub Api Token",
       "severity": "medium",
       "matched_pattern": "hf_o****J...",
-      "timestamp": "2026-04-21T05:51:14.930034"
+      "timestamp": "2026-04-22T05:51:17.782655"
     },
     {
       "service": "huggingfacehub",
@@ -27,20 +27,7 @@
       "description": "Huggingfacehub Api Token",
       "severity": "medium",
       "matched_pattern": "HUGG*****************************J...",
-      "timestamp": "2026-04-21T05:51:16.722712"
-    },
-    {
-      "service": "huggingfacehub",
-      "file": ".env_sample",
-      "repository": "venture21/langchain-kr",
-      "url": "https://github.com/venture21/langchain-kr/blob/fdb20d447083759b8c5cb814046fc85eaae8ed40/.env_sample",
-      "line_number": 2,
-      "line_preview": "HUGGINGFACEHUB_API_TOKEN=hf_oEHVwJ...",
-      "key_type": "huggingfacehub_api_token",
-      "description": "Huggingfacehub Api Token",
-      "severity": "medium",
-      "matched_pattern": "HUGG*****************************J...",
-      "timestamp": "2026-04-21T05:51:19.917779"
+      "timestamp": "2026-04-22T05:51:19.724339"
     }
   ]
 }

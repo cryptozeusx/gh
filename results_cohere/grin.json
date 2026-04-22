@@ -1,6 +1,6 @@
 {
   "service": "grin",
-  "scan_timestamp": "2026-04-21T05:52:12.718999",
+  "scan_timestamp": "2026-04-22T05:52:17.861476",
   "finding_count": 2,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Grin Access Key",
       "severity": "medium",
       "matched_pattern": "arn:***********************************************************-key",
-      "timestamp": "2026-04-21T05:51:13.339068"
+      "timestamp": "2026-04-22T05:51:15.959733"
     },
     {
       "service": "grin",
@@ -27,7 +27,7 @@
       "description": "Grin Auth",
       "severity": "medium",
       "matched_pattern": "arn:*****************************************************auth",
-      "timestamp": "2026-04-21T05:51:13.339111"
+      "timestamp": "2026-04-22T05:51:15.959777"
     }
   ]
 }

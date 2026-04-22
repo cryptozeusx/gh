@@ -1,6 +1,6 @@
 {
   "service": "vra",
-  "scan_timestamp": "2026-04-21T05:52:12.729798",
+  "scan_timestamp": "2026-04-22T05:52:17.870238",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Vra Test Password",
       "severity": "high",
       "matched_pattern": "arn:*********************************************************************word",
-      "timestamp": "2026-04-21T05:51:13.339422"
+      "timestamp": "2026-04-22T05:51:15.959996"
     }
   ]
 }
