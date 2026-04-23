@@ -1,6 +1,6 @@
 {
   "service": "widget",
-  "scan_timestamp": "2026-04-22T05:52:17.870429",
+  "scan_timestamp": "2026-04-23T05:54:27.677827",
   "finding_count": 2,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Widget Jwt Private Key",
       "severity": "critical",
       "matched_pattern": "----***************************************************----",
-      "timestamp": "2026-04-22T05:51:47.817816"
+      "timestamp": "2026-04-23T05:53:56.112909"
     },
     {
       "service": "widget",
@@ -27,7 +27,7 @@
       "description": "Widget Jwt Public Key",
       "severity": "medium",
       "matched_pattern": "----*************************************************----",
-      "timestamp": "2026-04-22T05:51:47.817854"
+      "timestamp": "2026-04-23T05:53:56.112958"
     }
   ]
 }

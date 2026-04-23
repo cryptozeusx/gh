@@ -1,7 +1,7 @@
 {
   "service": "db",
-  "scan_timestamp": "2026-04-22T05:52:17.857018",
-  "finding_count": 3,
+  "scan_timestamp": "2026-04-23T05:54:27.660288",
+  "finding_count": 5,
   "findings": [
     {
       "service": "db",
@@ -14,7 +14,7 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "8g3Z********DIRS",
-      "timestamp": "2026-04-22T05:51:14.380339"
+      "timestamp": "2026-04-23T05:53:23.730764"
     },
     {
       "service": "db",
@@ -27,7 +27,7 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "DB_P************3214",
-      "timestamp": "2026-04-22T05:51:26.531464"
+      "timestamp": "2026-04-23T05:53:34.382798"
     },
     {
       "service": "db",
@@ -40,7 +40,33 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "DB_P************************N*EW",
-      "timestamp": "2026-04-22T05:51:26.869064"
+      "timestamp": "2026-04-23T05:53:34.709312"
+    },
+    {
+      "service": "db",
+      "file": "public_html/.env.backup2",
+      "repository": "fazliozdemir33/bilgeai",
+      "url": "https://github.com/fazliozdemir33/bilgeai/blob/ef4deb167dee6bbc281163fc6c2a4cfc318584e7/public_html/.env.backup2",
+      "line_number": 63,
+      "line_preview": "DB_PASSWORD=U?a5qDk>0",
+      "key_type": "db_password",
+      "description": "Db Password",
+      "severity": "high",
+      "matched_pattern": "DB_P*************Dk>0",
+      "timestamp": "2026-04-23T05:53:41.743052"
+    },
+    {
+      "service": "db",
+      "file": "pmoves/env.shared.example",
+      "repository": "POWERFULMOVES/PMOVES.AI",
+      "url": "https://github.com/POWERFULMOVES/PMOVES.AI/blob/e6f9381ee465d9aad5af39e51d8fa65a74a59fde/pmoves/env.shared.example",
+      "line_number": 151,
+      "line_preview": "N8N_DB_PASSWORD=CHANGE_ME_N8N_DB_PASSWORD",
+      "key_type": "db_password",
+      "description": "Db Password",
+      "severity": "high",
+      "matched_pattern": "DB_P*****************************WORD",
+      "timestamp": "2026-04-23T05:53:47.153065"
     }
   ]
 }

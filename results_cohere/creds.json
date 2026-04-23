@@ -1,20 +1,20 @@
 {
   "service": "creds",
-  "scan_timestamp": "2026-04-22T05:52:17.855943",
+  "scan_timestamp": "2026-04-23T05:54:27.659233",
   "finding_count": 1,
   "findings": [
     {
       "service": "creds",
-      "file": ".env.zh.example",
-      "repository": "tanguangyun/ChatHub",
-      "url": "https://github.com/tanguangyun/ChatHub/blob/e4041b3f361c314d008d92969e6f533d8c08b84d/.env.zh.example",
-      "line_number": 295,
+      "file": ".env.ochat",
+      "repository": "dirkpetersen/our-chat",
+      "url": "https://github.com/dirkpetersen/our-chat/blob/3502eb1220f10639ac24b925d6dee709b05ae34e/.env.ochat",
+      "line_number": 218,
       "line_preview": "CREDS_KEY=f34be427ebb29de8d88c107a71546019685ed8b241d8f2ed00c3df97ad2566f0",
       "key_type": "creds_key",
       "description": "Creds Key",
       "severity": "medium",
       "matched_pattern": "f34b********************************************************66f0",
-      "timestamp": "2026-04-22T05:51:45.170793"
+      "timestamp": "2026-04-23T05:53:26.624352"
     }
   ]
 }

@@ -1,20 +1,20 @@
 {
   "service": "email",
-  "scan_timestamp": "2026-04-22T05:52:17.857342",
+  "scan_timestamp": "2026-04-23T05:54:27.660741",
   "finding_count": 1,
   "findings": [
     {
       "service": "email",
-      "file": ".env.staging.example",
+      "file": ".env.prod.example",
       "repository": "weboloper/bp-tenant",
-      "url": "https://github.com/weboloper/bp-tenant/blob/a665177fe1a10f16d18a54f80182d75bc992b603/.env.staging.example",
-      "line_number": 56,
-      "line_preview": "EMAIL_HOST_PASSWORD=SG.your_staging_sendgrid_api_key",
+      "url": "https://github.com/weboloper/bp-tenant/blob/a665177fe1a10f16d18a54f80182d75bc992b603/.env.prod.example",
+      "line_number": 58,
+      "line_preview": "EMAIL_HOST_PASSWORD=SG.your_production_sendgrid_api_key",
       "key_type": "email_host_password",
       "description": "Email Host Password",
       "severity": "high",
-      "matched_pattern": "SG.y************************_key",
-      "timestamp": "2026-04-22T05:51:51.105469"
+      "matched_pattern": "SG.y***************************_key",
+      "timestamp": "2026-04-23T05:53:58.243230"
     }
   ]
 }

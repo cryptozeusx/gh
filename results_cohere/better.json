@@ -1,6 +1,6 @@
 {
   "service": "better",
-  "scan_timestamp": "2026-04-22T05:52:17.854564",
+  "scan_timestamp": "2026-04-23T05:54:27.657387",
   "finding_count": 2,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Better Auth Url",
       "severity": "medium",
       "matched_pattern": "http*************3000",
-      "timestamp": "2026-04-22T05:51:40.518947"
+      "timestamp": "2026-04-23T05:53:53.619295"
     },
     {
       "service": "better",
@@ -27,7 +27,7 @@
       "description": "Better Auth Url",
       "severity": "medium",
       "matched_pattern": "BETT*******************************000\"",
-      "timestamp": "2026-04-22T05:51:53.040360"
+      "timestamp": "2026-04-23T05:54:01.766016"
     }
   ]
 }

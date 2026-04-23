@@ -1,34 +1,8 @@
 {
   "service": "postgres",
-  "scan_timestamp": "2026-04-22T05:52:17.866586",
-  "finding_count": 4,
+  "scan_timestamp": "2026-04-23T05:54:27.672294",
+  "finding_count": 2,
   "findings": [
-    {
-      "service": "postgres",
-      "file": "template/{{cookiecutter.project_slug}}/.env.prod.example",
-      "repository": "vstorm-co/full-stack-ai-agent-template",
-      "url": "https://github.com/vstorm-co/full-stack-ai-agent-template/blob/a9739192b215de9e064ebcb3a78fb322761be7c7/template/%7B%7Bcookiecutter.project_slug%7D%7D/.env.prod.example",
-      "line_number": 33,
-      "line_preview": "POSTGRES_PASSWORD=  # Generate: openssl rand -base64 32",
-      "key_type": "postgres_password",
-      "description": "Postgres Password",
-      "severity": "high",
-      "matched_pattern": "# Ge***************************4 32",
-      "timestamp": "2026-04-22T05:51:40.426088"
-    },
-    {
-      "service": "postgres",
-      "file": ".env.hanzo.example",
-      "repository": "hanzoai/chat",
-      "url": "https://github.com/hanzoai/chat/blob/f2e9f8352a33b45adeec857f145515fc0a9759e6/.env.hanzo.example",
-      "line_number": 14,
-      "line_preview": "POSTGRES_PASSWORD=hanzo123",
-      "key_type": "postgres_password",
-      "description": "Postgres Password",
-      "severity": "high",
-      "matched_pattern": "POST******************o123",
-      "timestamp": "2026-04-22T05:51:41.479433"
-    },
     {
       "service": "postgres",
       "file": ".env.example",
@@ -39,8 +13,8 @@
       "key_type": "postgres_password",
       "description": "Postgres Password",
       "severity": "high",
-      "matched_pattern": "POST******************s123",
-      "timestamp": "2026-04-22T05:51:41.595033"
+      "matched_pattern": "********",
+      "timestamp": "2026-04-23T05:53:49.419912"
     },
     {
       "service": "postgres",
@@ -53,7 +27,7 @@
       "description": "Postgres Password",
       "severity": "high",
       "matched_pattern": "POST**************************IX6P",
-      "timestamp": "2026-04-22T05:51:56.048795"
+      "timestamp": "2026-04-23T05:54:05.966709"
     }
   ]
 }

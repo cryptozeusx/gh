@@ -1,7 +1,7 @@
 {
   "service": "pimlico",
-  "scan_timestamp": "2026-04-22T05:52:17.866207",
-  "finding_count": 4,
+  "scan_timestamp": "2026-04-23T05:54:27.671769",
+  "finding_count": 5,
   "findings": [
     {
       "service": "pimlico",
@@ -14,7 +14,20 @@
       "description": "Pimlico Api Key",
       "severity": "medium",
       "matched_pattern": "PIML************************************FcU'",
-      "timestamp": "2026-04-22T05:51:35.317171"
+      "timestamp": "2026-04-23T05:53:40.529928"
+    },
+    {
+      "service": "pimlico",
+      "file": "vercel.env",
+      "repository": "xchrisbradley/boringjobs",
+      "url": "https://github.com/xchrisbradley/boringjobs/blob/6992a2f38a819712d4e69e764701c483d4461b61/vercel.env",
+      "line_number": 25,
+      "line_preview": "PIMLICO_API_KEY=81c4160f-ec4b-4580-b4bd-7e10d0df5332",
+      "key_type": "pimlico_api_key",
+      "description": "Pimlico Api Key",
+      "severity": "medium",
+      "matched_pattern": "PIML********************************************5332",
+      "timestamp": "2026-04-23T05:53:42.747027"
     },
     {
       "service": "pimlico",
@@ -27,7 +40,7 @@
       "description": "Pimlico Usdc Token Address",
       "severity": "medium",
       "matched_pattern": "0x92*******************************************************************************************************************ens)",
-      "timestamp": "2026-04-22T05:51:54.252623"
+      "timestamp": "2026-04-23T05:54:03.081573"
     },
     {
       "service": "pimlico",
@@ -40,7 +53,7 @@
       "description": "Pimlico Erc20 Token Contract",
       "severity": "medium",
       "matched_pattern": "0x0b**********************************502a",
-      "timestamp": "2026-04-22T05:51:54.252675"
+      "timestamp": "2026-04-23T05:54:03.081629"
     },
     {
       "service": "pimlico",
@@ -53,7 +66,7 @@
       "description": "Pimlico Erc721 Token Contract",
       "severity": "medium",
       "matched_pattern": "0xf1**********************************7a05",
-      "timestamp": "2026-04-22T05:51:54.252727"
+      "timestamp": "2026-04-23T05:54:03.081676"
     }
   ]
 }

@@ -1,34 +1,8 @@
 {
   "service": "supabase",
-  "scan_timestamp": "2026-04-22T05:52:17.869037",
-  "finding_count": 5,
+  "scan_timestamp": "2026-04-23T05:54:27.675709",
+  "finding_count": 4,
   "findings": [
-    {
-      "service": "supabase",
-      "file": "backend/.env.example",
-      "repository": "Anubhavjaiswal21/todo-summary-assistant",
-      "url": "https://github.com/Anubhavjaiswal21/todo-summary-assistant/blob/b30a5a09fd58a3340a5f8406d62751821c4dee7b/backend/.env.example",
-      "line_number": 2,
-      "line_preview": "SUPABASE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVsY2Z5Y2doaWdhZXp0b2x5emZuIiwicm9sZS",
-      "key_type": "supabase_key",
-      "description": "Supabase Key",
-      "severity": "medium",
-      "matched_pattern": "eyJh********************************************************************************************************************************************************************************************************4isA",
-      "timestamp": "2026-04-22T05:51:34.206340"
-    },
-    {
-      "service": "supabase",
-      "file": ".env.production.example",
-      "repository": "kcg34kcg-web/Marinantex",
-      "url": "https://github.com/kcg34kcg-web/Marinantex/blob/497c58d1bdf4ac30f3307cd4afca546350de4cc7/.env.production.example",
-      "line_number": 7,
-      "line_preview": "SUPABASE_SERVICE_ROLE_KEY=\"sdf34f-sdEARA\"",
-      "key_type": "supabase_service_role_key",
-      "description": "Supabase Service Role Key",
-      "severity": "medium",
-      "matched_pattern": "sdf3*****EARA",
-      "timestamp": "2026-04-22T05:51:41.998764"
-    },
     {
       "service": "supabase",
       "file": ".env.local",
@@ -39,21 +13,8 @@
       "key_type": "supabase_service_role_key",
       "description": "Supabase Service Role Key",
       "severity": "medium",
-      "matched_pattern": "SUPA*********************************************************************************************************************************************************************************************************************************************_bsc",
-      "timestamp": "2026-04-22T05:51:57.620389"
-    },
-    {
-      "service": "supabase",
-      "file": ".env.local",
-      "repository": "Orkestaia/orkesta-os",
-      "url": "https://github.com/Orkestaia/orkesta-os/blob/df0130fd2403feb2ce5ae64ba4754a5e51310f08/.env.local",
-      "line_number": 3,
-      "line_preview": "SUPABASE_SERVICE_ROLE_KEY=sb_secret_Y_qh9ha4w8y5_Osj7j6C3g_FlWoc8Mx",
-      "key_type": "supabase_service_role_key",
-      "description": "Supabase Service Role Key",
-      "severity": "medium",
-      "matched_pattern": "SUPA***********************************************************c8Mx",
-      "timestamp": "2026-04-22T05:52:02.298653"
+      "matched_pattern": "eyJh*******************************************************************************************************************************************************************************************************************_bsc",
+      "timestamp": "2026-04-23T05:53:29.886872"
     },
     {
       "service": "supabase",
@@ -66,7 +27,33 @@
       "description": "Supabase Service Role Key",
       "severity": "medium",
       "matched_pattern": "SUPA*********************************************************************************************************************************************************************************************************************************************itoI",
-      "timestamp": "2026-04-22T05:52:02.394075"
+      "timestamp": "2026-04-23T05:53:42.841067"
+    },
+    {
+      "service": "supabase",
+      "file": ".env.production.example",
+      "repository": "kcg34kcg-web/Marinantex",
+      "url": "https://github.com/kcg34kcg-web/Marinantex/blob/497c58d1bdf4ac30f3307cd4afca546350de4cc7/.env.production.example",
+      "line_number": 7,
+      "line_preview": "SUPABASE_SERVICE_ROLE_KEY=\"sdf34f-sdEARA\"",
+      "key_type": "supabase_service_role_key",
+      "description": "Supabase Service Role Key",
+      "severity": "medium",
+      "matched_pattern": "SUPA*********************************ARA\"",
+      "timestamp": "2026-04-23T05:53:50.300811"
+    },
+    {
+      "service": "supabase",
+      "file": ".env.local",
+      "repository": "Orkestaia/orkesta-os",
+      "url": "https://github.com/Orkestaia/orkesta-os/blob/df0130fd2403feb2ce5ae64ba4754a5e51310f08/.env.local",
+      "line_number": 3,
+      "line_preview": "SUPABASE_SERVICE_ROLE_KEY=sb_secret_Y_qh9ha4w8y5_Osj7j6C3g_FlWoc8Mx",
+      "key_type": "supabase_service_role_key",
+      "description": "Supabase Service Role Key",
+      "severity": "medium",
+      "matched_pattern": "SUPA***********************************************************c8Mx",
+      "timestamp": "2026-04-23T05:54:12.452859"
     }
   ]
 }

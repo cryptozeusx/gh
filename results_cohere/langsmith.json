@@ -1,20 +1,20 @@
 {
   "service": "langsmith",
-  "scan_timestamp": "2026-04-22T05:52:17.863065",
+  "scan_timestamp": "2026-04-23T05:54:27.667444",
   "finding_count": 1,
   "findings": [
     {
       "service": "langsmith",
       "file": ".env_sample",
-      "repository": "jia5232/langchain_teddy",
-      "url": "https://github.com/jia5232/langchain_teddy/blob/1999da031d689326fc7db9596b4a29b10076e290/.env_sample",
+      "repository": "ds-seungwan/langchain-tutorial",
+      "url": "https://github.com/ds-seungwan/langchain-tutorial/blob/64868f1c0f7c9ecc6400d28b9a41daf8d1ef72a8/.env_sample",
       "line_number": 5,
       "line_preview": "LANGSMITH_API_KEY=ls__69f274d55...",
       "key_type": "langsmith_api_key",
       "description": "Langsmith Api Key",
       "severity": "medium",
       "matched_pattern": "ls__********5...",
-      "timestamp": "2026-04-22T05:51:17.782689"
+      "timestamp": "2026-04-23T05:53:28.449080"
     }
   ]
 }

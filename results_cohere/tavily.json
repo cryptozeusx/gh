@@ -1,20 +1,46 @@
 {
   "service": "tavily",
-  "scan_timestamp": "2026-04-22T05:52:17.869281",
-  "finding_count": 6,
+  "scan_timestamp": "2026-04-23T05:54:27.676214",
+  "finding_count": 8,
   "findings": [
     {
       "service": "tavily",
       "file": ".env_sample",
-      "repository": "jia5232/langchain_teddy",
-      "url": "https://github.com/jia5232/langchain_teddy/blob/1999da031d689326fc7db9596b4a29b10076e290/.env_sample",
+      "repository": "ds-seungwan/langchain-tutorial",
+      "url": "https://github.com/ds-seungwan/langchain-tutorial/blob/64868f1c0f7c9ecc6400d28b9a41daf8d1ef72a8/.env_sample",
       "line_number": 7,
       "line_preview": "TAVILY_API_KEY=tvly-mGxBGvzbH...",
       "key_type": "tavily_api_key",
       "description": "Tavily Api Key",
       "severity": "medium",
       "matched_pattern": "tvly*********H...",
-      "timestamp": "2026-04-22T05:51:17.782726"
+      "timestamp": "2026-04-23T05:53:28.449146"
+    },
+    {
+      "service": "tavily",
+      "file": ".env_sample",
+      "repository": "IHAGI-c/langchain-study",
+      "url": "https://github.com/IHAGI-c/langchain-study/blob/e1d2ade5cd6605f27240005edcfbd7cc1c6dba8b/.env_sample",
+      "line_number": 9,
+      "line_preview": "TAVILY_API_KEY=tvly-mGxBGvzbH...",
+      "key_type": "tavily_api_key",
+      "description": "Tavily Api Key",
+      "severity": "medium",
+      "matched_pattern": "TAVI************************H...",
+      "timestamp": "2026-04-23T05:53:31.287765"
+    },
+    {
+      "service": "tavily",
+      "file": ".env_sample",
+      "repository": "jykim-code/RAGClass",
+      "url": "https://github.com/jykim-code/RAGClass/blob/edf490b0aad5593672ab560a41c7268f08ca389d/.env_sample",
+      "line_number": 7,
+      "line_preview": "TAVILY_API_KEY=tvly-mGxBGvzbH...",
+      "key_type": "tavily_api_key",
+      "description": "Tavily Api Key",
+      "severity": "medium",
+      "matched_pattern": "TAVI************************H...",
+      "timestamp": "2026-04-23T05:53:31.388636"
     },
     {
       "service": "tavily",
@@ -27,7 +53,7 @@
       "description": "Tavily Api Key",
       "severity": "medium",
       "matched_pattern": "TAVI************************H...",
-      "timestamp": "2026-04-22T05:51:19.724384"
+      "timestamp": "2026-04-23T05:53:31.607417"
     },
     {
       "service": "tavily",
@@ -40,7 +66,7 @@
       "description": "Tavily API Key",
       "severity": "high",
       "matched_pattern": "tvly*****************************2Xo0",
-      "timestamp": "2026-04-22T05:51:34.865622"
+      "timestamp": "2026-04-23T05:53:40.018956"
     },
     {
       "service": "tavily",
@@ -53,7 +79,7 @@
       "description": "Tavily API Key (named var)",
       "severity": "high",
       "matched_pattern": "TAVI**********************************************2Xo0",
-      "timestamp": "2026-04-22T05:51:34.866284"
+      "timestamp": "2026-04-23T05:53:40.018998"
     },
     {
       "service": "tavily",
@@ -66,7 +92,7 @@
       "description": "Tavily API Key",
       "severity": "high",
       "matched_pattern": "tvly*****************************jSg2",
-      "timestamp": "2026-04-22T05:51:35.206679"
+      "timestamp": "2026-04-23T05:53:40.409795"
     },
     {
       "service": "tavily",
@@ -79,7 +105,7 @@
       "description": "Tavily API Key (named var)",
       "severity": "high",
       "matched_pattern": "TAVI********************************************jSg2",
-      "timestamp": "2026-04-22T05:51:35.206751"
+      "timestamp": "2026-04-23T05:53:40.409839"
     }
   ]
 }
