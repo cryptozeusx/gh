@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-04-22T06:01:27.186014",
-  "total_keys": 83,
-  "live_keys": 59,
+  "checked_at": "2026-04-23T06:07:37.668616",
+  "total_keys": 85,
+  "live_keys": 61,
   "results": [
     {
       "key_redacted": "CHnhlk****mU2X",
@@ -89,7 +89,8 @@
       "valid": true,
       "plan": "Trial",
       "limit": "40",
-      "remaining": "39"
+      "remaining": "39",
+      "chat_error": "HTTP 429: {\"id\":\"12620cc0-f504-485c-8fed-67a41cd786f2\",\"message\":\"You are using a Trial key, which is limited "
     },
     {
       "key_redacted": "dms5K5****EQMB",
@@ -484,7 +485,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 402: {\"id\":\"4026cd8c-fbb9-448f-95eb-7d6e7999cb60\",\"message\":\"Please add or update your payment method at "
+      "chat_error": "HTTP 402: {\"id\":\"790137ec-6160-454c-9cff-b44e64b176ff\",\"message\":\"Please add or update your payment method at "
     },
     {
       "key_redacted": "RMsr7n****WdRm",
@@ -601,7 +602,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"7801e9b8-34ca-4e8a-9b5d-1cfe4ca076f8\",\"message\":\"Please wait and try again later\"}"
+      "chat_error": "HTTP 429: {\"id\":\"dfa708c2-1eba-4cb6-a06e-566b0b7f89ba\",\"message\":\"Please wait and try again later\"}"
     },
     {
       "key_redacted": "pczcIA****uJdA",
@@ -613,7 +614,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"ee9a786a-5e27-4416-9537-a37104d17245\",\"message\":\"Please wait and try again later\"}"
+      "chat_error": "HTTP 429: {\"id\":\"3b6346a6-127d-4ff4-9363-d9f36b05ab39\",\"message\":\"Please wait and try again later\"}"
     },
     {
       "key_redacted": "UHHM6t****SHSx",
@@ -625,7 +626,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"cfd1a213-4ef6-4ddc-8aff-b4d8ae67cf8c\",\"message\":\"Please wait and try again later\"}"
+      "chat_error": "HTTP 429: {\"id\":\"54849f7a-68cb-4973-92ed-c1bf85b1c02a\",\"message\":\"Please wait and try again later\"}"
     },
     {
       "key_redacted": "7ZT0rk****HDgT",
@@ -637,7 +638,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"dec5bc07-26b6-4fe2-9235-dc4d6c9736ed\",\"message\":\"Please wait and try again later\"}"
+      "chat_error": "HTTP 429: {\"id\":\"15ccb1ef-a42f-4a19-9c50-ae30fd98f176\",\"message\":\"Please wait and try again later\"}"
     },
     {
       "key_redacted": "jCh2tn****va0w",
@@ -649,7 +650,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"b13be5f4-d480-46c4-88b0-75d25e9a4724\",\"message\":\"Please wait and try again later\"}"
+      "chat_error": "HTTP 429: {\"id\":\"31aa7f29-3bbc-4170-85bb-84fa99b1c0bc\",\"message\":\"Please wait and try again later\"}"
     },
     {
       "key_redacted": "ImZLll****y3P9",
@@ -661,7 +662,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"7531dc31-10da-4b8c-875e-8e5fd135fade\",\"message\":\"Please wait and try again later\"}"
+      "chat_error": "HTTP 429: {\"id\":\"8b5b4a8b-a088-4d6a-9740-477b18c59aa1\",\"message\":\"Please wait and try again later\"}"
     },
     {
       "key_redacted": "vDKYv8****zQy6",
@@ -673,7 +674,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"7a32e0e2-a1d6-4fd7-a7f2-64632b9174e0\",\"message\":\"Please wait and try again later\"}"
+      "chat_error": "HTTP 429: {\"id\":\"ece9aac2-0df9-4262-8eb4-14a0cd3a9243\",\"message\":\"Please wait and try again later\"}"
     },
     {
       "key_redacted": "gOu0qd****YMwR",
@@ -685,7 +686,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"6481510d-ab5a-48e1-b3b1-6511455dab03\",\"message\":\"Please wait and try again later\"}"
+      "chat_error": "HTTP 429: {\"id\":\"5c973945-f1d6-46d3-ac37-6ffa19c8290b\",\"message\":\"Please wait and try again later\"}"
     },
     {
       "key_redacted": "81c416****5332",
@@ -715,7 +716,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"ec93081e-9250-4d7f-a82c-30772fb24c0b\",\"message\":\"Please wait and try again later\"}"
+      "chat_error": "HTTP 429: {\"id\":\"af2430a0-f5f4-4a79-bfb6-093c2eb645fe\",\"message\":\"Please wait and try again later\"}"
     },
     {
       "key_redacted": "7AQiaf****7m2Z",
@@ -733,7 +734,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"841bbac7-4171-4024-ab8f-121965e62df3\",\"message\":\"Please wait and try again later\"}"
+      "chat_error": "HTTP 429: {\"id\":\"785a92b5-961e-42bd-baa0-7025d552c4fa\",\"message\":\"Please wait and try again later\"}"
     },
     {
       "key_redacted": "SJ6RvY****1md4",
@@ -745,7 +746,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"9a3001c7-d559-4187-a56a-5a9d04d5ab33\",\"message\":\"Please wait and try again later\"}"
+      "chat_error": "HTTP 429: {\"id\":\"84a96faf-659b-4cdb-a667-e06c48af9ea7\",\"message\":\"Please wait and try again later\"}"
     },
     {
       "key_redacted": "Iqdbur****P0b3",
@@ -757,7 +758,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"0930361b-34c6-4dae-ab16-ec762f6a440e\",\"message\":\"Please wait and try again later\"}"
+      "chat_error": "HTTP 429: {\"id\":\"b7ad724d-a26f-4eb8-a877-99afb9106062\",\"message\":\"Please wait and try again later\"}"
     },
     {
       "key_redacted": "sandbo****nzoL",
@@ -775,7 +776,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"e15c7a4d-ff61-4206-892f-9fee53b98c44\",\"message\":\"Please wait and try again later\"}"
+      "chat_error": "HTTP 429: {\"id\":\"01f54a09-ac07-4afc-bf26-116acce64d5a\",\"message\":\"Please wait and try again later\"}"
     },
     {
       "key_redacted": "YRZRjV****6OGz",
@@ -787,7 +788,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"99c98ed2-8bcc-4d4b-a0b1-7d82ae573e72\",\"message\":\"Please wait and try again later\"}"
+      "chat_error": "HTTP 429: {\"id\":\"03ea3263-3ce4-4bc2-b496-9b34e5a53bbc\",\"message\":\"Please wait and try again later\"}"
     },
     {
       "key_redacted": "eNSZyV****7ux8",
@@ -799,7 +800,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"854618d8-b080-46ff-b889-4d1e58952b1b\",\"message\":\"Please wait and try again later\"}"
+      "chat_error": "HTTP 429: {\"id\":\"d7360bd0-8d9c-472e-a4bf-13385b02a98c\",\"message\":\"Please wait and try again later\"}"
     },
     {
       "key_redacted": "OL8kzI****bhel",
@@ -811,7 +812,31 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"01992731-f6e9-49db-b3d1-23b70d9b6811\",\"message\":\"Please wait and try again later\"}"
+      "chat_error": "HTTP 429: {\"id\":\"48e730a0-7422-4616-9100-e6e64b9b6f8d\",\"message\":\"Please wait and try again later\"}"
+    },
+    {
+      "key_redacted": "baEfuL****zi6v",
+      "repository": "alex8616/Phising",
+      "url": "https://github.com/alex8616/Phising/blob/f3c2230265cff092a756518082d8e1a2ff60cb45/.env%20copy",
+      "organization_id": "4e8a1810-86fb-416f-8880-15414bbc9b3c",
+      "owner_id": "2df7b581-152f-4ac5-879b-4b0b4f5b4b68",
+      "valid": true,
+      "plan": "Production",
+      "limit": "?",
+      "remaining": "?",
+      "chat_error": "HTTP 429: {\"id\":\"0b2faf75-90d6-418c-ace2-d2b07e3f22a3\",\"message\":\"Please wait and try again later\"}"
+    },
+    {
+      "key_redacted": "tmk0g5****nZwF",
+      "repository": "alex8616/Phising",
+      "url": "https://github.com/alex8616/Phising/blob/f3c2230265cff092a756518082d8e1a2ff60cb45/.env%20copy",
+      "organization_id": "5637707c-ad01-445f-a047-c5a57f0bb966",
+      "owner_id": "0d25fb44-7aca-42b2-a0e4-33fc060ff9ed",
+      "valid": true,
+      "plan": "Production",
+      "limit": "?",
+      "remaining": "?",
+      "chat_error": "HTTP 429: {\"id\":\"1ec5ddf9-8394-4439-8917-75281178e540\",\"message\":\"Please wait and try again later\"}"
     }
   ]
 }
