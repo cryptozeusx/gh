@@ -1,7 +1,7 @@
 {
   "service": "langchain",
-  "scan_timestamp": "2026-04-23T05:54:27.667280",
-  "finding_count": 3,
+  "scan_timestamp": "2026-04-24T05:57:45.168607",
+  "finding_count": 2,
   "findings": [
     {
       "service": "langchain",
@@ -14,20 +14,7 @@
       "description": "Langchain Api Key",
       "severity": "medium",
       "matched_pattern": "LANG**************************5...",
-      "timestamp": "2026-04-23T05:53:31.287719"
-    },
-    {
-      "service": "langchain",
-      "file": ".env_sample",
-      "repository": "jykim-code/RAGClass",
-      "url": "https://github.com/jykim-code/RAGClass/blob/edf490b0aad5593672ab560a41c7268f08ca389d/.env_sample",
-      "line_number": 5,
-      "line_preview": "LANGCHAIN_API_KEY=ls__69f274d55...",
-      "key_type": "langchain_api_key",
-      "description": "Langchain Api Key",
-      "severity": "medium",
-      "matched_pattern": "LANG**************************5...",
-      "timestamp": "2026-04-23T05:53:31.388592"
+      "timestamp": "2026-04-24T05:56:41.112056"
     },
     {
       "service": "langchain",
@@ -40,7 +27,7 @@
       "description": "Langchain Api Key",
       "severity": "medium",
       "matched_pattern": "LANG**************************5...",
-      "timestamp": "2026-04-23T05:53:31.607372"
+      "timestamp": "2026-04-24T05:56:41.249217"
     }
   ]
 }

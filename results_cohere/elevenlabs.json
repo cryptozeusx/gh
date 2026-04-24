@@ -1,6 +1,6 @@
 {
   "service": "elevenlabs",
-  "scan_timestamp": "2026-04-20T06:04:04.839371",
+  "scan_timestamp": "2026-04-24T05:57:45.161641",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Elevenlabs Api Key",
       "severity": "medium",
       "matched_pattern": "ELEV**************************************************************557a",
-      "timestamp": "2026-04-20T06:03:43.011900"
+      "timestamp": "2026-04-24T05:57:23.650390"
     }
   ]
 }

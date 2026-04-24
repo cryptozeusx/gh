@@ -1,6 +1,6 @@
 {
   "service": "db",
-  "scan_timestamp": "2026-04-23T05:54:27.660288",
+  "scan_timestamp": "2026-04-24T05:57:45.161251",
   "finding_count": 5,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "8g3Z********DIRS",
-      "timestamp": "2026-04-23T05:53:23.730764"
+      "timestamp": "2026-04-24T05:56:36.157656"
     },
     {
       "service": "db",
@@ -27,7 +27,7 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "DB_P************3214",
-      "timestamp": "2026-04-23T05:53:34.382798"
+      "timestamp": "2026-04-24T05:56:46.310328"
     },
     {
       "service": "db",
@@ -40,7 +40,7 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "DB_P************************N*EW",
-      "timestamp": "2026-04-23T05:53:34.709312"
+      "timestamp": "2026-04-24T05:56:46.739213"
     },
     {
       "service": "db",
@@ -53,20 +53,20 @@
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "DB_P*************Dk>0",
-      "timestamp": "2026-04-23T05:53:41.743052"
+      "timestamp": "2026-04-24T05:56:55.792513"
     },
     {
       "service": "db",
       "file": "pmoves/env.shared.example",
       "repository": "POWERFULMOVES/PMOVES.AI",
-      "url": "https://github.com/POWERFULMOVES/PMOVES.AI/blob/e6f9381ee465d9aad5af39e51d8fa65a74a59fde/pmoves/env.shared.example",
+      "url": "https://github.com/POWERFULMOVES/PMOVES.AI/blob/4c517a34dd2bdc581626d261cff4d6faf23ccc2c/pmoves/env.shared.example",
       "line_number": 151,
       "line_preview": "N8N_DB_PASSWORD=CHANGE_ME_N8N_DB_PASSWORD",
       "key_type": "db_password",
       "description": "Db Password",
       "severity": "high",
       "matched_pattern": "DB_P*****************************WORD",
-      "timestamp": "2026-04-23T05:53:47.153065"
+      "timestamp": "2026-04-24T05:57:03.659233"
     }
   ]
 }

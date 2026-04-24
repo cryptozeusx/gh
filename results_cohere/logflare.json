@@ -1,6 +1,6 @@
 {
   "service": "logflare",
-  "scan_timestamp": "2026-04-23T05:54:27.667708",
+  "scan_timestamp": "2026-04-24T05:57:45.168856",
   "finding_count": 2,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Logflare Api Key",
       "severity": "medium",
       "matched_pattern": "EoOU****PssM",
-      "timestamp": "2026-04-23T05:53:26.094965"
+      "timestamp": "2026-04-24T05:56:38.948847"
     },
     {
       "service": "logflare",
@@ -27,7 +27,7 @@
       "description": "Logflare Source Token",
       "severity": "medium",
       "matched_pattern": "01bd****************************1436",
-      "timestamp": "2026-04-23T05:53:26.095009"
+      "timestamp": "2026-04-24T05:56:38.948889"
     }
   ]
 }

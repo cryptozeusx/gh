@@ -1,7 +1,7 @@
 {
   "service": "anthropic",
-  "scan_timestamp": "2026-04-23T05:54:27.655904",
-  "finding_count": 9,
+  "scan_timestamp": "2026-04-24T05:57:45.157874",
+  "finding_count": 6,
   "findings": [
     {
       "service": "anthropic",
@@ -14,20 +14,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "# Re****************************-...",
-      "timestamp": "2026-04-23T05:53:28.159081"
-    },
-    {
-      "service": "anthropic",
-      "file": ".env_sample",
-      "repository": "ds-seungwan/langchain-tutorial",
-      "url": "https://github.com/ds-seungwan/langchain-tutorial/blob/64868f1c0f7c9ecc6400d28b9a41daf8d1ef72a8/.env_sample",
-      "line_number": 10,
-      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api0...",
-      "key_type": "anthropic_api_key",
-      "description": "Anthropic Api Key",
-      "severity": "medium",
-      "matched_pattern": "ANTH************************0...",
-      "timestamp": "2026-04-23T05:53:28.448985"
+      "timestamp": "2026-04-24T05:56:40.612221"
     },
     {
       "service": "anthropic",
@@ -40,20 +27,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH************************0...",
-      "timestamp": "2026-04-23T05:53:31.287930"
-    },
-    {
-      "service": "anthropic",
-      "file": ".env_sample",
-      "repository": "jykim-code/RAGClass",
-      "url": "https://github.com/jykim-code/RAGClass/blob/edf490b0aad5593672ab560a41c7268f08ca389d/.env_sample",
-      "line_number": 10,
-      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api0...",
-      "key_type": "anthropic_api_key",
-      "description": "Anthropic Api Key",
-      "severity": "medium",
-      "matched_pattern": "ANTH************************0...",
-      "timestamp": "2026-04-23T05:53:31.388802"
+      "timestamp": "2026-04-24T05:56:41.112220"
     },
     {
       "service": "anthropic",
@@ -66,7 +40,20 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH************************0...",
-      "timestamp": "2026-04-23T05:53:31.607579"
+      "timestamp": "2026-04-24T05:56:41.249435"
+    },
+    {
+      "service": "anthropic",
+      "file": ".env.save",
+      "repository": "samrahimi/factoid-ai",
+      "url": "https://github.com/samrahimi/factoid-ai/blob/9b870d3e93ccf5e4a43d3bd03c81b6a1a1a81e77/.env.save",
+      "line_number": 8,
+      "line_preview": "ANTHROPIC_API_KEY=sk-ant-api03-NN1FrN980a9GLfO2kOjD2GL-GuzxXiJjuZoBzOSypXGzlPE8ngg995Z02EzG4VpciK0IC0S3sjFSRr9OEzLCjA-Ir",
+      "key_type": "anthropic_api_key",
+      "description": "Anthropic Api Key",
+      "severity": "medium",
+      "matched_pattern": "ANTH**********************************************************************************************************************FAAA",
+      "timestamp": "2026-04-24T05:56:43.515528"
     },
     {
       "service": "anthropic",
@@ -79,33 +66,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************cwAA",
-      "timestamp": "2026-04-23T05:53:37.578525"
-    },
-    {
-      "service": "anthropic",
-      "file": ".env.example",
-      "repository": "llama-farm/llamafarm",
-      "url": "https://github.com/llama-farm/llamafarm/blob/f4634c6e41eb398a69a5bdf452ffc5a4c2eadf4e/.env.example",
-      "line_number": 14,
-      "line_preview": "ANTHROPIC_API_KEY=  # Get from: https://console.anthropic.com/",
-      "key_type": "anthropic_api_key",
-      "description": "Anthropic Api Key",
-      "severity": "medium",
-      "matched_pattern": "# Ge**********************************com/",
-      "timestamp": "2026-04-23T05:53:46.873586"
-    },
-    {
-      "service": "anthropic",
-      "file": ".env.example",
-      "repository": "stevenfazzio/semantic-github-map",
-      "url": "https://github.com/stevenfazzio/semantic-github-map/blob/4035e2eb01d4e79769b8e41b7dabe95a93b9018d/.env.example",
-      "line_number": 4,
-      "line_preview": "ANTHROPIC_API_KEY=      # Anthropic API key (README summarization + topic naming)",
-      "key_type": "anthropic_api_key",
-      "description": "Anthropic Api Key",
-      "severity": "medium",
-      "matched_pattern": "# An*************************************************ing)",
-      "timestamp": "2026-04-23T05:53:58.028008"
+      "timestamp": "2026-04-24T05:56:50.016796"
     },
     {
       "service": "anthropic",
@@ -118,7 +79,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************DgAA",
-      "timestamp": "2026-04-23T05:54:07.468202"
+      "timestamp": "2026-04-24T05:57:25.098666"
     }
   ]
 }

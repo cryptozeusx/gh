@@ -1,7 +1,7 @@
 {
   "service": "iyzico",
-  "scan_timestamp": "2026-04-23T05:54:27.666246",
-  "finding_count": 16,
+  "scan_timestamp": "2026-04-24T05:57:45.167476",
+  "finding_count": 18,
   "findings": [
     {
       "service": "iyzico",
@@ -14,7 +14,7 @@
       "description": "Iyzico Api Key",
       "severity": "medium",
       "matched_pattern": "IYZI*************************************************E9o\"",
-      "timestamp": "2026-04-23T05:53:41.079885"
+      "timestamp": "2026-04-24T05:56:54.943459"
     },
     {
       "service": "iyzico",
@@ -27,7 +27,7 @@
       "description": "Iyzico Secret Key",
       "severity": "high",
       "matched_pattern": "IYZI****************************************************ceu\"",
-      "timestamp": "2026-04-23T05:53:41.079963"
+      "timestamp": "2026-04-24T05:56:54.943544"
     },
     {
       "service": "iyzico",
@@ -40,7 +40,7 @@
       "description": "Iyzico Api Key",
       "severity": "medium",
       "matched_pattern": "IYZI***************************************TylK",
-      "timestamp": "2026-04-23T05:53:41.743283"
+      "timestamp": "2026-04-24T05:56:55.792649"
     },
     {
       "service": "iyzico",
@@ -53,7 +53,7 @@
       "description": "Iyzico Secret Key",
       "severity": "high",
       "matched_pattern": "IYZI******************************************1BU7",
-      "timestamp": "2026-04-23T05:53:41.743434"
+      "timestamp": "2026-04-24T05:56:55.792734"
     },
     {
       "service": "iyzico",
@@ -66,7 +66,7 @@
       "description": "Iyzico Api Key",
       "severity": "medium",
       "matched_pattern": "IYZI***********************************************nzoL",
-      "timestamp": "2026-04-23T05:53:42.617995"
+      "timestamp": "2026-04-24T05:56:56.921050"
     },
     {
       "service": "iyzico",
@@ -79,7 +79,7 @@
       "description": "Iyzico Secret Key",
       "severity": "high",
       "matched_pattern": "IYZI**************************************************h6Wx",
-      "timestamp": "2026-04-23T05:53:42.618091"
+      "timestamp": "2026-04-24T05:56:56.921162"
     },
     {
       "service": "iyzico",
@@ -92,7 +92,7 @@
       "description": "Iyzico Api Key",
       "severity": "medium",
       "matched_pattern": "IYZI***********************************************DbTn",
-      "timestamp": "2026-04-23T05:53:42.841233"
+      "timestamp": "2026-04-24T05:56:57.194319"
     },
     {
       "service": "iyzico",
@@ -105,7 +105,7 @@
       "description": "Iyzico Secret Key",
       "severity": "high",
       "matched_pattern": "IYZI**************************************************exnA",
-      "timestamp": "2026-04-23T05:53:42.841332"
+      "timestamp": "2026-04-24T05:56:57.194417"
     },
     {
       "service": "iyzico",
@@ -118,7 +118,7 @@
       "description": "Iyzico Api Key",
       "severity": "medium",
       "matched_pattern": "IYZI*************************************************AZI\"",
-      "timestamp": "2026-04-23T05:53:43.031454"
+      "timestamp": "2026-04-24T05:56:57.460825"
     },
     {
       "service": "iyzico",
@@ -131,7 +131,7 @@
       "description": "Iyzico Secret Key",
       "severity": "high",
       "matched_pattern": "IYZI****************************************************6kq\"",
-      "timestamp": "2026-04-23T05:53:43.031542"
+      "timestamp": "2026-04-24T05:56:57.460928"
     },
     {
       "service": "iyzico",
@@ -144,7 +144,7 @@
       "description": "Iyzico Api Key",
       "severity": "medium",
       "matched_pattern": "IYZI*************************************************E9o\"",
-      "timestamp": "2026-04-23T05:53:56.380819"
+      "timestamp": "2026-04-24T05:57:13.636448"
     },
     {
       "service": "iyzico",
@@ -157,7 +157,33 @@
       "description": "Iyzico Secret Key",
       "severity": "high",
       "matched_pattern": "IYZI****************************************************ceu\"",
-      "timestamp": "2026-04-23T05:53:56.380901"
+      "timestamp": "2026-04-24T05:57:13.636527"
+    },
+    {
+      "service": "iyzico",
+      "file": ".env.dev.example",
+      "repository": "metinemredonmez/novara",
+      "url": "https://github.com/metinemredonmez/novara/blob/c2308603f41fe2b204dc373993e2766577a70c3b/.env.dev.example",
+      "line_number": 32,
+      "line_preview": "IYZICO_API_KEY=sandbox-",
+      "key_type": "iyzico_api_key",
+      "description": "Iyzico Api Key",
+      "severity": "medium",
+      "matched_pattern": "IYZI***************box-",
+      "timestamp": "2026-04-24T05:57:16.231036"
+    },
+    {
+      "service": "iyzico",
+      "file": ".env.dev.example",
+      "repository": "metinemredonmez/novara",
+      "url": "https://github.com/metinemredonmez/novara/blob/c2308603f41fe2b204dc373993e2766577a70c3b/.env.dev.example",
+      "line_number": 33,
+      "line_preview": "IYZICO_SECRET=sandbox-",
+      "key_type": "iyzico_secret",
+      "description": "Iyzico Secret",
+      "severity": "high",
+      "matched_pattern": "********",
+      "timestamp": "2026-04-24T05:57:16.231102"
     },
     {
       "service": "iyzico",
@@ -170,7 +196,7 @@
       "description": "Iyzico Api Key",
       "severity": "medium",
       "matched_pattern": "IYZI***************************************************uve\"",
-      "timestamp": "2026-04-23T05:54:04.074398"
+      "timestamp": "2026-04-24T05:57:21.676662"
     },
     {
       "service": "iyzico",
@@ -183,7 +209,7 @@
       "description": "Iyzico Secret Key",
       "severity": "high",
       "matched_pattern": "IYZI****************************************************M27\"",
-      "timestamp": "2026-04-23T05:54:04.074484"
+      "timestamp": "2026-04-24T05:57:21.676746"
     },
     {
       "service": "iyzico",
@@ -196,7 +222,7 @@
       "description": "Iyzico Api Key",
       "severity": "medium",
       "matched_pattern": "IYZI***********************************************FBUN",
-      "timestamp": "2026-04-23T05:54:26.378781"
+      "timestamp": "2026-04-24T05:57:43.869962"
     },
     {
       "service": "iyzico",
@@ -209,7 +235,7 @@
       "description": "Iyzico Secret Key",
       "severity": "high",
       "matched_pattern": "IYZI******************************************9NXN",
-      "timestamp": "2026-04-23T05:54:26.378890"
+      "timestamp": "2026-04-24T05:57:43.870058"
     }
   ]
 }

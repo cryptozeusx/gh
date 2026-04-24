@@ -1,6 +1,6 @@
 {
   "service": "co",
-  "scan_timestamp": "2026-04-23T05:54:27.657959",
+  "scan_timestamp": "2026-04-24T05:57:45.159153",
   "finding_count": 10,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*************duce",
-      "timestamp": "2026-04-23T05:53:36.575884"
+      "timestamp": "2026-04-24T05:56:48.991222"
     },
     {
       "service": "co",
@@ -27,20 +27,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*****************************B8fE",
-      "timestamp": "2026-04-23T05:53:36.792913"
-    },
-    {
-      "service": "co",
-      "file": ".env",
-      "repository": "cecepns/carrywise-dashboard",
-      "url": "https://github.com/cecepns/carrywise-dashboard/blob/df159cbf9e60595a7db3a96a55eb9d473959cca8/.env",
-      "line_number": 6,
-      "line_preview": "VITE_MAPS_CO_API_KEY=658ea164ba8de424993651furba89cf",
-      "key_type": "co_api_key",
-      "description": "Co Api Key",
-      "severity": "medium",
-      "matched_pattern": "CO_A**********************************89cf",
-      "timestamp": "2026-04-23T05:53:36.897733"
+      "timestamp": "2026-04-24T05:56:49.263490"
     },
     {
       "service": "co",
@@ -53,7 +40,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*******************Q80T",
-      "timestamp": "2026-04-23T05:53:37.003150"
+      "timestamp": "2026-04-24T05:56:49.371830"
     },
     {
       "service": "co",
@@ -66,7 +53,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************************d5a3",
-      "timestamp": "2026-04-23T05:53:37.128444"
+      "timestamp": "2026-04-24T05:56:49.504714"
     },
     {
       "service": "co",
@@ -79,7 +66,20 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************s_90",
-      "timestamp": "2026-04-23T05:53:39.160359"
+      "timestamp": "2026-04-24T05:56:52.116704"
+    },
+    {
+      "service": "co",
+      "file": ".env.production.example",
+      "repository": "TheHypnoo/B2BOX_LUIS",
+      "url": "https://github.com/TheHypnoo/B2BOX_LUIS/blob/63febcec6fdbe8ae294e315c0afd0616addbddc1/.env.production.example",
+      "line_number": 27,
+      "line_preview": "LUIS_PACO_API_KEY=pega-aca-el-X-API-Key-de-Paco",
+      "key_type": "co_api_key",
+      "description": "Co Api Key",
+      "severity": "medium",
+      "matched_pattern": "CO_A********************************Paco",
+      "timestamp": "2026-04-24T05:56:52.631032"
     },
     {
       "service": "co",
@@ -92,7 +92,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********************************61ad",
-      "timestamp": "2026-04-23T05:53:40.124827"
+      "timestamp": "2026-04-24T05:56:53.703380"
     },
     {
       "service": "co",
@@ -105,7 +105,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*******************************FcU'",
-      "timestamp": "2026-04-23T05:53:40.529875"
+      "timestamp": "2026-04-24T05:56:54.221863"
     },
     {
       "service": "co",
@@ -118,20 +118,20 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********************************TylK",
-      "timestamp": "2026-04-23T05:53:41.743205"
+      "timestamp": "2026-04-24T05:56:55.792610"
     },
     {
       "service": "co",
-      "file": ".env.example",
-      "repository": "stevenfazzio/semantic-github-map",
-      "url": "https://github.com/stevenfazzio/semantic-github-map/blob/4035e2eb01d4e79769b8e41b7dabe95a93b9018d/.env.example",
-      "line_number": 3,
-      "line_preview": "CO_API_KEY=             # Cohere API key (embeddings + topic modeling)",
+      "file": ".env.dev.example",
+      "repository": "metinemredonmez/novara",
+      "url": "https://github.com/metinemredonmez/novara/blob/c2308603f41fe2b204dc373993e2766577a70c3b/.env.dev.example",
+      "line_number": 32,
+      "line_preview": "IYZICO_API_KEY=sandbox-",
       "key_type": "co_api_key",
       "description": "Co Api Key",
       "severity": "medium",
-      "matched_pattern": "# Co**************************************ing)",
-      "timestamp": "2026-04-23T05:53:58.027952"
+      "matched_pattern": "CO_A***********box-",
+      "timestamp": "2026-04-24T05:57:16.230898"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "service": "meili",
-  "scan_timestamp": "2026-04-23T05:54:27.668139",
-  "finding_count": 1,
+  "scan_timestamp": "2026-04-24T05:57:45.169250",
+  "finding_count": 3,
   "findings": [
     {
       "service": "meili",
@@ -14,7 +14,33 @@
       "description": "Meili Master Key",
       "severity": "critical",
       "matched_pattern": "DrhY************************************fFCt",
-      "timestamp": "2026-04-23T05:53:26.624395"
+      "timestamp": "2026-04-24T05:56:37.004926"
+    },
+    {
+      "service": "meili",
+      "file": ".env.zh.example",
+      "repository": "tanguangyun/ChatHub",
+      "url": "https://github.com/tanguangyun/ChatHub/blob/e4041b3f361c314d008d92969e6f533d8c08b84d/.env.zh.example",
+      "line_number": 397,
+      "line_preview": "MEILI_MASTER_KEY=DrhYf7zENyR6AlUCKmnz0eYASOQdl6zxH7s7MKFSfFCt",
+      "key_type": "meili_master_key",
+      "description": "Meili Master Key",
+      "severity": "critical",
+      "matched_pattern": "MEIL*****************************************************fFCt",
+      "timestamp": "2026-04-24T05:57:08.384722"
+    },
+    {
+      "service": "meili",
+      "file": "librechat.env.example",
+      "repository": "vaaale/FetchCraft",
+      "url": "https://github.com/vaaale/FetchCraft/blob/6ee44fa5ba0951c0a0770d523831543dc806dd8c/librechat.env.example",
+      "line_number": 328,
+      "line_preview": "MEILI_MASTER_KEY=DrhYf7zENyR6AlUCKmnz0eYASOQdl6zxH7s7MKFSfFCt",
+      "key_type": "meili_master_key",
+      "description": "Meili Master Key",
+      "severity": "critical",
+      "matched_pattern": "MEIL*****************************************************fFCt",
+      "timestamp": "2026-04-24T05:57:09.331663"
     }
   ]
 }

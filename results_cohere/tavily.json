@@ -1,21 +1,8 @@
 {
   "service": "tavily",
-  "scan_timestamp": "2026-04-23T05:54:27.676214",
-  "finding_count": 8,
+  "scan_timestamp": "2026-04-24T05:57:45.176534",
+  "finding_count": 7,
   "findings": [
-    {
-      "service": "tavily",
-      "file": ".env_sample",
-      "repository": "ds-seungwan/langchain-tutorial",
-      "url": "https://github.com/ds-seungwan/langchain-tutorial/blob/64868f1c0f7c9ecc6400d28b9a41daf8d1ef72a8/.env_sample",
-      "line_number": 7,
-      "line_preview": "TAVILY_API_KEY=tvly-mGxBGvzbH...",
-      "key_type": "tavily_api_key",
-      "description": "Tavily Api Key",
-      "severity": "medium",
-      "matched_pattern": "tvly*********H...",
-      "timestamp": "2026-04-23T05:53:28.449146"
-    },
     {
       "service": "tavily",
       "file": ".env_sample",
@@ -26,21 +13,8 @@
       "key_type": "tavily_api_key",
       "description": "Tavily Api Key",
       "severity": "medium",
-      "matched_pattern": "TAVI************************H...",
-      "timestamp": "2026-04-23T05:53:31.287765"
-    },
-    {
-      "service": "tavily",
-      "file": ".env_sample",
-      "repository": "jykim-code/RAGClass",
-      "url": "https://github.com/jykim-code/RAGClass/blob/edf490b0aad5593672ab560a41c7268f08ca389d/.env_sample",
-      "line_number": 7,
-      "line_preview": "TAVILY_API_KEY=tvly-mGxBGvzbH...",
-      "key_type": "tavily_api_key",
-      "description": "Tavily Api Key",
-      "severity": "medium",
-      "matched_pattern": "TAVI************************H...",
-      "timestamp": "2026-04-23T05:53:31.388636"
+      "matched_pattern": "tvly*********H...",
+      "timestamp": "2026-04-24T05:56:41.112303"
     },
     {
       "service": "tavily",
@@ -53,7 +27,20 @@
       "description": "Tavily Api Key",
       "severity": "medium",
       "matched_pattern": "TAVI************************H...",
-      "timestamp": "2026-04-23T05:53:31.607417"
+      "timestamp": "2026-04-24T05:56:41.249261"
+    },
+    {
+      "service": "tavily",
+      "file": ".env.defaults",
+      "repository": "BlakkTyger/fantasy-cricket-chatbot",
+      "url": "https://github.com/BlakkTyger/fantasy-cricket-chatbot/blob/053e91285b488eb526d3f6662f17df4f8256770d/.env.defaults",
+      "line_number": 2,
+      "line_preview": "TAVILY_API_KEY=\"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\"",
+      "key_type": "tavily_api_key",
+      "description": "Tavily Api Key",
+      "severity": "medium",
+      "matched_pattern": "TAVI**************************************************K54\"",
+      "timestamp": "2026-04-24T05:56:42.565471"
     },
     {
       "service": "tavily",
@@ -66,7 +53,7 @@
       "description": "Tavily API Key",
       "severity": "high",
       "matched_pattern": "tvly*****************************2Xo0",
-      "timestamp": "2026-04-23T05:53:40.018956"
+      "timestamp": "2026-04-24T05:56:53.567426"
     },
     {
       "service": "tavily",
@@ -79,7 +66,7 @@
       "description": "Tavily API Key (named var)",
       "severity": "high",
       "matched_pattern": "TAVI**********************************************2Xo0",
-      "timestamp": "2026-04-23T05:53:40.018998"
+      "timestamp": "2026-04-24T05:56:53.567469"
     },
     {
       "service": "tavily",
@@ -92,7 +79,7 @@
       "description": "Tavily API Key",
       "severity": "high",
       "matched_pattern": "tvly*****************************jSg2",
-      "timestamp": "2026-04-23T05:53:40.409795"
+      "timestamp": "2026-04-24T05:56:54.077787"
     },
     {
       "service": "tavily",
@@ -105,7 +92,7 @@
       "description": "Tavily API Key (named var)",
       "severity": "high",
       "matched_pattern": "TAVI********************************************jSg2",
-      "timestamp": "2026-04-23T05:53:40.409839"
+      "timestamp": "2026-04-24T05:56:54.077837"
     }
   ]
 }

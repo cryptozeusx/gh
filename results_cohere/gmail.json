@@ -1,6 +1,6 @@
 {
   "service": "gmail",
-  "scan_timestamp": "2026-04-23T05:54:27.664837",
+  "scan_timestamp": "2026-04-24T05:57:45.166146",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Gmail Refresh Token",
       "severity": "medium",
       "matched_pattern": "1//0***********************************************************************************************aBJs",
-      "timestamp": "2026-04-23T05:53:42.130922"
+      "timestamp": "2026-04-24T05:56:56.244912"
     }
   ]
 }

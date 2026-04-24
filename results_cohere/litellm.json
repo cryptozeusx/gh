@@ -1,20 +1,20 @@
 {
   "service": "litellm",
-  "scan_timestamp": "2026-04-19T05:49:50.716019",
+  "scan_timestamp": "2026-04-24T05:57:45.168737",
   "finding_count": 1,
   "findings": [
     {
       "service": "litellm",
-      "file": "env.example",
-      "repository": "revenium/revenium-middleware-litellm-node",
-      "url": "https://github.com/revenium/revenium-middleware-litellm-node/blob/615f244fe7f5983e9984cf699062fbb6a5597276/env.example",
-      "line_number": 20,
-      "line_preview": "LITELLM_API_KEY=\"sk-1234\" #litellm key issued as proxy for another provider's key",
-      "key_type": "litellm_api_key",
-      "description": "Litellm Api Key",
-      "severity": "medium",
-      "matched_pattern": "sk-1******************************************************** key",
-      "timestamp": "2026-04-19T05:49:13.882375"
+      "file": "ollama-litellm-dockercompose/.env.txt",
+      "repository": "DaviRamos/Docker-Compose-Davi",
+      "url": "https://github.com/DaviRamos/Docker-Compose-Davi/blob/ee206eb2084c9512d45871c388a02cab72f23c87/ollama-litellm-dockercompose/.env.txt",
+      "line_number": 1,
+      "line_preview": "LITELLM_MASTER_KEY=\"sk-1234\" # Change this if you like",
+      "key_type": "litellm_master_key",
+      "description": "Litellm Master Key",
+      "severity": "critical",
+      "matched_pattern": "sk-1**************************like",
+      "timestamp": "2026-04-24T05:56:35.981759"
     }
   ]
 }
