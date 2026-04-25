@@ -1,8 +1,21 @@
 {
   "service": "pdf",
-  "scan_timestamp": "2026-04-24T05:57:45.172667",
-  "finding_count": 1,
+  "scan_timestamp": "2026-04-25T05:31:34.623203",
+  "finding_count": 2,
   "findings": [
+    {
+      "service": "pdf",
+      "file": "client/.env",
+      "repository": "Anuj3558/QuizGenerator",
+      "url": "https://github.com/Anuj3558/QuizGenerator/blob/f1223bc25a4614c29c59a4e5c1dec5e4171c126c/client/.env",
+      "line_number": 2,
+      "line_preview": "REACT_APP_PDF_CO_API_KEY=anujloharkar3557@gmail.com_fy6lwTN96YTa6U1awD3bkKuLG3i7v6PJqJjGn5iAGbqrp6s5LSCShSoBbwoUqF7U",
+      "key_type": "pdf_co_api_key",
+      "description": "Pdf Co Api Key",
+      "severity": "medium",
+      "matched_pattern": "PDF_**************************************************************************************************qF7U",
+      "timestamp": "2026-04-25T05:30:51.636653"
+    },
     {
       "service": "pdf",
       "file": ".env.local",
@@ -14,7 +27,7 @@
       "description": "Pdf Co Api Key",
       "severity": "medium",
       "matched_pattern": "PDF_*******************************************************************************************YSui",
-      "timestamp": "2026-04-24T05:57:29.948391"
+      "timestamp": "2026-04-25T05:31:19.300698"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "service": "api",
-  "scan_timestamp": "2026-04-24T05:57:45.158062",
-  "finding_count": 10,
+  "scan_timestamp": "2026-04-25T05:31:34.612961",
+  "finding_count": 6,
   "findings": [
     {
       "service": "api",
@@ -14,20 +14,7 @@
       "description": "Api Password",
       "severity": "high",
       "matched_pattern": "Deng***7258",
-      "timestamp": "2026-04-24T05:56:49.372120"
-    },
-    {
-      "service": "api",
-      "file": ".env",
-      "repository": "markchou1205-uch/SiteMate",
-      "url": "https://github.com/markchou1205-uch/SiteMate/blob/e5fdc5803252f447684b9969886b576f3bc1bc0d/.env",
-      "line_number": 8,
-      "line_preview": "NEXT_PUBLIC_PDF_CO_API_KEY=markchou1205@yahoo.com.tw_o1kCLzKREjL0aKIBeiWThQF2FGZQCHqzhi0DF8bkyNO2mknRqOJwIVAAaaJ1Hhk4",
-      "key_type": "api_key",
-      "description": "Api Key",
-      "severity": "medium",
-      "matched_pattern": "API_******************************************************************************************Hhk4",
-      "timestamp": "2026-04-24T05:56:50.436554"
+      "timestamp": "2026-04-25T05:30:46.256513"
     },
     {
       "service": "api",
@@ -40,20 +27,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_*********udio",
-      "timestamp": "2026-04-24T05:57:07.573151"
-    },
-    {
-      "service": "api",
-      "file": ".env.production.example",
-      "repository": "kevanbtc/landlord-tenant-web3",
-      "url": "https://github.com/kevanbtc/landlord-tenant-web3/blob/40b346d93510429657464e0ea58737462ced653f/.env.production.example",
-      "line_number": 160,
-      "line_preview": "SENDGRID_API_KEY=SG.your_sendgrid_api_key",
-      "key_type": "api_key",
-      "description": "Api Key",
-      "severity": "medium",
-      "matched_pattern": "API_************************_key",
-      "timestamp": "2026-04-24T05:57:08.935708"
+      "timestamp": "2026-04-25T05:30:55.552708"
     },
     {
       "service": "api",
@@ -66,20 +40,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_**************************key\"",
-      "timestamp": "2026-04-24T05:57:13.332323"
-    },
-    {
-      "service": "api",
-      "file": ".env.prod.example",
-      "repository": "weboloper/bp-tenant",
-      "url": "https://github.com/weboloper/bp-tenant/blob/a665177fe1a10f16d18a54f80182d75bc992b603/.env.prod.example",
-      "line_number": 62,
-      "line_preview": "SENDGRID_API_KEY=SG.your_production_api_key",
-      "key_type": "api_key",
-      "description": "Api Key",
-      "severity": "medium",
-      "matched_pattern": "API_**************************_key",
-      "timestamp": "2026-04-24T05:57:14.235531"
+      "timestamp": "2026-04-25T05:31:04.968683"
     },
     {
       "service": "api",
@@ -92,7 +53,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_********box-",
-      "timestamp": "2026-04-24T05:57:16.230961"
+      "timestamp": "2026-04-25T05:31:09.094383"
     },
     {
       "service": "api",
@@ -105,20 +66,7 @@
       "description": "Api Secret",
       "severity": "high",
       "matched_pattern": "API_*****************************************************YNze",
-      "timestamp": "2026-04-24T05:57:23.650968"
-    },
-    {
-      "service": "api",
-      "file": ".env.local",
-      "repository": "Rady119/pdfsir-tools",
-      "url": "https://github.com/Rady119/pdfsir-tools/blob/94a64711d0a14d90ea5c0cceab8ff9a53b42005f/.env.local",
-      "line_number": 1,
-      "line_preview": "PDF_CO_API_KEY=z2009@yahoo.com_BAdeT1HQWUk5C7jX0DnmDA9I0u7ATkdqazXvUJqwLrcF9q0DmUMmYQ8FaCDIBr9H",
-      "key_type": "api_key",
-      "description": "Api Key",
-      "severity": "medium",
-      "matched_pattern": "API_********************************************************************************Br9H",
-      "timestamp": "2026-04-24T05:57:29.806053"
+      "timestamp": "2026-04-25T05:31:13.002291"
     },
     {
       "service": "api",
@@ -131,7 +79,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_************************************************************************************YSui",
-      "timestamp": "2026-04-24T05:57:29.948351"
+      "timestamp": "2026-04-25T05:31:19.300730"
     }
   ]
 }

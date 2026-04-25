@@ -1,33 +1,20 @@
 {
   "service": "co",
-  "scan_timestamp": "2026-04-24T05:57:45.159153",
-  "finding_count": 10,
+  "scan_timestamp": "2026-04-25T05:31:34.614036",
+  "finding_count": 11,
   "findings": [
     {
       "service": "co",
       "file": ".env",
-      "repository": "davalpez/Local-AI-aplications-with-Haystack",
-      "url": "https://github.com/davalpez/Local-AI-aplications-with-Haystack/blob/0daa8316c053423c235aa6c6a23665dc16b3cfb6/.env",
-      "line_number": 3,
-      "line_preview": "CO_API_KEY=#Introduce your API KEY",
+      "repository": "cecepns/carrywise-dashboard",
+      "url": "https://github.com/cecepns/carrywise-dashboard/blob/df159cbf9e60595a7db3a96a55eb9d473959cca8/.env",
+      "line_number": 6,
+      "line_preview": "VITE_MAPS_CO_API_KEY=658ea164ba8de424993651furba89cf",
       "key_type": "co_api_key",
       "description": "Co Api Key",
       "severity": "medium",
-      "matched_pattern": "CO_A*************duce",
-      "timestamp": "2026-04-24T05:56:48.991222"
-    },
-    {
-      "service": "co",
-      "file": "strategy_engine/src/render.env.md",
-      "repository": "TemamAb/alpha",
-      "url": "https://github.com/TemamAb/alpha/blob/80be4d1acaeff2db132ac414b08d0c7982165f2e/strategy_engine/src/render.env.md",
-      "line_number": 116,
-      "line_preview": "PIMLICO_API_KEY=pim_UbfKR9ocMe5ibNUCGgB8fE",
-      "key_type": "co_api_key",
-      "description": "Co Api Key",
-      "severity": "medium",
-      "matched_pattern": "CO_A*****************************B8fE",
-      "timestamp": "2026-04-24T05:56:49.263490"
+      "matched_pattern": "CO_A**********************************89cf",
+      "timestamp": "2026-04-25T05:30:46.175919"
     },
     {
       "service": "co",
@@ -40,7 +27,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*******************Q80T",
-      "timestamp": "2026-04-24T05:56:49.371830"
+      "timestamp": "2026-04-25T05:30:46.256129"
     },
     {
       "service": "co",
@@ -53,7 +40,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************************d5a3",
-      "timestamp": "2026-04-24T05:56:49.504714"
+      "timestamp": "2026-04-25T05:30:46.378028"
     },
     {
       "service": "co",
@@ -66,20 +53,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************s_90",
-      "timestamp": "2026-04-24T05:56:52.116704"
-    },
-    {
-      "service": "co",
-      "file": ".env.production.example",
-      "repository": "TheHypnoo/B2BOX_LUIS",
-      "url": "https://github.com/TheHypnoo/B2BOX_LUIS/blob/63febcec6fdbe8ae294e315c0afd0616addbddc1/.env.production.example",
-      "line_number": 27,
-      "line_preview": "LUIS_PACO_API_KEY=pega-aca-el-X-API-Key-de-Paco",
-      "key_type": "co_api_key",
-      "description": "Co Api Key",
-      "severity": "medium",
-      "matched_pattern": "CO_A********************************Paco",
-      "timestamp": "2026-04-24T05:56:52.631032"
+      "timestamp": "2026-04-25T05:30:48.610887"
     },
     {
       "service": "co",
@@ -92,20 +66,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********************************61ad",
-      "timestamp": "2026-04-24T05:56:53.703380"
-    },
-    {
-      "service": "co",
-      "file": ".env.local",
-      "repository": "Gauravk0029/madhouse-wallet",
-      "url": "https://github.com/Gauravk0029/madhouse-wallet/blob/5ee554e1fd27eaf7d69a146efd3e7db7583acd61/.env.local",
-      "line_number": 1,
-      "line_preview": "NEXT_PUBLIC_PIMLICO_API_KEY='pim_C2hN8VhSZsDJE3uAY4WFcU'",
-      "key_type": "co_api_key",
-      "description": "Co Api Key",
-      "severity": "medium",
-      "matched_pattern": "CO_A*******************************FcU'",
-      "timestamp": "2026-04-24T05:56:54.221863"
+      "timestamp": "2026-04-25T05:30:50.001942"
     },
     {
       "service": "co",
@@ -118,7 +79,33 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********************************TylK",
-      "timestamp": "2026-04-24T05:56:55.792610"
+      "timestamp": "2026-04-25T05:30:51.508537"
+    },
+    {
+      "service": "co",
+      "file": ".env.example",
+      "repository": "stevenfazzio/claude-code-changelog-analysis",
+      "url": "https://github.com/stevenfazzio/claude-code-changelog-analysis/blob/3d87fdfd4b2c1a2bd6e016765093dcea7719ec2a/.env.example",
+      "line_number": 2,
+      "line_preview": "CO_API_KEY=          # for embed stage (Cohere)",
+      "key_type": "co_api_key",
+      "description": "Co Api Key",
+      "severity": "medium",
+      "matched_pattern": "# fo******************ere)",
+      "timestamp": "2026-04-25T05:31:05.934902"
+    },
+    {
+      "service": "co",
+      "file": ".env.example",
+      "repository": "stevenfazzio/huggingface-dataset-map",
+      "url": "https://github.com/stevenfazzio/huggingface-dataset-map/blob/bcdb969fd282e436c718ec1ba5428a70eba707b9/.env.example",
+      "line_number": 3,
+      "line_preview": "CO_API_KEY=             # Cohere API key (card embeddings)",
+      "key_type": "co_api_key",
+      "description": "Co Api Key",
+      "severity": "medium",
+      "matched_pattern": "# Co**************************ngs)",
+      "timestamp": "2026-04-25T05:31:06.865091"
     },
     {
       "service": "co",
@@ -131,7 +118,33 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********box-",
-      "timestamp": "2026-04-24T05:57:16.230898"
+      "timestamp": "2026-04-25T05:31:09.094323"
+    },
+    {
+      "service": "co",
+      "file": "env.example",
+      "repository": "phamcamnguyen1994/metamask-monad-envio",
+      "url": "https://github.com/phamcamnguyen1994/metamask-monad-envio/blob/8e719f970f04c54e1131568922781015e7cfc8c6/env.example",
+      "line_number": 16,
+      "line_preview": "NEXT_PUBLIC_PIMLICO_API_KEY=pim_ki22Ti5FjpeeJguDHh9QcP",
+      "key_type": "co_api_key",
+      "description": "Co Api Key",
+      "severity": "medium",
+      "matched_pattern": "CO_A*****************************9QcP",
+      "timestamp": "2026-04-25T05:31:11.124525"
+    },
+    {
+      "service": "co",
+      "file": ".env.local",
+      "repository": "Gauravk0029/madhouse-wallet",
+      "url": "https://github.com/Gauravk0029/madhouse-wallet/blob/5ee554e1fd27eaf7d69a146efd3e7db7583acd61/.env.local",
+      "line_number": 1,
+      "line_preview": "NEXT_PUBLIC_PIMLICO_API_KEY='pim_C2hN8VhSZsDJE3uAY4WFcU'",
+      "key_type": "co_api_key",
+      "description": "Co Api Key",
+      "severity": "medium",
+      "matched_pattern": "CO_A*******************************FcU'",
+      "timestamp": "2026-04-25T05:31:19.411952"
     }
   ]
 }

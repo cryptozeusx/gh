@@ -1,6 +1,6 @@
 {
   "service": "captcha",
-  "scan_timestamp": "2026-04-24T05:57:45.158841",
+  "scan_timestamp": "2026-04-25T05:31:34.613762",
   "finding_count": 3,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Captcha Key",
       "severity": "medium",
       "matched_pattern": "6Ld_********************************rmRX",
-      "timestamp": "2026-04-24T05:56:51.840700"
+      "timestamp": "2026-04-25T05:30:48.375956"
     },
     {
       "service": "captcha",
@@ -27,7 +27,7 @@
       "description": "Captcha Key",
       "severity": "medium",
       "matched_pattern": "CAPT**********************************************mRX\"",
-      "timestamp": "2026-04-24T05:56:54.943334"
+      "timestamp": "2026-04-25T05:30:50.773896"
     },
     {
       "service": "captcha",
@@ -40,7 +40,7 @@
       "description": "Captcha Key",
       "severity": "medium",
       "matched_pattern": "CAPT**********************************************mRX\"",
-      "timestamp": "2026-04-24T05:57:13.636325"
+      "timestamp": "2026-04-25T05:31:04.752460"
     }
   ]
 }

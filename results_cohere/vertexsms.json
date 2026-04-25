@@ -1,6 +1,6 @@
 {
   "service": "vertexsms",
-  "scan_timestamp": "2026-04-24T05:57:45.177226",
+  "scan_timestamp": "2026-04-25T05:31:34.626499",
   "finding_count": 3,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Vertexsms Api Token",
       "severity": "medium",
       "matched_pattern": "# Ge**********************oard",
-      "timestamp": "2026-04-24T05:56:47.976756"
+      "timestamp": "2026-04-25T05:30:45.016630"
     },
     {
       "service": "vertexsms",
@@ -27,7 +27,7 @@
       "description": "Vertexsms Webhook Secret",
       "severity": "high",
       "matched_pattern": "# HM*******************************************ure)",
-      "timestamp": "2026-04-24T05:56:47.976884"
+      "timestamp": "2026-04-25T05:30:45.016774"
     },
     {
       "service": "vertexsms",
@@ -40,7 +40,7 @@
       "description": "Vertexsms Dlr Url Token",
       "severity": "medium",
       "matched_pattern": "# Op****************************************** URL",
-      "timestamp": "2026-04-24T05:56:47.976958"
+      "timestamp": "2026-04-25T05:30:45.016816"
     }
   ]
 }

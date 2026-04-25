@@ -1,20 +1,20 @@
 {
   "service": "better",
-  "scan_timestamp": "2026-04-23T05:54:27.657387",
+  "scan_timestamp": "2026-04-25T05:31:34.613657",
   "finding_count": 2,
   "findings": [
     {
       "service": "better",
-      "file": ".env.example",
-      "repository": "agentset-ai/agentset",
-      "url": "https://github.com/agentset-ai/agentset/blob/1f79eda7c35d031cf1b63eb22cfc7b7064413997/.env.example",
-      "line_number": 5,
-      "line_preview": "BETTER_AUTH_URL=\"http://localhost:3000\"",
+      "file": "olivermemory-backend-api-kit/.dev.vars.example",
+      "repository": "oliverv/olivermemory-console-gui",
+      "url": "https://github.com/oliverv/olivermemory-console-gui/blob/88eae1b906683fa5f3d4d5b4a79a3476b675da73/olivermemory-backend-api-kit/.dev.vars.example",
+      "line_number": 4,
+      "line_preview": "BETTER_AUTH_URL=http://localhost:8787",
       "key_type": "better_auth_url",
       "description": "Better Auth Url",
       "severity": "medium",
-      "matched_pattern": "http*************3000",
-      "timestamp": "2026-04-23T05:53:53.619295"
+      "matched_pattern": "http*************8787",
+      "timestamp": "2026-04-25T05:30:54.641931"
     },
     {
       "service": "better",
@@ -27,7 +27,7 @@
       "description": "Better Auth Url",
       "severity": "medium",
       "matched_pattern": "BETT*******************************000\"",
-      "timestamp": "2026-04-23T05:54:01.766016"
+      "timestamp": "2026-04-25T05:31:05.729434"
     }
   ]
 }

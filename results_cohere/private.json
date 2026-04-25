@@ -1,21 +1,8 @@
 {
   "service": "private",
-  "scan_timestamp": "2026-04-24T05:57:45.173482",
-  "finding_count": 2,
+  "scan_timestamp": "2026-04-25T05:31:34.623627",
+  "finding_count": 1,
   "findings": [
-    {
-      "service": "private",
-      "file": "etl-pipeline/config/.env.local.secrets",
-      "repository": "NYPL/digital-research-books",
-      "url": "https://github.com/NYPL/digital-research-books/blob/99ce8d1d3d5ff6faa4f9a499f0456f7e8752056a/etl-pipeline/config/.env.local.secrets",
-      "line_number": 33,
-      "line_preview": "SESSION_JWT_PRIVATE_KEY=arn:aws:ssm:us-east-1:946183545209:parameter/drb/qa/session-jwt/private-key",
-      "key_type": "private_key",
-      "description": "Private Key",
-      "severity": "critical",
-      "matched_pattern": "PRIV*******************************************************************************-key",
-      "timestamp": "2026-04-24T05:56:38.687482"
-    },
     {
       "service": "private",
       "file": "examples/4337-gas-metering/.env.example",
@@ -27,7 +14,7 @@
       "description": "Private Key",
       "severity": "critical",
       "matched_pattern": "0x..**********************************************ded.",
-      "timestamp": "2026-04-24T05:57:20.711113"
+      "timestamp": "2026-04-25T05:31:09.996035"
     }
   ]
 }
