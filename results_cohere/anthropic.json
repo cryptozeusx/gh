@@ -1,7 +1,7 @@
 {
   "service": "anthropic",
-  "scan_timestamp": "2026-04-25T05:31:34.612830",
-  "finding_count": 5,
+  "scan_timestamp": "2026-04-26T05:58:22.408248",
+  "finding_count": 4,
   "findings": [
     {
       "service": "anthropic",
@@ -14,7 +14,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "# Re****************************-...",
-      "timestamp": "2026-04-25T05:30:38.000290"
+      "timestamp": "2026-04-26T05:57:06.136277"
     },
     {
       "service": "anthropic",
@@ -27,33 +27,20 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************cwAA",
-      "timestamp": "2026-04-25T05:30:46.805870"
+      "timestamp": "2026-04-26T05:57:20.231158"
     },
     {
       "service": "anthropic",
       "file": ".env.example",
       "repository": "stevenfazzio/claude-code-changelog-analysis",
-      "url": "https://github.com/stevenfazzio/claude-code-changelog-analysis/blob/3d87fdfd4b2c1a2bd6e016765093dcea7719ec2a/.env.example",
+      "url": "https://github.com/stevenfazzio/claude-code-changelog-analysis/blob/95af10faace5246dac17139d8978196adf6d9d22/.env.example",
       "line_number": 1,
       "line_preview": "ANTHROPIC_API_KEY=   # for enrich stage (Claude)",
       "key_type": "anthropic_api_key",
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "# fo*******************ude)",
-      "timestamp": "2026-04-25T05:31:05.934786"
-    },
-    {
-      "service": "anthropic",
-      "file": ".env.example",
-      "repository": "stevenfazzio/huggingface-dataset-map",
-      "url": "https://github.com/stevenfazzio/huggingface-dataset-map/blob/bcdb969fd282e436c718ec1ba5428a70eba707b9/.env.example",
-      "line_number": 4,
-      "line_preview": "ANTHROPIC_API_KEY=      # Anthropic API key (Toponymy topic naming via Claude Sonnet)",
-      "key_type": "anthropic_api_key",
-      "description": "Anthropic Api Key",
-      "severity": "medium",
-      "matched_pattern": "# An*****************************************************net)",
-      "timestamp": "2026-04-25T05:31:06.865130"
+      "timestamp": "2026-04-26T05:57:50.854084"
     },
     {
       "service": "anthropic",
@@ -66,7 +53,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************DgAA",
-      "timestamp": "2026-04-25T05:31:14.651110"
+      "timestamp": "2026-04-26T05:58:03.551838"
     }
   ]
 }

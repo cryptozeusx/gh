@@ -1,7 +1,7 @@
 {
   "service": "api",
-  "scan_timestamp": "2026-04-25T05:31:34.612961",
-  "finding_count": 6,
+  "scan_timestamp": "2026-04-26T05:58:22.408445",
+  "finding_count": 8,
   "findings": [
     {
       "service": "api",
@@ -14,7 +14,46 @@
       "description": "Api Password",
       "severity": "high",
       "matched_pattern": "Deng***7258",
-      "timestamp": "2026-04-25T05:30:46.256513"
+      "timestamp": "2026-04-26T05:57:19.338758"
+    },
+    {
+      "service": "api",
+      "file": ".env",
+      "repository": "markchou1205-uch/SiteMate",
+      "url": "https://github.com/markchou1205-uch/SiteMate/blob/e5fdc5803252f447684b9969886b576f3bc1bc0d/.env",
+      "line_number": 8,
+      "line_preview": "NEXT_PUBLIC_PDF_CO_API_KEY=markchou1205@yahoo.com.tw_o1kCLzKREjL0aKIBeiWThQF2FGZQCHqzhi0DF8bkyNO2mknRqOJwIVAAaaJ1Hhk4",
+      "key_type": "api_key",
+      "description": "Api Key",
+      "severity": "medium",
+      "matched_pattern": "API_******************************************************************************************Hhk4",
+      "timestamp": "2026-04-26T05:57:20.691223"
+    },
+    {
+      "service": "api",
+      "file": ".env.example",
+      "repository": "eslamsaby15/AIVox_Lab",
+      "url": "https://github.com/eslamsaby15/AIVox_Lab/blob/7c0bb0b37a8c126049621c16ad4cfe3f2ec84343/.env.example",
+      "line_number": 17,
+      "line_preview": "COHERE_API_KEY=\"UlWfDHtIBXK9n\"",
+      "key_type": "api_key",
+      "description": "Api Key",
+      "severity": "medium",
+      "matched_pattern": "API_***************K9n\"",
+      "timestamp": "2026-04-26T05:57:40.136800"
+    },
+    {
+      "service": "api",
+      "file": ".env.example",
+      "repository": "eslamsaby15/AIVox_Lab",
+      "url": "https://github.com/eslamsaby15/AIVox_Lab/blob/7c0bb0b37a8c126049621c16ad4cfe3f2ec84343/.env.example",
+      "line_number": 18,
+      "line_preview": "GEMINI_API_KEY=\"AIzaSyDU2uWM\"",
+      "key_type": "api_key",
+      "description": "Api Key",
+      "severity": "medium",
+      "matched_pattern": "API_**************uWM\"",
+      "timestamp": "2026-04-26T05:57:40.136868"
     },
     {
       "service": "api",
@@ -27,20 +66,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_*********udio",
-      "timestamp": "2026-04-25T05:30:55.552708"
-    },
-    {
-      "service": "api",
-      "file": "env.production.example",
-      "repository": "TahasCreations/tdc-products-website",
-      "url": "https://github.com/TahasCreations/tdc-products-website/blob/542dacf23e653e5c5f36001522494e1aff58ab7d/env.production.example",
-      "line_number": 21,
-      "line_preview": "SENDGRID_API_KEY=\"SG.your_sendgrid_api_key\"",
-      "key_type": "api_key",
-      "description": "Api Key",
-      "severity": "medium",
-      "matched_pattern": "API_**************************key\"",
-      "timestamp": "2026-04-25T05:31:04.968683"
+      "timestamp": "2026-04-26T05:57:41.727567"
     },
     {
       "service": "api",
@@ -53,7 +79,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_********box-",
-      "timestamp": "2026-04-25T05:31:09.094383"
+      "timestamp": "2026-04-26T05:57:48.113235"
     },
     {
       "service": "api",
@@ -66,7 +92,7 @@
       "description": "Api Secret",
       "severity": "high",
       "matched_pattern": "API_*****************************************************YNze",
-      "timestamp": "2026-04-25T05:31:13.002291"
+      "timestamp": "2026-04-26T05:58:00.967514"
     },
     {
       "service": "api",
@@ -79,7 +105,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_************************************************************************************YSui",
-      "timestamp": "2026-04-25T05:31:19.300730"
+      "timestamp": "2026-04-26T05:58:06.835576"
     }
   ]
 }

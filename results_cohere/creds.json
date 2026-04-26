@@ -1,6 +1,6 @@
 {
   "service": "creds",
-  "scan_timestamp": "2026-04-25T05:31:34.614919",
+  "scan_timestamp": "2026-04-26T05:58:22.411012",
   "finding_count": 2,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Creds Key",
       "severity": "medium",
       "matched_pattern": "f34b********************************************************66f0",
-      "timestamp": "2026-04-25T05:30:33.786212"
+      "timestamp": "2026-04-26T05:56:59.856236"
     },
     {
       "service": "creds",
@@ -27,7 +27,7 @@
       "description": "Creds Key",
       "severity": "medium",
       "matched_pattern": "CRED******************************************************************66f0",
-      "timestamp": "2026-04-25T05:30:56.139717"
+      "timestamp": "2026-04-26T05:57:34.930873"
     }
   ]
 }

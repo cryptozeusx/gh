@@ -1,6 +1,6 @@
 {
   "service": "tailscale",
-  "scan_timestamp": "2026-04-25T05:31:34.626101",
+  "scan_timestamp": "2026-04-26T05:58:22.425497",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Tailscale Authkey File",
       "severity": "medium",
       "matched_pattern": "CATA***************************************************************.txt",
-      "timestamp": "2026-04-25T05:30:57.494961"
+      "timestamp": "2026-04-26T05:57:36.908110"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "service": "elasticsearch",
-  "scan_timestamp": "2026-04-25T05:31:34.616040",
+  "scan_timestamp": "2026-04-26T05:58:22.412483",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Elasticsearch Password",
       "severity": "high",
       "matched_pattern": "  # ****onal",
-      "timestamp": "2026-04-25T05:30:58.565043"
+      "timestamp": "2026-04-26T05:57:39.244368"
     }
   ]
 }

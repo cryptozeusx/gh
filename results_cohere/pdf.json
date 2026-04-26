@@ -1,8 +1,21 @@
 {
   "service": "pdf",
-  "scan_timestamp": "2026-04-25T05:31:34.623203",
-  "finding_count": 2,
+  "scan_timestamp": "2026-04-26T05:58:22.421244",
+  "finding_count": 3,
   "findings": [
+    {
+      "service": "pdf",
+      "file": ".env",
+      "repository": "markchou1205-uch/SiteMate",
+      "url": "https://github.com/markchou1205-uch/SiteMate/blob/e5fdc5803252f447684b9969886b576f3bc1bc0d/.env",
+      "line_number": 8,
+      "line_preview": "NEXT_PUBLIC_PDF_CO_API_KEY=markchou1205@yahoo.com.tw_o1kCLzKREjL0aKIBeiWThQF2FGZQCHqzhi0DF8bkyNO2mknRqOJwIVAAaaJ1Hhk4",
+      "key_type": "pdf_co_api_key",
+      "description": "Pdf Co Api Key",
+      "severity": "medium",
+      "matched_pattern": "PDF_*************************************************************************************************Hhk4",
+      "timestamp": "2026-04-26T05:57:20.691177"
+    },
     {
       "service": "pdf",
       "file": "client/.env",
@@ -14,7 +27,7 @@
       "description": "Pdf Co Api Key",
       "severity": "medium",
       "matched_pattern": "PDF_**************************************************************************************************qF7U",
-      "timestamp": "2026-04-25T05:30:51.636653"
+      "timestamp": "2026-04-26T05:57:27.094651"
     },
     {
       "service": "pdf",
@@ -27,7 +40,7 @@
       "description": "Pdf Co Api Key",
       "severity": "medium",
       "matched_pattern": "PDF_*******************************************************************************************YSui",
-      "timestamp": "2026-04-25T05:31:19.300698"
+      "timestamp": "2026-04-26T05:58:06.835517"
     }
   ]
 }

@@ -1,20 +1,20 @@
 {
   "service": "rate",
-  "scan_timestamp": "2026-04-25T05:31:34.624371",
+  "scan_timestamp": "2026-04-26T05:58:22.423010",
   "finding_count": 1,
   "findings": [
     {
       "service": "rate",
       "file": "Docker/env/.env.app.example",
       "repository": "mohamedfathi540/RxTract",
-      "url": "https://github.com/mohamedfathi540/RxTract/blob/a703e867366417b10e590e091fdd0231e51593b9/Docker/env/.env.app.example",
+      "url": "https://github.com/mohamedfathi540/RxTract/blob/44bdfdbc92fbb5b1030bbe72e48df37d516a3b72/Docker/env/.env.app.example",
       "line_number": 141,
       "line_preview": "RATE_LIMIT_AUTH = \"10/minute\"",
       "key_type": "rate_limit_auth",
       "description": "Rate Limit Auth",
       "severity": "medium",
       "matched_pattern": "10/m*nute",
-      "timestamp": "2026-04-25T05:30:54.540769"
+      "timestamp": "2026-04-26T05:57:32.999898"
     }
   ]
 }
