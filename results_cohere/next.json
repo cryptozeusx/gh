@@ -1,6 +1,6 @@
 {
   "service": "next",
-  "scan_timestamp": "2026-04-26T05:58:22.419930",
+  "scan_timestamp": "2026-04-27T06:18:16.029171",
   "finding_count": 14,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Next Public Supabase Anon Key",
       "severity": "medium",
       "matched_pattern": "eyJh********************************************************************************************************************************************************************************************************oBuY",
-      "timestamp": "2026-04-26T05:56:59.241719"
+      "timestamp": "2026-04-27T06:16:58.071206"
     },
     {
       "service": "next",
@@ -27,7 +27,7 @@
       "description": "Next Public Supabase Anon Key",
       "severity": "medium",
       "matched_pattern": "NEXT**************************************************************************************************************************************************************************************************************************************cg7Q",
-      "timestamp": "2026-04-26T05:57:19.484132"
+      "timestamp": "2026-04-27T06:17:17.965377"
     },
     {
       "service": "next",
@@ -40,7 +40,7 @@
       "description": "Next Public Clerk Publishable Key",
       "severity": "medium",
       "matched_pattern": "publ**_key",
-      "timestamp": "2026-04-26T05:57:52.382981"
+      "timestamp": "2026-04-27T06:17:46.404454"
     },
     {
       "service": "next",
@@ -53,7 +53,7 @@
       "description": "Next Public Firebase Api Key",
       "severity": "medium",
       "matched_pattern": "NEXT**************************************************************5jc\"",
-      "timestamp": "2026-04-26T05:57:57.448776"
+      "timestamp": "2026-04-27T06:17:50.883637"
     },
     {
       "service": "next",
@@ -66,7 +66,7 @@
       "description": "Next Public Firebase Auth Domain",
       "severity": "medium",
       "matched_pattern": "Culi**********************.com",
-      "timestamp": "2026-04-26T05:57:57.448820"
+      "timestamp": "2026-04-27T06:17:50.883681"
     },
     {
       "service": "next",
@@ -79,7 +79,7 @@
       "description": "Next Public Analytics Storage Key",
       "severity": "medium",
       "matched_pattern": "sala*********tics",
-      "timestamp": "2026-04-26T05:57:59.396499"
+      "timestamp": "2026-04-27T06:17:52.743035"
     },
     {
       "service": "next",
@@ -92,7 +92,7 @@
       "description": "Next Public Session Id Key",
       "severity": "medium",
       "matched_pattern": "sala**********n_id",
-      "timestamp": "2026-04-26T05:57:59.396647"
+      "timestamp": "2026-04-27T06:17:52.743172"
     },
     {
       "service": "next",
@@ -105,7 +105,7 @@
       "description": "Next Public Stack Publishable Client Key",
       "severity": "medium",
       "matched_pattern": "pck_*****************************************h028",
-      "timestamp": "2026-04-26T05:58:00.967866"
+      "timestamp": "2026-04-27T06:17:54.173944"
     },
     {
       "service": "next",
@@ -118,7 +118,7 @@
       "description": "Next Public Supabase Anon Key",
       "severity": "medium",
       "matched_pattern": "NEXT**************************************************************************************************************************************************************************************************************************************9jUM",
-      "timestamp": "2026-04-26T05:58:01.686594"
+      "timestamp": "2026-04-27T06:17:54.762912"
     },
     {
       "service": "next",
@@ -131,7 +131,7 @@
       "description": "Next Public Supabase Anon Key",
       "severity": "medium",
       "matched_pattern": "NEXT**************************************************************************************************************************************************************************************************************************************MuT0",
-      "timestamp": "2026-04-26T05:58:03.105416"
+      "timestamp": "2026-04-27T06:17:56.228906"
     },
     {
       "service": "next",
@@ -144,7 +144,7 @@
       "description": "Next Public Supabase Anon Key",
       "severity": "medium",
       "matched_pattern": "NEXT**************************************************************************************************************************************************************************************************************************************mrow",
-      "timestamp": "2026-04-26T05:58:06.835214"
+      "timestamp": "2026-04-27T06:18:00.121426"
     },
     {
       "service": "next",
@@ -157,7 +157,7 @@
       "description": "Next Public Pimlico Api Key",
       "severity": "medium",
       "matched_pattern": "NEXT************************************************FcU'",
-      "timestamp": "2026-04-26T05:58:06.994595"
+      "timestamp": "2026-04-27T06:18:00.278490"
     },
     {
       "service": "next",
@@ -170,7 +170,7 @@
       "description": "Next Public Supabase Anon Key",
       "severity": "medium",
       "matched_pattern": "NEXT**************************************************************************************************************************************************************************************************************************************BAL0",
-      "timestamp": "2026-04-26T05:58:07.317849"
+      "timestamp": "2026-04-27T06:18:00.577441"
     },
     {
       "service": "next",
@@ -183,7 +183,7 @@
       "description": "Next Public Turnstile Site Key",
       "severity": "medium",
       "matched_pattern": "0x4A****************YDS6",
-      "timestamp": "2026-04-26T05:58:21.058378"
+      "timestamp": "2026-04-27T06:18:14.690064"
     }
   ]
 }

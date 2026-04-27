@@ -1,6 +1,6 @@
 {
   "service": "nextauth",
-  "scan_timestamp": "2026-04-26T05:58:22.420192",
+  "scan_timestamp": "2026-04-27T06:18:16.029427",
   "finding_count": 6,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "http*************3000",
-      "timestamp": "2026-04-26T05:57:00.752274"
+      "timestamp": "2026-04-27T06:17:00.487929"
     },
     {
       "service": "nextauth",
@@ -27,20 +27,20 @@
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "NEXT**************************3000",
-      "timestamp": "2026-04-26T05:57:05.984044"
+      "timestamp": "2026-04-27T06:17:05.162462"
     },
     {
       "service": "nextauth",
       "file": ".env.example",
-      "repository": "Velonova-AI/LLMAdmin",
-      "url": "https://github.com/Velonova-AI/LLMAdmin/blob/79953688cc8592ea7c5e0da47dcc1f5768149b4c/.env.example",
-      "line_number": 31,
-      "line_preview": "NEXTAUTH_URL=\"http://localhost:3000\"",
+      "repository": "sharath2004-tech/edu-bridge-ai-platform-bharath-hackathon",
+      "url": "https://github.com/sharath2004-tech/edu-bridge-ai-platform-bharath-hackathon/blob/800631bc16eb6da0ed68c8b2f9e64c5e88cd2fc9/.env.example",
+      "line_number": 18,
+      "line_preview": "NEXTAUTH_URL=http://localhost:3000",
       "key_type": "nextauth_url",
       "description": "Nextauth Url",
       "severity": "medium",
-      "matched_pattern": "NEXT****************************000\"",
-      "timestamp": "2026-04-26T05:57:39.656991"
+      "matched_pattern": "NEXT**************************3000",
+      "timestamp": "2026-04-27T06:17:39.283208"
     },
     {
       "service": "nextauth",
@@ -53,7 +53,7 @@
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "NEXT****************************000\"",
-      "timestamp": "2026-04-26T05:57:57.448299"
+      "timestamp": "2026-04-27T06:17:50.883156"
     },
     {
       "service": "nextauth",
@@ -66,7 +66,7 @@
       "description": "Nextauth Secret",
       "severity": "high",
       "matched_pattern": "NEXT*******************************************4_32",
-      "timestamp": "2026-04-26T05:58:03.553747"
+      "timestamp": "2026-04-27T06:17:56.088876"
     },
     {
       "service": "nextauth",
@@ -79,7 +79,7 @@
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "NEXT**************************3000",
-      "timestamp": "2026-04-26T05:58:03.553787"
+      "timestamp": "2026-04-27T06:17:56.088916"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "service": "co",
-  "scan_timestamp": "2026-04-26T05:58:22.409948",
+  "scan_timestamp": "2026-04-27T06:18:16.019721",
   "finding_count": 12,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*************duce",
-      "timestamp": "2026-04-26T05:57:18.722562"
+      "timestamp": "2026-04-27T06:17:17.172566"
     },
     {
       "service": "co",
@@ -27,7 +27,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A************************2345",
-      "timestamp": "2026-04-26T05:57:19.052104"
+      "timestamp": "2026-04-27T06:17:17.450220"
     },
     {
       "service": "co",
@@ -40,7 +40,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************************89cf",
-      "timestamp": "2026-04-26T05:57:19.186191"
+      "timestamp": "2026-04-27T06:17:17.656981"
     },
     {
       "service": "co",
@@ -53,7 +53,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*******************Q80T",
-      "timestamp": "2026-04-26T05:57:19.338442"
+      "timestamp": "2026-04-27T06:17:17.822783"
     },
     {
       "service": "co",
@@ -66,7 +66,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************************d5a3",
-      "timestamp": "2026-04-26T05:57:19.484416"
+      "timestamp": "2026-04-27T06:17:17.965604"
     },
     {
       "service": "co",
@@ -79,7 +79,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A**********************s_90",
-      "timestamp": "2026-04-26T05:57:23.013735"
+      "timestamp": "2026-04-27T06:17:20.797209"
     },
     {
       "service": "co",
@@ -92,7 +92,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********************************61ad",
-      "timestamp": "2026-04-26T05:57:24.615123"
+      "timestamp": "2026-04-27T06:17:22.366812"
     },
     {
       "service": "co",
@@ -105,7 +105,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********************************TylK",
-      "timestamp": "2026-04-26T05:57:26.939960"
+      "timestamp": "2026-04-27T06:17:24.373719"
     },
     {
       "service": "co",
@@ -118,20 +118,20 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A***********box-",
-      "timestamp": "2026-04-26T05:57:48.113136"
+      "timestamp": "2026-04-27T06:17:42.691122"
     },
     {
       "service": "co",
       "file": ".env.example",
       "repository": "stevenfazzio/claude-code-changelog-analysis",
-      "url": "https://github.com/stevenfazzio/claude-code-changelog-analysis/blob/95af10faace5246dac17139d8978196adf6d9d22/.env.example",
+      "url": "https://github.com/stevenfazzio/claude-code-changelog-analysis/blob/2f900edbd4731dbd12a0ff9c1c360de9c55adc95/.env.example",
       "line_number": 2,
       "line_preview": "CO_API_KEY=          # for embed stage (Cohere)",
       "key_type": "co_api_key",
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "# fo******************ere)",
-      "timestamp": "2026-04-26T05:57:50.854216"
+      "timestamp": "2026-04-27T06:17:45.099795"
     },
     {
       "service": "co",
@@ -144,7 +144,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*****************************9QcP",
-      "timestamp": "2026-04-26T05:57:58.243147"
+      "timestamp": "2026-04-27T06:17:51.683301"
     },
     {
       "service": "co",
@@ -157,7 +157,7 @@
       "description": "Co Api Key",
       "severity": "medium",
       "matched_pattern": "CO_A*******************************FcU'",
-      "timestamp": "2026-04-26T05:58:06.994492"
+      "timestamp": "2026-04-27T06:18:00.278392"
     }
   ]
 }

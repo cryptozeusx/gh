@@ -1,6 +1,6 @@
 {
   "service": "dotenv",
-  "scan_timestamp": "2026-04-26T05:58:22.412364",
+  "scan_timestamp": "2026-04-27T06:18:16.022042",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Dotenv Public Key Production",
       "severity": "critical",
       "matched_pattern": "024d**********************************************************123c",
-      "timestamp": "2026-04-26T05:57:18.079380"
+      "timestamp": "2026-04-27T06:17:16.559479"
     }
   ]
 }

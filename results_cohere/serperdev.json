@@ -1,6 +1,6 @@
 {
   "service": "serperdev",
-  "scan_timestamp": "2026-04-26T05:58:22.424197",
+  "scan_timestamp": "2026-04-27T06:18:16.032837",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Serperdev Api Key",
       "severity": "medium",
       "matched_pattern": "#Int*************** KEY",
-      "timestamp": "2026-04-26T05:57:18.722695"
+      "timestamp": "2026-04-27T06:17:17.172645"
     }
   ]
 }

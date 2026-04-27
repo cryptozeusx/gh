@@ -1,6 +1,6 @@
 {
   "service": "groq",
-  "scan_timestamp": "2026-04-26T05:58:22.416859",
+  "scan_timestamp": "2026-04-27T06:18:16.026236",
   "finding_count": 5,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ***************************************************************egLH",
-      "timestamp": "2026-04-26T05:57:24.461174"
+      "timestamp": "2026-04-27T06:17:22.200763"
     },
     {
       "service": "groq",
@@ -27,7 +27,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ*************************************************************HfDm",
-      "timestamp": "2026-04-26T05:57:24.926260"
+      "timestamp": "2026-04-27T06:17:22.506402"
     },
     {
       "service": "groq",
@@ -40,7 +40,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ*************************************************************bx9C",
-      "timestamp": "2026-04-26T05:57:25.256662"
+      "timestamp": "2026-04-27T06:17:22.821875"
     },
     {
       "service": "groq",
@@ -53,7 +53,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ*************************************************************5dr7",
-      "timestamp": "2026-04-26T05:58:03.552081"
+      "timestamp": "2026-04-27T06:17:56.087509"
     },
     {
       "service": "groq",
@@ -66,7 +66,7 @@
       "description": "Groq Api Key",
       "severity": "medium",
       "matched_pattern": "GROQ******************************************************************************************zNFn",
-      "timestamp": "2026-04-26T05:58:04.192373"
+      "timestamp": "2026-04-27T06:17:56.991831"
     }
   ]
 }

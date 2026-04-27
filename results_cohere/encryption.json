@@ -1,47 +1,8 @@
 {
   "service": "encryption",
-  "scan_timestamp": "2026-04-26T05:58:22.412714",
-  "finding_count": 4,
+  "scan_timestamp": "2026-04-27T06:18:16.022272",
+  "finding_count": 1,
   "findings": [
-    {
-      "service": "encryption",
-      "file": "staging.env.example",
-      "repository": "tradermaster74-code/JGNEXT_local_dev",
-      "url": "https://github.com/tradermaster74-code/JGNEXT_local_dev/blob/e9a0425e436e7d85343bd28909b6457c3bd7b0bb/staging.env.example",
-      "line_number": 271,
-      "line_preview": "ENCRYPTION_KEY=CHANGE_ME_ENCRYPTION_KEY_32_BYTES",
-      "key_type": "encryption_key",
-      "description": "Encryption Key",
-      "severity": "medium",
-      "matched_pattern": "CHAN*************************YTES",
-      "timestamp": "2026-04-26T05:57:33.820429"
-    },
-    {
-      "service": "encryption",
-      "file": "backend/.env.dist.local",
-      "repository": "linuxfoundation/crowd.dev",
-      "url": "https://github.com/linuxfoundation/crowd.dev/blob/574713f519990245548e0a487aa3c2133a8e048e/backend/.env.dist.local",
-      "line_number": 151,
-      "line_preview": "CROWD_TEMPORAL_ENCRYPTION_KEY=FweBMRnGCLshER8FlSvNusQA6G3MRUKt",
-      "key_type": "encryption_key",
-      "description": "Encryption Key",
-      "severity": "medium",
-      "matched_pattern": "ENCR***************************************RUKt",
-      "timestamp": "2026-04-26T05:58:00.001919"
-    },
-    {
-      "service": "encryption",
-      "file": "backend/.env.dist.local",
-      "repository": "LF-Decentralized-Trust-labs/gitmesh",
-      "url": "https://github.com/LF-Decentralized-Trust-labs/gitmesh/blob/77f1b509cde0b8b8cb392b010eb764a1b9e6636a/backend/.env.dist.local",
-      "line_number": 292,
-      "line_preview": "TEMPORAL_ENCRYPTION_KEY=FweBMRnGCLshER8FlSvNusQA6G3MRUKt",
-      "key_type": "encryption_key",
-      "description": "Encryption Key",
-      "severity": "medium",
-      "matched_pattern": "ENCR***************************************RUKt",
-      "timestamp": "2026-04-26T05:58:01.166488"
-    },
     {
       "service": "encryption",
       "file": ".env.development",
@@ -52,8 +13,8 @@
       "key_type": "encryption_key",
       "description": "Encryption Key",
       "severity": "medium",
-      "matched_pattern": "ENCR***************************************7ab2",
-      "timestamp": "2026-04-26T05:58:15.503397"
+      "matched_pattern": "9990************************7ab2",
+      "timestamp": "2026-04-27T06:18:08.638148"
     }
   ]
 }

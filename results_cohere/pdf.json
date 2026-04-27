@@ -1,6 +1,6 @@
 {
   "service": "pdf",
-  "scan_timestamp": "2026-04-26T05:58:22.421244",
+  "scan_timestamp": "2026-04-27T06:18:16.030422",
   "finding_count": 3,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Pdf Co Api Key",
       "severity": "medium",
       "matched_pattern": "PDF_*************************************************************************************************Hhk4",
-      "timestamp": "2026-04-26T05:57:20.691177"
+      "timestamp": "2026-04-27T06:17:18.850387"
     },
     {
       "service": "pdf",
@@ -27,7 +27,7 @@
       "description": "Pdf Co Api Key",
       "severity": "medium",
       "matched_pattern": "PDF_**************************************************************************************************qF7U",
-      "timestamp": "2026-04-26T05:57:27.094651"
+      "timestamp": "2026-04-27T06:17:24.543995"
     },
     {
       "service": "pdf",
@@ -40,7 +40,7 @@
       "description": "Pdf Co Api Key",
       "severity": "medium",
       "matched_pattern": "PDF_*******************************************************************************************YSui",
-      "timestamp": "2026-04-26T05:58:06.835517"
+      "timestamp": "2026-04-27T06:18:00.121730"
     }
   ]
 }

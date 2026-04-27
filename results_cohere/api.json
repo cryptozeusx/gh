@@ -1,7 +1,7 @@
 {
   "service": "api",
-  "scan_timestamp": "2026-04-26T05:58:22.408445",
-  "finding_count": 8,
+  "scan_timestamp": "2026-04-27T06:18:16.018465",
+  "finding_count": 6,
   "findings": [
     {
       "service": "api",
@@ -14,7 +14,7 @@
       "description": "Api Password",
       "severity": "high",
       "matched_pattern": "Deng***7258",
-      "timestamp": "2026-04-26T05:57:19.338758"
+      "timestamp": "2026-04-27T06:17:17.823080"
     },
     {
       "service": "api",
@@ -27,33 +27,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_******************************************************************************************Hhk4",
-      "timestamp": "2026-04-26T05:57:20.691223"
-    },
-    {
-      "service": "api",
-      "file": ".env.example",
-      "repository": "eslamsaby15/AIVox_Lab",
-      "url": "https://github.com/eslamsaby15/AIVox_Lab/blob/7c0bb0b37a8c126049621c16ad4cfe3f2ec84343/.env.example",
-      "line_number": 17,
-      "line_preview": "COHERE_API_KEY=\"UlWfDHtIBXK9n\"",
-      "key_type": "api_key",
-      "description": "Api Key",
-      "severity": "medium",
-      "matched_pattern": "API_***************K9n\"",
-      "timestamp": "2026-04-26T05:57:40.136800"
-    },
-    {
-      "service": "api",
-      "file": ".env.example",
-      "repository": "eslamsaby15/AIVox_Lab",
-      "url": "https://github.com/eslamsaby15/AIVox_Lab/blob/7c0bb0b37a8c126049621c16ad4cfe3f2ec84343/.env.example",
-      "line_number": 18,
-      "line_preview": "GEMINI_API_KEY=\"AIzaSyDU2uWM\"",
-      "key_type": "api_key",
-      "description": "Api Key",
-      "severity": "medium",
-      "matched_pattern": "API_**************uWM\"",
-      "timestamp": "2026-04-26T05:57:40.136868"
+      "timestamp": "2026-04-27T06:17:18.850431"
     },
     {
       "service": "api",
@@ -66,7 +40,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_*********udio",
-      "timestamp": "2026-04-26T05:57:41.727567"
+      "timestamp": "2026-04-27T06:17:33.875470"
     },
     {
       "service": "api",
@@ -79,7 +53,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_********box-",
-      "timestamp": "2026-04-26T05:57:48.113235"
+      "timestamp": "2026-04-27T06:17:42.691220"
     },
     {
       "service": "api",
@@ -92,7 +66,7 @@
       "description": "Api Secret",
       "severity": "high",
       "matched_pattern": "API_*****************************************************YNze",
-      "timestamp": "2026-04-26T05:58:00.967514"
+      "timestamp": "2026-04-27T06:17:54.173594"
     },
     {
       "service": "api",
@@ -105,7 +79,7 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_************************************************************************************YSui",
-      "timestamp": "2026-04-26T05:58:06.835576"
+      "timestamp": "2026-04-27T06:18:00.121780"
     }
   ]
 }
