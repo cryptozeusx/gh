@@ -1,8 +1,21 @@
 {
   "service": "postgres",
-  "scan_timestamp": "2026-04-27T06:18:16.030968",
-  "finding_count": 1,
+  "scan_timestamp": "2026-04-28T06:21:04.168576",
+  "finding_count": 2,
   "findings": [
+    {
+      "service": "postgres",
+      "file": ".env.hanzo.example",
+      "repository": "hanzoai/chat",
+      "url": "https://github.com/hanzoai/chat/blob/a26e7eebb220f5ab3f16d9d91222e73e4ff1ba5c/.env.hanzo.example",
+      "line_number": 14,
+      "line_preview": "POSTGRES_PASSWORD=hanzo123",
+      "key_type": "postgres_password",
+      "description": "Postgres Password",
+      "severity": "high",
+      "matched_pattern": "********",
+      "timestamp": "2026-04-28T06:20:21.826086"
+    },
     {
       "service": "postgres",
       "file": "env.local",
@@ -13,8 +26,8 @@
       "key_type": "postgres_password",
       "description": "Postgres Password",
       "severity": "high",
-      "matched_pattern": "npg_********IX6P",
-      "timestamp": "2026-04-27T06:17:54.173899"
+      "matched_pattern": "POST**************************IX6P",
+      "timestamp": "2026-04-28T06:20:42.586274"
     }
   ]
 }

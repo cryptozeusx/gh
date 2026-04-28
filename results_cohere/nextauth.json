@@ -1,7 +1,7 @@
 {
   "service": "nextauth",
-  "scan_timestamp": "2026-04-27T06:18:16.029427",
-  "finding_count": 6,
+  "scan_timestamp": "2026-04-28T06:21:04.166912",
+  "finding_count": 5,
   "findings": [
     {
       "service": "nextauth",
@@ -14,46 +14,33 @@
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "http*************3000",
-      "timestamp": "2026-04-27T06:17:00.487929"
+      "timestamp": "2026-04-28T06:19:52.933327"
     },
     {
       "service": "nextauth",
       "file": ".env.local",
       "repository": "JohnEvansOkyere/Chat_PDF_RAG_APP",
-      "url": "https://github.com/JohnEvansOkyere/Chat_PDF_RAG_APP/blob/f46f9ec16a970911b60b7ff14544f8391e7a4667/.env.local",
+      "url": "https://github.com/JohnEvansOkyere/Chat_PDF_RAG_APP/blob/5c3ff297860646315710d376585d03a9877cc30a/.env.local",
       "line_number": 23,
       "line_preview": "NEXTAUTH_URL=http://localhost:3000",
       "key_type": "nextauth_url",
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "NEXT**************************3000",
-      "timestamp": "2026-04-27T06:17:05.162462"
-    },
-    {
-      "service": "nextauth",
-      "file": ".env.example",
-      "repository": "sharath2004-tech/edu-bridge-ai-platform-bharath-hackathon",
-      "url": "https://github.com/sharath2004-tech/edu-bridge-ai-platform-bharath-hackathon/blob/800631bc16eb6da0ed68c8b2f9e64c5e88cd2fc9/.env.example",
-      "line_number": 18,
-      "line_preview": "NEXTAUTH_URL=http://localhost:3000",
-      "key_type": "nextauth_url",
-      "description": "Nextauth Url",
-      "severity": "medium",
-      "matched_pattern": "NEXT**************************3000",
-      "timestamp": "2026-04-27T06:17:39.283208"
+      "timestamp": "2026-04-28T06:19:56.979726"
     },
     {
       "service": "nextauth",
       "file": "env.example",
       "repository": "ikayaalp/gastrofolly",
-      "url": "https://github.com/ikayaalp/gastrofolly/blob/c5bf90d6ac3c5f248a1cc01ecb5dac4bb4765d3c/env.example",
+      "url": "https://github.com/ikayaalp/gastrofolly/blob/53cbd3d0a0d13566a79839a509e3cdf6594ae3c6/env.example",
       "line_number": 6,
       "line_preview": "NEXTAUTH_URL=\"http://localhost:3000\"",
       "key_type": "nextauth_url",
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "NEXT****************************000\"",
-      "timestamp": "2026-04-27T06:17:50.883156"
+      "timestamp": "2026-04-28T06:20:39.632377"
     },
     {
       "service": "nextauth",
@@ -66,7 +53,7 @@
       "description": "Nextauth Secret",
       "severity": "high",
       "matched_pattern": "NEXT*******************************************4_32",
-      "timestamp": "2026-04-27T06:17:56.088876"
+      "timestamp": "2026-04-28T06:20:44.147151"
     },
     {
       "service": "nextauth",
@@ -79,7 +66,7 @@
       "description": "Nextauth Url",
       "severity": "medium",
       "matched_pattern": "NEXT**************************3000",
-      "timestamp": "2026-04-27T06:17:56.088916"
+      "timestamp": "2026-04-28T06:20:44.147194"
     }
   ]
 }

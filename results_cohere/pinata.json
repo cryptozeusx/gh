@@ -1,8 +1,21 @@
 {
   "service": "pinata",
-  "scan_timestamp": "2026-04-27T06:18:16.030839",
-  "finding_count": 3,
+  "scan_timestamp": "2026-04-28T06:21:04.168391",
+  "finding_count": 4,
   "findings": [
+    {
+      "service": "pinata",
+      "file": ".env.production",
+      "repository": "Sharikarajan07/Event-Ticketing-Dapp",
+      "url": "https://github.com/Sharikarajan07/Event-Ticketing-Dapp/blob/6d5a9beea8814b34a6aaabc86cf772c2c40a62cb/.env.production",
+      "line_number": 5,
+      "line_preview": "PINATA_API_SECRET_KEY=2a32dd0ea1e17a55e22e01ebcb9b7e6997ce0b99534d96fdc74567ce03564a39",
+      "key_type": "pinata_api_secret_key",
+      "description": "Pinata Api Secret Key",
+      "severity": "high",
+      "matched_pattern": "2a32********************************************************4a39",
+      "timestamp": "2026-04-28T06:19:51.010060"
+    },
     {
       "service": "pinata",
       "file": ".env.local",
@@ -14,7 +27,7 @@
       "description": "Pinata Api Key",
       "severity": "medium",
       "matched_pattern": "PINA***************************b5b8",
-      "timestamp": "2026-04-27T06:17:00.876961"
+      "timestamp": "2026-04-28T06:19:53.406319"
     },
     {
       "service": "pinata",
@@ -27,7 +40,7 @@
       "description": "Pinata Api Key",
       "severity": "medium",
       "matched_pattern": "PINA*******************************************************************************************************************************************************************************oHV\"",
-      "timestamp": "2026-04-27T06:17:16.559381"
+      "timestamp": "2026-04-28T06:20:07.064164"
     },
     {
       "service": "pinata",
@@ -40,7 +53,7 @@
       "description": "Pinata Api Key",
       "severity": "medium",
       "matched_pattern": "PINA***************************b5b8",
-      "timestamp": "2026-04-27T06:17:57.414296"
+      "timestamp": "2026-04-28T06:20:45.467409"
     }
   ]
 }

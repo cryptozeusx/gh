@@ -1,7 +1,7 @@
 {
   "service": "gemini",
-  "scan_timestamp": "2026-04-27T06:18:16.023235",
-  "finding_count": 5,
+  "scan_timestamp": "2026-04-28T06:21:04.160302",
+  "finding_count": 6,
   "findings": [
     {
       "service": "gemini",
@@ -14,7 +14,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************o_vI",
-      "timestamp": "2026-04-27T06:17:18.850200"
+      "timestamp": "2026-04-28T06:20:09.173042"
     },
     {
       "service": "gemini",
@@ -27,7 +27,20 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************MZeA",
-      "timestamp": "2026-04-27T06:17:20.087418"
+      "timestamp": "2026-04-28T06:20:10.324051"
+    },
+    {
+      "service": "gemini",
+      "file": "backend/.env.production.example",
+      "repository": "anusbutt/Physical-AI-Humanoid-Robotics-Textbook",
+      "url": "https://github.com/anusbutt/Physical-AI-Humanoid-Robotics-Textbook/blob/d69019d393f38bd1189987d41b238d46a20220d4/backend/.env.production.example",
+      "line_number": 7,
+      "line_preview": "GEMINI_API_KEY=AIzaSy...  # Get from: https://ai.google.dev/",
+      "key_type": "gemini_api_key",
+      "description": "Gemini Api Key",
+      "severity": "medium",
+      "matched_pattern": "AIza*************************************dev/",
+      "timestamp": "2026-04-28T06:20:23.651193"
     },
     {
       "service": "gemini",
@@ -40,7 +53,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************9_ag",
-      "timestamp": "2026-04-27T06:17:53.594014"
+      "timestamp": "2026-04-28T06:20:42.046483"
     },
     {
       "service": "gemini",
@@ -53,7 +66,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************inns",
-      "timestamp": "2026-04-27T06:17:54.173214"
+      "timestamp": "2026-04-28T06:20:42.586805"
     },
     {
       "service": "gemini",
@@ -66,7 +79,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************Dsdg",
-      "timestamp": "2026-04-27T06:17:56.087668"
+      "timestamp": "2026-04-28T06:20:44.145893"
     }
   ]
 }

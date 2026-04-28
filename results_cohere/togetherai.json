@@ -1,6 +1,6 @@
 {
   "service": "togetherai",
-  "scan_timestamp": "2026-04-23T05:54:27.676727",
+  "scan_timestamp": "2026-04-28T06:21:04.172537",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Togetherai Api Key",
       "severity": "medium",
       "matched_pattern": "... ***********************name",
-      "timestamp": "2026-04-23T05:53:51.918038"
+      "timestamp": "2026-04-28T06:20:28.355609"
     }
   ]
 }

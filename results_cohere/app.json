@@ -1,7 +1,7 @@
 {
   "service": "app",
-  "scan_timestamp": "2026-04-27T06:18:16.018666",
-  "finding_count": 9,
+  "scan_timestamp": "2026-04-28T06:21:04.155489",
+  "finding_count": 8,
   "findings": [
     {
       "service": "app",
@@ -14,20 +14,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "base*******************************************KgQ=",
-      "timestamp": "2026-04-27T06:16:59.954295"
-    },
-    {
-      "service": "app",
-      "file": "docker/env/.env.example.app",
-      "repository": "fadymaher24/mini-RAG",
-      "url": "https://github.com/fadymaher24/mini-RAG/blob/dc3fea14bec5a6a3a8dd00d17465af247471bf38/docker/env/.env.example.app",
-      "line_number": 4,
-      "line_preview": "APP_AUTHOR=\"Fady Maher\"",
-      "key_type": "app_author",
-      "description": "App Author",
-      "severity": "medium",
-      "matched_pattern": "Fady**aher",
-      "timestamp": "2026-04-27T06:17:06.918014"
+      "timestamp": "2026-04-28T06:19:52.804481"
     },
     {
       "service": "app",
@@ -40,7 +27,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************hXw=",
-      "timestamp": "2026-04-27T06:17:13.508036"
+      "timestamp": "2026-04-28T06:20:04.414429"
     },
     {
       "service": "app",
@@ -53,7 +40,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************tso=",
-      "timestamp": "2026-04-27T06:17:20.655630"
+      "timestamp": "2026-04-28T06:20:10.900020"
     },
     {
       "service": "app",
@@ -66,20 +53,20 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************Wws=",
-      "timestamp": "2026-04-27T06:17:23.627259"
+      "timestamp": "2026-04-28T06:20:13.987318"
     },
     {
       "service": "app",
-      "file": "storage/dotenv-editor/backups/.env.backup_2022_10_01_011209",
+      "file": "storage/dotenv-editor/backups/.env.backup_2022_10_01_011032",
       "repository": "raydanielg/Help-Desk",
-      "url": "https://github.com/raydanielg/Help-Desk/blob/89a445889474e7f2334fc0f42bc344defec7bf74/storage/dotenv-editor/backups/.env.backup_2022_10_01_011209",
+      "url": "https://github.com/raydanielg/Help-Desk/blob/89a445889474e7f2334fc0f42bc344defec7bf74/storage/dotenv-editor/backups/.env.backup_2022_10_01_011032",
       "line_number": 4,
       "line_preview": "APP_KEY=base64:WrvqXJ+ilWOLItqI7C2N2R2dQkqFAHFYzTrQBBJqtso=",
       "key_type": "app_key",
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************tso=",
-      "timestamp": "2026-04-27T06:17:23.787114"
+      "timestamp": "2026-04-28T06:20:14.156773"
     },
     {
       "service": "app",
@@ -92,7 +79,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************nYQ=",
-      "timestamp": "2026-04-27T06:17:24.373259"
+      "timestamp": "2026-04-28T06:20:14.746580"
     },
     {
       "service": "app",
@@ -105,7 +92,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************************************Xv8=",
-      "timestamp": "2026-04-27T06:17:24.724789"
+      "timestamp": "2026-04-28T06:20:15.076378"
     },
     {
       "service": "app",
@@ -118,7 +105,7 @@
       "description": "App Key",
       "severity": "medium",
       "matched_pattern": "APP_***************************e8p\"",
-      "timestamp": "2026-04-27T06:17:43.464263"
+      "timestamp": "2026-04-28T06:20:32.744927"
     }
   ]
 }

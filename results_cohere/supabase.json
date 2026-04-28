@@ -1,7 +1,7 @@
 {
   "service": "supabase",
-  "scan_timestamp": "2026-04-27T06:18:16.033757",
-  "finding_count": 4,
+  "scan_timestamp": "2026-04-28T06:21:04.171776",
+  "finding_count": 5,
   "findings": [
     {
       "service": "supabase",
@@ -14,7 +14,20 @@
       "description": "Supabase Key",
       "severity": "medium",
       "matched_pattern": "eyJh********************************************************************************************************************************************************************************************************4isA",
-      "timestamp": "2026-04-27T06:17:46.989536"
+      "timestamp": "2026-04-28T06:20:35.970149"
+    },
+    {
+      "service": "supabase",
+      "file": "backend-render/.env.example",
+      "repository": "dvirdiei/shira",
+      "url": "https://github.com/dvirdiei/shira/blob/7b9ee72f3e7f385a0eb70dcd4db6efee9dbbc942/backend-render/.env.example",
+      "line_number": 7,
+      "line_preview": "SUPABASE_SERVICE_KEY=eyJhbGciOiJIUzI1NiIsI...",
+      "key_type": "supabase_service_key",
+      "description": "Supabase Service Key",
+      "severity": "medium",
+      "matched_pattern": "eyJh****************I...",
+      "timestamp": "2026-04-28T06:20:36.880550"
     },
     {
       "service": "supabase",
@@ -27,7 +40,7 @@
       "description": "Supabase Service Role Key",
       "severity": "medium",
       "matched_pattern": "eyJh*******************************************************************************************************************************************************************************************************************_bsc",
-      "timestamp": "2026-04-27T06:17:56.229318"
+      "timestamp": "2026-04-28T06:20:44.294036"
     },
     {
       "service": "supabase",
@@ -40,7 +53,7 @@
       "description": "Supabase Service Role Key",
       "severity": "medium",
       "matched_pattern": "SUPA***********************************************************c8Mx",
-      "timestamp": "2026-04-27T06:18:00.121626"
+      "timestamp": "2026-04-28T06:20:48.654712"
     },
     {
       "service": "supabase",
@@ -53,7 +66,7 @@
       "description": "Supabase Service Role Key",
       "severity": "medium",
       "matched_pattern": "SUPA*********************************************************************************************************************************************************************************************************************************************itoI",
-      "timestamp": "2026-04-27T06:18:00.577602"
+      "timestamp": "2026-04-28T06:20:49.055346"
     }
   ]
 }

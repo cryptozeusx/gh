@@ -1,20 +1,20 @@
 {
   "service": "mongo",
-  "scan_timestamp": "2026-04-22T05:52:17.863798",
+  "scan_timestamp": "2026-04-28T06:21:04.165718",
   "finding_count": 1,
   "findings": [
     {
       "service": "mongo",
       "file": ".env.hanzo.example",
       "repository": "hanzoai/chat",
-      "url": "https://github.com/hanzoai/chat/blob/f2e9f8352a33b45adeec857f145515fc0a9759e6/.env.hanzo.example",
+      "url": "https://github.com/hanzoai/chat/blob/a26e7eebb220f5ab3f16d9d91222e73e4ff1ba5c/.env.hanzo.example",
       "line_number": 15,
       "line_preview": "MONGO_PASSWORD=hanzo123",
       "key_type": "mongo_password",
       "description": "Mongo Password",
       "severity": "high",
       "matched_pattern": "********",
-      "timestamp": "2026-04-22T05:51:41.479588"
+      "timestamp": "2026-04-28T06:20:21.826142"
     }
   ]
 }
