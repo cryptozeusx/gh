@@ -1,7 +1,7 @@
 {
   "service": "etherscan",
-  "scan_timestamp": "2026-04-28T06:21:04.159332",
-  "finding_count": 2,
+  "scan_timestamp": "2026-04-29T06:14:33.298957",
+  "finding_count": 1,
   "findings": [
     {
       "service": "etherscan",
@@ -14,20 +14,7 @@
       "description": "Etherscan Api Key",
       "severity": "medium",
       "matched_pattern": "ETHE********************************************Z26U",
-      "timestamp": "2026-04-28T06:19:51.009967"
-    },
-    {
-      "service": "etherscan",
-      "file": "vercel.env",
-      "repository": "xchrisbradley/boringjobs",
-      "url": "https://github.com/xchrisbradley/boringjobs/blob/6992a2f38a819712d4e69e764701c483d4461b61/vercel.env",
-      "line_number": 9,
-      "line_preview": "ETHERSCAN_API_KEY=MFGS2QR962VFB1HJV2FDBE59BSBT8PZ8HG",
-      "key_type": "etherscan_api_key",
-      "description": "Etherscan Api Key",
-      "severity": "medium",
-      "matched_pattern": "ETHE********************************************Z8HG",
-      "timestamp": "2026-04-28T06:20:16.213296"
+      "timestamp": "2026-04-29T06:13:30.354251"
     }
   ]
 }

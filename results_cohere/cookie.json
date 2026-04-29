@@ -1,6 +1,6 @@
 {
   "service": "cookie",
-  "scan_timestamp": "2026-04-28T06:21:04.157547",
+  "scan_timestamp": "2026-04-29T06:14:33.296983",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Cookie Secret",
       "severity": "high",
       "matched_pattern": "COOK************************************************US__",
-      "timestamp": "2026-04-28T06:20:13.848120"
+      "timestamp": "2026-04-29T06:13:48.722449"
     }
   ]
 }

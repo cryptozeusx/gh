@@ -1,7 +1,7 @@
 {
   "service": "meili",
-  "scan_timestamp": "2026-04-28T06:21:04.165049",
-  "finding_count": 2,
+  "scan_timestamp": "2026-04-29T06:14:33.305150",
+  "finding_count": 1,
   "findings": [
     {
       "service": "meili",
@@ -14,20 +14,7 @@
       "description": "Meili Master Key",
       "severity": "critical",
       "matched_pattern": "DrhY************************************fFCt",
-      "timestamp": "2026-04-28T06:19:52.275680"
-    },
-    {
-      "service": "meili",
-      "file": ".env.hanzo.example",
-      "repository": "hanzoai/chat",
-      "url": "https://github.com/hanzoai/chat/blob/a26e7eebb220f5ab3f16d9d91222e73e4ff1ba5c/.env.hanzo.example",
-      "line_number": 32,
-      "line_preview": "MEILI_MASTER_KEY=HanzoMeiliMasterKey",
-      "key_type": "meili_master_key",
-      "description": "Meili Master Key",
-      "severity": "critical",
-      "matched_pattern": "MEIL****************************rKey",
-      "timestamp": "2026-04-28T06:20:21.825956"
+      "timestamp": "2026-04-29T06:13:32.195857"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "service": "azure",
-  "scan_timestamp": "2026-04-28T06:21:04.156022",
+  "scan_timestamp": "2026-04-29T06:14:33.295310",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Azure Aoai Openai Gpt4 Subscription Key",
       "severity": "medium",
       "matched_pattern": "AZUR*******************************_KEY",
-      "timestamp": "2026-04-28T06:20:25.618446"
+      "timestamp": "2026-04-29T06:13:57.561885"
     }
   ]
 }

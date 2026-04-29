@@ -1,8 +1,21 @@
 {
   "service": "mistral",
-  "scan_timestamp": "2026-04-28T06:21:04.165560",
+  "scan_timestamp": "2026-04-29T06:14:33.305541",
   "finding_count": 3,
   "findings": [
+    {
+      "service": "mistral",
+      "file": ".env",
+      "repository": "PathfinderFederalSolutions/AgentForge",
+      "url": "https://github.com/PathfinderFederalSolutions/AgentForge/blob/312de179728e91e461708b7f48f2d3da8dc60232/.env",
+      "line_number": 5,
+      "line_preview": "MISTRAL_API_KEY=4jW2wIOToye2GUqfDjbpwinvYWe9r48a",
+      "key_type": "mistral_api_key",
+      "description": "Mistral Api Key",
+      "severity": "medium",
+      "matched_pattern": "MIST****************************************r48a",
+      "timestamp": "2026-04-29T06:13:45.116771"
+    },
     {
       "service": "mistral",
       "file": ".env",
@@ -14,20 +27,7 @@
       "description": "Mistral Api Key",
       "severity": "medium",
       "matched_pattern": "MIST******************************************8GfS",
-      "timestamp": "2026-04-28T06:20:12.558561"
-    },
-    {
-      "service": "mistral",
-      "file": ".env.local",
-      "repository": "liveweb22/boltai",
-      "url": "https://github.com/liveweb22/boltai/blob/576e2a9775fe4343fce45a8c5d5d29e75fefa92b/.env.local",
-      "line_number": 50,
-      "line_preview": "MISTRAL_API_KEY=IGZPp2Tquhum5hKwjVwbgeb17onyBCw7",
-      "key_type": "mistral_api_key",
-      "description": "Mistral Api Key",
-      "severity": "medium",
-      "matched_pattern": "MIST****************************************BCw7",
-      "timestamp": "2026-04-28T06:20:43.891333"
+      "timestamp": "2026-04-29T06:13:47.772105"
     },
     {
       "service": "mistral",
@@ -40,7 +40,7 @@
       "description": "Mistral Api Key",
       "severity": "medium",
       "matched_pattern": "MIST****************************************KYHC",
-      "timestamp": "2026-04-28T06:20:44.146103"
+      "timestamp": "2026-04-29T06:14:13.261244"
     }
   ]
 }

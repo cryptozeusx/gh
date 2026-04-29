@@ -1,6 +1,6 @@
 {
   "service": "anthropic",
-  "scan_timestamp": "2026-04-28T06:21:04.155074",
+  "scan_timestamp": "2026-04-29T06:14:33.294371",
   "finding_count": 4,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "# Re****************************-...",
-      "timestamp": "2026-04-28T06:19:57.108834"
+      "timestamp": "2026-04-29T06:13:35.739007"
     },
     {
       "service": "anthropic",
@@ -27,20 +27,20 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************cwAA",
-      "timestamp": "2026-04-28T06:20:08.925551"
+      "timestamp": "2026-04-29T06:13:45.116513"
     },
     {
       "service": "anthropic",
       "file": ".env.example",
       "repository": "stevenfazzio/claude-code-changelog-analysis",
-      "url": "https://github.com/stevenfazzio/claude-code-changelog-analysis/blob/2f900edbd4731dbd12a0ff9c1c360de9c55adc95/.env.example",
+      "url": "https://github.com/stevenfazzio/claude-code-changelog-analysis/blob/b50363fa05cfef439fc8268a7540a629358d4cea/.env.example",
       "line_number": 1,
       "line_preview": "ANTHROPIC_API_KEY=   # for enrich stage (Claude)",
       "key_type": "anthropic_api_key",
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "# fo*******************ude)",
-      "timestamp": "2026-04-28T06:20:34.160836"
+      "timestamp": "2026-04-29T06:14:04.943513"
     },
     {
       "service": "anthropic",
@@ -53,7 +53,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************DgAA",
-      "timestamp": "2026-04-28T06:20:44.145524"
+      "timestamp": "2026-04-29T06:14:13.260646"
     }
   ]
 }

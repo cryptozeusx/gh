@@ -1,6 +1,6 @@
 {
   "service": "redis",
-  "scan_timestamp": "2026-04-26T05:58:22.423275",
+  "scan_timestamp": "2026-04-29T06:14:33.310466",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Redis Password",
       "severity": "high",
       "matched_pattern": "  # ****onal",
-      "timestamp": "2026-04-26T05:57:39.244425"
+      "timestamp": "2026-04-29T06:13:56.160260"
     }
   ]
 }

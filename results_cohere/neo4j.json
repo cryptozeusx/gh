@@ -1,7 +1,7 @@
 {
   "service": "neo4j",
-  "scan_timestamp": "2026-04-28T06:21:04.166214",
-  "finding_count": 1,
+  "scan_timestamp": "2026-04-29T06:14:33.306263",
+  "finding_count": 2,
   "findings": [
     {
       "service": "neo4j",
@@ -14,7 +14,20 @@
       "description": "Neo4J Password",
       "severity": "high",
       "matched_pattern": "ragb**lder",
-      "timestamp": "2026-04-28T06:19:49.776578"
+      "timestamp": "2026-04-29T06:13:30.072661"
+    },
+    {
+      "service": "neo4j",
+      "file": ".env.example",
+      "repository": "Gachon-Univ-Team7-Retriever/Retriever_Flask",
+      "url": "https://github.com/Gachon-Univ-Team7-Retriever/Retriever_Flask/blob/c3c4ac4d2cae57d8a7f7ce34d25ca8248b55f790/.env.example",
+      "line_number": 10,
+      "line_preview": "NEO4J_PASSWORD =  = \"your_neo4j_password\" # Aura \uc778\uc2a4\ud134\uc2a4 \uc0dd\uc131 \uc2dc \ubc1b\uc740 neo4j password",
+      "key_type": "neo4j_password",
+      "description": "Neo4J Password",
+      "severity": "high",
+      "matched_pattern": "= \"y**************************************************word",
+      "timestamp": "2026-04-29T06:14:00.331955"
     }
   ]
 }

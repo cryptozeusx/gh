@@ -1,8 +1,60 @@
 {
   "service": "encryption",
-  "scan_timestamp": "2026-04-28T06:21:04.159213",
-  "finding_count": 1,
+  "scan_timestamp": "2026-04-29T06:14:33.298776",
+  "finding_count": 5,
   "findings": [
+    {
+      "service": "encryption",
+      "file": "strategy_engine/src/render.env.md",
+      "repository": "TemamAb/alpha",
+      "url": "https://github.com/TemamAb/alpha/blob/80be4d1acaeff2db132ac414b08d0c7982165f2e/strategy_engine/src/render.env.md",
+      "line_number": 12,
+      "line_preview": "ENCRYPTION_KEY=afafe315290b51bf1483222f53bdf5640765474351aef6696e9bf544a1bd069e",
+      "key_type": "encryption_key",
+      "description": "Encryption Key",
+      "severity": "medium",
+      "matched_pattern": "afaf********************************************************069e",
+      "timestamp": "2026-04-29T06:13:44.361863"
+    },
+    {
+      "service": "encryption",
+      "file": "staging.env.example",
+      "repository": "tradermaster74-code/JGNEXT_local_dev",
+      "url": "https://github.com/tradermaster74-code/JGNEXT_local_dev/blob/e9a0425e436e7d85343bd28909b6457c3bd7b0bb/staging.env.example",
+      "line_number": 271,
+      "line_preview": "ENCRYPTION_KEY=CHANGE_ME_ENCRYPTION_KEY_32_BYTES",
+      "key_type": "encryption_key",
+      "description": "Encryption Key",
+      "severity": "medium",
+      "matched_pattern": "ENCR****************************************YTES",
+      "timestamp": "2026-04-29T06:13:53.557928"
+    },
+    {
+      "service": "encryption",
+      "file": "backend/.env.dist.local",
+      "repository": "linuxfoundation/crowd.dev",
+      "url": "https://github.com/linuxfoundation/crowd.dev/blob/208861baa70dd869c5accb3c47616ac4a2f6fc8f/backend/.env.dist.local",
+      "line_number": 151,
+      "line_preview": "CROWD_TEMPORAL_ENCRYPTION_KEY=FweBMRnGCLshER8FlSvNusQA6G3MRUKt",
+      "key_type": "encryption_key",
+      "description": "Encryption Key",
+      "severity": "medium",
+      "matched_pattern": "ENCR***************************************RUKt",
+      "timestamp": "2026-04-29T06:14:11.327952"
+    },
+    {
+      "service": "encryption",
+      "file": "backend/.env.dist.local",
+      "repository": "LF-Decentralized-Trust-labs/gitmesh",
+      "url": "https://github.com/LF-Decentralized-Trust-labs/gitmesh/blob/77f1b509cde0b8b8cb392b010eb764a1b9e6636a/backend/.env.dist.local",
+      "line_number": 292,
+      "line_preview": "TEMPORAL_ENCRYPTION_KEY=FweBMRnGCLshER8FlSvNusQA6G3MRUKt",
+      "key_type": "encryption_key",
+      "description": "Encryption Key",
+      "severity": "medium",
+      "matched_pattern": "ENCR***************************************RUKt",
+      "timestamp": "2026-04-29T06:14:12.167887"
+    },
     {
       "service": "encryption",
       "file": ".env.development",
@@ -13,8 +65,8 @@
       "key_type": "encryption_key",
       "description": "Encryption Key",
       "severity": "medium",
-      "matched_pattern": "9990************************7ab2",
-      "timestamp": "2026-04-28T06:20:57.048344"
+      "matched_pattern": "ENCR***************************************7ab2",
+      "timestamp": "2026-04-29T06:14:25.965681"
     }
   ]
 }

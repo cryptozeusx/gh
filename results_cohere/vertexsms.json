@@ -1,46 +1,46 @@
 {
   "service": "vertexsms",
-  "scan_timestamp": "2026-04-28T06:21:04.173139",
+  "scan_timestamp": "2026-04-29T06:14:33.313201",
   "finding_count": 3,
   "findings": [
     {
       "service": "vertexsms",
       "file": ".env.zelta.example",
       "repository": "FinAegis/core-banking-prototype-laravel",
-      "url": "https://github.com/FinAegis/core-banking-prototype-laravel/blob/5706856d62b3611cf49a8339d19a6ba16b5d455e/.env.zelta.example",
+      "url": "https://github.com/FinAegis/core-banking-prototype-laravel/blob/c623677a3b4a77ec5c19e9817988a3b744963a4c/.env.zelta.example",
       "line_number": 451,
       "line_preview": "VERTEXSMS_API_TOKEN=          # Get from VertexSMS dashboard",
       "key_type": "vertexsms_api_token",
       "description": "Vertexsms Api Token",
       "severity": "medium",
       "matched_pattern": "# Ge**********************oard",
-      "timestamp": "2026-04-28T06:20:06.178378"
+      "timestamp": "2026-04-29T06:13:43.282446"
     },
     {
       "service": "vertexsms",
       "file": ".env.zelta.example",
       "repository": "FinAegis/core-banking-prototype-laravel",
-      "url": "https://github.com/FinAegis/core-banking-prototype-laravel/blob/5706856d62b3611cf49a8339d19a6ba16b5d455e/.env.zelta.example",
+      "url": "https://github.com/FinAegis/core-banking-prototype-laravel/blob/c623677a3b4a77ec5c19e9817988a3b744963a4c/.env.zelta.example",
       "line_number": 455,
       "line_preview": "VERTEXSMS_WEBHOOK_SECRET=     # HMAC-SHA256 shared secret (X-VertexSMS-Signature)",
       "key_type": "vertexsms_webhook_secret",
       "description": "Vertexsms Webhook Secret",
       "severity": "high",
       "matched_pattern": "# HM*******************************************ure)",
-      "timestamp": "2026-04-28T06:20:06.178531"
+      "timestamp": "2026-04-29T06:13:43.282631"
     },
     {
       "service": "vertexsms",
       "file": ".env.zelta.example",
       "repository": "FinAegis/core-banking-prototype-laravel",
-      "url": "https://github.com/FinAegis/core-banking-prototype-laravel/blob/5706856d62b3611cf49a8339d19a6ba16b5d455e/.env.zelta.example",
+      "url": "https://github.com/FinAegis/core-banking-prototype-laravel/blob/c623677a3b4a77ec5c19e9817988a3b744963a4c/.env.zelta.example",
       "line_number": 458,
       "line_preview": "VERTEXSMS_DLR_URL_TOKEN=      # Opaque token appended as ?t= on DLR callback URL",
       "key_type": "vertexsms_dlr_url_token",
       "description": "Vertexsms Dlr Url Token",
       "severity": "medium",
       "matched_pattern": "# Op****************************************** URL",
-      "timestamp": "2026-04-28T06:20:06.178585"
+      "timestamp": "2026-04-29T06:13:43.282690"
     }
   ]
 }
