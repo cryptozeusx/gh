@@ -1,21 +1,8 @@
 {
   "service": "together",
-  "scan_timestamp": "2026-04-23T05:54:27.676561",
-  "finding_count": 2,
+  "scan_timestamp": "2026-04-30T06:19:05.615020",
+  "finding_count": 1,
   "findings": [
-    {
-      "service": "together",
-      "file": ".env.example",
-      "repository": "llama-farm/llamafarm",
-      "url": "https://github.com/llama-farm/llamafarm/blob/f4634c6e41eb398a69a5bdf452ffc5a4c2eadf4e/.env.example",
-      "line_number": 18,
-      "line_preview": "TOGETHER_API_KEY=  # Get from: https://api.together.xyz/signin",
-      "key_type": "together_api_key",
-      "description": "Together Api Key",
-      "severity": "medium",
-      "matched_pattern": "# Ge***********************************gnin",
-      "timestamp": "2026-04-23T05:53:46.873645"
-    },
     {
       "service": "together",
       "file": "iafactory-core-apps/video-studio/frontend/.env.local",
@@ -27,7 +14,7 @@
       "description": "Together Api Key",
       "severity": "medium",
       "matched_pattern": "TOGE*************************************************************************5df3",
-      "timestamp": "2026-04-23T05:54:07.469037"
+      "timestamp": "2026-04-30T06:18:46.591537"
     }
   ]
 }

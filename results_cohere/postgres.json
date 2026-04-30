@@ -1,8 +1,21 @@
 {
   "service": "postgres",
-  "scan_timestamp": "2026-04-29T06:14:33.309100",
-  "finding_count": 1,
+  "scan_timestamp": "2026-04-30T06:19:05.612960",
+  "finding_count": 2,
   "findings": [
+    {
+      "service": "postgres",
+      "file": ".env.example",
+      "repository": "umitkacar/awesome-mlops",
+      "url": "https://github.com/umitkacar/awesome-mlops/blob/901d14d6cb4abeaf8ed4ea406c398763bfd3e264/.env.example",
+      "line_number": 32,
+      "line_preview": "POSTGRES_PASSWORD=mlops123",
+      "key_type": "postgres_password",
+      "description": "Postgres Password",
+      "severity": "high",
+      "matched_pattern": "********",
+      "timestamp": "2026-04-30T06:18:17.068515"
+    },
     {
       "service": "postgres",
       "file": "env.local",
@@ -13,8 +26,8 @@
       "key_type": "postgres_password",
       "description": "Postgres Password",
       "severity": "high",
-      "matched_pattern": "npg_********IX6P",
-      "timestamp": "2026-04-29T06:14:12.006723"
+      "matched_pattern": "POST**************************IX6P",
+      "timestamp": "2026-04-30T06:18:44.141429"
     }
   ]
 }

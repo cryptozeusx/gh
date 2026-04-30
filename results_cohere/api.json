@@ -1,6 +1,6 @@
 {
   "service": "api",
-  "scan_timestamp": "2026-04-29T06:14:33.294544",
+  "scan_timestamp": "2026-04-30T06:19:05.603633",
   "finding_count": 7,
   "findings": [
     {
@@ -14,46 +14,7 @@
       "description": "Api Password",
       "severity": "high",
       "matched_pattern": "Deng***7258",
-      "timestamp": "2026-04-29T06:13:44.602098"
-    },
-    {
-      "service": "api",
-      "file": ".env",
-      "repository": "markchou1205-uch/SiteMate",
-      "url": "https://github.com/markchou1205-uch/SiteMate/blob/e5fdc5803252f447684b9969886b576f3bc1bc0d/.env",
-      "line_number": 8,
-      "line_preview": "NEXT_PUBLIC_PDF_CO_API_KEY=markchou1205@yahoo.com.tw_o1kCLzKREjL0aKIBeiWThQF2FGZQCHqzhi0DF8bkyNO2mknRqOJwIVAAaaJ1Hhk4",
-      "key_type": "api_key",
-      "description": "Api Key",
-      "severity": "medium",
-      "matched_pattern": "API_******************************************************************************************Hhk4",
-      "timestamp": "2026-04-29T06:13:45.279860"
-    },
-    {
-      "service": "api",
-      "file": "docs/getting-started/claudeDL/env.vm.example",
-      "repository": "rzepeda/ragTools",
-      "url": "https://github.com/rzepeda/ragTools/blob/e70eb327bb487a6f8e639ec8376e5805b8f1da79/docs/getting-started/claudeDL/env.vm.example",
-      "line_number": 41,
-      "line_preview": "OPENAI_API_KEY=lm-studio  # Any value works with LM Studio",
-      "key_type": "api_key",
-      "description": "Api Key",
-      "severity": "medium",
-      "matched_pattern": "API_*********udio",
-      "timestamp": "2026-04-29T06:13:53.662508"
-    },
-    {
-      "service": "api",
-      "file": ".env.production.example",
-      "repository": "Prometheus-Automation/store",
-      "url": "https://github.com/Prometheus-Automation/store/blob/bd2e0d4ef72686cec7961c165f39b0644f5de515/.env.production.example",
-      "line_number": 40,
-      "line_preview": "SENDGRID_API_KEY=SG.your-sendgrid-api-key",
-      "key_type": "api_key",
-      "description": "Api Key",
-      "severity": "medium",
-      "matched_pattern": "API_************************-key",
-      "timestamp": "2026-04-29T06:13:55.406564"
+      "timestamp": "2026-04-30T06:17:58.505345"
     },
     {
       "service": "api",
@@ -66,7 +27,46 @@
       "description": "Api Key",
       "severity": "medium",
       "matched_pattern": "API_********box-",
-      "timestamp": "2026-04-29T06:14:03.202053"
+      "timestamp": "2026-04-30T06:18:00.816669"
+    },
+    {
+      "service": "api",
+      "file": "docs/getting-started/claudeDL/env.vm.example",
+      "repository": "rzepeda/ragTools",
+      "url": "https://github.com/rzepeda/ragTools/blob/e70eb327bb487a6f8e639ec8376e5805b8f1da79/docs/getting-started/claudeDL/env.vm.example",
+      "line_number": 41,
+      "line_preview": "OPENAI_API_KEY=lm-studio  # Any value works with LM Studio",
+      "key_type": "api_key",
+      "description": "Api Key",
+      "severity": "medium",
+      "matched_pattern": "API_*********udio",
+      "timestamp": "2026-04-30T06:18:14.281414"
+    },
+    {
+      "service": "api",
+      "file": ".env.prod.example",
+      "repository": "weboloper/bp-tenant",
+      "url": "https://github.com/weboloper/bp-tenant/blob/a665177fe1a10f16d18a54f80182d75bc992b603/.env.prod.example",
+      "line_number": 62,
+      "line_preview": "SENDGRID_API_KEY=SG.your_production_api_key",
+      "key_type": "api_key",
+      "description": "Api Key",
+      "severity": "medium",
+      "matched_pattern": "API_**************************_key",
+      "timestamp": "2026-04-30T06:18:30.252440"
+    },
+    {
+      "service": "api",
+      "file": "env.production.example",
+      "repository": "TahasCreations/tdc-products-website",
+      "url": "https://github.com/TahasCreations/tdc-products-website/blob/542dacf23e653e5c5f36001522494e1aff58ab7d/env.production.example",
+      "line_number": 21,
+      "line_preview": "SENDGRID_API_KEY=\"SG.your_sendgrid_api_key\"",
+      "key_type": "api_key",
+      "description": "Api Key",
+      "severity": "medium",
+      "matched_pattern": "API_**************************key\"",
+      "timestamp": "2026-04-30T06:18:37.069306"
     },
     {
       "service": "api",
@@ -79,20 +79,20 @@
       "description": "Api Secret",
       "severity": "high",
       "matched_pattern": "API_*****************************************************YNze",
-      "timestamp": "2026-04-29T06:14:12.006408"
+      "timestamp": "2026-04-30T06:18:44.142078"
     },
     {
       "service": "api",
       "file": ".env.local",
-      "repository": "Orkestaia/orkesta-os",
-      "url": "https://github.com/Orkestaia/orkesta-os/blob/df0130fd2403feb2ce5ae64ba4754a5e51310f08/.env.local",
-      "line_number": 5,
-      "line_preview": "PDF_CO_API_KEY=aitor@orkestaia.com_BLdQIZxQhU6wDG5eelBdpZI7km6dAqqUpNy5RRfpWchDoX7dqY1MKsOzsru0YSui",
+      "repository": "Rady119/pdfsir-tools",
+      "url": "https://github.com/Rady119/pdfsir-tools/blob/94a64711d0a14d90ea5c0cceab8ff9a53b42005f/.env.local",
+      "line_number": 1,
+      "line_preview": "PDF_CO_API_KEY=z2009@yahoo.com_BAdeT1HQWUk5C7jX0DnmDA9I0u7ATkdqazXvUJqwLrcF9q0DmUMmYQ8FaCDIBr9H",
       "key_type": "api_key",
       "description": "Api Key",
       "severity": "medium",
-      "matched_pattern": "API_************************************************************************************YSui",
-      "timestamp": "2026-04-29T06:14:17.982113"
+      "matched_pattern": "API_********************************************************************************Br9H",
+      "timestamp": "2026-04-30T06:18:49.932344"
     }
   ]
 }

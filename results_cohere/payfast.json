@@ -1,8 +1,21 @@
 {
   "service": "payfast",
-  "scan_timestamp": "2026-04-29T06:14:33.307721",
-  "finding_count": 2,
+  "scan_timestamp": "2026-04-30T06:19:05.612252",
+  "finding_count": 3,
   "findings": [
+    {
+      "service": "payfast",
+      "file": ".envv",
+      "repository": "mehedi8gb/emed-stable-4.8",
+      "url": "https://github.com/mehedi8gb/emed-stable-4.8/blob/f0fd05538ad4ee7567f9ef8b327e14ed07dda66d/.envv",
+      "line_number": 110,
+      "line_preview": "PAYFAST_MERCHANT_KEY=\"m0sfp3xkxzqlm\"",
+      "key_type": "payfast_merchant_key",
+      "description": "Payfast Merchant Key",
+      "severity": "medium",
+      "matched_pattern": "m0sf*****zqlm",
+      "timestamp": "2026-04-30T06:18:01.560687"
+    },
     {
       "service": "payfast",
       "file": ".env.back",
@@ -13,8 +26,8 @@
       "key_type": "payfast_merchant_key",
       "description": "Payfast Merchant Key",
       "severity": "medium",
-      "matched_pattern": "m0sf*****zqlm",
-      "timestamp": "2026-04-29T06:13:48.600875"
+      "matched_pattern": "PAYF****************************qlm\"",
+      "timestamp": "2026-04-30T06:18:05.464751"
     },
     {
       "service": "payfast",
@@ -27,7 +40,7 @@
       "description": "Payfast Merchant Key",
       "severity": "medium",
       "matched_pattern": "PAYF****************************qlm\"",
-      "timestamp": "2026-04-29T06:14:03.734073"
+      "timestamp": "2026-04-30T06:18:30.653498"
     }
   ]
 }

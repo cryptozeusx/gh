@@ -1,33 +1,20 @@
 {
   "service": "supabase",
-  "scan_timestamp": "2026-04-29T06:14:33.312429",
-  "finding_count": 5,
+  "scan_timestamp": "2026-04-30T06:19:05.614727",
+  "finding_count": 3,
   "findings": [
     {
       "service": "supabase",
-      "file": "backend/.env.example",
-      "repository": "Anubhavjaiswal21/todo-summary-assistant",
-      "url": "https://github.com/Anubhavjaiswal21/todo-summary-assistant/blob/b30a5a09fd58a3340a5f8406d62751821c4dee7b/backend/.env.example",
-      "line_number": 2,
-      "line_preview": "SUPABASE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVsY2Z5Y2doaWdhZXp0b2x5emZuIiwicm9sZS",
-      "key_type": "supabase_key",
-      "description": "Supabase Key",
+      "file": ".env.local",
+      "repository": "Orkestaia/orkesta-os",
+      "url": "https://github.com/Orkestaia/orkesta-os/blob/df0130fd2403feb2ce5ae64ba4754a5e51310f08/.env.local",
+      "line_number": 3,
+      "line_preview": "SUPABASE_SERVICE_ROLE_KEY=sb_secret_Y_qh9ha4w8y5_Osj7j6C3g_FlWoc8Mx",
+      "key_type": "supabase_service_role_key",
+      "description": "Supabase Service Role Key",
       "severity": "medium",
-      "matched_pattern": "eyJh********************************************************************************************************************************************************************************************************4isA",
-      "timestamp": "2026-04-29T06:14:06.286238"
-    },
-    {
-      "service": "supabase",
-      "file": "backend-render/.env.example",
-      "repository": "dvirdiei/shira",
-      "url": "https://github.com/dvirdiei/shira/blob/7b9ee72f3e7f385a0eb70dcd4db6efee9dbbc942/backend-render/.env.example",
-      "line_number": 7,
-      "line_preview": "SUPABASE_SERVICE_KEY=eyJhbGciOiJIUzI1NiIsI...",
-      "key_type": "supabase_service_key",
-      "description": "Supabase Service Key",
-      "severity": "medium",
-      "matched_pattern": "eyJh****************I...",
-      "timestamp": "2026-04-29T06:14:06.939868"
+      "matched_pattern": "sb_s*********************************c8Mx",
+      "timestamp": "2026-04-30T06:17:54.569611"
     },
     {
       "service": "supabase",
@@ -39,21 +26,8 @@
       "key_type": "supabase_service_role_key",
       "description": "Supabase Service Role Key",
       "severity": "medium",
-      "matched_pattern": "eyJh*******************************************************************************************************************************************************************************************************************_bsc",
-      "timestamp": "2026-04-29T06:14:13.357313"
-    },
-    {
-      "service": "supabase",
-      "file": ".env.local",
-      "repository": "Orkestaia/orkesta-os",
-      "url": "https://github.com/Orkestaia/orkesta-os/blob/df0130fd2403feb2ce5ae64ba4754a5e51310f08/.env.local",
-      "line_number": 3,
-      "line_preview": "SUPABASE_SERVICE_ROLE_KEY=sb_secret_Y_qh9ha4w8y5_Osj7j6C3g_FlWoc8Mx",
-      "key_type": "supabase_service_role_key",
-      "description": "Supabase Service Role Key",
-      "severity": "medium",
-      "matched_pattern": "SUPA***********************************************************c8Mx",
-      "timestamp": "2026-04-29T06:14:17.981959"
+      "matched_pattern": "SUPA*********************************************************************************************************************************************************************************************************************************************_bsc",
+      "timestamp": "2026-04-30T06:18:46.774791"
     },
     {
       "service": "supabase",
@@ -66,7 +40,7 @@
       "description": "Supabase Service Role Key",
       "severity": "medium",
       "matched_pattern": "SUPA*********************************************************************************************************************************************************************************************************************************************itoI",
-      "timestamp": "2026-04-29T06:14:18.361328"
+      "timestamp": "2026-04-30T06:18:50.454836"
     }
   ]
 }

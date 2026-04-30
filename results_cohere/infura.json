@@ -1,6 +1,6 @@
 {
   "service": "infura",
-  "scan_timestamp": "2026-04-29T06:14:33.303380",
+  "scan_timestamp": "2026-04-30T06:19:05.609923",
   "finding_count": 2,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Infura Api Key",
       "severity": "medium",
       "matched_pattern": "INFU***********************************************************************************************************************************************************************************************nE+\"",
-      "timestamp": "2026-04-29T06:13:43.875125"
+      "timestamp": "2026-04-30T06:17:56.891823"
     },
     {
       "service": "infura",
@@ -27,7 +27,7 @@
       "description": "Infura Api Key",
       "severity": "medium",
       "matched_pattern": "INFU****************************UHcF",
-      "timestamp": "2026-04-29T06:13:44.361496"
+      "timestamp": "2026-04-30T06:17:57.768130"
     }
   ]
 }

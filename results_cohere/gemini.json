@@ -1,20 +1,20 @@
 {
   "service": "gemini",
-  "scan_timestamp": "2026-04-29T06:14:33.299957",
+  "scan_timestamp": "2026-04-30T06:19:05.607278",
   "finding_count": 4,
   "findings": [
     {
       "service": "gemini",
       "file": ".env",
-      "repository": "markchou1205-uch/SiteMate",
-      "url": "https://github.com/markchou1205-uch/SiteMate/blob/e5fdc5803252f447684b9969886b576f3bc1bc0d/.env",
-      "line_number": 1,
-      "line_preview": "GEMINI_API_KEY=AIzaSyDNVf6aTo4u6mibNkSXDEi2fvX0yxso_vI",
+      "repository": "surya140104/Flood_Risk_140104",
+      "url": "https://github.com/surya140104/Flood_Risk_140104/blob/7e5ce762a7198a7b9fd701c6942d114bd3fe04b2/.env",
+      "line_number": 19,
+      "line_preview": "GEMINI_API_KEY=AIzaSyAvcHxOwx6rO8rIL-a2LIXCv6EhyAYC2ao",
       "key_type": "gemini_api_key",
       "description": "Gemini Api Key",
       "severity": "medium",
-      "matched_pattern": "GEMI**********************************************o_vI",
-      "timestamp": "2026-04-29T06:13:45.279585"
+      "matched_pattern": "GEMI**********************************************C2ao",
+      "timestamp": "2026-04-30T06:17:58.685842"
     },
     {
       "service": "gemini",
@@ -27,7 +27,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************9_ag",
-      "timestamp": "2026-04-29T06:14:11.453350"
+      "timestamp": "2026-04-30T06:18:43.439629"
     },
     {
       "service": "gemini",
@@ -40,7 +40,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************inns",
-      "timestamp": "2026-04-29T06:14:12.006045"
+      "timestamp": "2026-04-30T06:18:44.141853"
     },
     {
       "service": "gemini",
@@ -53,7 +53,7 @@
       "description": "Gemini Api Key",
       "severity": "medium",
       "matched_pattern": "GEMI**********************************************Dsdg",
-      "timestamp": "2026-04-29T06:14:13.261022"
+      "timestamp": "2026-04-30T06:18:46.591242"
     }
   ]
 }

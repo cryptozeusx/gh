@@ -1,7 +1,7 @@
 {
   "service": "github",
-  "scan_timestamp": "2026-04-29T06:14:33.302427",
-  "finding_count": 2,
+  "scan_timestamp": "2026-04-30T06:19:05.609302",
+  "finding_count": 3,
   "findings": [
     {
       "service": "github",
@@ -14,7 +14,20 @@
       "description": "Github Token",
       "severity": "medium",
       "matched_pattern": "git@*****************************************.git",
-      "timestamp": "2026-04-29T06:13:49.872132"
+      "timestamp": "2026-04-30T06:18:07.818000"
+    },
+    {
+      "service": "github",
+      "file": ".env.example",
+      "repository": "stevenfazzio/semantic-github-map",
+      "url": "https://github.com/stevenfazzio/semantic-github-map/blob/0d302c88bfe5562b2631e81f73bd3e328935a23f/.env.example",
+      "line_number": 2,
+      "line_preview": "GITHUB_TOKEN=           # GitHub personal access token (for GraphQL API)",
+      "key_type": "github_token",
+      "description": "Github Token",
+      "severity": "medium",
+      "matched_pattern": "# Gi****************************************API)",
+      "timestamp": "2026-04-30T06:18:37.403414"
     },
     {
       "service": "github",
@@ -27,7 +40,7 @@
       "description": "Github Webhook Secret",
       "severity": "high",
       "matched_pattern": "# (L******************ble)",
-      "timestamp": "2026-04-29T06:14:12.168113"
+      "timestamp": "2026-04-30T06:18:44.355821"
     }
   ]
 }

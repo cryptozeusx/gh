@@ -1,7 +1,7 @@
 {
   "service": "anthropic",
-  "scan_timestamp": "2026-04-29T06:14:33.294371",
-  "finding_count": 4,
+  "scan_timestamp": "2026-04-30T06:19:05.603436",
+  "finding_count": 6,
   "findings": [
     {
       "service": "anthropic",
@@ -14,7 +14,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "# Re****************************-...",
-      "timestamp": "2026-04-29T06:13:35.739007"
+      "timestamp": "2026-04-30T06:17:43.350697"
     },
     {
       "service": "anthropic",
@@ -27,7 +27,20 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************cwAA",
-      "timestamp": "2026-04-29T06:13:45.116513"
+      "timestamp": "2026-04-30T06:17:59.544490"
+    },
+    {
+      "service": "anthropic",
+      "file": ".env.example",
+      "repository": "stevenfazzio/huggingface-dataset-map",
+      "url": "https://github.com/stevenfazzio/huggingface-dataset-map/blob/3c9e837a3915d127a8957133132ee397571ceb30/.env.example",
+      "line_number": 4,
+      "line_preview": "ANTHROPIC_API_KEY=      # Anthropic API key (Toponymy topic naming via Claude Sonnet)",
+      "key_type": "anthropic_api_key",
+      "description": "Anthropic Api Key",
+      "severity": "medium",
+      "matched_pattern": "# An*****************************************************net)",
+      "timestamp": "2026-04-30T06:18:31.797931"
     },
     {
       "service": "anthropic",
@@ -40,7 +53,20 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "# fo*******************ude)",
-      "timestamp": "2026-04-29T06:14:04.943513"
+      "timestamp": "2026-04-30T06:18:31.953623"
+    },
+    {
+      "service": "anthropic",
+      "file": ".env.example",
+      "repository": "stevenfazzio/semantic-github-map",
+      "url": "https://github.com/stevenfazzio/semantic-github-map/blob/0d302c88bfe5562b2631e81f73bd3e328935a23f/.env.example",
+      "line_number": 4,
+      "line_preview": "ANTHROPIC_API_KEY=      # Anthropic API key (README summarization + topic naming)",
+      "key_type": "anthropic_api_key",
+      "description": "Anthropic Api Key",
+      "severity": "medium",
+      "matched_pattern": "# An*************************************************ing)",
+      "timestamp": "2026-04-30T06:18:37.403607"
     },
     {
       "service": "anthropic",
@@ -53,7 +79,7 @@
       "description": "Anthropic Api Key",
       "severity": "medium",
       "matched_pattern": "ANTH**********************************************************************************************************************DgAA",
-      "timestamp": "2026-04-29T06:14:13.260646"
+      "timestamp": "2026-04-30T06:18:46.591015"
     }
   ]
 }

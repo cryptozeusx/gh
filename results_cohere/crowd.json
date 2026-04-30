@@ -1,6 +1,6 @@
 {
   "service": "crowd",
-  "scan_timestamp": "2026-04-29T06:14:33.297192",
+  "scan_timestamp": "2026-04-30T06:19:05.605456",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Crowd Segment Write Key",
       "severity": "medium",
       "matched_pattern": "TdX3************************Piyl",
-      "timestamp": "2026-04-29T06:14:11.328009"
+      "timestamp": "2026-04-30T06:18:43.286128"
     }
   ]
 }

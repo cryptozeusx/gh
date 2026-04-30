@@ -1,7 +1,7 @@
 {
   "service": "huggingface",
-  "scan_timestamp": "2026-04-29T06:14:33.303240",
-  "finding_count": 2,
+  "scan_timestamp": "2026-04-30T06:19:05.609849",
+  "finding_count": 3,
   "findings": [
     {
       "service": "huggingface",
@@ -14,7 +14,20 @@
       "description": "Huggingface Api Token",
       "severity": "medium",
       "matched_pattern": "hf_g*****************************xfcH",
-      "timestamp": "2026-04-29T06:14:12.006847"
+      "timestamp": "2026-04-30T06:18:44.142387"
+    },
+    {
+      "service": "huggingface",
+      "file": ".env.local",
+      "repository": "sudanva21/Career-Advisor-SIH",
+      "url": "https://github.com/sudanva21/Career-Advisor-SIH/blob/36d5272b7d80719b8c19696bbb6500b652ee9b14/.env.local",
+      "line_number": 38,
+      "line_preview": "HUGGINGFACE_API_KEY=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",
+      "key_type": "huggingface_api_key",
+      "description": "Huggingface Api Key",
+      "severity": "medium",
+      "matched_pattern": "HUGG*************************************************AmJS",
+      "timestamp": "2026-04-30T06:18:46.774889"
     },
     {
       "service": "huggingface",
@@ -27,7 +40,7 @@
       "description": "Huggingface Api Token",
       "severity": "medium",
       "matched_pattern": "HUGG****************************************************JfKA",
-      "timestamp": "2026-04-29T06:14:13.479996"
+      "timestamp": "2026-04-30T06:18:46.957853"
     }
   ]
 }

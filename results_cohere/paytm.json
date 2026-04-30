@@ -1,6 +1,6 @@
 {
   "service": "paytm",
-  "scan_timestamp": "2026-04-29T06:14:33.308136",
+  "scan_timestamp": "2026-04-30T06:19:05.612457",
   "finding_count": 1,
   "findings": [
     {
@@ -14,7 +14,7 @@
       "description": "Paytm Merchant Key",
       "severity": "medium",
       "matched_pattern": "g&Rh********upab",
-      "timestamp": "2026-04-29T06:13:48.600827"
+      "timestamp": "2026-04-30T06:18:05.465104"
     }
   ]
 }
