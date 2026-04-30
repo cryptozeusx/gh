@@ -1,18 +1,13 @@
 {
-  "checked_at": "2026-04-29T06:25:06.486201",
+  "checked_at": "2026-04-30T06:34:41.648631",
   "total_keys": 85,
-  "live_keys": 61,
+  "live_keys": 47,
   "results": [
     {
       "key_redacted": "CHnhlk****mU2X",
       "repository": "tasneem-elhady/Legal-RAG",
       "url": "https://github.com/tasneem-elhady/Legal-RAG/blob/f1523ee5beb9a1550b41e8bcd987505af43b374d/docker/env/.env.app",
-      "organization_id": "7787e0bf-3be9-4552-9556-9bbc5fe7a429",
-      "owner_id": "1709530b-9639-4479-b275-f40a92e09914",
-      "valid": true,
-      "plan": "Trial",
-      "limit": "40",
-      "remaining": "39"
+      "error": "Failed to perform, curl: (28) Operation timed out after 15002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     {
       "key_redacted": "s6PbfZ****laRO",
@@ -73,12 +68,7 @@
       "key_redacted": "i1AHt1****xcUl",
       "repository": "Nono140503/FinLit-GPT",
       "url": "https://github.com/Nono140503/FinLit-GPT/blob/0f2a1f487fd53b7cd81348e866abda56599cb8d2/finlit-gpt/.env.backup",
-      "organization_id": "06d9789a-a502-4963-bedb-efc0a7a7e28d",
-      "owner_id": "7b45b6e1-3858-49be-9fd8-20930131c736",
-      "valid": true,
-      "plan": "Trial",
-      "limit": "40",
-      "remaining": "39"
+      "error": "Failed to perform, curl: (28) Operation timed out after 15002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     {
       "key_redacted": "4Q5uYn****G84s",
@@ -186,23 +176,13 @@
       "key_redacted": "6m4IZ5****AnmU",
       "repository": "PathfinderFederalSolutions/AgentForge",
       "url": "https://github.com/PathfinderFederalSolutions/AgentForge/blob/312de179728e91e461708b7f48f2d3da8dc60232/.env",
-      "organization_id": "2ada9f91-24a5-4672-baf1-135a0587ec23",
-      "owner_id": "87812757-c235-4215-bdcd-1b54e977fbde",
-      "valid": true,
-      "plan": "Trial",
-      "limit": "40",
-      "remaining": "39"
+      "error": "Failed to perform, curl: (28) Operation timed out after 15002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     {
       "key_redacted": "0G2cHQ****78ll",
       "repository": "Deepanshu12344/chat-summarization-API",
       "url": "https://github.com/Deepanshu12344/chat-summarization-API/blob/5e5ace359ac71a41803305173dcdacf0136f88f0/.env",
-      "organization_id": "31b3d3c3-0b51-46de-881d-6a702daee44f",
-      "owner_id": "986eab80-bffa-4ab7-9c92-80c6aea830e5",
-      "valid": true,
-      "plan": "Trial",
-      "limit": "40",
-      "remaining": "39"
+      "error": "Failed to perform, curl: (28) Operation timed out after 15001 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     {
       "key_redacted": "tw_o1k****bkyN",
@@ -220,7 +200,7 @@
       "plan": "Trial",
       "limit": "40",
       "remaining": "39",
-      "chat_error": "HTTP 429: {\"id\":\"1fdec765-7b82-45dd-9bf7-22e5bc7e4e67\",\"message\":\"You are using a Trial key, which is limited "
+      "chat_error": "HTTP 429: {\"id\":\"b4329ff1-10e0-46ef-9233-fb3902f6be04\",\"message\":\"You are using a Trial key, which is limited "
     },
     {
       "key_redacted": "V8mQhF****9a5d",
@@ -337,12 +317,7 @@
       "key_redacted": "bAVVqL****Sg3a",
       "repository": "bensalemboualem/Saas-iFactory-Algeria",
       "url": "https://github.com/bensalemboualem/Saas-iFactory-Algeria/blob/d8a455ea4f6a40455e4771ba0121cf31516f7bea/iafactory-core-apps/video-studio/frontend/.env.local",
-      "organization_id": "a869694e-0c32-486d-b460-24f667ea5c45",
-      "owner_id": "57eb5f5e-25bc-4887-8d9b-d04d157b40c8",
-      "valid": true,
-      "plan": "Production",
-      "limit": "?",
-      "remaining": "?"
+      "error": "Failed to perform, curl: (28) Operation timed out after 15002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     {
       "key_redacted": "VT0ISo****Zj9Q",
@@ -485,7 +460,7 @@
       "plan": "Production",
       "limit": "?",
       "remaining": "?",
-      "chat_error": "HTTP 402: {\"id\":\"74d9b092-23c9-4c65-ab9b-e5a89c42f0f9\",\"message\":\"Please add or update your payment method at "
+      "chat_error": "HTTP 402: {\"id\":\"2f5bd715-fc36-4659-b6b6-103a710dd7e7\",\"message\":\"Please add or update your payment method at "
     },
     {
       "key_redacted": "RMsr7n****WdRm",
@@ -535,12 +510,7 @@
       "key_redacted": "3WV1Wi****eBUW",
       "repository": "rishab-d12/jarviss",
       "url": "https://github.com/rishab-d12/jarviss/blob/9b71545e2c5acbe9a8103f12636e74f9d3f63aa5/.env",
-      "organization_id": "ed40e990-6751-4423-a11f-4f4f0ecdae08",
-      "owner_id": "128f2c02-6433-415a-8882-047c8b27dc85",
-      "valid": true,
-      "plan": "Trial",
-      "limit": "40",
-      "remaining": "39"
+      "error": "Failed to perform, curl: (28) Operation timed out after 15002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     {
       "key_redacted": "lSOcSW****LYId",
@@ -596,13 +566,7 @@
       "key_redacted": "7E7dBl****LXDv",
       "repository": "Viswa-Sai-Reddy/Hirewise",
       "url": "https://github.com/Viswa-Sai-Reddy/Hirewise/blob/b55186e1fb6f76bf21ba6aa00613817ab61f1bb7/backend/.env",
-      "organization_id": "292c4f86-840a-44d7-9486-59906d2d2d5b",
-      "owner_id": "af1f3f61-f596-4b3c-8cc4-803805e33a80",
-      "valid": true,
-      "plan": "Production",
-      "limit": "?",
-      "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"44569729-f68a-473e-ac4a-32171b9e6754\",\"message\":\"Please wait and try again later\"}"
+      "error": "Failed to perform, curl: (28) Operation timed out after 15002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     {
       "key_redacted": "pczcIA****uJdA",
@@ -611,22 +575,15 @@
       "organization_id": "eb3cbb7b-92ab-4be6-bbbf-807d25a62bd0",
       "owner_id": "880ce995-7bff-43c2-b3cd-74e35df33afd",
       "valid": true,
-      "plan": "Production",
-      "limit": "?",
-      "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"fb9fd399-1671-4ea9-8b2d-a923696b804c\",\"message\":\"Please wait and try again later\"}"
+      "plan": "Trial",
+      "limit": "40",
+      "remaining": "39"
     },
     {
       "key_redacted": "UHHM6t****SHSx",
       "repository": "iyer131/GIFt",
       "url": "https://github.com/iyer131/GIFt/blob/a840026822dd8ec28c5c164e01a05fe96445f67c/gif.env",
-      "organization_id": "7e4fedb8-83bf-4dbf-9ce6-661de132ae40",
-      "owner_id": "a3ad6af6-8990-4ed7-94ee-0d351e642fd9",
-      "valid": true,
-      "plan": "Production",
-      "limit": "?",
-      "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"3cb12bd2-78b8-4d0d-be77-5513c45d573d\",\"message\":\"Please wait and try again later\"}"
+      "error": "Failed to perform, curl: (28) Operation timed out after 15002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     {
       "key_redacted": "7ZT0rk****HDgT",
@@ -635,22 +592,15 @@
       "organization_id": "05fbd65d-421e-489e-a882-926d4b4c5236",
       "owner_id": "3eba5a48-4284-4f1e-aec6-8a220180bf90",
       "valid": true,
-      "plan": "Production",
-      "limit": "?",
-      "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"16d03bfa-0bcd-4995-bd43-962197abae53\",\"message\":\"Please wait and try again later\"}"
+      "plan": "Trial",
+      "limit": "40",
+      "remaining": "39"
     },
     {
       "key_redacted": "jCh2tn****va0w",
       "repository": "Grkrish2002/llm-apps-myversion",
       "url": "https://github.com/Grkrish2002/llm-apps-myversion/blob/58807aa05d39f032a614e99dbf414619c3fa199e/ai_agent_tutorials/multimodal_ai_agent/.env",
-      "organization_id": "ed35cf70-c5c8-44af-8719-290b708999a9",
-      "owner_id": "c5f217e4-53eb-4fe9-bb66-c3eeac706d36",
-      "valid": true,
-      "plan": "Production",
-      "limit": "?",
-      "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"82e6ce3f-a083-415b-b55a-6270b7ef8dc1\",\"message\":\"Please wait and try again later\"}"
+      "error": "Failed to perform, curl: (28) Operation timed out after 15002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     {
       "key_redacted": "ImZLll****y3P9",
@@ -659,10 +609,9 @@
       "organization_id": "a8fa60c0-4fec-45fb-a114-4412acfbc6eb",
       "owner_id": "d48cb532-4b26-4a49-b3ec-a4983eadf63a",
       "valid": true,
-      "plan": "Production",
-      "limit": "?",
-      "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"7b7b9878-d098-4f4b-8918-9b383425b88c\",\"message\":\"Please wait and try again later\"}"
+      "plan": "Trial",
+      "limit": "40",
+      "remaining": "39"
     },
     {
       "key_redacted": "vDKYv8****zQy6",
@@ -671,22 +620,15 @@
       "organization_id": "da4f3807-9a85-49a5-bf6d-92de235f56bf",
       "owner_id": "f2683853-1529-4491-aa8d-45bb2e8c0c1a",
       "valid": true,
-      "plan": "Production",
-      "limit": "?",
-      "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"81fc43c7-ad80-45b8-ac66-e27e09719eee\",\"message\":\"Please wait and try again later\"}"
+      "plan": "Trial",
+      "limit": "40",
+      "remaining": "39"
     },
     {
       "key_redacted": "gOu0qd****YMwR",
       "repository": "amanmanjhi/Edemy-major-project-",
       "url": "https://github.com/amanmanjhi/Edemy-major-project-/blob/fa9e4dabc3696843edf5d7623b69dc52ad7624ab/edumaster/.env",
-      "organization_id": "2cd0339b-968a-4136-b936-3c0be6e8b703",
-      "owner_id": "d9ab6963-0feb-4c4a-8551-a0ad21c92eb3",
-      "valid": true,
-      "plan": "Production",
-      "limit": "?",
-      "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"639a084c-41a2-4aa5-afe7-b5b98fd93b50\",\"message\":\"Please wait and try again later\"}"
+      "error": "Failed to perform, curl: (28) Operation timed out after 15002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     {
       "key_redacted": "81c416****5332",
@@ -713,10 +655,9 @@
       "organization_id": "a739fe97-b8ae-4fae-b11d-bdf99a774518",
       "owner_id": "afff063b-0854-49d8-b774-ae2218059fab",
       "valid": true,
-      "plan": "Production",
-      "limit": "?",
-      "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"70b3f471-d125-4b84-8369-05d025d28c3a\",\"message\":\"Please wait and try again later\"}"
+      "plan": "Trial",
+      "limit": "40",
+      "remaining": "39"
     },
     {
       "key_redacted": "7AQiaf****7m2Z",
@@ -731,10 +672,9 @@
       "organization_id": "88da5bb6-4ebc-48fc-bf06-d02863427dc1",
       "owner_id": "d5a17355-a0a8-4b7a-b293-35b6a620cf8f",
       "valid": true,
-      "plan": "Production",
-      "limit": "?",
-      "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"3ab17d0a-e326-46d4-bbef-c0fa44e272cf\",\"message\":\"Please wait and try again later\"}"
+      "plan": "Trial",
+      "limit": "40",
+      "remaining": "39"
     },
     {
       "key_redacted": "SJ6RvY****1md4",
@@ -743,22 +683,15 @@
       "organization_id": "2e2914b9-fb9e-41ca-9470-c59f84ab5fbf",
       "owner_id": "70c6046d-f168-42cf-82a4-45072aa1babf",
       "valid": true,
-      "plan": "Production",
-      "limit": "?",
-      "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"20080ffc-2da8-47fe-b6bf-3d7febd9fe79\",\"message\":\"Please wait and try again later\"}"
+      "plan": "Trial",
+      "limit": "40",
+      "remaining": "39"
     },
     {
       "key_redacted": "Iqdbur****P0b3",
       "repository": "Kynto-Consulting/Killio-Frontend",
       "url": "https://github.com/Kynto-Consulting/Killio-Frontend/blob/e558490f013cd5fdbf9adcaeb639f13f4bc1de75/.env.local.example",
-      "organization_id": "d18efdcb-459b-47d9-b2b1-aa6be6b765bd",
-      "owner_id": "6402c046-ef2a-407f-800e-13df6aa6c5e7",
-      "valid": true,
-      "plan": "Production",
-      "limit": "?",
-      "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"95ea7a4a-f19a-4107-b34d-1cf0f7e0ba70\",\"message\":\"Please wait and try again later\"}"
+      "error": "Failed to perform, curl: (28) Operation timed out after 15002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     {
       "key_redacted": "sandbo****nzoL",
@@ -773,22 +706,15 @@
       "organization_id": "29bf0568-9ea0-4cfb-a5a5-21c42da61876",
       "owner_id": "7e155347-c424-43c6-8209-878679cd2e06",
       "valid": true,
-      "plan": "Production",
-      "limit": "?",
-      "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"df544d29-c3c5-4ec6-8f51-137d1508aeeb\",\"message\":\"Please wait and try again later\"}"
+      "plan": "Trial",
+      "limit": "40",
+      "remaining": "39"
     },
     {
       "key_redacted": "YRZRjV****6OGz",
       "repository": "myforktiina/sepak-takraw-chatbot",
       "url": "https://github.com/myforktiina/sepak-takraw-chatbot/blob/60a365956c0692c2c4e69c35840193c0f5c35193/.env",
-      "organization_id": "0ad09940-f7bc-4b8d-985e-920663e7d37c",
-      "owner_id": "ef0a0f96-cf2f-408c-bff3-2b9cbd5df0c9",
-      "valid": true,
-      "plan": "Production",
-      "limit": "?",
-      "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"f1afeb68-bba7-45b7-9315-0740a7dd74e4\",\"message\":\"Please wait and try again later\"}"
+      "error": "Failed to perform, curl: (28) Operation timed out after 15001 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     {
       "key_redacted": "eNSZyV****7ux8",
@@ -797,34 +723,21 @@
       "organization_id": "8a6d86b3-ca9c-4bb5-930e-345becb604df",
       "owner_id": "df3e4921-a95e-4446-a5a0-e8ee69203e16",
       "valid": true,
-      "plan": "Production",
-      "limit": "?",
-      "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"0741607f-ab2c-4f8b-8b87-70630f3a4c3c\",\"message\":\"Please wait and try again later\"}"
+      "plan": "Trial",
+      "limit": "40",
+      "remaining": "39"
     },
     {
       "key_redacted": "OL8kzI****bhel",
       "repository": "Moodify-friends/moodify-web-interface",
       "url": "https://github.com/Moodify-friends/moodify-web-interface/blob/11763f45e70d7e2e883cb7e7ed01f18ba2d5b7fd/.env.local.example",
-      "organization_id": "4be49cf4-6641-4569-9d52-5620ac6e1a53",
-      "owner_id": "112572bf-0881-4b20-8484-316767714187",
-      "valid": true,
-      "plan": "Production",
-      "limit": "?",
-      "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"2bdd7834-672e-486d-9a14-1a7ccb979b3b\",\"message\":\"Please wait and try again later\"}"
+      "error": "Failed to perform, curl: (28) Operation timed out after 15001 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     {
       "key_redacted": "baEfuL****zi6v",
       "repository": "alex8616/Phising",
       "url": "https://github.com/alex8616/Phising/blob/f3c2230265cff092a756518082d8e1a2ff60cb45/.env%20copy",
-      "organization_id": "4e8a1810-86fb-416f-8880-15414bbc9b3c",
-      "owner_id": "2df7b581-152f-4ac5-879b-4b0b4f5b4b68",
-      "valid": true,
-      "plan": "Production",
-      "limit": "?",
-      "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"a7f99d4c-e54d-4393-bb55-795e6fb7806f\",\"message\":\"Please wait and try again later\"}"
+      "error": "Failed to perform, curl: (28) Operation timed out after 15002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     {
       "key_redacted": "tmk0g5****nZwF",
@@ -833,10 +746,9 @@
       "organization_id": "5637707c-ad01-445f-a047-c5a57f0bb966",
       "owner_id": "0d25fb44-7aca-42b2-a0e4-33fc060ff9ed",
       "valid": true,
-      "plan": "Production",
-      "limit": "?",
-      "remaining": "?",
-      "chat_error": "HTTP 429: {\"id\":\"d8775ab3-8b1e-43e4-8a30-af00319b95ef\",\"message\":\"Please wait and try again later\"}"
+      "plan": "Trial",
+      "limit": "40",
+      "remaining": "39"
     }
   ]
 }
